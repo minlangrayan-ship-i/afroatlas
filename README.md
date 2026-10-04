@@ -15,6 +15,7 @@ npm run build
 npm run preview
 npm run test:e2e
 npm run check:backend
+npm run check:publication
 ```
 
 Le chemin de base est `/afroatlas/`. Pour Playwright : `npx playwright install chromium`, ou définir `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` vers Edge/Chromium. `PLAYWRIGHT_BASE_URL` permet de tester la publication.
@@ -56,3 +57,5 @@ Voir [DATA_QUALITY.md](docs/DATA_QUALITY.md), [SOURCES.md](docs/SOURCES.md), [CO
 ## Publication
 
 Le workflow GitHub vérifie les pull requests et publie `main` sur Pages. Les fonctions Supabase se déploient séparément. Une consultation documentaire reste possible sans backend. Une version commercialement opérationnelle demande un hébergement adapté ; voir MONETIZATION.md. Les performances de terrain et un audit culturel humain ne sont pas revendiqués comme accomplis.
+
+Le dépôt reste public. Le frontend de production est minifié sans source maps publiques et le workflow vérifie les fichiers publiés. Secrets et opérations privilégiées restent côté serveur ; minifier ne rend pas le code impossible à copier. Voir [SECURITY.md](docs/SECURITY.md) pour les contrôles, la sauvegarde originale et les limites.

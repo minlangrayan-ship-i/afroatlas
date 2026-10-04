@@ -7,5 +7,5 @@ export default defineConfig({
   base: '/afroatlas',
   output: 'static',
   integrations: [react(), sitemap()],
-  vite: { plugins: [tailwind()] },
+  vite: { plugins: [tailwind()], build: { sourcemap: false, minify: true } },
 });

@@ -11,3 +11,10 @@ data/research/photos/
 data/research/*.png
 supabase/.temp/
 supabase/.branches/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+*.bundle

@@ -13,7 +13,8 @@
     "test": "vitest run",
     "import": "node scripts/import/catalogue.mjs && node scripts/import/geography.mjs",
     "test:e2e": "playwright test",
-    "prepare-data": "node scripts/prepare-data.mjs"
+    "prepare-data": "node scripts/prepare-data.mjs",
+    "check:publication": "node scripts/check-publication.mjs"
   },
   "dependencies": {
     "@astrojs/react": "7.0.0",
