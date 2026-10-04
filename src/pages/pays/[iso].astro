@@ -14,8 +14,26 @@ export function getStaticPaths() {
 }
 const { country } = Astro.props;
 const names = catalogue.names.filter((n) => n.countryIds.includes(country.ISO3));
+const contexts = catalogue.contexts.filter((c) => c.countryId === country.ISO3);
+const countryProducts = catalogue.products.filter(
+  (p) => names.some((n) => n.productId === p.id) || contexts.some((c) => c.productId === p.id),
+);
 const regions = geography.regions.filter((r) => r.countryISO3 === country.ISO3);
 const metadata = geography.metadata.find((m) => m.id === `geoboundaries-${country.ISO3}`);
+const regionEntries = [
+  ...names.map((n) => ({
+    regionIds: n.regionIds,
+    label: n.name,
+    url: href(`produits/${catalogue.products.find((p) => p.id === n.productId)!.slug}/`),
+    localContext: n.localContext,
+  })),
+  ...contexts.map((c) => ({
+    regionIds: c.regionIds,
+    label: catalogue.products.find((p) => p.id === c.productId)!.labelFr,
+    url: href(`produits/${catalogue.products.find((p) => p.id === c.productId)!.slug}/`),
+    localContext: c.localContext,
+  })),
+];
 ---
 
 <Layout title={`Explorer ${country.nameFr}`}>
@@ -34,14 +52,24 @@ const metadata = geography.metadata.find((m) => m.id === `geoboundaries-${countr
   </section>
   <section class="container page-body">
     <div class="country-coverage">
-      <strong>{new Set(names.map((n) => n.productId)).size}</strong>
-      <span>produit avec appellation contextualisée dans ce pays</span>
+      <strong>{countryProducts.length}</strong>
+      <span>produits avec appellation ou usage contextualisé dans ce pays</span>
     </div>
     <p class="notice">
-      {names.length
-        ? 'Consultez les sources de chaque appellation.'
+      {countryProducts.length
+        ? 'Consultez les sources et le périmètre local de chaque appellation ou usage. Une attestation locale ne prouve pas un usage dans tout le pays.'
         : 'Aucune appellation nationale documentée pour le moment. Les noms en français, anglais ou dans une autre langue ne sont pas attribués automatiquement à ce pays.'}
     </p>
+    {countryProducts.length > 0 && (
+      <div class="country-strip">
+        {countryProducts.map((p) => (
+          <a href={href(`produits/${p.slug}/`)}>
+            <strong>{p.labelFr}</strong>
+            <span>↗</span>
+          </a>
+        ))}
+      </div>
+    )}
     <a class="button secondary" href={href(`catalogue/?country=${country.ISO3}`)}>
       Filtrer ce contexte dans la bibliothèque ↗
     </a>
@@ -56,7 +84,12 @@ const metadata = geography.metadata.find((m) => m.id === `geoboundaries-${countr
           Millésime représenté : {metadata?.boundaryYear}. Noms conservés depuis le jeu importé ;
           les limites ne prétendent pas représenter l’année actuelle.
         </p>
-        <Regions regions={regions} paths={regionPaths(country.ISO3)} client:load />
+        <Regions
+          regions={regions}
+          paths={regionPaths(country.ISO3)}
+          entries={regionEntries}
+          client:load
+        />
         <div class="geo-credit">
           <p>
             Source :{' '}

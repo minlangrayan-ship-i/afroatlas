@@ -1,8 +1,9 @@
+import { withLocale } from '../lib/locale-react';
 import { useState } from 'react';
 import type { commercial } from '../lib/catalogue';
 import { normalize } from '../lib/search';
 type Reference = (typeof commercial.references)[number];
-export default function References({ references }: { references: Reference[] }) {
+function References({ references }: { references: Reference[] }) {
   const [query, setQuery] = useState('');
   const results = references.filter((r) =>
     normalize(`${r.brand} ${r.tradeName} ${r.barcode}`).includes(normalize(query)),
@@ -59,3 +60,5 @@ export default function References({ references }: { references: Reference[] }) 
     </div>
   );
 }
+
+export default withLocale(References);

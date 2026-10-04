@@ -1,10 +1,12 @@
+import { withLocale } from '../lib/locale-react';
 import { useId, useMemo, useState, type KeyboardEvent } from 'react';
 import { searchProducts, emptyFilters } from '../lib/search';
 import type { CardProduct } from '../lib/catalogue';
 import { href } from '../lib/links';
 import { useClientReady } from '../lib/use-client-ready';
-export default function SearchBox({
-  products,
+import { useCommunityCatalogue } from '../lib/community-catalogue';
+function SearchBox({
+  products: seed,
   initial = '',
   onSearch,
 }: {
@@ -12,6 +14,7 @@ export default function SearchBox({
   initial?: string;
   onSearch?: (query: string) => void;
 }) {
+  const products = useCommunityCatalogue(seed);
   const [value, setValue] = useState(initial),
     [open, setOpen] = useState(false),
     [active, setActive] = useState(-1);
@@ -59,6 +62,9 @@ export default function SearchBox({
           }
         }}
       >
+        {ready && document.documentElement.lang !== 'fr' && (
+          <input type="hidden" name="lang" value={document.documentElement.lang} />
+        )}
         <label className="sr-only" htmlFor={id}>
           Comment appelez-vous ce produit ?
         </label>
@@ -103,9 +109,23 @@ export default function SearchBox({
                 href={href(`produits/${product.slug}/`)}
                 className={active === i ? 'selected' : ''}
               >
-                <img src={href(product.image.smallPath)} alt="" width="44" height="44" />
+                {product.image.role === 'primary' && (
+                  <img src={href(product.image.smallPath)} alt="" width="44" height="44" />
+                )}
                 <span>
-                  {product.labelFr}
+                  <span
+                    data-product-label
+                    data-no-translate
+                    data-fr={product.labelFr}
+                    data-en={product.labelEn || ''}
+                    data-ar={
+                      product.labelAr ||
+                      product.names.find((n) => n.languageCode === 'ar')?.name ||
+                      ''
+                    }
+                  >
+                    {product.labelFr}
+                  </span>
                   <small>{product.scientificName}</small>
                 </span>
                 <span aria-hidden="true">↗</span>
@@ -117,3 +137,5 @@ export default function SearchBox({
     </div>
   );
 }
+
+export default withLocale(SearchBox);

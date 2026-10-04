@@ -1,13 +1,20 @@
-# Vérifications effectuées le 4 octobre 2026
+# Vérifications du 4 octobre 2026
 
-- `npm run check` : 0 erreur, 0 avertissement, 0 hint.
-- `npm test` : 11 tests réussis, recherche exacte/normalisée/approximative, homonymes, combinaisons de filtres, absence de preuve géographique, absence de lien commercial implicite, contributions et stockage local dégradé.
-- `npm run build` : 70 pages statiques générées, dont 40 fiches et 20 pays.
-- `scripts/check-output.mjs` : href/src locaux des 70 pages valides sous `/afroatlas/`.
-- Playwright : 7 parcours réussis dans Edge Chromium installé, sur le build statique. Affichage 390, 768 et 1440 px, pas de débordement horizontal ni erreur bloquante de console sur les types de pages testés. Aucune requête étrangère à l’origine du site pendant la consultation.
-- Parcours : autocomplétion au clavier, photo chargée, zoom et Échap, URL des filtres et retour arrière, candidats « piment » distincts, favoris persistants, comparaison, 20 pays / 5 contextes, sélection de région et rechargement, copie de nom, brouillon puis export JSON sans prétendre un envoi, références séparées et mouvement réduit.
-- Photographies : planche-contact des 46 premières P18 examinée ; six illustrations mises hors publication ; 40 photos conservées avec crédit et licence.
+- `npm run check` : 0 erreur, avertissement ou hint.
+- `npm test` : 20 tests réussis. Recherche exacte/normalisée/approximative, filtres, absence d’attribution géographique par langue, stockage local ; validation des propositions/fichiers, fusion des noms/produits/photos acceptés dans le catalogue, recherche arabe et filtres de contenu accepté.
+- Les tests de base utilisent **PGlite, véritable moteur PostgreSQL**, avec schémas Auth/Storage de test : migration exécutée, propositions/photos privées inaccessibles aux visiteurs, non-propriétaire refusé, édition sans publication, acceptation atomique avec historique, refus sans publication, limitation de fréquence. Cela vérifie le SQL, pas un service Supabase distant.
+- `npm run check:backend` : deux fonctions Edge contrôlées par Deno ; 3 tests réussis sur signatures JPEG/PNG/WebP, rejet d’un SVG renommé, transfert multipart des octets, et rejet d’un corps trop volumineux sans Content-Length.
+- `npm run build` : 87 pages, dont 50 fiches et 23 pays.
+- `node scripts/check-output.mjs` : href/src locaux valides dans les 87 pages, sous `/afroatlas/`.
+- Playwright sur Edge Chromium : **11 parcours réussis**, largeurs 390/768/1440 px, navigation/recherche, clavier, zoom/Échap, URL/retour arrière, favoris/comparaison, régions, copie, références et mouvement réduit.
+- Nouveaux contrôles navigateur : Mali/Burkina Faso/Niger/Nigeria sur carte, pages et formulaire ; Niger/Nigeria distingués dans la recherche ; FR/EN/AR, RTL, champs mixtes, noms arabes et locaux préservés, changement de langue des composants sans erreur d’hydratation ; valeurs canoniques des filtres conservées en arabe/anglais ; liens internes transportant la langue ; curcuma en poudre, crédits et lacunes photo ; contexte de Rabat et limites historiques du Mali ; contact mailto, absence de résultat avec accès contribution, modération désactivée honnêtement sans backend.
+- Photographies : sélection de 32 formes alimentaires/vente, planches-contact examinées ; images de plantes, poissons vivants/spécimens ou espèces incertaines exclues du rôle principal. 18 lacunes affichées. Métadonnées/crédits/licences conservés ; aucune image générée.
+- Consultation sans configuration Supabase : aucune requête API externe ni console bloquante sur les types de pages testés. Aucun traceur ou réseau publicitaire.
 
-Ces contrôles ne constituent pas un audit exhaustif WCAG 2.2 AA ni une validation culturelle des noms. Aucune mesure de terrain LCP/CLS/INP ni aucun score Lighthouse n’est annoncé. Les nommages régionaux, usages alimentaires et rapprochements commerciaux demandent un travail éditorial supplémentaire décrit dans DATA_QUALITY.md.
+## Vérification non réalisable sans accès
 
-Les tests sont rejouables dans `tests/`. L’accès public doit être contrôlé après chaque déploiement, distinctement du build local.
+Le propriétaire a confirmé qu’il n’a pas encore de projet Supabase et a demandé sa préparation. **Aucun envoi durable distant, connexion propriétaire distante, téléversement Supabase ou acceptation distante n’a été testé avec succès.** Le frontend désactive l’envoi. Le guide SUPABASE_SETUP.md précise la création du projet, la migration, le compte propriétaire, les secrets serveur, les variables publiques GitHub et le parcours réseau indispensable après activation.
+
+Les tests ne constituent pas un audit exhaustif WCAG, une validation culturelle humaine ou une mesure des performances de terrain. Les textes documentaires détaillés et les lacunes de noms/photos restent décrits dans DATA_QUALITY.md et CONTENT_BACKLOG.md.
+
+Publication cible : https://minlangrayan-ship-i.github.io/afroatlas/. Contrôler la publication réelle après le workflow ; le succès du build local ne suffit pas.

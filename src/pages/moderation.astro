@@ -1,0 +1,14 @@
+---
+import Layout from '../components/Layout.astro';
+import Moderation from '../components/Moderation';
+---
+
+<Layout title="Modération propriétaire">
+  <section class="container page-intro">
+    <h1>Modération propriétaire</h1>
+    <p>Les propositions reçues restent privées jusqu’à leur validation.</p>
+  </section>
+  <section class="container page-body">
+    <Moderation client:load />
+  </section>
+</Layout>

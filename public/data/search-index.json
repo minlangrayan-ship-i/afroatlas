@@ -25,7 +25,8 @@
     "ባሚያ",
     "quiabo",
     "tambazotse",
-    "tsirandranjaza"
+    "tsirandranjaza",
+    "mloukhia"
   ],
   "product-gingembre": [
     "gingembre",
@@ -50,7 +51,8 @@
     "ዝንጅብል",
     "gengibre",
     "mangarataia",
-    "sakamalaho"
+    "sakamalaho",
+    "skenjbir"
   ],
   "product-curcuma": [
     "curcuma",
@@ -73,7 +75,8 @@
     "acafrao-da-terra",
     "acafrao indiano",
     "acafrao da terra",
-    "tamotamo"
+    "tamotamo",
+    "al-kharkoum"
   ],
   "product-piment-frutescens": [
     "piment (capsicum frutescens)",
@@ -114,7 +117,8 @@
     "ድምብላል",
     "coentro",
     "coentros",
-    "koriana"
+    "koriana",
+    "kasbour"
   ],
   "product-fenugrec": [
     "fenugrec",
@@ -130,7 +134,8 @@
     "بسبسة",
     "ኣብሽ",
     "feno-grego",
-    "alforva"
+    "alforva",
+    "helba"
   ],
   "product-fenouil": [
     "fenouil",
@@ -180,7 +185,9 @@
     "cravo da india",
     "cravinho",
     "cravinho da india",
-    "jirofo"
+    "jirofo",
+    "kronfel",
+    "oud newwar"
   ],
   "product-cardamome": [
     "cardamome verte",
@@ -300,7 +307,8 @@
     "tongolombazaha",
     "tongolonakanga",
     "tongolovazaha",
-    "zoainiao"
+    "zoainiao",
+    "bessela"
   ],
   "product-aubergine": [
     "aubergine",
@@ -703,5 +711,151 @@
     "لاطس",
     "perca-do-nilo",
     "perca do nilo"
+  ],
+  "product-eru": [
+    "eru — feuilles de gnetum",
+    "gnetum africanum",
+    "okok",
+    "koko",
+    "mfumbua",
+    "eru",
+    "okazi",
+    "afang",
+    "wild spinach",
+    "جنتوم أفريقي"
+  ],
+  "product-njansang": [
+    "njansang / akpi — amandes",
+    "ricinodendron heudelotii",
+    "djansang",
+    "njangsa",
+    "okhuen",
+    "munguella",
+    "kishongo",
+    "akpi",
+    "bofeko",
+    "wama",
+    "ndjanssang",
+    "kolou"
+  ],
+  "product-soumbala": [
+    "soumbala — condiment fermente",
+    "parkia biglobosa",
+    "caroubier africain",
+    "mimosa pourpre",
+    "arbre a farine",
+    "arbre a fauve",
+    "nɛrɛ",
+    "soumbala",
+    "netetou"
+  ],
+  "product-baobab": [
+    "baobab — poudre de feuilles",
+    "adansonia digitata",
+    "baobab africain",
+    "baobab",
+    "common baobab",
+    "african baobab",
+    "تبلدي إصبعي",
+    "أدانسونية إصبعية",
+    "تبلدي الإصبعي",
+    "خبز القرود الإصبعي",
+    "صندل احمر",
+    "nsirasun",
+    "sira",
+    "oroupounna"
+  ],
+  "product-safran": [
+    "safran — stigmates seches",
+    "crocus sativus",
+    "saffron crocus",
+    "autumn crocus",
+    "saffron flower",
+    "زعفران مزروع",
+    "كروكو",
+    "زعفران",
+    "رهقان",
+    "جادي",
+    "عبير",
+    "safran de taliouine"
+  ],
+  "product-cumin": [
+    "cumin — graines",
+    "cuminum cyminum",
+    "cumin",
+    "cumin blanc",
+    "cumin de maroc",
+    "faux anis",
+    "cumin plant",
+    "roman caraway",
+    "spice caraway",
+    "roman cumin",
+    "spice cumin",
+    "cheese cumin",
+    "كمون",
+    "الكمون"
+  ],
+  "product-menthe": [
+    "menthe verte — feuilles",
+    "mentha spicata",
+    "menthe nana",
+    "menthe frisee",
+    "menthe nanah",
+    "menthe douce",
+    "menthe verte",
+    "menthe crepue",
+    "nanah",
+    "spearmint",
+    "garden mint",
+    "common mint",
+    "lamb mint j",
+    "mackerel mint",
+    "نعناع مدبب",
+    "النعناع السنبلي",
+    "منتها",
+    "فلية",
+    "فوتنج"
+  ],
+  "product-ndole": [
+    "vernonie — feuilles pour le ndole",
+    "vernonia amygdalina",
+    "vernonie commune",
+    "ndole"
+  ],
+  "product-bissap-feuilles": [
+    "hibiscus — feuilles alimentaires",
+    "hibiscus sabdariffa",
+    "karkade",
+    "roselle",
+    "carcade",
+    "bissap",
+    "ketmie acide",
+    "oseille de guinee",
+    "كركديه",
+    "الكركديه",
+    "bissap-feuille"
+  ],
+  "product-gombo-poudre": [
+    "gombo — poudre de fruits seches",
+    "abelmoschus esculentus",
+    "gombo",
+    "okra",
+    "hisbiscus esculentus",
+    "corne grecque",
+    "hibiscus esculentus",
+    "bahmia",
+    "calou en guyane",
+    "okra plant",
+    "ladyfinger",
+    "gumbo",
+    "ladies' finger",
+    "ocra",
+    "lady's finger",
+    "بامية",
+    "باميا",
+    "بامي",
+    "باميه",
+    "البامية",
+    "gangadjou"
   ]
 }

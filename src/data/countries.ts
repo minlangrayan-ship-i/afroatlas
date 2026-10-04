@@ -9,6 +9,9 @@ export const countries = [
   ['TN', 'TUN', 'Tunisie', 'Afrique du Nord'],
   ['GH', 'GHA', 'Ghana', 'Afrique de l’Ouest'],
   ['NG', 'NGA', 'Nigeria', 'Afrique de l’Ouest'],
+  ['NE', 'NER', 'Niger', 'Afrique de l’Ouest'],
+  ['ML', 'MLI', 'Mali', 'Afrique de l’Ouest'],
+  ['BF', 'BFA', 'Burkina Faso', 'Afrique de l’Ouest'],
   ['KE', 'KEN', 'Kenya', 'Afrique de l’Est'],
   ['TZ', 'TZA', 'Tanzanie', 'Afrique de l’Est'],
   ['UG', 'UGA', 'Ouganda', 'Afrique de l’Est'],
@@ -38,6 +41,8 @@ export const languageNames: Record<string, string> = {
   am: 'Amharique',
   pt: 'Portugais',
   mg: 'Malgache',
+  bm: 'Bambara',
+  'local-und': 'Langue locale non précisée par la source',
 };
 export const categories = [
   { id: 'spices', label: 'Épices & condiments', symbol: '✳' },

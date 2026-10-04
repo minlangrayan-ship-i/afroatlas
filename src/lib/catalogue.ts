@@ -14,5 +14,6 @@ export const cardProducts = products.map((p) => ({
   ...p,
   image: imageFor(p.id),
   names: namesFor(p.id),
+  contexts: catalogue.contexts.filter((c) => c.productId === p.id),
 }));
 export type CardProduct = (typeof cardProducts)[number];

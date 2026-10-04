@@ -1,0 +1,40 @@
+---
+import Layout from '../components/Layout.astro';
+import { site } from '../data/site';
+---
+
+<Layout title="Contact et partenariats publicitaires">
+  <section class="container page-intro">
+    <p class="eyebrow">CONTACT & PARTENARIATS</p>
+    <h1>Contact et partenariats publicitaires</h1>
+    <p>
+      Afroshops, marques, entreprises, associations et organisations de tous pays : proposez une
+      publicité ou un partenariat au créateur d’AfroAtlas.
+    </p>
+  </section>
+  <section class="container page-body narrow">
+    <article class="shop-guide">
+      <h2>Échangeons par email.</h2>
+      <p>
+        <a href={`mailto:${site.contactEmail}`} dir="ltr" data-no-translate>
+          {site.contactEmail}
+        </a>
+      </p>
+      <a
+        class="button"
+        href={`mailto:${site.contactEmail}?subject=${encodeURIComponent('AfroAtlas — proposition de partenariat')}`}
+      >
+        Contacter le créateur par email
+      </a>
+      <p>
+        Présentez votre organisation, votre pays, votre proposition et le lien vers votre activité.
+        Le contact se fait uniquement par email.
+      </p>
+      <p>
+        Toute annonce nécessite l’approbation du propriétaire et sera clairement signalée comme
+        publicité. Aucun réseau publicitaire automatique, traceur, paiement en ligne ou tarif
+        prédéfini n’est activé.
+      </p>
+    </article>
+  </section>
+</Layout>

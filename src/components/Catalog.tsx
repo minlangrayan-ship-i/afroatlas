@@ -1,3 +1,4 @@
+import { withLocale } from '../lib/locale-react';
 import { useEffect, useMemo, useState } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
 import type { CardProduct } from '../lib/catalogue';
@@ -8,8 +9,9 @@ import regions from '../data/published/regions.json';
 import ProductCard from './ProductCard';
 import SearchBox from './SearchBox';
 import { href } from '../lib/links';
-export default function Catalog({
-  products,
+import { useCommunityCatalogue, useCommunityGeography } from '../lib/community-catalogue';
+function Catalog({
+  products: seed,
   favorites = false,
   linkedIds = [],
 }: {
@@ -17,6 +19,8 @@ export default function Catalog({
   favorites?: boolean;
   linkedIds?: string[];
 }) {
+  const products = useCommunityCatalogue(seed);
+  const geography = useCommunityGeography();
   const [ready, setReady] = useState(false);
   const [filters, setFilters] = useState<Filters>(emptyFilters),
     [saved, setSaved] = useState<string[]>([]);
@@ -49,6 +53,8 @@ export default function Catalog({
   function change(patch: Partial<Filters>) {
     const next = { ...filters, ...patch };
     const params = new URLSearchParams();
+    const locale = new URLSearchParams(location.search).get('lang');
+    if (locale) params.set('lang', locale);
     for (const [key, value] of Object.entries(next)) if (value) params.set(key, value);
     history.pushState({}, '', `${location.pathname}${params.size ? '?' + params : ''}`);
     setFilters(next);
@@ -101,6 +107,13 @@ export default function Catalog({
                 </option>
               ))}
             </optgroup>
+            {geography
+              .filter((e) => e.kind === 'country' && !countries.some((c) => c.ISO3 === e.country))
+              .map((e) => (
+                <option key={e.id} value={e.country} data-no-translate>
+                  {e.labelFr || e.name}
+                </option>
+              ))}
             <optgroup label="Contextes européens">
               {europeanContexts.map((c) => (
                 <option key={c.ISO3} value={c.ISO3}>
@@ -124,6 +137,15 @@ export default function Catalog({
               .map((r) => (
                 <option key={r.id} value={r.id}>
                   {r.name}
+                </option>
+              ))}
+            {geography
+              .filter(
+                (e) => e.kind === 'region' && (!filters.country || e.country === filters.country),
+              )
+              .map((e) => (
+                <option key={e.id} value={e.region} data-no-translate>
+                  {e.labelFr || e.region}
                 </option>
               ))}
           </select>
@@ -154,7 +176,9 @@ export default function Catalog({
           >
             <option value="">Toutes les formes</option>
             {[...new Set(products.flatMap((p) => p.formTypes))].map((form) => (
-              <option key={form}>{form}</option>
+              <option key={form} value={form}>
+                {form}
+              </option>
             ))}
           </select>
         </label>
@@ -229,3 +253,5 @@ export default function Catalog({
     </div>
   );
 }
+
+export default withLocale(Catalog);

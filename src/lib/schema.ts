@@ -6,6 +6,7 @@ export const productSchema = z.object({
   slug: id,
   labelFr: id,
   labelEn: z.string().nullable(),
+  labelAr: z.string().nullable().optional(),
   description: id,
   categoryId: z.enum(['spices', 'vegetables', 'fish']),
   entityType: z.enum(['taxon', 'ingredient', 'commercial-category', 'mixture', 'prepared-dish']),
@@ -30,6 +31,7 @@ export const nameSchema = z.object({
   culturalAreaIds: ids,
   status: z.enum(['candidate', 'documented', 'reviewed', 'rejected']),
   evidenceIds: ids,
+  localContext: z.string().default(''),
 });
 export const imageSchema = z.object({
   id,
@@ -47,6 +49,8 @@ export const imageSchema = z.object({
   retrievedAt: id,
   title: id,
   description: z.string(),
+  role: z.enum(['primary', 'complementary']).default('complementary'),
+  depictedForm: z.string().default('non documentée'),
 });
 export const sourceSchema = z.object({
   id,
@@ -67,6 +71,21 @@ export const evidenceSchema = z.object({
   checkedBy: z.string().nullable(),
 });
 export const catalogueSchema = z.object({
+  contexts: z
+    .array(
+      z.object({
+        id,
+        productId: id,
+        countryId: id,
+        regionIds: ids,
+        localContext: id,
+        description: id,
+        sourceId: id,
+        locator: id,
+        form: id,
+      }),
+    )
+    .default([]),
   products: z.array(productSchema),
   names: z.array(nameSchema),
   images: z.array(imageSchema),

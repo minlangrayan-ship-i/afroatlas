@@ -72,7 +72,7 @@ test('filters persist in URL and back restores results without geographic invent
   await expect(page.locator('.product-card')).toHaveCount(2);
   await expect(page.getByLabel('Contexte d’appellation')).toHaveValue('');
   await page.getByRole('button', { name: 'Réinitialiser' }).click();
-  await expect(page.locator('.product-card')).toHaveCount(40);
+  await expect(page.locator('.product-card')).toHaveCount(50);
 });
 test('homonyms retain separate candidates, favorites and comparator persist locally', async ({
   page,
@@ -102,7 +102,7 @@ test('homonyms retain separate candidates, favorites and comparator persist loca
 });
 test('all countries and contexts exist, a region has an honest empty state', async ({ page }) => {
   await page.goto(url('explorer/'));
-  await expect(page.locator('.country-groups a')).toHaveCount(20);
+  await expect(page.locator('.country-groups a')).toHaveCount(23);
   await expect(page.locator('.country-strip a')).toHaveCount(5);
   await page.goto(url('pays/cmr/'));
   await expect(page.locator('.region-list button')).toHaveCount(10);
@@ -114,7 +114,7 @@ test('all countries and contexts exist, a region has an honest empty state', asy
   await page.reload();
   await expect(page.locator('.region-list button[aria-pressed=true]')).toHaveCount(1);
 });
-test('names can be copied and a documented contribution exported without claiming receipt', async ({
+test('names can be copied and contribution service absence is explicit', async ({
   page,
   context,
 }) => {
@@ -126,18 +126,19 @@ test('names can be copied and a documented contribution exported without claimin
     .click();
   await expect(page.getByRole('status').last()).toContainText('copié');
   await page.goto(url('contribuer/'));
-  await page.getByLabel('Appellation proposée').fill('Nom soumis pour examen');
-  await page.getByLabel('Preuve ou URL de source').fill('https://www.wikidata.org/wiki/Q80531');
-  await page.getByRole('button', { name: 'Conserver le brouillon' }).click();
-  await page.reload();
-  await expect(page.getByLabel('Appellation proposée')).toHaveValue('Nom soumis pour examen');
-  const download = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'Exporter la proposition JSON' }).click();
-  const downloaded = await download;
-  const data = JSON.parse(await readFile((await downloaded.path())!, 'utf8'));
-  expect(data.version).toBe(1);
-  expect(data.proposedFields.name).toBe('Nom soumis pour examen');
-  await expect(page.getByRole('status')).toContainText('Proposition exportée, non envoyée');
+  await expect(page.getByRole('button', { name: 'Envoyer pour validation' })).toBeDisabled();
+  await expect(page.locator('.notice')).toContainText('rien n’est envoyé');
+  await page.getByLabel('Type de contribution').selectOption('photo');
+  const file = await readFile('public/images/gombo-shop-400.webp');
+  await page
+    .getByLabel('Photographie facultative')
+    .setInputFiles({ name: 'gombo.webp', mimeType: 'image/webp', buffer: file });
+  await expect(page.locator('.upload-preview img')).toBeVisible();
+  await page
+    .getByLabel('Photographie facultative')
+    .setInputFiles({ name: 'bad.svg', mimeType: 'image/svg+xml', buffer: Buffer.from('<svg/>') });
+  await expect(page.locator('.action-message')).toContainText('Formats acceptés');
+  await expect(page.locator('.upload-preview')).toHaveCount(0);
 });
 test('commercial mode and references preserve separate provenance, reduced motion works', async ({
   page,
@@ -152,7 +153,7 @@ test('commercial mode and references preserve separate provenance, reduced motio
   await page.getByLabel('Référence commerciale reliée').check();
   await expect(page.locator('.product-card')).toHaveCount(0);
   await page.goto(url('sources/'));
-  await expect(page.locator('.credits-grid article')).toHaveCount(40);
+  await expect(page.locator('.credits-grid article')).toHaveCount(74);
   expect(
     await page
       .locator('.credits-grid img')

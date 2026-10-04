@@ -22,9 +22,12 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm test
+      - run: npm run check:backend
       - run: npm run build
         env:
           ASTRO_TELEMETRY_DISABLED: '1'
+          PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
+          PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:

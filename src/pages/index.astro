@@ -11,7 +11,7 @@ const featured = ['gombo', 'gingembre', 'aubergine-africaine', 'tilapia-nil']
   .filter(Boolean);
 const hero = cardProducts.find((p) => p.slug === 'gombo')!;
 const exampleNames = namesFor(hero.id)
-  .filter((n) => ['fr', 'en', 'ar', 'sw'].includes(n.languageCode || ''))
+  .filter((n) => ['fr', 'en', 'ar'].includes(n.languageCode || ''))
   .filter((n, i, arr) => arr.findIndex((a) => a.languageCode === n.languageCode) === i);
 ---
 
@@ -40,8 +40,8 @@ const exampleNames = namesFor(hero.id)
         ))}
       </div>
       <p class="hero-proof">
-        {products.length} fiches sourcées <span>·</span> 20 pays à explorer <span>·</span> Sans
-        compte
+        {products.length} fiches sourcées <span>·</span> {countries.length} pays à explorer{' '}
+        <span>·</span> Sans compte
       </p>
     </div>
     <div class="hero-photo">
@@ -61,7 +61,17 @@ const exampleNames = namesFor(hero.id)
       </span>
       <a class="hero-photo-label" href={href('produits/gombo/')}>
         <span>
-          <small>À LA UNE</small>Gombo <em>Abelmoschus esculentus</em>
+          <small>À LA UNE</small>
+          <span
+            data-product-label
+            data-no-translate
+            data-fr={hero.labelFr}
+            data-en={hero.labelEn || ''}
+            data-ar={hero.names.find((n) => n.languageCode === 'ar')?.name || ''}
+          >
+            Gombo
+          </span>{' '}
+          <em>Abelmoschus esculentus</em>
         </span>
         <b aria-hidden="true">↗</b>
       </a>
@@ -90,7 +100,11 @@ const exampleNames = namesFor(hero.id)
         const p = cardProducts.find((p) => p.categoryId === category.id)!;
         return (
           <a class="category-card" href={href(`catalogue/?category=${category.id}`)}>
-            <img src={href(p.image.smallPath)} alt="" width="400" height="300" loading="lazy" />
+            {p.image.role === 'primary' ? (
+              <img src={href(p.image.smallPath)} alt="" width="400" height="300" loading="lazy" />
+            ) : (
+              <span class="photo-gap">Photo de la forme recherchée à documenter</span>
+            )}
             <div>
               <span>{category.symbol}</span>
               <h3>{category.label}</h3>
@@ -119,7 +133,7 @@ const exampleNames = namesFor(hero.id)
     </div>
     <div class="product-grid home-products">
       {featured.map((product) => (
-        <ProductCard product={product} client:visible />
+        <ProductCard product={product} client:load />
       ))}
     </div>
   </section>
@@ -144,7 +158,9 @@ const exampleNames = namesFor(hero.id)
         {exampleNames.map((n) => (
           <div>
             <span>{languageNames[n.languageCode || '']}</span>
-            <strong>{n.name}</strong>
+            <strong data-no-translate dir="auto" lang={n.languageCode || undefined}>
+              {n.name}
+            </strong>
           </div>
         ))}
         <small>Source : Wikidata {hero.taxonId} · CC0 · contexte géographique non établi</small>

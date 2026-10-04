@@ -1,7 +1,8 @@
+import { withLocale } from '../lib/locale-react';
 import { useEffect, useState } from 'react';
 import { loadList, toggleId } from '../lib/storage';
 import { href } from '../lib/links';
-export default function ProductActions({ id, share = false }: { id: string; share?: boolean }) {
+function ProductActions({ id, share = false }: { id: string; share?: boolean }) {
   const [ready, setReady] = useState(false);
   const [favorite, setFavorite] = useState(false),
     [compared, setCompared] = useState(false),
@@ -61,3 +62,5 @@ export default function ProductActions({ id, share = false }: { id: string; shar
     </div>
   );
 }
+
+export default withLocale(ProductActions);

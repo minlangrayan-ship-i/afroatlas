@@ -1,11 +1,14 @@
+import { withLocale } from '../lib/locale-react';
 import { useEffect, useState } from 'react';
 type Region = { id: string; name: string; boundaryYear: string };
-export default function Regions({
+function Regions({
   regions,
   paths,
+  entries = [],
 }: {
   regions: Region[];
   paths: { id: string; label: string; path: string }[];
+  entries?: { regionIds: string[]; label: string; url: string; localContext: string }[];
 }) {
   const [ready, setReady] = useState(false),
     [selected, setSelected] = useState('');
@@ -73,10 +76,26 @@ export default function Regions({
         </div>
         <div className="region-result" aria-live="polite">
           <h3>{region?.name || 'Sélectionnez une subdivision'}</h3>
-          <p>Aucune appellation régionale documentée pour le moment.</p>
+          {entries.some((e) => e.regionIds.includes(selected)) ? (
+            <div>
+              {entries
+                .filter((e) => e.regionIds.includes(selected))
+                .map((e, i) => (
+                  <p key={i}>
+                    <a href={e.url} data-no-translate dir="auto">
+                      {e.label} — {e.localContext} ↗
+                    </a>
+                  </p>
+                ))}
+            </div>
+          ) : (
+            <p>Aucune appellation régionale documentée pour le moment.</p>
+          )}
           {region && <small>Limites représentant {region.boundaryYear}.</small>}
         </div>
       </div>
     </div>
   );
 }
+
+export default withLocale(Regions);

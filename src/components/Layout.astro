@@ -46,7 +46,19 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
           <a href={href('comparer/')} class="nav-compare">
             Comparer ⇄
           </a>
+          <a href={href('contribuer/')}>Contribuer à la bibliothèque</a>
         </nav>
+        <div class="locale-switch" aria-label="Langue de l’interface">
+          <button type="button" data-locale="fr" aria-pressed="true">
+            FR
+          </button>
+          <button type="button" data-locale="en" aria-pressed="false">
+            EN
+          </button>
+          <button type="button" data-locale="ar" aria-pressed="false" lang="ar">
+            AR
+          </button>
+        </div>
       </div>
     </header>
     <main id="main">
@@ -78,6 +90,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
           <a href={href('methodologie/')}>Notre méthodologie</a>
           <a href={href('sources/')}>Sources & crédits</a>
           <a href={href('contribuer/')}>Proposer une correction</a>
+          <a href={href('contact/')}>Contact et partenariats publicitaires</a>
         </div>
       </div>
       <div class="container footer-bottom">
@@ -91,5 +104,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         </a>
       </div>
     </footer>
+    <script>
+      import '../lib/locale-client';
+    </script>
   </body>
 </html>

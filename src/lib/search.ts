@@ -1,6 +1,5 @@
 import Fuse from 'fuse.js';
 import type { CardProduct } from './catalogue';
-import prebuilt from '../data/published/search-index.json';
 export const normalize = (text: string) =>
   text
     .normalize('NFD')
@@ -41,10 +40,14 @@ export function searchProducts(
   const index = products.map((p) => ({
     ...p,
     searchTerms:
-      (prebuilt as Record<string, string[]>)[p.id] ||
-      [p.labelFr, p.labelEn || '', p.scientificName || '', ...p.names.map((n) => n.name)].map(
-        normalize,
-      ),
+      // Include new approved names as well as the static catalogue.
+      [
+        p.labelFr,
+        p.labelEn || '',
+        p.labelAr || '',
+        p.scientificName || '',
+        ...p.names.map((n) => n.name),
+      ].map(normalize),
   }));
   const fuzzy = query
     ? new Fuse(index, {
@@ -57,12 +60,20 @@ export function searchProducts(
         .search(query)
         .map((result) => ({ product: result.item, score: result.score || 0 }))
     : index.map((product) => ({ product, score: 0 }));
+  const hasLiteralMatch =
+    query.length >= 3 &&
+    fuzzy.some(({ product }) => product.searchTerms.some((t) => t.includes(query)));
   return fuzzy
+    .filter(({ product }) => !hasLiteralMatch || product.searchTerms.some((t) => t.includes(query)))
     .filter(
       ({ product: p }) =>
         (!filters.category || p.categoryId === filters.category) &&
-        (!filters.country || p.names.some((n) => n.countryIds.includes(filters.country))) &&
-        (!filters.region || p.names.some((n) => n.regionIds.includes(filters.region))) &&
+        (!filters.country ||
+          p.names.some((n) => n.countryIds.includes(filters.country)) ||
+          p.contexts.some((c) => c.countryId === filters.country)) &&
+        (!filters.region ||
+          p.names.some((n) => n.regionIds.includes(filters.region)) ||
+          p.contexts.some((c) => c.regionIds.includes(filters.region))) &&
         (!filters.language || p.names.some((n) => n.languageCode === filters.language)) &&
         (!filters.form || p.formTypes.includes(filters.form)) &&
         (!filters.commercial || linkedIds.includes(p.id)),

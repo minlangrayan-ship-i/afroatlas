@@ -78,33 +78,40 @@ import { href } from '../lib/links';
       </a>
     </section>
     <section class="section">
-      <h2>Crédits des {catalogue.images.length} photographies</h2>
+      <h2>Crédits des photographies — principales et complémentaires</h2>
       <div class="credits-grid">
-        {catalogue.images.map((image) => (
-          <article>
-            <img
-              src={href(image.smallPath)}
-              alt={image.altFr}
-              width="160"
-              height="120"
-              loading="lazy"
-            />
-            <div>
-              <h3>{image.title}</h3>
-              <p>{image.creator}</p>
-              <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
-                Page source ↗
-              </a>
-              <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
-                {image.licenseId} ↗
-              </a>
-              <small>{image.attribution}</small>
-              <small>
-                {image.modifications} · import {image.retrievedAt}
-              </small>
-            </div>
-          </article>
-        ))}
+        {catalogue.images
+          .filter((i) => i.licenseId !== 'Non applicable')
+          .map((image) => (
+            <article>
+              <img
+                src={href(image.smallPath)}
+                alt={image.altFr}
+                width="160"
+                height="120"
+                loading="lazy"
+              />
+              <div>
+                <h3>{image.title}</h3>
+                <p>
+                  {image.role === 'primary'
+                    ? `Photographie principale — ${image.depictedForm}`
+                    : 'Complément documentaire ; pas la forme de boutique'}
+                </p>
+                <p>{image.creator}</p>
+                <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
+                  Page source ↗
+                </a>
+                <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
+                  {image.licenseId} ↗
+                </a>
+                <small>{image.attribution}</small>
+                <small>
+                  {image.modifications} · import {image.retrievedAt}
+                </small>
+              </div>
+            </article>
+          ))}
       </div>
     </section>
   </section>

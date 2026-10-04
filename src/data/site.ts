@@ -1,5 +1,6 @@
 export const site = {
   name: 'AfroAtlas',
+  contactEmail: 'minlangrayan@gmail.com',
   tagline: 'Un produit, plusieurs noms.',
   description:
     'Une bibliothèque ouverte pour identifier les produits, explorer leurs appellations et retrouver leurs références.',

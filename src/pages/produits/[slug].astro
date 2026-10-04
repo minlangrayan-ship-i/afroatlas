@@ -4,6 +4,7 @@ import AdSlot from '../../components/AdSlot.astro';
 import ProductActions from '../../components/ProductActions';
 import PhotoZoom from '../../components/PhotoZoom';
 import NamesTable from '../../components/NamesTable';
+import CommunityUpdates from '../../components/CommunityUpdates';
 import { products, catalogue, imageFor, namesFor, commercial } from '../../lib/catalogue';
 import { href } from '../../lib/links';
 import { categories } from '../../data/countries';
@@ -22,7 +23,9 @@ const rows = names.map((name) => {
   };
 });
 const french = names.find((n) => n.languageCode === 'fr'),
-  english = names.find((n) => n.languageCode === 'en');
+  english = names.find((n) => n.languageCode === 'en'),
+  arabic = names.find((n) => n.languageCode === 'ar');
+const contexts = catalogue.contexts.filter((c) => c.productId === product.id);
 const related = products
   .filter((p) => p.id !== product.id && p.categoryId === product.categoryId)
   .slice(0, 3);
@@ -39,24 +42,36 @@ const references = commercial.references.filter((r) =>
   </div>
   <section class="container product-hero">
     <div>
-      <PhotoZoom image={image} label={product.labelFr} client:load />
-      <p class="photo-credit">
-        {image.creator} ·{' '}
-        <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
-          Source ↗
-        </a>{' '}
-        ·{' '}
-        <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
-          {image.licenseId}
-        </a>
-        <small>{image.modifications}</small>
-      </p>
+      <PhotoZoom image={image} label={product.labelFr} productId={product.id} client:load />
+      {image.role === 'primary' && (
+        <p class="photo-credit">
+          {image.creator} ·{' '}
+          <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
+            Source ↗
+          </a>{' '}
+          ·{' '}
+          <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
+            {image.licenseId}
+          </a>
+          <small>{image.modifications}</small>
+        </p>
+      )}
     </div>
     <div class="product-summary">
       <p class="eyebrow">{categories.find((c) => c.id === product.categoryId)?.label}</p>
-      <h1>{product.labelFr}</h1>
+      <h1
+        data-product-label
+        data-no-translate
+        data-fr={product.labelFr}
+        data-en={english?.name || ''}
+        data-ar={arabic?.name || ''}
+      >
+        {product.labelFr}
+      </h1>
       <p class="scientific">{product.scientificName}</p>
-      <p>{product.description}</p>
+      <p data-no-translate dir="auto">
+        {product.description}
+      </p>
       <div class="summary-facts">
         <span>Espèce identifiée</span>
         <span>Appellations documentées</span>
@@ -85,9 +100,17 @@ const references = commercial.references.filter((r) =>
       <h2>Commencez par un nom documenté.</h2>
       <dl>
         <dt>Libellé français de la source</dt>
-        <dd>{french?.name || 'Non renseigné'}</dd>
+        <dd data-no-translate dir="auto">
+          {french?.name || 'Non renseigné'}
+        </dd>
         <dt>Libellé anglais de la source</dt>
-        <dd>{english?.name || 'Non renseigné'}</dd>
+        <dd data-no-translate dir="auto">
+          {english?.name || 'Non renseigné'}
+        </dd>
+        <dt>Libellé arabe de la source</dt>
+        <dd data-no-translate dir="auto" lang="ar">
+          {arabic?.name || 'Non renseigné'}
+        </dd>
         <dt>Forme de la fiche</dt>
         <dd>{product.formTypes.join(', ')}</dd>
       </dl>
@@ -112,9 +135,35 @@ const references = commercial.references.filter((r) =>
       </a>
     </article>
   </section>
+  <CommunityUpdates productId={product.id} client:load />
   <div class="container">
     <AdSlot location="product-after-main-info" />
   </div>
+  {contexts.length > 0 && (
+    <section class="container section">
+      <p class="eyebrow">CONTEXTES LOCAUX DOCUMENTÉS</p>
+      <h2>Usages et périmètres des sources</h2>
+      <div class="source-cards">
+        {contexts.map((context) => (
+          <article class="shop-guide" data-no-translate dir="auto">
+            <h3>{context.localContext}</h3>
+            <p>{context.description}</p>
+            <p>
+              Forme concernée : {context.form} · {context.countryId}
+            </p>
+            <a
+              href={catalogue.sources.find((s) => s.id === context.sourceId)!.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source ↗
+            </a>
+            <small>{context.locator}</small>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
   <section class="container section">
     <p class="eyebrow">RÉFÉRENCES COMMERCIALES</p>
     <h2>Le conditionnement, une autre identité.</h2>
@@ -137,15 +186,25 @@ const references = commercial.references.filter((r) =>
     <div class="related-grid">
       {related.map((p) => (
         <a href={href(`produits/${p.slug}/`)}>
-          <img
-            src={href(imageFor(p.id).smallPath)}
-            alt={imageFor(p.id).altFr}
-            width="200"
-            height="150"
-            loading="lazy"
-          />
+          {imageFor(p.id).role === 'primary' && (
+            <img
+              src={href(imageFor(p.id).smallPath)}
+              alt={imageFor(p.id).altFr}
+              width="200"
+              height="150"
+              loading="lazy"
+            />
+          )}
           <span>
-            {p.labelFr}
+            <span
+              data-product-label
+              data-no-translate
+              data-fr={p.labelFr}
+              data-en={p.labelEn || ''}
+              data-ar={namesFor(p.id).find((n) => n.languageCode === 'ar')?.name || ''}
+            >
+              {p.labelFr}
+            </span>
             <small>Relation : même catégorie de navigation</small>
           </span>
           <b>↗</b>
@@ -170,7 +229,7 @@ const references = commercial.references.filter((r) =>
       boutique. Pour un nom ambigu, consultez toutes les fiches candidates dans la recherche.
     </p>
     <a class="button secondary" href={href(`contribuer/?product=${product.slug}`)}>
-      Proposer une correction ↗
+      Contribuer à la bibliothèque
     </a>
   </section>
 </Layout>

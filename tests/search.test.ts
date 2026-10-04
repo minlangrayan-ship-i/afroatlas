@@ -39,7 +39,7 @@ describe('documented catalogue search', () => {
   });
   it('does not turn a language into evidence of country or region usage', () => {
     expect(
-      searchProducts(cardProducts, { ...emptyFilters, country: 'CMR', language: 'fr' }),
+      searchProducts(cardProducts, { ...emptyFilters, q: 'ail', country: 'CMR', language: 'fr' }),
     ).toEqual([]);
     expect(searchProducts(cardProducts, { ...emptyFilters, region: 'unproven-region' })).toEqual(
       [],

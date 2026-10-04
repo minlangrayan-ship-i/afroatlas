@@ -1,0 +1,4 @@
+[functions.submit-contribution]
+verify_jwt = false
+[functions.moderate-contribution]
+verify_jwt = false

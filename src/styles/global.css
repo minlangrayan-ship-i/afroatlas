@@ -2059,3 +2059,144 @@ dd {
     scroll-behavior: auto !important;
   }
 }
+.locale-switch {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+  direction: ltr;
+}
+.locale-switch button {
+  border: 1px solid var(--line);
+  padding: 7px 9px;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.locale-switch button[aria-pressed='true'] {
+  background: var(--green);
+  color: var(--cream);
+}
+.header-inner {
+  flex-wrap: wrap;
+  padding-block: 14px;
+}
+.header-inner nav {
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.photo-gap {
+  display: flex;
+  min-height: 210px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: var(--pale);
+  color: var(--muted);
+  padding: 25px;
+  text-align: center;
+}
+.category-card > .photo-gap {
+  min-height: 0;
+  grid-column: 1 / -1;
+  font-size: 12px;
+  padding: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.category-card:has(> .photo-gap) > div {
+  grid-column: 1 / -1;
+}
+.product-hero > .photo-gap,
+.product-hero > div > .photo-gap {
+  min-height: 340px;
+}
+.upload-preview img,
+.community-photo {
+  max-height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-block: 15px;
+}
+.moderation label {
+  display: block;
+  margin-block: 15px;
+}
+.moderation textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--white);
+  padding: 14px;
+  border-radius: 6px;
+}
+.moderation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-block: 20px;
+}
+[dir='rtl'] body {
+  text-align: start;
+  font-family: Tahoma, Arial, sans-serif;
+}
+[dir='rtl'] h1,
+[dir='rtl'] h2 {
+  font-family: Tahoma, Arial, sans-serif;
+  letter-spacing: normal;
+  line-height: 1.4;
+}
+[dir='rtl'] .eyebrow {
+  letter-spacing: normal;
+}
+[dir='rtl'] th,
+[dir='rtl'] td {
+  text-align: start;
+}
+[dir='rtl'] .logo-symbol {
+  margin-right: 0;
+  margin-inline-end: 10px;
+}
+[dir='rtl'] input,
+[dir='rtl'] textarea {
+  text-align: start;
+}
+[dir='rtl'] input[type='url'],
+[dir='rtl'] input[type='email'],
+[dir='rtl'] .scientific,
+[dir='rtl'] .evidence-locator {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+bdi,
+[data-no-translate] {
+  unicode-bidi: isolate;
+}
+@media (max-width: 800px) {
+  .header-inner {
+    gap: 12px;
+  }
+  .header-inner nav {
+    order: 3;
+    width: 100%;
+    gap: 12px;
+    font-size: 12px;
+  }
+  .header-inner nav a {
+    padding-block: 5px;
+  }
+  .locale-switch {
+    margin-inline-start: auto;
+  }
+  .nav-compare {
+    padding: 5px 9px;
+  }
+  .country-strip {
+    overflow-wrap: anywhere;
+  }
+  .site-header .nav-compare {
+    display: inline-block;
+  }
+}
+astro-island:has([data-replaced-photo]) + .photo-credit {
+  display: none;
+}

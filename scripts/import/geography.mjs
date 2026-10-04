@@ -3,7 +3,7 @@ const regions = [],
   metadata = [],
   geometries = {},
   gaps = [];
-for (const ISO3 of ['CMR', 'CIV', 'MAR', 'SEN']) {
+for (const ISO3 of ['CMR', 'CIV', 'MAR', 'SEN', 'MLI']) {
   try {
     const url = `https://www.geoboundaries.org/api/current/gbOpen/${ISO3}/ADM1/`;
     const meta = await request(url);

@@ -1,8 +1,11 @@
+import { withLocale } from '../lib/locale-react';
 import { useEffect, useState } from 'react';
 import type { CardProduct } from '../lib/catalogue';
 import { loadList, saveList } from '../lib/storage';
 import { href } from '../lib/links';
-export default function Compare({ products }: { products: CardProduct[] }) {
+import { useCommunityCatalogue } from '../lib/community-catalogue';
+function Compare({ products: seed }: { products: CardProduct[] }) {
+  const products = useCommunityCatalogue(seed);
   const [ids, setIds] = useState<string[]>([]),
     [message, setMessage] = useState('');
   useEffect(() => {
@@ -19,6 +22,8 @@ export default function Compare({ products }: { products: CardProduct[] }) {
     if (!saveList('compare', next))
       setMessage('La sélection ne peut pas être conservée sur cet appareil.');
     const params = new URLSearchParams();
+    const locale = new URLSearchParams(location.search).get('lang');
+    if (locale) params.set('lang', locale);
     if (next.length) params.set('ids', next.join(','));
     history.replaceState({}, '', location.pathname + (params.size ? '?' + params : ''));
   }
@@ -57,8 +62,20 @@ export default function Compare({ products }: { products: CardProduct[] }) {
           <div className="compare-grid">
             {selected.map((p) => (
               <article className="compare-card" key={p.id}>
-                <img src={href(p.image.smallPath)} alt={p.image.altFr} width="400" height="300" />
-                <h2>{p.labelFr}</h2>
+                {p.image.role === 'primary' ? (
+                  <img src={href(p.image.smallPath)} alt={p.image.altFr} width="400" height="300" />
+                ) : (
+                  <div className="photo-gap">Photo de la forme recherchée à documenter</div>
+                )}
+                <h2
+                  data-product-label
+                  data-no-translate
+                  data-fr={p.labelFr}
+                  data-en={p.labelEn || ''}
+                  data-ar={p.labelAr || p.names.find((n) => n.languageCode === 'ar')?.name || ''}
+                >
+                  {p.labelFr}
+                </h2>
                 <dl>
                   <dt>Identification scientifique</dt>
                   <dd>{p.scientificName || 'Non établie'}</dd>
@@ -107,3 +124,5 @@ export default function Compare({ products }: { products: CardProduct[] }) {
     </div>
   );
 }
+
+export default withLocale(Compare);

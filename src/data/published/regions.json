@@ -548,5 +548,104 @@
     "sourceIds": [
       "geoboundaries-SEN"
     ]
+  },
+  {
+    "id": "region-MLI-92416918B70420899930674",
+    "countryISO3": "MLI",
+    "name": "Bamako",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B70420899930674",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
+  },
+  {
+    "id": "region-MLI-92416918B98496355207236",
+    "countryISO3": "MLI",
+    "name": "Gao",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B98496355207236",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
+  },
+  {
+    "id": "region-MLI-92416918B67011525583155",
+    "countryISO3": "MLI",
+    "name": "Kayes",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B67011525583155",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
+  },
+  {
+    "id": "region-MLI-92416918B67702032852187",
+    "countryISO3": "MLI",
+    "name": "Kidal",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B67702032852187",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
+  },
+  {
+    "id": "region-MLI-92416918B61022065682725",
+    "countryISO3": "MLI",
+    "name": "Koulikouro",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B61022065682725",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
+  },
+  {
+    "id": "region-MLI-92416918B29694163592634",
+    "countryISO3": "MLI",
+    "name": "Mopti",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B29694163592634",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
+  },
+  {
+    "id": "region-MLI-92416918B20164850262385",
+    "countryISO3": "MLI",
+    "name": "Segou",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B20164850262385",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
+  },
+  {
+    "id": "region-MLI-92416918B9364304684584",
+    "countryISO3": "MLI",
+    "name": "Sikasso",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B9364304684584",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
+  },
+  {
+    "id": "region-MLI-92416918B34817349162892",
+    "countryISO3": "MLI",
+    "name": "Tombouctou",
+    "adminLevel": 1,
+    "geometryRef": "region-MLI-92416918B34817349162892",
+    "boundaryYear": "2021",
+    "sourceIds": [
+      "geoboundaries-MLI"
+    ]
   }
 ]
