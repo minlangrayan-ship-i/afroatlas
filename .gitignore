@@ -9,3 +9,5 @@ playwright-report/
 data/raw/cache/*.bin
 data/research/photos/
 data/research/*.png
+supabase/.temp/
+supabase/.branches/

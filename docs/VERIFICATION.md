@@ -17,4 +17,4 @@ Le propriétaire a confirmé qu’il n’a pas encore de projet Supabase et a de
 
 Les tests ne constituent pas un audit exhaustif WCAG, une validation culturelle humaine ou une mesure des performances de terrain. Les textes documentaires détaillés et les lacunes de noms/photos restent décrits dans DATA_QUALITY.md et CONTENT_BACKLOG.md.
 
-Publication cible : https://minlangrayan-ship-i.github.io/afroatlas/. Contrôler la publication réelle après le workflow ; le succès du build local ne suffit pas.
+Publication vérifiée : https://minlangrayan-ship-i.github.io/afroatlas/. Le workflow du commit `43f886a` a réussi. Les 11 parcours ont également été vérifiés sur cette adresse publique ; le contrôle des crédits photo attend effectivement le chargement de l’image avant de conclure. Pays, arabe, recherche, email et état fermé des contributions fonctionnent en ligne.

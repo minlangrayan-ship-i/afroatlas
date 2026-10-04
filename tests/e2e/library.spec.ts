@@ -154,10 +154,11 @@ test('commercial mode and references preserve separate provenance, reduced motio
   await expect(page.locator('.product-card')).toHaveCount(0);
   await page.goto(url('sources/'));
   await expect(page.locator('.credits-grid article')).toHaveCount(74);
-  expect(
-    await page
-      .locator('.credits-grid img')
-      .first()
-      .evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0),
-  ).toBe(true);
+  const creditedPhoto = page.locator('.credits-grid img').first();
+  await creditedPhoto.scrollIntoViewIfNeeded();
+  await expect
+    .poll(() =>
+      creditedPhoto.evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0),
+    )
+    .toBe(true);
 });

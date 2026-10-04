@@ -1,3 +1,5 @@
+project_id = "afroatlas"
+
 [functions.submit-contribution]
 verify_jwt = false
 [functions.moderate-contribution]

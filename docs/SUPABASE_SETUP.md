@@ -26,9 +26,11 @@ Depuis le dossier `afroatlas`, avec Node.js et votre session Supabase CLI :
 ```sh
 npx supabase login
 npx supabase link --project-ref VOTRE_REFERENCE_PROJET
-npx supabase functions deploy submit-contribution
-npx supabase functions deploy moderate-contribution
+npx supabase functions deploy submit-contribution --use-api
+npx supabase functions deploy moderate-contribution --use-api
 ```
+
+L’option `--use-api` effectue le bundle côté serveur, sans installation de Docker : [référence CLI officielle](https://supabase.com/docs/reference/cli/supabase-functions-deploy).
 
 Le fichier `supabase/config.toml` désactive la vérification JWT de la passerelle pour ces deux fonctions. C’est intentionnel : l’envoi visiteur est anonyme ; la fonction de modération vérifie elle-même le JWT avec Auth puis l’appartenance à `afroatlas_owners`. Elle ne permet pas une validation anonyme.
 
