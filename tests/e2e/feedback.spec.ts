@@ -5,7 +5,7 @@ test('new countries, distinct forms and checked images work on mobile and deskto
 }) => {
   for (const width of [390, 1440]) {
     await page.setViewportSize({ width, height: 900 });
-    await page.goto(base + 'explorer/');
+    await page.goto(base + 'explorer/?lang=fr');
     for (const iso of ['gab', 'gnq', 'ken'])
       await expect(page.locator(`.africa-map a[href$="/pays/${iso}/"]`)).toHaveCount(1);
     await page.goto(base + 'catalogue/?q=folere');
