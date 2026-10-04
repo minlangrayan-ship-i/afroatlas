@@ -4,7 +4,12 @@ import { approvedEntries } from '../lib/community';
 import type { NameAssertion } from '../lib/schema';
 import { languageNames, countries, europeanContexts } from '../data/countries';
 import { useClientReady } from '../lib/use-client-ready';
-type NameRow = NameAssertion & { sourceUrl: string; locator: string };
+import regions from '../data/published/regions.json';
+type NameRow = NameAssertion & {
+  sourceUrl: string;
+  locator: string;
+  proofs?: { url: string; locator: string }[];
+};
 function NamesTable({ names: seed }: { names: NameRow[] }) {
   const [names, setNames] = useState(seed);
   useEffect(() => {
@@ -128,7 +133,11 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
                     </small>
                   )}
                   <small>
-                    {n.regionIds.length ? n.regionIds.join(', ') : 'Aucune région documentée'}
+                    {n.regionIds.length
+                      ? n.regionIds
+                          .map((id) => regions.find((r) => r.id === id)?.name || id)
+                          .join(', ')
+                      : 'Aucune région documentée'}
                   </small>
                 </td>
                 <td>
@@ -136,9 +145,24 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
                     Source ↗
                   </a>
                   <small>
-                    {n.status === 'reviewed' ? 'Appellation vérifiée' : 'Appellation documentée'}
+                    {n.nameType === 'input'
+                      ? 'Variante de saisie'
+                      : n.status === 'reviewed'
+                        ? 'Appellation vérifiée'
+                        : 'Appellation documentée'}
                   </small>
                   <small className="evidence-locator">{n.locator}</small>
+                  {n.proofs?.slice(1).map((proof, i) => (
+                    <small key={i}>
+                      <a href={proof.url} target="_blank" rel="noopener noreferrer">
+                        Source {i + 2} ↗
+                      </a>
+                      <span data-no-translate dir="auto">
+                        {' '}
+                        {proof.locator}
+                      </span>
+                    </small>
+                  ))}
                 </td>
                 <td>
                   <button

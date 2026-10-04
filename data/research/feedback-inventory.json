@@ -1,0 +1,503 @@
+{
+  "consultedAt": "2026-10-04",
+  "method": "Résumés originaux ; références reliées aux assertions ; pas de copie intégrale de publications",
+  "sources": [
+    {
+      "id": "feedback-water-prota",
+      "url": "https://plantuse.plantnet.org/en/Talinum_fruticosum_(PROTA)",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-water-kew",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1022555-2",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-water-bio",
+      "url": "https://infonet-biovision.org/indigenous-plants/waterleaf-new",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-hib-minresi",
+      "url": "https://minresi.gov.cm/wp-content/uploads/2023/09/echo-mars-2018.pdf",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-hib-study",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/ioa/5568972",
+      "consultedAt": "2026-10-04",
+      "access": "Page/abstract consulté ; extraction supplémentaire instable"
+    },
+    {
+      "id": "feedback-hib-drink",
+      "url": "https://issr-journals.org/links/papers.php?application=pdf&article=IJIAS-14-256-07&journal=ijias",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-spice-thesis",
+      "url": "https://docnum.univ-lorraine.fr/public/INPL_2009_ABDOU_BOUBA_A.pdf",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-pebe-prosea",
+      "url": "https://plantuse.plantnet.org/en/Monodora_myristica_(PROSEA)",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-pebe-eppo",
+      "url": "https://gd.eppo.int/taxon/MDOMY",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-atlas",
+      "url": "https://rsd-institute.org/wp-content/uploads/2023/08/Atlas-Design-FR-17-avril-2021_compressed.pdf",
+      "consultedAt": "2026-10-04",
+      "access": "Extraits indexés VI.10 consultés ; téléchargement PDF indisponible"
+    },
+    {
+      "id": "feedback-forest-study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10270934/",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-rondelle-report",
+      "url": "https://www.foretcommunale-cameroun.org/download/rapportchainesvaleurspfnl.pdf",
+      "consultedAt": "2026-10-04",
+      "access": "403 ; non utilisé comme preuve"
+    },
+    {
+      "id": "feedback-tetra-eppo",
+      "url": "https://gd.eppo.int/taxon/TLTTE",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-tetra-iita",
+      "url": "https://forestcenter.iita.org/wp-content/uploads/2018/01/Tetrapleura-tetraptera.pdf",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-maniguette",
+      "url": "https://gd.eppo.int/taxon/AFRME",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-piper-eppo",
+      "url": "https://gd.eppo.int/taxon/PIPGU",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-codex-spices",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-736-04%252FCRDS%252Fsc04_crd03x.pdf",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-managu",
+      "url": "https://infonet-biovision.org/indigenous-plants/african-nightshade-revised",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-amaranth",
+      "url": "https://infonet-biovision.org/indigenous-plants/amaranth-revised",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-suba",
+      "url": "https://infonet-biovision.org/sites/default/files/pdf/indigenous_veg_production_suba_district_ouma.pdf",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-cowpea",
+      "url": "https://infonet-biovision.org/indigenous-plants/cowpea-revised",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-cassava",
+      "url": "https://infonet-biovision.org/indigenous-plants/cassava-leaves-new",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-kale",
+      "url": "https://infonet-biovision.org/crops-fruits-vegetables/cabbagekalesother-brassicas-revised",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-macabo",
+      "url": "https://gd.eppo.int/taxon/XATSA",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-maize",
+      "url": "https://plantuse.plantnet.org/en/Zea_mays_(PROTA)",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-groundnut",
+      "url": "https://plantuse.plantnet.org/en/Arachis_hypogaea_(PROTA)",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-yam",
+      "url": "https://infonet-biovision.org/crops-fruits-vegetables/yam",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-gnetum",
+      "url": "https://www.infonet-biovision.org/indigenous-plants/gnetum-new",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-gabon",
+      "url": "https://www.cifor-icraf.org/publications/downloads/Publications/PDFS/B16168.pdf",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-gnq",
+      "url": "https://www.fao.org/4/X2161F/x2161f23.htm",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    },
+    {
+      "id": "feedback-typing",
+      "url": "https://github.com/minlangrayan-ship-i/afroatlas/blob/main/docs/RESEARCH_FEEDBACK.md",
+      "consultedAt": "2026-10-04",
+      "access": "Page ou document consulté"
+    }
+  ],
+  "products": [
+    {
+      "productId": "product-waterleaf",
+      "action": "added",
+      "part": "feuilles et jeunes pousses",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-water-kew",
+        "feedback-water-prota",
+        "feedback-water-bio"
+      ],
+      "locator": "Kew : statut taxonomique ; PROTA : Vernacular names / Uses",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-pebe",
+      "action": "added",
+      "part": "graines / amandes",
+      "form": "graines",
+      "sourceIds": [
+        "feedback-pebe-prosea",
+        "feedback-pebe-eppo",
+        "feedback-spice-thesis",
+        "feedback-atlas"
+      ],
+      "locator": "PROSEA Uses ; thèse p.81, tableau 2 ; Atlas VI.10",
+      "status": "documented",
+      "photo": "primary-visually-checked"
+    },
+    {
+      "productId": "product-rondelle",
+      "action": "added",
+      "part": "graines",
+      "form": "graines",
+      "sourceIds": [
+        "feedback-forest-study"
+      ],
+      "locator": "Tableau des aliments forestiers consommés ; rondelle",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-quatre-cotes",
+      "action": "added",
+      "part": "fruit à quatre ailes",
+      "form": "séché",
+      "sourceIds": [
+        "feedback-spice-thesis",
+        "feedback-tetra-eppo",
+        "feedback-tetra-iita"
+      ],
+      "locator": "Thèse p.46 et p.81, tableau 2 ; IITA Fruits/seeds",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-maniguette",
+      "action": "added",
+      "part": "graines",
+      "form": "graines",
+      "sourceIds": [
+        "feedback-maniguette"
+      ],
+      "locator": "EPPO Common names",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-poivre-sauvage",
+      "action": "added",
+      "part": "fruits",
+      "form": "séché",
+      "sourceIds": [
+        "feedback-spice-thesis"
+      ],
+      "locator": "p.81, tableau 2, Piper guineense",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-poivre-ethiopie",
+      "action": "added",
+      "part": "fruits",
+      "form": "séché",
+      "sourceIds": [
+        "feedback-spice-thesis"
+      ],
+      "locator": "p.81, tableau 2, Xylopia aethiopica",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-managu",
+      "action": "added",
+      "part": "feuilles",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-managu"
+      ],
+      "locator": "Scientific Name / Local Names / Introduction",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-amarantes-feuilles",
+      "action": "added",
+      "part": "feuilles",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-amaranth"
+      ],
+      "locator": "Scientific Name / Local Names",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-saga",
+      "action": "added",
+      "part": "feuilles",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-suba"
+      ],
+      "locator": "Fiche Spider plant / Local names",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-niebe-feuilles",
+      "action": "added",
+      "part": "feuilles et pousses tendres",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-cowpea"
+      ],
+      "locator": "Other Local names : Kenya / Introduction",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-manioc-feuilles",
+      "action": "added",
+      "part": "feuilles",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-cassava"
+      ],
+      "locator": "Scientific Name / Uses",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-sukuma-feuilles",
+      "action": "added",
+      "part": "feuilles",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-kale"
+      ],
+      "locator": "Photo et légende Sukuma — Brassica oleracea (Acephala Group), Kenya",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-macabo",
+      "action": "added",
+      "part": "cormes et cormelles",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-macabo"
+      ],
+      "locator": "Notes / Common names",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-mais",
+      "action": "added",
+      "part": "grains",
+      "form": "graines",
+      "sourceIds": [
+        "feedback-maize"
+      ],
+      "locator": "Vernacular names / Uses",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-arachide",
+      "action": "added",
+      "part": "graines",
+      "form": "graines",
+      "sourceIds": [
+        "feedback-groundnut"
+      ],
+      "locator": "Vernacular names / Uses",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-igname-alata",
+      "action": "added",
+      "part": "tubercule",
+      "form": "frais",
+      "sourceIds": [
+        "feedback-yam"
+      ],
+      "locator": "Scientific Name / Yam marketing, Korogho, Côte d’Ivoire, juin 1999",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-folere-boisson",
+      "action": "added",
+      "part": "calices utilisés dans une boisson",
+      "form": "boisson",
+      "sourceIds": [
+        "feedback-hib-drink",
+        "feedback-hib-minresi"
+      ],
+      "locator": "Article : jus de foléré ; MINRESI p.11",
+      "status": "documented",
+      "photo": "pending"
+    },
+    {
+      "productId": "product-oseille-guinee",
+      "action": "enriched",
+      "part": "calices",
+      "form": [
+        "séché"
+      ],
+      "status": "documented",
+      "sourceIds": [
+        "wikidata-Q319390",
+        "prota-hibiscus",
+        "feedback-hib-minresi",
+        "feedback-hib-study"
+      ]
+    },
+    {
+      "productId": "product-bissap-feuilles",
+      "action": "enriched",
+      "part": "feuilles",
+      "form": [
+        "frais"
+      ],
+      "status": "documented",
+      "sourceIds": [
+        "fao-bissap-leaves",
+        "wikidata-Q319390",
+        "feedback-hib-minresi",
+        "feedback-hib-study"
+      ]
+    },
+    {
+      "productId": "product-epinard",
+      "action": "enriched",
+      "part": "feuilles",
+      "form": [
+        "frais"
+      ],
+      "status": "documented",
+      "sourceIds": [
+        "wikidata-Q81464"
+      ]
+    },
+    {
+      "productId": "product-eru",
+      "action": "enriched",
+      "part": "feuilles",
+      "form": [
+        "frais"
+      ],
+      "status": "documented",
+      "sourceIds": [
+        "prota-gnetum",
+        "wikidata-Q5574228",
+        "fao-eru",
+        "feedback-gnetum",
+        "feedback-gabon",
+        "feedback-gnq"
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "term": "muse",
+      "reason": "Aucune identification botanique fiable ; contexte de recette et communauté demandé"
+    },
+    {
+      "term": "masso",
+      "reason": "Résultats principalement patronymes ; aucune espèce attribuée"
+    },
+    {
+      "term": "country onion",
+      "reason": "Alias de rondelle à corroborer par une seconde source accessible"
+    },
+    {
+      "term": "prekese",
+      "reason": "Nom twi probable ; sources prioritaires inaccessibles, pas publié comme alias vérifié"
+    },
+    {
+      "term": "plantain",
+      "reason": "Fiche propre et identification du groupe cultivé à documenter"
+    },
+    {
+      "term": "nététou / dawadawa / iru",
+      "reason": "Ne pas présumer même matière première ou procédé ; fiche soumbala existante conservée"
+    }
+  ]
+}

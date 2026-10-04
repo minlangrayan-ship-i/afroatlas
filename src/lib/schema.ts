@@ -8,7 +8,7 @@ export const productSchema = z.object({
   labelEn: z.string().nullable(),
   labelAr: z.string().nullable().optional(),
   description: id,
-  categoryId: z.enum(['spices', 'vegetables', 'fish']),
+  categoryId: z.enum(['spices', 'vegetables', 'fish', 'staples']),
   entityType: z.enum(['taxon', 'ingredient', 'commercial-category', 'mixture', 'prepared-dish']),
   scientificName: z.string().nullable(),
   taxonId: z.string().nullable(),
@@ -18,6 +18,10 @@ export const productSchema = z.object({
   verifiedAt: id,
   usage: z.string().nullable(),
   editorialNote: id,
+  consumedPart: z.string().optional(),
+  scientificNames: ids.optional(),
+  verificationStatus: z.enum(['documented', 'reviewed']).optional(),
+  identityEvidenceIds: ids.optional(),
 });
 export const nameSchema = z.object({
   id,
@@ -32,6 +36,8 @@ export const nameSchema = z.object({
   status: z.enum(['candidate', 'documented', 'reviewed', 'rejected']),
   evidenceIds: ids,
   localContext: z.string().default(''),
+  nameType: z.enum(['common', 'local', 'spelling', 'input', 'scientific']).optional(),
+  ambiguity: z.string().optional(),
 });
 export const imageSchema = z.object({
   id,
@@ -51,6 +57,10 @@ export const imageSchema = z.object({
   description: z.string(),
   role: z.enum(['primary', 'complementary']).default('complementary'),
   depictedForm: z.string().default('non documentée'),
+  depictedProductId: z.string().optional(),
+  depictedPart: z.string().optional(),
+  visuallyCheckedAt: z.string().optional(),
+  visualCheckResult: z.string().optional(),
 });
 export const sourceSchema = z.object({
   id,
@@ -83,6 +93,16 @@ export const catalogueSchema = z.object({
         sourceId: id,
         locator: id,
         form: id,
+        relationType: z
+          .enum([
+            'consumption',
+            'recipe-use',
+            'cultivation',
+            'presence',
+            'botanical-origin',
+            'local-name',
+          ])
+          .optional(),
       }),
     )
     .default([]),

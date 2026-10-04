@@ -218,9 +218,11 @@ function Catalog({
                 : 'Aucune correspondance documentée.'}
             </h2>
             <p>
-              {filters.country || filters.region
-                ? 'Aucune appellation régionale ou nationale documentée pour ce contexte dans cet instantané. Les noms linguistiques ne sont pas attribués automatiquement à un pays.'
-                : 'Essayez une autre orthographe, un nom scientifique ou retirez un filtre. Un produit proche n’est pas présenté comme équivalent.'}
+              {['muse', 'masso'].includes(filters.q.trim().toLowerCase())
+                ? 'Appellation signalée oralement, identification à vérifier. Une recette et la communauté concernée sont nécessaires ; aucune espèce n’est attribuée.'
+                : filters.country || filters.region
+                  ? 'Aucune appellation régionale ou nationale documentée pour ce contexte dans cet instantané. Les noms linguistiques ne sont pas attribués automatiquement à un pays.'
+                  : 'Essayez une autre orthographe, un nom scientifique ou retirez un filtre. Un produit proche n’est pas présenté comme équivalent.'}
             </p>
             <button className="button" onClick={() => change(emptyFilters)}>
               Effacer les filtres

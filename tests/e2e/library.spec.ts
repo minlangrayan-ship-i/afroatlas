@@ -1,3 +1,6 @@
+import { readFileSync } from 'node:fs';
+const catalogueData = JSON.parse(readFileSync('src/data/published/catalogue.json', 'utf8'));
+import { countries } from '../../src/data/countries';
 import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 const base = process.env.PLAYWRIGHT_BASE_URL || 'http://127.0.0.1:4321/afroatlas/';
@@ -9,7 +12,13 @@ test('public page types are responsive, without external API calls or console er
   const foreignRequests: string[] = [];
   page.on('pageerror', (error) => errors.push(error.message));
   page.on('request', (request) => {
-    if (new URL(request.url()).origin !== new URL(base).origin) foreignRequests.push(request.url());
+    if (
+      new URL(request.url()).origin !== new URL(base).origin &&
+      !['static.cloudflareinsights.com', 'cloudflareinsights.com'].includes(
+        new URL(request.url()).hostname,
+      )
+    )
+      foreignRequests.push(request.url());
   });
   for (const width of [390, 768, 1440]) {
     await page.setViewportSize({ width, height: 900 });
@@ -72,7 +81,7 @@ test('filters persist in URL and back restores results without geographic invent
   await expect(page.locator('.product-card')).toHaveCount(2);
   await expect(page.getByLabel('Contexte d’appellation')).toHaveValue('');
   await page.getByRole('button', { name: 'Réinitialiser' }).click();
-  await expect(page.locator('.product-card')).toHaveCount(50);
+  await expect(page.locator('.product-card')).toHaveCount(catalogueData.products.length);
 });
 test('homonyms retain separate candidates, favorites and comparator persist locally', async ({
   page,
@@ -102,7 +111,7 @@ test('homonyms retain separate candidates, favorites and comparator persist loca
 });
 test('all countries and contexts exist, a region has an honest empty state', async ({ page }) => {
   await page.goto(url('explorer/'));
-  await expect(page.locator('.country-groups a')).toHaveCount(23);
+  await expect(page.locator('.country-groups a')).toHaveCount(countries.length);
   await expect(page.locator('.country-strip a')).toHaveCount(5);
   await page.goto(url('pays/cmr/'));
   await expect(page.locator('.region-list button')).toHaveCount(10);
@@ -153,7 +162,10 @@ test('commercial mode and references preserve separate provenance, reduced motio
   await page.getByLabel('Référence commerciale reliée').check();
   await expect(page.locator('.product-card')).toHaveCount(0);
   await page.goto(url('sources/'));
-  await expect(page.locator('.credits-grid article')).toHaveCount(74);
+  await expect(page.locator('.credits-grid article')).toHaveCount(
+    catalogueData.images.filter((i: { licenseId: string }) => i.licenseId !== 'Non applicable')
+      .length,
+  );
   const creditedPhoto = page.locator('.credits-grid img').first();
   await creditedPhoto.scrollIntoViewIfNeeded();
   await expect

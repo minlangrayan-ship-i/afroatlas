@@ -434,16 +434,18 @@
     {
       "id": "product-oseille-guinee",
       "slug": "oseille-guinee",
-      "labelFr": "Oseille de Guinée / roselle",
+      "labelFr": "Bissap / foléré — calices d’hibiscus séchés",
       "labelEn": "Hibiscus sabdariffa",
-      "description": "Fiche d’identification de Hibiscus sabdariffa. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
+      "description": "Calices séchés d’Hibiscus sabdariffa utilisés pour préparer des boissons. Ils sont distincts des feuilles alimentaires et de la boisson déjà préparée.",
       "categoryId": "vegetables",
-      "entityType": "taxon",
+      "entityType": "ingredient",
       "scientificName": "Hibiscus sabdariffa",
       "taxonId": "Q319390",
       "sourceIds": [
         "wikidata-Q319390",
-        "prota-hibiscus"
+        "prota-hibiscus",
+        "feedback-hib-minresi",
+        "feedback-hib-study"
       ],
       "imageId": "shop-photo-oseille-guinee",
       "formTypes": [
@@ -451,7 +453,8 @@
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Consultez les contextes locaux ci-dessous : chaque usage est relié à sa propre source et à son périmètre.",
-      "editorialNote": "Photographie principale : séché. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies botaniques antérieures sont conservées comme compléments documentaires."
+      "editorialNote": "Calices rouges séchés, pas « feuilles violettes ». Les appellations de la plante peuvent désigner plusieurs parties : précisez calices, feuilles ou boisson.",
+      "consumedPart": "calices"
     },
     {
       "id": "product-niebe",
@@ -691,8 +694,8 @@
       "id": "product-epinard",
       "slug": "epinard",
       "labelFr": "Épinard",
-      "labelEn": "Spinacia oleracea",
-      "description": "Fiche d’identification de Spinacia oleracea. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
+      "labelEn": "Spinach",
+      "description": "Feuilles de Spinacia oleracea, l’épinard classique. Le waterleaf (Talinum fruticosum) et les légumes appelés « spinach » dans d’autres contextes ne sont pas cette espèce.",
       "categoryId": "vegetables",
       "entityType": "taxon",
       "scientificName": "Spinacia oleracea",
@@ -700,13 +703,14 @@
       "sourceIds": [
         "wikidata-Q81464"
       ],
-      "imageId": "shop-photo-epinard",
+      "imageId": "reviewed-photo-epinard",
       "formTypes": [
         "frais"
       ],
       "verifiedAt": "2026-10-04",
       "usage": null,
-      "editorialNote": "Photographie principale : frais. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies botaniques antérieures sont conservées comme compléments documentaires."
+      "editorialNote": "Ancienne photographie écartée : identification botanique insuffisante malgré sa légende « spinach ». Nouvelle photographie de feuilles récoltées, vérifiée visuellement et sourcée.",
+      "consumedPart": "feuilles"
     },
     {
       "id": "product-tilapia-nil",
@@ -860,7 +864,7 @@
       "slug": "eru",
       "labelFr": "Eru — feuilles de Gnetum",
       "labelEn": "Gnetum africanum",
-      "description": "Eru — feuilles de Gnetum. Forme de cette fiche : frais. Les noms de l’espèce et ceux d’un condiment ou d’un plat sont distingués dans les preuves.",
+      "description": "Feuilles alimentaires commercialisées sous des noms comme eru ou okok. Deux espèces proches, Gnetum africanum et Gnetum buchholzianum, sont concernées ; le nom commercial ne garantit pas l’espèce.",
       "categoryId": "vegetables",
       "entityType": "taxon",
       "scientificName": "Gnetum africanum",
@@ -868,7 +872,10 @@
       "sourceIds": [
         "prota-gnetum",
         "wikidata-Q5574228",
-        "fao-eru"
+        "fao-eru",
+        "feedback-gnetum",
+        "feedback-gabon",
+        "feedback-gnq"
       ],
       "imageId": "shop-photo-eru",
       "formTypes": [
@@ -876,7 +883,12 @@
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Consultez les contextes locaux ci-dessous : chaque usage est relié à sa propre source et à son périmètre.",
-      "editorialNote": "Photographie principale : frais. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies botaniques antérieures sont conservées comme compléments documentaires."
+      "editorialNote": "Photographie principale : frais. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies botaniques antérieures sont conservées comme compléments documentaires.",
+      "scientificNames": [
+        "Gnetum africanum",
+        "Gnetum buchholzianum"
+      ],
+      "consumedPart": "feuilles"
     },
     {
       "id": "product-njansang",
@@ -1036,16 +1048,18 @@
     {
       "id": "product-bissap-feuilles",
       "slug": "bissap-feuilles",
-      "labelFr": "Hibiscus — feuilles alimentaires",
+      "labelFr": "Foléré / oseille de Guinée — feuilles alimentaires",
       "labelEn": "Hibiscus sabdariffa",
-      "description": "Hibiscus — feuilles alimentaires. Forme de cette fiche : frais. Les noms de l’espèce et ceux d’un condiment ou d’un plat sont distingués dans les preuves.",
+      "description": "Feuilles d’Hibiscus sabdariffa employées comme légume. Cette partie est distincte des calices rouges séchés servant aux boissons.",
       "categoryId": "vegetables",
-      "entityType": "taxon",
+      "entityType": "ingredient",
       "scientificName": "Hibiscus sabdariffa",
       "taxonId": "Q319390",
       "sourceIds": [
         "fao-bissap-leaves",
-        "wikidata-Q319390"
+        "wikidata-Q319390",
+        "feedback-hib-minresi",
+        "feedback-hib-study"
       ],
       "imageId": "photo-gap-bissap-feuilles",
       "formTypes": [
@@ -1053,7 +1067,8 @@
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Consultez les contextes locaux ci-dessous : chaque usage est relié à sa propre source et à son périmètre.",
-      "editorialNote": "Photographie de la forme vendue encore recherchée. Une vue botanique ou un spécimen ne remplace pas une photographie principale du produit."
+      "editorialNote": "Photographie de la forme vendue encore recherchée. Une vue botanique ou un spécimen ne remplace pas une photographie principale du produit.",
+      "consumedPart": "feuilles"
     },
     {
       "id": "product-gombo-poudre",
@@ -1076,6 +1091,514 @@
       "verifiedAt": "2026-10-04",
       "usage": "Consultez les contextes locaux ci-dessous : chaque usage est relié à sa propre source et à son périmètre.",
       "editorialNote": "Photographie de la forme vendue encore recherchée. Une vue botanique ou un spécimen ne remplace pas une photographie principale du produit."
+    },
+    {
+      "id": "product-waterleaf",
+      "slug": "waterleaf",
+      "labelFr": "Waterleaf — feuilles de talinum",
+      "labelEn": "Waterleaf",
+      "labelAr": null,
+      "description": "Légume-feuille succulent, distinct de l’épinard Spinacia oleracea. Talinum triangulare est traité comme synonyme par Kew. PROTA décrit son association avec les feuilles d’eru au Cameroun.",
+      "categoryId": "vegetables",
+      "entityType": "ingredient",
+      "scientificName": "Talinum fruticosum",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-water-kew",
+        "feedback-water-prota",
+        "feedback-water-bio"
+      ],
+      "imageId": "photo-gap-waterleaf",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Légume-feuille succulent, distinct de l’épinard Spinacia oleracea. Talinum triangulare est traité comme synonyme par Kew. PROTA décrit son association avec les feuilles d’eru au Cameroun.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "feuilles et jeunes pousses",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-waterleaf-identity-water-kew",
+        "feedback-evidence-waterleaf-identity-water-prota",
+        "feedback-evidence-waterleaf-identity-water-bio"
+      ]
+    },
+    {
+      "id": "product-pebe",
+      "slug": "pebe",
+      "labelFr": "Pèbè — fausse muscade",
+      "labelEn": "Calabash nutmeg",
+      "labelAr": null,
+      "description": "Graines aromatiques de Monodora myristica utilisées comme condiment. Elles sont distinctes de la noix de muscade Myristica fragrans.",
+      "categoryId": "spices",
+      "entityType": "ingredient",
+      "scientificName": "Monodora myristica",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-pebe-prosea",
+        "feedback-pebe-eppo",
+        "feedback-spice-thesis",
+        "feedback-atlas"
+      ],
+      "imageId": "reviewed-photo-pebe",
+      "formTypes": [
+        "graines"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Graines aromatiques de Monodora myristica utilisées comme condiment. Elles sont distinctes de la noix de muscade Myristica fragrans.",
+      "editorialNote": "Photographie de graines achetées à un fournisseur : une entière, une ouverte. Elle ne représente pas la poudre. Crédit Slashme, CC BY-SA 4.0.",
+      "consumedPart": "graines / amandes",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-pebe-identity-pebe-prosea",
+        "feedback-evidence-pebe-identity-pebe-eppo",
+        "feedback-evidence-pebe-identity-spice-thesis",
+        "feedback-evidence-pebe-identity-atlas"
+      ]
+    },
+    {
+      "id": "product-rondelle",
+      "slug": "rondelle",
+      "labelFr": "Rondelle — graines aromatiques",
+      "labelEn": null,
+      "labelAr": null,
+      "description": "Condiment cité comme rondelle dans l’enquête de Fungo et al. menée dans douze villages de l’Est et du Sud camerounais. Ne pas confondre avec le fruit à quatre côtés.",
+      "categoryId": "spices",
+      "entityType": "ingredient",
+      "scientificName": "Afrostyrax lepidophyllus",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-forest-study"
+      ],
+      "imageId": "photo-gap-rondelle",
+      "formTypes": [
+        "graines"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Condiment cité comme rondelle dans l’enquête de Fungo et al. menée dans douze villages de l’Est et du Sud camerounais. Ne pas confondre avec le fruit à quatre côtés.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "graines",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-rondelle-identity-forest-study"
+      ]
+    },
+    {
+      "id": "product-quatre-cotes",
+      "slug": "quatre-cotes",
+      "labelFr": "Quatre côtés — fruit condimentaire",
+      "labelEn": "Aidan fruit",
+      "labelAr": null,
+      "description": "Fruit à quatre ailes employé comme condiment dans l’enquête camerounaise de 2009. La fiche porte sur le fruit, pas sur les graines isolées.",
+      "categoryId": "spices",
+      "entityType": "ingredient",
+      "scientificName": "Tetrapleura tetraptera",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-spice-thesis",
+        "feedback-tetra-eppo",
+        "feedback-tetra-iita"
+      ],
+      "imageId": "photo-gap-quatre-cotes",
+      "formTypes": [
+        "séché"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Fruit à quatre ailes employé comme condiment dans l’enquête camerounaise de 2009. La fiche porte sur le fruit, pas sur les graines isolées.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "fruit à quatre ailes",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-quatre-cotes-identity-spice-thesis",
+        "feedback-evidence-quatre-cotes-identity-tetra-eppo",
+        "feedback-evidence-quatre-cotes-identity-tetra-iita"
+      ]
+    },
+    {
+      "id": "product-maniguette",
+      "slug": "maniguette",
+      "labelFr": "Maniguette — grains de paradis",
+      "labelEn": "Melegueta pepper",
+      "labelAr": null,
+      "description": "Épice de la famille des Zingiberaceae. EPPO atteste les noms maniguette et poivre de Guinée. Ce dernier nom peut désigner d’autres épices et ne suffit pas à identifier un achat.",
+      "categoryId": "spices",
+      "entityType": "ingredient",
+      "scientificName": "Aframomum melegueta",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-maniguette",
+        "feedback-codex-spices"
+      ],
+      "imageId": "photo-gap-maniguette",
+      "formTypes": [
+        "graines"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Épice de la famille des Zingiberaceae. EPPO atteste les noms maniguette et poivre de Guinée. Ce dernier nom peut désigner d’autres épices et ne suffit pas à identifier un achat.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "graines",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-maniguette-identity-maniguette"
+      ]
+    },
+    {
+      "id": "product-poivre-sauvage",
+      "slug": "poivre-sauvage",
+      "labelFr": "Poivre sauvage — fruits de Piper guineense",
+      "labelEn": null,
+      "labelAr": null,
+      "description": "Fruits de Piper guineense recensés parmi les épices de la sauce jaune dans l’enquête camerounaise de 2009. Espèce distincte de la maniguette.",
+      "categoryId": "spices",
+      "entityType": "ingredient",
+      "scientificName": "Piper guineense",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-spice-thesis"
+      ],
+      "imageId": "photo-gap-poivre-sauvage",
+      "formTypes": [
+        "séché"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Fruits de Piper guineense recensés parmi les épices de la sauce jaune dans l’enquête camerounaise de 2009. Espèce distincte de la maniguette.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "fruits",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-poivre-sauvage-identity-spice-thesis"
+      ]
+    },
+    {
+      "id": "product-poivre-ethiopie",
+      "slug": "poivre-ethiopie",
+      "labelFr": "Poivre d’Éthiopie — fruits de Xylopia",
+      "labelEn": null,
+      "labelAr": null,
+      "description": "Fruits de Xylopia aethiopica cités comme poivre d’Éthiopie dans le tableau des épices camerounaises. Il ne s’agit pas de graines de maniguette.",
+      "categoryId": "spices",
+      "entityType": "ingredient",
+      "scientificName": "Xylopia aethiopica",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-spice-thesis"
+      ],
+      "imageId": "photo-gap-poivre-ethiopie",
+      "formTypes": [
+        "séché"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Fruits de Xylopia aethiopica cités comme poivre d’Éthiopie dans le tableau des épices camerounaises. Il ne s’agit pas de graines de maniguette.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "fruits",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-poivre-ethiopie-identity-spice-thesis"
+      ]
+    },
+    {
+      "id": "product-managu",
+      "slug": "managu",
+      "labelFr": "Managu — morelles alimentaires",
+      "labelEn": "African nightshade",
+      "labelAr": null,
+      "description": "Nom kikuyu documenté pour un groupe de morelles alimentaires. Infonet distingue notamment S. americanum, S. scabrum et S. villosum ; le nom managu ne permet pas de choisir une espèce unique.",
+      "categoryId": "vegetables",
+      "entityType": "commercial-category",
+      "scientificName": "Solanum spp.",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-managu"
+      ],
+      "imageId": "photo-gap-managu",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Nom kikuyu documenté pour un groupe de morelles alimentaires. Infonet distingue notamment S. americanum, S. scabrum et S. villosum ; le nom managu ne permet pas de choisir une espèce unique.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "feuilles",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-managu-identity-managu"
+      ],
+      "scientificNames": [
+        "Solanum americanum",
+        "Solanum scabrum",
+        "Solanum villosum"
+      ]
+    },
+    {
+      "id": "product-amarantes-feuilles",
+      "slug": "amarantes-feuilles",
+      "labelFr": "Amarantes — feuilles alimentaires",
+      "labelEn": "Amaranth leaves",
+      "labelAr": null,
+      "description": "Groupe de légumes-feuilles de plusieurs espèces d’Amaranthus. Terere est documenté en kikuyu ; il ne doit pas être attribué exclusivement à Amaranthus cruentus.",
+      "categoryId": "vegetables",
+      "entityType": "commercial-category",
+      "scientificName": "Amaranthus spp.",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-amaranth"
+      ],
+      "imageId": "photo-gap-amarantes-feuilles",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Groupe de légumes-feuilles de plusieurs espèces d’Amaranthus. Terere est documenté en kikuyu ; il ne doit pas être attribué exclusivement à Amaranthus cruentus.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "feuilles",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-amarantes-feuilles-identity-amaranth"
+      ]
+    },
+    {
+      "id": "product-saga",
+      "slug": "saga",
+      "labelFr": "Saga — feuilles de gynandropsis",
+      "labelEn": "Spider plant",
+      "labelAr": null,
+      "description": "Légume-feuille présenté dans le guide de production du district de Suba au Kenya. Le guide emploie le nom scientifique Gynandropsis gynandra et le nom swahili saga.",
+      "categoryId": "vegetables",
+      "entityType": "ingredient",
+      "scientificName": "Gynandropsis gynandra",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-suba"
+      ],
+      "imageId": "photo-gap-saga",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Légume-feuille présenté dans le guide de production du district de Suba au Kenya. Le guide emploie le nom scientifique Gynandropsis gynandra et le nom swahili saga.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "feuilles",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-saga-identity-suba"
+      ]
+    },
+    {
+      "id": "product-niebe-feuilles",
+      "slug": "niebe-feuilles",
+      "labelFr": "Niébé — feuilles alimentaires",
+      "labelEn": "Cowpea leaves",
+      "labelAr": null,
+      "description": "Feuilles consommées comme légume, séparées ici des graines de niébé. Le nom kunde est attesté au Kenya en swahili et dans plusieurs communautés ; la forme doit être précisée.",
+      "categoryId": "vegetables",
+      "entityType": "ingredient",
+      "scientificName": "Vigna unguiculata",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-cowpea"
+      ],
+      "imageId": "photo-gap-niebe-feuilles",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Feuilles consommées comme légume, séparées ici des graines de niébé. Le nom kunde est attesté au Kenya en swahili et dans plusieurs communautés ; la forme doit être précisée.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "feuilles et pousses tendres",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-niebe-feuilles-identity-cowpea"
+      ]
+    },
+    {
+      "id": "product-manioc-feuilles",
+      "slug": "manioc-feuilles",
+      "labelFr": "Manioc — feuilles alimentaires",
+      "labelEn": "Cassava leaves",
+      "labelAr": null,
+      "description": "Feuilles de manioc utilisées en cuisine après préparation adaptée. Cette fiche est distincte des racines et des produits transformés ; elle ne constitue pas une recette de préparation.",
+      "categoryId": "vegetables",
+      "entityType": "ingredient",
+      "scientificName": "Manihot esculenta",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-cassava"
+      ],
+      "imageId": "photo-gap-manioc-feuilles",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Feuilles de manioc utilisées en cuisine après préparation adaptée. Cette fiche est distincte des racines et des produits transformés ; elle ne constitue pas une recette de préparation.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "feuilles",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-manioc-feuilles-identity-cassava"
+      ]
+    },
+    {
+      "id": "product-sukuma-feuilles",
+      "slug": "sukuma-feuilles",
+      "labelFr": "Sukuma — feuilles de chou non pommé",
+      "labelEn": null,
+      "labelAr": null,
+      "description": "Feuilles de chou non pommé présentées au Kenya par Infonet. Sukuma wiki peut aussi désigner le plat préparé : cette fiche concerne les feuilles, pas une recette.",
+      "categoryId": "vegetables",
+      "entityType": "ingredient",
+      "scientificName": "Brassica oleracea (Acephala Group)",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-kale"
+      ],
+      "imageId": "photo-gap-sukuma-feuilles",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Feuilles de chou non pommé présentées au Kenya par Infonet. Sukuma wiki peut aussi désigner le plat préparé : cette fiche concerne les feuilles, pas une recette.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "feuilles",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-sukuma-feuilles-identity-kale"
+      ]
+    },
+    {
+      "id": "product-macabo",
+      "slug": "macabo",
+      "labelFr": "Macabo — cormes de Xanthosoma",
+      "labelEn": "Tannia",
+      "labelAr": null,
+      "description": "Aracée cultivée pour ses organes souterrains alimentaires. EPPO avertit que ce nom botanique couvre parfois plusieurs xanthosomas cultivés. Distinct du taro Colocasia esculenta.",
+      "categoryId": "staples",
+      "entityType": "ingredient",
+      "scientificName": "Xanthosoma sagittifolium",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-macabo"
+      ],
+      "imageId": "photo-gap-macabo",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Aracée cultivée pour ses organes souterrains alimentaires. EPPO avertit que ce nom botanique couvre parfois plusieurs xanthosomas cultivés. Distinct du taro Colocasia esculenta.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "cormes et cormelles",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-macabo-identity-macabo"
+      ]
+    },
+    {
+      "id": "product-mais",
+      "slug": "mais",
+      "labelFr": "Maïs — grains",
+      "labelEn": "Maize",
+      "labelAr": null,
+      "description": "Céréale dont les grains sont consommés entiers ou transformés. Le maïs brut, sa farine et les bouillies comme l’ugali ne sont pas des produits identiques.",
+      "categoryId": "staples",
+      "entityType": "ingredient",
+      "scientificName": "Zea mays",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-maize"
+      ],
+      "imageId": "photo-gap-mais",
+      "formTypes": [
+        "graines"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Céréale dont les grains sont consommés entiers ou transformés. Le maïs brut, sa farine et les bouillies comme l’ugali ne sont pas des produits identiques.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "grains",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-mais-identity-maize"
+      ]
+    },
+    {
+      "id": "product-arachide",
+      "slug": "arachide",
+      "labelFr": "Arachide — graines",
+      "labelEn": "Groundnut",
+      "labelAr": null,
+      "description": "Graines alimentaires d’Arachis hypogaea. La fiche distingue la graine brute de la pâte, de l’huile et des préparations grillées.",
+      "categoryId": "staples",
+      "entityType": "ingredient",
+      "scientificName": "Arachis hypogaea",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-groundnut"
+      ],
+      "imageId": "photo-gap-arachide",
+      "formTypes": [
+        "graines"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Graines alimentaires d’Arachis hypogaea. La fiche distingue la graine brute de la pâte, de l’huile et des préparations grillées.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "graines",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-arachide-identity-groundnut"
+      ]
+    },
+    {
+      "id": "product-igname-alata",
+      "slug": "igname-alata",
+      "labelFr": "Igname ailée — tubercule",
+      "labelEn": "Water yam",
+      "labelAr": null,
+      "description": "Tubercule de Dioscorea alata. Le mot igname désigne plusieurs espèces : cette fiche ne représente pas toutes les ignames. Infonet documente sa commercialisation à Korhogo en Côte d’Ivoire.",
+      "categoryId": "staples",
+      "entityType": "ingredient",
+      "scientificName": "Dioscorea alata",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-yam"
+      ],
+      "imageId": "photo-gap-igname-alata",
+      "formTypes": [
+        "frais"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Tubercule de Dioscorea alata. Le mot igname désigne plusieurs espèces : cette fiche ne représente pas toutes les ignames. Infonet documente sa commercialisation à Korhogo en Côte d’Ivoire.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "tubercule",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-igname-alata-identity-yam"
+      ]
+    },
+    {
+      "id": "product-folere-boisson",
+      "slug": "folere-boisson",
+      "labelFr": "Foléré / bissap — boisson d’hibiscus",
+      "labelEn": null,
+      "labelAr": null,
+      "description": "Boisson issue des calices d’Hibiscus sabdariffa, étudiée à Maroua, Mokolo et Mora. Distincte des feuilles alimentaires et des calices vendus secs. Aucune qualité d’emblème national officiel n’est affirmée.",
+      "categoryId": "vegetables",
+      "entityType": "prepared-dish",
+      "scientificName": "Hibiscus sabdariffa",
+      "taxonId": null,
+      "sourceIds": [
+        "feedback-hib-drink",
+        "feedback-hib-minresi"
+      ],
+      "imageId": "photo-gap-folere-boisson",
+      "formTypes": [
+        "boisson"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": "Boisson issue des calices d’Hibiscus sabdariffa, étudiée à Maroua, Mokolo et Mora. Distincte des feuilles alimentaires et des calices vendus secs. Aucune qualité d’emblème national officiel n’est affirmée.",
+      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "consumedPart": "calices utilisés dans une boisson",
+      "verificationStatus": "documented",
+      "identityEvidenceIds": [
+        "feedback-evidence-folere-boisson-identity-hib-drink",
+        "feedback-evidence-folere-boisson-identity-hib-minresi"
+      ]
     }
   ],
   "images": [
@@ -2471,8 +2994,10 @@
       "retrievedAt": "2026-10-04",
       "title": "Fresh Spinach leaves.jpg",
       "description": "This image was uploaded as part of Wiki Loves Africa 2025 photographic contest.",
-      "role": "primary",
-      "depictedForm": "frais"
+      "role": "complementary",
+      "depictedForm": "frais",
+      "visualCheckResult": "Écartée de l’affichage : légende générique spinach, espèce non confirmée ; ne pas réattribuer arbitrairement.",
+      "visuallyCheckedAt": "2026-10-04"
     },
     {
       "slug": "eru",
@@ -2629,7 +3154,7 @@
       "smallPath": "/images/oseille-guinee-shop-400.webp",
       "width": 960,
       "height": 640,
-      "altFr": "oseille-guinee — forme illustrée : séché",
+      "altFr": "Calices rouges séchés d’Hibiscus sabdariffa pour infusion, pas des feuilles",
       "creator": "Popperipopp",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hibiscus_sabdariffa_dried.jpg",
       "licenseId": "CC BY 3.0",
@@ -2640,7 +3165,11 @@
       "title": "Hibiscus sabdariffa dried.jpg",
       "description": "Dried flowers of Hibiscus sabdariffa which are used for making tea.",
       "role": "primary",
-      "depictedForm": "séché"
+      "depictedForm": "séché",
+      "depictedPart": "calices",
+      "depictedProductId": "product-oseille-guinee",
+      "visuallyCheckedAt": "2026-10-04",
+      "visualCheckResult": "Calices rouges séchés inspectés ; forme conforme, pas des feuilles."
     },
     {
       "slug": "chou",
@@ -2662,9 +3191,1246 @@
       "description": "This is an image with the theme \" Farm to Plate \" from:",
       "role": "primary",
       "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-waterleaf",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1022555-2",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-pebe",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://plantuse.plantnet.org/en/Monodora_myristica_(PROSEA)",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "graines"
+    },
+    {
+      "id": "photo-gap-rondelle",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10270934/",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "graines"
+    },
+    {
+      "id": "photo-gap-quatre-cotes",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://docnum.univ-lorraine.fr/public/INPL_2009_ABDOU_BOUBA_A.pdf",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "séché"
+    },
+    {
+      "id": "photo-gap-maniguette",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://gd.eppo.int/taxon/AFRME",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "graines"
+    },
+    {
+      "id": "photo-gap-poivre-sauvage",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://docnum.univ-lorraine.fr/public/INPL_2009_ABDOU_BOUBA_A.pdf",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "séché"
+    },
+    {
+      "id": "photo-gap-poivre-ethiopie",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://docnum.univ-lorraine.fr/public/INPL_2009_ABDOU_BOUBA_A.pdf",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "séché"
+    },
+    {
+      "id": "photo-gap-managu",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://infonet-biovision.org/indigenous-plants/african-nightshade-revised",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-amarantes-feuilles",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://infonet-biovision.org/indigenous-plants/amaranth-revised",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-saga",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://infonet-biovision.org/sites/default/files/pdf/indigenous_veg_production_suba_district_ouma.pdf",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-niebe-feuilles",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://infonet-biovision.org/indigenous-plants/cowpea-revised",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-manioc-feuilles",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://infonet-biovision.org/indigenous-plants/cassava-leaves-new",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-sukuma-feuilles",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://infonet-biovision.org/crops-fruits-vegetables/cabbagekalesother-brassicas-revised",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-macabo",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://gd.eppo.int/taxon/XATSA",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-mais",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://plantuse.plantnet.org/en/Zea_mays_(PROTA)",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "graines"
+    },
+    {
+      "id": "photo-gap-arachide",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://plantuse.plantnet.org/en/Arachis_hypogaea_(PROTA)",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "graines"
+    },
+    {
+      "id": "photo-gap-igname-alata",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://infonet-biovision.org/crops-fruits-vegetables/yam",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "frais"
+    },
+    {
+      "id": "photo-gap-folere-boisson",
+      "localPath": "/favicon.svg",
+      "smallPath": "/favicon.svg",
+      "width": 100,
+      "height": 100,
+      "altFr": "Photo fiable de cette forme à venir",
+      "creator": "Sans photographie principale",
+      "sourcePageUrl": "https://issr-journals.org/links/papers.php?application=pdf&article=IJIAS-14-256-07&journal=ijias",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://creativecommons.org/",
+      "attribution": "Aucune photographie publiée pour cette forme",
+      "modifications": "Aucun",
+      "retrievedAt": "2026-10-04",
+      "title": "Photographie recherchée",
+      "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
+      "role": "complementary",
+      "depictedForm": "boisson"
+    },
+    {
+      "id": "reviewed-photo-epinard",
+      "localPath": "/images/epinard-reviewed-960.webp",
+      "smallPath": "/images/epinard-reviewed-400.webp",
+      "width": 960,
+      "height": 766,
+      "altFr": "Feuilles fraîches récoltées de Spinacia oleracea, épinard classique",
+      "creator": "Tiia Monto",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Spinach_leaves.png",
+      "licenseId": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Tiia Monto · Spinach leaves.png · CC BY-SA 4.0",
+      "modifications": "Redimensionnement et conversion WebP, transparence préservée, aucun recadrage",
+      "retrievedAt": "2026-10-04",
+      "title": "Spinach leaves.png",
+      "description": "Feuilles récoltées identifiées comme épinard sur Commons et utilisées par la page Spinacia oleracea",
+      "role": "primary",
+      "depictedForm": "frais",
+      "depictedPart": "feuilles",
+      "depictedProductId": "product-epinard",
+      "visuallyCheckedAt": "2026-10-04",
+      "visualCheckResult": "Feuilles récoltées ; morphologie compatible et identification de la page source vérifiée. Pas une expertise sur spécimen."
+    },
+    {
+      "id": "reviewed-photo-pebe",
+      "localPath": "/images/pebe-reviewed-960.webp",
+      "smallPath": "/images/pebe-reviewed-400.webp",
+      "width": 960,
+      "height": 530,
+      "altFr": "Graines de Monodora myristica : une graine entière et une ouverte montrant son amande",
+      "creator": "Slashme",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monodora_myristica_seeds.png",
+      "licenseId": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Slashme · Monodora myristica seeds.png · CC BY-SA 4.0",
+      "modifications": "Redimensionnement et conversion WebP ; aucun recadrage ; transparence originale conservée",
+      "retrievedAt": "2026-10-04",
+      "title": "Monodora myristica seeds.png",
+      "description": "Photographie de graines achetées auprès d’un fournisseur ; une entière et une ouverte",
+      "role": "primary",
+      "depictedForm": "graines",
+      "depictedPart": "graines / amandes",
+      "depictedProductId": "product-pebe",
+      "visuallyCheckedAt": "2026-10-04",
+      "visualCheckResult": "Graine entière et amande visibles ; identification source Monodora myristica et licence confirmées. Artefacts de détourages présents dans l’original."
     }
   ],
   "names": [
+    {
+      "id": "feedback-name-oseille-guinee-folere-CMR",
+      "productId": "product-oseille-guinee",
+      "formId": null,
+      "name": "Foléré",
+      "normalizedName": "folere",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [
+        "region-CMR-27767025B65184844379073"
+      ],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-oseille-guinee-folere-CMR",
+        "feedback-evidence-oseille-guinee-folere-CMR-hib-drink"
+      ],
+      "localContext": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-oseille-guinee-folere-global",
+      "productId": "product-oseille-guinee",
+      "formId": null,
+      "name": "Folere",
+      "normalizedName": "folere",
+      "languageCode": null,
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-oseille-guinee-folere-global"
+      ],
+      "localContext": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+      "nameType": "spelling"
+    },
+    {
+      "id": "feedback-name-bissap-feuilles-folere-CMR",
+      "productId": "product-bissap-feuilles",
+      "formId": null,
+      "name": "Foléré",
+      "normalizedName": "folere",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [
+        "region-CMR-27767025B65184844379073"
+      ],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-bissap-feuilles-folere-CMR",
+        "feedback-evidence-bissap-feuilles-folere-CMR-hib-drink"
+      ],
+      "localContext": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-bissap-feuilles-folere-global",
+      "productId": "product-bissap-feuilles",
+      "formId": null,
+      "name": "Folere",
+      "normalizedName": "folere",
+      "languageCode": null,
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-bissap-feuilles-folere-global"
+      ],
+      "localContext": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+      "nameType": "spelling"
+    },
+    {
+      "id": "feedback-name-folere-boisson-folere-CMR",
+      "productId": "product-folere-boisson",
+      "formId": null,
+      "name": "Foléré",
+      "normalizedName": "folere",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [
+        "region-CMR-27767025B65184844379073"
+      ],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-folere-boisson-folere-CMR",
+        "feedback-evidence-folere-boisson-folere-CMR-hib-drink"
+      ],
+      "localContext": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-folere-boisson-folere-global",
+      "productId": "product-folere-boisson",
+      "formId": null,
+      "name": "Folere",
+      "normalizedName": "folere",
+      "languageCode": null,
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-folere-boisson-folere-global"
+      ],
+      "localContext": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+      "nameType": "spelling"
+    },
+    {
+      "id": "feedback-name-waterleaf-waterleaf-global",
+      "productId": "product-waterleaf",
+      "formId": null,
+      "name": "Waterleaf",
+      "normalizedName": "waterleaf",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-waterleaf-waterleaf-global"
+      ],
+      "localContext": "Nom anglais ; pas un nom national camerounais.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-waterleaf-wataleaf-global",
+      "productId": "product-waterleaf",
+      "formId": null,
+      "name": "Wataleaf",
+      "normalizedName": "wataleaf",
+      "languageCode": null,
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-waterleaf-wataleaf-global"
+      ],
+      "localContext": "Variante de saisie issue du retour utilisateur ; pas une appellation traditionnelle attestée.",
+      "nameType": "input"
+    },
+    {
+      "id": "feedback-name-waterleaf-talinum-triangulare-global",
+      "productId": "product-waterleaf",
+      "formId": null,
+      "name": "Talinum triangulare",
+      "normalizedName": "talinum triangulare",
+      "languageCode": null,
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-waterleaf-talinum-triangulare-global"
+      ],
+      "localContext": "Synonyme scientifique de Talinum fruticosum.",
+      "nameType": "scientific"
+    },
+    {
+      "id": "feedback-name-waterleaf-grasse-global",
+      "productId": "product-waterleaf",
+      "formId": null,
+      "name": "Grassé",
+      "normalizedName": "grasse",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-waterleaf-grasse-global"
+      ],
+      "localContext": "Nom français documenté.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-waterleaf-pourpier-tropical-global",
+      "productId": "product-waterleaf",
+      "formId": null,
+      "name": "Pourpier tropical",
+      "normalizedName": "pourpier tropical",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-waterleaf-pourpier-tropical-global"
+      ],
+      "localContext": "Nom français documenté.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-waterleaf-bolki-CMR",
+      "productId": "product-waterleaf",
+      "formId": null,
+      "name": "bolki",
+      "normalizedName": "bolki",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-waterleaf-bolki-CMR"
+      ],
+      "localContext": "Cameroun dans PROTA ; langue et région non précisées.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-waterleaf-belok-sup-CMR",
+      "productId": "product-waterleaf",
+      "formId": null,
+      "name": "belok-sup",
+      "normalizedName": "belok sup",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-waterleaf-belok-sup-CMR"
+      ],
+      "localContext": "Cameroun dans PROTA ; langue et région non précisées.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-waterleaf-gbure-NGA",
+      "productId": "product-waterleaf",
+      "formId": null,
+      "name": "Gbure",
+      "normalizedName": "gbure",
+      "languageCode": "yo",
+      "countryIds": [
+        "NGA"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-waterleaf-gbure-NGA"
+      ],
+      "localContext": "Yoruba ; usage au sud du Nigeria décrit par PROTA.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-pebe-pebe-CMR",
+      "productId": "product-pebe",
+      "formId": null,
+      "name": "Pèbè",
+      "normalizedName": "pebe",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-pebe-pebe-CMR"
+      ],
+      "localContext": "Atlas des aliments au Cameroun, VI.10.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-pebe-fausse-noix-muscade-global",
+      "productId": "product-pebe",
+      "formId": null,
+      "name": "Fausse noix muscade",
+      "normalizedName": "fausse noix muscade",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-pebe-fausse-noix-muscade-global"
+      ],
+      "localContext": "Nom de l’épice ; distinct de Myristica fragrans.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-rondelle-rondelle-CMR",
+      "productId": "product-rondelle",
+      "formId": null,
+      "name": "Rondelle",
+      "normalizedName": "rondelle",
+      "languageCode": "fr",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-rondelle-rondelle-CMR"
+      ],
+      "localContext": "Enquête dans douze villages de l’Est et du Sud ; langue vernaculaire non précisée.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-quatre-cotes-quatre-cotes-global",
+      "productId": "product-quatre-cotes",
+      "formId": null,
+      "name": "Quatre côtés",
+      "normalizedName": "quatre cotes",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-quatre-cotes-quatre-cotes-global"
+      ],
+      "localContext": "Libellé descriptif du fruit à quatre ailes ; pas la rondelle.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-quatre-cotes-essesse-CMR",
+      "productId": "product-quatre-cotes",
+      "formId": null,
+      "name": "Essèssé",
+      "normalizedName": "essesse",
+      "languageCode": "dua",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-quatre-cotes-essesse-CMR"
+      ],
+      "localContext": "Douala ; p.46, orthographe de la thèse.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-quatre-cotes-sasas-CMR",
+      "productId": "product-quatre-cotes",
+      "formId": null,
+      "name": "Sasâs",
+      "normalizedName": "sasas",
+      "languageCode": "bas",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-quatre-cotes-sasas-CMR"
+      ],
+      "localContext": "Bassa ; p.46, orthographe de la thèse.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-quatre-cotes-akwa-CMR",
+      "productId": "product-quatre-cotes",
+      "formId": null,
+      "name": "Akwa",
+      "normalizedName": "akwa",
+      "languageCode": "ewo",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-quatre-cotes-akwa-CMR"
+      ],
+      "localContext": "Ewondo ; p.46, orthographe de la thèse.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-quatre-cotes-sepan-CMR",
+      "productId": "product-quatre-cotes",
+      "formId": null,
+      "name": "Sepan",
+      "normalizedName": "sepan",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-quatre-cotes-sepan-CMR"
+      ],
+      "localContext": "Bangangté ; p.46, orthographe de la thèse.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-quatre-cotes-aridan-NGA",
+      "productId": "product-quatre-cotes",
+      "formId": null,
+      "name": "Aridan",
+      "normalizedName": "aridan",
+      "languageCode": "yo",
+      "countryIds": [
+        "NGA"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-quatre-cotes-aridan-NGA"
+      ],
+      "localContext": "Yoruba dans la fiche IITA.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-maniguette-maniguette-global",
+      "productId": "product-maniguette",
+      "formId": null,
+      "name": "Maniguette",
+      "normalizedName": "maniguette",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-maniguette-maniguette-global"
+      ],
+      "localContext": "EPPO ; espèce Aframomum melegueta.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-maniguette-poivre-de-guinee-global",
+      "productId": "product-maniguette",
+      "formId": null,
+      "name": "Poivre de Guinée",
+      "normalizedName": "poivre de guinee",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-maniguette-poivre-de-guinee-global"
+      ],
+      "localContext": "Nom ambigu ; comparer la forme et l’espèce.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-poivre-sauvage-poivre-sauvage-CMR",
+      "productId": "product-poivre-sauvage",
+      "formId": null,
+      "name": "Poivre sauvage",
+      "normalizedName": "poivre sauvage",
+      "languageCode": "fr",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-poivre-sauvage-poivre-sauvage-CMR"
+      ],
+      "localContext": "p.81, tableau 2 ; fruits de Piper guineense.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-poivre-ethiopie-poivre-d-ethiopie-CMR",
+      "productId": "product-poivre-ethiopie",
+      "formId": null,
+      "name": "Poivre d’Éthiopie",
+      "normalizedName": "poivre d’ethiopie",
+      "languageCode": "fr",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-poivre-ethiopie-poivre-d-ethiopie-CMR"
+      ],
+      "localContext": "p.81, tableau 2 ; fruits de Xylopia aethiopica.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-managu-managu-KEN",
+      "productId": "product-managu",
+      "formId": null,
+      "name": "Managu",
+      "normalizedName": "managu",
+      "languageCode": "ki",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-managu-managu-KEN"
+      ],
+      "localContext": "Nom kikuyu du groupe des morelles alimentaires, sans espèce unique.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-managu-osuga-KEN",
+      "productId": "product-managu",
+      "formId": null,
+      "name": "Osuga",
+      "normalizedName": "osuga",
+      "languageCode": "luo",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-managu-osuga-KEN"
+      ],
+      "localContext": "Nom luo du groupe des morelles alimentaires.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-managu-mnavu-KEN",
+      "productId": "product-managu",
+      "formId": null,
+      "name": "Mnavu",
+      "normalizedName": "mnavu",
+      "languageCode": "sw",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-managu-mnavu-KEN"
+      ],
+      "localContext": "Nom swahili ; plusieurs espèces.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-amarantes-feuilles-terere-KEN",
+      "productId": "product-amarantes-feuilles",
+      "formId": null,
+      "name": "Terere",
+      "normalizedName": "terere",
+      "languageCode": "ki",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-amarantes-feuilles-terere-KEN"
+      ],
+      "localContext": "Kikuyu ; groupe Amaranthus spp., pas exclusivement A. cruentus.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-amarantes-feuilles-mchicha-KEN",
+      "productId": "product-amarantes-feuilles",
+      "formId": null,
+      "name": "Mchicha",
+      "normalizedName": "mchicha",
+      "languageCode": "sw",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-amarantes-feuilles-mchicha-KEN"
+      ],
+      "localContext": "Swahili ; plusieurs amarantes alimentaires.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-amarantes-feuilles-folong-CMR",
+      "productId": "product-amarantes-feuilles",
+      "formId": null,
+      "name": "Folong",
+      "normalizedName": "folong",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-amarantes-feuilles-folong-CMR"
+      ],
+      "localContext": "Bulu et Ewondo dans la source ; plusieurs espèces possibles.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-saga-saga-KEN",
+      "productId": "product-saga",
+      "formId": null,
+      "name": "Saga",
+      "normalizedName": "saga",
+      "languageCode": "sw",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-saga-saga-KEN"
+      ],
+      "localContext": "Swahili ; guide de production du district de Suba.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-saga-chinsaga-KEN",
+      "productId": "product-saga",
+      "formId": null,
+      "name": "Chinsaga",
+      "normalizedName": "chinsaga",
+      "languageCode": "local-und",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-saga-chinsaga-KEN"
+      ],
+      "localContext": "Kisii dans le guide ; ne pas étendre à toutes les communautés.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-niebe-feuilles-kunde-KEN",
+      "productId": "product-niebe-feuilles",
+      "formId": null,
+      "name": "Kunde",
+      "normalizedName": "kunde",
+      "languageCode": "sw",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-niebe-feuilles-kunde-KEN"
+      ],
+      "localContext": "Nom de la plante ; préciser feuilles plutôt que graines.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-niebe-kunde-KEN",
+      "productId": "product-niebe",
+      "formId": null,
+      "name": "Kunde",
+      "normalizedName": "kunde",
+      "languageCode": "sw",
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-niebe-kunde-KEN"
+      ],
+      "localContext": "Nom de la plante ; préciser graines plutôt que feuilles.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-sukuma-feuilles-sukuma-wiki-KEN",
+      "productId": "product-sukuma-feuilles",
+      "formId": null,
+      "name": "Sukuma wiki",
+      "normalizedName": "sukuma wiki",
+      "languageCode": null,
+      "countryIds": [
+        "KEN"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-sukuma-feuilles-sukuma-wiki-KEN"
+      ],
+      "localContext": "Terme également employé pour le plat ; fiche consacrée aux feuilles.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-macabo-macabo-global",
+      "productId": "product-macabo",
+      "formId": null,
+      "name": "Macabo",
+      "normalizedName": "macabo",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-macabo-macabo-global"
+      ],
+      "localContext": "EPPO ; Xanthosoma cultivés, distinct de Colocasia esculenta.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-mais-muhindi-global",
+      "productId": "product-mais",
+      "formId": null,
+      "name": "Muhindi",
+      "normalizedName": "muhindi",
+      "languageCode": "sw",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-mais-muhindi-global"
+      ],
+      "localContext": "Nom swahili attesté sans périmètre national déduit.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-eru-nkumu-GAB",
+      "productId": "product-eru",
+      "formId": null,
+      "name": "Nkumu",
+      "normalizedName": "nkumu",
+      "languageCode": "local-und",
+      "countryIds": [
+        "GAB"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-eru-nkumu-GAB"
+      ],
+      "localContext": "Gabon dans le tableau du manuel ICRAF ; langue non précisée.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-eru-okok-GNQ",
+      "productId": "product-eru",
+      "formId": null,
+      "name": "Okok",
+      "normalizedName": "okok",
+      "languageCode": "fan",
+      "countryIds": [
+        "GNQ"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-eru-okok-GNQ"
+      ],
+      "localContext": "Fang en Guinée équatoriale ; Sunderland & Obama 2000 cité par Infonet.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-eru-gnetum-buchholzianum-global",
+      "productId": "product-eru",
+      "formId": null,
+      "name": "Gnetum buchholzianum",
+      "normalizedName": "gnetum buchholzianum",
+      "languageCode": null,
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-eru-gnetum-buchholzianum-global"
+      ],
+      "localContext": "Autre espèce concernée par la même catégorie alimentaire.",
+      "nameType": "scientific"
+    },
+    {
+      "id": "feedback-name-folere-boisson-oyoro-CMR",
+      "productId": "product-folere-boisson",
+      "formId": null,
+      "name": "Oyoro",
+      "normalizedName": "oyoro",
+      "languageCode": "local-und",
+      "countryIds": [
+        "CMR"
+      ],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-folere-boisson-oyoro-CMR"
+      ],
+      "localContext": "Nom de la boisson au Nord camerounais, introduction p.787.",
+      "nameType": "local"
+    },
+    {
+      "id": "feedback-name-folere-boisson-bissap-global",
+      "productId": "product-folere-boisson",
+      "formId": null,
+      "name": "Bissap",
+      "normalizedName": "bissap",
+      "languageCode": null,
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-folere-boisson-bissap-global"
+      ],
+      "localContext": "Boisson ; ne pas confondre avec les feuilles ou les calices secs.",
+      "nameType": "common"
+    },
+    {
+      "id": "feedback-name-poivre-sauvage-poivrier-de-guinee-global",
+      "productId": "product-poivre-sauvage",
+      "formId": null,
+      "name": "Poivrier de Guinée",
+      "normalizedName": "poivrier de guinee",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "feedback-evidence-poivre-sauvage-poivrier-de-guinee-global"
+      ],
+      "localContext": "Nom de la plante dans EPPO ; comparer aux graines de maniguette.",
+      "nameType": "common"
+    },
     {
       "id": "name-gombo-fr-0",
       "productId": "product-gombo",
@@ -16350,6 +18116,285 @@
       "licenseId": "CC0-1.0",
       "retrievedAt": "2026-10-04",
       "datasetVersion": "2536338915"
+    },
+    {
+      "id": "feedback-water-prota",
+      "title": "Talinum triangulare — PROTA",
+      "publisher": "PROTA / Pl@ntUse",
+      "url": "https://plantuse.plantnet.org/en/Talinum_fruticosum_(PROTA)",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-water-kew",
+      "title": "Talinum triangulare : synonyme de Talinum fruticosum",
+      "publisher": "Kew POWO",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1022555-2",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-water-bio",
+      "title": "Waterleaf (New)",
+      "publisher": "Infonet Biovision",
+      "url": "https://infonet-biovision.org/indigenous-plants/waterleaf-new",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-hib-minresi",
+      "title": "Écho de la recherche n°37, mars 2018 — Foléré",
+      "publisher": "MINRESI Cameroun",
+      "url": "https://minresi.gov.cm/wp-content/uploads/2023/09/echo-mars-2018.pdf",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-hib-study",
+      "title": "Roselle grown in Sudano-Sahelian Cameroon",
+      "publisher": "Wouokoue et al., International Journal of Agronomy, 2025",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/ioa/5568972",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-hib-drink",
+      "title": "Technologie du jus de foléré à Maroua, Mokolo et Mora",
+      "publisher": "IJIAS, 2014",
+      "url": "https://issr-journals.org/links/papers.php?application=pdf&article=IJIAS-14-256-07&journal=ijias",
+      "licenseId": "CC BY ; version non précisée dans le document",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-spice-thesis",
+      "title": "Épices du Cameroun — thèse Abdou Bouba Armand, 2009",
+      "publisher": "INPL / Université de Ngaoundéré",
+      "url": "https://docnum.univ-lorraine.fr/public/INPL_2009_ABDOU_BOUBA_A.pdf",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-pebe-prosea",
+      "title": "Monodora myristica — graines condimentaires",
+      "publisher": "PROSEA / Pl@ntUse",
+      "url": "https://plantuse.plantnet.org/en/Monodora_myristica_(PROSEA)",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-pebe-eppo",
+      "title": "Monodora myristica (MDOMY)",
+      "publisher": "EPPO",
+      "url": "https://gd.eppo.int/taxon/MDOMY",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-atlas",
+      "title": "Atlas des aliments de consommation au Cameroun — pèbè, oseille",
+      "publisher": "RSD Institute",
+      "url": "https://rsd-institute.org/wp-content/uploads/2023/08/Atlas-Design-FR-17-avril-2021_compressed.pdf",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-forest-study",
+      "title": "Forest foods in twelve villages of eastern and southern Cameroon",
+      "publisher": "Fungo et al., Public Health Nutrition, 2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10270934/",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-rondelle-report",
+      "title": "Chaînes de valeur PFNL — fiche produit 3 Rondelle",
+      "publisher": "CTFC Cameroun",
+      "url": "https://www.foretcommunale-cameroun.org/download/rapportchainesvaleurspfnl.pdf",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-tetra-eppo",
+      "title": "Tetrapleura tetraptera (TLTTE)",
+      "publisher": "EPPO",
+      "url": "https://gd.eppo.int/taxon/TLTTE",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-tetra-iita",
+      "title": "Tetrapleura tetraptera — fruit à quatre ailes",
+      "publisher": "IITA",
+      "url": "https://forestcenter.iita.org/wp-content/uploads/2018/01/Tetrapleura-tetraptera.pdf",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-maniguette",
+      "title": "Aframomum melegueta (AFRME)",
+      "publisher": "EPPO",
+      "url": "https://gd.eppo.int/taxon/AFRME",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-codex-spices",
+      "title": "Codex — classification des épices, graines de grains de paradis",
+      "publisher": "FAO / Codex Alimentarius",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-736-04%252FCRDS%252Fsc04_crd03x.pdf",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-managu",
+      "title": "African Nightshade (Revised)",
+      "publisher": "Infonet Biovision",
+      "url": "https://infonet-biovision.org/indigenous-plants/african-nightshade-revised",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-amaranth",
+      "title": "Amaranth (Revised)",
+      "publisher": "Infonet Biovision",
+      "url": "https://infonet-biovision.org/indigenous-plants/amaranth-revised",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-suba",
+      "title": "Indigenous vegetables production and utilization in Suba district",
+      "publisher": "Ouma / Infonet Biovision",
+      "url": "https://infonet-biovision.org/sites/default/files/pdf/indigenous_veg_production_suba_district_ouma.pdf",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-cowpea",
+      "title": "Cowpea (Revised)",
+      "publisher": "Infonet Biovision",
+      "url": "https://infonet-biovision.org/indigenous-plants/cowpea-revised",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-cassava",
+      "title": "Cassava Leaves (New)",
+      "publisher": "Infonet Biovision",
+      "url": "https://infonet-biovision.org/indigenous-plants/cassava-leaves-new",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-kale",
+      "title": "Cabbage, Kales, other Brassicas",
+      "publisher": "Infonet Biovision",
+      "url": "https://infonet-biovision.org/crops-fruits-vegetables/cabbagekalesother-brassicas-revised",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-macabo",
+      "title": "Xanthosoma sagittifolium (XATSA)",
+      "publisher": "EPPO",
+      "url": "https://gd.eppo.int/taxon/XATSA",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-maize",
+      "title": "Zea mays (PROTA)",
+      "publisher": "PROTA / Pl@ntUse",
+      "url": "https://plantuse.plantnet.org/en/Zea_mays_(PROTA)",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-groundnut",
+      "title": "Arachis hypogaea (PROTA)",
+      "publisher": "PROTA / Pl@ntUse",
+      "url": "https://plantuse.plantnet.org/en/Arachis_hypogaea_(PROTA)",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-yam",
+      "title": "Yam — Dioscorea alata",
+      "publisher": "Infonet Biovision",
+      "url": "https://infonet-biovision.org/crops-fruits-vegetables/yam",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-gnetum",
+      "title": "Gnetum (New)",
+      "publisher": "Infonet Biovision",
+      "url": "https://www.infonet-biovision.org/indigenous-plants/gnetum-new",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-gabon",
+      "title": "Manuel de domestication des produits forestiers non ligneux, tome 1",
+      "publisher": "ICRAF, 2008",
+      "url": "https://www.cifor-icraf.org/publications/downloads/Publications/PDFS/B16168.pdf",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-gnq",
+      "title": "Produits forestiers non ligneux en Guinée équatoriale",
+      "publisher": "FAO / Sunderland et Obama",
+      "url": "https://www.fao.org/4/X2161F/x2161f23.htm",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-typing",
+      "title": "Retour utilisateur : Wataleaf, muse et masso",
+      "publisher": "Propriétaire AfroAtlas",
+      "url": "https://github.com/minlangrayan-ship-i/afroatlas/blob/main/docs/RESEARCH_FEEDBACK.md",
+      "licenseId": "Retour utilisateur ; ne prouve pas une appellation traditionnelle",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
+    },
+    {
+      "id": "feedback-piper-eppo",
+      "title": "Piper guineense (PIPGU)",
+      "publisher": "EPPO",
+      "url": "https://gd.eppo.int/taxon/PIPGU",
+      "licenseId": "Consultable publiquement ; licence ouverte non établie ; résumé original uniquement",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "Consultation éditoriale du 2026-10-04"
     }
   ],
   "evidence": [
@@ -24110,6 +26155,762 @@
       "shortNote": "Nom cité dans le périmètre : Taliouine uniquement ; pas tout le pays. Aucune généralisation nationale.",
       "checkedAt": "2026-10-04",
       "checkedBy": null
+    },
+    {
+      "id": "feedback-evidence-waterleaf-identity-water-kew",
+      "sourceId": "feedback-water-kew",
+      "assertionType": "product-identity-and-part",
+      "locator": "Kew : statut taxonomique ; PROTA : Vernacular names / Uses",
+      "shortNote": "Légume-feuille succulent, distinct de l’épinard Spinacia oleracea. Talinum triangulare est traité comme synonyme par Kew. PROTA décrit son association avec les feuilles d’eru au Cameroun.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-identity-water-prota",
+      "sourceId": "feedback-water-prota",
+      "assertionType": "product-identity-and-part",
+      "locator": "Kew : statut taxonomique ; PROTA : Vernacular names / Uses",
+      "shortNote": "Légume-feuille succulent, distinct de l’épinard Spinacia oleracea. Talinum triangulare est traité comme synonyme par Kew. PROTA décrit son association avec les feuilles d’eru au Cameroun.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-identity-water-bio",
+      "sourceId": "feedback-water-bio",
+      "assertionType": "product-identity-and-part",
+      "locator": "Kew : statut taxonomique ; PROTA : Vernacular names / Uses",
+      "shortNote": "Légume-feuille succulent, distinct de l’épinard Spinacia oleracea. Talinum triangulare est traité comme synonyme par Kew. PROTA décrit son association avec les feuilles d’eru au Cameroun.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-pebe-identity-pebe-prosea",
+      "sourceId": "feedback-pebe-prosea",
+      "assertionType": "product-identity-and-part",
+      "locator": "PROSEA Uses ; thèse p.81, tableau 2 ; Atlas VI.10",
+      "shortNote": "Graines aromatiques de Monodora myristica utilisées comme condiment. Elles sont distinctes de la noix de muscade Myristica fragrans.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-pebe-identity-pebe-eppo",
+      "sourceId": "feedback-pebe-eppo",
+      "assertionType": "product-identity-and-part",
+      "locator": "PROSEA Uses ; thèse p.81, tableau 2 ; Atlas VI.10",
+      "shortNote": "Graines aromatiques de Monodora myristica utilisées comme condiment. Elles sont distinctes de la noix de muscade Myristica fragrans.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-pebe-identity-spice-thesis",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "product-identity-and-part",
+      "locator": "PROSEA Uses ; thèse p.81, tableau 2 ; Atlas VI.10",
+      "shortNote": "Graines aromatiques de Monodora myristica utilisées comme condiment. Elles sont distinctes de la noix de muscade Myristica fragrans.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-pebe-identity-atlas",
+      "sourceId": "feedback-atlas",
+      "assertionType": "product-identity-and-part",
+      "locator": "PROSEA Uses ; thèse p.81, tableau 2 ; Atlas VI.10",
+      "shortNote": "Graines aromatiques de Monodora myristica utilisées comme condiment. Elles sont distinctes de la noix de muscade Myristica fragrans.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-rondelle-identity-forest-study",
+      "sourceId": "feedback-forest-study",
+      "assertionType": "product-identity-and-part",
+      "locator": "Tableau des aliments forestiers consommés ; rondelle",
+      "shortNote": "Condiment cité comme rondelle dans l’enquête de Fungo et al. menée dans douze villages de l’Est et du Sud camerounais. Ne pas confondre avec le fruit à quatre côtés.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-identity-spice-thesis",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "product-identity-and-part",
+      "locator": "Thèse p.46 et p.81, tableau 2 ; IITA Fruits/seeds",
+      "shortNote": "Fruit à quatre ailes employé comme condiment dans l’enquête camerounaise de 2009. La fiche porte sur le fruit, pas sur les graines isolées.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-identity-tetra-eppo",
+      "sourceId": "feedback-tetra-eppo",
+      "assertionType": "product-identity-and-part",
+      "locator": "Thèse p.46 et p.81, tableau 2 ; IITA Fruits/seeds",
+      "shortNote": "Fruit à quatre ailes employé comme condiment dans l’enquête camerounaise de 2009. La fiche porte sur le fruit, pas sur les graines isolées.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-identity-tetra-iita",
+      "sourceId": "feedback-tetra-iita",
+      "assertionType": "product-identity-and-part",
+      "locator": "Thèse p.46 et p.81, tableau 2 ; IITA Fruits/seeds",
+      "shortNote": "Fruit à quatre ailes employé comme condiment dans l’enquête camerounaise de 2009. La fiche porte sur le fruit, pas sur les graines isolées.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-maniguette-identity-maniguette",
+      "sourceId": "feedback-maniguette",
+      "assertionType": "product-identity-and-part",
+      "locator": "EPPO Common names",
+      "shortNote": "Épice de la famille des Zingiberaceae. EPPO atteste les noms maniguette et poivre de Guinée. Ce dernier nom peut désigner d’autres épices et ne suffit pas à identifier un achat.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-poivre-sauvage-identity-spice-thesis",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "product-identity-and-part",
+      "locator": "p.81, tableau 2, Piper guineense",
+      "shortNote": "Fruits de Piper guineense recensés parmi les épices de la sauce jaune dans l’enquête camerounaise de 2009. Espèce distincte de la maniguette.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-poivre-ethiopie-identity-spice-thesis",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "product-identity-and-part",
+      "locator": "p.81, tableau 2, Xylopia aethiopica",
+      "shortNote": "Fruits de Xylopia aethiopica cités comme poivre d’Éthiopie dans le tableau des épices camerounaises. Il ne s’agit pas de graines de maniguette.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-managu-identity-managu",
+      "sourceId": "feedback-managu",
+      "assertionType": "product-identity-and-part",
+      "locator": "Scientific Name / Local Names / Introduction",
+      "shortNote": "Nom kikuyu documenté pour un groupe de morelles alimentaires. Infonet distingue notamment S. americanum, S. scabrum et S. villosum ; le nom managu ne permet pas de choisir une espèce unique.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-amarantes-feuilles-identity-amaranth",
+      "sourceId": "feedback-amaranth",
+      "assertionType": "product-identity-and-part",
+      "locator": "Scientific Name / Local Names",
+      "shortNote": "Groupe de légumes-feuilles de plusieurs espèces d’Amaranthus. Terere est documenté en kikuyu ; il ne doit pas être attribué exclusivement à Amaranthus cruentus.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-saga-identity-suba",
+      "sourceId": "feedback-suba",
+      "assertionType": "product-identity-and-part",
+      "locator": "Fiche Spider plant / Local names",
+      "shortNote": "Légume-feuille présenté dans le guide de production du district de Suba au Kenya. Le guide emploie le nom scientifique Gynandropsis gynandra et le nom swahili saga.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-niebe-feuilles-identity-cowpea",
+      "sourceId": "feedback-cowpea",
+      "assertionType": "product-identity-and-part",
+      "locator": "Other Local names : Kenya / Introduction",
+      "shortNote": "Feuilles consommées comme légume, séparées ici des graines de niébé. Le nom kunde est attesté au Kenya en swahili et dans plusieurs communautés ; la forme doit être précisée.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-manioc-feuilles-identity-cassava",
+      "sourceId": "feedback-cassava",
+      "assertionType": "product-identity-and-part",
+      "locator": "Scientific Name / Uses",
+      "shortNote": "Feuilles de manioc utilisées en cuisine après préparation adaptée. Cette fiche est distincte des racines et des produits transformés ; elle ne constitue pas une recette de préparation.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-sukuma-feuilles-identity-kale",
+      "sourceId": "feedback-kale",
+      "assertionType": "product-identity-and-part",
+      "locator": "Photo et légende Sukuma — Brassica oleracea (Acephala Group), Kenya",
+      "shortNote": "Feuilles de chou non pommé présentées au Kenya par Infonet. Sukuma wiki peut aussi désigner le plat préparé : cette fiche concerne les feuilles, pas une recette.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-macabo-identity-macabo",
+      "sourceId": "feedback-macabo",
+      "assertionType": "product-identity-and-part",
+      "locator": "Notes / Common names",
+      "shortNote": "Aracée cultivée pour ses organes souterrains alimentaires. EPPO avertit que ce nom botanique couvre parfois plusieurs xanthosomas cultivés. Distinct du taro Colocasia esculenta.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-mais-identity-maize",
+      "sourceId": "feedback-maize",
+      "assertionType": "product-identity-and-part",
+      "locator": "Vernacular names / Uses",
+      "shortNote": "Céréale dont les grains sont consommés entiers ou transformés. Le maïs brut, sa farine et les bouillies comme l’ugali ne sont pas des produits identiques.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-arachide-identity-groundnut",
+      "sourceId": "feedback-groundnut",
+      "assertionType": "product-identity-and-part",
+      "locator": "Vernacular names / Uses",
+      "shortNote": "Graines alimentaires d’Arachis hypogaea. La fiche distingue la graine brute de la pâte, de l’huile et des préparations grillées.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-igname-alata-identity-yam",
+      "sourceId": "feedback-yam",
+      "assertionType": "product-identity-and-part",
+      "locator": "Scientific Name / Yam marketing, Korogho, Côte d’Ivoire, juin 1999",
+      "shortNote": "Tubercule de Dioscorea alata. Le mot igname désigne plusieurs espèces : cette fiche ne représente pas toutes les ignames. Infonet documente sa commercialisation à Korhogo en Côte d’Ivoire.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-folere-boisson-identity-hib-drink",
+      "sourceId": "feedback-hib-drink",
+      "assertionType": "product-identity-and-part",
+      "locator": "Article : jus de foléré ; MINRESI p.11",
+      "shortNote": "Boisson issue des calices d’Hibiscus sabdariffa, étudiée à Maroua, Mokolo et Mora. Distincte des feuilles alimentaires et des calices vendus secs. Aucune qualité d’emblème national officiel n’est affirmée.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-folere-boisson-identity-hib-minresi",
+      "sourceId": "feedback-hib-minresi",
+      "assertionType": "product-identity-and-part",
+      "locator": "Article : jus de foléré ; MINRESI p.11",
+      "shortNote": "Boisson issue des calices d’Hibiscus sabdariffa, étudiée à Maroua, Mokolo et Mora. Distincte des feuilles alimentaires et des calices vendus secs. Aucune qualité d’emblème national officiel n’est affirmée.",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-oseille-guinee-folere-CMR",
+      "sourceId": "feedback-hib-minresi",
+      "assertionType": "name",
+      "locator": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "shortNote": "Foléré",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-oseille-guinee-folere-CMR-hib-drink",
+      "sourceId": "feedback-hib-drink",
+      "assertionType": "name-cross-check",
+      "locator": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "shortNote": "Foléré",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-oseille-guinee-folere-global",
+      "sourceId": "feedback-hib-study",
+      "assertionType": "name",
+      "locator": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+      "shortNote": "Folere",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-bissap-feuilles-folere-CMR",
+      "sourceId": "feedback-hib-minresi",
+      "assertionType": "name",
+      "locator": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "shortNote": "Foléré",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-bissap-feuilles-folere-CMR-hib-drink",
+      "sourceId": "feedback-hib-drink",
+      "assertionType": "name-cross-check",
+      "locator": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "shortNote": "Foléré",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-bissap-feuilles-folere-global",
+      "sourceId": "feedback-hib-study",
+      "assertionType": "name",
+      "locator": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+      "shortNote": "Folere",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-folere-boisson-folere-CMR",
+      "sourceId": "feedback-hib-minresi",
+      "assertionType": "name",
+      "locator": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "shortNote": "Foléré",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-folere-boisson-folere-CMR-hib-drink",
+      "sourceId": "feedback-hib-drink",
+      "assertionType": "name-cross-check",
+      "locator": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+      "shortNote": "Foléré",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-folere-boisson-folere-global",
+      "sourceId": "feedback-hib-study",
+      "assertionType": "name",
+      "locator": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+      "shortNote": "Folere",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-waterleaf-global",
+      "sourceId": "feedback-water-prota",
+      "assertionType": "name",
+      "locator": "Nom anglais ; pas un nom national camerounais.",
+      "shortNote": "Waterleaf",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-wataleaf-global",
+      "sourceId": "feedback-typing",
+      "assertionType": "input-variant",
+      "locator": "Variante de saisie issue du retour utilisateur ; pas une appellation traditionnelle attestée.",
+      "shortNote": "Wataleaf",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-talinum-triangulare-global",
+      "sourceId": "feedback-water-kew",
+      "assertionType": "name",
+      "locator": "Synonyme scientifique de Talinum fruticosum.",
+      "shortNote": "Talinum triangulare",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-grasse-global",
+      "sourceId": "feedback-water-bio",
+      "assertionType": "name",
+      "locator": "Nom français documenté.",
+      "shortNote": "Grassé",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-pourpier-tropical-global",
+      "sourceId": "feedback-water-bio",
+      "assertionType": "name",
+      "locator": "Nom français documenté.",
+      "shortNote": "Pourpier tropical",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-bolki-CMR",
+      "sourceId": "feedback-water-prota",
+      "assertionType": "name",
+      "locator": "Cameroun dans PROTA ; langue et région non précisées.",
+      "shortNote": "bolki",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-belok-sup-CMR",
+      "sourceId": "feedback-water-prota",
+      "assertionType": "name",
+      "locator": "Cameroun dans PROTA ; langue et région non précisées.",
+      "shortNote": "belok-sup",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-waterleaf-gbure-NGA",
+      "sourceId": "feedback-water-bio",
+      "assertionType": "name",
+      "locator": "Yoruba ; usage au sud du Nigeria décrit par PROTA.",
+      "shortNote": "Gbure",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-pebe-pebe-CMR",
+      "sourceId": "feedback-atlas",
+      "assertionType": "name",
+      "locator": "Atlas des aliments au Cameroun, VI.10.",
+      "shortNote": "Pèbè",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-pebe-fausse-noix-muscade-global",
+      "sourceId": "feedback-pebe-prosea",
+      "assertionType": "name",
+      "locator": "Nom de l’épice ; distinct de Myristica fragrans.",
+      "shortNote": "Fausse noix muscade",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-rondelle-rondelle-CMR",
+      "sourceId": "feedback-forest-study",
+      "assertionType": "name",
+      "locator": "Enquête dans douze villages de l’Est et du Sud ; langue vernaculaire non précisée.",
+      "shortNote": "Rondelle",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-quatre-cotes-global",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "name",
+      "locator": "Libellé descriptif du fruit à quatre ailes ; pas la rondelle.",
+      "shortNote": "Quatre côtés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-essesse-CMR",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "name",
+      "locator": "Douala ; p.46, orthographe de la thèse.",
+      "shortNote": "Essèssé",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-sasas-CMR",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "name",
+      "locator": "Bassa ; p.46, orthographe de la thèse.",
+      "shortNote": "Sasâs",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-akwa-CMR",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "name",
+      "locator": "Ewondo ; p.46, orthographe de la thèse.",
+      "shortNote": "Akwa",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-sepan-CMR",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "name",
+      "locator": "Bangangté ; p.46, orthographe de la thèse.",
+      "shortNote": "Sepan",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-quatre-cotes-aridan-NGA",
+      "sourceId": "feedback-tetra-iita",
+      "assertionType": "name",
+      "locator": "Yoruba dans la fiche IITA.",
+      "shortNote": "Aridan",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-maniguette-maniguette-global",
+      "sourceId": "feedback-maniguette",
+      "assertionType": "name",
+      "locator": "EPPO ; espèce Aframomum melegueta.",
+      "shortNote": "Maniguette",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-maniguette-poivre-de-guinee-global",
+      "sourceId": "feedback-maniguette",
+      "assertionType": "name",
+      "locator": "Nom ambigu ; comparer la forme et l’espèce.",
+      "shortNote": "Poivre de Guinée",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-poivre-sauvage-poivre-sauvage-CMR",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "name",
+      "locator": "p.81, tableau 2 ; fruits de Piper guineense.",
+      "shortNote": "Poivre sauvage",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-poivre-ethiopie-poivre-d-ethiopie-CMR",
+      "sourceId": "feedback-spice-thesis",
+      "assertionType": "name",
+      "locator": "p.81, tableau 2 ; fruits de Xylopia aethiopica.",
+      "shortNote": "Poivre d’Éthiopie",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-managu-managu-KEN",
+      "sourceId": "feedback-managu",
+      "assertionType": "name",
+      "locator": "Nom kikuyu du groupe des morelles alimentaires, sans espèce unique.",
+      "shortNote": "Managu",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-managu-osuga-KEN",
+      "sourceId": "feedback-managu",
+      "assertionType": "name",
+      "locator": "Nom luo du groupe des morelles alimentaires.",
+      "shortNote": "Osuga",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-managu-mnavu-KEN",
+      "sourceId": "feedback-managu",
+      "assertionType": "name",
+      "locator": "Nom swahili ; plusieurs espèces.",
+      "shortNote": "Mnavu",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-amarantes-feuilles-terere-KEN",
+      "sourceId": "feedback-amaranth",
+      "assertionType": "name",
+      "locator": "Kikuyu ; groupe Amaranthus spp., pas exclusivement A. cruentus.",
+      "shortNote": "Terere",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-amarantes-feuilles-mchicha-KEN",
+      "sourceId": "feedback-amaranth",
+      "assertionType": "name",
+      "locator": "Swahili ; plusieurs amarantes alimentaires.",
+      "shortNote": "Mchicha",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-amarantes-feuilles-folong-CMR",
+      "sourceId": "feedback-amaranth",
+      "assertionType": "name",
+      "locator": "Bulu et Ewondo dans la source ; plusieurs espèces possibles.",
+      "shortNote": "Folong",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-saga-saga-KEN",
+      "sourceId": "feedback-suba",
+      "assertionType": "name",
+      "locator": "Swahili ; guide de production du district de Suba.",
+      "shortNote": "Saga",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-saga-chinsaga-KEN",
+      "sourceId": "feedback-suba",
+      "assertionType": "name",
+      "locator": "Kisii dans le guide ; ne pas étendre à toutes les communautés.",
+      "shortNote": "Chinsaga",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-niebe-feuilles-kunde-KEN",
+      "sourceId": "feedback-cowpea",
+      "assertionType": "name",
+      "locator": "Nom de la plante ; préciser feuilles plutôt que graines.",
+      "shortNote": "Kunde",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-niebe-kunde-KEN",
+      "sourceId": "feedback-cowpea",
+      "assertionType": "name",
+      "locator": "Nom de la plante ; préciser graines plutôt que feuilles.",
+      "shortNote": "Kunde",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-sukuma-feuilles-sukuma-wiki-KEN",
+      "sourceId": "feedback-kale",
+      "assertionType": "name",
+      "locator": "Terme également employé pour le plat ; fiche consacrée aux feuilles.",
+      "shortNote": "Sukuma wiki",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-macabo-macabo-global",
+      "sourceId": "feedback-macabo",
+      "assertionType": "name",
+      "locator": "EPPO ; Xanthosoma cultivés, distinct de Colocasia esculenta.",
+      "shortNote": "Macabo",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-mais-muhindi-global",
+      "sourceId": "feedback-maize",
+      "assertionType": "name",
+      "locator": "Nom swahili attesté sans périmètre national déduit.",
+      "shortNote": "Muhindi",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-eru-nkumu-GAB",
+      "sourceId": "feedback-gabon",
+      "assertionType": "name",
+      "locator": "Gabon dans le tableau du manuel ICRAF ; langue non précisée.",
+      "shortNote": "Nkumu",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-eru-okok-GNQ",
+      "sourceId": "feedback-gnetum",
+      "assertionType": "name",
+      "locator": "Fang en Guinée équatoriale ; Sunderland & Obama 2000 cité par Infonet.",
+      "shortNote": "Okok",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-eru-gnetum-buchholzianum-global",
+      "sourceId": "feedback-gnetum",
+      "assertionType": "name",
+      "locator": "Autre espèce concernée par la même catégorie alimentaire.",
+      "shortNote": "Gnetum buchholzianum",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-folere-boisson-oyoro-CMR",
+      "sourceId": "feedback-hib-drink",
+      "assertionType": "name",
+      "locator": "Nom de la boisson au Nord camerounais, introduction p.787.",
+      "shortNote": "Oyoro",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-folere-boisson-bissap-global",
+      "sourceId": "feedback-hib-drink",
+      "assertionType": "name",
+      "locator": "Boisson ; ne pas confondre avec les feuilles ou les calices secs.",
+      "shortNote": "Bissap",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-maniguette-seeds",
+      "sourceId": "feedback-codex-spices",
+      "assertionType": "product-part",
+      "locator": "Tableau grains de paradis / Aframomum melegueta",
+      "shortNote": "Graines employées comme épice",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-relation-oseille-guinee-bissap-feuilles",
+      "sourceId": "feedback-hib-minresi",
+      "assertionType": "product-relation",
+      "locator": "Espèce et partie / forme consommée",
+      "shortNote": "Produits distincts mais liés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-relation-oseille-guinee-folere-boisson",
+      "sourceId": "feedback-hib-drink",
+      "assertionType": "product-relation",
+      "locator": "Espèce et partie / forme consommée",
+      "shortNote": "Produits distincts mais liés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-relation-niebe-niebe-feuilles",
+      "sourceId": "feedback-cowpea",
+      "assertionType": "product-relation",
+      "locator": "Espèce et partie / forme consommée",
+      "shortNote": "Produits distincts mais liés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-relation-manioc-manioc-feuilles",
+      "sourceId": "feedback-cassava",
+      "assertionType": "product-relation",
+      "locator": "Espèce et partie / forme consommée",
+      "shortNote": "Produits distincts mais liés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-relation-chou-sukuma-feuilles",
+      "sourceId": "feedback-kale",
+      "assertionType": "product-relation",
+      "locator": "Espèce et partie / forme consommée",
+      "shortNote": "Produits distincts mais liés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-relation-amarante-amarantes-feuilles",
+      "sourceId": "feedback-amaranth",
+      "assertionType": "product-relation",
+      "locator": "Espèce et partie / forme consommée",
+      "shortNote": "Produits distincts mais liés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-relation-taro-macabo",
+      "sourceId": "feedback-macabo",
+      "assertionType": "product-relation",
+      "locator": "Espèce et partie / forme consommée",
+      "shortNote": "Produits distincts mais liés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-relation-waterleaf-epinard",
+      "sourceId": "feedback-water-kew",
+      "assertionType": "product-relation",
+      "locator": "Espèce et partie / forme consommée",
+      "shortNote": "Produits distincts mais liés",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
+    },
+    {
+      "id": "feedback-evidence-poivre-sauvage-poivrier-de-guinee-global",
+      "sourceId": "feedback-piper-eppo",
+      "assertionType": "name",
+      "locator": "Nom de la plante dans EPPO ; comparer aux graines de maniguette.",
+      "shortNote": "Poivrier de Guinée",
+      "checkedAt": "2026-10-04",
+      "checkedBy": "Revue documentaire assistée par IA ; pas de validation botanique sur spécimen"
     }
   ],
   "forms": [
@@ -24848,6 +27649,176 @@
       "sourceIds": [
         "wikidata-Q81464"
       ]
+    },
+    {
+      "id": "form-waterleaf-frais",
+      "productId": "product-waterleaf",
+      "formType": "frais",
+      "description": "feuilles et jeunes pousses",
+      "sourceIds": [
+        "feedback-water-kew",
+        "feedback-water-prota",
+        "feedback-water-bio"
+      ]
+    },
+    {
+      "id": "form-pebe-graines",
+      "productId": "product-pebe",
+      "formType": "graines",
+      "description": "graines / amandes",
+      "sourceIds": [
+        "feedback-pebe-prosea",
+        "feedback-pebe-eppo",
+        "feedback-spice-thesis",
+        "feedback-atlas"
+      ]
+    },
+    {
+      "id": "form-rondelle-graines",
+      "productId": "product-rondelle",
+      "formType": "graines",
+      "description": "graines",
+      "sourceIds": [
+        "feedback-forest-study"
+      ]
+    },
+    {
+      "id": "form-quatre-cotes-séché",
+      "productId": "product-quatre-cotes",
+      "formType": "séché",
+      "description": "fruit à quatre ailes",
+      "sourceIds": [
+        "feedback-spice-thesis",
+        "feedback-tetra-eppo",
+        "feedback-tetra-iita"
+      ]
+    },
+    {
+      "id": "form-maniguette-graines",
+      "productId": "product-maniguette",
+      "formType": "graines",
+      "description": "graines",
+      "sourceIds": [
+        "feedback-maniguette"
+      ]
+    },
+    {
+      "id": "form-poivre-sauvage-séché",
+      "productId": "product-poivre-sauvage",
+      "formType": "séché",
+      "description": "fruits",
+      "sourceIds": [
+        "feedback-spice-thesis"
+      ]
+    },
+    {
+      "id": "form-poivre-ethiopie-séché",
+      "productId": "product-poivre-ethiopie",
+      "formType": "séché",
+      "description": "fruits",
+      "sourceIds": [
+        "feedback-spice-thesis"
+      ]
+    },
+    {
+      "id": "form-managu-frais",
+      "productId": "product-managu",
+      "formType": "frais",
+      "description": "feuilles",
+      "sourceIds": [
+        "feedback-managu"
+      ]
+    },
+    {
+      "id": "form-amarantes-feuilles-frais",
+      "productId": "product-amarantes-feuilles",
+      "formType": "frais",
+      "description": "feuilles",
+      "sourceIds": [
+        "feedback-amaranth"
+      ]
+    },
+    {
+      "id": "form-saga-frais",
+      "productId": "product-saga",
+      "formType": "frais",
+      "description": "feuilles",
+      "sourceIds": [
+        "feedback-suba"
+      ]
+    },
+    {
+      "id": "form-niebe-feuilles-frais",
+      "productId": "product-niebe-feuilles",
+      "formType": "frais",
+      "description": "feuilles et pousses tendres",
+      "sourceIds": [
+        "feedback-cowpea"
+      ]
+    },
+    {
+      "id": "form-manioc-feuilles-frais",
+      "productId": "product-manioc-feuilles",
+      "formType": "frais",
+      "description": "feuilles",
+      "sourceIds": [
+        "feedback-cassava"
+      ]
+    },
+    {
+      "id": "form-sukuma-feuilles-frais",
+      "productId": "product-sukuma-feuilles",
+      "formType": "frais",
+      "description": "feuilles",
+      "sourceIds": [
+        "feedback-kale"
+      ]
+    },
+    {
+      "id": "form-macabo-frais",
+      "productId": "product-macabo",
+      "formType": "frais",
+      "description": "cormes et cormelles",
+      "sourceIds": [
+        "feedback-macabo"
+      ]
+    },
+    {
+      "id": "form-mais-graines",
+      "productId": "product-mais",
+      "formType": "graines",
+      "description": "grains",
+      "sourceIds": [
+        "feedback-maize"
+      ]
+    },
+    {
+      "id": "form-arachide-graines",
+      "productId": "product-arachide",
+      "formType": "graines",
+      "description": "graines",
+      "sourceIds": [
+        "feedback-groundnut"
+      ]
+    },
+    {
+      "id": "form-igname-alata-frais",
+      "productId": "product-igname-alata",
+      "formType": "frais",
+      "description": "tubercule",
+      "sourceIds": [
+        "feedback-yam"
+      ]
+    },
+    {
+      "id": "form-folere-boisson-boisson",
+      "productId": "product-folere-boisson",
+      "formType": "boisson",
+      "description": "calices utilisés dans une boisson",
+      "sourceIds": [
+        "feedback-hib-drink",
+        "feedback-hib-minresi"
+      ]
     }
   ],
   "relations": [
@@ -24862,6 +27833,62 @@
       "toId": "product-bissap-feuilles",
       "relationType": "same-ingredient-other-form",
       "evidenceIds": []
+    },
+    {
+      "fromId": "product-oseille-guinee",
+      "toId": "product-folere-boisson",
+      "relationType": "related-product",
+      "evidenceIds": [
+        "feedback-evidence-relation-oseille-guinee-folere-boisson"
+      ]
+    },
+    {
+      "fromId": "product-niebe",
+      "toId": "product-niebe-feuilles",
+      "relationType": "related-product",
+      "evidenceIds": [
+        "feedback-evidence-relation-niebe-niebe-feuilles"
+      ]
+    },
+    {
+      "fromId": "product-manioc",
+      "toId": "product-manioc-feuilles",
+      "relationType": "related-product",
+      "evidenceIds": [
+        "feedback-evidence-relation-manioc-manioc-feuilles"
+      ]
+    },
+    {
+      "fromId": "product-chou",
+      "toId": "product-sukuma-feuilles",
+      "relationType": "related-product",
+      "evidenceIds": [
+        "feedback-evidence-relation-chou-sukuma-feuilles"
+      ]
+    },
+    {
+      "fromId": "product-amarante",
+      "toId": "product-amarantes-feuilles",
+      "relationType": "related-product",
+      "evidenceIds": [
+        "feedback-evidence-relation-amarante-amarantes-feuilles"
+      ]
+    },
+    {
+      "fromId": "product-taro",
+      "toId": "product-macabo",
+      "relationType": "related-product",
+      "evidenceIds": [
+        "feedback-evidence-relation-taro-macabo"
+      ]
+    },
+    {
+      "fromId": "product-waterleaf",
+      "toId": "product-epinard",
+      "relationType": "related-product",
+      "evidenceIds": [
+        "feedback-evidence-relation-waterleaf-epinard"
+      ]
     }
   ],
   "culturalAreas": [],
@@ -25109,6 +28136,191 @@
       "sourceId": "saffron-taliouine",
       "locator": "Introduction / study area",
       "form": "séché"
+    },
+    {
+      "id": "feedback-context-waterleaf-CMR",
+      "productId": "product-waterleaf",
+      "countryId": "CMR",
+      "regionIds": [],
+      "localContext": "Cameroun — association waterleaf / eru",
+      "description": "PROTA décrit les pousses de waterleaf associées aux feuilles d’eru et au fufu. La source ne précise pas une région.",
+      "sourceId": "feedback-water-prota",
+      "locator": "Cameroun — association waterleaf / eru",
+      "form": "frais",
+      "relationType": "recipe-use"
+    },
+    {
+      "id": "feedback-context-eru-GNQ",
+      "productId": "product-eru",
+      "countryId": "GNQ",
+      "regionIds": [],
+      "localContext": "Malabo — marché documenté par FAO",
+      "description": "La FAO décrit la disponibilité de feuilles de Gnetum au marché de Malabo ; cela ne prouve pas un usage identique dans tout le pays.",
+      "sourceId": "feedback-gnq",
+      "locator": "Malabo — marché documenté par FAO",
+      "form": "frais",
+      "relationType": "consumption"
+    },
+    {
+      "id": "feedback-context-eru-GAB",
+      "productId": "product-eru",
+      "countryId": "GAB",
+      "regionIds": [],
+      "localContext": "Gabon — nkumu dans le manuel ICRAF",
+      "description": "Le manuel relie le nom nkumu au Gabon ; il ne documente pas une région ni une recette précise.",
+      "sourceId": "feedback-gabon",
+      "locator": "Gabon — nkumu dans le manuel ICRAF",
+      "form": "frais",
+      "relationType": "local-name"
+    },
+    {
+      "id": "feedback-context-igname-alata-CIV",
+      "productId": "product-igname-alata",
+      "countryId": "CIV",
+      "regionIds": [],
+      "localContext": "Korhogo — commercialisation, juin 1999",
+      "description": "La légende Infonet situe la vente de tubercules de Dioscorea alata à Korhogo. Observation historique, sans généralisation nationale.",
+      "sourceId": "feedback-yam",
+      "locator": "Korhogo — commercialisation, juin 1999",
+      "form": "frais",
+      "relationType": "consumption"
+    },
+    {
+      "id": "feedback-context-pebe-CMR",
+      "productId": "product-pebe",
+      "countryId": "CMR",
+      "regionIds": [],
+      "localContext": "Enquête sauce jaune, 2009, tableau 2",
+      "description": "Épice recensée dans l’enquête. Les recettes varient entre régions et ménages ; aucune composition nationale uniforme n’est déduite.",
+      "sourceId": "feedback-spice-thesis",
+      "locator": "Enquête sauce jaune, 2009, tableau 2",
+      "form": "graines",
+      "relationType": "recipe-use"
+    },
+    {
+      "id": "feedback-context-quatre-cotes-CMR",
+      "productId": "product-quatre-cotes",
+      "countryId": "CMR",
+      "regionIds": [],
+      "localContext": "Enquête sauce jaune, 2009, tableau 2",
+      "description": "Épice recensée dans l’enquête. Les recettes varient entre régions et ménages ; aucune composition nationale uniforme n’est déduite.",
+      "sourceId": "feedback-spice-thesis",
+      "locator": "Enquête sauce jaune, 2009, tableau 2",
+      "form": "séché",
+      "relationType": "recipe-use"
+    },
+    {
+      "id": "feedback-context-poivre-sauvage-CMR",
+      "productId": "product-poivre-sauvage",
+      "countryId": "CMR",
+      "regionIds": [],
+      "localContext": "Enquête sauce jaune, 2009, tableau 2",
+      "description": "Épice recensée dans l’enquête. Les recettes varient entre régions et ménages ; aucune composition nationale uniforme n’est déduite.",
+      "sourceId": "feedback-spice-thesis",
+      "locator": "Enquête sauce jaune, 2009, tableau 2",
+      "form": "séché",
+      "relationType": "recipe-use"
+    },
+    {
+      "id": "feedback-context-poivre-ethiopie-CMR",
+      "productId": "product-poivre-ethiopie",
+      "countryId": "CMR",
+      "regionIds": [],
+      "localContext": "Enquête sauce jaune, 2009, tableau 2",
+      "description": "Épice recensée dans l’enquête. Les recettes varient entre régions et ménages ; aucune composition nationale uniforme n’est déduite.",
+      "sourceId": "feedback-spice-thesis",
+      "locator": "Enquête sauce jaune, 2009, tableau 2",
+      "form": "séché",
+      "relationType": "recipe-use"
+    },
+    {
+      "id": "feedback-context-managu-KEN",
+      "productId": "product-managu",
+      "countryId": "KEN",
+      "regionIds": [],
+      "localContext": "Kenya — communautés précisées dans les appellations",
+      "description": "Légume-feuille décrit par Infonet ; les noms sont limités aux langues documentées.",
+      "sourceId": "feedback-managu",
+      "locator": "Kenya — communautés précisées dans les appellations",
+      "form": "frais",
+      "relationType": "consumption"
+    },
+    {
+      "id": "feedback-context-amarantes-feuilles-KEN",
+      "productId": "product-amarantes-feuilles",
+      "countryId": "KEN",
+      "regionIds": [],
+      "localContext": "Kenya — communautés précisées dans les appellations",
+      "description": "Légume-feuille décrit par Infonet ; les noms sont limités aux langues documentées.",
+      "sourceId": "feedback-amaranth",
+      "locator": "Kenya — communautés précisées dans les appellations",
+      "form": "frais",
+      "relationType": "consumption"
+    },
+    {
+      "id": "feedback-context-niebe-feuilles-KEN",
+      "productId": "product-niebe-feuilles",
+      "countryId": "KEN",
+      "regionIds": [],
+      "localContext": "Kenya — communautés précisées dans les appellations",
+      "description": "Légume-feuille décrit par Infonet ; les noms sont limités aux langues documentées.",
+      "sourceId": "feedback-cowpea",
+      "locator": "Kenya — communautés précisées dans les appellations",
+      "form": "frais",
+      "relationType": "consumption"
+    },
+    {
+      "id": "feedback-context-saga-KEN",
+      "productId": "product-saga",
+      "countryId": "KEN",
+      "regionIds": [],
+      "localContext": "District de Suba — guide de production",
+      "description": "Guide de production et utilisation des légumes indigènes du district de Suba.",
+      "sourceId": "feedback-suba",
+      "locator": "District de Suba — guide de production",
+      "form": "frais",
+      "relationType": "consumption"
+    },
+    {
+      "id": "feedback-context-sukuma-feuilles-KEN",
+      "productId": "product-sukuma-feuilles",
+      "countryId": "KEN",
+      "regionIds": [],
+      "localContext": "Kenya — chou non pommé",
+      "description": "La source décrit des feuilles de Brassica oleracea (Acephala Group) ; pas une identité avec le chou pommé.",
+      "sourceId": "feedback-kale",
+      "locator": "Kenya — chou non pommé",
+      "form": "frais",
+      "relationType": "consumption"
+    },
+    {
+      "id": "feedback-context-folere-boisson-CMR",
+      "productId": "product-folere-boisson",
+      "countryId": "CMR",
+      "regionIds": [
+        "region-CMR-27767025B65184844379073"
+      ],
+      "localContext": "Maroua, Mokolo et Mora",
+      "description": "Boisson étudiée dans trois villes de l’Extrême-Nord ; pas un statut d’emblème officiel.",
+      "sourceId": "feedback-hib-drink",
+      "locator": "Maroua, Mokolo et Mora",
+      "form": "boisson",
+      "relationType": "consumption"
+    },
+    {
+      "id": "feedback-context-rondelle-CMR",
+      "productId": "product-rondelle",
+      "countryId": "CMR",
+      "regionIds": [
+        "region-CMR-27767025B81519146961984",
+        "region-CMR-27767025B67924123829422"
+      ],
+      "localContext": "Douze villages de l’Est et du Sud — enquête 2016",
+      "description": "La rondelle figure dans le relevé des aliments forestiers consommés par les ménages enquêtés.",
+      "sourceId": "feedback-forest-study",
+      "locator": "Douze villages de l’Est et du Sud — enquête 2016",
+      "form": "graines",
+      "relationType": "consumption"
     }
   ]
 }

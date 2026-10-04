@@ -1,6 +1,7 @@
 ---
 import { africaPaths } from '../lib/maps';
 import { href } from '../lib/links';
+import { countries } from '../data/countries';
 const paths = africaPaths();
 ---
 
@@ -29,6 +30,6 @@ const paths = africaPaths();
   </svg>
   <p>
     Carte Natural Earth 5.1.2 · les petites îles peuvent ne pas être représentées à cette échelle.
-    La liste propose les 23 pays, dont le Niger et le Nigeria séparément.
+    La liste propose les {countries.length} pays, dont le Niger et le Nigeria séparément.
   </p>
 </div>

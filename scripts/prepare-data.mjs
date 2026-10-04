@@ -6,6 +6,7 @@ const normalize = (value) =>
     .normalize('NFD')
     .replace(/\p{Diacritic}/gu, '')
     .toLowerCase()
+    .replace(/[-‐‑–—]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 const searchIndex = Object.fromEntries(
@@ -16,7 +17,9 @@ const searchIndex = Object.fromEntries(
         [
           p.labelFr,
           p.labelEn || '',
+          p.labelAr || '',
           p.scientificName || '',
+          ...(p.scientificNames || []),
           ...catalogue.names.filter((n) => n.productId === p.id).map((n) => n.name),
         ]
           .map(normalize)

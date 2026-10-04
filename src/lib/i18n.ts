@@ -1,6 +1,14 @@
 // Hand-written interface translations. Documentary names are never machine translated.
 export type Locale = 'fr' | 'en' | 'ar';
 export const ui: Record<string, [string, string]> = {
+  'Identité documentée': ['Documented identity', 'هوية موثقة'],
+  'Plusieurs espèces possibles': ['Multiple possible species', 'عدة أنواع محتملة'],
+  'Préparation distincte': ['Distinct preparation', 'تحضير مستقل'],
+  'Appellation signalée oralement, identification à vérifier. Une recette et la communauté concernée sont nécessaires ; aucune espèce n’est attribuée.':
+    [
+      'Orally reported name, identification pending. A recipe and the relevant community are needed; no species has been assigned.',
+      'اسم منقول شفهيًا يحتاج إلى تحقق. يلزم ذكر وصفة والمجتمع المعني؛ لم يُنسب إلى أي نوع نباتي.',
+    ],
   'Nom arabe non documenté': ['Arabic name not documented', 'الاسم العربي غير موثق'],
   'Nom anglais non documenté': ['English name not documented', 'الاسم الإنجليزي غير موثق'],
   'Nom français non documenté': ['French name not documented', 'الاسم الفرنسي غير موثق'],
@@ -387,6 +395,15 @@ export const ui: Record<string, [string, string]> = {
     'لغة محلية لم يحددها المصدر',
   ],
   Cameroun: ['Cameroon', 'الكاميرون'],
+  Gabon: ['Gabon', 'الغابون'],
+  'Produits de base': ['Staple foods', 'الأغذية الأساسية'],
+  'Guinée équatoriale': ['Equatorial Guinea', 'غينيا الاستوائية'],
+  'Partie consommée': ['Edible part', 'الجزء المأكول'],
+  'Variante de saisie': ['Input variant', 'صيغة إدخال بديلة'],
+  'Produits liés, identités distinctes': [
+    'Related products, distinct identities',
+    'منتجات مرتبطة بهويات مختلفة',
+  ],
   'Côte d’Ivoire': ['Côte d’Ivoire', 'ساحل العاج'],
   Sénégal: ['Senegal', 'السنغال'],
   Maroc: ['Morocco', 'المغرب'],

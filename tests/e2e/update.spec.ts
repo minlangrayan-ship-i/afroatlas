@@ -1,3 +1,4 @@
+import { countries } from '../../src/data/countries';
 import { test, expect } from '@playwright/test';
 const base = process.env.PLAYWRIGHT_BASE_URL || 'http://127.0.0.1:4321/afroatlas/';
 test.beforeEach(async ({ page }) => {
@@ -8,7 +9,7 @@ test('Mali, Burkina Faso, Niger and Nigeria are distinct in map, search and form
   page,
 }) => {
   await page.goto(base + 'explorer/');
-  await expect(page.locator('.country-groups a')).toHaveCount(23);
+  await expect(page.locator('.country-groups a')).toHaveCount(countries.length);
   for (const [name, iso] of [
     ['Mali', 'mli'],
     ['Burkina Faso', 'bfa'],

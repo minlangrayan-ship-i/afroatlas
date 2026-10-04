@@ -1,5 +1,7 @@
 export const countries = [
   ['CM', 'CMR', 'Cameroun', 'Première sélection francophone'],
+  ['GA', 'GAB', 'Gabon', 'Afrique centrale'],
+  ['GQ', 'GNQ', 'Guinée équatoriale', 'Afrique centrale'],
   ['CI', 'CIV', 'Côte d’Ivoire', 'Première sélection francophone'],
   ['SN', 'SEN', 'Sénégal', 'Première sélection francophone'],
   ['BJ', 'BEN', 'Bénin', 'Première sélection francophone'],
@@ -35,6 +37,14 @@ export const languageNames: Record<string, string> = {
   en: 'Anglais',
   ar: 'Arabe',
   sw: 'Swahili',
+  ki: 'Kikuyu',
+  luo: 'Luo',
+  luy: 'Luhya',
+  dua: 'Douala',
+  bas: 'Bassa',
+  ewo: 'Ewondo',
+  fan: 'Fang',
+  bum: 'Bulu',
   wo: 'Wolof',
   yo: 'Yoruba',
   ha: 'Haoussa',
@@ -48,4 +58,5 @@ export const categories = [
   { id: 'spices', label: 'Épices & condiments', symbol: '✳' },
   { id: 'vegetables', label: 'Légumes & feuilles', symbol: '❧' },
   { id: 'fish', label: 'Poissons', symbol: '≈' },
+  { id: 'staples', label: 'Produits de base', symbol: '◌' },
 ];

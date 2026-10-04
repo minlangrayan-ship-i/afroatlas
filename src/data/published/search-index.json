@@ -72,11 +72,10 @@
     "manjano",
     "እርድ",
     "ሕርድ",
-    "acafrao-da-terra",
-    "acafrao indiano",
     "acafrao da terra",
+    "acafrao indiano",
     "tamotamo",
-    "al-kharkoum"
+    "al kharkoum"
   ],
   "product-piment-frutescens": [
     "piment (capsicum frutescens)",
@@ -95,14 +94,13 @@
     "فليفلة صينية",
     "ata rodo",
     "c. chinense",
-    "pimenta murupi",
-    "pimenta-murupi"
+    "pimenta murupi"
   ],
   "product-coriandre": [
     "coriandre",
     "coriandrum sativum",
     "coriande",
-    "coto-mili",
+    "coto mili",
     "persil chinois",
     "persil arabe",
     "coriandre chinoise",
@@ -122,18 +120,18 @@
   ],
   "product-fenugrec": [
     "fenugrec",
-    "trigonella foenum-graecum",
-    "trigonella fœnum-græcum",
+    "trigonella foenum graecum",
+    "trigonella fœnum græcum",
     "fenu grec",
     "trigonelle",
     "fenugreek",
-    "sickle-fruit fenugreek",
+    "sickle fruit fenugreek",
     "حلبة",
     "الحلبة",
     "الحلبة الرومية",
     "بسبسة",
     "ኣብሽ",
-    "feno-grego",
+    "feno grego",
     "alforva",
     "helba"
   ],
@@ -155,9 +153,8 @@
     "الشمر البري",
     "سذاب البر",
     "funcho",
-    "anis-doce",
+    "anis doce",
     "erva doce",
-    "erva-doce",
     "fiolho"
   ],
   "product-clou-girofle": [
@@ -180,11 +177,9 @@
     "kannafuru",
     "kaninfari",
     "ቅርንፉድ",
-    "cravo-da-india",
-    "cravinho-da-india",
     "cravo da india",
-    "cravinho",
     "cravinho da india",
+    "cravinho",
     "jirofo",
     "kronfel",
     "oud newwar"
@@ -204,7 +199,7 @@
     "حب الهال",
     "الحبهال",
     "cardamomo",
-    "cardamomo-verdadeiro"
+    "cardamomo verdadeiro"
   ],
   "product-muscade": [
     "muscadier / noix de muscade",
@@ -279,7 +274,7 @@
     "allium sativun",
     "ነጭ ሽንኩርት",
     "alho",
-    "alho-ordinario",
+    "alho ordinario",
     "tongolo gasy",
     "tongologasy",
     "tongolonkova"
@@ -381,12 +376,13 @@
     "purple amaranth",
     "prince's feather",
     "mexican grain amaranth",
-    "love-lies-bleeding",
+    "love lies bleeding",
     "قطيفة دموية"
   ],
   "product-oseille-guinee": [
-    "oseille de guinee / roselle",
+    "bissap / folere calices d’hibiscus seches",
     "hibiscus sabdariffa",
+    "folere",
     "karkade",
     "roselle",
     "carcade",
@@ -397,24 +393,25 @@
     "الكركديه",
     "zobo",
     "vinagreira",
-    "caruru-azedo"
+    "caruru azedo"
   ],
   "product-niebe": [
     "niebe",
     "vigna unguiculata",
+    "kunde",
     "voeme",
     "cowpea",
     "vigna unguiculata unguiculata cultivar group",
     "لوبياء ظفرية",
     "لوبياء بلدي",
     "mkunde",
-    "feijao-frade",
+    "feijao frade",
     "feijao mineiro",
-    "feijao-mancanha",
-    "feijao-chicharo",
-    "feijao-de-corda",
-    "feijao-miudo da china",
-    "feijao-careta",
+    "feijao mancanha",
+    "feijao chicharo",
+    "feijao de corda",
+    "feijao miudo da china",
+    "feijao careta",
     "macunde",
     "voanemba"
   ],
@@ -438,9 +435,8 @@
     "pataas",
     "dankali",
     "ስኳር ድንች",
-    "batata-doce",
-    "batatas-doces",
     "batata doce",
+    "batatas doces",
     "kunkundukunku",
     "vomanga",
     "batata"
@@ -449,7 +445,7 @@
     "manioc",
     "cassava",
     "manihot esculenta",
-    "saka-saka",
+    "saka saka",
     "magnoc",
     "mandioca",
     "cassava plant",
@@ -512,14 +508,13 @@
     "mlonge",
     "zogale",
     "ሽፈራው",
-    "acacia-branca",
-    "moringueiro",
     "acacia branca",
+    "moringueiro",
     "moxingo",
-    "arvore-rabanete-de-cavalo",
+    "arvore rabanete de cavalo",
     "moringa pterygosperma",
     "morangue",
-    "akasia-branka",
+    "akasia branka",
     "ananambo",
     "agnamorongo",
     "felimirongo",
@@ -601,7 +596,7 @@
     "sucrine",
     "courge muscade",
     "قرع مسكي",
-    "abobora-cheirosa"
+    "abobora cheirosa"
   ],
   "product-laitue": [
     "laitue",
@@ -623,12 +618,12 @@
   ],
   "product-epinard": [
     "epinard",
+    "spinach",
     "spinacia oleracea",
     "epinards",
     "epinard frais",
     "pousses d'epinard",
     "spinach plant",
-    "spinach",
     "سبانخ",
     "السبانخ",
     "اسفناخ",
@@ -643,7 +638,7 @@
     "genetically improved farmed tilapia",
     "gift",
     "بلطي نيلي",
-    "tilapia-do-nilo",
+    "tilapia do nilo",
     "tilapia nilotica",
     "sarotherodon niloticus",
     "tilapia neily"
@@ -658,7 +653,7 @@
     "mozambique tilapia",
     "black tilapia",
     "بلطي نيلي موزمبيقي",
-    "tilapia-de-mocambique"
+    "tilapia de mocambique"
   ],
   "product-sardinelle-ronde": [
     "sardinelle ronde",
@@ -709,12 +704,13 @@
     "african snook",
     "بياض نيلي",
     "لاطس",
-    "perca-do-nilo",
     "perca do nilo"
   ],
   "product-eru": [
-    "eru — feuilles de gnetum",
+    "eru feuilles de gnetum",
     "gnetum africanum",
+    "gnetum buchholzianum",
+    "nkumu",
     "okok",
     "koko",
     "mfumbua",
@@ -725,7 +721,7 @@
     "جنتوم أفريقي"
   ],
   "product-njansang": [
-    "njansang / akpi — amandes",
+    "njansang / akpi amandes",
     "ricinodendron heudelotii",
     "djansang",
     "njangsa",
@@ -739,7 +735,7 @@
     "kolou"
   ],
   "product-soumbala": [
-    "soumbala — condiment fermente",
+    "soumbala condiment fermente",
     "parkia biglobosa",
     "caroubier africain",
     "mimosa pourpre",
@@ -750,7 +746,7 @@
     "netetou"
   ],
   "product-baobab": [
-    "baobab — poudre de feuilles",
+    "baobab poudre de feuilles",
     "adansonia digitata",
     "baobab africain",
     "baobab",
@@ -766,7 +762,7 @@
     "oroupounna"
   ],
   "product-safran": [
-    "safran — stigmates seches",
+    "safran stigmates seches",
     "crocus sativus",
     "saffron crocus",
     "autumn crocus",
@@ -780,7 +776,7 @@
     "safran de taliouine"
   ],
   "product-cumin": [
-    "cumin — graines",
+    "cumin graines",
     "cuminum cyminum",
     "cumin",
     "cumin blanc",
@@ -796,7 +792,7 @@
     "الكمون"
   ],
   "product-menthe": [
-    "menthe verte — feuilles",
+    "menthe verte feuilles",
     "mentha spicata",
     "menthe nana",
     "menthe frisee",
@@ -817,14 +813,15 @@
     "فوتنج"
   ],
   "product-ndole": [
-    "vernonie — feuilles pour le ndole",
+    "vernonie feuilles pour le ndole",
     "vernonia amygdalina",
     "vernonie commune",
     "ndole"
   ],
   "product-bissap-feuilles": [
-    "hibiscus — feuilles alimentaires",
+    "folere / oseille de guinee feuilles alimentaires",
     "hibiscus sabdariffa",
+    "folere",
     "karkade",
     "roselle",
     "carcade",
@@ -833,10 +830,10 @@
     "oseille de guinee",
     "كركديه",
     "الكركديه",
-    "bissap-feuille"
+    "bissap feuille"
   ],
   "product-gombo-poudre": [
-    "gombo — poudre de fruits seches",
+    "gombo poudre de fruits seches",
     "abelmoschus esculentus",
     "gombo",
     "okra",
@@ -857,5 +854,129 @@
     "باميه",
     "البامية",
     "gangadjou"
+  ],
+  "product-waterleaf": [
+    "waterleaf feuilles de talinum",
+    "waterleaf",
+    "talinum fruticosum",
+    "wataleaf",
+    "talinum triangulare",
+    "grasse",
+    "pourpier tropical",
+    "bolki",
+    "belok sup",
+    "gbure"
+  ],
+  "product-pebe": [
+    "pebe fausse muscade",
+    "calabash nutmeg",
+    "monodora myristica",
+    "pebe",
+    "fausse noix muscade"
+  ],
+  "product-rondelle": [
+    "rondelle graines aromatiques",
+    "afrostyrax lepidophyllus",
+    "rondelle"
+  ],
+  "product-quatre-cotes": [
+    "quatre cotes fruit condimentaire",
+    "aidan fruit",
+    "tetrapleura tetraptera",
+    "quatre cotes",
+    "essesse",
+    "sasas",
+    "akwa",
+    "sepan",
+    "aridan"
+  ],
+  "product-maniguette": [
+    "maniguette grains de paradis",
+    "melegueta pepper",
+    "aframomum melegueta",
+    "maniguette",
+    "poivre de guinee"
+  ],
+  "product-poivre-sauvage": [
+    "poivre sauvage fruits de piper guineense",
+    "piper guineense",
+    "poivre sauvage",
+    "poivrier de guinee"
+  ],
+  "product-poivre-ethiopie": [
+    "poivre d’ethiopie fruits de xylopia",
+    "xylopia aethiopica",
+    "poivre d’ethiopie"
+  ],
+  "product-managu": [
+    "managu morelles alimentaires",
+    "african nightshade",
+    "solanum spp.",
+    "solanum americanum",
+    "solanum scabrum",
+    "solanum villosum",
+    "managu",
+    "osuga",
+    "mnavu"
+  ],
+  "product-amarantes-feuilles": [
+    "amarantes feuilles alimentaires",
+    "amaranth leaves",
+    "amaranthus spp.",
+    "terere",
+    "mchicha",
+    "folong"
+  ],
+  "product-saga": [
+    "saga feuilles de gynandropsis",
+    "spider plant",
+    "gynandropsis gynandra",
+    "saga",
+    "chinsaga"
+  ],
+  "product-niebe-feuilles": [
+    "niebe feuilles alimentaires",
+    "cowpea leaves",
+    "vigna unguiculata",
+    "kunde"
+  ],
+  "product-manioc-feuilles": [
+    "manioc feuilles alimentaires",
+    "cassava leaves",
+    "manihot esculenta"
+  ],
+  "product-sukuma-feuilles": [
+    "sukuma feuilles de chou non pomme",
+    "brassica oleracea (acephala group)",
+    "sukuma wiki"
+  ],
+  "product-macabo": [
+    "macabo cormes de xanthosoma",
+    "tannia",
+    "xanthosoma sagittifolium",
+    "macabo"
+  ],
+  "product-mais": [
+    "mais grains",
+    "maize",
+    "zea mays",
+    "muhindi"
+  ],
+  "product-arachide": [
+    "arachide graines",
+    "groundnut",
+    "arachis hypogaea"
+  ],
+  "product-igname-alata": [
+    "igname ailee tubercule",
+    "water yam",
+    "dioscorea alata"
+  ],
+  "product-folere-boisson": [
+    "folere / bissap boisson d’hibiscus",
+    "hibiscus sabdariffa",
+    "folere",
+    "oyoro",
+    "bissap"
   ]
 }

@@ -21,7 +21,11 @@ const regionIds = new Set<string>(geography.regions.map((r: { id: string }) => r
 for (const p of data.products) {
   if (!data.images.some((i) => i.id === p.imageId)) throw new Error('Image missing');
   for (const id of p.sourceIds) if (!sourceIds.has(id)) throw new Error('Product source missing');
+  for (const id of p.identityEvidenceIds || [])
+    if (!evidenceIds.has(id)) throw new Error('Identity evidence missing');
   const image = data.images.find((i) => i.id === p.imageId)!;
+  if (image.role === 'primary' && image.depictedProductId && image.depictedProductId !== p.id)
+    throw new Error(`Incorrect primary identity: ${p.slug}`);
   if (
     image.role === 'primary' &&
     (!p.formTypes.includes(image.depictedForm) || !image.localPath.endsWith('.webp'))
@@ -50,6 +54,13 @@ for (const n of data.names) {
 }
 for (const e of data.evidence)
   if (!sourceIds.has(e.sourceId)) throw new Error('Evidence source missing');
+for (const relation of data.relations)
+  if (
+    !productIds.has(relation.fromId) ||
+    !productIds.has(relation.toId) ||
+    relation.evidenceIds.some((id) => !evidenceIds.has(id))
+  )
+    throw new Error('Relation provenance missing');
 for (const c of data.contexts)
   if (
     !productIds.has(c.productId) ||
@@ -64,7 +75,7 @@ for (const image of data.images) {
   if (/<[^>]+>/.test(image.creator + image.attribution))
     throw new Error('HTML metadata not cleaned');
 }
-if (countries.length !== 23 || europeanContexts.length !== 5)
+if (countries.length !== 25 || europeanContexts.length !== 5)
   throw new Error('Geographic coverage incorrect');
 console.log(
   `Validated ${data.products.length} products, ${data.names.length} name assertions, ${data.images.filter((i) => i.role === 'primary').length} product-form photographs, ${data.contexts.length} local contexts, ${countries.length} African countries and 5 European contexts.`,

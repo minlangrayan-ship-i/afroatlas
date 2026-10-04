@@ -1,10 +1,13 @@
 import Fuse from 'fuse.js';
 import type { CardProduct } from './catalogue';
+import { countries, europeanContexts } from '../data/countries';
+import regions from '../data/published/regions.json';
 export const normalize = (text: string) =>
   text
     .normalize('NFD')
     .replace(/\p{Diacritic}/gu, '')
     .toLowerCase()
+    .replace(/[-‐‑–—]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 export type Filters = {
@@ -37,6 +40,8 @@ export function searchProducts(
   linkedIds: string[] = [],
 ) {
   const query = normalize(filters.q);
+  // Oral feedback is not enough to identify a species; do not replace it with a fuzzy guess.
+  if (['muse', 'masso'].includes(query)) return [];
   const index = products.map((p) => ({
     ...p,
     searchTerms:
@@ -46,7 +51,24 @@ export function searchProducts(
         p.labelEn || '',
         p.labelAr || '',
         p.scientificName || '',
+        ...(p.scientificNames || []),
         ...p.names.map((n) => n.name),
+        ...[...countries, ...europeanContexts]
+          .filter(
+            (c) =>
+              p.names.some((n) => n.countryIds.includes(c.ISO3)) ||
+              p.contexts.some((ctx) => ctx.countryId === c.ISO3),
+          )
+          .flatMap((c) => [c.nameFr, c.ISO2, c.ISO3]),
+        ...regions
+          .filter(
+            (r) =>
+              p.names.some((n) => n.regionIds.includes(r.id)) ||
+              p.contexts.some((ctx) => ctx.regionIds.includes(r.id)),
+          )
+          .map((r) => r.name),
+        ...p.names.map((n) => n.localContext),
+        ...p.contexts.map((c) => c.localContext),
       ].map(normalize),
   }));
   const fuzzy = query
@@ -63,7 +85,9 @@ export function searchProducts(
   const hasLiteralMatch =
     query.length >= 3 &&
     fuzzy.some(({ product }) => product.searchTerms.some((t) => t.includes(query)));
+  const hasExactMatch = !!query && fuzzy.some(({ product }) => product.searchTerms.includes(query));
   return fuzzy
+    .filter(({ product }) => !hasExactMatch || product.searchTerms.includes(query))
     .filter(({ product }) => !hasLiteralMatch || product.searchTerms.some((t) => t.includes(query)))
     .filter(
       ({ product: p }) =>
@@ -88,7 +112,9 @@ export function searchProducts(
         score: exact ? -1 : score,
         match: query
           ? matched
-            ? `Trouvé grâce à l’appellation « ${matched.name} »`
+            ? matched.nameType === 'input'
+              ? `Variante de saisie « ${matched.name} » ; nom traditionnel non attesté`
+              : `Trouvé grâce à l’appellation « ${matched.name} »`
             : normalize(product.scientificName || '').includes(query)
               ? 'Trouvé grâce au nom scientifique'
               : 'Nom approchant ; confirmez l’identité sur la fiche'

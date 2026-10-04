@@ -20,15 +20,22 @@ const rows = names.map((name) => {
     ...name,
     sourceUrl: catalogue.sources.find((s) => s.id === proof.sourceId)!.url,
     locator: proof.locator,
+    proofs: name.evidenceIds.map((id) => {
+      const e = catalogue.evidence.find((e) => e.id === id)!;
+      return { url: catalogue.sources.find((s) => s.id === e.sourceId)!.url, locator: e.locator };
+    }),
   };
 });
 const french = names.find((n) => n.languageCode === 'fr'),
   english = names.find((n) => n.languageCode === 'en'),
   arabic = names.find((n) => n.languageCode === 'ar');
 const contexts = catalogue.contexts.filter((c) => c.productId === product.id);
-const related = products
-  .filter((p) => p.id !== product.id && p.categoryId === product.categoryId)
-  .slice(0, 3);
+const related = products.filter((p) =>
+  catalogue.relations.some(
+    (r) =>
+      (r.fromId === product.id && r.toId === p.id) || (r.toId === product.id && r.fromId === p.id),
+  ),
+);
 const references = commercial.references.filter((r) =>
   r.relations.some((rel) => rel.productId === product.id),
 );
@@ -69,11 +76,22 @@ const references = commercial.references.filter((r) =>
         {product.labelFr}
       </h1>
       <p class="scientific">{product.scientificName}</p>
+      {product.scientificNames && (
+        <p class="table-note" data-no-translate dir="auto">
+          {product.scientificNames.join(' · ')}
+        </p>
+      )}
       <p data-no-translate dir="auto">
         {product.description}
       </p>
       <div class="summary-facts">
-        <span>Espèce identifiée</span>
+        <span>
+          {product.entityType === 'commercial-category'
+            ? 'Plusieurs espèces possibles'
+            : product.entityType === 'prepared-dish'
+              ? 'Préparation distincte'
+              : 'Identité documentée'}
+        </span>
         <span>Appellations documentées</span>
         <span>{names.length} noms / variantes</span>
       </div>
@@ -113,6 +131,14 @@ const references = commercial.references.filter((r) =>
         </dd>
         <dt>Forme de la fiche</dt>
         <dd>{product.formTypes.join(', ')}</dd>
+        {product.consumedPart && (
+          <>
+            <dt>Partie consommée</dt>
+            <dd data-no-translate dir="auto">
+              {product.consumedPart}
+            </dd>
+          </>
+        )}
       </dl>
       <p>
         Montrez la photographie et précisez la forme recherchée. Ces libellés ne prouvent pas le nom
@@ -126,6 +152,24 @@ const references = commercial.references.filter((r) =>
         {product.usage ||
           'Les usages culinaires régionaux et les formes préparées ne sont pas encore documentés dans cet instantané.'}
       </p>
+      <ul>
+        {product.sourceIds.map((id) => {
+          const source = catalogue.sources.find((s) => s.id === id)!;
+          return (
+            <li>
+              <a
+                href={source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-no-translate
+                dir="auto"
+              >
+                {source.title} ↗
+              </a>
+            </li>
+          );
+        })}
+      </ul>
       <p>
         Aucune équivalence entre produit brut, séché, fumé ou moulu n’est présumée. Les mélanges et
         plats préparés nécessitent une fiche propre.
@@ -205,7 +249,7 @@ const references = commercial.references.filter((r) =>
             >
               {p.labelFr}
             </span>
-            <small>Relation : même catégorie de navigation</small>
+            <small>Produits liés, identités distinctes</small>
           </span>
           <b>↗</b>
         </a>

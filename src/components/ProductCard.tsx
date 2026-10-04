@@ -5,7 +5,7 @@ import { categories } from '../data/countries';
 import ProductActions from './ProductActions';
 function ProductCard({ product, match = '' }: { product: CardProduct; match?: string }) {
   const previews = product.names
-    .filter((n) => ['fr', 'en', 'ar'].includes(n.languageCode || ''))
+    .filter((n) => n.nameType !== 'input' && n.nameType !== 'scientific')
     .slice(0, 3);
   return (
     <article className="product-card">
@@ -49,6 +49,11 @@ function ProductCard({ product, match = '' }: { product: CardProduct; match?: st
           ))}
         </p>
         <p className="table-note">
+          {product.consumedPart && (
+            <>
+              <span>Partie consommée</span> : {product.consumedPart} ·{' '}
+            </>
+          )}
           Forme photographiée :{' '}
           {product.image.role === 'primary' ? product.image.depictedForm : 'non documentée'}
         </p>
