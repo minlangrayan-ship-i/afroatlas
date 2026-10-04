@@ -94,11 +94,14 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         </div>
       </div>
       <div class="container footer-bottom">
-        <span>Prototype documentaire public · sans compte ni traceur</span>
+        <span>Prototype documentaire public · sans compte · mesure d’audience Cloudflare</span>
       </div>
     </footer>
     <script>
       import '../lib/locale-client';
     </script>
+    <!-- Cloudflare Web Analytics -->
+    <script is:inline type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "d870936a42b942f6bb729cbf6f9e7685"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </body>
 </html>

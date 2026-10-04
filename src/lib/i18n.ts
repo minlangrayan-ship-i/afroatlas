@@ -144,9 +144,9 @@ export const ui: Record<string, [string, string]> = {
     'التواصل والشراكات الإعلانية',
   ],
   'Code & données ↗': ['Code & data ↗', 'الشفرة والبيانات ↗'],
-  'Prototype documentaire public · sans compte ni traceur': [
-    'Public documentary library · no visitor account or trackers',
-    'مكتبة توثيقية عامة · بلا حساب للزائر أو أدوات تتبع',
+  'Prototype documentaire public · sans compte · mesure d’audience Cloudflare': [
+    'Public documentary library · no account · Cloudflare audience measurement',
+    'مكتبة توثيقية عامة · بلا حساب · قياس الجمهور عبر Cloudflare',
   ],
   Explorer: ['Explore', 'استكشف'],
   'Les noms voyagent.': ['Names travel.', 'الأسماء تسافر.'],
