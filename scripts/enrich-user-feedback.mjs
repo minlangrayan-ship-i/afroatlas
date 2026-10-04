@@ -1106,7 +1106,23 @@ await writeFile(
                 ? 'Page/abstract consulté ; extraction supplémentaire instable'
                 : 'Page ou document consulté',
       })),
-      products: inventory,
+      products: inventory.map((row) => ({
+        ...row,
+        scientificNames: c.products.find((p) => p.id === row.productId)?.scientificNames || [],
+        aliases: c.names
+          .filter((n) => n.productId === row.productId)
+          .map((n) => ({
+            name: n.name,
+            type: n.nameType || 'unspecified',
+            language: n.languageCode,
+            countryIds: n.countryIds,
+            regionIds: n.regionIds,
+            context: n.localContext,
+            status: n.status,
+            evidenceIds: n.evidenceIds,
+          })),
+        contexts: c.contexts.filter((ctx) => ctx.productId === row.productId),
+      })),
       pending: [
         {
           term: 'muse',

@@ -202,7 +202,126 @@
       ],
       "locator": "Kew : statut taxonomique ; PROTA : Vernacular names / Uses",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Waterleaf",
+          "type": "common",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Nom anglais ; pas un nom national camerounais.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-waterleaf-waterleaf-global"
+          ]
+        },
+        {
+          "name": "Wataleaf",
+          "type": "input",
+          "language": null,
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Variante de saisie issue du retour utilisateur ; pas une appellation traditionnelle attestée.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-waterleaf-wataleaf-global"
+          ]
+        },
+        {
+          "name": "Talinum triangulare",
+          "type": "scientific",
+          "language": null,
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Synonyme scientifique de Talinum fruticosum.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-waterleaf-talinum-triangulare-global"
+          ]
+        },
+        {
+          "name": "Grassé",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Nom français documenté.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-waterleaf-grasse-global"
+          ]
+        },
+        {
+          "name": "Pourpier tropical",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Nom français documenté.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-waterleaf-pourpier-tropical-global"
+          ]
+        },
+        {
+          "name": "bolki",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Cameroun dans PROTA ; langue et région non précisées.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-waterleaf-bolki-CMR"
+          ]
+        },
+        {
+          "name": "belok-sup",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Cameroun dans PROTA ; langue et région non précisées.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-waterleaf-belok-sup-CMR"
+          ]
+        },
+        {
+          "name": "Gbure",
+          "type": "local",
+          "language": "yo",
+          "countryIds": [
+            "NGA"
+          ],
+          "regionIds": [],
+          "context": "Yoruba ; usage au sud du Nigeria décrit par PROTA.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-waterleaf-gbure-NGA"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-waterleaf-CMR",
+          "productId": "product-waterleaf",
+          "countryId": "CMR",
+          "regionIds": [],
+          "localContext": "Cameroun — association waterleaf / eru",
+          "description": "PROTA décrit les pousses de waterleaf associées aux feuilles d’eru et au fufu. La source ne précise pas une région.",
+          "sourceId": "feedback-water-prota",
+          "locator": "Cameroun — association waterleaf / eru",
+          "form": "frais",
+          "relationType": "recipe-use"
+        }
+      ]
     },
     {
       "productId": "product-pebe",
@@ -217,7 +336,50 @@
       ],
       "locator": "PROSEA Uses ; thèse p.81, tableau 2 ; Atlas VI.10",
       "status": "documented",
-      "photo": "primary-visually-checked"
+      "photo": "primary-visually-checked",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Pèbè",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Atlas des aliments au Cameroun, VI.10.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-pebe-pebe-CMR"
+          ]
+        },
+        {
+          "name": "Fausse noix muscade",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Nom de l’épice ; distinct de Myristica fragrans.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-pebe-fausse-noix-muscade-global"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-pebe-CMR",
+          "productId": "product-pebe",
+          "countryId": "CMR",
+          "regionIds": [],
+          "localContext": "Enquête sauce jaune, 2009, tableau 2",
+          "description": "Épice recensée dans l’enquête. Les recettes varient entre régions et ménages ; aucune composition nationale uniforme n’est déduite.",
+          "sourceId": "feedback-spice-thesis",
+          "locator": "Enquête sauce jaune, 2009, tableau 2",
+          "form": "graines",
+          "relationType": "recipe-use"
+        }
+      ]
     },
     {
       "productId": "product-rondelle",
@@ -229,7 +391,41 @@
       ],
       "locator": "Tableau des aliments forestiers consommés ; rondelle",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Rondelle",
+          "type": "local",
+          "language": "fr",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Enquête dans douze villages de l’Est et du Sud ; langue vernaculaire non précisée.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-rondelle-rondelle-CMR"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-rondelle-CMR",
+          "productId": "product-rondelle",
+          "countryId": "CMR",
+          "regionIds": [
+            "region-CMR-27767025B81519146961984",
+            "region-CMR-27767025B67924123829422"
+          ],
+          "localContext": "Douze villages de l’Est et du Sud — enquête 2016",
+          "description": "La rondelle figure dans le relevé des aliments forestiers consommés par les ménages enquêtés.",
+          "sourceId": "feedback-forest-study",
+          "locator": "Douze villages de l’Est et du Sud — enquête 2016",
+          "form": "graines",
+          "relationType": "consumption"
+        }
+      ]
     },
     {
       "productId": "product-quatre-cotes",
@@ -243,7 +439,106 @@
       ],
       "locator": "Thèse p.46 et p.81, tableau 2 ; IITA Fruits/seeds",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Quatre côtés",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Libellé descriptif du fruit à quatre ailes ; pas la rondelle.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-quatre-cotes-quatre-cotes-global"
+          ]
+        },
+        {
+          "name": "Essèssé",
+          "type": "local",
+          "language": "dua",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Douala ; p.46, orthographe de la thèse.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-quatre-cotes-essesse-CMR"
+          ]
+        },
+        {
+          "name": "Sasâs",
+          "type": "local",
+          "language": "bas",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Bassa ; p.46, orthographe de la thèse.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-quatre-cotes-sasas-CMR"
+          ]
+        },
+        {
+          "name": "Akwa",
+          "type": "local",
+          "language": "ewo",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Ewondo ; p.46, orthographe de la thèse.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-quatre-cotes-akwa-CMR"
+          ]
+        },
+        {
+          "name": "Sepan",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Bangangté ; p.46, orthographe de la thèse.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-quatre-cotes-sepan-CMR"
+          ]
+        },
+        {
+          "name": "Aridan",
+          "type": "local",
+          "language": "yo",
+          "countryIds": [
+            "NGA"
+          ],
+          "regionIds": [],
+          "context": "Yoruba dans la fiche IITA.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-quatre-cotes-aridan-NGA"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-quatre-cotes-CMR",
+          "productId": "product-quatre-cotes",
+          "countryId": "CMR",
+          "regionIds": [],
+          "localContext": "Enquête sauce jaune, 2009, tableau 2",
+          "description": "Épice recensée dans l’enquête. Les recettes varient entre régions et ménages ; aucune composition nationale uniforme n’est déduite.",
+          "sourceId": "feedback-spice-thesis",
+          "locator": "Enquête sauce jaune, 2009, tableau 2",
+          "form": "séché",
+          "relationType": "recipe-use"
+        }
+      ]
     },
     {
       "productId": "product-maniguette",
@@ -255,7 +550,35 @@
       ],
       "locator": "EPPO Common names",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Maniguette",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "EPPO ; espèce Aframomum melegueta.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-maniguette-maniguette-global"
+          ]
+        },
+        {
+          "name": "Poivre de Guinée",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Nom ambigu ; comparer la forme et l’espèce.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-maniguette-poivre-de-guinee-global"
+          ]
+        }
+      ],
+      "contexts": []
     },
     {
       "productId": "product-poivre-sauvage",
@@ -267,7 +590,50 @@
       ],
       "locator": "p.81, tableau 2, Piper guineense",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Poivre sauvage",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "p.81, tableau 2 ; fruits de Piper guineense.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-poivre-sauvage-poivre-sauvage-CMR"
+          ]
+        },
+        {
+          "name": "Poivrier de Guinée",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Nom de la plante dans EPPO ; comparer aux graines de maniguette.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-poivre-sauvage-poivrier-de-guinee-global"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-poivre-sauvage-CMR",
+          "productId": "product-poivre-sauvage",
+          "countryId": "CMR",
+          "regionIds": [],
+          "localContext": "Enquête sauce jaune, 2009, tableau 2",
+          "description": "Épice recensée dans l’enquête. Les recettes varient entre régions et ménages ; aucune composition nationale uniforme n’est déduite.",
+          "sourceId": "feedback-spice-thesis",
+          "locator": "Enquête sauce jaune, 2009, tableau 2",
+          "form": "séché",
+          "relationType": "recipe-use"
+        }
+      ]
     },
     {
       "productId": "product-poivre-ethiopie",
@@ -279,7 +645,38 @@
       ],
       "locator": "p.81, tableau 2, Xylopia aethiopica",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Poivre d’Éthiopie",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "p.81, tableau 2 ; fruits de Xylopia aethiopica.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-poivre-ethiopie-poivre-d-ethiopie-CMR"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-poivre-ethiopie-CMR",
+          "productId": "product-poivre-ethiopie",
+          "countryId": "CMR",
+          "regionIds": [],
+          "localContext": "Enquête sauce jaune, 2009, tableau 2",
+          "description": "Épice recensée dans l’enquête. Les recettes varient entre régions et ménages ; aucune composition nationale uniforme n’est déduite.",
+          "sourceId": "feedback-spice-thesis",
+          "locator": "Enquête sauce jaune, 2009, tableau 2",
+          "form": "séché",
+          "relationType": "recipe-use"
+        }
+      ]
     },
     {
       "productId": "product-managu",
@@ -291,7 +688,70 @@
       ],
       "locator": "Scientific Name / Local Names / Introduction",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [
+        "Solanum americanum",
+        "Solanum scabrum",
+        "Solanum villosum"
+      ],
+      "aliases": [
+        {
+          "name": "Managu",
+          "type": "local",
+          "language": "ki",
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Nom kikuyu du groupe des morelles alimentaires, sans espèce unique.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-managu-managu-KEN"
+          ]
+        },
+        {
+          "name": "Osuga",
+          "type": "local",
+          "language": "luo",
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Nom luo du groupe des morelles alimentaires.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-managu-osuga-KEN"
+          ]
+        },
+        {
+          "name": "Mnavu",
+          "type": "local",
+          "language": "sw",
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Nom swahili ; plusieurs espèces.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-managu-mnavu-KEN"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-managu-KEN",
+          "productId": "product-managu",
+          "countryId": "KEN",
+          "regionIds": [],
+          "localContext": "Kenya — communautés précisées dans les appellations",
+          "description": "Légume-feuille décrit par Infonet ; les noms sont limités aux langues documentées.",
+          "sourceId": "feedback-managu",
+          "locator": "Kenya — communautés précisées dans les appellations",
+          "form": "frais",
+          "relationType": "consumption"
+        }
+      ]
     },
     {
       "productId": "product-amarantes-feuilles",
@@ -303,7 +763,66 @@
       ],
       "locator": "Scientific Name / Local Names",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Terere",
+          "type": "local",
+          "language": "ki",
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Kikuyu ; groupe Amaranthus spp., pas exclusivement A. cruentus.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-amarantes-feuilles-terere-KEN"
+          ]
+        },
+        {
+          "name": "Mchicha",
+          "type": "local",
+          "language": "sw",
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Swahili ; plusieurs amarantes alimentaires.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-amarantes-feuilles-mchicha-KEN"
+          ]
+        },
+        {
+          "name": "Folong",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Bulu et Ewondo dans la source ; plusieurs espèces possibles.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-amarantes-feuilles-folong-CMR"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-amarantes-feuilles-KEN",
+          "productId": "product-amarantes-feuilles",
+          "countryId": "KEN",
+          "regionIds": [],
+          "localContext": "Kenya — communautés précisées dans les appellations",
+          "description": "Légume-feuille décrit par Infonet ; les noms sont limités aux langues documentées.",
+          "sourceId": "feedback-amaranth",
+          "locator": "Kenya — communautés précisées dans les appellations",
+          "form": "frais",
+          "relationType": "consumption"
+        }
+      ]
     },
     {
       "productId": "product-saga",
@@ -315,7 +834,52 @@
       ],
       "locator": "Fiche Spider plant / Local names",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Saga",
+          "type": "local",
+          "language": "sw",
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Swahili ; guide de production du district de Suba.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-saga-saga-KEN"
+          ]
+        },
+        {
+          "name": "Chinsaga",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Kisii dans le guide ; ne pas étendre à toutes les communautés.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-saga-chinsaga-KEN"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-saga-KEN",
+          "productId": "product-saga",
+          "countryId": "KEN",
+          "regionIds": [],
+          "localContext": "District de Suba — guide de production",
+          "description": "Guide de production et utilisation des légumes indigènes du district de Suba.",
+          "sourceId": "feedback-suba",
+          "locator": "District de Suba — guide de production",
+          "form": "frais",
+          "relationType": "consumption"
+        }
+      ]
     },
     {
       "productId": "product-niebe-feuilles",
@@ -327,7 +891,38 @@
       ],
       "locator": "Other Local names : Kenya / Introduction",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Kunde",
+          "type": "local",
+          "language": "sw",
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Nom de la plante ; préciser feuilles plutôt que graines.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-niebe-feuilles-kunde-KEN"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-niebe-feuilles-KEN",
+          "productId": "product-niebe-feuilles",
+          "countryId": "KEN",
+          "regionIds": [],
+          "localContext": "Kenya — communautés précisées dans les appellations",
+          "description": "Légume-feuille décrit par Infonet ; les noms sont limités aux langues documentées.",
+          "sourceId": "feedback-cowpea",
+          "locator": "Kenya — communautés précisées dans les appellations",
+          "form": "frais",
+          "relationType": "consumption"
+        }
+      ]
     },
     {
       "productId": "product-manioc-feuilles",
@@ -339,7 +934,10 @@
       ],
       "locator": "Scientific Name / Uses",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [],
+      "contexts": []
     },
     {
       "productId": "product-sukuma-feuilles",
@@ -351,7 +949,38 @@
       ],
       "locator": "Photo et légende Sukuma — Brassica oleracea (Acephala Group), Kenya",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Sukuma wiki",
+          "type": "local",
+          "language": null,
+          "countryIds": [
+            "KEN"
+          ],
+          "regionIds": [],
+          "context": "Terme également employé pour le plat ; fiche consacrée aux feuilles.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-sukuma-feuilles-sukuma-wiki-KEN"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-sukuma-feuilles-KEN",
+          "productId": "product-sukuma-feuilles",
+          "countryId": "KEN",
+          "regionIds": [],
+          "localContext": "Kenya — chou non pommé",
+          "description": "La source décrit des feuilles de Brassica oleracea (Acephala Group) ; pas une identité avec le chou pommé.",
+          "sourceId": "feedback-kale",
+          "locator": "Kenya — chou non pommé",
+          "form": "frais",
+          "relationType": "consumption"
+        }
+      ]
     },
     {
       "productId": "product-macabo",
@@ -363,7 +992,23 @@
       ],
       "locator": "Notes / Common names",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Macabo",
+          "type": "common",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "EPPO ; Xanthosoma cultivés, distinct de Colocasia esculenta.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-macabo-macabo-global"
+          ]
+        }
+      ],
+      "contexts": []
     },
     {
       "productId": "product-mais",
@@ -375,7 +1020,23 @@
       ],
       "locator": "Vernacular names / Uses",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Muhindi",
+          "type": "local",
+          "language": "sw",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Nom swahili attesté sans périmètre national déduit.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-mais-muhindi-global"
+          ]
+        }
+      ],
+      "contexts": []
     },
     {
       "productId": "product-arachide",
@@ -387,7 +1048,10 @@
       ],
       "locator": "Vernacular names / Uses",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [],
+      "contexts": []
     },
     {
       "productId": "product-igname-alata",
@@ -399,7 +1063,23 @@
       ],
       "locator": "Scientific Name / Yam marketing, Korogho, Côte d’Ivoire, juin 1999",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [],
+      "contexts": [
+        {
+          "id": "feedback-context-igname-alata-CIV",
+          "productId": "product-igname-alata",
+          "countryId": "CIV",
+          "regionIds": [],
+          "localContext": "Korhogo — commercialisation, juin 1999",
+          "description": "La légende Infonet situe la vente de tubercules de Dioscorea alata à Korhogo. Observation historique, sans généralisation nationale.",
+          "sourceId": "feedback-yam",
+          "locator": "Korhogo — commercialisation, juin 1999",
+          "form": "frais",
+          "relationType": "consumption"
+        }
+      ]
     },
     {
       "productId": "product-folere-boisson",
@@ -412,7 +1092,81 @@
       ],
       "locator": "Article : jus de foléré ; MINRESI p.11",
       "status": "documented",
-      "photo": "pending"
+      "photo": "pending",
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Foléré",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [
+            "region-CMR-27767025B65184844379073"
+          ],
+          "context": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-folere-boisson-folere-CMR",
+            "feedback-evidence-folere-boisson-folere-CMR-hib-drink"
+          ]
+        },
+        {
+          "name": "Folere",
+          "type": "spelling",
+          "language": null,
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-folere-boisson-folere-global"
+          ]
+        },
+        {
+          "name": "Oyoro",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Nom de la boisson au Nord camerounais, introduction p.787.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-folere-boisson-oyoro-CMR"
+          ]
+        },
+        {
+          "name": "Bissap",
+          "type": "common",
+          "language": null,
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Boisson ; ne pas confondre avec les feuilles ou les calices secs.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-folere-boisson-bissap-global"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "feedback-context-folere-boisson-CMR",
+          "productId": "product-folere-boisson",
+          "countryId": "CMR",
+          "regionIds": [
+            "region-CMR-27767025B65184844379073"
+          ],
+          "localContext": "Maroua, Mokolo et Mora",
+          "description": "Boisson étudiée dans trois villes de l’Extrême-Nord ; pas un statut d’emblème officiel.",
+          "sourceId": "feedback-hib-drink",
+          "locator": "Maroua, Mokolo et Mora",
+          "form": "boisson",
+          "relationType": "consumption"
+        }
+      ]
     },
     {
       "productId": "product-oseille-guinee",
@@ -427,6 +1181,249 @@
         "prota-hibiscus",
         "feedback-hib-minresi",
         "feedback-hib-study"
+      ],
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Foléré",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [
+            "region-CMR-27767025B65184844379073"
+          ],
+          "context": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-oseille-guinee-folere-CMR",
+            "feedback-evidence-oseille-guinee-folere-CMR-hib-drink"
+          ]
+        },
+        {
+          "name": "Folere",
+          "type": "spelling",
+          "language": null,
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-oseille-guinee-folere-global"
+          ]
+        },
+        {
+          "name": "Hibiscus sabdariffa",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-fr-0"
+          ]
+        },
+        {
+          "name": "Karkadé",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-fr-1"
+          ]
+        },
+        {
+          "name": "Roselle",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-fr-2"
+          ]
+        },
+        {
+          "name": "Carcadé",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-fr-3"
+          ]
+        },
+        {
+          "name": "Bissap",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-fr-4"
+          ]
+        },
+        {
+          "name": "Carcade",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-fr-5"
+          ]
+        },
+        {
+          "name": "Ketmie acide",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-fr-6"
+          ]
+        },
+        {
+          "name": "Oseille de Guinée",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-fr-7"
+          ]
+        },
+        {
+          "name": "Hibiscus sabdariffa",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-en-0"
+          ]
+        },
+        {
+          "name": "roselle",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-en-1"
+          ]
+        },
+        {
+          "name": "كركديه",
+          "type": "unspecified",
+          "language": "ar",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-ar-0"
+          ]
+        },
+        {
+          "name": "الكركديه",
+          "type": "unspecified",
+          "language": "ar",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-ar-1"
+          ]
+        },
+        {
+          "name": "Zobo",
+          "type": "unspecified",
+          "language": "ha",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-ha-0"
+          ]
+        },
+        {
+          "name": "vinagreira",
+          "type": "unspecified",
+          "language": "pt",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-pt-0"
+          ]
+        },
+        {
+          "name": "Hibiscus sabdariffa",
+          "type": "unspecified",
+          "language": "pt",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-pt-1"
+          ]
+        },
+        {
+          "name": "caruru-azedo",
+          "type": "unspecified",
+          "language": "pt",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-oseille-guinee-pt-2"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "context-17",
+          "productId": "product-oseille-guinee",
+          "countryId": "CIV",
+          "regionIds": [],
+          "localContext": "Côte d’Ivoire, sans région précisée",
+          "description": "Calices séchés et moulus utilisés dans les sauces en saison sèche. La photo représente les calices séchés, pas la poudre.",
+          "sourceId": "prota-hibiscus",
+          "locator": "Uses",
+          "form": "séché"
+        },
+        {
+          "id": "context-18",
+          "productId": "product-oseille-guinee",
+          "countryId": "SEN",
+          "regionIds": [],
+          "localContext": "Sénégal, sans région précisée",
+          "description": "Calices rouges séchés utilisés pour une boisson appelée bissap ; ce nom de boisson n’est pas attribué aux feuilles.",
+          "sourceId": "prota-hibiscus",
+          "locator": "Uses",
+          "form": "séché"
+        },
+        {
+          "id": "context-19",
+          "productId": "product-oseille-guinee",
+          "countryId": "MLI",
+          "regionIds": [],
+          "localContext": "Mali, sans région précisée",
+          "description": "La source cite la boisson da bilenni. Le nom de la boisson n’est pas présenté comme nom certain des calices en boutique.",
+          "sourceId": "prota-hibiscus",
+          "locator": "Uses",
+          "form": "séché"
+        }
       ]
     },
     {
@@ -442,6 +1439,209 @@
         "wikidata-Q319390",
         "feedback-hib-minresi",
         "feedback-hib-study"
+      ],
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "Foléré",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [
+            "region-CMR-27767025B65184844379073"
+          ],
+          "context": "Nom de la plante et de préparations ; préciser la partie. Extrême-Nord documenté par Bayoi et al. 2014.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-bissap-feuilles-folere-CMR",
+            "feedback-evidence-bissap-feuilles-folere-CMR-hib-drink"
+          ]
+        },
+        {
+          "name": "Folere",
+          "type": "spelling",
+          "language": null,
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Variante sans accents employée dans la littérature ; ne précise pas la partie.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-bissap-feuilles-folere-global"
+          ]
+        },
+        {
+          "name": "Hibiscus sabdariffa",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-fr-0"
+          ]
+        },
+        {
+          "name": "Karkadé",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-fr-1"
+          ]
+        },
+        {
+          "name": "Roselle",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-fr-2"
+          ]
+        },
+        {
+          "name": "Carcadé",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-fr-3"
+          ]
+        },
+        {
+          "name": "Bissap",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-fr-4"
+          ]
+        },
+        {
+          "name": "Carcade",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-fr-5"
+          ]
+        },
+        {
+          "name": "Ketmie acide",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-fr-6"
+          ]
+        },
+        {
+          "name": "Oseille de Guinée",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-fr-7"
+          ]
+        },
+        {
+          "name": "Hibiscus sabdariffa",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-en-0"
+          ]
+        },
+        {
+          "name": "roselle",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-en-1"
+          ]
+        },
+        {
+          "name": "كركديه",
+          "type": "unspecified",
+          "language": "ar",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-ar-0"
+          ]
+        },
+        {
+          "name": "الكركديه",
+          "type": "unspecified",
+          "language": "ar",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-bissap-feuilles-ar-1"
+          ]
+        },
+        {
+          "name": "Bissap-feuille",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [
+            "SEN"
+          ],
+          "regionIds": [],
+          "context": "Libellé de variable de l’enquête agricole, pas appellation wolof vérifiée",
+          "status": "documented",
+          "evidenceIds": [
+            "context-evidence-18"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "context-20",
+          "productId": "product-bissap-feuilles",
+          "countryId": "SEN",
+          "regionIds": [],
+          "localContext": "Enquête agricole nationale 2021–2022",
+          "description": "La variable Bissap-feuille distingue une récolte de feuilles. Le formulaire d’enquête ne précise ni nom wolof ni appellation régionale.",
+          "sourceId": "fao-bissap-leaves",
+          "locator": "Variable Q2_22A_0__4",
+          "form": "frais"
+        }
       ]
     },
     {
@@ -454,7 +1654,198 @@
       "status": "documented",
       "sourceIds": [
         "wikidata-Q81464"
-      ]
+      ],
+      "scientificNames": [],
+      "aliases": [
+        {
+          "name": "épinard",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-fr-0"
+          ]
+        },
+        {
+          "name": "Épinards",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-fr-1"
+          ]
+        },
+        {
+          "name": "Epinard",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-fr-2"
+          ]
+        },
+        {
+          "name": "Epinards",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-fr-3"
+          ]
+        },
+        {
+          "name": "Spinacia oleracea",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-fr-4"
+          ]
+        },
+        {
+          "name": "épinard frais",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-fr-5"
+          ]
+        },
+        {
+          "name": "pousses d'épinard",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-fr-6"
+          ]
+        },
+        {
+          "name": "Spinacia oleracea",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-en-0"
+          ]
+        },
+        {
+          "name": "spinach plant",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-en-1"
+          ]
+        },
+        {
+          "name": "spinach",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-en-2"
+          ]
+        },
+        {
+          "name": "سبانخ",
+          "type": "unspecified",
+          "language": "ar",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-ar-0"
+          ]
+        },
+        {
+          "name": "السبانخ",
+          "type": "unspecified",
+          "language": "ar",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-ar-1"
+          ]
+        },
+        {
+          "name": "اسفناخ",
+          "type": "unspecified",
+          "language": "ar",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-ar-2"
+          ]
+        },
+        {
+          "name": "ቆስጣ",
+          "type": "unspecified",
+          "language": "am",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-am-0"
+          ]
+        },
+        {
+          "name": "espinafre",
+          "type": "unspecified",
+          "language": "pt",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-pt-0"
+          ]
+        },
+        {
+          "name": "Spinacia oleracea",
+          "type": "unspecified",
+          "language": "pt",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-pt-1"
+          ]
+        },
+        {
+          "name": "Epinara",
+          "type": "unspecified",
+          "language": "mg",
+          "countryIds": [],
+          "regionIds": [],
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-epinard-mg-0"
+          ]
+        }
+      ],
+      "contexts": []
     },
     {
       "productId": "product-eru",
@@ -471,6 +1862,246 @@
         "feedback-gnetum",
         "feedback-gabon",
         "feedback-gnq"
+      ],
+      "scientificNames": [
+        "Gnetum africanum",
+        "Gnetum buchholzianum"
+      ],
+      "aliases": [
+        {
+          "name": "Nkumu",
+          "type": "local",
+          "language": "local-und",
+          "countryIds": [
+            "GAB"
+          ],
+          "regionIds": [],
+          "context": "Gabon dans le tableau du manuel ICRAF ; langue non précisée.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-eru-nkumu-GAB"
+          ]
+        },
+        {
+          "name": "Okok",
+          "type": "local",
+          "language": "fan",
+          "countryIds": [
+            "GNQ"
+          ],
+          "regionIds": [],
+          "context": "Fang en Guinée équatoriale ; Sunderland & Obama 2000 cité par Infonet.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-eru-okok-GNQ"
+          ]
+        },
+        {
+          "name": "Gnetum buchholzianum",
+          "type": "scientific",
+          "language": null,
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Autre espèce concernée par la même catégorie alimentaire.",
+          "status": "documented",
+          "evidenceIds": [
+            "feedback-evidence-eru-gnetum-buchholzianum-global"
+          ]
+        },
+        {
+          "name": "Gnetum africanum",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-fr-0"
+          ]
+        },
+        {
+          "name": "okok",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-fr-1"
+          ]
+        },
+        {
+          "name": "koko",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-fr-2"
+          ]
+        },
+        {
+          "name": "mfumbua",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-fr-3"
+          ]
+        },
+        {
+          "name": "eru",
+          "type": "unspecified",
+          "language": "fr",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-fr-4"
+          ]
+        },
+        {
+          "name": "Gnetum africanum",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-en-0"
+          ]
+        },
+        {
+          "name": "okazi",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-en-1"
+          ]
+        },
+        {
+          "name": "afang",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-en-2"
+          ]
+        },
+        {
+          "name": "eru",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-en-3"
+          ]
+        },
+        {
+          "name": "wild spinach",
+          "type": "unspecified",
+          "language": "en",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-en-4"
+          ]
+        },
+        {
+          "name": "جنتوم أفريقي",
+          "type": "unspecified",
+          "language": "ar",
+          "countryIds": [],
+          "regionIds": [],
+          "context": "Espèce uniquement ; le nom de la forme transformée peut différer",
+          "status": "documented",
+          "evidenceIds": [
+            "evidence-eru-ar-0"
+          ]
+        },
+        {
+          "name": "eru",
+          "type": "unspecified",
+          "language": "local-und",
+          "countryIds": [
+            "CMR"
+          ],
+          "regionIds": [],
+          "context": "Cameroun ; nom couvrant G. africanum ET G. buchholzianum",
+          "status": "documented",
+          "evidenceIds": [
+            "context-evidence-13"
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "context-10",
+          "productId": "product-eru",
+          "countryId": "CMR",
+          "regionIds": [],
+          "localContext": "Idenau ; Campo près de Kribi ; marché Mfoundi à Yaoundé",
+          "description": "Feuilles vendues et découpées ; le commerce peut mélanger deux espèces de Gnetum. Le nom eru ne suffit pas à les distinguer.",
+          "sourceId": "prota-gnetum",
+          "locator": "Uses / Production and international trade",
+          "form": "frais"
+        },
+        {
+          "id": "context-11",
+          "productId": "product-eru",
+          "countryId": "CMR",
+          "regionIds": [],
+          "localContext": "Bayangi — communauté citée par la source",
+          "description": "Feuilles alimentaires utilisées dans des repas traditionnels. Aucun rattachement administratif déduit du nom de la communauté.",
+          "sourceId": "fao-eru",
+          "locator": "Introduction",
+          "form": "frais"
+        },
+        {
+          "id": "feedback-context-eru-GNQ",
+          "productId": "product-eru",
+          "countryId": "GNQ",
+          "regionIds": [],
+          "localContext": "Malabo — marché documenté par FAO",
+          "description": "La FAO décrit la disponibilité de feuilles de Gnetum au marché de Malabo ; cela ne prouve pas un usage identique dans tout le pays.",
+          "sourceId": "feedback-gnq",
+          "locator": "Malabo — marché documenté par FAO",
+          "form": "frais",
+          "relationType": "consumption"
+        },
+        {
+          "id": "feedback-context-eru-GAB",
+          "productId": "product-eru",
+          "countryId": "GAB",
+          "regionIds": [],
+          "localContext": "Gabon — nkumu dans le manuel ICRAF",
+          "description": "Le manuel relie le nom nkumu au Gabon ; il ne documente pas une région ni une recette précise.",
+          "sourceId": "feedback-gabon",
+          "locator": "Gabon — nkumu dans le manuel ICRAF",
+          "form": "frais",
+          "relationType": "local-name"
+        }
       ]
     }
   ],

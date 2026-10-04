@@ -18,6 +18,8 @@ La photographie principale d’épinard, dont la légende ne confirmait pas l’
 
 « Wataleaf » est une variante de saisie transmise par le propriétaire, pas une appellation traditionnelle attestée. « Muse » et « masso » ne sont associés à aucune espèce : une recette, une communauté linguistique ou une photographie contextualisée serait nécessaire. Les pistes « country onion » et « prekese » restent à corroborer. Le groupe plantain nécessite une fiche documentée. Les équivalences nététou / dawadawa / iru ne sont pas ajoutées sans vérifier matière première et procédé ; la fiche soumbala existante est conservée.
 
+Précision du propriétaire reçue le 4 octobre : « bisap » est le contexte de recette indiqué pour « muse » et « masso ». Il s’agit d’une piste orale, insuffisante pour déterminer si ces termes désignent un ingrédient, une variété ou une préparation. Aucune correspondance botanique n’est ajoutée à partir de cette seule précision.
+
 Les fiches existantes de gingembre, curcuma, njansang, ndolé, gombo, jute, manioc, taro, niébé et autres produits sont conservées. Leur conservation ne constitue pas une nouvelle validation exhaustive de toutes leurs assertions. L’enrichissement régional du Maroc, du Sénégal et du Mali reste limité aux éléments déjà documentés ; cette passe apporte surtout des références camerounaises et kenyanes, et un contexte ivoirien précisément situé.
 
 Le rapport CTFC a répondu 403 et n’est pas utilisé comme preuve. L’Atlas RSD n’a pu être consulté que par ses extraits indexés ; le PDF complet reste à consulter. Certaines publications ont un accès partiel, indiqué dans l’inventaire. La bibliothèque ne revendique ni exhaustivité ni validation scientifique indépendante.
