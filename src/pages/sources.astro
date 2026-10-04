@@ -1,0 +1,111 @@
+---
+import Layout from '../components/Layout.astro';
+import { catalogue, commercial } from '../lib/catalogue';
+import geography from '../data/published/geography.json';
+import { href } from '../lib/links';
+---
+
+<Layout title="Sources & crédits">
+  <div class="container page-intro">
+    <p class="eyebrow">LA TRAÇABILITÉ FAIT PARTIE DE LA FICHE</p>
+    <h1>Sources, photos & licences.</h1>
+    <p>
+      Les données structurées et les photographies ont des licences distinctes. Les crédits sont
+      conservés même après conversion des images.
+    </p>
+  </div>
+  <section class="container page-body">
+    <div class="source-cards">
+      <article>
+        <h2>Wikidata</h2>
+        <p>
+          Données structurées CC0. Libellés et alias linguistiques, identifiants et nom scientifique
+          P225. Aucun pays d’usage n’est déduit.
+        </p>
+        <a href="https://www.wikidata.org/wiki/Wikidata:Data_access">Documentation ↗</a>
+        <a href={href('data/catalogue.json')} download>
+          Instantané et licences par objet ↓
+        </a>
+      </article>
+      <article>
+        <h2>Wikimedia Commons</h2>
+        <p>
+          Licence vérifiée individuellement via Imageinfo. CC BY, CC BY-SA, CC0 ou domaine public.
+          Images converties en WebP et redimensionnées, sans recadrage. Les dérivés conservent les
+          conditions de leur source.
+        </p>
+        <a href="https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia">
+          Conditions de réutilisation ↗
+        </a>
+      </article>
+      <article>
+        <h2>Open Food Facts</h2>
+        <p>
+          {commercial.references.length} références · ODbL / Database Contents License. Aucune photo
+          d’emballage importée ni relation d’ingrédient publiée.
+        </p>
+        <a href={commercial.licenseUrl}>Licence ↗</a>
+        <a href={href('data/commercial-off.json')} download>
+          Instantané ODbL ↓
+        </a>
+      </article>
+    </div>
+    <section class="section">
+      <h2>Géographies et versions</h2>
+      {geography.metadata.map((meta) => (
+        <article class="geo-source">
+          <h3>{meta.title}</h3>
+          <p>
+            {meta.licenseId} · import {meta.retrievedAt} · version {meta.datasetVersion}
+          </p>
+          {'boundaryYear' in meta && (
+            <p>
+              Année représentée : {meta.boundaryYear}. Source : {meta.source}
+            </p>
+          )}
+          <a href={meta.url} target="_blank" rel="noopener noreferrer">
+            Source de l’import ↗
+          </a>
+        </article>
+      ))}
+      <p class="notice">
+        Les licences sous-jacentes geoBoundaries diffèrent par fichier, notamment ODbL pour le
+        Maroc. Elles sont conservées, plutôt que remplacées par une licence commune supposée. Les
+        géométries ne prennent pas position sur les territoires contestés.
+      </p>
+      <a href={href('data/geography.json')} download>
+        Géométries et métadonnées, licences par source ↓
+      </a>
+    </section>
+    <section class="section">
+      <h2>Crédits des {catalogue.images.length} photographies</h2>
+      <div class="credits-grid">
+        {catalogue.images.map((image) => (
+          <article>
+            <img
+              src={href(image.smallPath)}
+              alt={image.altFr}
+              width="160"
+              height="120"
+              loading="lazy"
+            />
+            <div>
+              <h3>{image.title}</h3>
+              <p>{image.creator}</p>
+              <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
+                Page source ↗
+              </a>
+              <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
+                {image.licenseId} ↗
+              </a>
+              <small>{image.attribution}</small>
+              <small>
+                {image.modifications} · import {image.retrievedAt}
+              </small>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </section>
+</Layout>

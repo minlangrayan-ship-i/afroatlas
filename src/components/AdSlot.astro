@@ -1,0 +1,17 @@
+---
+import { site } from '../data/site';
+const { location = 'home' } = Astro.props;
+const placement = site.adPlacements.find((item) => item.location === location);
+---
+
+<aside
+  class="ad-slot"
+  aria-label="Emplacement partenaire de démonstration"
+  data-placement={location}
+  data-size={placement?.sizeVariant || 'banner'}
+  data-enabled="false"
+>
+  <span>EMPLACEMENT PARTENAIRE</span>
+  <p>Espace publicitaire</p>
+  <small>Démonstration · aucune publicité active</small>
+</aside>

@@ -1,0 +1,95 @@
+---
+import '../styles/global.css';
+import { site } from '../data/site';
+import { href } from '../lib/links';
+import AdSlot from './AdSlot.astro';
+const { title = site.tagline, description = site.description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{title} — {site.name}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={`${title} — ${site.name}`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" href={href('favicon.svg')} />
+    <meta name="theme-color" content={site.palette.green} />
+  </head>
+  <body
+    style={`--cream:${site.palette.cream};--green:${site.palette.green};--terracotta:${site.palette.terracotta};--spice:${site.palette.spice}`}
+  >
+    <a class="skip-link" href="#main">
+      Aller au contenu
+    </a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href={href()}>
+          <span class="logo-symbol" aria-hidden="true">
+            ✳
+          </span>
+          {site.name}
+          <span class="logo-dot">.</span>
+        </a>
+        <nav aria-label="Navigation principale">
+          <a href={href('catalogue/')}>Bibliothèque</a>
+          <a href={href('explorer/')}>Explorer les pays</a>
+          <a href={href('favoris/')}>
+            Favoris <span aria-hidden="true">♡</span>
+          </a>
+          <a href={href('comparer/')} class="nav-compare">
+            Comparer ⇄
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <div class="container">
+      <AdSlot location="footer" />
+    </div>
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div>
+          <a class="logo" href={href()}>
+            AfroAtlas<span class="logo-dot">.</span>
+          </a>
+          <p>
+            Les noms voyagent.
+            <br />
+            Les sources restent visibles.
+          </p>
+        </div>
+        <div>
+          <h2>Explorer</h2>
+          <a href={href('catalogue/')}>La bibliothèque</a>
+          <a href={href('explorer/')}>Pays & régions</a>
+          <a href={href('references/')}>Références commerciales</a>
+        </div>
+        <div>
+          <h2>Comprendre & contribuer</h2>
+          <a href={href('methodologie/')}>Notre méthodologie</a>
+          <a href={href('sources/')}>Sources & crédits</a>
+          <a href={href('contribuer/')}>Proposer une correction</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>Prototype documentaire public · sans compte ni traceur</span>
+        <a
+          href="https://github.com/minlangrayan-ship-i/afroatlas"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code & données ↗
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

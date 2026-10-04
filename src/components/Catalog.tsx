@@ -1,0 +1,231 @@
+import { useEffect, useMemo, useState } from 'react';
+import { motion, useReducedMotion } from 'motion/react';
+import type { CardProduct } from '../lib/catalogue';
+import { emptyFilters, readFilters, searchProducts, type Filters } from '../lib/search';
+import { countries, europeanContexts, categories, languageNames } from '../data/countries';
+import { loadList } from '../lib/storage';
+import regions from '../data/published/regions.json';
+import ProductCard from './ProductCard';
+import SearchBox from './SearchBox';
+import { href } from '../lib/links';
+export default function Catalog({
+  products,
+  favorites = false,
+  linkedIds = [],
+}: {
+  products: CardProduct[];
+  favorites?: boolean;
+  linkedIds?: string[];
+}) {
+  const [ready, setReady] = useState(false);
+  const [filters, setFilters] = useState<Filters>(emptyFilters),
+    [saved, setSaved] = useState<string[]>([]);
+  const reduce = useReducedMotion();
+  useEffect(() => {
+    const update = () => setFilters(readFilters(location.search));
+    const updateSaved = () => setSaved(loadList('favorites'));
+    update();
+    updateSaved();
+    setReady(true);
+    window.addEventListener('popstate', update);
+    window.addEventListener('afroatlas-storage', updateSaved);
+    return () => {
+      window.removeEventListener('popstate', update);
+      window.removeEventListener('afroatlas-storage', updateSaved);
+    };
+  }, []);
+  const results = useMemo(
+    () =>
+      searchProducts(
+        favorites ? products.filter((p) => saved.includes(p.id)) : products,
+        filters,
+        linkedIds,
+      ),
+    [products, filters, favorites, saved, linkedIds],
+  );
+  const languages = [
+    ...new Set(products.flatMap((p) => p.names.map((n) => n.languageCode).filter(Boolean))),
+  ].sort() as string[];
+  function change(patch: Partial<Filters>) {
+    const next = { ...filters, ...patch };
+    const params = new URLSearchParams();
+    for (const [key, value] of Object.entries(next)) if (value) params.set(key, value);
+    history.pushState({}, '', `${location.pathname}${params.size ? '?' + params : ''}`);
+    setFilters(next);
+  }
+  const active = Object.values(filters).filter(Boolean).length;
+  return (
+    <div className="catalog-layout">
+      <div className="catalog-search">
+        <SearchBox
+          key={filters.q}
+          products={products}
+          initial={filters.q}
+          onSearch={(q) => change({ q })}
+        />
+      </div>
+      <aside className="filters-panel">
+        <div className="filters-heading">
+          <h2>Affiner la recherche</h2>
+          <button onClick={() => change(emptyFilters)}>Réinitialiser</button>
+        </div>
+        <label>
+          Catégorie
+          <select
+            disabled={!ready}
+            aria-label="Catégorie"
+            value={filters.category}
+            onChange={(e) => change({ category: e.target.value })}
+          >
+            <option value="">Toutes les catégories</option>
+            {categories.map((c) => (
+              <option value={c.id} key={c.id}>
+                {c.label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label>
+          Contexte d’appellation
+          <select
+            disabled={!ready}
+            aria-label="Contexte d’appellation"
+            value={filters.country}
+            onChange={(e) => change({ country: e.target.value, region: '' })}
+          >
+            <option value="">Tous les contextes</option>
+            <optgroup label="Pays africains">
+              {countries.map((c) => (
+                <option key={c.ISO3} value={c.ISO3}>
+                  {c.nameFr}
+                </option>
+              ))}
+            </optgroup>
+            <optgroup label="Contextes européens">
+              {europeanContexts.map((c) => (
+                <option key={c.ISO3} value={c.ISO3}>
+                  {c.nameFr}
+                </option>
+              ))}
+            </optgroup>
+          </select>
+        </label>
+        <label>
+          Région documentée
+          <select
+            disabled={!ready}
+            aria-label="Région documentée"
+            value={filters.region}
+            onChange={(e) => change({ region: e.target.value })}
+          >
+            <option value="">Toutes les régions</option>
+            {regions
+              .filter((r) => !filters.country || r.countryISO3 === filters.country)
+              .map((r) => (
+                <option key={r.id} value={r.id}>
+                  {r.name}
+                </option>
+              ))}
+          </select>
+        </label>
+        <label>
+          Langue
+          <select
+            disabled={!ready}
+            aria-label="Langue"
+            value={filters.language}
+            onChange={(e) => change({ language: e.target.value })}
+          >
+            <option value="">Toutes les langues</option>
+            {languages.map((lang) => (
+              <option key={lang} value={lang}>
+                {languageNames[lang] || lang}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label>
+          Forme
+          <select
+            disabled={!ready}
+            aria-label="Forme"
+            value={filters.form}
+            onChange={(e) => change({ form: e.target.value })}
+          >
+            <option value="">Toutes les formes</option>
+            {[...new Set(products.flatMap((p) => p.formTypes))].map((form) => (
+              <option key={form}>{form}</option>
+            ))}
+          </select>
+        </label>
+        <label className="check-label">
+          <input
+            type="checkbox"
+            disabled={!ready}
+            checked={!!filters.commercial}
+            onChange={(e) => change({ commercial: e.target.checked ? '1' : '' })}
+          />
+          Référence commerciale reliée
+        </label>
+        <p className="filter-note">
+          Un filtre pays retient uniquement les appellations dont le contexte géographique est
+          prouvé.
+        </p>
+        <a className="text-link" href={href('references/')}>
+          Rechercher une marque séparément ↗
+        </a>
+      </aside>
+      <div className="catalog-results">
+        <div className="results-heading">
+          <p role="status" aria-live="polite">
+            <strong>{results.length}</strong> fiche{results.length > 1 ? 's' : ''}{' '}
+            {favorites ? 'en favori' : 'documentée' + (results.length > 1 ? 's' : '')}
+          </p>
+          <span>
+            {active} filtre{active > 1 ? 's' : ''} actif{active > 1 ? 's' : ''}
+          </span>
+        </div>
+        {results.length === 0 ? (
+          <div className="empty-state">
+            <span aria-hidden="true">⌕</span>
+            <h2>
+              {favorites
+                ? 'Votre bibliothèque personnelle commence ici.'
+                : 'Aucune correspondance documentée.'}
+            </h2>
+            <p>
+              {filters.country || filters.region
+                ? 'Aucune appellation régionale ou nationale documentée pour ce contexte dans cet instantané. Les noms linguistiques ne sont pas attribués automatiquement à un pays.'
+                : 'Essayez une autre orthographe, un nom scientifique ou retirez un filtre. Un produit proche n’est pas présenté comme équivalent.'}
+            </p>
+            <button className="button" onClick={() => change(emptyFilters)}>
+              Effacer les filtres
+            </button>
+            <a className="button secondary" href={href(favorites ? 'catalogue/' : 'contribuer/')}>
+              {favorites ? 'Explorer la bibliothèque' : 'Proposer une appellation'}
+            </a>
+          </div>
+        ) : (
+          <div className="product-grid">
+            {results.map(({ product, match }, i) => (
+              <motion.div
+                key={product.id}
+                layout={!reduce}
+                initial={false}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: reduce ? 0 : 0.18 }}
+              >
+                <ProductCard product={product} match={match} />
+                {i === 5 && (
+                  <aside className="inline-ad" aria-label="Emplacement partenaire">
+                    Espace publicitaire · démonstration sans annonce active
+                  </aside>
+                )}
+              </motion.div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

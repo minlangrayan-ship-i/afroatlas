@@ -1,0 +1,84 @@
+---
+import Layout from '../components/Layout.astro';
+import { href } from '../lib/links';
+import { products, catalogue } from '../lib/catalogue';
+---
+
+<Layout title="Méthodologie">
+  <div class="container page-intro">
+    <p class="eyebrow">DES CORRESPONDANCES QUI ONT UNE PREUVE</p>
+    <h1>Documenter avant d’affirmer.</h1>
+    <p>Une bibliothèque utile sait aussi expliquer ce qu’elle ne connaît pas encore.</p>
+  </div>
+  <article class="container page-body prose">
+    <h2>Ce que contient cet instantané</h2>
+    <p>
+      {products.length} fiches d’espèces identifiées et {catalogue.names.length} assertions de noms
+      linguistiques, issues de Wikidata. Chaque fiche utilise une photographie associée à son
+      entité, avec crédit et licence individuelle. Ce lot ne prouve pas la consommation,
+      l’appellation locale ou la présence en boutique dans un pays donné.
+    </p>
+    <h2>Quatre statuts distincts</h2>
+    <dl>
+      <dt>Candidat</dt>
+      <dd>Piste de collecte, hors des résultats publics.</dd>
+      <dt>Appellation documentée</dt>
+      <dd>Source et emplacement de preuve identifiables ; limites affichées.</dd>
+      <dt>Appellation vérifiée</dt>
+      <dd>
+        Examen éditorial explicite ou personne compétente identifié dans la preuve. Aucun import ne
+        simule cet examen ; aucune appellation de ce lot ne porte ce statut.
+      </dd>
+      <dt>Rejeté</dt>
+      <dd>Correspondance non retenue, conservée hors des résultats.</dd>
+    </dl>
+    <h2>La chaîne de collecte</h2>
+    <ol>
+      <li>Récupérer les données avec source, date et licence.</li>
+      <li>Conserver le brut, normaliser les noms sans effacer les variantes.</li>
+      <li>
+        Rapprocher les candidats : identification scientifique exacte, sans proximité lexicale
+        transformée en certitude.
+      </li>
+      <li>Exposer seulement les assertions documentées et leurs limites.</li>
+      <li>Prévoir un examen culturel et éditorial enregistré avant le statut vérifié.</li>
+    </ol>
+    <h2>Langue, pays et région</h2>
+    <p>
+      Une appellation française ne prouve pas son usage au Cameroun, au Sénégal ou en France. Une
+      région ADM1 est un objet administratif ; une zone culturelle ou linguistique exige une preuve
+      distincte. Aucun nom du pays n’est distribué automatiquement aux régions.
+    </p>
+    <h2>Les ambiguïtés restent visibles</h2>
+    <p>
+      « Piment » peut correspondre à plusieurs espèces. Les fiches sont séparées et la recherche
+      présente les candidats. Les tilapias et maquereaux ne sont pas assimilés à une espèce unique :
+      ce lot présente des espèces nommées distinctes, et non une identification automatique d’un
+      poisson acheté.
+    </p>
+    <h2>Photos et usages</h2>
+    <p>
+      Les photos montrent parfois la plante entière ou un spécimen. Elles ne garantissent pas la
+      forme vendue ni une méthode de préparation. Les usages culinaires qui n’ont pas de preuve sont
+      indiqués comme non documentés. Aucune instruction médicale ou de consommation crue n’est
+      fournie.
+    </p>
+    <h2>Marques et provenance</h2>
+    <p>
+      Le jeu Open Food Facts est distinct, sous ODbL. Une marque n’est pas une appellation locale.
+      Pays de vente, origine déclarée et fabrication sont des champs différents. Aucun stock, prix
+      ou vendeur n’est déduit des références.
+    </p>
+    <h2>Contribuer sans publication automatique</h2>
+    <p>
+      Les brouillons restent dans le navigateur. L’export JSON n’envoie rien à une équipe et ne
+      publie aucune donnée. L’historique de recherche n’est pas enregistré dans cette V1.
+    </p>
+    <a class="button" href={href('sources/')}>
+      Consulter les sources & crédits ↗
+    </a>
+    <a class="button secondary" href={href('contribuer/')}>
+      Proposer une correction ↗
+    </a>
+  </article>
+</Layout>

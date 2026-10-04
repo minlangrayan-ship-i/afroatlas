@@ -1,0 +1,552 @@
+[
+  {
+    "id": "region-CMR-27767025B11866847137657",
+    "countryISO3": "CMR",
+    "name": "Centre",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B11866847137657",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B65184844379073",
+    "countryISO3": "CMR",
+    "name": "Far North",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B65184844379073",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B7666404469333",
+    "countryISO3": "CMR",
+    "name": "North",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B7666404469333",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B74489197250691",
+    "countryISO3": "CMR",
+    "name": "North-West",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B74489197250691",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B32580592296844",
+    "countryISO3": "CMR",
+    "name": "Adamaoua",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B32580592296844",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B81519146961984",
+    "countryISO3": "CMR",
+    "name": "East",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B81519146961984",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B67924123829422",
+    "countryISO3": "CMR",
+    "name": "South",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B67924123829422",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B54850051814081",
+    "countryISO3": "CMR",
+    "name": "South-West",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B54850051814081",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B65871807342439",
+    "countryISO3": "CMR",
+    "name": "West",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B65871807342439",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CMR-27767025B72594666306589",
+    "countryISO3": "CMR",
+    "name": "Littoral",
+    "adminLevel": 1,
+    "geometryRef": "region-CMR-27767025B72594666306589",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CMR"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B96959932745266",
+    "countryISO3": "CIV",
+    "name": "Bas-Sassandra",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B96959932745266",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B12160353323799",
+    "countryISO3": "CIV",
+    "name": "Denguele",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B12160353323799",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B76853064397847",
+    "countryISO3": "CIV",
+    "name": "District Autonome D'Abidjan",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B76853064397847",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B30232425959699",
+    "countryISO3": "CIV",
+    "name": "District Autonome De Yamoussoukro",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B30232425959699",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B34711482467037",
+    "countryISO3": "CIV",
+    "name": "Goh-Djiboua",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B34711482467037",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B20352934117266",
+    "countryISO3": "CIV",
+    "name": "Lacs",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B20352934117266",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B69310198422077",
+    "countryISO3": "CIV",
+    "name": "Montagnes",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B69310198422077",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B74959515955757",
+    "countryISO3": "CIV",
+    "name": "Sassandra-Marahoue",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B74959515955757",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B28791092437733",
+    "countryISO3": "CIV",
+    "name": "Savanes",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B28791092437733",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B62906982633778",
+    "countryISO3": "CIV",
+    "name": "Valle Du Bandama",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B62906982633778",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B58892240487392",
+    "countryISO3": "CIV",
+    "name": "Woroba",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B58892240487392",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B79983119233374",
+    "countryISO3": "CIV",
+    "name": "Zanzan",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B79983119233374",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B73612976130091",
+    "countryISO3": "CIV",
+    "name": "Lagunes",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B73612976130091",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-CIV-83157122B96325295181308",
+    "countryISO3": "CIV",
+    "name": "Comoe",
+    "adminLevel": 1,
+    "geometryRef": "region-CIV-83157122B96325295181308",
+    "boundaryYear": "2016",
+    "sourceIds": [
+      "geoboundaries-CIV"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B89532291078161",
+    "countryISO3": "MAR",
+    "name": "Laâyoune-Sakia El Hamra",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B89532291078161",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B66040098455254",
+    "countryISO3": "MAR",
+    "name": "Tangier-Tetouan-Al Hoceima",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B66040098455254",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B40056535803135",
+    "countryISO3": "MAR",
+    "name": "Oriental",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B40056535803135",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B26242154300952",
+    "countryISO3": "MAR",
+    "name": "Drâa-Tafilalet",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B26242154300952",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B1820144472977",
+    "countryISO3": "MAR",
+    "name": "Souss-Massa",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B1820144472977",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B64069740334949",
+    "countryISO3": "MAR",
+    "name": "Guelmim-Oued Noun",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B64069740334949",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B33851053053385",
+    "countryISO3": "MAR",
+    "name": "Casablanca-Settat",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B33851053053385",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B60308563647099",
+    "countryISO3": "MAR",
+    "name": "Marrakech-Safi",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B60308563647099",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B40522022577718",
+    "countryISO3": "MAR",
+    "name": "Dakhla-Oued Ed-Dahab",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B40522022577718",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B15955360211262",
+    "countryISO3": "MAR",
+    "name": "Rabat-Salé-Kenitra",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B15955360211262",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B83815134303720",
+    "countryISO3": "MAR",
+    "name": "Fez-Meknes",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B83815134303720",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-MAR-70788906B63032885328780",
+    "countryISO3": "MAR",
+    "name": "Béni Mellal-Khénifra",
+    "adminLevel": 1,
+    "geometryRef": "region-MAR-70788906B63032885328780",
+    "boundaryYear": "2017",
+    "sourceIds": [
+      "geoboundaries-MAR"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B16569890219484",
+    "countryISO3": "SEN",
+    "name": "Dakar",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B16569890219484",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B89912390768536",
+    "countryISO3": "SEN",
+    "name": "Diourbel",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B89912390768536",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B84527172065489",
+    "countryISO3": "SEN",
+    "name": "Fatick",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B84527172065489",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B9856693808493",
+    "countryISO3": "SEN",
+    "name": "Kaffrine",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B9856693808493",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B19471834738959",
+    "countryISO3": "SEN",
+    "name": "Kaolack",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B19471834738959",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B66864032803639",
+    "countryISO3": "SEN",
+    "name": "Kolda",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B66864032803639",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B63374102885919",
+    "countryISO3": "SEN",
+    "name": "Louga",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B63374102885919",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B85295751834134",
+    "countryISO3": "SEN",
+    "name": "Matam",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B85295751834134",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B37999982332216",
+    "countryISO3": "SEN",
+    "name": "Saint Louis",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B37999982332216",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B19178449543377",
+    "countryISO3": "SEN",
+    "name": "Sedhiou",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B19178449543377",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B85662395344337",
+    "countryISO3": "SEN",
+    "name": "Tambacounda",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B85662395344337",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B89315153043645",
+    "countryISO3": "SEN",
+    "name": "Thies",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B89315153043645",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B26251724010642",
+    "countryISO3": "SEN",
+    "name": "Ziguinchor",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B26251724010642",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  },
+  {
+    "id": "region-SEN-71046170B5066698136661",
+    "countryISO3": "SEN",
+    "name": "Kedougou",
+    "adminLevel": 1,
+    "geometryRef": "region-SEN-71046170B5066698136661",
+    "boundaryYear": "2019",
+    "sourceIds": [
+      "geoboundaries-SEN"
+    ]
+  }
+]

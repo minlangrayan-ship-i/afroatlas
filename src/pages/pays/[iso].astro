@@ -1,0 +1,84 @@
+---
+import Layout from '../../components/Layout.astro';
+import Regions from '../../components/Regions';
+import { countries } from '../../data/countries';
+import geography from '../../data/published/geography.json';
+import { regionPaths } from '../../lib/maps';
+import { catalogue } from '../../lib/catalogue';
+import { href } from '../../lib/links';
+export function getStaticPaths() {
+  return countries.map((country) => ({
+    params: { iso: country.ISO3.toLowerCase() },
+    props: { country },
+  }));
+}
+const { country } = Astro.props;
+const names = catalogue.names.filter((n) => n.countryIds.includes(country.ISO3));
+const regions = geography.regions.filter((r) => r.countryISO3 === country.ISO3);
+const metadata = geography.metadata.find((m) => m.id === `geoboundaries-${country.ISO3}`);
+---
+
+<Layout title={`Explorer ${country.nameFr}`}>
+  <div class="container breadcrumbs">
+    <a href={href('explorer/')}>Pays & régions</a> / {country.nameFr}
+  </div>
+  <section class="container page-intro">
+    <p class="eyebrow">
+      {country.discoveryGroup} · {country.ISO2} / {country.ISO3}
+    </p>
+    <h1>{country.nameFr}.</h1>
+    <p>
+      Explorez les appellations dont le contexte a été documenté, et les subdivisions
+      administratives lorsqu’elles sont disponibles.
+    </p>
+  </section>
+  <section class="container page-body">
+    <div class="country-coverage">
+      <strong>{new Set(names.map((n) => n.productId)).size}</strong>
+      <span>produit avec appellation contextualisée dans ce pays</span>
+    </div>
+    <p class="notice">
+      {names.length
+        ? 'Consultez les sources de chaque appellation.'
+        : 'Aucune appellation nationale documentée pour le moment. Les noms en français, anglais ou dans une autre langue ne sont pas attribués automatiquement à ce pays.'}
+    </p>
+    <a class="button secondary" href={href(`catalogue/?country=${country.ISO3}`)}>
+      Filtrer ce contexte dans la bibliothèque ↗
+    </a>
+    <a class="text-link" href={href('catalogue/')}>
+      Voir les noms linguistiques sans filtre pays →
+    </a>
+    {regions.length ? (
+      <section class="section">
+        <p class="eyebrow">NAVIGATION ADMINISTRATIVE · ADM1</p>
+        <h2>{regions.length} subdivisions, selon la source.</h2>
+        <p class="table-note">
+          Millésime représenté : {metadata?.boundaryYear}. Noms conservés depuis le jeu importé ;
+          les limites ne prétendent pas représenter l’année actuelle.
+        </p>
+        <Regions regions={regions} paths={regionPaths(country.ISO3)} client:load />
+        <div class="geo-credit">
+          <p>
+            Source :{' '}
+            <a href={metadata?.url} target="_blank" rel="noopener noreferrer">
+              {metadata?.title} ↗
+            </a>{' '}
+            · {metadata?.licenseId}
+          </p>
+          <p>
+            Version {metadata?.datasetVersion} · import {metadata?.retrievedAt} · source
+            sous-jacente : {metadata?.source}
+          </p>
+        </div>
+      </section>
+    ) : (
+      <p class="empty-note">
+        Navigation régionale non importée pour ce pays dans la V1. Vous pouvez proposer une source
+        ouverte.
+      </p>
+    )}
+    <a class="button" href={href('contribuer/')}>
+      Proposer une appellation documentée ↗
+    </a>
+  </section>
+</Layout>

@@ -1,0 +1,19 @@
+---
+import Layout from '../components/Layout.astro';
+import Catalog from '../components/Catalog';
+import { cardProducts } from '../lib/catalogue';
+---
+
+<Layout title="Mes favoris">
+  <div class="container page-intro">
+    <p class="eyebrow">VOTRE SÉLECTION</p>
+    <h1>À retrouver facilement.</h1>
+    <p>
+      Favoris enregistrés uniquement sur cet appareil et ce navigateur, sans compte. Ils ne sont pas
+      synchronisés.
+    </p>
+  </div>
+  <section class="container page-body">
+    <Catalog products={cardProducts} favorites client:load />
+  </section>
+</Layout>

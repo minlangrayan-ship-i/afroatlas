@@ -1,0 +1,21 @@
+---
+import Layout from '../components/Layout.astro';
+import Catalog from '../components/Catalog';
+import { cardProducts, commercial } from '../lib/catalogue';
+const linkedIds = commercial.references.flatMap((r) =>
+  r.relations.map((relation) => relation.productId),
+);
+---
+
+<Layout title="Bibliothèque des produits">
+  <div class="container page-intro">
+    <p class="eyebrow">CHERCHER · IDENTIFIER · DISTINGUER</p>
+    <h1>La bibliothèque.</h1>
+    <p>
+      Un nom courant, une appellation ou un nom scientifique : partez de ce que vous connaissez.
+    </p>
+  </div>
+  <section class="container page-body">
+    <Catalog products={cardProducts} linkedIds={linkedIds} client:load />
+  </section>
+</Layout>

@@ -1,0 +1,16 @@
+---
+import Layout from '../components/Layout.astro';
+import Compare from '../components/Compare';
+import { cardProducts } from '../lib/catalogue';
+---
+
+<Layout title="Comparer les produits">
+  <div class="container page-intro">
+    <p class="eyebrow">REGARDER LES DIFFÉRENCES</p>
+    <h1>Comparer pour distinguer.</h1>
+    <p>Photographies, formes et appellations documentées : jusqu’à trois fiches côte à côte.</p>
+  </div>
+  <section class="container page-body">
+    <Compare products={cardProducts} client:load />
+  </section>
+</Layout>

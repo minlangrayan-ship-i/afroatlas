@@ -1,0 +1,176 @@
+---
+import Layout from '../../components/Layout.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import ProductActions from '../../components/ProductActions';
+import PhotoZoom from '../../components/PhotoZoom';
+import NamesTable from '../../components/NamesTable';
+import { products, catalogue, imageFor, namesFor, commercial } from '../../lib/catalogue';
+import { href } from '../../lib/links';
+import { categories } from '../../data/countries';
+export function getStaticPaths() {
+  return products.map((product) => ({ params: { slug: product.slug }, props: { product } }));
+}
+const { product } = Astro.props;
+const image = imageFor(product.id),
+  names = namesFor(product.id);
+const rows = names.map((name) => {
+  const proof = catalogue.evidence.find((e) => e.id === name.evidenceIds[0])!;
+  return {
+    ...name,
+    sourceUrl: catalogue.sources.find((s) => s.id === proof.sourceId)!.url,
+    locator: proof.locator,
+  };
+});
+const french = names.find((n) => n.languageCode === 'fr'),
+  english = names.find((n) => n.languageCode === 'en');
+const related = products
+  .filter((p) => p.id !== product.id && p.categoryId === product.categoryId)
+  .slice(0, 3);
+const references = commercial.references.filter((r) =>
+  r.relations.some((rel) => rel.productId === product.id),
+);
+---
+
+<Layout title={product.labelFr} description={product.description}>
+  <div class="container breadcrumbs">
+    <a href={href('catalogue/')}>Bibliothèque</a>
+    <span> / </span>
+    <span>{product.labelFr}</span>
+  </div>
+  <section class="container product-hero">
+    <div>
+      <PhotoZoom image={image} label={product.labelFr} client:load />
+      <p class="photo-credit">
+        {image.creator} ·{' '}
+        <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
+          Source ↗
+        </a>{' '}
+        ·{' '}
+        <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
+          {image.licenseId}
+        </a>
+        <small>{image.modifications}</small>
+      </p>
+    </div>
+    <div class="product-summary">
+      <p class="eyebrow">{categories.find((c) => c.id === product.categoryId)?.label}</p>
+      <h1>{product.labelFr}</h1>
+      <p class="scientific">{product.scientificName}</p>
+      <p>{product.description}</p>
+      <div class="summary-facts">
+        <span>Espèce identifiée</span>
+        <span>Appellations documentées</span>
+        <span>{names.length} noms / variantes</span>
+      </div>
+      <ProductActions id={product.id} share client:load />
+      <p class="table-note">{product.editorialNote}</p>
+      <p class="verification-date">
+        Dernier contrôle d’import : <time datetime={product.verifiedAt}>{product.verifiedAt}</time>.
+        Aucun examen culturel humain enregistré.
+      </p>
+    </div>
+  </section>
+  <section class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">UN NOM, UNE PREUVE</p>
+        <h2>Les appellations documentées.</h2>
+      </div>
+    </div>
+    <NamesTable names={rows} client:load />
+  </section>
+  <section class="container section detail-columns">
+    <article class="shop-guide">
+      <p class="eyebrow">COMMENT LE DEMANDER EN BOUTIQUE ?</p>
+      <h2>Commencez par un nom documenté.</h2>
+      <dl>
+        <dt>Libellé français de la source</dt>
+        <dd>{french?.name || 'Non renseigné'}</dd>
+        <dt>Libellé anglais de la source</dt>
+        <dd>{english?.name || 'Non renseigné'}</dd>
+        <dt>Forme de la fiche</dt>
+        <dd>{product.formTypes.join(', ')}</dd>
+      </dl>
+      <p>
+        Montrez la photographie et précisez la forme recherchée. Ces libellés ne prouvent pas le nom
+        utilisé par une boutique.
+      </p>
+    </article>
+    <article class="usage-guide">
+      <p class="eyebrow">USAGES & FORMES</p>
+      <h2>Ce que cette fiche établit.</h2>
+      <p>
+        {product.usage ||
+          'Les usages culinaires régionaux et les formes préparées ne sont pas encore documentés dans cet instantané.'}
+      </p>
+      <p>
+        Aucune équivalence entre produit brut, séché, fumé ou moulu n’est présumée. Les mélanges et
+        plats préparés nécessitent une fiche propre.
+      </p>
+      <a class="text-link" href={href(`contribuer/?product=${product.slug}`)}>
+        Compléter avec une source ↗
+      </a>
+    </article>
+  </section>
+  <div class="container">
+    <AdSlot location="product-after-main-info" />
+  </div>
+  <section class="container section">
+    <p class="eyebrow">RÉFÉRENCES COMMERCIALES</p>
+    <h2>Le conditionnement, une autre identité.</h2>
+    <p>
+      {references.length
+        ? `${references.length} références reliées par une preuve.`
+        : 'Aucune référence commerciale reliée par une preuve à cette fiche pour le moment.'}
+    </p>
+    <a class="text-link" href={href('references/')}>
+      Consulter les références séparément ↗
+    </a>
+  </section>
+  <section class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">CATÉGORIE VOISINE, PAS ÉQUIVALENCE</p>
+        <h2>À distinguer également.</h2>
+      </div>
+    </div>
+    <div class="related-grid">
+      {related.map((p) => (
+        <a href={href(`produits/${p.slug}/`)}>
+          <img
+            src={href(imageFor(p.id).smallPath)}
+            alt={imageFor(p.id).altFr}
+            width="200"
+            height="150"
+            loading="lazy"
+          />
+          <span>
+            {p.labelFr}
+            <small>Relation : même catégorie de navigation</small>
+          </span>
+          <b>↗</b>
+        </a>
+      ))}
+    </div>
+  </section>
+  <section class="container source-section section">
+    <h2>Sources & limites</h2>
+    {catalogue.sources
+      .filter((s) => product.sourceIds.includes(s.id))
+      .map((s) => (
+        <p>
+          <a href={s.url} target="_blank" rel="noopener noreferrer">
+            {s.title} ↗
+          </a>{' '}
+          · {s.licenseId} · révision {s.datasetVersion} · importé le {s.retrievedAt}
+        </p>
+      ))}
+    <p>
+      Les alias linguistiques ne prouvent ni usage géographique, ni usage culinaire, ni présence en
+      boutique. Pour un nom ambigu, consultez toutes les fiches candidates dans la recherche.
+    </p>
+    <a class="button secondary" href={href(`contribuer/?product=${product.slug}`)}>
+      Proposer une correction ↗
+    </a>
+  </section>
+</Layout>

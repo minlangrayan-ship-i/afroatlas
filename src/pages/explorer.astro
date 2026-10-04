@@ -1,0 +1,56 @@
+---
+import Layout from '../components/Layout.astro';
+import AfricaMap from '../components/AfricaMap.astro';
+import { countries, europeanContexts } from '../data/countries';
+import { href } from '../lib/links';
+const groups = [...new Set(countries.map((c) => c.discoveryGroup))];
+---
+
+<Layout title="Explorer les pays">
+  <div class="container page-intro">
+    <p class="eyebrow">PLUSIEURS CONTEXTES, UNE BIBLIOTHÈQUE</p>
+    <h1>Les pays, comme points de départ.</h1>
+    <p>
+      Une carte et une liste équivalente. Un pays d’appellation ne détermine ni l’origine d’un
+      ingrédient, ni son lieu de fabrication.
+    </p>
+  </div>
+  <section class="container page-body explorer-layout">
+    <AfricaMap />
+    <div class="country-groups">
+      {groups.map((group) => (
+        <section>
+          <h2>{group}</h2>
+          <div>
+            {countries
+              .filter((c) => c.discoveryGroup === group)
+              .map((c) => (
+                <a href={href(`pays/${c.ISO3.toLowerCase()}/`)}>
+                  <span>{c.ISO2}</span>
+                  {c.nameFr}
+                  <b>↗</b>
+                </a>
+              ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+  <section class="container section">
+    <p class="eyebrow">CONTEXTES EUROPÉENS DE COMMERCIALISATION</p>
+    <h2>Un marché n’est pas une origine.</h2>
+    <p>
+      Ces cinq contextes sont séparés des 20 pays africains. Aucun usage d’appellation n’y est
+      présumé.
+    </p>
+    <div class="country-strip">
+      {europeanContexts.map((c) => (
+        <a href={href(`catalogue/?country=${c.ISO3}`)}>
+          <span>{c.ISO2}</span>
+          <strong>{c.nameFr}</strong>
+          <b>↗</b>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

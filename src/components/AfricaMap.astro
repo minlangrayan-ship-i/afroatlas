@@ -1,0 +1,34 @@
+---
+import { africaPaths } from '../lib/maps';
+import { href } from '../lib/links';
+const paths = africaPaths();
+---
+
+<div class="africa-map">
+  <svg
+    viewBox="0 0 600 570"
+    role="img"
+    aria-label="Carte de découverte des pays africains, complétée par une liste accessible"
+  >
+    {paths.map((item) =>
+      item.country ? (
+        <a
+          href={href(`pays/${item.country.ISO3.toLowerCase()}/`)}
+          aria-label={`Explorer ${item.label}`}
+        >
+          <path d={item.path} class="map-country">
+            <title>{item.label}</title>
+          </path>
+        </a>
+      ) : (
+        <path d={item.path} class="map-background">
+          <title>{item.label}</title>
+        </path>
+      ),
+    )}
+  </svg>
+  <p>
+    Carte Natural Earth 5.1.2 · les petites îles peuvent ne pas être représentées à cette échelle.
+    La liste propose les 20 pays.
+  </p>
+</div>

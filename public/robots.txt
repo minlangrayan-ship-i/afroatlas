@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /afroatlas/
+Sitemap: https://minlangrayan-ship-i.github.io/afroatlas/sitemap-index.xml

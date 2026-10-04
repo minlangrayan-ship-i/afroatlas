@@ -1,0 +1,24 @@
+---
+import Layout from '../components/Layout.astro';
+import References from '../components/References';
+import { commercial } from '../lib/catalogue';
+---
+
+<Layout title="Références commerciales">
+  <div class="container page-intro">
+    <p class="eyebrow">LE PRODUIT EMBALLÉ A SA PROPRE IDENTITÉ</p>
+    <h1>Marques & références.</h1>
+    <p>
+      Un instantané Open Food Facts, distinct des appellations locales. Aucune disponibilité,
+      boutique ou origine n’est déduite des marchés déclarés.
+    </p>
+  </div>
+  <section class="container page-body">
+    <References references={commercial.references} client:load />
+    <p class="notice">
+      Aucun rapprochement avec un ingrédient du catalogue n’est publié dans ce lot. Les liens
+      nécessitent une preuve d’étiquette et un examen. Les données restent sous ODbL ; les champs
+      absents sont indiqués.
+    </p>
+  </section>
+</Layout>

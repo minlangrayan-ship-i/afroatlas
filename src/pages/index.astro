@@ -1,0 +1,203 @@
+---
+import Layout from '../components/Layout.astro';
+import SearchBox from '../components/SearchBox';
+import ProductCard from '../components/ProductCard';
+import AdSlot from '../components/AdSlot.astro';
+import { cardProducts, products, namesFor } from '../lib/catalogue';
+import { href } from '../lib/links';
+import { countries, categories, languageNames } from '../data/countries';
+const featured = ['gombo', 'gingembre', 'aubergine-africaine', 'tilapia-nil']
+  .map((slug) => cardProducts.find((p) => p.slug === slug)!)
+  .filter(Boolean);
+const hero = cardProducts.find((p) => p.slug === 'gombo')!;
+const exampleNames = namesFor(hero.id)
+  .filter((n) => ['fr', 'en', 'ar', 'sw'].includes(n.languageCode || ''))
+  .filter((n, i, arr) => arr.findIndex((a) => a.languageCode === n.languageCode) === i);
+---
+
+<Layout title="Un produit, plusieurs noms. Retrouvez le vôtre.">
+  <section class="hero container">
+    <div class="hero-content">
+      <p class="eyebrow">
+        <span class="tiny-dot"></span> LA BIBLIOTHÈQUE DES PRODUITS AFRICAINS
+      </p>
+      <h1>
+        Un produit,
+        <br />
+        plusieurs noms.
+        <br />
+        <em>Retrouvez le vôtre.</em>
+      </h1>
+      <p class="hero-description">
+        Explorez les appellations, les photos et les références de produits africains, d’un pays et
+        d’une langue à l’autre.
+      </p>
+      <SearchBox products={cardProducts} client:load />
+      <div class="popular">
+        <span>À explorer</span>
+        {['gombo', 'gingembre', 'piment', 'tilapia'].map((term) => (
+          <a href={href(`catalogue/?q=${term}`)}>{term} ↗</a>
+        ))}
+      </div>
+      <p class="hero-proof">
+        {products.length} fiches sourcées <span>·</span> 20 pays à explorer <span>·</span> Sans
+        compte
+      </p>
+    </div>
+    <div class="hero-photo">
+      <img
+        src={href(hero.image.localPath)}
+        srcset={`${href(hero.image.smallPath)} 400w, ${href(hero.image.localPath)} 960w`}
+        sizes="(max-width:700px) 100vw, 45vw"
+        alt={hero.image.altFr}
+        width={hero.image.width}
+        height={hero.image.height}
+        loading="eager"
+        fetchpriority="high"
+      />
+      <span class="photo-stamp">
+        Chaque nom
+        <br />a une histoire.<span aria-hidden="true">✳</span>
+      </span>
+      <a class="hero-photo-label" href={href('produits/gombo/')}>
+        <span>
+          <small>À LA UNE</small>Gombo <em>Abelmoschus esculentus</em>
+        </span>
+        <b aria-hidden="true">↗</b>
+      </a>
+      <a
+        class="hero-credit"
+        href={hero.image.sourcePageUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Photo : {hero.image.creator} · {hero.image.licenseId}
+      </a>
+    </div>
+  </section>
+  <section class="container section categories-section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">SUIVEZ VOTRE CURIOSITÉ</p>
+        <h2>Que cherchez-vous aujourd’hui ?</h2>
+      </div>
+      <a class="text-link" href={href('catalogue/')}>
+        Toute la bibliothèque ↗
+      </a>
+    </div>
+    <div class="category-grid">
+      {categories.map((category) => {
+        const p = cardProducts.find((p) => p.categoryId === category.id)!;
+        return (
+          <a class="category-card" href={href(`catalogue/?category=${category.id}`)}>
+            <img src={href(p.image.smallPath)} alt="" width="400" height="300" loading="lazy" />
+            <div>
+              <span>{category.symbol}</span>
+              <h3>{category.label}</h3>
+              <small>
+                {products.filter((p) => p.categoryId === category.id).length} fiches documentées
+              </small>
+              <b>↗</b>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+  <div class="container">
+    <AdSlot location="home-after-categories" />
+  </div>
+  <section class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">UNE PREMIÈRE EXPLORATION</p>
+        <h2>Des produits. Des noms. Des repères.</h2>
+      </div>
+      <a class="text-link" href={href('catalogue/')}>
+        Explorer les {products.length} fiches ↗
+      </a>
+    </div>
+    <div class="product-grid home-products">
+      {featured.map((product) => (
+        <ProductCard product={product} client:visible />
+      ))}
+    </div>
+  </section>
+  <section class="name-story">
+    <div class="container story-grid">
+      <div>
+        <p class="eyebrow">LES NOMS VOYAGENT</p>
+        <h2>
+          Découvrez les noms
+          <br />
+          d’un même produit.
+        </h2>
+        <p>
+          Le gombo est identifié par une même espèce. Wikidata en documente plusieurs libellés
+          linguistiques, sans établir leur usage dans un pays particulier.
+        </p>
+        <a class="button light" href={href('produits/gombo/')}>
+          Comprendre les appellations ↗
+        </a>
+      </div>
+      <div class="name-example">
+        {exampleNames.map((n) => (
+          <div>
+            <span>{languageNames[n.languageCode || '']}</span>
+            <strong>{n.name}</strong>
+          </div>
+        ))}
+        <small>Source : Wikidata {hero.taxonId} · CC0 · contexte géographique non établi</small>
+      </div>
+    </div>
+  </section>
+  <section class="container section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">D’UN PAYS À L’AUTRE</p>
+        <h2>Choisissez un point de départ.</h2>
+      </div>
+      <a class="text-link" href={href('explorer/')}>
+        Ouvrir la carte ↗
+      </a>
+    </div>
+    <div class="country-strip">
+      {countries.slice(0, 5).map((c) => (
+        <a href={href(`pays/${c.ISO3.toLowerCase()}/`)}>
+          <span>{c.ISO2}</span>
+          <strong>{c.nameFr}</strong>
+          <b>↗</b>
+        </a>
+      ))}
+    </div>
+    <p class="table-note">
+      Pays explorables ; la couverture des appellations contextualisées est encore limitée et
+      indiquée sur chaque page.
+    </p>
+  </section>
+  <section class="container about-project section">
+    <div>
+      <p class="eyebrow">UNE BIBLIOTHÈQUE OUVERTE</p>
+      <h2>Reconnaître avant de rapprocher.</h2>
+      <p>
+        Un nom peut désigner plusieurs produits. AfroAtlas présente les preuves, les photos et les
+        limites pour vous aider à les distinguer. Ce prototype ne gère ni stocks, ni commandes, ni
+        paiements.
+      </p>
+    </div>
+    <div>
+      <a href={href('methodologie/')} class="method-card">
+        <span>01</span>
+        <h3>Comment vérifie-t-on un nom ?</h3>
+        <p>Notre méthode, les sources et les ambiguïtés.</p>
+        <b>↗</b>
+      </a>
+      <a href={href('contribuer/')} class="method-card">
+        <span>02</span>
+        <h3>Vous connaissez une appellation ?</h3>
+        <p>Préparez une proposition avec sa preuve.</p>
+        <b>↗</b>
+      </a>
+    </div>
+  </section>
+</Layout>

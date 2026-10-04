@@ -1,0 +1,46 @@
+export const countries = [
+  ['CM', 'CMR', 'Cameroun', 'Première sélection francophone'],
+  ['CI', 'CIV', 'Côte d’Ivoire', 'Première sélection francophone'],
+  ['SN', 'SEN', 'Sénégal', 'Première sélection francophone'],
+  ['BJ', 'BEN', 'Bénin', 'Première sélection francophone'],
+  ['CD', 'COD', 'République démocratique du Congo', 'Première sélection francophone'],
+  ['MA', 'MAR', 'Maroc', 'Afrique du Nord'],
+  ['DZ', 'DZA', 'Algérie', 'Afrique du Nord'],
+  ['TN', 'TUN', 'Tunisie', 'Afrique du Nord'],
+  ['GH', 'GHA', 'Ghana', 'Afrique de l’Ouest'],
+  ['NG', 'NGA', 'Nigeria', 'Afrique de l’Ouest'],
+  ['KE', 'KEN', 'Kenya', 'Afrique de l’Est'],
+  ['TZ', 'TZA', 'Tanzanie', 'Afrique de l’Est'],
+  ['UG', 'UGA', 'Ouganda', 'Afrique de l’Est'],
+  ['ET', 'ETH', 'Éthiopie', 'Afrique de l’Est'],
+  ['ZA', 'ZAF', 'Afrique du Sud', 'Afrique australe'],
+  ['AO', 'AGO', 'Angola', 'Afrique australe'],
+  ['ZM', 'ZMB', 'Zambie', 'Afrique australe'],
+  ['MZ', 'MOZ', 'Mozambique', 'Afrique australe'],
+  ['MG', 'MDG', 'Madagascar', 'Îles de l’océan Indien'],
+  ['MU', 'MUS', 'Maurice', 'Îles de l’océan Indien'],
+].map(([ISO2, ISO3, nameFr, discoveryGroup]) => ({ ISO2, ISO3, nameFr, discoveryGroup }));
+export const europeanContexts = [
+  ['FR', 'FRA', 'France'],
+  ['BE', 'BEL', 'Belgique'],
+  ['DE', 'DEU', 'Allemagne'],
+  ['GB', 'GBR', 'Royaume-Uni'],
+  ['PT', 'PRT', 'Portugal'],
+].map(([ISO2, ISO3, nameFr]) => ({ ISO2, ISO3, nameFr }));
+export const languageNames: Record<string, string> = {
+  fr: 'Français',
+  en: 'Anglais',
+  ar: 'Arabe',
+  sw: 'Swahili',
+  wo: 'Wolof',
+  yo: 'Yoruba',
+  ha: 'Haoussa',
+  am: 'Amharique',
+  pt: 'Portugais',
+  mg: 'Malgache',
+};
+export const categories = [
+  { id: 'spices', label: 'Épices & condiments', symbol: '✳' },
+  { id: 'vegetables', label: 'Légumes & feuilles', symbol: '❧' },
+  { id: 'fish', label: 'Poissons', symbol: '≈' },
+];

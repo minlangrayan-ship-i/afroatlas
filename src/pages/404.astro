@@ -1,0 +1,18 @@
+---
+import Layout from '../components/Layout.astro';
+import { href } from '../lib/links';
+---
+
+<Layout title="Page introuvable">
+  <section class="container empty-state page-body">
+    <p class="eyebrow">404</p>
+    <h1>Cette piste ne mène pas à une fiche.</h1>
+    <p>Le produit a peut-être une autre appellation. Retrouvez-le dans la bibliothèque.</p>
+    <a href={href('catalogue/')} class="button">
+      Rechercher un produit ↗
+    </a>
+    <a href={href()} class="button secondary">
+      Revenir à l’accueil
+    </a>
+  </section>
+</Layout>

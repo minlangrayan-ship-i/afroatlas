@@ -1,0 +1,17 @@
+---
+import Layout from '../components/Layout.astro';
+import Contribution from '../components/Contribution';
+---
+
+<Layout title="Proposer une correction">
+  <div class="container page-intro">
+    <p class="eyebrow">LES BONNES SOURCES FONT LA DIFFÉRENCE</p>
+    <h1>Partagez une piste documentée.</h1>
+    <p>
+      Proposez un nom, précisez son contexte et ajoutez la preuve qui permettrait de le vérifier.
+    </p>
+  </div>
+  <section class="container page-body narrow">
+    <Contribution client:load />
+  </section>
+</Layout>

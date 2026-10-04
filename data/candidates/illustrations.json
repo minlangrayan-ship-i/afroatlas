@@ -1,0 +1,2486 @@
+{
+  "products": [
+    {
+      "id": "product-poivre-noir",
+      "slug": "poivre-noir",
+      "labelFr": "Poivre noir",
+      "labelEn": "black pepper",
+      "description": "Fiche d’identification de Piper nigrum. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
+      "categoryId": "spices",
+      "entityType": "taxon",
+      "scientificName": "Piper nigrum",
+      "taxonId": "Q43084",
+      "sourceIds": [
+        "wikidata-Q43084"
+      ],
+      "imageId": "photo-poivre-noir",
+      "formTypes": [
+        "espèce / ingrédient brut"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": null,
+      "editorialNote": "La photographie reliée à l’entité peut montrer la plante, ses fruits, un spécimen ou un poisson entier. Elle ne constitue pas une preuve de préparation alimentaire."
+    },
+    {
+      "id": "product-piment-annuum",
+      "slug": "piment-annuum",
+      "labelFr": "Piment / poivron (Capsicum annuum)",
+      "labelEn": "Capsicum annuum",
+      "description": "Fiche d’identification de Capsicum annuum. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
+      "categoryId": "spices",
+      "entityType": "taxon",
+      "scientificName": "Capsicum annuum",
+      "taxonId": "Q1380",
+      "sourceIds": [
+        "wikidata-Q1380"
+      ],
+      "imageId": "photo-piment-annuum",
+      "formTypes": [
+        "espèce / ingrédient brut"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": null,
+      "editorialNote": "La photographie reliée à l’entité peut montrer la plante, ses fruits, un spécimen ou un poisson entier. Elle ne constitue pas une preuve de préparation alimentaire."
+    },
+    {
+      "id": "product-cumin",
+      "slug": "cumin",
+      "labelFr": "Cumin",
+      "labelEn": "Cuminum cyminum",
+      "description": "Fiche d’identification de Cuminum cyminum. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
+      "categoryId": "spices",
+      "entityType": "taxon",
+      "scientificName": "Cuminum cyminum",
+      "taxonId": "Q132624",
+      "sourceIds": [
+        "wikidata-Q132624"
+      ],
+      "imageId": "photo-cumin",
+      "formTypes": [
+        "espèce / ingrédient brut"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": null,
+      "editorialNote": "La photographie reliée à l’entité peut montrer la plante, ses fruits, un spécimen ou un poisson entier. Elle ne constitue pas une preuve de préparation alimentaire."
+    },
+    {
+      "id": "product-anis",
+      "slug": "anis",
+      "labelFr": "Anis vert",
+      "labelEn": "Pimpinella anisum",
+      "description": "Fiche d’identification de Pimpinella anisum. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
+      "categoryId": "spices",
+      "entityType": "taxon",
+      "scientificName": "Pimpinella anisum",
+      "taxonId": "Q28692",
+      "sourceIds": [
+        "wikidata-Q28692"
+      ],
+      "imageId": "photo-anis",
+      "formTypes": [
+        "espèce / ingrédient brut"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": null,
+      "editorialNote": "La photographie reliée à l’entité peut montrer la plante, ses fruits, un spécimen ou un poisson entier. Elle ne constitue pas une preuve de préparation alimentaire."
+    },
+    {
+      "id": "product-sardine-europeenne",
+      "slug": "sardine-europeenne",
+      "labelFr": "Sardine européenne",
+      "labelEn": null,
+      "description": "Fiche d’identification de Sardina pilchardus. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
+      "categoryId": "fish",
+      "entityType": "taxon",
+      "scientificName": "Sardina pilchardus",
+      "taxonId": "Q208600",
+      "sourceIds": [
+        "wikidata-Q208600"
+      ],
+      "imageId": "photo-sardine-europeenne",
+      "formTypes": [
+        "espèce / ingrédient brut"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": null,
+      "editorialNote": "La photographie reliée à l’entité peut montrer la plante, ses fruits, un spécimen ou un poisson entier. Elle ne constitue pas une preuve de préparation alimentaire."
+    },
+    {
+      "id": "product-poisson-chat-africain",
+      "slug": "poisson-chat-africain",
+      "labelFr": "Poisson-chat africain",
+      "labelEn": "Clarias gariepinus",
+      "description": "Fiche d’identification de Clarias gariepinus. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
+      "categoryId": "fish",
+      "entityType": "taxon",
+      "scientificName": "Clarias gariepinus",
+      "taxonId": "Q387344",
+      "sourceIds": [
+        "wikidata-Q387344"
+      ],
+      "imageId": "photo-poisson-chat-africain",
+      "formTypes": [
+        "espèce / ingrédient brut"
+      ],
+      "verifiedAt": "2026-10-04",
+      "usage": null,
+      "editorialNote": "La photographie reliée à l’entité peut montrer la plante, ses fruits, un spécimen ou un poisson entier. Elle ne constitue pas une preuve de préparation alimentaire."
+    }
+  ],
+  "images": [
+    {
+      "id": "photo-poivre-noir",
+      "localPath": "/images/poivre-noir-960.webp",
+      "smallPath": "/images/poivre-noir-400.webp",
+      "width": 466,
+      "height": 595,
+      "altFr": "Photographie de Poivre noir — vue de l’espèce ou de son produit, voir le crédit",
+      "creator": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Piper_nigrum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-107.jpg",
+      "licenseId": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen · Piper nigrum - Köhler–s Medizinal-Pflanzen-107.jpg · Public domain",
+      "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
+      "retrievedAt": "2026-10-04",
+      "title": "Piper nigrum - Köhler–s Medizinal-Pflanzen-107.jpg",
+      "description": "Schwarzer Pfeffer. A blühender Zweig, nat. Grösse; 1 Theil der Blüthenähre, vergrössert (nach Bâillon aus Luerssen); 2 Fruchtknoten, mit Staubgefäss, desgl.; 3 Staubgefäss, desgl.; 4 junge, noch grüne Frucht im Längsschnitt, desgl.; 5, 6 Theil der Fruchtähre, nat. Grösse und vergrössert (der Farbenton ist falsch; er müsste bei 5 roth, bei 6 grün sein; Fig. 6 nach Hayne); 7 Frucht ohne Fruchtschicht, vergrössert; 8 dieselbe im Längsschnitt, desgl."
+    },
+    {
+      "id": "photo-piment-annuum",
+      "localPath": "/images/piment-annuum-960.webp",
+      "smallPath": "/images/piment-annuum-400.webp",
+      "width": 960,
+      "height": 1188,
+      "altFr": "Photographie de Piment / poivron (Capsicum annuum) — vue de l’espèce ou de son produit, voir le crédit",
+      "creator": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Capsicum_annuum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-027.jpg",
+      "licenseId": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen · Capsicum annuum - Köhler–s Medizinal-Pflanzen-027.jpg · Public domain",
+      "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
+      "retrievedAt": "2026-10-04",
+      "title": "Capsicum annuum - Köhler–s Medizinal-Pflanzen-027.jpg",
+      "description": "Spanischer Pfeffer. A Theil der blühenden Pflanze, natürl. Grösse; 1 Blüthe im Längsschnitt, vergrössert; 2 aufgeschnittene Krone mit Staubgefässen, desgl.; 3 Staubgefäss, desgl.; 4 Pollen, desgl.; 5 Stempel, desgl.; 6 Griffel und Narbe, desgl.; 7 Fruchtknoten im Querschnitt, desgl.; 8 Frucht, nat. Grösse; 9 dieselbe im Querschnitt, desgl.; 10 Same, vergrössert; 11 u. 12 derselbe im Längs- und Querschnit."
+    },
+    {
+      "id": "photo-cumin",
+      "localPath": "/images/cumin-960.webp",
+      "smallPath": "/images/cumin-400.webp",
+      "width": 449,
+      "height": 593,
+      "altFr": "Photographie de Cumin — vue de l’espèce ou de son produit, voir le crédit",
+      "creator": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-198.jpg",
+      "licenseId": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen · Cuminum cyminum - Köhler–s Medizinal-Pflanzen-198.jpg · Public domain",
+      "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
+      "retrievedAt": "2026-10-04",
+      "title": "Cuminum cyminum - Köhler–s Medizinal-Pflanzen-198.jpg",
+      "description": "Kreuzkümmel. A Blühende Pflanze. B Döldchen. 1 Blüte vergrössert; 2 Fruchtknoten vergrössert; 3 Reife Früchte vergrössert; 4 Querschnitt der Frucht vergrössert; 5 Längsschnitt der Frucht vergrössert."
+    },
+    {
+      "id": "photo-anis",
+      "localPath": "/images/anis-960.webp",
+      "smallPath": "/images/anis-400.webp",
+      "width": 492,
+      "height": 559,
+      "altFr": "Photographie de Anis vert — vue de l’espèce ou de son produit, voir le crédit",
+      "creator": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Koehler1887-PimpinellaAnisum.jpg",
+      "licenseId": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen · Koehler1887-PimpinellaAnisum.jpg · Public domain",
+      "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
+      "retrievedAt": "2026-10-04",
+      "title": "Koehler1887-PimpinellaAnisum.jpg",
+      "description": "Anise, from Koehler's Medicinal-Plants 1887"
+    },
+    {
+      "id": "photo-sardine-europeenne",
+      "localPath": "/images/sardine-europeenne-960.webp",
+      "smallPath": "/images/sardine-europeenne-400.webp",
+      "width": 960,
+      "height": 352,
+      "altFr": "Photographie de Sardine européenne — vue de l’espèce ou de son produit, voir le crédit",
+      "creator": "Gervais et Boulart",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sardina_pilchardus_Gervais.jpg",
+      "licenseId": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Gervais et Boulart · Sardina pilchardus Gervais.jpg · Public domain",
+      "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
+      "retrievedAt": "2026-10-04",
+      "title": "Sardina pilchardus Gervais.jpg",
+      "description": "Sardina pilchardus"
+    },
+    {
+      "id": "photo-poisson-chat-africain",
+      "localPath": "/images/poisson-chat-africain-960.webp",
+      "smallPath": "/images/poisson-chat-africain-400.webp",
+      "width": 960,
+      "height": 321,
+      "altFr": "Photographie de Poisson-chat africain — vue de l’espèce ou de son produit, voir le crédit",
+      "creator": "Unknown author Unknown author",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Clarias_gariepinus.jpg",
+      "licenseId": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Unknown author Unknown author · Clarias gariepinus.jpg · Public domain",
+      "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
+      "retrievedAt": "2026-10-04",
+      "title": "Clarias gariepinus.jpg",
+      "description": "Clarias gariepinus"
+    }
+  ],
+  "names": [
+    {
+      "id": "name-poivre-noir-fr-0",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "poivre",
+      "normalizedName": "poivre",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-fr-0"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-fr-1",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "piper nigrum",
+      "normalizedName": "piper nigrum",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-fr-1"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-en-0",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "black pepper",
+      "normalizedName": "black pepper",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-en-0"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-en-1",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "peppercorn",
+      "normalizedName": "peppercorn",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-en-1"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-en-2",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "Piper nigrum",
+      "normalizedName": "piper nigrum",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-en-2"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-ar-0",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "فلفل أسود",
+      "normalizedName": "فلفل أسود",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-ar-0"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-ar-1",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "الفلفل الأسود",
+      "normalizedName": "الفلفل الأسود",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-ar-1"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-ar-2",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "فلفل أكحل",
+      "normalizedName": "فلفل أكحل",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-ar-2"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-ar-3",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "فلفل اسود",
+      "normalizedName": "فلفل اسود",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-ar-3"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-ar-4",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "فلفل عطر",
+      "normalizedName": "فلفل عطر",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-ar-4"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-ar-5",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "فلفل عجمي",
+      "normalizedName": "فلفل عجمي",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-ar-5"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-am-0",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "ቁንደ በርበሬ",
+      "normalizedName": "ቁንደ በርበሬ",
+      "languageCode": "am",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-am-0"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-pt-0",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "pimenta-preta",
+      "normalizedName": "pimenta-preta",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-pt-0"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-pt-1",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "Piper nigrum",
+      "normalizedName": "piper nigrum",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-pt-1"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-pt-2",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "pimenta do reino",
+      "normalizedName": "pimenta do reino",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-pt-2"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-pt-3",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "pimenta-do-reino",
+      "normalizedName": "pimenta-do-reino",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-pt-3"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-pt-4",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "pimenteira",
+      "normalizedName": "pimenteira",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-pt-4"
+      ]
+    },
+    {
+      "id": "name-poivre-noir-mg-0",
+      "productId": "product-poivre-noir",
+      "formId": null,
+      "name": "dipoavatra mainty",
+      "normalizedName": "dipoavatra mainty",
+      "languageCode": "mg",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poivre-noir-mg-0"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-fr-0",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "Capsicum annuum",
+      "normalizedName": "capsicum annuum",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-fr-0"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-fr-1",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "Poivron",
+      "normalizedName": "poivron",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-fr-1"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-fr-2",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "Piment",
+      "normalizedName": "piment",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-fr-2"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-en-0",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "Capsicum annuum",
+      "normalizedName": "capsicum annuum",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-en-0"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-en-1",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "pepper",
+      "normalizedName": "pepper",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-en-1"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-ar-0",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "فليفلة حولية",
+      "normalizedName": "فليفلة حولية",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-ar-0"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-ar-1",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "فلفل رومي",
+      "normalizedName": "فلفل رومي",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-ar-1"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-ar-2",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "فلفل أحمر",
+      "normalizedName": "فلفل أحمر",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-ar-2"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-ar-3",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "فلفل شطة",
+      "normalizedName": "فلفل شطة",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-ar-3"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-ar-4",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "فلفل حار",
+      "normalizedName": "فلفل حار",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-ar-4"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-ar-5",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "شطة",
+      "normalizedName": "شطة",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-ar-5"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-ha-0",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "barkono",
+      "normalizedName": "barkono",
+      "languageCode": "ha",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-ha-0"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-pt-0",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "pimento",
+      "normalizedName": "pimento",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-pt-0"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-pt-1",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "noras",
+      "normalizedName": "noras",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-pt-1"
+      ]
+    },
+    {
+      "id": "name-piment-annuum-pt-2",
+      "productId": "product-piment-annuum",
+      "formId": null,
+      "name": "pimentão",
+      "normalizedName": "pimentao",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-piment-annuum-pt-2"
+      ]
+    },
+    {
+      "id": "name-cumin-fr-0",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "cumin",
+      "normalizedName": "cumin",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-fr-0"
+      ]
+    },
+    {
+      "id": "name-cumin-fr-1",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Cuminum cyminum",
+      "normalizedName": "cuminum cyminum",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-fr-1"
+      ]
+    },
+    {
+      "id": "name-cumin-fr-2",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Cumin",
+      "normalizedName": "cumin",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-fr-2"
+      ]
+    },
+    {
+      "id": "name-cumin-fr-3",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "cumin blanc",
+      "normalizedName": "cumin blanc",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-fr-3"
+      ]
+    },
+    {
+      "id": "name-cumin-fr-4",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "cumin de Maroc",
+      "normalizedName": "cumin de maroc",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-fr-4"
+      ]
+    },
+    {
+      "id": "name-cumin-fr-5",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "faux anis",
+      "normalizedName": "faux anis",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-fr-5"
+      ]
+    },
+    {
+      "id": "name-cumin-en-0",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Cuminum cyminum",
+      "normalizedName": "cuminum cyminum",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-en-0"
+      ]
+    },
+    {
+      "id": "name-cumin-en-1",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "cumin plant",
+      "normalizedName": "cumin plant",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-en-1"
+      ]
+    },
+    {
+      "id": "name-cumin-en-2",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Roman caraway",
+      "normalizedName": "roman caraway",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-en-2"
+      ]
+    },
+    {
+      "id": "name-cumin-en-3",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "spice caraway",
+      "normalizedName": "spice caraway",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-en-3"
+      ]
+    },
+    {
+      "id": "name-cumin-en-4",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "cumin",
+      "normalizedName": "cumin",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-en-4"
+      ]
+    },
+    {
+      "id": "name-cumin-en-5",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Roman cumin",
+      "normalizedName": "roman cumin",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-en-5"
+      ]
+    },
+    {
+      "id": "name-cumin-en-6",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "spice cumin",
+      "normalizedName": "spice cumin",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-en-6"
+      ]
+    },
+    {
+      "id": "name-cumin-en-7",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "cheese cumin",
+      "normalizedName": "cheese cumin",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-en-7"
+      ]
+    },
+    {
+      "id": "name-cumin-ar-0",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "كمون",
+      "normalizedName": "كمون",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-ar-0"
+      ]
+    },
+    {
+      "id": "name-cumin-ar-1",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "الكمون",
+      "normalizedName": "الكمون",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-ar-1"
+      ]
+    },
+    {
+      "id": "name-cumin-sw-0",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Jira",
+      "normalizedName": "jira",
+      "languageCode": "sw",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-sw-0"
+      ]
+    },
+    {
+      "id": "name-cumin-pt-0",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Cominho",
+      "normalizedName": "cominho",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-pt-0"
+      ]
+    },
+    {
+      "id": "name-cumin-pt-1",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Cominhos",
+      "normalizedName": "cominhos",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-pt-1"
+      ]
+    },
+    {
+      "id": "name-cumin-pt-2",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Cuminum cyminum",
+      "normalizedName": "cuminum cyminum",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-pt-2"
+      ]
+    },
+    {
+      "id": "name-cumin-mg-0",
+      "productId": "product-cumin",
+      "formId": null,
+      "name": "Komina",
+      "normalizedName": "komina",
+      "languageCode": "mg",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-cumin-mg-0"
+      ]
+    },
+    {
+      "id": "name-anis-fr-0",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Pimpinella anisum",
+      "normalizedName": "pimpinella anisum",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-fr-0"
+      ]
+    },
+    {
+      "id": "name-anis-fr-1",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Anis vert",
+      "normalizedName": "anis vert",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-fr-1"
+      ]
+    },
+    {
+      "id": "name-anis-fr-2",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Anis",
+      "normalizedName": "anis",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-fr-2"
+      ]
+    },
+    {
+      "id": "name-anis-en-0",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Pimpinella anisum",
+      "normalizedName": "pimpinella anisum",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-en-0"
+      ]
+    },
+    {
+      "id": "name-anis-en-1",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "the anise plant",
+      "normalizedName": "the anise plant",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-en-1"
+      ]
+    },
+    {
+      "id": "name-anis-en-2",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "anise",
+      "normalizedName": "anise",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-en-2"
+      ]
+    },
+    {
+      "id": "name-anis-ar-0",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "يانسون",
+      "normalizedName": "يانسون",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-0"
+      ]
+    },
+    {
+      "id": "name-anis-ar-1",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "أنيسون",
+      "normalizedName": "أنيسون",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-1"
+      ]
+    },
+    {
+      "id": "name-anis-ar-2",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "ينسون",
+      "normalizedName": "ينسون",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-2"
+      ]
+    },
+    {
+      "id": "name-anis-ar-3",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "اليانسون",
+      "normalizedName": "اليانسون",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-3"
+      ]
+    },
+    {
+      "id": "name-anis-ar-4",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "آنسون",
+      "normalizedName": "آنسون",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-4"
+      ]
+    },
+    {
+      "id": "name-anis-ar-5",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "كَمُّونُ الحُلْوُ",
+      "normalizedName": "كمون الحلو",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-5"
+      ]
+    },
+    {
+      "id": "name-anis-ar-6",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Pimpinella anisum",
+      "normalizedName": "pimpinella anisum",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-6"
+      ]
+    },
+    {
+      "id": "name-anis-ar-7",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "حبة حلوة",
+      "normalizedName": "حبة حلوة",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-7"
+      ]
+    },
+    {
+      "id": "name-anis-ar-8",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "الأنيسون",
+      "normalizedName": "الأنيسون",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ar-8"
+      ]
+    },
+    {
+      "id": "name-anis-ha-0",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Anise",
+      "normalizedName": "anise",
+      "languageCode": "ha",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-ha-0"
+      ]
+    },
+    {
+      "id": "name-anis-pt-0",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Anis",
+      "normalizedName": "anis",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-pt-0"
+      ]
+    },
+    {
+      "id": "name-anis-pt-1",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Pimpinella anisum",
+      "normalizedName": "pimpinella anisum",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-pt-1"
+      ]
+    },
+    {
+      "id": "name-anis-mg-0",
+      "productId": "product-anis",
+      "formId": null,
+      "name": "Anisy",
+      "normalizedName": "anisy",
+      "languageCode": "mg",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-anis-mg-0"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-fr-0",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "sardine",
+      "normalizedName": "sardine",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-fr-0"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-fr-1",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "Pilchard",
+      "normalizedName": "pilchard",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-fr-1"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-fr-2",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "Sardines",
+      "normalizedName": "sardines",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-fr-2"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-fr-3",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "Sardine commune",
+      "normalizedName": "sardine commune",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-fr-3"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-fr-4",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "Sardine d'Europe",
+      "normalizedName": "sardine d'europe",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-fr-4"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-fr-5",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "Sardine",
+      "normalizedName": "sardine",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-fr-5"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-ar-0",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "سردين البلشار الأوروبي",
+      "normalizedName": "سردين البلشار الأوروبي",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-ar-0"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-pt-0",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "Sardinha",
+      "normalizedName": "sardinha",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-pt-0"
+      ]
+    },
+    {
+      "id": "name-sardine-europeenne-mg-0",
+      "productId": "product-sardine-europeenne",
+      "formId": null,
+      "name": "Sardinina",
+      "normalizedName": "sardinina",
+      "languageCode": "mg",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-sardine-europeenne-mg-0"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-fr-0",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "Poisson-chat africain",
+      "normalizedName": "poisson-chat africain",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-fr-0"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-fr-1",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "Clarias gariepinus",
+      "normalizedName": "clarias gariepinus",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-fr-1"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-fr-2",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "Silure",
+      "normalizedName": "silure",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-fr-2"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-fr-3",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "Poisson-chat Nord-Africain",
+      "normalizedName": "poisson-chat nord-africain",
+      "languageCode": "fr",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-fr-3"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-en-0",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "Clarias gariepinus",
+      "normalizedName": "clarias gariepinus",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-en-0"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-en-1",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "African sharptooth catfish",
+      "normalizedName": "african sharptooth catfish",
+      "languageCode": "en",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-en-1"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-ar-0",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "قرموط إفريقي",
+      "normalizedName": "قرموط إفريقي",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-ar-0"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-ar-1",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "قرموط أفريقي",
+      "normalizedName": "قرموط أفريقي",
+      "languageCode": "ar",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-ar-1"
+      ]
+    },
+    {
+      "id": "name-poisson-chat-africain-pt-0",
+      "productId": "product-poisson-chat-africain",
+      "formId": null,
+      "name": "Clarias gariepinus",
+      "normalizedName": "clarias gariepinus",
+      "languageCode": "pt",
+      "countryIds": [],
+      "regionIds": [],
+      "culturalAreaIds": [],
+      "status": "documented",
+      "evidenceIds": [
+        "evidence-poisson-chat-africain-pt-0"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence-poivre-noir-fr-0",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "labels.fr.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-fr-1",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.fr[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-en-0",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "labels.en.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-en-1",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.en[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-en-2",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.en[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-ar-0",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "labels.ar.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-ar-1",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.ar[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-ar-2",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.ar[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-ar-3",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.ar[2].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-ar-4",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.ar[3].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-ar-5",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.ar[4].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-am-0",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "labels.am.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-pt-0",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "labels.pt.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-pt-1",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.pt[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-pt-2",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.pt[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-pt-3",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.pt[2].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-pt-4",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "aliases.pt[3].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poivre-noir-mg-0",
+      "sourceId": "wikidata-Q43084",
+      "assertionType": "name",
+      "locator": "labels.mg.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-fr-0",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "labels.fr.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-fr-1",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.fr[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-fr-2",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.fr[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-en-0",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "labels.en.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-en-1",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.en[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-ar-0",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "labels.ar.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-ar-1",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.ar[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-ar-2",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.ar[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-ar-3",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.ar[2].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-ar-4",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.ar[3].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-ar-5",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.ar[4].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-ha-0",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "labels.ha.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-pt-0",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "labels.pt.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-pt-1",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.pt[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-piment-annuum-pt-2",
+      "sourceId": "wikidata-Q1380",
+      "assertionType": "name",
+      "locator": "aliases.pt[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-fr-0",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "labels.fr.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-fr-1",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.fr[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-fr-2",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.fr[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-fr-3",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.fr[2].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-fr-4",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.fr[3].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-fr-5",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.fr[4].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-en-0",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "labels.en.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-en-1",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.en[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-en-2",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.en[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-en-3",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.en[2].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-en-4",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.en[3].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-en-5",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.en[4].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-en-6",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.en[5].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-en-7",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.en[6].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-ar-0",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "labels.ar.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-ar-1",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.ar[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-sw-0",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "labels.sw.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-pt-0",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "labels.pt.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-pt-1",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.pt[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-pt-2",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "aliases.pt[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-cumin-mg-0",
+      "sourceId": "wikidata-Q132624",
+      "assertionType": "name",
+      "locator": "labels.mg.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-fr-0",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "labels.fr.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-fr-1",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.fr[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-fr-2",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.fr[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-en-0",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "labels.en.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-en-1",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.en[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-en-2",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.en[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-0",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "labels.ar.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-1",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.ar[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-2",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.ar[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-3",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.ar[2].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-4",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.ar[3].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-5",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.ar[4].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-6",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.ar[5].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-7",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.ar[6].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ar-8",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.ar[7].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-ha-0",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "labels.ha.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-pt-0",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "labels.pt.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-pt-1",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "aliases.pt[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-anis-mg-0",
+      "sourceId": "wikidata-Q28692",
+      "assertionType": "name",
+      "locator": "labels.mg.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-fr-0",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "labels.fr.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-fr-1",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "aliases.fr[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-fr-2",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "aliases.fr[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-fr-3",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "aliases.fr[2].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-fr-4",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "aliases.fr[3].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-fr-5",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "aliases.fr[4].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-ar-0",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "labels.ar.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-pt-0",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "labels.pt.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-sardine-europeenne-mg-0",
+      "sourceId": "wikidata-Q208600",
+      "assertionType": "name",
+      "locator": "labels.mg.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-fr-0",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "labels.fr.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-fr-1",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "aliases.fr[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-fr-2",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "aliases.fr[1].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-fr-3",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "aliases.fr[2].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-en-0",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "labels.en.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-en-1",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "aliases.en[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-ar-0",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "labels.ar.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-ar-1",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "aliases.ar[0].value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    },
+    {
+      "id": "evidence-poisson-chat-africain-pt-0",
+      "sourceId": "wikidata-Q387344",
+      "assertionType": "name",
+      "locator": "labels.pt.value",
+      "shortNote": "Libellé ou alias linguistique Wikidata ; aucun usage par pays, région ou boutique établi.",
+      "checkedAt": null,
+      "checkedBy": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "wikidata-Q43084",
+      "title": "Wikidata · Q43084",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q43084",
+      "licenseId": "CC0-1.0",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "2550048160"
+    },
+    {
+      "id": "wikidata-Q1380",
+      "title": "Wikidata · Q1380",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1380",
+      "licenseId": "CC0-1.0",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "2547655166"
+    },
+    {
+      "id": "wikidata-Q132624",
+      "title": "Wikidata · Q132624",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q132624",
+      "licenseId": "CC0-1.0",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "2550171690"
+    },
+    {
+      "id": "wikidata-Q28692",
+      "title": "Wikidata · Q28692",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q28692",
+      "licenseId": "CC0-1.0",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "2537170214"
+    },
+    {
+      "id": "wikidata-Q208600",
+      "title": "Wikidata · Q208600",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q208600",
+      "licenseId": "CC0-1.0",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "2548175254"
+    },
+    {
+      "id": "wikidata-Q387344",
+      "title": "Wikidata · Q387344",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q387344",
+      "licenseId": "CC0-1.0",
+      "retrievedAt": "2026-10-04",
+      "datasetVersion": "2544894908"
+    }
+  ],
+  "reason": {
+    "poivre-noir": "La photographie P18 est une planche botanique illustrée ; photographie réelle à collecter.",
+    "piment-annuum": "La photographie P18 est une planche botanique illustrée ; photographie réelle à collecter.",
+    "cumin": "La photographie P18 est une planche botanique illustrée ; photographie réelle à collecter.",
+    "anis": "La photographie P18 est une planche botanique illustrée ; photographie réelle à collecter.",
+    "sardine-europeenne": "P18 représente une illustration historique de poisson, pas une photographie.",
+    "poisson-chat-africain": "P18 représente une illustration de poisson, pas une photographie."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "afroatlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "npm run prepare-data && npm run validate && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "check": "astro check",
+    "validate": "tsx scripts/validate.ts",
+    "test": "vitest run",
+    "import": "node scripts/import/catalogue.mjs && node scripts/import/geography.mjs",
+    "test:e2e": "playwright test",
+    "prepare-data": "node scripts/prepare-data.mjs"
+  },
+  "dependencies": {
+    "@astrojs/react": "7.0.0",
+    "@astrojs/sitemap": "3.7.4",
+    "@tailwindcss/vite": "^4.1.0",
+    "astro": "7.3.5",
+    "d3-geo": "^3.1.1",
+    "fuse.js": "^7.1.0",
+    "motion": "^12.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@playwright/test": "1.63.0",
+    "@types/d3-geo": "^3.1.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "prettier": "^3.9.9",
+    "prettier-plugin-astro": "^1.1.0",
+    "sharp": "^0.34.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "5.0.3"
+  }
+}
