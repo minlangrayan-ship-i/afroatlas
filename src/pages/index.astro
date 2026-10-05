@@ -1,4 +1,5 @@
 ---
+import PresentationMedia from '../components/PresentationMedia.astro';
 import Layout from '../components/Layout.astro';
 import SearchBox from '../components/SearchBox';
 import ProductCard from '../components/ProductCard';
@@ -135,13 +136,7 @@ const exampleNames = namesFor(hero.id)
       class="video-preview"
       aria-label="Voir la vidéo de présentation d’AfroAtlas"
     >
-      <img
-        src={href('assets/video/afroatlas-presentation-poster.webp')}
-        width="1280"
-        height="720"
-        alt="Présentation d’AfroAtlas"
-        loading="lazy"
-      />
+      <PresentationMedia preview />
       <span aria-hidden="true">▶ · 1:17</span>
     </a>
   </section>

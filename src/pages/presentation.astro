@@ -1,6 +1,7 @@
 ---
 import Layout from '../components/Layout.astro';
 import { href } from '../lib/links';
+import PresentationMedia from '../components/PresentationMedia.astro';
 ---
 
 <Layout
@@ -13,26 +14,7 @@ import { href } from '../lib/links';
     <p>La présentation d’AfroAtlas en 1 min 17 s.</p>
   </section>
   <section class="container page-body video-section">
-    <video
-      controls
-      playsinline
-      preload="none"
-      width="1280"
-      height="720"
-      poster={href('assets/video/afroatlas-presentation-poster.webp')}
-      aria-label="Vidéo de présentation d’AfroAtlas"
-      aria-describedby="presentation-summary"
-    >
-      <source src={href('assets/video/afroatlas-presentation.mp4')} type="video/mp4" />
-      <track
-        kind="subtitles"
-        src={href('assets/video/afroatlas-presentation-fr.vtt')}
-        srclang="fr"
-        label="Texte à l’écran (FR)"
-      />
-      Votre navigateur ne peut pas lire cette vidéo.{' '}
-      <a href={href('assets/video/afroatlas-presentation.mp4')}>Ouvrir la vidéo MP4</a>.
-    </video>
+    <PresentationMedia />
     <div id="presentation-summary" class="prose">
       <h2>Retrouver un produit, se comprendre.</h2>
       <p>
@@ -48,6 +30,7 @@ import { href } from '../lib/links';
         Explorer la bibliothèque ↗
       </a>
       <a
+        data-presentation-open
         class="button secondary"
         href={href('assets/video/afroatlas-presentation.mp4')}
         target="_blank"

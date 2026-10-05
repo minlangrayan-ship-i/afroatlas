@@ -1,0 +1,107 @@
+---
+import { href } from '../lib/links';
+const { preview = false } = Astro.props;
+const media = {
+  fr: {
+    video: href('assets/video/afroatlas-presentation.mp4'),
+    poster: href('assets/video/afroatlas-presentation-poster.webp'),
+  },
+  en: {
+    video: href('assets/video/afroatlas-presentation-en.mp4'),
+    poster: href('assets/video/afroatlas-presentation-en-poster.webp'),
+  },
+  ar: {
+    video: href('assets/video/afroatlas-presentation-ar.mp4'),
+    poster: href('assets/video/afroatlas-presentation-ar-poster.webp'),
+  },
+};
+---
+
+{preview ? (
+  <img
+    data-presentation-poster
+    data-presentation-media={JSON.stringify(media)}
+    src={media.fr.poster}
+    width="1280"
+    height="720"
+    alt="Présentation d’AfroAtlas"
+    loading="lazy"
+  />
+) : (
+  <video
+    data-presentation-video
+    data-presentation-media={JSON.stringify(media)}
+    controls
+    playsinline
+    preload="none"
+    width="1280"
+    height="720"
+    poster={media.fr.poster}
+    aria-label="Vidéo de présentation d’AfroAtlas"
+    aria-describedby="presentation-summary"
+  >
+    <source src={media.fr.video} type="video/mp4" />
+    <track
+      kind="subtitles"
+      src={href('assets/video/afroatlas-presentation-fr.vtt')}
+      srclang="fr"
+      label="Texte à l’écran (FR)"
+    />
+    Votre navigateur ne peut pas lire cette vidéo.{' '}
+    <a data-presentation-open href={media.fr.video}>
+      Ouvrir la vidéo MP4
+    </a>
+    .
+  </video>
+)}
+
+<script>
+  import type { Locale } from '../lib/i18n';
+  type Media = Record<Locale, { video: string; poster: string }>;
+  const originals = new WeakMap<HTMLVideoElement, HTMLVideoElement>();
+  for (const element of document.querySelectorAll<HTMLVideoElement>('[data-presentation-video]')) {
+    originals.set(element, element.cloneNode(true) as HTMLVideoElement);
+  }
+  function update(value: string) {
+    const locale: Locale = value === 'en' || value === 'ar' ? value : 'fr';
+    for (const element of document.querySelectorAll<HTMLVideoElement | HTMLImageElement>(
+      '[data-presentation-media]',
+    )) {
+      const media: Media = JSON.parse(element.dataset.presentationMedia!);
+      const selected = media[locale];
+      if (element instanceof HTMLImageElement) {
+        element.src = selected.poster;
+        element.lang = locale;
+        continue;
+      }
+      const source = element.querySelector('source')!;
+      for (const link of document.querySelectorAll<HTMLAnchorElement>('[data-presentation-open]'))
+        link.href = selected.video;
+      element.lang = locale;
+      // Keep playback when the active language is unchanged. Switching versions stops the old film.
+      if (source.src === new URL(selected.video, location.href).href) continue;
+      element.pause();
+      // A fresh native player prevents the browser from resuming a queued playback of the old film.
+      const original = originals.get(element)!;
+      const next = original.cloneNode(true) as HTMLVideoElement;
+      next.lang = locale;
+      next.poster = selected.poster;
+      next.querySelector('source')!.src = selected.video;
+      if (locale !== 'fr') next.querySelectorAll('track').forEach((track) => track.remove());
+      originals.set(next, original);
+      next.volume = element.volume;
+      next.muted = element.muted;
+      next.playbackRate = element.playbackRate;
+      element.replaceWith(next);
+    }
+  }
+  // Choose before playback, including direct ?lang= links and the visitor's saved preference.
+  let initial = new URLSearchParams(location.search).get('lang');
+  if (!initial) {
+    try {
+      initial = localStorage.getItem('afroatlas:locale');
+    } catch {}
+  }
+  update(initial || 'fr');
+  window.addEventListener('afroatlas-locale', () => update(document.documentElement.lang));
+</script>

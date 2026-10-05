@@ -66,6 +66,26 @@ export const ui: Record<string, [string, string]> = {
   ],
   'Vidéo de présentation d’AfroAtlas': ['AfroAtlas presentation video', 'فيديو تقديم أفروأطلس'],
   'Ouvrir la vidéo ↗': ['Open the video ↗', 'افتح الفيديو ↗'],
+  'Présentation d’AfroAtlas': ['AfroAtlas presentation', 'عرض أفروأطلس'],
+  'Voir la vidéo de présentation d’AfroAtlas': [
+    'Watch the AfroAtlas presentation video',
+    'شاهد فيديو تقديم أفروأطلس',
+  ],
+  'Votre navigateur ne peut pas lire cette vidéo.': [
+    'Your browser cannot play this video.',
+    'لا يستطيع متصفحك تشغيل هذا الفيديو.',
+  ],
+  'Ouvrir la vidéo MP4': ['Open the MP4 video', 'افتح فيديو MP4'],
+  'Vous connaissez un ingrédient par un nom local. Le vendeur ou votre interlocuteur utilise une autre appellation. AfroAtlas aide à identifier le produit, puis à consulter les noms attestés dans le pays, la région ou la langue qui vous intéressent.':
+    [
+      'You know an ingredient by a local name. The seller or the person you are speaking with uses another name. AfroAtlas helps identify the product and explore names documented in the country, region or language that interests you.',
+      'تعرف مكوّنًا باسم محلي، لكن البائع أو الشخص الذي تتحدث معه يستخدم اسمًا آخر. يساعدك أفروأطلس في تحديد المنتج ثم الاطلاع على أسمائه الموثقة في البلد أو المنطقة أو اللغة التي تهمك.',
+    ],
+  'Les photographies, les formes alimentaires et les sources servent de repères. Une appellation manquante reste signalée ; une ressemblance de nom ne crée pas une équivalence.':
+    [
+      'Photographs, food forms and sources provide reference points. Missing names are clearly indicated; similar names do not establish equivalence.',
+      'تُستخدم الصور والأشكال الغذائية والمصادر كدلائل. يُشار بوضوح إلى الأسماء غير المتوفرة، ولا يعني تشابه الأسماء أن المنتجات متكافئة.',
+    ],
   'Vous connaissez un autre nom pour ce produit ? Aidez-nous à enrichir AfroAtlas.': [
     'Do you know another name for this product? Help us enrich AfroAtlas.',
     'هل تعرف اسمًا آخر لهذا المنتج؟ ساعدنا في إثراء أفروأطلس.',

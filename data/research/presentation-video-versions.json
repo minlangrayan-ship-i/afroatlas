@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-06",
+  "videos": [
+    {
+      "language": "en",
+      "file": "afroatlas-presentation-en.mp4",
+      "bytes": 2732235,
+      "sha256": "19bb4245801571cf5d385f4917012bfa9b31cafec9eb441766367766fca4ab6f",
+      "originalUnchanged": true,
+      "durationSeconds": 77,
+      "width": 1280,
+      "height": 720,
+      "codecs": "H.264 / AAC",
+      "poster": "Frame extracted from the original video at 0.5 s"
+    },
+    {
+      "language": "ar",
+      "file": "afroatlas-presentation-ar.mp4",
+      "bytes": 2594438,
+      "sha256": "6c5ee7ca1e09caab38323f69dc2ce00aa85f30165774f9ad6244fb1b45ce61c6",
+      "originalUnchanged": true,
+      "durationSeconds": 77,
+      "width": 1280,
+      "height": 720,
+      "codecs": "H.264 / AAC",
+      "poster": "Frame extracted from the original video at 0.5 s"
+    }
+  ]
+}
