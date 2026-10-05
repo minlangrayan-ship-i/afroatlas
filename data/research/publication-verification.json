@@ -1,0 +1,178 @@
+{
+  "checkedAt": "2026-10-05T21:31:12.919Z",
+  "site": "https://minlangrayan-ship-i.github.io/afroatlas/",
+  "routes": [
+    {
+      "route": "",
+      "status": 200,
+      "bytes": 1011305,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "route": "presentation/",
+      "status": 200,
+      "bytes": 7441,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "route": "categories/spices/",
+      "status": 200,
+      "bytes": 347807,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "route": "produits/gombo/",
+      "status": 200,
+      "bytes": 93903,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "route": "produits/poivre-ethiopie/",
+      "status": 200,
+      "bytes": 36691,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "route": "catalogue/",
+      "status": 200,
+      "bytes": 984527,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "route": "contribuer/",
+      "status": 200,
+      "bytes": 35341,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "route": "sitemap-index.xml",
+      "status": 200,
+      "bytes": 253,
+      "type": "application/xml"
+    },
+    {
+      "route": "sitemap-0.xml",
+      "status": 200,
+      "bytes": 15628,
+      "type": "application/xml"
+    },
+    {
+      "route": "robots.txt",
+      "status": 200,
+      "bytes": 108,
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "route": "assets/video/afroatlas-presentation.mp4",
+      "status": 200,
+      "bytes": 2743594,
+      "type": "video/mp4",
+      "sha256": "c044dc773352ac6aed529baad21b09918f28f263503bb1c67206349dd838cd94"
+    },
+    {
+      "route": "assets/video/afroatlas-presentation-fr.vtt",
+      "status": 200,
+      "bytes": 1057,
+      "type": "text/vtt; charset=utf-8"
+    },
+    {
+      "route": "assets/video/afroatlas-presentation-poster.webp",
+      "status": 200,
+      "bytes": 27968,
+      "type": "image/webp"
+    },
+    {
+      "route": "missing-verification-page/",
+      "status": 404,
+      "bytes": 5907,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/robots.txt (domain root)",
+      "status": 404
+    }
+  ],
+  "mobile": true,
+  "arabicRtl": true,
+  "destinationAndSellerCard": true,
+  "videoPlaybackAndScreenText": true,
+  "cloudflareBeaconStatuses": [200, 200, 200, 200, 200, 200],
+  "cloudflareRumResponses": [
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "status": 204
+    }
+  ],
+  "pageErrors": [],
+  "cspViolations": [],
+  "contributionsDisabledUntilConfigured": true,
+  "cloudflareDashboardAccess": false
+}

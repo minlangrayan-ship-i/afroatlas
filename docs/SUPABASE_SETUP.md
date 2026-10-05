@@ -105,7 +105,7 @@ Définir dans **Edge Functions → Secrets**, à partir de `supabase/functions/.
 
 Dans Resend, créer un webhook HTTPS vers `https://VOTRE_REFERENCE_PROJET.supabase.co/functions/v1/mail-webhook`. Sélectionner `email.delivered`, `email.bounced`, `email.failed` et `email.complained`. La signature doit être vérifiée sur le corps brut avant son interprétation. Le champ `provider_id` rattache l’événement à la notification privée.
 
-L’enregistrement de la proposition et de son notification est atomique. Une tentative d’envoi est faite après la réception ; un échec conserve la proposition et reporte la notification. Le même UUID, le même contenu enregistré et la même clé d’idempotence sont réutilisés. `provider_accepted` signifie que Resend a accepté l’email ; seule une confirmation signée `email.delivered` donne l’état `delivered`.
+L’enregistrement de la proposition et de sa notification est atomique. Une tentative d’envoi est faite après la réception ; un échec conserve la proposition et reporte la notification. Le même UUID, le même contenu enregistré et la même clé d’idempotence sont réutilisés. `provider_accepted` signifie que Resend a accepté l’email ; seule une confirmation signée `email.delivered` donne l’état `delivered`.
 
 Configurer ensuite une tâche toutes les cinq minutes, par exemple Supabase Cron. Activer `pg_cron` et `pg_net` dans le tableau de bord et enregistrer dans Vault deux secrets : `afroatlas_functions_url` (URL publique du préfixe `/functions/v1`) et `afroatlas_notification_cron_secret` (même valeur que `NOTIFICATION_CRON_SECRET`). Utiliser SQL Editor, sans mettre ces valeurs dans Git :
 

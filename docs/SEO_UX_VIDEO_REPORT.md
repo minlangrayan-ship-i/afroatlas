@@ -159,7 +159,14 @@ Mesures brutes : [comparaison alternée V2](measurements/interleaved-before-afte
 
 ### Publication
 
-La validation HTTP et navigateur de la version publique sera enregistrée après le déploiement GitHub Pages, avec les statuts réels, la lecture vidéo, les réponses du beacon et les limites d’accès aux tableaux de bord. Les essais locaux ne sont pas présentés comme une validation de collecte Cloudflare en production.
+Le commit frontend `54cea733f8ed2110e68f5d95670a9ebdb527fb1d` a été publié avec succès par [le workflow GitHub Pages](https://github.com/minlangrayan-ship-i/afroatlas/actions/runs/37375667375). Les vérifications publiques ont été effectuées le 5 octobre 2026 à 21:31 UTC et sont enregistrées dans [publication-verification.json](../data/research/publication-verification.json).
+
+- Accueil, vidéo, catégorie, fiches, contribution, sitemap et médias : HTTP **200**. L’URL inexistante retourne **404** ; le robots racine du domaine retourne également 404, tandis que `/afroatlas/robots.txt` est accessible.
+- Le MP4 publié possède la même empreinte et le même poids que l’original. Lecture, piste VTT, destination, carte vendeur, RTL, lien email et absence de débordement mobile vérifiés sur le site public.
+- Le beacon Cloudflare charge en **200** ; ses requêtes POST de mesure obtiennent **204**. Aucun doublon de script, erreur JavaScript ou violation CSP relevé pendant ce parcours.
+- La contribution en ligne reste volontairement désactivée tant que Supabase n’est pas connecté. Aucun envoi serveur réel ni email livré n’est revendiqué.
+
+Les réponses 204 confirment le transport vers Cloudflare ; elles ne prouvent ni l’affichage dans le tableau de bord, ni les paramètres géographiques du compte. L’arrivée des statistiques et l’absence d’exclusion involontaire des visites françaises restent à confirmer dans **Web Analytics → Manage site**, avec les étapes indiquées plus haut. Le second commit de livraison ajoute ce bilan et ses preuves ; il ne modifie pas les fichiers frontend vérifiés.
 
 ## Configuration encore indispensable et calendrier
 
