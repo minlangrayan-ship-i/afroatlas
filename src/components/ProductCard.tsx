@@ -51,7 +51,10 @@ function ProductCard({ product, match = '' }: { product: CardProduct; match?: st
         <p className="table-note">
           {product.consumedPart && (
             <>
-              <span>Partie consommée</span> : {product.consumedPart} ·{' '}
+              <span>
+                {product.documentaryScope === 'organism' ? 'Identité couverte' : 'Partie consommée'}
+              </span>{' '}
+              : {product.consumedPart} ·{' '}
             </>
           )}
           Forme photographiée :{' '}

@@ -251,7 +251,8 @@
     "kilito",
     "madilo",
     "voamatory",
-    "hily"
+    "hily",
+    "djabbi"
   ],
   "product-ail": [
     "ail",
@@ -641,7 +642,8 @@
     "tilapia do nilo",
     "tilapia nilotica",
     "sarotherodon niloticus",
-    "tilapia neily"
+    "tilapia neily",
+    "tilapia"
   ],
   "product-tilapia-mozambique": [
     "tilapia du mozambique",
@@ -671,7 +673,8 @@
     "hareng",
     "grande allache",
     "sardinelle de madere",
-    "سردينيلا ماديرا"
+    "سردينيلا ماديرا",
+    "bifaka"
   ],
   "product-maquereau-atlantique": [
     "maquereau de l’atlantique",
@@ -732,7 +735,8 @@
     "bofeko",
     "wama",
     "ndjanssang",
-    "kolou"
+    "kolou",
+    "njangsang"
   ],
   "product-soumbala": [
     "soumbala condiment fermente",
@@ -978,5 +982,187 @@
     "folere",
     "oyoro",
     "bissap"
+  ],
+  "product-monodora-plante": [
+    "monodora faux muscadier",
+    "monodora myristica",
+    "gangat",
+    "ikoma",
+    "biko",
+    "ozek",
+    "pebe",
+    "ding",
+    "dengo",
+    "faux muscadier"
+  ],
+  "product-ricinodendron-plante": [
+    "ricinodendron arbre a njangsang",
+    "ricinodendron heudelotii",
+    "isange",
+    "esangasanga",
+    "njangsang",
+    "essang",
+    "oryok",
+    "essessang",
+    "nzonell",
+    "gobre"
+  ],
+  "product-safoutier": [
+    "safoutier prunier d’afrique",
+    "dacryodes edulis",
+    "sas",
+    "sao",
+    "wom",
+    "sah",
+    "asa",
+    "assas",
+    "assa",
+    "odou",
+    "sene",
+    "safoutier",
+    "prunier d’afrique",
+    "shoue",
+    "tso",
+    "ekiep"
+  ],
+  "product-irvingia-plante": [
+    "irvingia mangue sauvage",
+    "irvingia gabonensis",
+    "avia",
+    "ndoka",
+    "etou",
+    "bwiwa",
+    "wiba",
+    "ando’o",
+    "bwiba",
+    "bambale",
+    "nsen",
+    "andok",
+    "pekie",
+    "ndok",
+    "mangue sauvage",
+    "bush mango"
+  ],
+  "product-silure-clarias": [
+    "silure clarias",
+    "clarias gariepinus",
+    "silure",
+    "ngouot",
+    "african catfish"
+  ],
+  "product-silure-heterobranchus": [
+    "silure heterobranchus",
+    "heterobranchus longifilis",
+    "silure",
+    "djounkeu",
+    "african catfish"
+  ],
+  "product-carpe-commune": [
+    "carpe commune",
+    "cyprinus carpio",
+    "carp",
+    "common carp"
+  ],
+  "product-kanga": [
+    "kanga",
+    "heterotis niloticus",
+    "african bonytongue"
+  ],
+  "product-poisson-panthere": [
+    "poisson panthere",
+    "hemichromis fasciatus",
+    "panther fish",
+    "banded jewel fish"
+  ],
+  "product-poisson-vipere": [
+    "poisson vipere",
+    "parachanna obscura",
+    "viper fish",
+    "snakehead"
+  ],
+  "product-morue": [
+    "morue makanjou",
+    "gadus morhua",
+    "makanjou",
+    "atlantic cod"
+  ],
+  "product-maquereaux-groupe": [
+    "maquereaux groupe commercial",
+    "scomber scombrus; scomber japonicus",
+    "maquereau"
+  ],
+  "product-courbines-groupe": [
+    "courbines groupe commercial",
+    "pseudotolithus spp.",
+    "bar",
+    "bossu"
+  ],
+  "product-barbus-groupe": [
+    "barbus identification au genre",
+    "barbus sp.",
+    "gougeon"
+  ],
+  "product-hibiscus-plante": [
+    "oseille de guinee plante",
+    "hibiscus sabdariffa",
+    "folere",
+    "oseille de guinee",
+    "djelire"
+  ],
+  "product-mais-plante": [
+    "mais",
+    "zea mays"
+  ],
+  "product-ignames-groupe": [
+    "igname",
+    "dioscorea sp."
+  ],
+  "product-pomme-de-terre": [
+    "pomme de terre",
+    "solanum tuberosum"
+  ],
+  "product-bananes-a-cuire": [
+    "bananes plantains et autres bananes a cuire",
+    "musa sp."
+  ],
+  "product-basilic-tropical": [
+    "basilic tropical ocimum gratissimum",
+    "ocimum gratissimum",
+    "messep",
+    "ndali",
+    "lisepo",
+    "masebi",
+    "ose mo se",
+    "nkuwri",
+    "mahepo",
+    "ndoundo",
+    "ossim",
+    "tcham",
+    "basilic tropical"
+  ],
+  "product-njama-njama": [
+    "feuilles de solanum scabrum",
+    "solanum scabrum",
+    "njama njama",
+    "huckleberry"
+  ],
+  "product-kpem": [
+    "kpem preparation de feuilles de manioc",
+    "kpem"
+  ],
+  "product-baobab-plante": [
+    "baobab",
+    "adansonia digitata",
+    "bokki"
+  ],
+  "product-manguier": [
+    "manguier",
+    "mangifera indica",
+    "mangoro"
+  ],
+  "product-pourpier": [
+    "pourpier",
+    "portulaca oleracea",
+    "tekku tekkude"
   ]
 }

@@ -1,6 +1,46 @@
 // Hand-written interface translations. Documentary names are never machine translated.
 export type Locale = 'fr' | 'en' | 'ar';
 export const ui: Record<string, [string, string]> = {
+  'Corpus documentaire du Cameroun': ['Cameroon documentary corpus', 'مجموعة مصادر الكاميرون'],
+  'Corpus fourni par le propriétaire ; les droits et limites sont conservés par source. Aucun statut de licence ouverte n’est appliqué à l’ensemble.':
+    [
+      'Corpus supplied by the owner; rights and limitations are retained for each source. No open licence is assigned to the entire collection.',
+      'مجموعة قدمها المالك؛ تحفظ الحقوق والقيود لكل مصدر. لا تُنسب رخصة مفتوحة إلى المجموعة كلها.',
+    ],
+  'Herbes & aromates': ['Herbs & aromatics', 'أعشاب ونباتات عطرية'],
+  Fruits: ['Fruits', 'فواكه'],
+  'Préparations & boissons': ['Preparations & drinks', 'أطباق ومشروبات'],
+  'Plante ou organisme': ['Plant or organism', 'نبات أو كائن حي'],
+  'Partie alimentaire': ['Edible part', 'جزء غذائي'],
+  'Identité couverte': ['Documented identity scope', 'نطاق الهوية الموثقة'],
+  'Présence ou production documentée': ['Documented presence or production', 'وجود أو إنتاج موثق'],
+  'Ces sources ne prouvent pas une appellation dans cette région.': [
+    'These sources do not establish a name in this region.',
+    'هذه المصادر لا تثبت استعمال تسمية في هذه المنطقة.',
+  ],
+  'Attestation historique, usage actuel à confirmer': [
+    'Historical attestation; current usage unconfirmed',
+    'شاهد تاريخي؛ الاستعمال الحالي غير مؤكد',
+  ],
+  'ATTESTATIONS HISTORIQUES': ['HISTORICAL ATTESTATIONS', 'شواهد تاريخية'],
+  'Nord Cameroun — aire historique (1954)': [
+    'Northern Cameroon — historical area (1954)',
+    'شمال الكاميرون — منطقة تاريخية (1954)',
+  ],
+  'Cette aire historique ne correspond pas automatiquement à la région Nord actuelle. Les noms ci-dessous ne prouvent pas un usage contemporain.':
+    [
+      'This historical area is not automatically equivalent to the current North region. These names do not establish contemporary usage.',
+      'هذه المنطقة التاريخية لا تعادل تلقائيًا منطقة الشمال الحالية. الأسماء أدناه لا تثبت استعمالًا معاصرًا.',
+    ],
+  'Corpus camerounais : 35 identités, 110 noms et 116 usages documentaires. Une absence de preuve dans le corpus ne signifie pas une absence du produit.':
+    [
+      'Cameroon corpus: 35 identities, 110 names and 116 documented usages. Missing evidence does not mean the product is absent.',
+      'مجموعة الكاميرون: 35 هوية و110 أسماء و116 استعمالًا موثقًا. غياب الدليل لا يعني غياب المنتج.',
+    ],
+  'Consulter le corpus et ses références ↗': [
+    'View the corpus and references ↗',
+    'عرض المجموعة ومراجعها ↗',
+  ],
   'Identité documentée': ['Documented identity', 'هوية موثقة'],
   'Plusieurs espèces possibles': ['Multiple possible species', 'عدة أنواع محتملة'],
   'Préparation distincte': ['Distinct preparation', 'تحضير مستقل'],

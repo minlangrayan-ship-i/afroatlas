@@ -97,8 +97,13 @@ export function searchProducts(
           p.contexts.some((c) => c.countryId === filters.country)) &&
         (!filters.region ||
           p.names.some((n) => n.regionIds.includes(filters.region)) ||
-          p.contexts.some((c) => c.regionIds.includes(filters.region))) &&
-        (!filters.language || p.names.some((n) => n.languageCode === filters.language)) &&
+          p.contexts.some(
+            (c) =>
+              c.regionIds.includes(filters.region) &&
+              !['presence', 'cultivation'].includes(c.relationType || ''),
+          )) &&
+        (!filters.language ||
+          p.names.some((n) => (n.languageCode || n.languageId) === filters.language)) &&
         (!filters.form || p.formTypes.includes(filters.form)) &&
         (!filters.commercial || linkedIds.includes(p.id)),
     )

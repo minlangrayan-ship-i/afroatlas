@@ -48,7 +48,9 @@ function Catalog({
     [products, filters, favorites, saved, linkedIds],
   );
   const languages = [
-    ...new Set(products.flatMap((p) => p.names.map((n) => n.languageCode).filter(Boolean))),
+    ...new Set(
+      products.flatMap((p) => p.names.map((n) => n.languageCode || n.languageId).filter(Boolean)),
+    ),
   ].sort() as string[];
   function change(patch: Partial<Filters>) {
     const next = { ...filters, ...patch };
@@ -161,7 +163,10 @@ function Catalog({
             <option value="">Toutes les langues</option>
             {languages.map((lang) => (
               <option key={lang} value={lang}>
-                {languageNames[lang] || lang}
+                {languageNames[lang] ||
+                  products.flatMap((p) => p.names).find((n) => n.languageId === lang)
+                    ?.languageLabel ||
+                  lang}
               </option>
             ))}
           </select>

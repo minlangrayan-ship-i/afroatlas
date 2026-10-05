@@ -93,6 +93,8 @@ const references = commercial.references.filter((r) =>
               : 'Identité documentée'}
         </span>
         <span>Appellations documentées</span>
+        {product.documentaryScope === 'organism' && <span>Plante ou organisme</span>}
+        {product.documentaryScope === 'edible_part' && <span>Partie alimentaire</span>}
         <span>{names.length} noms / variantes</span>
       </div>
       <ProductActions id={product.id} share client:load />
@@ -266,6 +268,11 @@ const references = commercial.references.filter((r) =>
             {s.title} ↗
           </a>{' '}
           · {s.licenseId} · révision {s.datasetVersion} · importé le {s.retrievedAt}
+          {s.accessNote && (
+            <small class="table-note" data-no-translate dir="auto">
+              {s.accessNote}
+            </small>
+          )}
         </p>
       ))}
     <p>

@@ -16,6 +16,7 @@ const productIds = new Set(data.products.map((p) => p.id)),
   sourceIds = new Set(data.sources.map((s) => s.id)),
   evidenceIds = new Set(data.evidence.map((e) => e.id));
 const countryIds = new Set([...countries, ...europeanContexts].map((c) => c.ISO3));
+const culturalAreaIds = new Set(data.culturalAreas.map((a) => a.id));
 const geography = JSON.parse(await readFile('src/data/published/geography.json', 'utf8'));
 const regionIds = new Set<string>(geography.regions.map((r: { id: string }) => r.id));
 for (const p of data.products) {
@@ -35,9 +36,12 @@ for (const p of data.products) {
 for (const n of data.names) {
   if (
     n.countryIds.some((id) => !countryIds.has(id)) ||
-    n.regionIds.some((id) => !regionIds.has(id))
+    n.regionIds.some((id) => !regionIds.has(id)) ||
+    n.culturalAreaIds.some((id) => !culturalAreaIds.has(id))
   )
     throw new Error('Name geography missing');
+  if (n.geographicScope === 'historical_area' && (n.regionIds.length || !n.culturalAreaIds.length))
+    throw new Error('Historical name mapped to a current region');
   if (
     !productIds.has(n.productId) ||
     !n.evidenceIds.length ||

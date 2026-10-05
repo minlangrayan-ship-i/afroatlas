@@ -71,14 +71,14 @@ test('filters persist in URL and back restores results without geographic invent
   page,
 }) => {
   await page.goto(url('catalogue/?q=tilapia'));
-  await expect(page.locator('.product-card')).toHaveCount(2);
+  await expect(page.locator('.product-card')).toHaveCount(1);
   await page.getByLabel('Catégorie', { exact: true }).selectOption('fish');
   await expect(page).toHaveURL(/category=fish/);
-  await page.getByLabel('Contexte d’appellation').selectOption('CMR');
+  await page.getByLabel('Contexte d’appellation').selectOption('GAB');
   await expect(page.locator('.product-card')).toHaveCount(0);
   await expect(page.locator('.empty-state')).toContainText('Aucune appellation');
   await page.goBack();
-  await expect(page.locator('.product-card')).toHaveCount(2);
+  await expect(page.locator('.product-card')).toHaveCount(1);
   await expect(page.getByLabel('Contexte d’appellation')).toHaveValue('');
   await page.getByRole('button', { name: 'Réinitialiser' }).click();
   await expect(page.locator('.product-card')).toHaveCount(catalogueData.products.length);
@@ -115,7 +115,7 @@ test('all countries and contexts exist, a region has an honest empty state', asy
   await expect(page.locator('.country-strip a')).toHaveCount(5);
   await page.goto(url('pays/cmr/'));
   await expect(page.locator('.region-list button')).toHaveCount(10);
-  await page.locator('.region-list button').first().click();
+  await page.locator('.region-list button').filter({ hasText: 'Adamaoua' }).click();
   await expect(page.locator('.region-result')).toContainText(
     'Aucune appellation régionale documentée',
   );

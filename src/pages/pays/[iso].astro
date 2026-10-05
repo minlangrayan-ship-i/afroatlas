@@ -27,13 +27,24 @@ const regionEntries = [
     url: href(`produits/${catalogue.products.find((p) => p.id === n.productId)!.slug}/`),
     localContext: n.localContext,
   })),
-  ...contexts.map((c) => ({
+  ...contexts
+    .filter((c) => !['presence', 'cultivation'].includes(c.relationType || ''))
+    .map((c) => ({
+      regionIds: c.regionIds,
+      label: catalogue.products.find((p) => p.id === c.productId)!.labelFr,
+      url: href(`produits/${catalogue.products.find((p) => p.id === c.productId)!.slug}/`),
+      localContext: c.localContext,
+    })),
+];
+const presenceEntries = contexts
+  .filter((c) => ['presence', 'cultivation'].includes(c.relationType || ''))
+  .map((c) => ({
     regionIds: c.regionIds,
     label: catalogue.products.find((p) => p.id === c.productId)!.labelFr,
     url: href(`produits/${catalogue.products.find((p) => p.id === c.productId)!.slug}/`),
     localContext: c.localContext,
-  })),
-];
+  }));
+const historicalNames = names.filter((n) => n.geographicScope === 'historical_area');
 ---
 
 <Layout title={`Explorer ${country.nameFr}`}>
@@ -60,6 +71,15 @@ const regionEntries = [
         ? 'Consultez les sources et le périmètre local de chaque appellation ou usage. Une attestation locale ne prouve pas un usage dans tout le pays.'
         : 'Aucune appellation nationale documentée pour le moment. Les noms en français, anglais ou dans une autre langue ne sont pas attribués automatiquement à ce pays.'}
     </p>
+    {country.ISO3 === 'CMR' && (
+      <p class="table-note">
+        Corpus camerounais : 35 identités, 110 noms et 116 usages documentaires. Une absence de
+        preuve dans le corpus ne signifie pas une absence du produit.{' '}
+        <a href={href('data/cameroon-corpus.json')} target="_blank" rel="noopener noreferrer">
+          Consulter le corpus et ses références ↗
+        </a>
+      </p>
+    )}
     {countryProducts.length > 0 && (
       <div class="country-strip">
         {countryProducts.map((p) => (
@@ -88,6 +108,7 @@ const regionEntries = [
           regions={regions}
           paths={regionPaths(country.ISO3)}
           entries={regionEntries}
+          presenceEntries={presenceEntries}
           client:load
         />
         <div class="geo-credit">
@@ -109,6 +130,30 @@ const regionEntries = [
         Navigation régionale non importée pour ce pays dans la V1. Vous pouvez proposer une source
         ouverte.
       </p>
+    )}
+    {historicalNames.length > 0 && (
+      <section class="section">
+        <p class="eyebrow">ATTESTATIONS HISTORIQUES</p>
+        <h2>Nord Cameroun — aire historique (1954)</h2>
+        <p class="notice">
+          Cette aire historique ne correspond pas automatiquement à la région Nord actuelle. Les
+          noms ci-dessous ne prouvent pas un usage contemporain.
+        </p>
+        <div class="country-strip">
+          {historicalNames.map((n) => (
+            <a
+              href={href(`produits/${catalogue.products.find((p) => p.id === n.productId)!.slug}/`)}
+            >
+              <strong data-no-translate dir="auto">
+                {n.name}
+              </strong>
+              <span data-no-translate dir="auto">
+                {catalogue.products.find((p) => p.id === n.productId)!.labelFr}
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
     )}
     <a class="button" href={href('contribuer/')}>
       Proposer une appellation documentée ↗

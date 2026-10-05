@@ -14,7 +14,7 @@ describe('documentary enrichment and uncertain identities', () => {
   it('preserves three folere forms instead of merging them', () => {
     expect(normalize('  FOLÉRÉ—FEUILLES ')).toBe('folere feuilles');
     expect(new Set(results('foléré').map((r) => r.product.slug))).toEqual(
-      new Set(['bissap-feuilles', 'oseille-guinee', 'folere-boisson']),
+      new Set(['bissap-feuilles', 'oseille-guinee', 'folere-boisson', 'hibiscus-plante']),
     );
   });
   it('does not guess the species behind unresolved oral names', () => {

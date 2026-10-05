@@ -1,0 +1,2649 @@
+AFROATHLAS — APPELLATIONS : CAMEROUN
+Version documentaire 0.1 — consultation du 5 octobre 2026
+
+1. PRÉSENTATION ET LIMITES
+35 produits/identités; 110 appellations distinctes; 116 usages documentés.
+Les dix régions administratives sont référencées. L’inventaire n’est pas exhaustif. Une case à zéro signifie absence de preuve dans ce corpus, jamais absence du produit.
+Les noms d’organismes, de parties et de préparations sont distingués. Les intitulés de référence sont parfois des intitulés éditoriaux; les appellations documentées suivent leurs propres preuves.
+Les sources historiques sont affichées dans une aire historique indépendante, sans attribution automatique aux régions actuelles.
+Codes de régions: identifiants internes cm-…; codes officiels laissés vides faute de vérification directe. Codes de langues laissés vides; labels de langues selon les sources, à harmoniser.
+
+2. MÉTHODE
+Recherche institutionnelle et universitaire, lecture des sections accessibles, conservation de la provenance pour chaque usage. Aucune extrapolation région-langue.
+verified signifie que la correspondance est soutenue par la source citée à sa portée réelle; ce statut ne garantit ni exhaustivité ni usage actuel. Certaines preuves reposent sur un index textuel, explicitement signalé.
+Les notes sont originales. Aucun conseil médicinal. Sources accessibles et licences ouvertes ne sont pas équivalentes.
+
+3. INDEX DES PRODUITS
+p-monodora | Monodora — faux muscadier | organism
+p-ricino | Ricinodendron — arbre à njangsang | organism
+p-njangsa-seeds | Graines de njangsa | edible_part
+p-dacryodes | Safoutier — prunier d’Afrique | organism
+p-irvingia | Irvingia — mangue sauvage | organism
+p-fish-tilapia | Tilapia du Nil | organism
+p-fish-clarias | Silure Clarias | organism
+p-fish-heterobranchus | Silure Heterobranchus | organism
+p-fish-carp | Carpe commune | organism
+p-fish-heterotis | Kanga | organism
+p-fish-hemichromis | Poisson panthère | organism
+p-fish-parachanna | Poisson vipère | organism
+p-fish-sardinella | Bifaka | organism
+p-fish-cod | Morue — makanjou | organism
+p-fish-mackerel | Maquereaux — groupe commercial | commercial_group
+p-fish-croaker | Courbines — groupe commercial | commercial_group
+p-fish-barbus | Barbus — identification au genre | commercial_group
+p-gnetum-leaves | Feuilles de Gnetum — groupe alimentaire | commercial_group
+p-hibiscus | Oseille de Guinée — plante | organism
+p-folere-drink | Jus de foléré | preparation
+p-maize | Maïs | organism
+p-cassava | Manioc | organism
+p-onion | Oignon | organism
+p-yam | Igname | commercial_group
+p-sweetpotato | Patate douce | organism
+p-potato | Pomme de terre | organism
+p-plantain | Bananes plantains et autres bananes à cuire | commercial_group
+p-cowpea | Niébé | organism
+p-ocimum | Basilic tropical — Ocimum gratissimum | organism
+p-njama-leaves | Feuilles de Solanum scabrum | edible_part
+p-kpem | Kpem — préparation de feuilles de manioc | preparation
+p-baobab | Baobab | organism
+p-tamarind | Tamarinier | organism
+p-mango | Manguier | organism
+p-purslane | Pourpier | organism
+
+4. RÉPERTOIRE PAR RÉGION
+
+=== ADAMAOUA ===
+Aucune appellation régionale attestée dans ce premier corpus. Voir les entrées nationales/linguistiques, sans les attribuer à cette région.
+
+=== CENTRE ===
+
+-- Épices et condiments --
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : messep
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Centre
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : region
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-messep-thesis — p. 4, section 1.1.3.1
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Correspondance régionale explicite consultée via l’index de recherche; mémoire entier non récupéré.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+-- Herbes et plantes aromatiques --
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : messep
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Centre
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : region
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-messep-thesis — p. 4, section 1.1.3.1
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Correspondance régionale explicite consultée via l’index de recherche; mémoire entier non récupéré.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+-- Légumes --
+
+ID PRODUIT : p-gnetum-leaves
+NOM DE RÉFÉRENCE : Feuilles de Gnetum — groupe alimentaire
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Gnetum africanum; Gnetum bucholzianum
+PARTIE OU FORME CONCERNÉE : commercial_group / feuilles
+APPELLATION : Okok
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Centre
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : Minwoho, Lékié
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : locality
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-gnetum-center — Titre et légende
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Légende institutionnelle consultée via l’index; attestation locale, pas toute la région.
+DESCRIPTION : Groupe alimentaire pouvant couvrir deux espèces; le nom seul ne tranche pas leur identification.
+
+-- Préparations et boissons --
+
+ID PRODUIT : p-kpem
+NOM DE RÉFÉRENCE : Kpem — préparation de feuilles de manioc
+CATÉGORIE(S) : Préparations et boissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : non documenté dans les sources consultées
+PARTIE OU FORME CONCERNÉE : preparation / sauce
+APPELLATION : Kpem
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Centre
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : region
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-wipo — A.1 Centre, p. 12, fiche Kpem
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom du plat, pas synonyme universel des feuilles de manioc.
+DESCRIPTION : Préparation distincte de la plante manioc et des feuilles non préparées. Variantes de recettes à examiner séparément.
+
+Présence/production documentée — ne prouve pas un nom local:
+p-gnetum-leaves: src-gnetum, Zone de production.
+
+=== EST ===
+Aucune appellation régionale attestée dans ce premier corpus. Voir les entrées nationales/linguistiques, sans les attribuer à cette région.
+
+Présence/production documentée — ne prouve pas un nom local:
+p-gnetum-leaves: src-gnetum, Zone de production.
+
+=== EXTRÊME-NORD ===
+
+-- Préparations et boissons --
+
+ID PRODUIT : p-folere-drink
+NOM DE RÉFÉRENCE : Jus de foléré
+CATÉGORIE(S) : Préparations et boissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Hibiscus sabdariffa
+PARTIE OU FORME CONCERNÉE : preparation / boisson
+APPELLATION : folere
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Extrême-Nord
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : Maroua, Mokolo et Mora
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : locality
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-folere — Titre; p. 786–796
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de boisson dans les localités citées; langue non précisée.
+DESCRIPTION : Boisson étudiée à Maroua, Mokolo et Mora; ne pas l’assimiler aux feuilles de la plante.
+
+=== LITTORAL ===
+Aucune appellation régionale attestée dans ce premier corpus. Voir les entrées nationales/linguistiques, sans les attribuer à cette région.
+
+Présence/production documentée — ne prouve pas un nom local:
+p-gnetum-leaves: src-gnetum, Zone de production.
+
+=== NORD ===
+Aucune appellation régionale attestée dans ce premier corpus. Voir les entrées nationales/linguistiques, sans les attribuer à cette région.
+
+=== NORD-OUEST ===
+
+-- Épices et condiments --
+
+ID PRODUIT : p-njangsa-seeds
+NOM DE RÉFÉRENCE : Graines de njangsa
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : edible_part / graines / séchées
+APPELLATION : njangsa
+VARIANTES ORTHOGRAPHIQUES : njangsang
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Nord-Ouest
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : Marché alimentaire de Bamenda
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : locality
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-njangsa-bamenda — Sample preparation and extraction
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Attestation de marché ponctuelle; langue non identifiée.
+DESCRIPTION : Graines achetées au marché de Bamenda dans l’étude citée; pas de nom attribué à toute la région.
+
+-- Légumes --
+
+ID PRODUIT : p-njama-leaves
+NOM DE RÉFÉRENCE : Feuilles de Solanum scabrum
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Solanum scabrum
+PARTIE OU FORME CONCERNÉE : edible_part / feuilles
+APPELLATION : njama njama
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Nord-Ouest
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : region
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-njama — Introduction, paragraphe 1
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Deux régions explicitement mentionnées; langue non indiquée.
+DESCRIPTION : Légume-feuille identifié dans l’étude de Nkwen; ne pas confondre avec les baies de Vaccinium également appelées huckleberries.
+
+Présence/production documentée — ne prouve pas un nom local:
+p-ricino: src-bamenda, Résultats, espèces les plus citées.
+p-irvingia: src-bamenda, Résultats, espèces les plus citées.
+
+=== OUEST ===
+
+-- Légumes --
+
+ID PRODUIT : p-njama-leaves
+NOM DE RÉFÉRENCE : Feuilles de Solanum scabrum
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Solanum scabrum
+PARTIE OU FORME CONCERNÉE : edible_part / feuilles
+APPELLATION : njama njama
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Ouest
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : region
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-njama — Introduction, paragraphe 1
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Deux régions explicitement mentionnées; langue non indiquée.
+DESCRIPTION : Légume-feuille identifié dans l’étude de Nkwen; ne pas confondre avec les baies de Vaccinium également appelées huckleberries.
+
+=== SUD ===
+
+-- Épices et condiments --
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : messep
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Sud
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : region
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-messep-thesis — p. 4, section 1.1.3.1
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Correspondance régionale explicite consultée via l’index de recherche; mémoire entier non récupéré.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+-- Herbes et plantes aromatiques --
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : messep
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : Sud
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : region
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-messep-thesis — p. 4, section 1.1.3.1
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Correspondance régionale explicite consultée via l’index de recherche; mémoire entier non récupéré.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+Présence/production documentée — ne prouve pas un nom local:
+p-gnetum-leaves: src-gnetum, Zone de production.
+
+=== SUD-OUEST ===
+Aucune appellation régionale attestée dans ce premier corpus. Voir les entrées nationales/linguistiques, sans les attribuer à cette région.
+
+Présence/production documentée — ne prouve pas un nom local:
+p-monodora: src-wabane, Résumé — six villages de Wabane.
+p-irvingia: src-irvingia, Variabilité et conservation de la ressource.
+p-gnetum-leaves: src-gnetum, Zone de production.
+
+4 BIS. NOMS NATIONAUX OU DE COMMUNAUTÉS — AUCUNE RÉGION INFÉRÉE
+
+ID PRODUIT : p-monodora
+NOM DE RÉFÉRENCE : Monodora — faux muscadier
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Monodora myristica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : gangat
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakoko
+COMMUNAUTÉ SELON LA SOURCE : Bakoko
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-monodora — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.
+
+ID PRODUIT : p-monodora
+NOM DE RÉFÉRENCE : Monodora — faux muscadier
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Monodora myristica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : ikoma
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bassa
+COMMUNAUTÉ SELON LA SOURCE : Bassa
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-monodora — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.
+
+ID PRODUIT : p-monodora
+NOM DE RÉFÉRENCE : Monodora — faux muscadier
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Monodora myristica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : biko
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Baya
+COMMUNAUTÉ SELON LA SOURCE : Baya
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-monodora — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.
+
+ID PRODUIT : p-monodora
+NOM DE RÉFÉRENCE : Monodora — faux muscadier
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Monodora myristica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : ozek
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Boulou
+COMMUNAUTÉ SELON LA SOURCE : Boulou
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-monodora — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.
+
+ID PRODUIT : p-monodora
+NOM DE RÉFÉRENCE : Monodora — faux muscadier
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Monodora myristica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : pebé
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Douala
+COMMUNAUTÉ SELON LA SOURCE : Douala
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-monodora — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.
+
+ID PRODUIT : p-monodora
+NOM DE RÉFÉRENCE : Monodora — faux muscadier
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Monodora myristica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : ding
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Ewondo
+COMMUNAUTÉ SELON LA SOURCE : Ewondo
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-monodora — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.
+
+ID PRODUIT : p-monodora
+NOM DE RÉFÉRENCE : Monodora — faux muscadier
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Monodora myristica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : dengo
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Baka
+COMMUNAUTÉ SELON LA SOURCE : Baka
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-monodora — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.
+
+ID PRODUIT : p-monodora
+NOM DE RÉFÉRENCE : Monodora — faux muscadier
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Monodora myristica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Faux muscadier
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-monodora — Nom commun
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : isangé
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakossi
+COMMUNAUTÉ SELON LA SOURCE : Bakossi
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : esangasanga
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakwéri
+COMMUNAUTÉ SELON LA SOURCE : Bakwéri
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : njangsang
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bassa
+COMMUNAUTÉ SELON LA SOURCE : Bassa
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : essang
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Boulou
+COMMUNAUTÉ SELON LA SOURCE : Boulou
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : njangsang
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Douala
+COMMUNAUTÉ SELON LA SOURCE : Douala
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : oryok
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Ejagham
+COMMUNAUTÉ SELON LA SOURCE : Ejagham
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : essessang
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Ewondo
+COMMUNAUTÉ SELON LA SOURCE : Ewondo
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : essessang
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Fang
+COMMUNAUTÉ SELON LA SOURCE : Fang
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : nzonell
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Ngoumba
+COMMUNAUTÉ SELON LA SOURCE : Ngoumba
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-ricino
+NOM DE RÉFÉRENCE : Ricinodendron — arbre à njangsang
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : gobre
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Baka
+COMMUNAUTÉ SELON LA SOURCE : Baka
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ricino — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.
+
+ID PRODUIT : p-njangsa-seeds
+NOM DE RÉFÉRENCE : Graines de njangsa
+CATÉGORIE(S) : Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ricinodendron heudelotii
+PARTIE OU FORME CONCERNÉE : edible_part / graines / séchées
+APPELLATION : njangsang
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-njangsa-bamenda — Common names
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Variante relevée dans la liste anglaise de l’article; pas de région inférée.
+DESCRIPTION : Graines achetées au marché de Bamenda dans l’étude citée; pas de nom attribué à toute la région.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : sas
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakoko
+COMMUNAUTÉ SELON LA SOURCE : Bakoko
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : sao
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakwéri
+COMMUNAUTÉ SELON LA SOURCE : Bakwéri
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : wom
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bamoun
+COMMUNAUTÉ SELON LA SOURCE : Bamoun
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : sah
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bassa
+COMMUNAUTÉ SELON LA SOURCE : Bassa
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : asa
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Boulou
+COMMUNAUTÉ SELON LA SOURCE : Boulou
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : assas
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Boulou
+COMMUNAUTÉ SELON LA SOURCE : Boulou
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : sao
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Douala
+COMMUNAUTÉ SELON LA SOURCE : Douala
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : assa
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Ewondo
+COMMUNAUTÉ SELON LA SOURCE : Ewondo
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : odou
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Fang
+COMMUNAUTÉ SELON LA SOURCE : Fang
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : sèné
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Baka
+COMMUNAUTÉ SELON LA SOURCE : Baka
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Safoutier
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms communs
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : prunier d’Afrique
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms communs
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : shoue
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : Bamiléké
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Étiquette de communauté ou de localité dans l’ouvrage; langue exacte non déterminée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : tso
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : Bamiléké
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Étiquette de communauté ou de localité dans l’ouvrage; langue exacte non déterminée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-dacryodes
+NOM DE RÉFÉRENCE : Safoutier — prunier d’Afrique
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dacryodes edulis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : ekiep
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : Dschang
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-dacryodes — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Étiquette de communauté ou de localité dans l’ouvrage; langue exacte non déterminée.
+DESCRIPTION : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : avia
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakoko
+COMMUNAUTÉ SELON LA SOURCE : Bakoko
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : ndoka
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakoko
+COMMUNAUTÉ SELON LA SOURCE : Bakoko
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : etou
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakossi
+COMMUNAUTÉ SELON LA SOURCE : Bakossi
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : bwiwa
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakwéri
+COMMUNAUTÉ SELON LA SOURCE : Bakwéri
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : wiba
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bassa
+COMMUNAUTÉ SELON LA SOURCE : Bassa
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : ando’o
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Boulou
+COMMUNAUTÉ SELON LA SOURCE : Boulou
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : bwiba
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Douala
+COMMUNAUTÉ SELON LA SOURCE : Douala
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : bambale
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Douala
+COMMUNAUTÉ SELON LA SOURCE : Douala
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : nsen
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Ejagham
+COMMUNAUTÉ SELON LA SOURCE : Ejagham
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : andok
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Ewondo
+COMMUNAUTÉ SELON LA SOURCE : Ewondo
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : andok
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Fang
+COMMUNAUTÉ SELON LA SOURCE : Fang
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : pekié
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Baka
+COMMUNAUTÉ SELON LA SOURCE : Baka
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : ndok
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Vouté
+COMMUNAUTÉ SELON LA SOURCE : Vouté
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms locaux
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : mangue sauvage
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms communs
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-irvingia
+NOM DE RÉFÉRENCE : Irvingia — mangue sauvage
+CATÉGORIE(S) : Fruits, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Irvingia gabonensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : bush mango
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-irvingia — Noms communs
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aucune extension à une région non documentée.
+DESCRIPTION : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.
+
+ID PRODUIT : p-fish-tilapia
+NOM DE RÉFÉRENCE : Tilapia du Nil
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Oreochromis niloticus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : tilapia
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-tilapia
+NOM DE RÉFÉRENCE : Tilapia du Nil
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Oreochromis niloticus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Nile tilapia
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-clarias
+NOM DE RÉFÉRENCE : Silure Clarias
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Clarias gariepinus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : silure
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-clarias
+NOM DE RÉFÉRENCE : Silure Clarias
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Clarias gariepinus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : ngouot
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-clarias
+NOM DE RÉFÉRENCE : Silure Clarias
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Clarias gariepinus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : African catfish
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-heterobranchus
+NOM DE RÉFÉRENCE : Silure Heterobranchus
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Heterobranchus longifilis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : silure
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-heterobranchus
+NOM DE RÉFÉRENCE : Silure Heterobranchus
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Heterobranchus longifilis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : djounkeu
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-heterobranchus
+NOM DE RÉFÉRENCE : Silure Heterobranchus
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Heterobranchus longifilis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : African catfish
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-carp
+NOM DE RÉFÉRENCE : Carpe commune
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Cyprinus carpio
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : carp
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-carp
+NOM DE RÉFÉRENCE : Carpe commune
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Cyprinus carpio
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : common carp
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-heterotis
+NOM DE RÉFÉRENCE : Kanga
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Heterotis niloticus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : kanga
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-heterotis
+NOM DE RÉFÉRENCE : Kanga
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Heterotis niloticus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : African bonytongue
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-hemichromis
+NOM DE RÉFÉRENCE : Poisson panthère
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Hemichromis fasciatus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : panther fish
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-hemichromis
+NOM DE RÉFÉRENCE : Poisson panthère
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Hemichromis fasciatus
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : banded jewel fish
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-parachanna
+NOM DE RÉFÉRENCE : Poisson vipère
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Parachanna obscura
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : viper fish
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-parachanna
+NOM DE RÉFÉRENCE : Poisson vipère
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Parachanna obscura
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : snakehead
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-sardinella
+NOM DE RÉFÉRENCE : Bifaka
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Sardinella madarensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : bifaka
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-sardinella
+NOM DE RÉFÉRENCE : Bifaka
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Sardinella madarensis
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Madeiran sardinella
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-cod
+NOM DE RÉFÉRENCE : Morue — makanjou
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Gadus morhua
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : makanjou
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom commercial; région et langue non précisées.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-cod
+NOM DE RÉFÉRENCE : Morue — makanjou
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Gadus morhua
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Atlantic cod
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56, Common English name
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais de référence; pas une attestation dans chaque région.
+DESCRIPTION : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.
+
+ID PRODUIT : p-fish-mackerel
+NOM DE RÉFÉRENCE : Maquereaux — groupe commercial
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Scomber scombrus; Scomber japonicus
+PARTIE OU FORME CONCERNÉE : commercial_group
+APPELLATION : maquereau
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Identification commerciale ou au genre; noms taxonomiques de la source non actualisés.
+DESCRIPTION : Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce.
+
+ID PRODUIT : p-fish-croaker
+NOM DE RÉFÉRENCE : Courbines — groupe commercial
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Pseudotolithus spp.
+PARTIE OU FORME CONCERNÉE : commercial_group
+APPELLATION : bar
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Identification commerciale ou au genre; noms taxonomiques de la source non actualisés.
+DESCRIPTION : Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce.
+
+ID PRODUIT : p-fish-croaker
+NOM DE RÉFÉRENCE : Courbines — groupe commercial
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Pseudotolithus spp.
+PARTIE OU FORME CONCERNÉE : commercial_group
+APPELLATION : bossu
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Identification commerciale ou au genre; noms taxonomiques de la source non actualisés.
+DESCRIPTION : Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce.
+
+ID PRODUIT : p-fish-barbus
+NOM DE RÉFÉRENCE : Barbus — identification au genre
+CATÉGORIE(S) : Poissons
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Barbus sp.
+PARTIE OU FORME CONCERNÉE : commercial_group
+APPELLATION : gougeon
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-worldfish — Annexe 4, p. 56
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Identification commerciale ou au genre; noms taxonomiques de la source non actualisés.
+DESCRIPTION : Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce.
+
+ID PRODUIT : p-gnetum-leaves
+NOM DE RÉFÉRENCE : Feuilles de Gnetum — groupe alimentaire
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Gnetum africanum; Gnetum bucholzianum
+PARTIE OU FORME CONCERNÉE : commercial_group / feuilles
+APPELLATION : Okok
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-gnetum — Titre et présentation
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : La fiche atteste ces noms au Cameroun sans localiser précisément chaque appellation; noms aussi employés pour des plats.
+DESCRIPTION : Groupe alimentaire pouvant couvrir deux espèces; le nom seul ne tranche pas leur identification.
+
+ID PRODUIT : p-gnetum-leaves
+NOM DE RÉFÉRENCE : Feuilles de Gnetum — groupe alimentaire
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Gnetum africanum; Gnetum bucholzianum
+PARTIE OU FORME CONCERNÉE : commercial_group / feuilles
+APPELLATION : Eru
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-gnetum — Titre et présentation
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : La fiche atteste ces noms au Cameroun sans localiser précisément chaque appellation; noms aussi employés pour des plats.
+DESCRIPTION : Groupe alimentaire pouvant couvrir deux espèces; le nom seul ne tranche pas leur identification.
+
+ID PRODUIT : p-maize
+NOM DE RÉFÉRENCE : Maïs
+CATÉGORIE(S) : Céréales
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Zea mays
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Maïs
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-cemac — Table des matières et chapitre de la culture
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Référence française CEMAC; usage régional non démontré.
+DESCRIPTION : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.
+
+ID PRODUIT : p-cassava
+NOM DE RÉFÉRENCE : Manioc
+CATÉGORIE(S) : Racines et tubercules
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Manihot esculenta
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Manioc
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-cemac — Table des matières et chapitre de la culture
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Référence française CEMAC; usage régional non démontré.
+DESCRIPTION : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.
+
+ID PRODUIT : p-onion
+NOM DE RÉFÉRENCE : Oignon
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Allium cepa
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Oignon
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-cemac — Table des matières et chapitre de la culture
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Référence française CEMAC; usage régional non démontré.
+DESCRIPTION : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.
+
+ID PRODUIT : p-yam
+NOM DE RÉFÉRENCE : Igname
+CATÉGORIE(S) : Racines et tubercules
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Dioscorea sp.
+PARTIE OU FORME CONCERNÉE : commercial_group
+APPELLATION : Igname
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-cemac — Table des matières et chapitre de la culture
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Référence française CEMAC; usage régional non démontré.
+DESCRIPTION : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.
+
+ID PRODUIT : p-sweetpotato
+NOM DE RÉFÉRENCE : Patate douce
+CATÉGORIE(S) : Racines et tubercules
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ipomea batatas
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Patate douce
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-cemac — Table des matières et chapitre de la culture
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Référence française CEMAC; usage régional non démontré.
+DESCRIPTION : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.
+
+ID PRODUIT : p-potato
+NOM DE RÉFÉRENCE : Pomme de terre
+CATÉGORIE(S) : Racines et tubercules
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Solanum tuberosum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Pomme de terre
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-cemac — Table des matières et chapitre de la culture
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Référence française CEMAC; usage régional non démontré.
+DESCRIPTION : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.
+
+ID PRODUIT : p-plantain
+NOM DE RÉFÉRENCE : Bananes plantains et autres bananes à cuire
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Musa sp.
+PARTIE OU FORME CONCERNÉE : commercial_group
+APPELLATION : Bananes plantains et autres bananes à cuire
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-cemac — Table des matières et chapitre de la culture
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Référence française CEMAC; usage régional non démontré.
+DESCRIPTION : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.
+
+ID PRODUIT : p-cowpea
+NOM DE RÉFÉRENCE : Niébé
+CATÉGORIE(S) : Légumineuses
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Vigna unguiculata
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Niébé
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-cemac — Table des matières et chapitre de la culture
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Référence française CEMAC; usage régional non démontré.
+DESCRIPTION : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Ndali
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakundou
+COMMUNAUTÉ SELON LA SOURCE : Bakundou
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Lisepo
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakundou
+COMMUNAUTÉ SELON LA SOURCE : Bakundou
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Messep
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Ewondo
+COMMUNAUTÉ SELON LA SOURCE : Ewondo
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Masebi
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bassa
+COMMUNAUTÉ SELON LA SOURCE : Bassa
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Ose-mo-se
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bakossi
+COMMUNAUTÉ SELON LA SOURCE : Bakossi
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Nkuwri
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Bangwa
+COMMUNAUTÉ SELON LA SOURCE : Bangwa
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Mahepo
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Douala
+COMMUNAUTÉ SELON LA SOURCE : Douala
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Ndoundo
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Baya
+COMMUNAUTÉ SELON LA SOURCE : Baya
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Ossim
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Boulou
+COMMUNAUTÉ SELON LA SOURCE : Boulou
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Tchâm
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : Medumba-Ndé
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : language_community
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-ocimum — p. 7, item 57
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Étiquette linguistique/géographique de la source; code linguistique non établi.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : messep
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-wipo — p. 12, Ndomba
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Le rapport dit basilic tropical sans donner le taxon; identification soutenue séparément par l’item 57 de src-ocimum.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-ocimum
+NOM DE RÉFÉRENCE : Basilic tropical — Ocimum gratissimum
+CATÉGORIE(S) : Herbes et plantes aromatiques, Épices et condiments
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Ocimum gratissimum
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : basilic tropical
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-wipo — p. 12, Ndomba
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Désignation culinaire générique; identification biologique établie par une autre source, à ne pas généraliser à tous les basilics.
+DESCRIPTION : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.
+
+ID PRODUIT : p-njama-leaves
+NOM DE RÉFÉRENCE : Feuilles de Solanum scabrum
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Solanum scabrum
+PARTIE OU FORME CONCERNÉE : edible_part / feuilles
+APPELLATION : huckleberry
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Anglais
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : sans objet
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : country
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-njama — Titre et introduction
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Nom anglais ambigu hors contexte; résultat accompagné de son taxon et de la partie feuilles.
+DESCRIPTION : Légume-feuille identifié dans l’étude de Nkwen; ne pas confondre avec les baies de Vaccinium également appelées huckleberries.
+
+4 TER. AIRE HISTORIQUE — SANS ÉQUIVALENCE ADMINISTRATIVE AUTOMATIQUE
+
+ID PRODUIT : p-hibiscus
+NOM DE RÉFÉRENCE : Oseille de Guinée — plante
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Hibiscus sabdariffa
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Folere
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442, item 14
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Attestation historique de 1954; pas de correspondance automatique avec une région actuelle.
+DESCRIPTION : Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson.
+
+ID PRODUIT : p-hibiscus
+NOM DE RÉFÉRENCE : Oseille de Guinée — plante
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Hibiscus sabdariffa
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Oseille de Guinée
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442, item 14
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Attestation historique de 1954; pas de correspondance automatique avec une région actuelle.
+DESCRIPTION : Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson.
+
+ID PRODUIT : p-hibiscus
+NOM DE RÉFÉRENCE : Oseille de Guinée — plante
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Hibiscus sabdariffa
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : folere
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Fulfuldé
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-prelude — Référence HM 78 — Malzy 1954
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Source secondaire; aire historique, pas la région Nord actuelle.
+DESCRIPTION : Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson.
+
+ID PRODUIT : p-hibiscus
+NOM DE RÉFÉRENCE : Oseille de Guinée — plante
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Hibiscus sabdariffa
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : djelire
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Fulfuldé
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-prelude — Référence HM 78 — Malzy 1954
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Source secondaire; aire historique, pas la région Nord actuelle.
+DESCRIPTION : Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson.
+
+ID PRODUIT : p-baobab
+NOM DE RÉFÉRENCE : Baobab
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Adansonia digitata
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Baobab
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aire historique; langue et correspondance aux régions actuelles non établies.
+DESCRIPTION : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.
+
+ID PRODUIT : p-baobab
+NOM DE RÉFÉRENCE : Baobab
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Adansonia digitata
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Bokki
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aire historique; langue et correspondance aux régions actuelles non établies.
+DESCRIPTION : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.
+
+ID PRODUIT : p-tamarind
+NOM DE RÉFÉRENCE : Tamarinier
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Tamarindus indica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Tamarinier
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aire historique; langue et correspondance aux régions actuelles non établies.
+DESCRIPTION : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.
+
+ID PRODUIT : p-tamarind
+NOM DE RÉFÉRENCE : Tamarinier
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Tamarindus indica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Djabbi
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aire historique; langue et correspondance aux régions actuelles non établies.
+DESCRIPTION : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.
+
+ID PRODUIT : p-mango
+NOM DE RÉFÉRENCE : Manguier
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Mangifera indica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Manguier
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aire historique; langue et correspondance aux régions actuelles non établies.
+DESCRIPTION : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.
+
+ID PRODUIT : p-mango
+NOM DE RÉFÉRENCE : Manguier
+CATÉGORIE(S) : Fruits
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Mangifera indica
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Mangoro
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aire historique; langue et correspondance aux régions actuelles non établies.
+DESCRIPTION : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.
+
+ID PRODUIT : p-purslane
+NOM DE RÉFÉRENCE : Pourpier
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Portulaca oleracea
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Pourpier
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : Français
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aire historique; langue et correspondance aux régions actuelles non établies.
+DESCRIPTION : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.
+
+ID PRODUIT : p-purslane
+NOM DE RÉFÉRENCE : Pourpier
+CATÉGORIE(S) : Légumes
+IDENTITÉ SCIENTIFIQUE, SI ÉTABLIE : Portulaca oleracea
+PARTIE OU FORME CONCERNÉE : organism
+APPELLATION : Tekku tekkude
+VARIANTES ORTHOGRAPHIQUES : non documenté dans les sources consultées
+LANGUE : non documenté dans les sources consultées
+COMMUNAUTÉ SELON LA SOURCE : non documenté dans les sources consultées
+PAYS : Cameroun
+RÉGION(S) D’USAGE ATTESTÉ : non documenté dans les sources consultées
+AIRE HISTORIQUE : Nord Cameroun (aire historique, 1954)
+LOCALITÉ OU MARCHÉ : non documenté dans les sources consultées
+PORTÉE GÉOGRAPHIQUE DE LA PREUVE : historical_area
+STATUT DE VALIDATION : verified
+SOURCE(S) : src-malzy — p. 442
+NOTE DE PREUVE : Correspondance nom-produit documentée.
+AMBIGUÏTÉS OU LIMITES : Aire historique; langue et correspondance aux régions actuelles non établies.
+DESCRIPTION : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.
+
+5. CORRESPONDANCES ENTRE RÉGIONS
+Basilic tropical — Ocimum gratissimum: messep (Centre); messep (Sud).
+Feuilles de Solanum scabrum: njama njama (Nord-Ouest); njama njama (Ouest).
+Ne pas produire des différences de noms entre régions lorsqu’elles ne sont pas attestées. Les correspondances linguistiques nationales restent consultables plus haut.
+
+TABLEAU DE COUVERTURE — produits / appellations distinctes, par catégorie
+Région | Épices et condiments | Poissons | Herbes et plantes aromatiques | Légumes | Fruits | Racines et tubercules | Céréales | Légumineuses | Préparations et boissons
+Adamaoua | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+Centre | 1/1 | 0/0 | 1/1 | 1/1 | 0/0 | 0/0 | 0/0 | 0/0 | 1/1
+Est | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+Extrême-Nord | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 1/1
+Littoral | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+Nord | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+Nord-Ouest | 1/1 | 0/0 | 0/0 | 1/1 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+Ouest | 0/0 | 0/0 | 0/0 | 1/1 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+Sud | 1/1 | 0/0 | 1/1 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+Sud-Ouest | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+
+6. AMBIGUÏTÉS ET RECHERCHES RESTANTES
+Silure et African catfish correspondent à deux identités dans la source WorldFish. Maquereau couvre plusieurs espèces. Eru/Okok peuvent également désigner des plats.
+Les noms des arbres fruitiers ne deviennent pas automatiquement les noms exclusifs de leurs fruits. Huckleberry est ambigu hors contexte botanique.
+Masso: identité et variantes non établies; aucune attribution à Monodora ou Afrostyrax. Bissap: pays, plante, calices et boisson à vérifier. Feuilles de manioc: noms de l’ingrédient à distinguer des préparations et des emballages.
+Adamaoua, Nord, Est, Littoral et Sud-Ouest: aucune appellation régionale dans ce corpus; certaines présences sont documentées. Toutes les catégories requièrent un enrichissement régional.
+
+7. BIBLIOGRAPHIE ET LICENCES
+
+src-prc — Présentation du Cameroun
+Auteur/organisme: Présidence de la République du Cameroun
+Publication: non documenté dans les sources consultées; consultation: 2026-10-05
+URL: https://www.prc.cm/en/cameroon/presentation
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Utilisé uniquement pour le code CM et les dix régions; autres chiffres non repris.
+
+src-ins — Regional agencies
+Auteur/organisme: Institut national de la statistique du Cameroun
+Publication: non documenté dans les sources consultées; consultation: 2026-10-05
+URL: https://ins-cameroun.cm/en/by-the-way/organization/regional-agencies/
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Portée limitée aux informations effectivement consultées.
+
+src-worldfish — Development and Status of Freshwater Aquaculture in Cameroon
+Auteur/organisme: Victor Pouomogne; Diemuth E. Pemsl
+Publication: 2008; consultation: 2026-10-05
+URL: https://epub.sub.uni-hamburg.de/epub/volltexte/2009/3418/pdf/WF_1103.pdf
+Licence: Tous droits réservés; reproduction éducative/non lucrative avec attribution; commercial à vérifier
+Limites: Annexe 4, p. 56, PDF p. 67. Noms commerciaux historiques; absence de région et de langue. Document non évalué par les pairs. Certaines graphies taxonomiques sont anciennes ou erronées.
+
+src-monodora — Monodora myristica — Fruitiers du Cameroun
+Auteur/organisme: Eyog Matig O., Ndoye O., Kengue J., Awono A. (éditeurs); IPGRI/CIFOR/IRAD
+Publication: 2006; consultation: 2026-10-05
+URL: https://plantuse.plantnet.org/fr/Monodora_myristica_(Fruitiers_du_Cameroun)
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Fiche de l’ouvrage de 2006 reproduite sur Pl@ntUse. Les noms désignent la plante; aucune région administrative déduite des langues. Licence des contenus de l’ouvrage non établie.
+
+src-ricino — Ricinodendron heudelotii — Fruitiers du Cameroun
+Auteur/organisme: Eyog Matig O., Ndoye O., Kengue J., Awono A. (éditeurs); IPGRI/CIFOR/IRAD
+Publication: 2006; consultation: 2026-10-05
+URL: https://plantuse.plantnet.org/fr/Ricinodendron_heudelotii_(Fruitiers_du_Cameroun)
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Fiche de l’ouvrage de 2006 reproduite sur Pl@ntUse. Les noms désignent la plante; aucune région administrative déduite des langues. Licence des contenus de l’ouvrage non établie.
+
+src-dacryodes — Dacryodes edulis — Fruitiers du Cameroun
+Auteur/organisme: Eyog Matig O., Ndoye O., Kengue J., Awono A. (éditeurs); IPGRI/CIFOR/IRAD
+Publication: 2006; consultation: 2026-10-05
+URL: https://plantuse.plantnet.org/fr/Dacryodes_edulis_(Fruitiers_du_Cameroun)
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Fiche de l’ouvrage de 2006 reproduite sur Pl@ntUse. Les noms désignent la plante; aucune région administrative déduite des langues. Licence des contenus de l’ouvrage non établie.
+
+src-irvingia — Irvingia gabonensis — Fruitiers du Cameroun
+Auteur/organisme: Eyog Matig O., Ndoye O., Kengue J., Awono A. (éditeurs); IPGRI/CIFOR/IRAD
+Publication: 2006; consultation: 2026-10-05
+URL: https://plantuse.plantnet.org/fr/Irvingia_gabonensis_(Fruitiers_du_Cameroun)
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Fiche de l’ouvrage de 2006 reproduite sur Pl@ntUse. Les noms désignent la plante; aucune région administrative déduite des langues. Licence des contenus de l’ouvrage non établie.
+
+src-gnetum — Gnetum spp (Okok ou Eru) — fiche technique
+Auteur/organisme: CIFOR
+Publication: non documenté dans les sources consultées; consultation: 2026-10-05
+URL: https://www.cifor-icraf.org/publications/pdf_files/factsheet/Gnetum_frc.pdf
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Document non daté dans les pages consultées. Zones de production distinctes de la géographie des noms. Le tableau de recettes comporte une formulation douteuse sur Water Fufu, non reprise.
+
+src-gnetum-center — Gnetum ssp. (Okok) — Photo #35051664214
+Auteur/organisme: CIFOR-ICRAF
+Publication: non documenté dans les sources consultées; consultation: 2026-10-05
+URL: https://www.cifor-icraf.org/knowledge/photo/35051664214/
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Attestation ponctuelle à Minwoho, Lékié, Centre. La légende a été consultée via l’index de recherche; aucune image réutilisée.
+
+src-malzy — Aliments crus et masticatoires du Nord Cameroun
+Auteur/organisme: Pierre Malzy
+Publication: 1954; consultation: 2026-10-05
+URL: https://www.persee.fr/doc/jatba_0021-7662_1954_num_1_10_2181?pageId=T1_442
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Page 442 uniquement. « Nord Cameroun » historique, sans équivalence automatique avec la région Nord actuelle; langue non attribuée depuis ce seul extrait.
+
+src-prelude — Hibiscus sabdariffa — PRELUDE, référence HM 78
+Auteur/organisme: Société française d’ethnopharmacologie; référence Pierre Malzy 1954
+Publication: non documenté dans les sources consultées; consultation: 2026-10-05
+URL: https://www.ethnopharmacologia.org/recherche-dans-prelude/?plant_id=3172
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Synthèse secondaire de Malzy. Mauvaises étiquettes géographiques possibles; seule la référence HM 78 est utilisée. Aucun conseil médical repris.
+
+src-folere — Influence of manufacturing process on the microbiological quality of folere beverage sold in Maroua, Mokolo and Mora
+Auteur/organisme: James Ronald Bayoï et al.
+Publication: 2014; consultation: 2026-10-05
+URL: https://ijias.issr-journals.org/abstract.php?article=IJIAS-14-256-07
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Titre et référence p. 786–796 consultés. Preuve du nom de la boisson dans ces trois localités; recette détaillée non récupérée.
+
+src-cemac — Catalogue des espèces et variétés de cultures vivrières d’intérêt communautaire dans l’espace CEMAC
+Auteur/organisme: CEMAC/PRASAC; concours technique et financier FAO
+Publication: non documenté dans les sources consultées; consultation: 2026-10-05
+URL: https://www.fao.org/fileadmin/templates/agphome/documents/PGR/news/CEMAC_CATALOGUE__Web_Version_.pdf
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Correspondances françaises et scientifiques de cultures; portée CEMAC, pas enquête de noms vernaculaires régionaux. Date de publication non vérifiée.
+
+src-wipo — Exploratory study of the leading culinary traditions of Cameroon
+Auteur/organisme: Dr Monique Bagal; OMPI/WIPO
+Publication: 2021-10; consultation: 2026-10-05
+URL: https://www.wipo.int/ip-development/en/docs/scoping-study-cameroon.pdf
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Étude exploratoire avec sources secondaires. Document marqué WIPO FOR OFFICIAL USE ONLY bien que publiquement accessible; pas de licence ouverte affirmée. Les équivalences de recettes ne sont pas généralisées.
+
+src-ocimum — Ethnomedical and Ethnopharmacological Study of Plants Used for Potential Treatments of Diabetes and Arterial Hypertension in Cameroon
+Auteur/organisme: Nole T., Lionel TDW, Cedrix TFS, Gabriel AA
+Publication: 2016; consultation: 2026-10-05
+URL: https://www.walshmedicalmedia.com/open-access/ethnomedical-and-ethnopharmacological-study-of-plants-used-for-potential-treatments-of-diabetes-and-arterial-hypertension-by-indig-.pdf
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Item 57, p. 7. Noms de plante relevés dans un contexte médicinal, pas preuve des usages culinaires de chaque communauté. Aucun traitement repris.
+
+src-messep-thesis — Isolement et caractérisation des métabolites secondaires des extraits méthanoliques des feuilles de Ocimum gratissimum
+Auteur/organisme: Keubeng Sidonie; mémoire DIPES II
+Publication: 2016; consultation: 2026-10-05
+URL: https://dicames.online/jspui/bitstream/20.500.12177/5289/1/ENS_2016_mem_0148.pdf
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Page imprimée 4 consultée via l’index textuel de recherche. PDF complet non récupéré. Attribution Centre/Sud explicite, langue non précisée.
+
+src-njama — Influence of Indigenous Microorganisms Fertilizer on the Growth Performance of Huckleberry (Solanum Scabrum) in Mile 3, Nkwen Bamenda
+Auteur/organisme: Auteurs de l’article DOI 10.11648/j.jps.20251306.14; noms non relevés
+Publication: 2025; consultation: 2026-10-05
+URL: https://sciencepublishinggroup.com/article/10.11648/j.jps.20251306.14
+Licence: CC BY 4.0
+Limites: Introduction et métadonnées consultées. « Njama njama » associé au Nord-Ouest et à l’Ouest; aucune langue précise attribuée.
+
+src-njangsa-bamenda — Antifungal Susceptibility Pattern of Seed Exracts of Ricinodendron Heudelotii (njangsa)
+Auteur/organisme: Esoh Rene Tanwieh; Solomon Gyampoh; Tidoh Kenne Linda Nicaise
+Publication: 2024; consultation: 2026-10-05
+URL: https://www.genesispub.org/acmr/antifungal-susceptibility-pattern-of-seed-exracts-of-ricinodendron-heudelotii-njangsa-on-candida-albicans-and-aspergillus-niger
+Licence: Mention CC BY-NC-ND 4.0 avec texte contradictoire; droits à clarifier
+Limites: Njangsa acheté au marché de Bamenda; contexte expérimental, pas enquête linguistique. Qualité éditoriale et licence à examiner; aucune allégation thérapeutique reprise.
+
+src-wabane — Harvesting and Marketing Pattern of Monodora myristica and Afrostyrax kamerunensis in Wabane
+Auteur/organisme: Louis Njie Ndumbe; Longonje Simon Ngomba; Mokam Eva
+Publication: 2022-01-25; consultation: 2026-10-05
+URL: https://journaljaeri.com/index.php/JAERI/article/view/477
+Licence: non établie — aucune licence ouverte affirmée
+Limites: Résumé seulement: présence à Wabane, Sud-Ouest; pas preuve de noms vernaculaires dans cette zone.
+
+src-bamenda — Wild edible plants and mushrooms of the Bamenda Highlands in Cameroon
+Auteur/organisme: Evariste Fedoung Fongnzossie et al.
+Publication: 2020-03-04; consultation: 2026-10-05
+URL: https://link.springer.com/article/10.1186/s13002-020-00362-8
+Licence: CC BY 4.0
+Limites: Résumé et résultats consultés; tableau 2 inaccessible. Utilisé seulement pour disponibilité des espèces citées, sans inventer leurs appellations locales.

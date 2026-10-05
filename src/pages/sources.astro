@@ -51,6 +51,33 @@ import { href } from '../lib/links';
       </article>
     </div>
     <section class="section">
+      <h2>Corpus documentaire du Cameroun</h2>
+      <p>
+        Corpus fourni par le propriétaire ; les droits et limites sont conservés par source. Aucun
+        statut de licence ouverte n’est appliqué à l’ensemble.
+      </p>
+      <a href={href('data/cameroon-corpus.json')} download>
+        Consulter le corpus et ses références ↗
+      </a>
+      {catalogue.sources
+        .filter((s) => s.id.startsWith('cm-corpus-'))
+        .map((s) => (
+          <article class="geo-source">
+            <h3 data-no-translate dir="auto">
+              <a href={s.url} target="_blank" rel="noopener noreferrer">
+                {s.title} ↗
+              </a>
+            </h3>
+            <p data-no-translate dir="auto">
+              {s.publisher} · {s.licenseId}
+            </p>
+            <p class="table-note" data-no-translate dir="auto">
+              {s.accessNote}
+            </p>
+          </article>
+        ))}
+    </section>
+    <section class="section">
       <h2>Géographies et versions</h2>
       {geography.metadata.map((meta) => (
         <article class="geo-source">

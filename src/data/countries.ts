@@ -59,4 +59,7 @@ export const categories = [
   { id: 'vegetables', label: 'Légumes & feuilles', symbol: '❧' },
   { id: 'fish', label: 'Poissons', symbol: '≈' },
   { id: 'staples', label: 'Produits de base', symbol: '◌' },
+  { id: 'herbs', label: 'Herbes & aromates', symbol: '❧' },
+  { id: 'fruits', label: 'Fruits', symbol: '◉' },
+  { id: 'preparations', label: 'Préparations & boissons', symbol: '◌' },
 ];

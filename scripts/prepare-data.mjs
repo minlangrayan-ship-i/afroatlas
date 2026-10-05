@@ -36,4 +36,5 @@ await writeFile('src/data/published/regions.json', JSON.stringify(geo.regions, n
 await mkdir('public/data', { recursive: true });
 for (const name of ['catalogue', 'geography', 'commercial-off', 'search-index'])
   await copyFile(`src/data/published/${name}.json`, `public/data/${name}.json`);
+await copyFile('data/research/cameroon-corpus.json', 'public/data/cameroon-corpus.json');
 console.log('Public snapshots and light region index refreshed.');

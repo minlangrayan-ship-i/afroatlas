@@ -5,10 +5,12 @@ function Regions({
   regions,
   paths,
   entries = [],
+  presenceEntries = [],
 }: {
   regions: Region[];
   paths: { id: string; label: string; path: string }[];
   entries?: { regionIds: string[]; label: string; url: string; localContext: string }[];
+  presenceEntries?: { regionIds: string[]; label: string; url: string; localContext: string }[];
 }) {
   const [ready, setReady] = useState(false),
     [selected, setSelected] = useState('');
@@ -92,6 +94,23 @@ function Regions({
             <p>Aucune appellation régionale documentée pour le moment.</p>
           )}
           {region && <small>Limites représentant {region.boundaryYear}.</small>}
+          {presenceEntries.some((e) => e.regionIds.includes(selected)) && (
+            <div className="region-presence">
+              <h4>Présence ou production documentée</h4>
+              <p className="table-note">
+                Ces sources ne prouvent pas une appellation dans cette région.
+              </p>
+              {presenceEntries
+                .filter((e) => e.regionIds.includes(selected))
+                .map((e, i) => (
+                  <p key={i}>
+                    <a href={e.url} data-no-translate dir="auto">
+                      {e.label} — {e.localContext} ↗
+                    </a>
+                  </p>
+                ))}
+            </div>
+          )}
         </div>
       </div>
     </div>

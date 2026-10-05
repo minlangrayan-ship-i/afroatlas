@@ -1,0 +1,4643 @@
+{
+  "version": 1,
+  "importedAt": "2026-10-05",
+  "provenance": "Document fourni par le propriétaire ; statuts du corpus conservés comme tels, sans nouvelle expertise indépendante",
+  "fileSha256": "0a3a0848c87b6a12efd6783c1d776567132a94192b5a1c681c90b80c3ce76d16",
+  "counts": {
+    "products": 35,
+    "names": 110,
+    "usages": 116,
+    "sources": 20,
+    "presences": 9
+  },
+  "products": [
+    {
+      "id": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "identity": "organism"
+    },
+    {
+      "id": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "identity": "organism"
+    },
+    {
+      "id": "p-njangsa-seeds",
+      "label": "Graines de njangsa",
+      "identity": "edible_part"
+    },
+    {
+      "id": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "identity": "organism"
+    },
+    {
+      "id": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-tilapia",
+      "label": "Tilapia du Nil",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-clarias",
+      "label": "Silure Clarias",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-heterobranchus",
+      "label": "Silure Heterobranchus",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-carp",
+      "label": "Carpe commune",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-heterotis",
+      "label": "Kanga",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-hemichromis",
+      "label": "Poisson panthère",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-parachanna",
+      "label": "Poisson vipère",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-sardinella",
+      "label": "Bifaka",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-cod",
+      "label": "Morue — makanjou",
+      "identity": "organism"
+    },
+    {
+      "id": "p-fish-mackerel",
+      "label": "Maquereaux — groupe commercial",
+      "identity": "commercial_group"
+    },
+    {
+      "id": "p-fish-croaker",
+      "label": "Courbines — groupe commercial",
+      "identity": "commercial_group"
+    },
+    {
+      "id": "p-fish-barbus",
+      "label": "Barbus — identification au genre",
+      "identity": "commercial_group"
+    },
+    {
+      "id": "p-gnetum-leaves",
+      "label": "Feuilles de Gnetum — groupe alimentaire",
+      "identity": "commercial_group"
+    },
+    {
+      "id": "p-hibiscus",
+      "label": "Oseille de Guinée — plante",
+      "identity": "organism"
+    },
+    {
+      "id": "p-folere-drink",
+      "label": "Jus de foléré",
+      "identity": "preparation"
+    },
+    {
+      "id": "p-maize",
+      "label": "Maïs",
+      "identity": "organism"
+    },
+    {
+      "id": "p-cassava",
+      "label": "Manioc",
+      "identity": "organism"
+    },
+    {
+      "id": "p-onion",
+      "label": "Oignon",
+      "identity": "organism"
+    },
+    {
+      "id": "p-yam",
+      "label": "Igname",
+      "identity": "commercial_group"
+    },
+    {
+      "id": "p-sweetpotato",
+      "label": "Patate douce",
+      "identity": "organism"
+    },
+    {
+      "id": "p-potato",
+      "label": "Pomme de terre",
+      "identity": "organism"
+    },
+    {
+      "id": "p-plantain",
+      "label": "Bananes plantains et autres bananes à cuire",
+      "identity": "commercial_group"
+    },
+    {
+      "id": "p-cowpea",
+      "label": "Niébé",
+      "identity": "organism"
+    },
+    {
+      "id": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "identity": "organism"
+    },
+    {
+      "id": "p-njama-leaves",
+      "label": "Feuilles de Solanum scabrum",
+      "identity": "edible_part"
+    },
+    {
+      "id": "p-kpem",
+      "label": "Kpem — préparation de feuilles de manioc",
+      "identity": "preparation"
+    },
+    {
+      "id": "p-baobab",
+      "label": "Baobab",
+      "identity": "organism"
+    },
+    {
+      "id": "p-tamarind",
+      "label": "Tamarinier",
+      "identity": "organism"
+    },
+    {
+      "id": "p-mango",
+      "label": "Manguier",
+      "identity": "organism"
+    },
+    {
+      "id": "p-purslane",
+      "label": "Pourpier",
+      "identity": "organism"
+    }
+  ],
+  "usages": [
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "messep",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "Centre",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "region",
+      "status": "verified",
+      "references": "src-messep-thesis — p. 4, section 1.1.3.1",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Correspondance régionale explicite consultée via l’index de recherche; mémoire entier non récupéré.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-55685237b1797c4b",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-fed0a7d715083ad7",
+        "targetEvidenceIds": [
+          "cm-text-use-55685237b1797c4b-evidence-0"
+        ],
+        "targetRegionIds": [
+          "region-CMR-27767025B11866847137657"
+        ]
+      }
+    },
+    {
+      "productId": "p-gnetum-leaves",
+      "label": "Feuilles de Gnetum — groupe alimentaire",
+      "categories": "Légumes",
+      "scientificName": "Gnetum africanum; Gnetum bucholzianum",
+      "referent": "commercial_group / feuilles",
+      "name": "Okok",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "Centre",
+      "historicalArea": "sans objet",
+      "locality": "Minwoho, Lékié",
+      "scope": "locality",
+      "status": "verified",
+      "references": "src-gnetum-center — Titre et légende",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Légende institutionnelle consultée via l’index; attestation locale, pas toute la région.",
+      "description": "Groupe alimentaire pouvant couvrir deux espèces; le nom seul ne tranche pas leur identification.",
+      "id": "cm-text-use-1a94cda4dfd7a803",
+      "integration": {
+        "productId": "product-eru",
+        "slug": "eru",
+        "action": "enriched",
+        "originalScientificName": "Gnetum africanum; Gnetum bucholzianum",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-f58d7683a438c684",
+        "targetEvidenceIds": [
+          "cm-text-use-1a94cda4dfd7a803-evidence-0"
+        ],
+        "targetRegionIds": [
+          "region-CMR-27767025B11866847137657"
+        ]
+      }
+    },
+    {
+      "productId": "p-kpem",
+      "label": "Kpem — préparation de feuilles de manioc",
+      "categories": "Préparations et boissons",
+      "scientificName": "non documenté dans les sources consultées",
+      "referent": "preparation / sauce",
+      "name": "Kpem",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "Centre",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "region",
+      "status": "verified",
+      "references": "src-wipo — A.1 Centre, p. 12, fiche Kpem",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom du plat, pas synonyme universel des feuilles de manioc.",
+      "description": "Préparation distincte de la plante manioc et des feuilles non préparées. Variantes de recettes à examiner séparément.",
+      "id": "cm-text-use-104a4994e984bef8",
+      "integration": {
+        "productId": "product-kpem",
+        "slug": "kpem",
+        "action": "added",
+        "originalScientificName": null,
+        "documentaryScope": "preparation",
+        "targetNameId": "cm-corpus-name-db971dd32733d904",
+        "targetEvidenceIds": [
+          "cm-text-use-104a4994e984bef8-evidence-0"
+        ],
+        "targetRegionIds": [
+          "region-CMR-27767025B11866847137657"
+        ]
+      }
+    },
+    {
+      "productId": "p-folere-drink",
+      "label": "Jus de foléré",
+      "categories": "Préparations et boissons",
+      "scientificName": "Hibiscus sabdariffa",
+      "referent": "preparation / boisson",
+      "name": "folere",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "Extrême-Nord",
+      "historicalArea": "sans objet",
+      "locality": "Maroua, Mokolo et Mora",
+      "scope": "locality",
+      "status": "verified",
+      "references": "src-folere — Titre; p. 786–796",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de boisson dans les localités citées; langue non précisée.",
+      "description": "Boisson étudiée à Maroua, Mokolo et Mora; ne pas l’assimiler aux feuilles de la plante.",
+      "id": "cm-text-use-bee6a41c3567eea1",
+      "integration": {
+        "productId": "product-folere-boisson",
+        "slug": "folere-boisson",
+        "action": "enriched",
+        "originalScientificName": "Hibiscus sabdariffa",
+        "documentaryScope": "preparation",
+        "targetNameId": "cm-corpus-name-928e2851369489aa",
+        "targetEvidenceIds": [
+          "cm-text-use-bee6a41c3567eea1-evidence-0"
+        ],
+        "targetRegionIds": [
+          "region-CMR-27767025B65184844379073"
+        ]
+      }
+    },
+    {
+      "productId": "p-njangsa-seeds",
+      "label": "Graines de njangsa",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "edible_part / graines / séchées",
+      "name": "njangsa",
+      "variants": "njangsang",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "Nord-Ouest",
+      "historicalArea": "sans objet",
+      "locality": "Marché alimentaire de Bamenda",
+      "scope": "locality",
+      "status": "verified",
+      "references": "src-njangsa-bamenda — Sample preparation and extraction",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Attestation de marché ponctuelle; langue non identifiée.",
+      "description": "Graines achetées au marché de Bamenda dans l’étude citée; pas de nom attribué à toute la région.",
+      "id": "cm-text-use-f3000f69bf3d2e65",
+      "integration": {
+        "productId": "product-njansang",
+        "slug": "njansang",
+        "action": "enriched",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "edible_part",
+        "targetNameId": "cm-corpus-name-5db2d9098bc90550",
+        "targetEvidenceIds": [
+          "cm-text-use-f3000f69bf3d2e65-evidence-0"
+        ],
+        "targetRegionIds": [
+          "region-CMR-27767025B74489197250691"
+        ]
+      }
+    },
+    {
+      "productId": "p-njama-leaves",
+      "label": "Feuilles de Solanum scabrum",
+      "categories": "Légumes",
+      "scientificName": "Solanum scabrum",
+      "referent": "edible_part / feuilles",
+      "name": "njama njama",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "Nord-Ouest",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "region",
+      "status": "verified",
+      "references": "src-njama — Introduction, paragraphe 1",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Deux régions explicitement mentionnées; langue non indiquée.",
+      "description": "Légume-feuille identifié dans l’étude de Nkwen; ne pas confondre avec les baies de Vaccinium également appelées huckleberries.",
+      "id": "cm-text-use-790e6bf606c70691",
+      "integration": {
+        "productId": "product-njama-njama",
+        "slug": "njama-njama",
+        "action": "added",
+        "originalScientificName": "Solanum scabrum",
+        "documentaryScope": "edible_part",
+        "targetNameId": "cm-corpus-name-f4c1e72107850278",
+        "targetEvidenceIds": [
+          "cm-text-use-790e6bf606c70691-evidence-0"
+        ],
+        "targetRegionIds": [
+          "region-CMR-27767025B74489197250691"
+        ]
+      }
+    },
+    {
+      "productId": "p-njama-leaves",
+      "label": "Feuilles de Solanum scabrum",
+      "categories": "Légumes",
+      "scientificName": "Solanum scabrum",
+      "referent": "edible_part / feuilles",
+      "name": "njama njama",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "Ouest",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "region",
+      "status": "verified",
+      "references": "src-njama — Introduction, paragraphe 1",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Deux régions explicitement mentionnées; langue non indiquée.",
+      "description": "Légume-feuille identifié dans l’étude de Nkwen; ne pas confondre avec les baies de Vaccinium également appelées huckleberries.",
+      "id": "cm-text-use-568860b1333ca884",
+      "integration": {
+        "productId": "product-njama-njama",
+        "slug": "njama-njama",
+        "action": "added",
+        "originalScientificName": "Solanum scabrum",
+        "documentaryScope": "edible_part",
+        "targetNameId": "cm-corpus-name-f4c1e72107850278",
+        "targetEvidenceIds": [
+          "cm-text-use-568860b1333ca884-evidence-0"
+        ],
+        "targetRegionIds": [
+          "region-CMR-27767025B65871807342439"
+        ]
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "messep",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "Sud",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "region",
+      "status": "verified",
+      "references": "src-messep-thesis — p. 4, section 1.1.3.1",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Correspondance régionale explicite consultée via l’index de recherche; mémoire entier non récupéré.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-8a0ef113c8ac12cc",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-fed0a7d715083ad7",
+        "targetEvidenceIds": [
+          "cm-text-use-8a0ef113c8ac12cc-evidence-0"
+        ],
+        "targetRegionIds": [
+          "region-CMR-27767025B67924123829422"
+        ]
+      }
+    },
+    {
+      "productId": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "categories": "Épices et condiments",
+      "scientificName": "Monodora myristica",
+      "referent": "organism",
+      "name": "gangat",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakoko",
+      "community": "Bakoko",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-monodora — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.",
+      "id": "cm-text-use-6103e390c8520c84",
+      "integration": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-8e5dab27fa72150f",
+        "targetEvidenceIds": [
+          "cm-text-use-6103e390c8520c84-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "categories": "Épices et condiments",
+      "scientificName": "Monodora myristica",
+      "referent": "organism",
+      "name": "ikoma",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bassa",
+      "community": "Bassa",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-monodora — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.",
+      "id": "cm-text-use-c0903b7701d0b683",
+      "integration": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-1445542c3734481a",
+        "targetEvidenceIds": [
+          "cm-text-use-c0903b7701d0b683-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "categories": "Épices et condiments",
+      "scientificName": "Monodora myristica",
+      "referent": "organism",
+      "name": "biko",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Baya",
+      "community": "Baya",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-monodora — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.",
+      "id": "cm-text-use-2b9c309bf17d162c",
+      "integration": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-b9d709ff78c6dd63",
+        "targetEvidenceIds": [
+          "cm-text-use-2b9c309bf17d162c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "categories": "Épices et condiments",
+      "scientificName": "Monodora myristica",
+      "referent": "organism",
+      "name": "ozek",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Boulou",
+      "community": "Boulou",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-monodora — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.",
+      "id": "cm-text-use-47085da1d22565cb",
+      "integration": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-6467de7bb67c5b71",
+        "targetEvidenceIds": [
+          "cm-text-use-47085da1d22565cb-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "categories": "Épices et condiments",
+      "scientificName": "Monodora myristica",
+      "referent": "organism",
+      "name": "pebé",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Douala",
+      "community": "Douala",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-monodora — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.",
+      "id": "cm-text-use-1144378e30e42d19",
+      "integration": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-82bdbd8b2dd03a7c",
+        "targetEvidenceIds": [
+          "cm-text-use-1144378e30e42d19-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "categories": "Épices et condiments",
+      "scientificName": "Monodora myristica",
+      "referent": "organism",
+      "name": "ding",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Ewondo",
+      "community": "Ewondo",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-monodora — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.",
+      "id": "cm-text-use-7a70bad4c10bd888",
+      "integration": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-74cb0cf1b32020d2",
+        "targetEvidenceIds": [
+          "cm-text-use-7a70bad4c10bd888-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "categories": "Épices et condiments",
+      "scientificName": "Monodora myristica",
+      "referent": "organism",
+      "name": "dengo",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Baka",
+      "community": "Baka",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-monodora — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.",
+      "id": "cm-text-use-442727b17de57c5f",
+      "integration": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-7b6ce330ca2783ea",
+        "targetEvidenceIds": [
+          "cm-text-use-442727b17de57c5f-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-monodora",
+      "label": "Monodora — faux muscadier",
+      "categories": "Épices et condiments",
+      "scientificName": "Monodora myristica",
+      "referent": "organism",
+      "name": "Faux muscadier",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-monodora — Nom commun",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue.",
+      "id": "cm-text-use-1f53ff44a267fab8",
+      "integration": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-13549d902d145219",
+        "targetEvidenceIds": [
+          "cm-text-use-1f53ff44a267fab8-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "isangé",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakossi",
+      "community": "Bakossi",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-a7982c3ff7dffa0c",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-ba893b567d699f1d",
+        "targetEvidenceIds": [
+          "cm-text-use-a7982c3ff7dffa0c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "esangasanga",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakwéri",
+      "community": "Bakwéri",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-b75108b9b7cc3ac0",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-5e3903ad718532b1",
+        "targetEvidenceIds": [
+          "cm-text-use-b75108b9b7cc3ac0-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "njangsang",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bassa",
+      "community": "Bassa",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-1cbb3a93f40c1126",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-085528fe06d4e398",
+        "targetEvidenceIds": [
+          "cm-text-use-1cbb3a93f40c1126-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "essang",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Boulou",
+      "community": "Boulou",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-c0ebf3afa402e10c",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-cfc18d0537dcfdf7",
+        "targetEvidenceIds": [
+          "cm-text-use-c0ebf3afa402e10c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "njangsang",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Douala",
+      "community": "Douala",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-84c8777b1a53dea9",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-6bb7c261adbcb1d7",
+        "targetEvidenceIds": [
+          "cm-text-use-84c8777b1a53dea9-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "oryok",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Ejagham",
+      "community": "Ejagham",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-b9e840ed4a4358d9",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-f1008a842e155d7c",
+        "targetEvidenceIds": [
+          "cm-text-use-b9e840ed4a4358d9-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "essessang",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Ewondo",
+      "community": "Ewondo",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-991de31eaccb1767",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-279a6a6da54b57fd",
+        "targetEvidenceIds": [
+          "cm-text-use-991de31eaccb1767-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "essessang",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Fang",
+      "community": "Fang",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-6d84f04c1871d085",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-a34349f7cb970025",
+        "targetEvidenceIds": [
+          "cm-text-use-6d84f04c1871d085-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "nzonell",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Ngoumba",
+      "community": "Ngoumba",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-c394f7837f55fe69",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-192f54f3440951c5",
+        "targetEvidenceIds": [
+          "cm-text-use-c394f7837f55fe69-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ricino",
+      "label": "Ricinodendron — arbre à njangsang",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "organism",
+      "name": "gobre",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Baka",
+      "community": "Baka",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ricino — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés.",
+      "id": "cm-text-use-192a703aeae1ec71",
+      "integration": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-652e06c92c7d6bac",
+        "targetEvidenceIds": [
+          "cm-text-use-192a703aeae1ec71-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-njangsa-seeds",
+      "label": "Graines de njangsa",
+      "categories": "Épices et condiments",
+      "scientificName": "Ricinodendron heudelotii",
+      "referent": "edible_part / graines / séchées",
+      "name": "njangsang",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-njangsa-bamenda — Common names",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Variante relevée dans la liste anglaise de l’article; pas de région inférée.",
+      "description": "Graines achetées au marché de Bamenda dans l’étude citée; pas de nom attribué à toute la région.",
+      "id": "cm-text-use-aa935051ac2deabc",
+      "integration": {
+        "productId": "product-njansang",
+        "slug": "njansang",
+        "action": "enriched",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "edible_part",
+        "targetNameId": "cm-corpus-name-e2af3f004e79237e",
+        "targetEvidenceIds": [
+          "cm-text-use-aa935051ac2deabc-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "sas",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakoko",
+      "community": "Bakoko",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-d2ab9539075f3c4a",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-dfba9ea0d4a98f85",
+        "targetEvidenceIds": [
+          "cm-text-use-d2ab9539075f3c4a-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "sao",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakwéri",
+      "community": "Bakwéri",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-1f7d43753297c594",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-dfc0bbcc0d8b870a",
+        "targetEvidenceIds": [
+          "cm-text-use-1f7d43753297c594-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "wom",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bamoun",
+      "community": "Bamoun",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-2640be2cc5dd71aa",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-01a561edf0ddb2d8",
+        "targetEvidenceIds": [
+          "cm-text-use-2640be2cc5dd71aa-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "sah",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bassa",
+      "community": "Bassa",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-fa7caa2b1150697b",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-6aec4294a7637ba8",
+        "targetEvidenceIds": [
+          "cm-text-use-fa7caa2b1150697b-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "asa",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Boulou",
+      "community": "Boulou",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-484f6669ad064726",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-9488f8aab8d4ace2",
+        "targetEvidenceIds": [
+          "cm-text-use-484f6669ad064726-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "assas",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Boulou",
+      "community": "Boulou",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-eb996b1e8ff57c2b",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-8d4011d5635f8db2",
+        "targetEvidenceIds": [
+          "cm-text-use-eb996b1e8ff57c2b-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "sao",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Douala",
+      "community": "Douala",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-9d8270f4e9331686",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-487f14fa6554d6d1",
+        "targetEvidenceIds": [
+          "cm-text-use-9d8270f4e9331686-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "assa",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Ewondo",
+      "community": "Ewondo",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-55ce908153c54d28",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-a990e95f8fa8fe49",
+        "targetEvidenceIds": [
+          "cm-text-use-55ce908153c54d28-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "odou",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Fang",
+      "community": "Fang",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-21bab868347ab044",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-ae5f7131946663cc",
+        "targetEvidenceIds": [
+          "cm-text-use-21bab868347ab044-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "sèné",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Baka",
+      "community": "Baka",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-b6c5857d26b71940",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-11562c8c282925c9",
+        "targetEvidenceIds": [
+          "cm-text-use-b6c5857d26b71940-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "Safoutier",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-dacryodes — Noms communs",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-ef615e31d4a48c36",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-d9ba7148579b25d5",
+        "targetEvidenceIds": [
+          "cm-text-use-ef615e31d4a48c36-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "prunier d’Afrique",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-dacryodes — Noms communs",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-6da85c547a3b6149",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-a36f2a2566a74f64",
+        "targetEvidenceIds": [
+          "cm-text-use-6da85c547a3b6149-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "shoue",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "Bamiléké",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Étiquette de communauté ou de localité dans l’ouvrage; langue exacte non déterminée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-c6a5bf013ae82e1a",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-c83bd1ddfca6aa4b",
+        "targetEvidenceIds": [
+          "cm-text-use-c6a5bf013ae82e1a-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "tso",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "Bamiléké",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Étiquette de communauté ou de localité dans l’ouvrage; langue exacte non déterminée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-00f2d56e9c9a14e4",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-096504830a6ec65e",
+        "targetEvidenceIds": [
+          "cm-text-use-00f2d56e9c9a14e4-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-dacryodes",
+      "label": "Safoutier — prunier d’Afrique",
+      "categories": "Fruits",
+      "scientificName": "Dacryodes edulis",
+      "referent": "organism",
+      "name": "ekiep",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "Dschang",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-dacryodes — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Étiquette de communauté ou de localité dans l’ouvrage; langue exacte non déterminée.",
+      "description": "Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen.",
+      "id": "cm-text-use-cc047a0a1c646143",
+      "integration": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-8b3d0cb083efdbd7",
+        "targetEvidenceIds": [
+          "cm-text-use-cc047a0a1c646143-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "avia",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakoko",
+      "community": "Bakoko",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-d65a336a05fe8fe2",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-5c851932d1f07c3e",
+        "targetEvidenceIds": [
+          "cm-text-use-d65a336a05fe8fe2-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "ndoka",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakoko",
+      "community": "Bakoko",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-fb0bb1e83c9f0307",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-fed43ccb636d1623",
+        "targetEvidenceIds": [
+          "cm-text-use-fb0bb1e83c9f0307-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "etou",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakossi",
+      "community": "Bakossi",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-a3cd0cf2b742e668",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-6e43ba917591c840",
+        "targetEvidenceIds": [
+          "cm-text-use-a3cd0cf2b742e668-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "bwiwa",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakwéri",
+      "community": "Bakwéri",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-091246ef25dcfd96",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-12db5ed7f1eaffa5",
+        "targetEvidenceIds": [
+          "cm-text-use-091246ef25dcfd96-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "wiba",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bassa",
+      "community": "Bassa",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-a8e298661ec491ae",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-90e83f5681ca0b20",
+        "targetEvidenceIds": [
+          "cm-text-use-a8e298661ec491ae-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "ando’o",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Boulou",
+      "community": "Boulou",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-866c92d4701a6260",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-04caf5eb321916e3",
+        "targetEvidenceIds": [
+          "cm-text-use-866c92d4701a6260-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "bwiba",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Douala",
+      "community": "Douala",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-5f2b74cfd413f9b8",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-518d7c5eabcfccf9",
+        "targetEvidenceIds": [
+          "cm-text-use-5f2b74cfd413f9b8-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "bambale",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Douala",
+      "community": "Douala",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-bf9fc0226074f88b",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-a1d30e96a2cf3835",
+        "targetEvidenceIds": [
+          "cm-text-use-bf9fc0226074f88b-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "nsen",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Ejagham",
+      "community": "Ejagham",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-e0f67f1b1d38da5e",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-d0a58cd10d98d571",
+        "targetEvidenceIds": [
+          "cm-text-use-e0f67f1b1d38da5e-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "andok",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Ewondo",
+      "community": "Ewondo",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-bd97ab265b423f3c",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-e96c391c4ce9ba66",
+        "targetEvidenceIds": [
+          "cm-text-use-bd97ab265b423f3c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "andok",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Fang",
+      "community": "Fang",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-2e7a61fe5923ddac",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-822fb244142bcac7",
+        "targetEvidenceIds": [
+          "cm-text-use-2e7a61fe5923ddac-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "pekié",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Baka",
+      "community": "Baka",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-f80cc7d54339e021",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-98fdd2800602d4f1",
+        "targetEvidenceIds": [
+          "cm-text-use-f80cc7d54339e021-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "ndok",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Vouté",
+      "community": "Vouté",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-irvingia — Noms locaux",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-0f22a42b7a9a563f",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-37102f406308a4f0",
+        "targetEvidenceIds": [
+          "cm-text-use-0f22a42b7a9a563f-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "mangue sauvage",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-irvingia — Noms communs",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-aadfbb771e532b8c",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-cb33e672b74fa1b8",
+        "targetEvidenceIds": [
+          "cm-text-use-aadfbb771e532b8c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-irvingia",
+      "label": "Irvingia — mangue sauvage",
+      "categories": "Fruits, Épices et condiments",
+      "scientificName": "Irvingia gabonensis",
+      "referent": "organism",
+      "name": "bush mango",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-irvingia — Noms communs",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aucune extension à une région non documentée.",
+      "description": "Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification.",
+      "id": "cm-text-use-5230f7490480f647",
+      "integration": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-b9e1c25b07618e8c",
+        "targetEvidenceIds": [
+          "cm-text-use-5230f7490480f647-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-tilapia",
+      "label": "Tilapia du Nil",
+      "categories": "Poissons",
+      "scientificName": "Oreochromis niloticus",
+      "referent": "organism",
+      "name": "tilapia",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-61cd8a6ac908d65e",
+      "integration": {
+        "productId": "product-tilapia-nil",
+        "slug": "tilapia-nil",
+        "action": "enriched",
+        "originalScientificName": "Oreochromis niloticus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-d7b1d33b6de6c957",
+        "targetEvidenceIds": [
+          "cm-text-use-61cd8a6ac908d65e-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-tilapia",
+      "label": "Tilapia du Nil",
+      "categories": "Poissons",
+      "scientificName": "Oreochromis niloticus",
+      "referent": "organism",
+      "name": "Nile tilapia",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-7b2333d24793d944",
+      "integration": {
+        "productId": "product-tilapia-nil",
+        "slug": "tilapia-nil",
+        "action": "enriched",
+        "originalScientificName": "Oreochromis niloticus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-9207b06aa18931df",
+        "targetEvidenceIds": [
+          "cm-text-use-7b2333d24793d944-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-clarias",
+      "label": "Silure Clarias",
+      "categories": "Poissons",
+      "scientificName": "Clarias gariepinus",
+      "referent": "organism",
+      "name": "silure",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-4450bcf44442edb9",
+      "integration": {
+        "productId": "product-silure-clarias",
+        "slug": "silure-clarias",
+        "action": "added",
+        "originalScientificName": "Clarias gariepinus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-a931cbd758ec07b7",
+        "targetEvidenceIds": [
+          "cm-text-use-4450bcf44442edb9-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-clarias",
+      "label": "Silure Clarias",
+      "categories": "Poissons",
+      "scientificName": "Clarias gariepinus",
+      "referent": "organism",
+      "name": "ngouot",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-76204e18f370c3ab",
+      "integration": {
+        "productId": "product-silure-clarias",
+        "slug": "silure-clarias",
+        "action": "added",
+        "originalScientificName": "Clarias gariepinus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-4f8e73c5779d25e8",
+        "targetEvidenceIds": [
+          "cm-text-use-76204e18f370c3ab-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-clarias",
+      "label": "Silure Clarias",
+      "categories": "Poissons",
+      "scientificName": "Clarias gariepinus",
+      "referent": "organism",
+      "name": "African catfish",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-47cbd44df5ef002a",
+      "integration": {
+        "productId": "product-silure-clarias",
+        "slug": "silure-clarias",
+        "action": "added",
+        "originalScientificName": "Clarias gariepinus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-124d227b09a9d831",
+        "targetEvidenceIds": [
+          "cm-text-use-47cbd44df5ef002a-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-heterobranchus",
+      "label": "Silure Heterobranchus",
+      "categories": "Poissons",
+      "scientificName": "Heterobranchus longifilis",
+      "referent": "organism",
+      "name": "silure",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-236c065f02885a51",
+      "integration": {
+        "productId": "product-silure-heterobranchus",
+        "slug": "silure-heterobranchus",
+        "action": "added",
+        "originalScientificName": "Heterobranchus longifilis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-be3a6868dedc804c",
+        "targetEvidenceIds": [
+          "cm-text-use-236c065f02885a51-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-heterobranchus",
+      "label": "Silure Heterobranchus",
+      "categories": "Poissons",
+      "scientificName": "Heterobranchus longifilis",
+      "referent": "organism",
+      "name": "djounkeu",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-5d931397d2462df8",
+      "integration": {
+        "productId": "product-silure-heterobranchus",
+        "slug": "silure-heterobranchus",
+        "action": "added",
+        "originalScientificName": "Heterobranchus longifilis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-079c051a9a628ce7",
+        "targetEvidenceIds": [
+          "cm-text-use-5d931397d2462df8-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-heterobranchus",
+      "label": "Silure Heterobranchus",
+      "categories": "Poissons",
+      "scientificName": "Heterobranchus longifilis",
+      "referent": "organism",
+      "name": "African catfish",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-b361ab99c16019f7",
+      "integration": {
+        "productId": "product-silure-heterobranchus",
+        "slug": "silure-heterobranchus",
+        "action": "added",
+        "originalScientificName": "Heterobranchus longifilis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-8593f454d97a410d",
+        "targetEvidenceIds": [
+          "cm-text-use-b361ab99c16019f7-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-carp",
+      "label": "Carpe commune",
+      "categories": "Poissons",
+      "scientificName": "Cyprinus carpio",
+      "referent": "organism",
+      "name": "carp",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-3bc0798445396135",
+      "integration": {
+        "productId": "product-carpe-commune",
+        "slug": "carpe-commune",
+        "action": "added",
+        "originalScientificName": "Cyprinus carpio",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-e19a4fdd85459e44",
+        "targetEvidenceIds": [
+          "cm-text-use-3bc0798445396135-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-carp",
+      "label": "Carpe commune",
+      "categories": "Poissons",
+      "scientificName": "Cyprinus carpio",
+      "referent": "organism",
+      "name": "common carp",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-0deb4cad01798c99",
+      "integration": {
+        "productId": "product-carpe-commune",
+        "slug": "carpe-commune",
+        "action": "added",
+        "originalScientificName": "Cyprinus carpio",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-71f4d2a0f87af1d9",
+        "targetEvidenceIds": [
+          "cm-text-use-0deb4cad01798c99-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-heterotis",
+      "label": "Kanga",
+      "categories": "Poissons",
+      "scientificName": "Heterotis niloticus",
+      "referent": "organism",
+      "name": "kanga",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-ece9150dbe51619e",
+      "integration": {
+        "productId": "product-kanga",
+        "slug": "kanga",
+        "action": "added",
+        "originalScientificName": "Heterotis niloticus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-0331c98fef538671",
+        "targetEvidenceIds": [
+          "cm-text-use-ece9150dbe51619e-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-heterotis",
+      "label": "Kanga",
+      "categories": "Poissons",
+      "scientificName": "Heterotis niloticus",
+      "referent": "organism",
+      "name": "African bonytongue",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-024dfc0a608e88a8",
+      "integration": {
+        "productId": "product-kanga",
+        "slug": "kanga",
+        "action": "added",
+        "originalScientificName": "Heterotis niloticus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-42967a37a41c9fd9",
+        "targetEvidenceIds": [
+          "cm-text-use-024dfc0a608e88a8-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-hemichromis",
+      "label": "Poisson panthère",
+      "categories": "Poissons",
+      "scientificName": "Hemichromis fasciatus",
+      "referent": "organism",
+      "name": "panther fish",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-b90db52e5c996e40",
+      "integration": {
+        "productId": "product-poisson-panthere",
+        "slug": "poisson-panthere",
+        "action": "added",
+        "originalScientificName": "Hemichromis fasciatus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-4e213ee46eb145c6",
+        "targetEvidenceIds": [
+          "cm-text-use-b90db52e5c996e40-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-hemichromis",
+      "label": "Poisson panthère",
+      "categories": "Poissons",
+      "scientificName": "Hemichromis fasciatus",
+      "referent": "organism",
+      "name": "banded jewel fish",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-e2bd1451cf7ce3c5",
+      "integration": {
+        "productId": "product-poisson-panthere",
+        "slug": "poisson-panthere",
+        "action": "added",
+        "originalScientificName": "Hemichromis fasciatus",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-470681c16562c8af",
+        "targetEvidenceIds": [
+          "cm-text-use-e2bd1451cf7ce3c5-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-parachanna",
+      "label": "Poisson vipère",
+      "categories": "Poissons",
+      "scientificName": "Parachanna obscura",
+      "referent": "organism",
+      "name": "viper fish",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-4bfc763929f1a665",
+      "integration": {
+        "productId": "product-poisson-vipere",
+        "slug": "poisson-vipere",
+        "action": "added",
+        "originalScientificName": "Parachanna obscura",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-3131676c7e804cf3",
+        "targetEvidenceIds": [
+          "cm-text-use-4bfc763929f1a665-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-parachanna",
+      "label": "Poisson vipère",
+      "categories": "Poissons",
+      "scientificName": "Parachanna obscura",
+      "referent": "organism",
+      "name": "snakehead",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-e1d819f416866d7c",
+      "integration": {
+        "productId": "product-poisson-vipere",
+        "slug": "poisson-vipere",
+        "action": "added",
+        "originalScientificName": "Parachanna obscura",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-4707914cdf1671c8",
+        "targetEvidenceIds": [
+          "cm-text-use-e1d819f416866d7c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-sardinella",
+      "label": "Bifaka",
+      "categories": "Poissons",
+      "scientificName": "Sardinella madarensis",
+      "referent": "organism",
+      "name": "bifaka",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-439bb4098c548a41",
+      "integration": {
+        "productId": "product-sardinelle-plate",
+        "slug": "sardinelle-plate",
+        "action": "enriched",
+        "originalScientificName": "Sardinella madarensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-e5fe38c2e41bb241",
+        "targetEvidenceIds": [
+          "cm-text-use-439bb4098c548a41-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-sardinella",
+      "label": "Bifaka",
+      "categories": "Poissons",
+      "scientificName": "Sardinella madarensis",
+      "referent": "organism",
+      "name": "Madeiran sardinella",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-c51ad3849ebd6ddf",
+      "integration": {
+        "productId": "product-sardinelle-plate",
+        "slug": "sardinelle-plate",
+        "action": "enriched",
+        "originalScientificName": "Sardinella madarensis",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-42227d119d874d93",
+        "targetEvidenceIds": [
+          "cm-text-use-c51ad3849ebd6ddf-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-cod",
+      "label": "Morue — makanjou",
+      "categories": "Poissons",
+      "scientificName": "Gadus morhua",
+      "referent": "organism",
+      "name": "makanjou",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56 (PDF p. 67), colonne Local name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom commercial; région et langue non précisées.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-cc9d6480c2f1cb5c",
+      "integration": {
+        "productId": "product-morue",
+        "slug": "morue",
+        "action": "added",
+        "originalScientificName": "Gadus morhua",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-f169aa97c9976e1d",
+        "targetEvidenceIds": [
+          "cm-text-use-cc9d6480c2f1cb5c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-cod",
+      "label": "Morue — makanjou",
+      "categories": "Poissons",
+      "scientificName": "Gadus morhua",
+      "referent": "organism",
+      "name": "Atlantic cod",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56, Common English name",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais de référence; pas une attestation dans chaque région.",
+      "description": "Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale.",
+      "id": "cm-text-use-0179a9c3be1ae4cf",
+      "integration": {
+        "productId": "product-morue",
+        "slug": "morue",
+        "action": "added",
+        "originalScientificName": "Gadus morhua",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-f833b25e3b93659c",
+        "targetEvidenceIds": [
+          "cm-text-use-0179a9c3be1ae4cf-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-mackerel",
+      "label": "Maquereaux — groupe commercial",
+      "categories": "Poissons",
+      "scientificName": "Scomber scombrus; Scomber japonicus",
+      "referent": "commercial_group",
+      "name": "maquereau",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Identification commerciale ou au genre; noms taxonomiques de la source non actualisés.",
+      "description": "Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce.",
+      "id": "cm-text-use-601f8b946430882c",
+      "integration": {
+        "productId": "product-maquereaux-groupe",
+        "slug": "maquereaux-groupe",
+        "action": "added",
+        "originalScientificName": "Scomber scombrus; Scomber japonicus",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-f477af0d73f3c715",
+        "targetEvidenceIds": [
+          "cm-text-use-601f8b946430882c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-croaker",
+      "label": "Courbines — groupe commercial",
+      "categories": "Poissons",
+      "scientificName": "Pseudotolithus spp.",
+      "referent": "commercial_group",
+      "name": "bar",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Identification commerciale ou au genre; noms taxonomiques de la source non actualisés.",
+      "description": "Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce.",
+      "id": "cm-text-use-b3c96e66ed23e8c9",
+      "integration": {
+        "productId": "product-courbines-groupe",
+        "slug": "courbines-groupe",
+        "action": "added",
+        "originalScientificName": "Pseudotolithus spp.",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-d25e55971b52272f",
+        "targetEvidenceIds": [
+          "cm-text-use-b3c96e66ed23e8c9-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-croaker",
+      "label": "Courbines — groupe commercial",
+      "categories": "Poissons",
+      "scientificName": "Pseudotolithus spp.",
+      "referent": "commercial_group",
+      "name": "bossu",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Identification commerciale ou au genre; noms taxonomiques de la source non actualisés.",
+      "description": "Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce.",
+      "id": "cm-text-use-52ca4dbb089437b5",
+      "integration": {
+        "productId": "product-courbines-groupe",
+        "slug": "courbines-groupe",
+        "action": "added",
+        "originalScientificName": "Pseudotolithus spp.",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-05b28221f583debd",
+        "targetEvidenceIds": [
+          "cm-text-use-52ca4dbb089437b5-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-fish-barbus",
+      "label": "Barbus — identification au genre",
+      "categories": "Poissons",
+      "scientificName": "Barbus sp.",
+      "referent": "commercial_group",
+      "name": "gougeon",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-worldfish — Annexe 4, p. 56",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Identification commerciale ou au genre; noms taxonomiques de la source non actualisés.",
+      "description": "Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce.",
+      "id": "cm-text-use-8255065087caad3c",
+      "integration": {
+        "productId": "product-barbus-groupe",
+        "slug": "barbus-groupe",
+        "action": "added",
+        "originalScientificName": "Barbus sp.",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-c25a8e535970ca88",
+        "targetEvidenceIds": [
+          "cm-text-use-8255065087caad3c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-gnetum-leaves",
+      "label": "Feuilles de Gnetum — groupe alimentaire",
+      "categories": "Légumes",
+      "scientificName": "Gnetum africanum; Gnetum bucholzianum",
+      "referent": "commercial_group / feuilles",
+      "name": "Okok",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-gnetum — Titre et présentation",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "La fiche atteste ces noms au Cameroun sans localiser précisément chaque appellation; noms aussi employés pour des plats.",
+      "description": "Groupe alimentaire pouvant couvrir deux espèces; le nom seul ne tranche pas leur identification.",
+      "id": "cm-text-use-3d47774a02e29c20",
+      "integration": {
+        "productId": "product-eru",
+        "slug": "eru",
+        "action": "enriched",
+        "originalScientificName": "Gnetum africanum; Gnetum bucholzianum",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-f58d7683a438c684",
+        "targetEvidenceIds": [
+          "cm-text-use-3d47774a02e29c20-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-gnetum-leaves",
+      "label": "Feuilles de Gnetum — groupe alimentaire",
+      "categories": "Légumes",
+      "scientificName": "Gnetum africanum; Gnetum bucholzianum",
+      "referent": "commercial_group / feuilles",
+      "name": "Eru",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-gnetum — Titre et présentation",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "La fiche atteste ces noms au Cameroun sans localiser précisément chaque appellation; noms aussi employés pour des plats.",
+      "description": "Groupe alimentaire pouvant couvrir deux espèces; le nom seul ne tranche pas leur identification.",
+      "id": "cm-text-use-a84d3803a48a69db",
+      "integration": {
+        "productId": "product-eru",
+        "slug": "eru",
+        "action": "enriched",
+        "originalScientificName": "Gnetum africanum; Gnetum bucholzianum",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-2e85fd12efc1f5b9",
+        "targetEvidenceIds": [
+          "cm-text-use-a84d3803a48a69db-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-maize",
+      "label": "Maïs",
+      "categories": "Céréales",
+      "scientificName": "Zea mays",
+      "referent": "organism",
+      "name": "Maïs",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-cemac — Table des matières et chapitre de la culture",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Référence française CEMAC; usage régional non démontré.",
+      "description": "Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.",
+      "id": "cm-text-use-6566829afb0555b0",
+      "integration": {
+        "productId": "product-mais-plante",
+        "slug": "mais-plante",
+        "action": "added",
+        "originalScientificName": "Zea mays",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-ec83a5b39384ddf1",
+        "targetEvidenceIds": [
+          "cm-text-use-6566829afb0555b0-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-cassava",
+      "label": "Manioc",
+      "categories": "Racines et tubercules",
+      "scientificName": "Manihot esculenta",
+      "referent": "organism",
+      "name": "Manioc",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-cemac — Table des matières et chapitre de la culture",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Référence française CEMAC; usage régional non démontré.",
+      "description": "Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.",
+      "id": "cm-text-use-f3eeb083eda1a123",
+      "integration": {
+        "productId": "product-manioc",
+        "slug": "manioc",
+        "action": "enriched",
+        "originalScientificName": "Manihot esculenta",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-cc01bb0d0f0d82b1",
+        "targetEvidenceIds": [
+          "cm-text-use-f3eeb083eda1a123-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-onion",
+      "label": "Oignon",
+      "categories": "Légumes",
+      "scientificName": "Allium cepa",
+      "referent": "organism",
+      "name": "Oignon",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-cemac — Table des matières et chapitre de la culture",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Référence française CEMAC; usage régional non démontré.",
+      "description": "Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.",
+      "id": "cm-text-use-ecbc3b83e9ba720d",
+      "integration": {
+        "productId": "product-oignon",
+        "slug": "oignon",
+        "action": "enriched",
+        "originalScientificName": "Allium cepa",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-25af3cc6ff12a3dc",
+        "targetEvidenceIds": [
+          "cm-text-use-ecbc3b83e9ba720d-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-yam",
+      "label": "Igname",
+      "categories": "Racines et tubercules",
+      "scientificName": "Dioscorea sp.",
+      "referent": "commercial_group",
+      "name": "Igname",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-cemac — Table des matières et chapitre de la culture",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Référence française CEMAC; usage régional non démontré.",
+      "description": "Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.",
+      "id": "cm-text-use-9578cf453f3b585c",
+      "integration": {
+        "productId": "product-ignames-groupe",
+        "slug": "ignames-groupe",
+        "action": "added",
+        "originalScientificName": "Dioscorea sp.",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-94be6396e9f050ab",
+        "targetEvidenceIds": [
+          "cm-text-use-9578cf453f3b585c-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-sweetpotato",
+      "label": "Patate douce",
+      "categories": "Racines et tubercules",
+      "scientificName": "Ipomea batatas",
+      "referent": "organism",
+      "name": "Patate douce",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-cemac — Table des matières et chapitre de la culture",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Référence française CEMAC; usage régional non démontré.",
+      "description": "Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.",
+      "id": "cm-text-use-4f3e127f4f411173",
+      "integration": {
+        "productId": "product-patate-douce",
+        "slug": "patate-douce",
+        "action": "enriched",
+        "originalScientificName": "Ipomea batatas",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-0465dd846f545e31",
+        "targetEvidenceIds": [
+          "cm-text-use-4f3e127f4f411173-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-potato",
+      "label": "Pomme de terre",
+      "categories": "Racines et tubercules",
+      "scientificName": "Solanum tuberosum",
+      "referent": "organism",
+      "name": "Pomme de terre",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-cemac — Table des matières et chapitre de la culture",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Référence française CEMAC; usage régional non démontré.",
+      "description": "Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.",
+      "id": "cm-text-use-d8ab761f804aa28a",
+      "integration": {
+        "productId": "product-pomme-de-terre",
+        "slug": "pomme-de-terre",
+        "action": "added",
+        "originalScientificName": "Solanum tuberosum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-54790938899b2ae2",
+        "targetEvidenceIds": [
+          "cm-text-use-d8ab761f804aa28a-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-plantain",
+      "label": "Bananes plantains et autres bananes à cuire",
+      "categories": "Fruits",
+      "scientificName": "Musa sp.",
+      "referent": "commercial_group",
+      "name": "Bananes plantains et autres bananes à cuire",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-cemac — Table des matières et chapitre de la culture",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Référence française CEMAC; usage régional non démontré.",
+      "description": "Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.",
+      "id": "cm-text-use-d39be9629b880447",
+      "integration": {
+        "productId": "product-bananes-a-cuire",
+        "slug": "bananes-a-cuire",
+        "action": "added",
+        "originalScientificName": "Musa sp.",
+        "documentaryScope": "commercial_group",
+        "targetNameId": "cm-corpus-name-81ee7158fabaf1c5",
+        "targetEvidenceIds": [
+          "cm-text-use-d39be9629b880447-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-cowpea",
+      "label": "Niébé",
+      "categories": "Légumineuses",
+      "scientificName": "Vigna unguiculata",
+      "referent": "organism",
+      "name": "Niébé",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-cemac — Table des matières et chapitre de la culture",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Référence française CEMAC; usage régional non démontré.",
+      "description": "Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale.",
+      "id": "cm-text-use-d7265f4fe220bbae",
+      "integration": {
+        "productId": "product-niebe",
+        "slug": "niebe",
+        "action": "enriched",
+        "originalScientificName": "Vigna unguiculata",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-1cd2ebdecac172ec",
+        "targetEvidenceIds": [
+          "cm-text-use-d7265f4fe220bbae-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Ndali",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakundou",
+      "community": "Bakundou",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-b74bb8b44a466c59",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-4d833adffafb9735",
+        "targetEvidenceIds": [
+          "cm-text-use-b74bb8b44a466c59-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Lisepo",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakundou",
+      "community": "Bakundou",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-b54ef3fa84596bf9",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-57f796d03a713b90",
+        "targetEvidenceIds": [
+          "cm-text-use-b54ef3fa84596bf9-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Messep",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Ewondo",
+      "community": "Ewondo",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-5104938fce3bc65a",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-1a1539349d59208d",
+        "targetEvidenceIds": [
+          "cm-text-use-5104938fce3bc65a-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Masebi",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bassa",
+      "community": "Bassa",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-dd9398f632eef7b0",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-db02a8aad633adcd",
+        "targetEvidenceIds": [
+          "cm-text-use-dd9398f632eef7b0-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Ose-mo-se",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bakossi",
+      "community": "Bakossi",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-3d450293f1e0ab59",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-029e3abb61bc5a50",
+        "targetEvidenceIds": [
+          "cm-text-use-3d450293f1e0ab59-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Nkuwri",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Bangwa",
+      "community": "Bangwa",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-e8727675c3cae7b2",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-5e4de3d192b53744",
+        "targetEvidenceIds": [
+          "cm-text-use-e8727675c3cae7b2-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Mahepo",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Douala",
+      "community": "Douala",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-c168c436f8a53106",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-c2d13032e3d2e9ac",
+        "targetEvidenceIds": [
+          "cm-text-use-c168c436f8a53106-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Ndoundo",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Baya",
+      "community": "Baya",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-96a66b6cda558aa7",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-c36199c6757c6011",
+        "targetEvidenceIds": [
+          "cm-text-use-96a66b6cda558aa7-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Ossim",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Boulou",
+      "community": "Boulou",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom de plante documenté en contexte ethnomédical; ne prouve pas son usage culinaire dans toute la communauté.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-918429a0ada463dc",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-b6b4b1eba0fd44e9",
+        "targetEvidenceIds": [
+          "cm-text-use-918429a0ada463dc-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "Tchâm",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "Medumba-Ndé",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "language_community",
+      "status": "verified",
+      "references": "src-ocimum — p. 7, item 57",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Étiquette linguistique/géographique de la source; code linguistique non établi.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-6fa63f406bac9a8e",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-bc6680d6832dfe9a",
+        "targetEvidenceIds": [
+          "cm-text-use-6fa63f406bac9a8e-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "messep",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-wipo — p. 12, Ndomba",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Le rapport dit basilic tropical sans donner le taxon; identification soutenue séparément par l’item 57 de src-ocimum.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-81b94de78fdcc683",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-fed0a7d715083ad7",
+        "targetEvidenceIds": [
+          "cm-text-use-81b94de78fdcc683-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-ocimum",
+      "label": "Basilic tropical — Ocimum gratissimum",
+      "categories": "Herbes et plantes aromatiques, Épices et condiments",
+      "scientificName": "Ocimum gratissimum",
+      "referent": "organism",
+      "name": "basilic tropical",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-wipo — p. 12, Ndomba",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Désignation culinaire générique; identification biologique établie par une autre source, à ne pas généraliser à tous les basilics.",
+      "description": "Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé.",
+      "id": "cm-text-use-130ce65ee855bae1",
+      "integration": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-6eb96e514952f291",
+        "targetEvidenceIds": [
+          "cm-text-use-130ce65ee855bae1-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-njama-leaves",
+      "label": "Feuilles de Solanum scabrum",
+      "categories": "Légumes",
+      "scientificName": "Solanum scabrum",
+      "referent": "edible_part / feuilles",
+      "name": "huckleberry",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Anglais",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "sans objet",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "country",
+      "status": "verified",
+      "references": "src-njama — Titre et introduction",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Nom anglais ambigu hors contexte; résultat accompagné de son taxon et de la partie feuilles.",
+      "description": "Légume-feuille identifié dans l’étude de Nkwen; ne pas confondre avec les baies de Vaccinium également appelées huckleberries.",
+      "id": "cm-text-use-71edd3703b715adc",
+      "integration": {
+        "productId": "product-njama-njama",
+        "slug": "njama-njama",
+        "action": "added",
+        "originalScientificName": "Solanum scabrum",
+        "documentaryScope": "edible_part",
+        "targetNameId": "cm-corpus-name-019aecc7a04093e4",
+        "targetEvidenceIds": [
+          "cm-text-use-71edd3703b715adc-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-hibiscus",
+      "label": "Oseille de Guinée — plante",
+      "categories": "Légumes",
+      "scientificName": "Hibiscus sabdariffa",
+      "referent": "organism",
+      "name": "Folere",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442, item 14",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Attestation historique de 1954; pas de correspondance automatique avec une région actuelle.",
+      "description": "Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson.",
+      "id": "cm-text-use-5dd6dbd2b3dae6e7",
+      "integration": {
+        "productId": "product-hibiscus-plante",
+        "slug": "hibiscus-plante",
+        "action": "added",
+        "originalScientificName": "Hibiscus sabdariffa",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-8dbd58329882b048",
+        "targetEvidenceIds": [
+          "cm-text-use-5dd6dbd2b3dae6e7-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-hibiscus",
+      "label": "Oseille de Guinée — plante",
+      "categories": "Légumes",
+      "scientificName": "Hibiscus sabdariffa",
+      "referent": "organism",
+      "name": "Oseille de Guinée",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442, item 14",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Attestation historique de 1954; pas de correspondance automatique avec une région actuelle.",
+      "description": "Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson.",
+      "id": "cm-text-use-1680df0fbeff9988",
+      "integration": {
+        "productId": "product-hibiscus-plante",
+        "slug": "hibiscus-plante",
+        "action": "added",
+        "originalScientificName": "Hibiscus sabdariffa",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-5c824734a2399649",
+        "targetEvidenceIds": [
+          "cm-text-use-1680df0fbeff9988-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-hibiscus",
+      "label": "Oseille de Guinée — plante",
+      "categories": "Légumes",
+      "scientificName": "Hibiscus sabdariffa",
+      "referent": "organism",
+      "name": "folere",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Fulfuldé",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-prelude — Référence HM 78 — Malzy 1954",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Source secondaire; aire historique, pas la région Nord actuelle.",
+      "description": "Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson.",
+      "id": "cm-text-use-6712cc10906ccb85",
+      "integration": {
+        "productId": "product-hibiscus-plante",
+        "slug": "hibiscus-plante",
+        "action": "added",
+        "originalScientificName": "Hibiscus sabdariffa",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-086e62b88eeb4d17",
+        "targetEvidenceIds": [
+          "cm-text-use-6712cc10906ccb85-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-hibiscus",
+      "label": "Oseille de Guinée — plante",
+      "categories": "Légumes",
+      "scientificName": "Hibiscus sabdariffa",
+      "referent": "organism",
+      "name": "djelire",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Fulfuldé",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-prelude — Référence HM 78 — Malzy 1954",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Source secondaire; aire historique, pas la région Nord actuelle.",
+      "description": "Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson.",
+      "id": "cm-text-use-122b7097d253a6ea",
+      "integration": {
+        "productId": "product-hibiscus-plante",
+        "slug": "hibiscus-plante",
+        "action": "added",
+        "originalScientificName": "Hibiscus sabdariffa",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-042c25794eb746aa",
+        "targetEvidenceIds": [
+          "cm-text-use-122b7097d253a6ea-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-baobab",
+      "label": "Baobab",
+      "categories": "Fruits",
+      "scientificName": "Adansonia digitata",
+      "referent": "organism",
+      "name": "Baobab",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aire historique; langue et correspondance aux régions actuelles non établies.",
+      "description": "Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.",
+      "id": "cm-text-use-d71594091391d854",
+      "integration": {
+        "productId": "product-baobab-plante",
+        "slug": "baobab-plante",
+        "action": "added",
+        "originalScientificName": "Adansonia digitata",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-3a4cd3accdb0b650",
+        "targetEvidenceIds": [
+          "cm-text-use-d71594091391d854-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-baobab",
+      "label": "Baobab",
+      "categories": "Fruits",
+      "scientificName": "Adansonia digitata",
+      "referent": "organism",
+      "name": "Bokki",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aire historique; langue et correspondance aux régions actuelles non établies.",
+      "description": "Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.",
+      "id": "cm-text-use-34dbc3ada1cab505",
+      "integration": {
+        "productId": "product-baobab-plante",
+        "slug": "baobab-plante",
+        "action": "added",
+        "originalScientificName": "Adansonia digitata",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-5ce4dd3250358d4f",
+        "targetEvidenceIds": [
+          "cm-text-use-34dbc3ada1cab505-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-tamarind",
+      "label": "Tamarinier",
+      "categories": "Fruits",
+      "scientificName": "Tamarindus indica",
+      "referent": "organism",
+      "name": "Tamarinier",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aire historique; langue et correspondance aux régions actuelles non établies.",
+      "description": "Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.",
+      "id": "cm-text-use-cd9859e47fdb01a0",
+      "integration": {
+        "productId": "product-tamarin",
+        "slug": "tamarin",
+        "action": "enriched",
+        "originalScientificName": "Tamarindus indica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-b3d46e043fda6dcc",
+        "targetEvidenceIds": [
+          "cm-text-use-cd9859e47fdb01a0-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-tamarind",
+      "label": "Tamarinier",
+      "categories": "Fruits",
+      "scientificName": "Tamarindus indica",
+      "referent": "organism",
+      "name": "Djabbi",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aire historique; langue et correspondance aux régions actuelles non établies.",
+      "description": "Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.",
+      "id": "cm-text-use-03c3c67be23ef5f2",
+      "integration": {
+        "productId": "product-tamarin",
+        "slug": "tamarin",
+        "action": "enriched",
+        "originalScientificName": "Tamarindus indica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-59c494ca6e7dbf37",
+        "targetEvidenceIds": [
+          "cm-text-use-03c3c67be23ef5f2-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-mango",
+      "label": "Manguier",
+      "categories": "Fruits",
+      "scientificName": "Mangifera indica",
+      "referent": "organism",
+      "name": "Manguier",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aire historique; langue et correspondance aux régions actuelles non établies.",
+      "description": "Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.",
+      "id": "cm-text-use-3b48eadea1ad1557",
+      "integration": {
+        "productId": "product-manguier",
+        "slug": "manguier",
+        "action": "added",
+        "originalScientificName": "Mangifera indica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-52803a32a311e4e4",
+        "targetEvidenceIds": [
+          "cm-text-use-3b48eadea1ad1557-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-mango",
+      "label": "Manguier",
+      "categories": "Fruits",
+      "scientificName": "Mangifera indica",
+      "referent": "organism",
+      "name": "Mangoro",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aire historique; langue et correspondance aux régions actuelles non établies.",
+      "description": "Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.",
+      "id": "cm-text-use-ad8d5915fafc7c6f",
+      "integration": {
+        "productId": "product-manguier",
+        "slug": "manguier",
+        "action": "added",
+        "originalScientificName": "Mangifera indica",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-48c7ed7783b20151",
+        "targetEvidenceIds": [
+          "cm-text-use-ad8d5915fafc7c6f-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-purslane",
+      "label": "Pourpier",
+      "categories": "Légumes",
+      "scientificName": "Portulaca oleracea",
+      "referent": "organism",
+      "name": "Pourpier",
+      "variants": "non documenté dans les sources consultées",
+      "language": "Français",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aire historique; langue et correspondance aux régions actuelles non établies.",
+      "description": "Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.",
+      "id": "cm-text-use-6a389d3c05b68c18",
+      "integration": {
+        "productId": "product-pourpier",
+        "slug": "pourpier",
+        "action": "added",
+        "originalScientificName": "Portulaca oleracea",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-cb19f456c2d24228",
+        "targetEvidenceIds": [
+          "cm-text-use-6a389d3c05b68c18-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    },
+    {
+      "productId": "p-purslane",
+      "label": "Pourpier",
+      "categories": "Légumes",
+      "scientificName": "Portulaca oleracea",
+      "referent": "organism",
+      "name": "Tekku tekkude",
+      "variants": "non documenté dans les sources consultées",
+      "language": "non documenté dans les sources consultées",
+      "community": "non documenté dans les sources consultées",
+      "country": "Cameroun",
+      "regions": "non documenté dans les sources consultées",
+      "historicalArea": "Nord Cameroun (aire historique, 1954)",
+      "locality": "non documenté dans les sources consultées",
+      "scope": "historical_area",
+      "status": "verified",
+      "references": "src-malzy — p. 442",
+      "note": "Correspondance nom-produit documentée.",
+      "limitations": "Aire historique; langue et correspondance aux régions actuelles non établies.",
+      "description": "Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer.",
+      "id": "cm-text-use-429f9cdce30f409b",
+      "integration": {
+        "productId": "product-pourpier",
+        "slug": "pourpier",
+        "action": "added",
+        "originalScientificName": "Portulaca oleracea",
+        "documentaryScope": "organism",
+        "targetNameId": "cm-corpus-name-660f70bc36b90700",
+        "targetEvidenceIds": [
+          "cm-text-use-429f9cdce30f409b-evidence-0"
+        ],
+        "targetRegionIds": []
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-prc",
+      "title": "Présentation du Cameroun",
+      "publisher": "Présidence de la République du Cameroun",
+      "publication": "non documenté dans les sources consultées; consultation: 2026-10-05",
+      "url": "https://www.prc.cm/en/cameroon/presentation",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Utilisé uniquement pour le code CM et les dix régions; autres chiffres non repris."
+    },
+    {
+      "id": "src-ins",
+      "title": "Regional agencies",
+      "publisher": "Institut national de la statistique du Cameroun",
+      "publication": "non documenté dans les sources consultées; consultation: 2026-10-05",
+      "url": "https://ins-cameroun.cm/en/by-the-way/organization/regional-agencies/",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Portée limitée aux informations effectivement consultées."
+    },
+    {
+      "id": "src-worldfish",
+      "title": "Development and Status of Freshwater Aquaculture in Cameroon",
+      "publisher": "Victor Pouomogne; Diemuth E. Pemsl",
+      "publication": "2008; consultation: 2026-10-05",
+      "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2009/3418/pdf/WF_1103.pdf",
+      "license": "Tous droits réservés; reproduction éducative/non lucrative avec attribution; commercial à vérifier",
+      "limitations": "Annexe 4, p. 56, PDF p. 67. Noms commerciaux historiques; absence de région et de langue. Document non évalué par les pairs. Certaines graphies taxonomiques sont anciennes ou erronées."
+    },
+    {
+      "id": "src-monodora",
+      "title": "Monodora myristica — Fruitiers du Cameroun",
+      "publisher": "Eyog Matig O., Ndoye O., Kengue J., Awono A. (éditeurs); IPGRI/CIFOR/IRAD",
+      "publication": "2006; consultation: 2026-10-05",
+      "url": "https://plantuse.plantnet.org/fr/Monodora_myristica_(Fruitiers_du_Cameroun)",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Fiche de l’ouvrage de 2006 reproduite sur Pl@ntUse. Les noms désignent la plante; aucune région administrative déduite des langues. Licence des contenus de l’ouvrage non établie."
+    },
+    {
+      "id": "src-ricino",
+      "title": "Ricinodendron heudelotii — Fruitiers du Cameroun",
+      "publisher": "Eyog Matig O., Ndoye O., Kengue J., Awono A. (éditeurs); IPGRI/CIFOR/IRAD",
+      "publication": "2006; consultation: 2026-10-05",
+      "url": "https://plantuse.plantnet.org/fr/Ricinodendron_heudelotii_(Fruitiers_du_Cameroun)",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Fiche de l’ouvrage de 2006 reproduite sur Pl@ntUse. Les noms désignent la plante; aucune région administrative déduite des langues. Licence des contenus de l’ouvrage non établie."
+    },
+    {
+      "id": "src-dacryodes",
+      "title": "Dacryodes edulis — Fruitiers du Cameroun",
+      "publisher": "Eyog Matig O., Ndoye O., Kengue J., Awono A. (éditeurs); IPGRI/CIFOR/IRAD",
+      "publication": "2006; consultation: 2026-10-05",
+      "url": "https://plantuse.plantnet.org/fr/Dacryodes_edulis_(Fruitiers_du_Cameroun)",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Fiche de l’ouvrage de 2006 reproduite sur Pl@ntUse. Les noms désignent la plante; aucune région administrative déduite des langues. Licence des contenus de l’ouvrage non établie."
+    },
+    {
+      "id": "src-irvingia",
+      "title": "Irvingia gabonensis — Fruitiers du Cameroun",
+      "publisher": "Eyog Matig O., Ndoye O., Kengue J., Awono A. (éditeurs); IPGRI/CIFOR/IRAD",
+      "publication": "2006; consultation: 2026-10-05",
+      "url": "https://plantuse.plantnet.org/fr/Irvingia_gabonensis_(Fruitiers_du_Cameroun)",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Fiche de l’ouvrage de 2006 reproduite sur Pl@ntUse. Les noms désignent la plante; aucune région administrative déduite des langues. Licence des contenus de l’ouvrage non établie."
+    },
+    {
+      "id": "src-gnetum",
+      "title": "Gnetum spp (Okok ou Eru) — fiche technique",
+      "publisher": "CIFOR",
+      "publication": "non documenté dans les sources consultées; consultation: 2026-10-05",
+      "url": "https://www.cifor-icraf.org/publications/pdf_files/factsheet/Gnetum_frc.pdf",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Document non daté dans les pages consultées. Zones de production distinctes de la géographie des noms. Le tableau de recettes comporte une formulation douteuse sur Water Fufu, non reprise."
+    },
+    {
+      "id": "src-gnetum-center",
+      "title": "Gnetum ssp. (Okok) — Photo #35051664214",
+      "publisher": "CIFOR-ICRAF",
+      "publication": "non documenté dans les sources consultées; consultation: 2026-10-05",
+      "url": "https://www.cifor-icraf.org/knowledge/photo/35051664214/",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Attestation ponctuelle à Minwoho, Lékié, Centre. La légende a été consultée via l’index de recherche; aucune image réutilisée."
+    },
+    {
+      "id": "src-malzy",
+      "title": "Aliments crus et masticatoires du Nord Cameroun",
+      "publisher": "Pierre Malzy",
+      "publication": "1954; consultation: 2026-10-05",
+      "url": "https://www.persee.fr/doc/jatba_0021-7662_1954_num_1_10_2181?pageId=T1_442",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Page 442 uniquement. « Nord Cameroun » historique, sans équivalence automatique avec la région Nord actuelle; langue non attribuée depuis ce seul extrait."
+    },
+    {
+      "id": "src-prelude",
+      "title": "Hibiscus sabdariffa — PRELUDE, référence HM 78",
+      "publisher": "Société française d’ethnopharmacologie; référence Pierre Malzy 1954",
+      "publication": "non documenté dans les sources consultées; consultation: 2026-10-05",
+      "url": "https://www.ethnopharmacologia.org/recherche-dans-prelude/?plant_id=3172",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Synthèse secondaire de Malzy. Mauvaises étiquettes géographiques possibles; seule la référence HM 78 est utilisée. Aucun conseil médical repris."
+    },
+    {
+      "id": "src-folere",
+      "title": "Influence of manufacturing process on the microbiological quality of folere beverage sold in Maroua, Mokolo and Mora",
+      "publisher": "James Ronald Bayoï et al.",
+      "publication": "2014; consultation: 2026-10-05",
+      "url": "https://ijias.issr-journals.org/abstract.php?article=IJIAS-14-256-07",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Titre et référence p. 786–796 consultés. Preuve du nom de la boisson dans ces trois localités; recette détaillée non récupérée."
+    },
+    {
+      "id": "src-cemac",
+      "title": "Catalogue des espèces et variétés de cultures vivrières d’intérêt communautaire dans l’espace CEMAC",
+      "publisher": "CEMAC/PRASAC; concours technique et financier FAO",
+      "publication": "non documenté dans les sources consultées; consultation: 2026-10-05",
+      "url": "https://www.fao.org/fileadmin/templates/agphome/documents/PGR/news/CEMAC_CATALOGUE__Web_Version_.pdf",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Correspondances françaises et scientifiques de cultures; portée CEMAC, pas enquête de noms vernaculaires régionaux. Date de publication non vérifiée."
+    },
+    {
+      "id": "src-wipo",
+      "title": "Exploratory study of the leading culinary traditions of Cameroon",
+      "publisher": "Dr Monique Bagal; OMPI/WIPO",
+      "publication": "2021-10; consultation: 2026-10-05",
+      "url": "https://www.wipo.int/ip-development/en/docs/scoping-study-cameroon.pdf",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Étude exploratoire avec sources secondaires. Document marqué WIPO FOR OFFICIAL USE ONLY bien que publiquement accessible; pas de licence ouverte affirmée. Les équivalences de recettes ne sont pas généralisées."
+    },
+    {
+      "id": "src-ocimum",
+      "title": "Ethnomedical and Ethnopharmacological Study of Plants Used for Potential Treatments of Diabetes and Arterial Hypertension in Cameroon",
+      "publisher": "Nole T., Lionel TDW, Cedrix TFS, Gabriel AA",
+      "publication": "2016; consultation: 2026-10-05",
+      "url": "https://www.walshmedicalmedia.com/open-access/ethnomedical-and-ethnopharmacological-study-of-plants-used-for-potential-treatments-of-diabetes-and-arterial-hypertension-by-indig-.pdf",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Item 57, p. 7. Noms de plante relevés dans un contexte médicinal, pas preuve des usages culinaires de chaque communauté. Aucun traitement repris."
+    },
+    {
+      "id": "src-messep-thesis",
+      "title": "Isolement et caractérisation des métabolites secondaires des extraits méthanoliques des feuilles de Ocimum gratissimum",
+      "publisher": "Keubeng Sidonie; mémoire DIPES II",
+      "publication": "2016; consultation: 2026-10-05",
+      "url": "https://dicames.online/jspui/bitstream/20.500.12177/5289/1/ENS_2016_mem_0148.pdf",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Page imprimée 4 consultée via l’index textuel de recherche. PDF complet non récupéré. Attribution Centre/Sud explicite, langue non précisée."
+    },
+    {
+      "id": "src-njama",
+      "title": "Influence of Indigenous Microorganisms Fertilizer on the Growth Performance of Huckleberry (Solanum Scabrum) in Mile 3, Nkwen Bamenda",
+      "publisher": "Auteurs de l’article DOI 10.11648/j.jps.20251306.14; noms non relevés",
+      "publication": "2025; consultation: 2026-10-05",
+      "url": "https://sciencepublishinggroup.com/article/10.11648/j.jps.20251306.14",
+      "license": "CC BY 4.0",
+      "limitations": "Introduction et métadonnées consultées. « Njama njama » associé au Nord-Ouest et à l’Ouest; aucune langue précise attribuée."
+    },
+    {
+      "id": "src-njangsa-bamenda",
+      "title": "Antifungal Susceptibility Pattern of Seed Exracts of Ricinodendron Heudelotii (njangsa)",
+      "publisher": "Esoh Rene Tanwieh; Solomon Gyampoh; Tidoh Kenne Linda Nicaise",
+      "publication": "2024; consultation: 2026-10-05",
+      "url": "https://www.genesispub.org/acmr/antifungal-susceptibility-pattern-of-seed-exracts-of-ricinodendron-heudelotii-njangsa-on-candida-albicans-and-aspergillus-niger",
+      "license": "Mention CC BY-NC-ND 4.0 avec texte contradictoire; droits à clarifier",
+      "limitations": "Njangsa acheté au marché de Bamenda; contexte expérimental, pas enquête linguistique. Qualité éditoriale et licence à examiner; aucune allégation thérapeutique reprise."
+    },
+    {
+      "id": "src-wabane",
+      "title": "Harvesting and Marketing Pattern of Monodora myristica and Afrostyrax kamerunensis in Wabane",
+      "publisher": "Louis Njie Ndumbe; Longonje Simon Ngomba; Mokam Eva",
+      "publication": "2022-01-25; consultation: 2026-10-05",
+      "url": "https://journaljaeri.com/index.php/JAERI/article/view/477",
+      "license": "non établie — aucune licence ouverte affirmée",
+      "limitations": "Résumé seulement: présence à Wabane, Sud-Ouest; pas preuve de noms vernaculaires dans cette zone."
+    },
+    {
+      "id": "src-bamenda",
+      "title": "Wild edible plants and mushrooms of the Bamenda Highlands in Cameroon",
+      "publisher": "Evariste Fedoung Fongnzossie et al.",
+      "publication": "2020-03-04; consultation: 2026-10-05",
+      "url": "https://link.springer.com/article/10.1186/s13002-020-00362-8",
+      "license": "CC BY 4.0",
+      "limitations": "Résumé et résultats consultés; tableau 2 inaccessible. Utilisé seulement pour disponibilité des espèces citées, sans inventer leurs appellations locales."
+    }
+  ],
+  "presences": [
+    {
+      "productId": "p-gnetum-leaves",
+      "sourceId": "src-gnetum",
+      "locator": "Zone de production",
+      "region": "CENTRE"
+    },
+    {
+      "productId": "p-gnetum-leaves",
+      "sourceId": "src-gnetum",
+      "locator": "Zone de production",
+      "region": "EST"
+    },
+    {
+      "productId": "p-gnetum-leaves",
+      "sourceId": "src-gnetum",
+      "locator": "Zone de production",
+      "region": "LITTORAL"
+    },
+    {
+      "productId": "p-ricino",
+      "sourceId": "src-bamenda",
+      "locator": "Résultats, espèces les plus citées",
+      "region": "NORD-OUEST"
+    },
+    {
+      "productId": "p-irvingia",
+      "sourceId": "src-bamenda",
+      "locator": "Résultats, espèces les plus citées",
+      "region": "NORD-OUEST"
+    },
+    {
+      "productId": "p-gnetum-leaves",
+      "sourceId": "src-gnetum",
+      "locator": "Zone de production",
+      "region": "SUD"
+    },
+    {
+      "productId": "p-monodora",
+      "sourceId": "src-wabane",
+      "locator": "Résumé — six villages de Wabane",
+      "region": "SUD-OUEST"
+    },
+    {
+      "productId": "p-irvingia",
+      "sourceId": "src-irvingia",
+      "locator": "Variabilité et conservation de la ressource",
+      "region": "SUD-OUEST"
+    },
+    {
+      "productId": "p-gnetum-leaves",
+      "sourceId": "src-gnetum",
+      "locator": "Zone de production",
+      "region": "SUD-OUEST"
+    }
+  ],
+  "integration": {
+    "mapping": {
+      "p-monodora": {
+        "productId": "product-monodora-plante",
+        "slug": "monodora-plante",
+        "action": "added",
+        "originalScientificName": "Monodora myristica",
+        "documentaryScope": "organism"
+      },
+      "p-ricino": {
+        "productId": "product-ricinodendron-plante",
+        "slug": "ricinodendron-plante",
+        "action": "added",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "organism"
+      },
+      "p-njangsa-seeds": {
+        "productId": "product-njansang",
+        "slug": "njansang",
+        "action": "enriched",
+        "originalScientificName": "Ricinodendron heudelotii",
+        "documentaryScope": "edible_part"
+      },
+      "p-dacryodes": {
+        "productId": "product-safoutier",
+        "slug": "safoutier",
+        "action": "added",
+        "originalScientificName": "Dacryodes edulis",
+        "documentaryScope": "organism"
+      },
+      "p-irvingia": {
+        "productId": "product-irvingia-plante",
+        "slug": "irvingia-plante",
+        "action": "added",
+        "originalScientificName": "Irvingia gabonensis",
+        "documentaryScope": "organism"
+      },
+      "p-fish-tilapia": {
+        "productId": "product-tilapia-nil",
+        "slug": "tilapia-nil",
+        "action": "enriched",
+        "originalScientificName": "Oreochromis niloticus",
+        "documentaryScope": "organism"
+      },
+      "p-fish-clarias": {
+        "productId": "product-silure-clarias",
+        "slug": "silure-clarias",
+        "action": "added",
+        "originalScientificName": "Clarias gariepinus",
+        "documentaryScope": "organism"
+      },
+      "p-fish-heterobranchus": {
+        "productId": "product-silure-heterobranchus",
+        "slug": "silure-heterobranchus",
+        "action": "added",
+        "originalScientificName": "Heterobranchus longifilis",
+        "documentaryScope": "organism"
+      },
+      "p-fish-carp": {
+        "productId": "product-carpe-commune",
+        "slug": "carpe-commune",
+        "action": "added",
+        "originalScientificName": "Cyprinus carpio",
+        "documentaryScope": "organism"
+      },
+      "p-fish-heterotis": {
+        "productId": "product-kanga",
+        "slug": "kanga",
+        "action": "added",
+        "originalScientificName": "Heterotis niloticus",
+        "documentaryScope": "organism"
+      },
+      "p-fish-hemichromis": {
+        "productId": "product-poisson-panthere",
+        "slug": "poisson-panthere",
+        "action": "added",
+        "originalScientificName": "Hemichromis fasciatus",
+        "documentaryScope": "organism"
+      },
+      "p-fish-parachanna": {
+        "productId": "product-poisson-vipere",
+        "slug": "poisson-vipere",
+        "action": "added",
+        "originalScientificName": "Parachanna obscura",
+        "documentaryScope": "organism"
+      },
+      "p-fish-sardinella": {
+        "productId": "product-sardinelle-plate",
+        "slug": "sardinelle-plate",
+        "action": "enriched",
+        "originalScientificName": "Sardinella madarensis",
+        "documentaryScope": "organism"
+      },
+      "p-fish-cod": {
+        "productId": "product-morue",
+        "slug": "morue",
+        "action": "added",
+        "originalScientificName": "Gadus morhua",
+        "documentaryScope": "organism"
+      },
+      "p-fish-mackerel": {
+        "productId": "product-maquereaux-groupe",
+        "slug": "maquereaux-groupe",
+        "action": "added",
+        "originalScientificName": "Scomber scombrus; Scomber japonicus",
+        "documentaryScope": "commercial_group"
+      },
+      "p-fish-croaker": {
+        "productId": "product-courbines-groupe",
+        "slug": "courbines-groupe",
+        "action": "added",
+        "originalScientificName": "Pseudotolithus spp.",
+        "documentaryScope": "commercial_group"
+      },
+      "p-fish-barbus": {
+        "productId": "product-barbus-groupe",
+        "slug": "barbus-groupe",
+        "action": "added",
+        "originalScientificName": "Barbus sp.",
+        "documentaryScope": "commercial_group"
+      },
+      "p-gnetum-leaves": {
+        "productId": "product-eru",
+        "slug": "eru",
+        "action": "enriched",
+        "originalScientificName": "Gnetum africanum; Gnetum bucholzianum",
+        "documentaryScope": "commercial_group"
+      },
+      "p-hibiscus": {
+        "productId": "product-hibiscus-plante",
+        "slug": "hibiscus-plante",
+        "action": "added",
+        "originalScientificName": "Hibiscus sabdariffa",
+        "documentaryScope": "organism"
+      },
+      "p-folere-drink": {
+        "productId": "product-folere-boisson",
+        "slug": "folere-boisson",
+        "action": "enriched",
+        "originalScientificName": "Hibiscus sabdariffa",
+        "documentaryScope": "preparation"
+      },
+      "p-maize": {
+        "productId": "product-mais-plante",
+        "slug": "mais-plante",
+        "action": "added",
+        "originalScientificName": "Zea mays",
+        "documentaryScope": "organism"
+      },
+      "p-cassava": {
+        "productId": "product-manioc",
+        "slug": "manioc",
+        "action": "enriched",
+        "originalScientificName": "Manihot esculenta",
+        "documentaryScope": "organism"
+      },
+      "p-onion": {
+        "productId": "product-oignon",
+        "slug": "oignon",
+        "action": "enriched",
+        "originalScientificName": "Allium cepa",
+        "documentaryScope": "organism"
+      },
+      "p-yam": {
+        "productId": "product-ignames-groupe",
+        "slug": "ignames-groupe",
+        "action": "added",
+        "originalScientificName": "Dioscorea sp.",
+        "documentaryScope": "commercial_group"
+      },
+      "p-sweetpotato": {
+        "productId": "product-patate-douce",
+        "slug": "patate-douce",
+        "action": "enriched",
+        "originalScientificName": "Ipomea batatas",
+        "documentaryScope": "organism"
+      },
+      "p-potato": {
+        "productId": "product-pomme-de-terre",
+        "slug": "pomme-de-terre",
+        "action": "added",
+        "originalScientificName": "Solanum tuberosum",
+        "documentaryScope": "organism"
+      },
+      "p-plantain": {
+        "productId": "product-bananes-a-cuire",
+        "slug": "bananes-a-cuire",
+        "action": "added",
+        "originalScientificName": "Musa sp.",
+        "documentaryScope": "commercial_group"
+      },
+      "p-cowpea": {
+        "productId": "product-niebe",
+        "slug": "niebe",
+        "action": "enriched",
+        "originalScientificName": "Vigna unguiculata",
+        "documentaryScope": "organism"
+      },
+      "p-ocimum": {
+        "productId": "product-basilic-tropical",
+        "slug": "basilic-tropical",
+        "action": "added",
+        "originalScientificName": "Ocimum gratissimum",
+        "documentaryScope": "organism"
+      },
+      "p-njama-leaves": {
+        "productId": "product-njama-njama",
+        "slug": "njama-njama",
+        "action": "added",
+        "originalScientificName": "Solanum scabrum",
+        "documentaryScope": "edible_part"
+      },
+      "p-kpem": {
+        "productId": "product-kpem",
+        "slug": "kpem",
+        "action": "added",
+        "originalScientificName": null,
+        "documentaryScope": "preparation"
+      },
+      "p-baobab": {
+        "productId": "product-baobab-plante",
+        "slug": "baobab-plante",
+        "action": "added",
+        "originalScientificName": "Adansonia digitata",
+        "documentaryScope": "organism"
+      },
+      "p-tamarind": {
+        "productId": "product-tamarin",
+        "slug": "tamarin",
+        "action": "enriched",
+        "originalScientificName": "Tamarindus indica",
+        "documentaryScope": "organism"
+      },
+      "p-mango": {
+        "productId": "product-manguier",
+        "slug": "manguier",
+        "action": "added",
+        "originalScientificName": "Mangifera indica",
+        "documentaryScope": "organism"
+      },
+      "p-purslane": {
+        "productId": "product-pourpier",
+        "slug": "pourpier",
+        "action": "added",
+        "originalScientificName": "Portulaca oleracea",
+        "documentaryScope": "organism"
+      }
+    },
+    "addedProducts": 25,
+    "enrichedProducts": 10,
+    "nameAssertions": 112,
+    "limitations": "Statuts importés comme documented ; pas de nouvelle expertise de chacune des 20 références. Langues sans code ISO vérifié : identifiants internes cm-language-*. Aires historiques séparées."
+  }
+}

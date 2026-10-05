@@ -8,7 +8,15 @@ export const productSchema = z.object({
   labelEn: z.string().nullable(),
   labelAr: z.string().nullable().optional(),
   description: id,
-  categoryId: z.enum(['spices', 'vegetables', 'fish', 'staples']),
+  categoryId: z.enum([
+    'spices',
+    'vegetables',
+    'fish',
+    'staples',
+    'herbs',
+    'fruits',
+    'preparations',
+  ]),
   entityType: z.enum(['taxon', 'ingredient', 'commercial-category', 'mixture', 'prepared-dish']),
   scientificName: z.string().nullable(),
   taxonId: z.string().nullable(),
@@ -22,6 +30,10 @@ export const productSchema = z.object({
   scientificNames: ids.optional(),
   verificationStatus: z.enum(['documented', 'reviewed']).optional(),
   identityEvidenceIds: ids.optional(),
+  documentaryScope: z
+    .enum(['organism', 'edible_part', 'preparation', 'commercial_group'])
+    .optional(),
+  corpusIds: ids.optional(),
 });
 export const nameSchema = z.object({
   id,
@@ -38,6 +50,13 @@ export const nameSchema = z.object({
   localContext: z.string().default(''),
   nameType: z.enum(['common', 'local', 'spelling', 'input', 'scientific']).optional(),
   ambiguity: z.string().optional(),
+  languageLabel: z.string().optional(),
+  languageId: z.string().optional(),
+  referent: z.string().optional(),
+  geographicScope: z
+    .enum(['region', 'locality', 'language_community', 'country', 'historical_area'])
+    .optional(),
+  limitations: z.string().optional(),
 });
 export const imageSchema = z.object({
   id,
@@ -70,6 +89,7 @@ export const sourceSchema = z.object({
   licenseId: id,
   retrievedAt: id,
   datasetVersion: id,
+  accessNote: z.string().optional(),
 });
 export const evidenceSchema = z.object({
   id,

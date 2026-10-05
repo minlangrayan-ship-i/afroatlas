@@ -46,7 +46,7 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
     () =>
       names.filter(
         (n) =>
-          (!language || n.languageCode === language) &&
+          (!language || (n.languageCode || n.languageId) === language) &&
           (!country || n.countryIds.includes(country)),
       ),
     [names, language, country],
@@ -64,18 +64,32 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
       <div className="table-controls">
         <label>
           Langue
-          <select disabled={!ready} value={language} onChange={(e) => setLanguage(e.target.value)}>
+          <select
+            aria-label="Langue"
+            disabled={!ready}
+            value={language}
+            onChange={(e) => setLanguage(e.target.value)}
+          >
             <option value="">Toutes</option>
-            {[...new Set(names.map((n) => n.languageCode))].map((lang) => (
-              <option key={lang} value={lang || ''}>
-                {languageNames[lang || ''] || lang}
-              </option>
-            ))}
+            {[...new Set(names.map((n) => n.languageCode || n.languageId).filter(Boolean))].map(
+              (lang) => (
+                <option key={lang} value={lang || ''}>
+                  {languageNames[lang || ''] ||
+                    names.find((n) => n.languageId === lang)?.languageLabel ||
+                    lang}
+                </option>
+              ),
+            )}
           </select>
         </label>
         <label>
           Contexte géographique
-          <select disabled={!ready} value={country} onChange={(e) => setCountry(e.target.value)}>
+          <select
+            aria-label="Contexte géographique"
+            disabled={!ready}
+            value={country}
+            onChange={(e) => setCountry(e.target.value)}
+          >
             <option value="">Tous / non établi</option>
             {[...countries, ...europeanContexts].map((c) => (
               <option key={c.ISO3} value={c.ISO3}>
@@ -119,8 +133,22 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
                   <strong data-no-translate dir="auto" lang={n.languageCode || undefined}>
                     <bdi>{n.name}</bdi>
                   </strong>
+                  {n.referent && (
+                    <small data-no-translate dir="auto">
+                      {n.referent
+                        .replace(/^organism/, 'Plante ou organisme')
+                        .replace(/^edible_part/, 'Partie alimentaire')
+                        .replace(/^commercial_group/, 'Groupe alimentaire')
+                        .replace(/^preparation/, 'Préparation')}
+                    </small>
+                  )}
                 </td>
-                <td>{languageNames[n.languageCode || ''] || n.languageCode || 'Non renseignée'}</td>
+                <td>
+                  {n.languageLabel ||
+                    languageNames[n.languageCode || ''] ||
+                    n.languageCode ||
+                    'Non renseignée'}
+                </td>
                 <td>
                   {n.countryIds.length
                     ? n.countryIds
@@ -139,6 +167,9 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
                           .join(', ')
                       : 'Aucune région documentée'}
                   </small>
+                  {n.geographicScope === 'historical_area' && (
+                    <small>Attestation historique, usage actuel à confirmer</small>
+                  )}
                 </td>
                 <td>
                   <a href={n.sourceUrl} target="_blank" rel="noopener noreferrer">

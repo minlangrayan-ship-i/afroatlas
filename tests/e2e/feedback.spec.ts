@@ -9,7 +9,7 @@ test('new countries, distinct forms and checked images work on mobile and deskto
     for (const iso of ['gab', 'gnq', 'ken'])
       await expect(page.locator(`.africa-map a[href$="/pays/${iso}/"]`)).toHaveCount(1);
     await page.goto(base + 'catalogue/?q=folere');
-    await expect(page.locator('.product-card')).toHaveCount(3);
+    await expect(page.locator('.product-card')).toHaveCount(4);
     await page.goto(base + 'catalogue/?q=Wataleaf');
     await expect(page.locator('.product-card')).toHaveCount(1);
     for (const slug of ['epinard', 'pebe']) {
