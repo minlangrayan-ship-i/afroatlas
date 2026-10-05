@@ -1,6 +1,7 @@
 ---
 import Layout from '../components/Layout.astro';
 import Moderation from '../components/Moderation';
+const protectedGateway = import.meta.env.ADMIN_GATEWAY_ENABLED === 'true';
 ---
 
 <Layout title="Modération propriétaire">
@@ -9,6 +10,13 @@ import Moderation from '../components/Moderation';
     <p>Les propositions reçues restent privées jusqu’à leur validation.</p>
   </section>
   <section class="container page-body">
-    <Moderation client:load />
+    {protectedGateway ? (
+      <Moderation client:load />
+    ) : (
+      <p class="notice">
+        Administration indisponible sur cet hébergement statique. L’accès propriétaire nécessite
+        l’hébergement protégé et la configuration serveur.
+      </p>
+    )}
   </section>
 </Layout>

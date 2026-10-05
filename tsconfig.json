@@ -1,1 +1,1 @@
-{"extends":"astro/tsconfigs/strict","compilerOptions":{"jsx":"react-jsx","jsxImportSource":"react","resolveJsonModule":true},"include":[".astro/types.d.ts","**/*"],"exclude":["dist","node_modules",".runtime","supabase"]}
+{"extends":"astro/tsconfigs/strict","compilerOptions":{"jsx":"react-jsx","jsxImportSource":"react","resolveJsonModule":true},"include":[".astro/types.d.ts","**/*"],"exclude":["dist","dist-cloudflare","server/generated",".wrangler","node_modules",".runtime","supabase"]}

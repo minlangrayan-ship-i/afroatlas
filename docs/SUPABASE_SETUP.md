@@ -16,6 +16,8 @@ Cette migration crée les propositions privées, les fiches acceptées publiques
 
 ## 2. Réserver la modération au propriétaire
 
+La page administrative nécessite désormais le déploiement Cloudflare Pages protégé par Access, décrit dans [PRIVATE_HOSTING.md](PRIVATE_HOSTING.md). Sur GitHub Pages, son formulaire est retiré. Utiliser le même email propriétaire dans Access et Supabase ; ajouter l’origine Cloudflare de production à `ALLOWED_ORIGINS` avant de tester la passerelle. Les permissions Supabase restent obligatoires même pour un utilisateur autorisé par Access.
+
 Dans **Authentication → Users**, créer votre compte email/mot de passe, confirmé. Copier son UUID, puis exécuter dans SQL Editor :
 
 ```sql

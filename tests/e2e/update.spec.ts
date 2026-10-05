@@ -109,8 +109,8 @@ test('email partnership contact and private moderation remain honest', async ({ 
     'mailto:minlangrayan@gmail.com',
   );
   await page.goto(base + 'moderation/');
-  await expect(page.getByRole('button', { name: 'Se connecter' })).toBeDisabled();
-  await expect(page.locator('.notice')).toContainText('Service non configuré');
+  await expect(page.getByRole('button', { name: 'Se connecter' })).toHaveCount(0);
+  await expect(page.locator('.notice')).toContainText('Administration indisponible');
   await page.goto(base + 'catalogue/?q=zzzzzzintrouvable');
   await expect(page.locator('.empty-state a[href*="contribuer"]')).toBeVisible();
 });

@@ -32,12 +32,27 @@ jobs:
           PUBLIC_USAGE_METRICS_ENABLED: ${{ vars.PUBLIC_USAGE_METRICS_ENABLED }}
       - run: npm run check:publication
       - uses: actions/upload-pages-artifact@v3
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && vars.HOSTING_PROVIDER != 'cloudflare'
         with:
           path: dist
+  verify-cloudflare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build:cloudflare
+        env:
+          # Test-only URL. This job never publishes a Cloudflare site.
+          SITE_URL: https://afroatlas-build-check.pages.dev/afroatlas/
+          ASTRO_TELEMETRY_DISABLED: '1'
+      - run: npm run check:cloudflare
   deploy:
-    if: github.event_name != 'pull_request'
-    needs: build
+    if: github.event_name != 'pull_request' && vars.HOSTING_PROVIDER != 'cloudflare' && (github.event.repository.private == false || vars.PRIVATE_GITHUB_PAGES_SUPPORTED == 'true')
+    needs: [build, verify-cloudflare]
     runs-on: ubuntu-latest
     permissions:
       pages: write

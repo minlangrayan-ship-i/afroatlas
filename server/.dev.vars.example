@@ -1,0 +1,7 @@
+# Cloudflare Pages runtime settings, configured in the dashboard. Do not commit real values.
+ADMIN_ACCESS_ISSUER=
+ADMIN_ACCESS_AUD=
+ADMIN_OWNER_EMAIL=
+SUPABASE_URL=
+SUPABASE_ANON_KEY=
+# This gateway deliberately uses no service_role key or deployment credential.

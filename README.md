@@ -65,4 +65,6 @@ Le [bilan SEO, UX, sécurité et vidéo du 5 octobre 2026](docs/SEO_UX_VIDEO_REP
 
 Le workflow GitHub vérifie les pull requests et publie `main` sur Pages. Les fonctions Supabase se déploient séparément. Une consultation documentaire reste possible sans backend. Une version commercialement opérationnelle demande un hébergement adapté ; voir MONETIZATION.md. Les performances de terrain et un audit culturel humain ne sont pas revendiqués comme accomplis.
 
-Le dépôt reste public. Le frontend de production est minifié sans source maps publiques et le workflow vérifie les fichiers publiés. Secrets et opérations privilégiées restent côté serveur ; minifier ne rend pas le code impossible à copier. Voir [SECURITY.md](docs/SECURITY.md) pour les contrôles, la sauvegarde originale et les limites.
+La transition vers **dépôt privé, site public et administration protégée** est préparée dans [PRIVATE_HOSTING.md](docs/PRIVATE_HOSTING.md). Le dépôt reste temporairement public jusqu’à la connexion et aux tests de l’hébergement compatible. GitHub Pages affiche uniquement un avis d’administration fermée ; Cloudflare Pages/Access fournit le contrôle serveur de la page et des API, avec une vérification propriétaire supplémentaire dans Supabase.
+
+Le frontend de production est minifié sans source maps publiques et le workflow vérifie les fichiers publiés. Secrets et opérations privilégiées restent côté serveur ; minifier ne rend pas le code impossible à copier. Voir [SECURITY.md](docs/SECURITY.md) pour les contrôles, les sauvegardes originales et les limites.

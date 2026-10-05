@@ -1,8 +1,7 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
-const origin = 'https://minlangrayan-ship-i.github.io';
-const root = origin + '/afroatlas/';
+const root = process.env.SITE_URL || 'https://minlangrayan-ship-i.github.io/afroatlas/';
 async function htmlFiles(path = 'dist') {
   const files = [];
   for (const d of await readdir(path, { withFileTypes: true })) {

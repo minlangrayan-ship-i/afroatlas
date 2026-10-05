@@ -1,6 +1,19 @@
 import { withLocale } from '../lib/locale-react';
 import { useState, type SyntheticEvent } from 'react';
-import { api, backend, configured, publicEntrySchema } from '../lib/community';
+import { publicEntrySchema } from '../lib/community';
+import { href } from '../lib/links';
+
+async function api(path: string, options: RequestInit = {}, token?: string) {
+  const response = await fetch(href(`api/admin${path}`), {
+    ...options,
+    credentials: 'same-origin',
+    headers: { ...(token ? { Authorization: `Bearer ${token}` } : {}), ...options.headers },
+    signal: AbortSignal.timeout(30000),
+  });
+  const json = await response.json().catch(() => null);
+  if (!response.ok) throw new Error(json?.error || `Accès refusé (${response.status}).`);
+  return json;
+}
 type Notification = { state: string; attempts: number; error_code: string | null };
 type Row = {
   id: string;
@@ -46,30 +59,18 @@ function Moderation() {
     ? selectedNotification[0]
     : selectedNotification;
   async function load(access: string) {
-    setRows(
-      await api(
-        '/rest/v1/contributions?select=*,contribution_notifications(state,attempts,error_code)&order=created_at.desc',
-        {},
-        access,
-      ),
-    );
+    setRows(await api('/contributions', {}, access));
   }
   async function login(e: SyntheticEvent<HTMLFormElement>) {
     e.preventDefault();
     setBusy(true);
     try {
       const form = new FormData(e.currentTarget);
-      const auth = await api('/auth/v1/token?grant_type=password', {
+      const auth = await api('/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: form.get('email'), password: form.get('password') }),
       });
-      const owner = await api(
-        '/rest/v1/rpc/is_afroatlas_owner',
-        { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' },
-        auth.access_token,
-      );
-      if (owner !== true) throw new Error('Accès réservé au propriétaire.');
       setToken(auth.access_token);
       await load(auth.access_token);
       setMessage('Connexion propriétaire établie.');
@@ -118,16 +119,8 @@ function Moderation() {
     setPhoto('');
     if (row.photo_path)
       try {
-        const signed = await api(
-          `/storage/v1/object/sign/afroatlas-pending/${encodeURIComponent(row.photo_path)}`,
-          {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ expiresIn: 300 }),
-          },
-          token,
-        );
-        setPhoto(`${backend.url}/storage/v1${signed.signedURL}`);
+        const signed = await api(`/photos/${row.id}`, {}, token);
+        setPhoto(signed.url);
       } catch (e) {
         setMessage((e as Error).message);
       }
@@ -138,7 +131,7 @@ function Moderation() {
     try {
       const payload = decision === 'accept' ? publicEntrySchema.parse(JSON.parse(entry)) : null;
       const result = await api(
-        '/functions/v1/moderate-contribution',
+        '/review',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -163,9 +156,6 @@ function Moderation() {
   }
   return (
     <div className="moderation">
-      {!configured && (
-        <p className="notice">Service non configuré. Aucun accès de modération actif.</p>
-      )}
       {!token ? (
         <form onSubmit={login} className="contribution-form">
           <label>
@@ -176,7 +166,7 @@ function Moderation() {
             Mot de passe
             <input name="password" type="password" required autoComplete="current-password" />
           </label>
-          <button className="button" disabled={!configured || busy}>
+          <button className="button" disabled={busy}>
             Se connecter
           </button>
           <p>
@@ -193,6 +183,7 @@ function Moderation() {
               setSelected(null);
               setRows([]);
               setPhoto('');
+              window.location.assign('/cdn-cgi/access/logout');
             }}
           >
             Se déconnecter

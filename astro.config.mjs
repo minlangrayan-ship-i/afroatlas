@@ -17,9 +17,21 @@ const utility =
 const backendOrigin = process.env.PUBLIC_SUPABASE_URL
   ? new URL(process.env.PUBLIC_SUPABASE_URL).origin
   : '';
+const deploymentURL = new URL(
+  process.env.SITE_URL || 'https://minlangrayan-ship-i.github.io/afroatlas/',
+);
+if (
+  deploymentURL.protocol !== 'https:' ||
+  deploymentURL.username ||
+  deploymentURL.password ||
+  deploymentURL.search ||
+  deploymentURL.hash ||
+  !/^\/[a-z0-9/-]*$/.test(deploymentURL.pathname)
+)
+  throw new Error('SITE_URL must be a public HTTPS URL with a simple base path.');
 export default defineConfig({
-  site: 'https://minlangrayan-ship-i.github.io',
-  base: '/afroatlas',
+  site: deploymentURL.origin,
+  base: deploymentURL.pathname.replace(/\/$/, '') || '/',
   output: 'static',
   markdown: { syntaxHighlight: false },
   trailingSlash: 'always',

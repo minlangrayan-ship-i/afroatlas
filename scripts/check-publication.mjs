@@ -62,6 +62,8 @@ async function checkBuild(dir) {
           'NOTIFICATION_CRON_SECRET',
           'CONTRIBUTIONS_RECIPIENT_EMAIL',
           'Deno.serve',
+          'ADMIN_ACCESS_ISSUER',
+          'CLOUDFLARE_API_TOKEN',
         ].some((value) => text.includes(value))
       )
         throw new Error(`Server-only implementation in frontend: ${file}`);
