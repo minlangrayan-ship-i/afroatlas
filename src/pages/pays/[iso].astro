@@ -47,7 +47,16 @@ const presenceEntries = contexts
 const historicalNames = names.filter((n) => n.geographicScope === 'historical_area');
 ---
 
-<Layout title={`Explorer ${country.nameFr}`}>
+<Layout
+  title={`Produits et appellations documentés : ${country.nameFr}`}
+  description={`Les noms et usages de ${countryProducts.length} produits documentés au ${country.nameFr}, avec sources et périmètres régionaux explicites.`}
+  noindex={!countryProducts.length}
+  breadcrumbs={[
+    { name: 'Accueil', path: '' },
+    { name: 'Pays & régions', path: 'explorer/' },
+    { name: country.nameFr, path: `pays/${country.ISO3.toLowerCase()}/` },
+  ]}
+>
   <div class="container breadcrumbs">
     <a href={href('explorer/')}>Pays & régions</a> / {country.nameFr}
   </div>

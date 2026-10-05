@@ -53,7 +53,7 @@ function apply() {
     if (
       url.origin === location.origin &&
       url.pathname.startsWith(import.meta.env.BASE_URL) &&
-      !url.pathname.match(/\.(json|webp|pdf|svg)$/)
+      !url.pathname.match(/\.(json|webp|pdf|svg|png|jpg|mp4|vtt)$/)
     ) {
       if (locale === 'fr') url.searchParams.delete('lang');
       else url.searchParams.set('lang', locale);

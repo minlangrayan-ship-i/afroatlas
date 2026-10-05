@@ -10,6 +10,14 @@ import ProductCard from './ProductCard';
 import SearchBox from './SearchBox';
 import { href } from '../lib/links';
 import { useCommunityCatalogue, useCommunityGeography } from '../lib/community-catalogue';
+import DestinationPicker from './DestinationPicker';
+import {
+  readDestination,
+  emptyDestination,
+  destinationParams,
+  type Destination,
+} from '../lib/destination';
+import { recordUsage } from '../lib/usage';
 function Catalog({
   products: seed,
   favorites = false,
@@ -22,11 +30,16 @@ function Catalog({
   const products = useCommunityCatalogue(seed);
   const geography = useCommunityGeography();
   const [ready, setReady] = useState(false);
+  const [destination, setDestination] = useState<Destination>(emptyDestination);
+  const [visible, setVisible] = useState(24);
   const [filters, setFilters] = useState<Filters>(emptyFilters),
     [saved, setSaved] = useState<string[]>([]);
   const reduce = useReducedMotion();
   useEffect(() => {
-    const update = () => setFilters(readFilters(location.search));
+    const update = () => {
+      setFilters(readFilters(location.search));
+      setDestination(readDestination(location.search));
+    };
     const updateSaved = () => setSaved(loadList('favorites'));
     update();
     updateSaved();
@@ -55,13 +68,29 @@ function Catalog({
   function change(patch: Partial<Filters>) {
     const next = { ...filters, ...patch };
     const params = new URLSearchParams();
+    for (const [key, value] of destinationParams(destination)) params.set(key, value);
     const locale = new URLSearchParams(location.search).get('lang');
     if (locale) params.set('lang', locale);
     for (const [key, value] of Object.entries(next)) if (value) params.set(key, value);
     history.pushState({}, '', `${location.pathname}${params.size ? '?' + params : ''}`);
     setFilters(next);
+    setVisible(24);
   }
   const active = Object.values(filters).filter(Boolean).length;
+  function changeDestination(value: Destination) {
+    setDestination(value);
+    const url = new URL(location.href);
+    for (const key of ['destination', 'destinationRegion', 'destinationLanguage'])
+      url.searchParams.delete(key);
+    for (const [key, val] of destinationParams(value)) url.searchParams.set(key, val);
+    history.replaceState({}, '', url);
+    recordUsage('destination_use');
+  }
+  const productParams = destinationParams(destination);
+  if (filters.q) productParams.set('q', filters.q);
+  useEffect(() => {
+    if (ready && filters.q) recordUsage(results.length ? 'internal_search' : 'search_empty');
+  }, [ready, filters.q, results.length]);
   return (
     <div className="catalog-layout">
       <div className="catalog-search">
@@ -71,11 +100,18 @@ function Catalog({
           initial={filters.q}
           onSearch={(q) => change({ q })}
         />
+        <DestinationPicker
+          value={destination}
+          onChange={changeDestination}
+          names={products.flatMap((p) => p.names)}
+        />
       </div>
       <aside className="filters-panel">
         <div className="filters-heading">
           <h2>Affiner la recherche</h2>
-          <button onClick={() => change(emptyFilters)}>Réinitialiser</button>
+          <button disabled={!ready} onClick={() => change(emptyFilters)}>
+            Réinitialiser
+          </button>
         </div>
         <label>
           Catégorie
@@ -238,7 +274,7 @@ function Catalog({
           </div>
         ) : (
           <div className="product-grid">
-            {results.map(({ product, match }, i) => (
+            {results.slice(0, visible).map(({ product, match }, i) => (
               <motion.div
                 key={product.id}
                 layout={!reduce}
@@ -246,7 +282,7 @@ function Catalog({
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: reduce ? 0 : 0.18 }}
               >
-                <ProductCard product={product} match={match} />
+                <ProductCard product={product} match={match} query={productParams.toString()} />
                 {i === 5 && (
                   <aside className="inline-ad" aria-label="Emplacement partenaire">
                     Espace publicitaire · démonstration sans annonce active
@@ -255,6 +291,11 @@ function Catalog({
               </motion.div>
             ))}
           </div>
+        )}
+        {results.length > visible && (
+          <button className="button secondary load-more" onClick={() => setVisible((n) => n + 24)}>
+            Afficher davantage de fiches
+          </button>
         )}
       </div>
     </div>

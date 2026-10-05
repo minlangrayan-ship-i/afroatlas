@@ -1,4 +1,6 @@
 import { z } from 'zod';
+// Avoid Zod's eval capability probe under the production Content Security Policy.
+if (typeof window !== 'undefined') z.config({ jitless: true });
 export const contributionTypes = [
   'new-product',
   'local-name',
@@ -10,19 +12,43 @@ export const submissionSchema = z
   .object({
     type: z.enum(contributionTypes),
     product: z.string().max(200),
+    productId: z.string().max(120).optional(),
+    productSlug: z
+      .string()
+      .regex(/^[a-z0-9-]*$/)
+      .max(120)
+      .optional(),
     name: z.string().max(200),
     country: z.string().max(100),
+    countryName: z.string().max(100).optional(),
     region: z.string().max(200),
     language: z.string().max(80),
     form: z.string().max(100),
-    description: z.string().min(10).max(3000),
-    source: z.string().min(10).max(2000),
+    description: z.string().max(3000),
+    source: z.string().max(2000),
+    contributorName: z.string().max(100).optional(),
+    contributorEmail: z.union([z.email(), z.literal('')]).optional(),
+    website: z.literal('').optional(),
     photoRights: z.boolean(),
     photoSource: z.string().max(1000),
     photoLicense: z.string().max(100),
     consent: z.literal(true),
   })
   .superRefine((v, ctx) => {
+    if (v.country === 'autre' && !v.countryName?.trim())
+      ctx.addIssue({
+        code: 'custom',
+        path: ['countryName'],
+        message: 'Précisez le nom du pays proposé.',
+      });
+    if (['new-product', 'correction', 'photo'].includes(v.type) && v.description.trim().length < 10)
+      ctx.addIssue({
+        code: 'custom',
+        path: ['description'],
+        message: 'Précisez votre proposition en au moins 10 caractères.',
+      });
+    if (v.type === 'local-name' && !v.country.trim())
+      ctx.addIssue({ code: 'custom', path: ['country'], message: 'Indiquez le pays d’usage.' });
     if (v.type === 'new-product' && !v.product.trim())
       ctx.addIssue({ code: 'custom', path: ['product'], message: 'Indiquez le nouveau produit.' });
     if (v.type === 'local-name' && (!v.product.trim() || !v.name.trim()))
@@ -64,7 +90,11 @@ export async function api(path: string, options: RequestInit = {}, token?: strin
     throw new Error(json?.message || json?.error || `Service indisponible (${response.status}).`);
   return json;
 }
-export async function sendContribution(fields: Submission, photo?: File | null) {
+export async function sendContribution(
+  fields: Submission,
+  photo?: File | null,
+  requestId: string = crypto.randomUUID(),
+) {
   const value = submissionSchema.parse(fields);
   if (photo) {
     validatePhoto(photo);
@@ -74,10 +104,19 @@ export async function sendContribution(fields: Submission, photo?: File | null) 
   const body = new FormData();
   body.set('proposal', JSON.stringify(value));
   if (photo) body.set('photo', photo);
-  const result = await api('/functions/v1/submit-contribution', { method: 'POST', body });
-  if (!result?.id || result.status !== 'pending')
+  const result = await api('/functions/v1/submit-contribution', {
+    method: 'POST',
+    body,
+    headers: { 'Idempotency-Key': requestId },
+  });
+  if (!result?.id || !['pending', 'accepted', 'rejected'].includes(result.status))
     throw new Error('Accusé de réception invalide : envoi non confirmé.');
-  return result as { id: string; status: 'pending' };
+  return result as {
+    id: string;
+    status: 'pending' | 'accepted' | 'rejected';
+    notification:
+      'pending' | 'sending' | 'provider_accepted' | 'delivered' | 'failed' | 'needs_review';
+  };
 }
 export const publicEntrySchema = z.object({
   id: z.string(),

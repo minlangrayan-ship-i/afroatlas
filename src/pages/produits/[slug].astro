@@ -5,7 +5,15 @@ import ProductActions from '../../components/ProductActions';
 import PhotoZoom from '../../components/PhotoZoom';
 import NamesTable from '../../components/NamesTable';
 import CommunityUpdates from '../../components/CommunityUpdates';
-import { products, catalogue, imageFor, namesFor, commercial } from '../../lib/catalogue';
+import ShopCard from '../../components/ShopCard';
+import {
+  products,
+  catalogue,
+  imageFor,
+  namesFor,
+  commercial,
+  cardProducts,
+} from '../../lib/catalogue';
 import { href } from '../../lib/links';
 import { categories } from '../../data/countries';
 export function getStaticPaths() {
@@ -39,20 +47,57 @@ const related = products.filter((p) =>
 const references = commercial.references.filter((r) =>
   r.relations.some((rel) => rel.productId === product.id),
 );
+const category = categories.find((c) => c.id === product.categoryId)!;
+const title = `${product.labelFr} : noms, formes et usages documentés`;
+const seoDescription =
+  `${product.labelFr} : ${product.description} Retrouvez les appellations attestées, leurs langues, leurs zones d’usage et les sources.`.slice(
+    0,
+    190,
+  );
+const breadcrumbs = [
+  { name: 'Accueil', path: '' },
+  { name: category.label, path: `categories/${category.id}/` },
+  { name: product.labelFr, path: `produits/${product.slug}/` },
+];
+const structuredData = [
+  {
+    '@type': 'DefinedTerm',
+    name: product.labelFr,
+    description: product.description,
+    url: new URL(href(`produits/${product.slug}/`), Astro.site).href,
+    termCode: product.id,
+    inDefinedTermSet: new URL(href(), Astro.site).href,
+    alternateName: [...new Set(names.filter((n) => n.nameType !== 'input').map((n) => n.name))],
+  },
+];
+const nameProofs = Object.fromEntries(rows.map((n) => [n.id, n.proofs]));
 ---
 
-<Layout title={product.labelFr} description={product.description}>
-  <div class="container breadcrumbs">
-    <a href={href('catalogue/')}>Bibliothèque</a>
+<Layout
+  title={title}
+  description={seoDescription}
+  image={image.role === 'primary' ? image.localPath : undefined}
+  breadcrumbs={breadcrumbs}
+  structuredData={structuredData}
+>
+  <nav class="container breadcrumbs" aria-label="Fil d’Ariane">
+    <a href={href()}>Accueil</a> / <a href={href(`categories/${category.id}/`)}>{category.label}</a>
     <span> / </span>
     <span>{product.labelFr}</span>
-  </div>
+  </nav>
   <section class="container product-hero">
     <div>
       <PhotoZoom image={image} label={product.labelFr} productId={product.id} client:load />
       {image.role === 'primary' && (
         <p class="photo-credit">
-          {image.creator} ·{' '}
+          {image.creatorUrl ? (
+            <a href={image.creatorUrl} target="_blank" rel="noopener noreferrer">
+              {image.creator}
+            </a>
+          ) : (
+            image.creator
+          )}{' '}
+          ·{' '}
           <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
             Source ↗
           </a>{' '}
@@ -105,6 +150,11 @@ const references = commercial.references.filter((r) =>
       </p>
     </div>
   </section>
+  <ShopCard
+    product={cardProducts.find((p) => p.id === product.id)!}
+    proofs={nameProofs}
+    client:visible
+  />
   <section class="container section">
     <div class="section-header">
       <div>
@@ -278,6 +328,12 @@ const references = commercial.references.filter((r) =>
     <p>
       Les alias linguistiques ne prouvent ni usage géographique, ni usage culinaire, ni présence en
       boutique. Pour un nom ambigu, consultez toutes les fiches candidates dans la recherche.
+    </p>
+    <p>
+      Explorer les contextes d’appellation :{' '}
+      {[...new Set(names.flatMap((n) => n.countryIds))].map((id) => (
+        <a href={href(`pays/${id.toLowerCase()}/`)}>{id} ↗ </a>
+      ))}
     </p>
     <a class="button secondary" href={href(`contribuer/?product=${product.slug}`)}>
       Contribuer à la bibliothèque

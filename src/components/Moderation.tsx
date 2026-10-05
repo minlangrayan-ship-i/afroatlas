@@ -1,6 +1,7 @@
 import { withLocale } from '../lib/locale-react';
 import { useState, type SyntheticEvent } from 'react';
 import { api, backend, configured, publicEntrySchema } from '../lib/community';
+type Notification = { state: string; attempts: number; error_code: string | null };
 type Row = {
   id: string;
   proposal: Record<string, unknown>;
@@ -8,6 +9,7 @@ type Row = {
   status: string;
   created_at: string;
   review_note: string;
+  contribution_notifications?: Notification | Notification[] | null;
 };
 const emptyEntry = {
   id: '',
@@ -39,8 +41,18 @@ function Moderation() {
     [message, setMessage] = useState(''),
     [photo, setPhoto] = useState(''),
     [busy, setBusy] = useState(false);
+  const selectedNotification = selected?.contribution_notifications;
+  const notification = Array.isArray(selectedNotification)
+    ? selectedNotification[0]
+    : selectedNotification;
   async function load(access: string) {
-    setRows(await api('/rest/v1/contributions?select=*&order=created_at.desc', {}, access));
+    setRows(
+      await api(
+        '/rest/v1/contributions?select=*,contribution_notifications(state,attempts,error_code)&order=created_at.desc',
+        {},
+        access,
+      ),
+    );
   }
   async function login(e: SyntheticEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -89,7 +101,7 @@ function Moderation() {
           productId:
             row.proposal.type === 'new-product'
               ? `community-${row.id}`
-              : String(row.proposal.product || ''),
+              : String(row.proposal.productId || row.proposal.product || ''),
           labelFr: row.proposal.product || '',
           name: row.proposal.name || '',
           country: row.proposal.country || '',
@@ -197,6 +209,10 @@ function Moderation() {
           {selected && (
             <article className="shop-guide">
               <h2>Examiner et modifier</h2>
+              <p>
+                Notification au propriétaire : {notification?.state || 'Non enregistrée'} ·
+                tentatives : {notification?.attempts || 0}
+              </p>
               {photo && (
                 <img className="community-photo" src={photo} alt="Photographie privée à examiner" />
               )}

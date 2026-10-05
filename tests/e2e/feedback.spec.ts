@@ -23,7 +23,7 @@ test('new countries, distinct forms and checked images work on mobile and deskto
           .locator('.photo-open img')
           .evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0),
       ).toBe(true);
-      await expect(page.locator('.photo-credit')).toContainText('CC BY-SA');
+      await expect(page.locator('.product-hero .photo-credit')).toContainText('CC BY-SA');
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
         true,
       );

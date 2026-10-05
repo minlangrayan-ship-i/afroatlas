@@ -3,19 +3,51 @@ export const proposalSchema = z
   .object({
     type: z.enum(['new-product', 'local-name', 'country-region', 'correction', 'photo']),
     product: z.string().max(200),
+    productId: z
+      .string()
+      .regex(/^[a-zA-Z0-9_-]*$/)
+      .max(120)
+      .optional(),
+    productSlug: z
+      .string()
+      .regex(/^[a-z0-9-]*$/)
+      .max(120)
+      .optional(),
     name: z.string().max(200),
     country: z.string().max(100),
+    countryName: z.string().max(100).optional(),
     region: z.string().max(200),
     language: z.string().max(80),
     form: z.string().max(100),
-    description: z.string().min(10).max(3000),
-    source: z.string().min(10).max(2000),
+    description: z.string().max(3000),
+    source: z.string().max(2000),
+    contributorName: z
+      .string()
+      .max(100)
+      .refine((v) => !/[\r\n\x00]/.test(v))
+      .optional(),
+    contributorEmail: z
+      .union([
+        z
+          .email()
+          .max(254)
+          .refine((v) => !/[\r\n]/.test(v)),
+        z.literal(''),
+      ])
+      .optional(),
+    website: z.literal('').optional(),
     photoRights: z.boolean(),
     photoSource: z.string().max(1000),
     photoLicense: z.string().max(100),
     consent: z.literal(true),
   })
   .superRefine((v, c) => {
+    if (v.country === 'autre' && !v.countryName?.trim())
+      c.addIssue({ code: 'custom', message: 'Nom du pays proposé requis' });
+    if (['new-product', 'correction', 'photo'].includes(v.type) && v.description.trim().length < 10)
+      c.addIssue({ code: 'custom', message: 'Précision requise (10 caractères minimum)' });
+    if (v.type === 'local-name' && !v.country.trim())
+      c.addIssue({ code: 'custom', message: 'Pays d’usage requis' });
     if (v.type === 'new-product' && !v.product.trim())
       c.addIssue({ code: 'custom', message: 'Product required' });
     if (v.type === 'local-name' && (!v.product.trim() || !v.name.trim()))
@@ -69,8 +101,10 @@ export function cors(req: Request) {
   if (!allowed.includes(origin)) throw new Error('Origin forbidden');
   return {
     'Access-Control-Allow-Origin': origin,
-    'Access-Control-Allow-Headers': 'authorization,apikey,content-type',
+    'Access-Control-Allow-Headers': 'authorization,apikey,content-type,idempotency-key',
     'Access-Control-Allow-Methods': 'POST,OPTIONS',
     Vary: 'Origin',
+    'Cache-Control': 'no-store',
+    'X-Content-Type-Options': 'nosniff',
   };
 }

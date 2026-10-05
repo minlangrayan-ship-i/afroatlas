@@ -1,0 +1,60 @@
+---
+import Layout from '../components/Layout.astro';
+import { href } from '../lib/links';
+---
+
+<Layout
+  title="Présentation vidéo : reconnaître un produit dans une afroshop"
+  description="Découvrez AfroAtlas en vidéo : retrouver un produit à partir d’un nom connu et comparer les appellations documentées pour échanger avec un vendeur."
+>
+  <section class="container page-intro">
+    <p class="eyebrow">DÉCOUVRIR AFROATLAS</p>
+    <h1>Les noms changent. Le dialogue commence.</h1>
+    <p>La présentation d’AfroAtlas en 1 min 17 s.</p>
+  </section>
+  <section class="container page-body video-section">
+    <video
+      controls
+      playsinline
+      preload="none"
+      width="1280"
+      height="720"
+      poster={href('assets/video/afroatlas-presentation-poster.webp')}
+      aria-label="Vidéo de présentation d’AfroAtlas"
+      aria-describedby="presentation-summary"
+    >
+      <source src={href('assets/video/afroatlas-presentation.mp4')} type="video/mp4" />
+      <track
+        kind="subtitles"
+        src={href('assets/video/afroatlas-presentation-fr.vtt')}
+        srclang="fr"
+        label="Texte à l’écran (FR)"
+      />
+      Votre navigateur ne peut pas lire cette vidéo.{' '}
+      <a href={href('assets/video/afroatlas-presentation.mp4')}>Ouvrir la vidéo MP4</a>.
+    </video>
+    <div id="presentation-summary" class="prose">
+      <h2>Retrouver un produit, se comprendre.</h2>
+      <p>
+        Vous connaissez un ingrédient par un nom local. Le vendeur ou votre interlocuteur utilise
+        une autre appellation. AfroAtlas aide à identifier le produit, puis à consulter les noms
+        attestés dans le pays, la région ou la langue qui vous intéressent.
+      </p>
+      <p>
+        Les photographies, les formes alimentaires et les sources servent de repères. Une
+        appellation manquante reste signalée ; une ressemblance de nom ne crée pas une équivalence.
+      </p>
+      <a class="button" href={href('catalogue/')}>
+        Explorer la bibliothèque ↗
+      </a>
+      <a
+        class="button secondary"
+        href={href('assets/video/afroatlas-presentation.mp4')}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ouvrir la vidéo ↗
+      </a>
+    </div>
+  </section>
+</Layout>

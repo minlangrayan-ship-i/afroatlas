@@ -1,8 +1,8 @@
 import { withLocale } from '../lib/locale-react';
-import { useId, useMemo, useState, type KeyboardEvent } from 'react';
+import { useEffect, useId, useMemo, useState, type KeyboardEvent } from 'react';
 import { searchProducts, emptyFilters } from '../lib/search';
 import type { CardProduct } from '../lib/catalogue';
-import { href } from '../lib/links';
+import { href, productLink } from '../lib/links';
 import { useClientReady } from '../lib/use-client-ready';
 import { useCommunityCatalogue } from '../lib/community-catalogue';
 function SearchBox({
@@ -19,10 +19,18 @@ function SearchBox({
     [open, setOpen] = useState(false),
     [active, setActive] = useState(-1);
   const id = useId();
+  const [debounced, setDebounced] = useState(initial);
+  useEffect(() => {
+    const id = setTimeout(() => setDebounced(value), 120);
+    return () => clearTimeout(id);
+  }, [value]);
   const ready = useClientReady();
   const suggestions = useMemo(
-    () => (value.trim() ? searchProducts(products, { ...emptyFilters, q: value }).slice(0, 5) : []),
-    [value, products],
+    () =>
+      debounced.trim()
+        ? searchProducts(products, { ...emptyFilters, q: debounced }).slice(0, 5)
+        : [],
+    [debounced, products],
   );
   function key(event: KeyboardEvent<HTMLInputElement>) {
     if (event.key === 'ArrowDown') {
@@ -40,7 +48,10 @@ function SearchBox({
     }
     if (event.key === 'Enter' && open && active >= 0 && suggestions[active]) {
       event.preventDefault();
-      window.location.href = href(`produits/${suggestions[active].product.slug}/`);
+      window.location.href = productLink(
+        suggestions[active].product.slug,
+        new URLSearchParams({ q: value }).toString(),
+      );
     }
   }
   return (
@@ -76,6 +87,7 @@ function SearchBox({
           id={id}
           type="search"
           name="q"
+          maxLength={200}
           value={value}
           placeholder="Comment appelez-vous ce produit ?"
           autoComplete="off"
@@ -106,7 +118,7 @@ function SearchBox({
           {suggestions.map(({ product }, i) => (
             <li key={product.id} role="option" id={`${id}-${i}`} aria-selected={active === i}>
               <a
-                href={href(`produits/${product.slug}/`)}
+                href={productLink(product.slug, new URLSearchParams({ q: value }).toString())}
                 className={active === i ? 'selected' : ''}
               >
                 {product.image.role === 'primary' && (

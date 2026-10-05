@@ -1,12 +1,13 @@
 import Fuse from 'fuse.js';
 import type { CardProduct } from './catalogue';
-import { countries, europeanContexts } from '../data/countries';
+import { countries, europeanContexts, languageNames } from '../data/countries';
 import regions from '../data/published/regions.json';
 export const normalize = (text: string) =>
   text
     .normalize('NFD')
     .replace(/\p{Diacritic}/gu, '')
     .toLowerCase()
+    .replace(/[’‘ʼ`]/g, "'")
     .replace(/[-‐‑–—]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -67,7 +68,12 @@ export function searchProducts(
               p.contexts.some((ctx) => ctx.regionIds.includes(r.id)),
           )
           .map((r) => r.name),
-        ...p.names.map((n) => n.localContext),
+        ...p.names.flatMap((n) => [
+          n.localContext,
+          n.languageLabel || '',
+          languageNames[n.languageCode || ''] || '',
+          n.languageCode || '',
+        ]),
         ...p.contexts.map((c) => c.localContext),
       ].map(normalize),
   }));
@@ -112,9 +118,14 @@ export function searchProducts(
         product.names.find((n) => normalize(n.name) === query) ||
         product.names.find((n) => normalize(n.name).includes(query));
       const exact = product.searchTerms.includes(query);
+      const primaryExact = [product.labelFr, product.labelEn || '', product.labelAr || ''].some(
+        (t) => normalize(t) === query,
+      );
+      const prefix = query && product.searchTerms.some((t) => t.startsWith(query));
       return {
         product,
-        score: exact ? -1 : score,
+        score: primaryExact ? -4 : exact ? -3 : prefix ? -2 : score,
+        matchType: primaryExact ? 'exact' : exact ? 'alias' : prefix ? 'prefix' : 'approximate',
         match: query
           ? matched
             ? matched.nameType === 'input'
@@ -122,7 +133,9 @@ export function searchProducts(
               : `Trouvé grâce à l’appellation « ${matched.name} »`
             : normalize(product.scientificName || '').includes(query)
               ? 'Trouvé grâce au nom scientifique'
-              : 'Nom approchant ; confirmez l’identité sur la fiche'
+              : exact
+                ? 'Trouvé grâce au contexte géographique ou à la langue documentée'
+                : 'Nom approchant ; confirmez l’identité sur la fiche'
           : '',
       };
     })

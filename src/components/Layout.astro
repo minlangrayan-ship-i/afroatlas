@@ -3,8 +3,62 @@ import '../styles/global.css';
 import { site } from '../data/site';
 import { href } from '../lib/links';
 import AdSlot from './AdSlot.astro';
-const { title = site.tagline, description = site.description } = Astro.props;
+import UsageConsent from './UsageConsent';
+const pageDescriptions: Record<string, string> = {
+  explorer:
+    'Explorez les pays africains et leurs régions pour retrouver les appellations alimentaires documentées, avec leurs sources et leurs limites.',
+  methodologie:
+    'Comment AfroAtlas distingue produits, formes et appellations, vérifie les sources et signale les ambiguïtés sans inventer d’équivalences.',
+  sources:
+    'Crédits, licences et références des photographies et des données documentaires d’AfroAtlas.',
+  contact:
+    'Contactez le créateur d’AfroAtlas par e-mail pour proposer un partenariat ou une publicité soumise à validation.',
+  presentation:
+    'Découvrez AfroAtlas en vidéo : reconnaître un ingrédient et se comprendre malgré les différences d’appellation.',
+};
+const routeKey = Astro.url.pathname.split('/').filter(Boolean).at(-1) || '';
+const {
+  title = site.tagline,
+  description = pageDescriptions[routeKey] || site.description,
+  image,
+  structuredData = [],
+  breadcrumbs = [],
+  noindex = false,
+} = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
+const utility =
+  /\/(catalogue|favoris|comparer|moderation|contribuer|404|references|produits\/communaute|pays\/communaute)\/?$/;
+const excluded = noindex || utility.test(Astro.url.pathname);
+const sharingImage = new URL(href(image || 'images/afroatlas-share.png'), Astro.site);
+const root = new URL(href(), Astro.site).href;
+const graph = [
+  {
+    '@type': 'WebSite',
+    '@id': root + '#website',
+    name: site.name,
+    url: root,
+    description: site.description,
+    inLanguage: 'fr',
+  },
+  ...(breadcrumbs.length
+    ? [
+        {
+          '@type': 'BreadcrumbList',
+          itemListElement: breadcrumbs.map((b: { name: string; path: string }, i: number) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            name: b.name,
+            item: new URL(href(b.path), Astro.site).href,
+          })),
+        },
+      ]
+    : []),
+  ...structuredData,
+];
+const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(
+  /</g,
+  '\\u003c',
+);
 ---
 
 <!doctype html>
@@ -14,11 +68,34 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>{title} — {site.name}</title>
     <meta name="description" content={description} />
+    <meta
+      name="robots"
+      content={excluded ? 'noindex,follow' : 'index,follow,max-image-preview:large'}
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    {import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION && (
+      <meta
+        name="google-site-verification"
+        content={import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION}
+      />
+    )}
     <link rel="canonical" href={canonical} />
     <meta property="og:title" content={`${title} — ${site.name}`} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:image" content={sharingImage} />
+    <meta
+      property="og:image:alt"
+      content={image ? title : 'AfroAtlas — Un produit, plusieurs noms.'}
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} — ${site.name}`} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={sharingImage} />
+    <script type="application/ld+json" set:html={schema} />
     <link rel="icon" href={href('favicon.svg')} />
     <meta name="theme-color" content={site.palette.green} />
   </head>
@@ -82,6 +159,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <div>
           <h2>Explorer</h2>
           <a href={href('catalogue/')}>La bibliothèque</a>
+          <a href={href('presentation/')}>Présentation vidéo</a>
           <a href={href('explorer/')}>Pays & régions</a>
           <a href={href('references/')}>Références commerciales</a>
         </div>
@@ -95,13 +173,19 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       </div>
       <div class="container footer-bottom">
         <span>Prototype documentaire public · sans compte · mesure d’audience Cloudflare</span>
+        {import.meta.env.PUBLIC_USAGE_METRICS_ENABLED === 'true' && <UsageConsent client:visible />}
       </div>
     </footer>
     <script>
       import '../lib/locale-client';
     </script>
     <!-- Cloudflare Web Analytics -->
-    <script is:inline type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "d870936a42b942f6bb729cbf6f9e7685"}'></script>
+    <script
+      is:inline
+      type="module"
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d870936a42b942f6bb729cbf6f9e7685"}'
+    ></script>
     <!-- End Cloudflare Web Analytics -->
   </body>
 </html>

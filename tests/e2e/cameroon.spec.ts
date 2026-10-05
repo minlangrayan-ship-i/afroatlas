@@ -34,7 +34,7 @@ test('Cameroon corpus exposes regional, historical and ambiguous names on mobile
     );
     await page.goto(base + 'produits/kpem/?lang=ar');
     await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
-    await expect(page.locator('.photo-gap')).not.toContainText('Photo de la forme');
+    await expect(page.locator('.product-hero .photo-gap')).not.toContainText('Photo de la forme');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
       true,
     );

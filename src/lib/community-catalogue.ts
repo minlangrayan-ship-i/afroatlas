@@ -66,6 +66,8 @@ export function mergeApproved(seed: CardProduct[], entries: PublicEntry[]): Card
         localContext: e.region,
         status: 'reviewed',
         evidenceIds: [`community-evidence-${e.id}`],
+        sourceUrl: e.sourceUrl,
+        sourceLocator: e.description,
       });
     if (e.kind === 'photo' && e.photoUrl)
       p.image = {

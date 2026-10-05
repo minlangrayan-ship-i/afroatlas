@@ -1,4 +1,5 @@
 import { z } from 'zod';
+if (typeof window !== 'undefined') z.config({ jitless: true });
 const id = z.string().min(1);
 const ids = z.array(id);
 export const productSchema = z.object({
@@ -48,6 +49,11 @@ export const nameSchema = z.object({
   status: z.enum(['candidate', 'documented', 'reviewed', 'rejected']),
   evidenceIds: ids,
   localContext: z.string().default(''),
+  sourceUrl: z
+    .url()
+    .refine((v) => v.startsWith('https://'))
+    .optional(),
+  sourceLocator: z.string().optional(),
   nameType: z.enum(['common', 'local', 'spelling', 'input', 'scientific']).optional(),
   ambiguity: z.string().optional(),
   languageLabel: z.string().optional(),
@@ -66,6 +72,7 @@ export const imageSchema = z.object({
   height: z.number().positive(),
   altFr: id,
   creator: id,
+  creatorUrl: z.url().optional(),
   sourcePageUrl: z.url(),
   licenseId: id,
   licenseUrl: z.url(),
@@ -80,6 +87,13 @@ export const imageSchema = z.object({
   depictedPart: z.string().optional(),
   visuallyCheckedAt: z.string().optional(),
   visualCheckResult: z.string().optional(),
+  originalUrl: z.url().optional(),
+  format: z.string().optional(),
+  fileSize: z.number().nonnegative().optional(),
+  sha256: z.string().optional(),
+  sortOrder: z.number().nonnegative().optional(),
+  verificationStatus: z.enum(['pending', 'metadata_checked', 'visually_checked']).optional(),
+  metadataCheckedAt: z.string().optional(),
 });
 export const sourceSchema = z.object({
   id,

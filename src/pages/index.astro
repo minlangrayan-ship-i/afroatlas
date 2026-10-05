@@ -99,7 +99,7 @@ const exampleNames = namesFor(hero.id)
       {categories.map((category) => {
         const p = cardProducts.find((p) => p.categoryId === category.id)!;
         return (
-          <a class="category-card" href={href(`catalogue/?category=${category.id}`)}>
+          <a class="category-card" href={href(`categories/${category.id}/`)}>
             {p.image.role === 'primary' ? (
               <img src={href(p.image.smallPath)} alt="" width="400" height="300" loading="lazy" />
             ) : (
@@ -117,6 +117,33 @@ const exampleNames = namesFor(hero.id)
         );
       })}
     </div>
+  </section>
+  <section class="container section presentation-teaser">
+    <div>
+      <p class="eyebrow">DÉCOUVRIR AFROATLAS</p>
+      <h2>Une même envie. Plusieurs façons de la nommer.</h2>
+      <p>
+        Une présentation de 1 min 17 s pour comprendre comment retrouver un produit et échanger avec
+        un vendeur malgré les différences d’appellation.
+      </p>
+      <a class="button secondary" href={href('presentation/')}>
+        Voir la présentation ↗
+      </a>
+    </div>
+    <a
+      href={href('presentation/')}
+      class="video-preview"
+      aria-label="Voir la vidéo de présentation d’AfroAtlas"
+    >
+      <img
+        src={href('assets/video/afroatlas-presentation-poster.webp')}
+        width="1280"
+        height="720"
+        alt="Présentation d’AfroAtlas"
+        loading="lazy"
+      />
+      <span aria-hidden="true">▶ · 1:17</span>
+    </a>
   </section>
   <div class="container">
     <AdSlot location="home-after-categories" />

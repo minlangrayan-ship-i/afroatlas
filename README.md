@@ -16,13 +16,14 @@ npm run preview
 npm run test:e2e
 npm run check:backend
 npm run check:publication
+npm run check:seo
 ```
 
 Le chemin de base est `/afroatlas/`. Pour Playwright : `npx playwright install chromium`, ou définir `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` vers Edge/Chromium. `PLAYWRIGHT_BASE_URL` permet de tester la publication.
 
 ## Données et collecte
 
-50 fiches, 23 pays africains, 862 assertions de noms, 22 contextes locaux documentés, 32 photos principales adaptées à la forme du produit. Les 18 lacunes photographiques sont affichées. Niger/Nigeria restent distincts. Le corpus conserve les alias sans preuve de pays sans leur attribuer une géographie.
+93 fiches, 25 pays africains, 1 021 assertions de noms, 46 contextes locaux documentés, 42 photos principales adaptées à la forme du produit. Les 51 lacunes photographiques sont affichées. Niger/Nigeria restent distincts. Le corpus conserve les alias sans preuve de pays sans leur attribuer une géographie.
 
 ```sh
 npm run import
@@ -31,6 +32,10 @@ node scripts/import/priority-content.mjs
 npm run prepare-data
 npm run validate
 node scripts/report-quality.mjs
+node scripts/import/reviewed-forms.mjs --dry-run
+node scripts/import/reviewed-forms.mjs
+npm run audit:images
+npm run check:import
 ```
 
 L’import initial est taxonomique ; les scripts suivants réappliquent l’enrichissement documentaire et la sélection photographique. Vérifier les sources et formes avant de publier une actualisation. `photo-selection.json` est une sélection examinée, les candidats de recherche ne sont pas automatiquement publiés. Dates/révisions, métadonnées, licences et pointeurs sont conservés. Photos Commons converties en WebP 400/960, aucune image générée. Les limites ADM1 sont millésimées, pas certifiées actuelles.
@@ -53,6 +58,8 @@ Suivre [docs/SUPABASE_SETUP.md](docs/SUPABASE_SETUP.md). Les deux variables publ
 Adresse publique centralisée dans `src/data/site.ts` : contact/partenariats uniquement par email. Aucun réseau publicitaire, traceur, paiement, tarif ou annonceur fictif. Emplacements conservés et inactifs.
 
 Voir [DATA_QUALITY.md](docs/DATA_QUALITY.md), [SOURCES.md](docs/SOURCES.md), [CONTENT_BACKLOG.md](docs/CONTENT_BACKLOG.md) et [VERIFICATION.md](docs/VERIFICATION.md). Tous les rapports consultables n’ont pas une licence ouverte : faits cités et résumés originaux, aucune republication globale de leurs textes. Les collections et photos conservent leurs propres licences.
+
+Le [bilan SEO, UX, sécurité et vidéo du 5 octobre 2026](docs/SEO_UX_VIDEO_REPORT.md) détaille les changements, les mesures de laboratoire et les accès restant à configurer. La [présentation vidéo](https://minlangrayan-ship-i.github.io/afroatlas/presentation/) utilise le fichier fourni, inchangé, et un texte d’accompagnement accessible. La recherche transporte le contexte de l’interlocuteur vers une carte à montrer au vendeur ; elle ne déduit pas la géographie d’une langue.
 
 ## Publication
 

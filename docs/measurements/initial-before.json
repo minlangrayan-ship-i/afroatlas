@@ -1,0 +1,186 @@
+{
+  "protocol": "Edge headless, local production preview, fresh context, no network/CPU throttling, reduced motion, 1.5s observation after load, 3 samples; laboratory only, no field INP",
+  "base": "http://127.0.0.1:4321/afroatlas/",
+  "measurements": [
+    {
+      "width": 390,
+      "route": "",
+      "run": 1,
+      "lcp": 204,
+      "cls": 0,
+      "domContentLoaded": 344.89999997615814,
+      "jsBytes": 126818,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "",
+      "run": 2,
+      "lcp": 152,
+      "cls": 0,
+      "domContentLoaded": 286.2999999523163,
+      "jsBytes": 126818,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "",
+      "run": 3,
+      "lcp": 204,
+      "cls": 0,
+      "domContentLoaded": 253,
+      "jsBytes": 126818,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "produits/gombo/",
+      "run": 1,
+      "lcp": 332,
+      "cls": 0,
+      "domContentLoaded": 344.80000001192093,
+      "jsBytes": 117308,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "produits/gombo/",
+      "run": 2,
+      "lcp": 248,
+      "cls": 0,
+      "domContentLoaded": 240.39999997615814,
+      "jsBytes": 117308,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "produits/gombo/",
+      "run": 3,
+      "lcp": 252,
+      "cls": 0,
+      "domContentLoaded": 290.69999998807907,
+      "jsBytes": 117308,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "catalogue/",
+      "run": 1,
+      "lcp": 212,
+      "cls": 0,
+      "domContentLoaded": 316.5,
+      "jsBytes": 167971,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "catalogue/",
+      "run": 2,
+      "lcp": 136,
+      "cls": 0,
+      "domContentLoaded": 279.5,
+      "jsBytes": 167971,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "catalogue/",
+      "run": 3,
+      "lcp": 180,
+      "cls": 0,
+      "domContentLoaded": 261.69999998807907,
+      "jsBytes": 167971,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "",
+      "run": 1,
+      "lcp": 236,
+      "cls": 0.0008560454861780906,
+      "domContentLoaded": 349.2999999523163,
+      "jsBytes": 126818,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "",
+      "run": 2,
+      "lcp": 164,
+      "cls": 0.0008560454861780906,
+      "domContentLoaded": 302.7000000476837,
+      "jsBytes": 126818,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "",
+      "run": 3,
+      "lcp": 224,
+      "cls": 0.0008560454861780906,
+      "domContentLoaded": 290.30000001192093,
+      "jsBytes": 126818,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "produits/gombo/",
+      "run": 1,
+      "lcp": 220,
+      "cls": 0,
+      "domContentLoaded": 277.80000001192093,
+      "jsBytes": 117308,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "produits/gombo/",
+      "run": 2,
+      "lcp": 208,
+      "cls": 0,
+      "domContentLoaded": 235.19999998807907,
+      "jsBytes": 117308,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "produits/gombo/",
+      "run": 3,
+      "lcp": 204,
+      "cls": 0,
+      "domContentLoaded": 235.10000002384186,
+      "jsBytes": 117308,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "catalogue/",
+      "run": 1,
+      "lcp": 288,
+      "cls": 0,
+      "domContentLoaded": 294.5,
+      "jsBytes": 167971,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "catalogue/",
+      "run": 2,
+      "lcp": 312,
+      "cls": 0,
+      "domContentLoaded": 307.30000001192093,
+      "jsBytes": 167971,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "catalogue/",
+      "run": 3,
+      "lcp": 228,
+      "cls": 0,
+      "domContentLoaded": 243,
+      "jsBytes": 167971,
+      "mediaBytes": 0
+    }
+  ]
+}

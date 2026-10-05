@@ -1,5 +1,6 @@
 import { createClient } from 'npm:@supabase/supabase-js@2.57.4';
 import { entrySchema, proposalSchema, cors } from '../_shared/validation.ts';
+import { boundedJSON } from '../_shared/body.ts';
 Deno.serve(async (req) => {
   let headers: Record<string, string> = {};
   let published: string | null = null;
@@ -19,7 +20,7 @@ Deno.serve(async (req) => {
       .eq('user_id', data.user.id)
       .maybeSingle();
     if (!owner.data) return Response.json({ error: 'Owner only' }, { status: 403, headers });
-    const body = await req.json();
+    const body = (await boundedJSON(req, 20000)) as Record<string, any>;
     if (!['edit', 'accept', 'reject'].includes(body.decision)) throw new Error('Invalid decision');
     const proposal = proposalSchema.parse(body.proposal);
     const row = await admin
@@ -88,7 +89,10 @@ Deno.serve(async (req) => {
   } catch (e) {
     if (published) await admin.storage.from('afroatlas-approved').remove([published]);
     return Response.json(
-      { error: e instanceof Error ? e.message : 'Review failed' },
+      {
+        error:
+          'Décision non enregistrée. Vérifiez les informations, les sources et les droits requis.',
+      },
       { status: 400, headers },
     );
   }

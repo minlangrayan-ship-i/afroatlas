@@ -7,6 +7,7 @@ playwright-report/
 .env*
 !.env.example
 data/raw/cache/*.bin
+data/raw/cache/*.json
 data/research/photos/
 data/research/*.png
 supabase/.temp/

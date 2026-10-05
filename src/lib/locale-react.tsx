@@ -45,7 +45,7 @@ function localize(node: ReactNode, locale: Locale): ReactNode {
   if (
     typeof props.href === 'string' &&
     props.href.startsWith(import.meta.env.BASE_URL) &&
-    !/\.(webp|svg|json|pdf)(\?|$)/.test(props.href)
+    !/\.(webp|svg|json|pdf|png|jpg|mp4|vtt)(\?|$)/.test(props.href)
   ) {
     const url = new URL(props.href, 'https://afroatlas.invalid');
     if (locale !== 'fr') url.searchParams.set('lang', locale);

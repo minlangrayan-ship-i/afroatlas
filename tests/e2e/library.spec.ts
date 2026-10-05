@@ -61,9 +61,9 @@ test('home and responsive catalogue are immediately usable, with real loaded ima
       true,
     );
     await page.getByRole('button', { name: 'Agrandir la photographie' }).click();
-    await expect(page.locator('dialog')).toBeVisible();
+    await expect(page.locator('.photo-dialog')).toBeVisible();
     await page.keyboard.press('Escape');
-    await expect(page.locator('dialog')).not.toBeVisible();
+    await expect(page.locator('.photo-dialog')).not.toBeVisible();
   }
   expect(errors).toEqual([]);
 });
@@ -81,6 +81,9 @@ test('filters persist in URL and back restores results without geographic invent
   await expect(page.locator('.product-card')).toHaveCount(1);
   await expect(page.getByLabel('Contexte d’appellation')).toHaveValue('');
   await page.getByRole('button', { name: 'Réinitialiser' }).click();
+  await expect(page.locator('.product-card')).toHaveCount(24);
+  while (await page.getByRole('button', { name: 'Afficher davantage de fiches' }).count())
+    await page.getByRole('button', { name: 'Afficher davantage de fiches' }).click();
   await expect(page.locator('.product-card')).toHaveCount(catalogueData.products.length);
 });
 test('homonyms retain separate candidates, favorites and comparator persist locally', async ({
@@ -137,7 +140,9 @@ test('names can be copied and contribution service absence is explicit', async (
   await page.goto(url('contribuer/'));
   await expect(page.getByRole('button', { name: 'Envoyer pour validation' })).toBeDisabled();
   await expect(page.locator('.notice')).toContainText('rien n’est envoyé');
-  await page.getByLabel('Type de contribution').selectOption('photo');
+  await page.getByRole('radio', { name: 'Corriger une information' }).check();
+  await page.getByLabel('Information à corriger', { exact: true }).selectOption('photo');
+  await page.locator('.contribution-optional summary').click();
   const file = await readFile('public/images/gombo-shop-400.webp');
   await page
     .getByLabel('Photographie facultative')

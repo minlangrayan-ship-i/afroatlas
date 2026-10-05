@@ -1,0 +1,186 @@
+{
+  "protocol": "Edge headless, local production preview, fresh context, no network/CPU throttling, reduced motion, 1.5s observation after load, 3 samples; laboratory only, no field INP",
+  "base": "http://127.0.0.1:4321/afroatlas/",
+  "measurements": [
+    {
+      "width": 390,
+      "route": "",
+      "run": 1,
+      "lcp": 508,
+      "cls": 0,
+      "domContentLoaded": 980.5999999642372,
+      "jsBytes": 129619,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "",
+      "run": 2,
+      "lcp": 488,
+      "cls": 0,
+      "domContentLoaded": 1249,
+      "jsBytes": 129619,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "",
+      "run": 3,
+      "lcp": 692,
+      "cls": 0,
+      "domContentLoaded": 1139.199999988079,
+      "jsBytes": 129619,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "produits/gombo/",
+      "run": 1,
+      "lcp": 604,
+      "cls": 0,
+      "domContentLoaded": 1146.4000000357628,
+      "jsBytes": 119833,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "produits/gombo/",
+      "run": 2,
+      "lcp": 552,
+      "cls": 0,
+      "domContentLoaded": 1121.800000011921,
+      "jsBytes": 119833,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "produits/gombo/",
+      "run": 3,
+      "lcp": 296,
+      "cls": 0,
+      "domContentLoaded": 696.4000000357628,
+      "jsBytes": 119833,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "catalogue/",
+      "run": 1,
+      "lcp": 676,
+      "cls": 0,
+      "domContentLoaded": 1333.800000011921,
+      "jsBytes": 172457,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "catalogue/",
+      "run": 2,
+      "lcp": 328,
+      "cls": 0,
+      "domContentLoaded": 795.5,
+      "jsBytes": 172457,
+      "mediaBytes": 0
+    },
+    {
+      "width": 390,
+      "route": "catalogue/",
+      "run": 3,
+      "lcp": 916,
+      "cls": 0,
+      "domContentLoaded": 1625.0999999642372,
+      "jsBytes": 172457,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "",
+      "run": 1,
+      "lcp": 616,
+      "cls": 0.0008560454861780906,
+      "domContentLoaded": 1292.699999988079,
+      "jsBytes": 129619,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "",
+      "run": 2,
+      "lcp": 636,
+      "cls": 0.0008560454861780906,
+      "domContentLoaded": 1706.199999988079,
+      "jsBytes": 129619,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "",
+      "run": 3,
+      "lcp": 584,
+      "cls": 0.0008560454861780906,
+      "domContentLoaded": 1235.4000000357628,
+      "jsBytes": 129619,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "produits/gombo/",
+      "run": 1,
+      "lcp": 1744,
+      "cls": 0,
+      "domContentLoaded": 2129.899999976158,
+      "jsBytes": 124137,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "produits/gombo/",
+      "run": 2,
+      "lcp": 688,
+      "cls": 0,
+      "domContentLoaded": 1288.7000000476837,
+      "jsBytes": 124137,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "produits/gombo/",
+      "run": 3,
+      "lcp": 1688,
+      "cls": 0,
+      "domContentLoaded": 2225.099999964237,
+      "jsBytes": 124137,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "catalogue/",
+      "run": 1,
+      "lcp": 1464,
+      "cls": 0,
+      "domContentLoaded": 1625.3999999761581,
+      "jsBytes": 172457,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "catalogue/",
+      "run": 2,
+      "lcp": 1564,
+      "cls": 0,
+      "domContentLoaded": 1902.199999988079,
+      "jsBytes": 172457,
+      "mediaBytes": 0
+    },
+    {
+      "width": 1440,
+      "route": "catalogue/",
+      "run": 3,
+      "lcp": 840,
+      "cls": 0,
+      "domContentLoaded": 1079.800000011921,
+      "jsBytes": 172457,
+      "mediaBytes": 0
+    }
+  ]
+}

@@ -69,11 +69,21 @@ function CommunityDetail() {
           </a>
         </article>
       ) : (
-        <p role="status">
-          {loaded
-            ? 'Cette contribution n’est pas publiée ou le service est indisponible.'
-            : 'Chargement…'}
-        </p>
+        <div>
+          <h1>Fiche communautaire</h1>
+          <p role="status">
+            {loaded
+              ? 'Cette contribution n’est pas publiée ou le service est indisponible.'
+              : 'Chargement…'}
+          </p>
+          <noscript>
+            Le chargement des contributions validées nécessite JavaScript. Le catalogue documentaire
+            reste accessible.
+          </noscript>
+          <a className="text-link" href={href('catalogue/')}>
+            Explorer la bibliothèque ↗
+          </a>
+        </div>
       )}
     </section>
   );

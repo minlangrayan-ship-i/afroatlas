@@ -231,13 +231,13 @@
       "sourceIds": [
         "wikidata-Q2724976"
       ],
-      "imageId": "photo-muscade",
+      "imageId": "form-photo-muscade",
       "formTypes": [
         "graines"
       ],
       "verifiedAt": "2026-10-04",
       "usage": null,
-      "editorialNote": "Photographie de la forme vendue encore recherchée. Une vue botanique ou un spécimen ne remplace pas une photographie principale du produit."
+      "editorialNote": "Photographie principale contrôlée : graines, graines. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires."
     },
     {
       "id": "product-sesame",
@@ -533,13 +533,14 @@
         "wikidata-Q83124",
         "cm-corpus-src-cemac"
       ],
-      "imageId": "photo-manioc",
+      "imageId": "form-photo-manioc",
       "formTypes": [
-        "espèce / ingrédient brut"
+        "espèce / ingrédient brut",
+        "frais"
       ],
       "verifiedAt": "2026-10-04",
       "usage": null,
-      "editorialNote": "Photographie de la forme vendue encore recherchée. Une vue botanique ou un spécimen ne remplace pas une photographie principale du produit.",
+      "editorialNote": "Photographie principale contrôlée : racines tubérisées, frais. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires.",
       "documentaryScope": "organism",
       "corpusIds": [
         "p-cassava"
@@ -1276,13 +1277,13 @@
         "feedback-maniguette",
         "feedback-codex-spices"
       ],
-      "imageId": "photo-gap-maniguette",
+      "imageId": "form-photo-maniguette",
       "formTypes": [
         "graines"
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Épice de la famille des Zingiberaceae. EPPO atteste les noms maniguette et poivre de Guinée. Ce dernier nom peut désigner d’autres épices et ne suffit pas à identifier un achat.",
-      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "editorialNote": "Photographie principale contrôlée : graines, graines. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires.",
       "consumedPart": "graines",
       "verificationStatus": "documented",
       "identityEvidenceIds": [
@@ -1303,13 +1304,13 @@
       "sourceIds": [
         "feedback-spice-thesis"
       ],
-      "imageId": "photo-gap-poivre-sauvage",
+      "imageId": "form-photo-poivre-sauvage",
       "formTypes": [
         "séché"
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Fruits de Piper guineense recensés parmi les épices de la sauce jaune dans l’enquête camerounaise de 2009. Espèce distincte de la maniguette.",
-      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "editorialNote": "Photographie principale contrôlée : fruits, séché. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires.",
       "consumedPart": "fruits",
       "verificationStatus": "documented",
       "identityEvidenceIds": [
@@ -1330,13 +1331,13 @@
       "sourceIds": [
         "feedback-spice-thesis"
       ],
-      "imageId": "photo-gap-poivre-ethiopie",
+      "imageId": "form-photo-poivre-ethiopie",
       "formTypes": [
         "séché"
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Fruits de Xylopia aethiopica cités comme poivre d’Éthiopie dans le tableau des épices camerounaises. Il ne s’agit pas de graines de maniguette.",
-      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "editorialNote": "Photographie principale contrôlée : fruits, séché. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires.",
       "consumedPart": "fruits",
       "verificationStatus": "documented",
       "identityEvidenceIds": [
@@ -1524,13 +1525,13 @@
       "sourceIds": [
         "feedback-macabo"
       ],
-      "imageId": "photo-gap-macabo",
+      "imageId": "form-photo-macabo",
       "formTypes": [
         "frais"
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Aracée cultivée pour ses organes souterrains alimentaires. EPPO avertit que ce nom botanique couvre parfois plusieurs xanthosomas cultivés. Distinct du taro Colocasia esculenta.",
-      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "editorialNote": "Photographie principale contrôlée : cormes et cormelles, frais. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires.",
       "consumedPart": "cormes et cormelles",
       "verificationStatus": "documented",
       "identityEvidenceIds": [
@@ -1551,13 +1552,13 @@
       "sourceIds": [
         "feedback-maize"
       ],
-      "imageId": "photo-gap-mais",
+      "imageId": "form-photo-mais",
       "formTypes": [
         "graines"
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Céréale dont les grains sont consommés entiers ou transformés. Le maïs brut, sa farine et les bouillies comme l’ugali ne sont pas des produits identiques.",
-      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "editorialNote": "Photographie principale contrôlée : grains sur épi et grains séparés, graines. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires.",
       "consumedPart": "grains",
       "verificationStatus": "documented",
       "identityEvidenceIds": [
@@ -1578,13 +1579,13 @@
       "sourceIds": [
         "feedback-groundnut"
       ],
-      "imageId": "photo-gap-arachide",
+      "imageId": "form-photo-arachide",
       "formTypes": [
         "graines"
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Graines alimentaires d’Arachis hypogaea. La fiche distingue la graine brute de la pâte, de l’huile et des préparations grillées.",
-      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "editorialNote": "Photographie principale contrôlée : graines, graines. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires.",
       "consumedPart": "graines",
       "verificationStatus": "documented",
       "identityEvidenceIds": [
@@ -1605,13 +1606,13 @@
       "sourceIds": [
         "feedback-yam"
       ],
-      "imageId": "photo-gap-igname-alata",
+      "imageId": "form-photo-igname-alata",
       "formTypes": [
         "frais"
       ],
       "verifiedAt": "2026-10-04",
       "usage": "Tubercule de Dioscorea alata. Le mot igname désigne plusieurs espèces : cette fiche ne représente pas toutes les ignames. Infonet documente sa commercialisation à Korhogo en Côte d’Ivoire.",
-      "editorialNote": "Les appellations ci-dessous sont limitées à leur contexte. Photo fiable de la forme vendue à venir.",
+      "editorialNote": "Photographie principale contrôlée : tubercule, frais. Elle ne représente pas les autres formes ni une provenance nationale. Les photographies antérieures restent conservées comme compléments documentaires.",
       "consumedPart": "tubercule",
       "verificationStatus": "documented",
       "identityEvidenceIds": [
@@ -2423,7 +2424,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Tabasco peppers.JPG",
-      "description": "Tabasco peppers"
+      "description": "Tabasco peppers",
+      "format": "webp",
+      "fileSize": 59794,
+      "sha256": "a9d528abbc5c18b508c5846a00cc8ced9e923d146ed81367096944a89ee0a1c0",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Tabasco_peppers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-piment-chinense",
@@ -2440,7 +2447,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Habanero chile - fruits (aka).jpg",
-      "description": "This image shows Habanero fruits ( Capsicum chinense )."
+      "description": "This image shows Habanero fruits ( Capsicum chinense ).",
+      "format": "webp",
+      "fileSize": 86216,
+      "sha256": "48d1ce1011cad849fe6f8f48e7808ef90425d94d9c4b3d23864ee95a7374a681",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Habanero_chile_-_fruits_%28aka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-coriandre",
@@ -2661,7 +2674,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Solanum macrocarpon HabitusFruits BotGardBln0906a.JPG",
-      "description": ""
+      "description": "",
+      "format": "webp",
+      "fileSize": 268028,
+      "sha256": "279f5e9e40c7421428695fd04f6bf19aed0683d3aaf475d3d9ceb1265fc87b7f",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Solanum_macrocarpon_HabitusFruits_BotGardBln0906a.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-tomate",
@@ -2695,7 +2714,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Amaranthus cruentus1.jpg",
-      "description": "Species : Amaranthus cruentus Family : Amaranthaceae Image No. 2"
+      "description": "Species : Amaranthus cruentus Family : Amaranthaceae Image No. 2",
+      "format": "webp",
+      "fileSize": 109876,
+      "sha256": "8eb1a8a525cbfc4f31baf7adc002d31acf01f762ce0427ffef84d77c51a53ddd",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Amaranthus_cruentus1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-oseille-guinee",
@@ -2814,7 +2839,12 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "\"Arya\" molokhia Corchorus olitorius Pilangsari 2019 1.jpg",
-      "description": "Corchorus olitorius"
+      "description": "Corchorus olitorius",
+      "format": "webp",
+      "fileSize": 182920,
+      "sha256": "6fbcbd5ced9db6713ed24eb4cffaaef6cac156d83b7db02b9cbdb4a9d7a4967a",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-chou",
@@ -2933,7 +2963,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Oreochromis-niloticus-Nairobi.JPG",
-      "description": "A Nile tilapia photographed at the Snake Park in central Nairobi."
+      "description": "A Nile tilapia photographed at the Snake Park in central Nairobi.",
+      "format": "webp",
+      "fileSize": 75026,
+      "sha256": "eaf4415dca8c650fb403b8292c75ed8bf6f3179cab57af08df7c25834c9c10d2",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Oreochromis-niloticus-Nairobi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-tilapia-mozambique",
@@ -2950,7 +2986,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Oreochromis mossambicus.JPG",
-      "description": "Oreochromis mossambicus or Mozambique Tilapia at the Cincinnati Zoo ."
+      "description": "Oreochromis mossambicus or Mozambique Tilapia at the Cincinnati Zoo .",
+      "format": "webp",
+      "fileSize": 105392,
+      "sha256": "d7b4e71e077876d7588026fee7b3e5348a566f55074ae3430db1b0366559da1f",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Oreochromis_mossambicus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-sardinelle-ronde",
@@ -2967,7 +3009,12 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Sardinella aurita New Jersey.jpg",
-      "description": "Sardinella aurita , New Jersey, USA"
+      "description": "Sardinella aurita , New Jersey, USA",
+      "format": "webp",
+      "fileSize": 45068,
+      "sha256": "cb0286febea9e8eb20216a0164af3a00bb643e88de7848bdc60f9d60182f8608",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-sardinelle-plate",
@@ -2984,7 +3031,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Sardinella maderensis.jpg",
-      "description": "Sardinella maderensis collected in Sicily (southern Italy) Photo by Francesco La Piana"
+      "description": "Sardinella maderensis collected in Sicily (southern Italy) Photo by Francesco La Piana",
+      "format": "webp",
+      "fileSize": 28040,
+      "sha256": "b7b06f1bdab6e6976426352d7d225382ce658d7248ae662b8b5a0443a47a25a5",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sardinella_maderensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-maquereau-atlantique",
@@ -3001,7 +3054,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Scomber scombrus.jpg",
-      "description": "Mackerel, caught close to the western edge of the Belgian part of the North Sea, Belgium."
+      "description": "Mackerel, caught close to the western edge of the Belgian part of the North Sea, Belgium.",
+      "format": "webp",
+      "fileSize": 28070,
+      "sha256": "866120f8902f8a404ff9b21f33896f8a67506b508442d4bb7808c1dd24860dbd",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Scomber_scombrus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-maquereau-espagnol",
@@ -3018,7 +3077,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Lanzardo 2.jpg",
-      "description": "Scomber colias, specimen photographed in Liguria, Italy"
+      "description": "Scomber colias, specimen photographed in Liguria, Italy",
+      "format": "webp",
+      "fileSize": 113434,
+      "sha256": "8f16ec83e9863af249d38268f7955d1a719d9466681127c40a71dc009908214c",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Lanzardo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-perche-nil",
@@ -3035,7 +3100,13 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Lates niloticus.jpg",
-      "description": "Lates niloticus - Nile perch (also African snook, Capitaine, Victoria perch)"
+      "description": "Lates niloticus - Nile perch (also African snook, Capitaine, Victoria perch)",
+      "format": "webp",
+      "fileSize": 153958,
+      "sha256": "2d67899b8a61bfcb410ff1a51167164ce59133d78099d3465e3ae39bd2386b90",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Lates_niloticus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-eru",
@@ -3155,8 +3226,8 @@
       "id": "photo-gap-menthe",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photographie de cette forme non documentée",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6441794/",
@@ -3168,14 +3239,19 @@
       "title": "Photographie recherchée",
       "description": "Lacune photographique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-ndole",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photographie de cette forme non documentée",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://plantuse.plantnet.org/en/Vernonia_amygdalina_(PROTA)",
@@ -3187,14 +3263,19 @@
       "title": "Photographie recherchée",
       "description": "Lacune photographique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-bissap-feuilles",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photographie de cette forme non documentée",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://microdata.fao.org/index.php/catalog/2418/variable/V3202?name=Q2_22A_0__4",
@@ -3206,14 +3287,19 @@
       "title": "Photographie recherchée",
       "description": "Lacune photographique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-gombo-poudre",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photographie de cette forme non documentée",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://www.fao.org/fileadmin/templates/olq/files/generaldoc/Mali.pdf",
@@ -3225,7 +3311,12 @@
       "title": "Photographie recherchée",
       "description": "Lacune photographique",
       "role": "complementary",
-      "depictedForm": "poudre"
+      "depictedForm": "poudre",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "slug": "muscade",
@@ -3288,7 +3379,17 @@
       "title": "Oklahoma-grown okra.jpg",
       "description": "I usually harvest this amount of okra every other day.",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 104052,
+      "sha256": "5eb181ba74eb5fd2c86b8053a5e8970bfb5673141c30e514323a6690410e57f2",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Oklahoma-grown_okra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-gombo",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "gingembre",
@@ -3309,7 +3410,17 @@
       "title": "Fresh ginger rhizome 01.jpg",
       "description": "Fresh ginger rhizome",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 197846,
+      "sha256": "a4dfcdb18d99025c78aec77a0a16d132e22d77b0380cf6bd00fbb7bab41258ca",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Fresh_ginger_rhizome_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-gingembre",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "curcuma",
@@ -3330,7 +3441,17 @@
       "title": "Kunyit Bubuk.jpg",
       "description": "Curcuma Longa as an anti-inflammatory is useful for reducing arthritis symptoms, increasing immune function, reducing cardiovascular complications and can also prevent and treat Alzheimer's.",
       "role": "primary",
-      "depictedForm": "poudre"
+      "depictedForm": "poudre",
+      "format": "webp",
+      "fileSize": 146386,
+      "sha256": "77a18c8fadd6f4a6bf27ffc939f90850fa4b12e66ad8109061f974b65ba735ff",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Kunyit_Bubuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-curcuma",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "coriandre",
@@ -3351,7 +3472,17 @@
       "title": "Bunches of coriander leaves.jpg",
       "description": "Bunches of fresh coriander leaves",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 142054,
+      "sha256": "5249875524559a2f6d5cab54a369f7321778115a056b521de64334cd1ecb5c88",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Bunches_of_coriander_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-coriandre",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "fenugrec",
@@ -3372,7 +3503,17 @@
       "title": "Fenugreek Seeds 01.jpg",
       "description": "How to make Fenugreek Spinach Discs",
       "role": "primary",
-      "depictedForm": "graines"
+      "depictedForm": "graines",
+      "format": "webp",
+      "fileSize": 169292,
+      "sha256": "a11925209508291fc6d81fb0992e9630f1a47528e99b1ff965014a372af31323",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Fenugreek_Seeds_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-fenugrec",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "fenouil",
@@ -3393,7 +3534,17 @@
       "title": "Fennel seeds 01.jpg",
       "description": "Fennel seeds",
       "role": "primary",
-      "depictedForm": "graines"
+      "depictedForm": "graines",
+      "format": "webp",
+      "fileSize": 133488,
+      "sha256": "82c857bd94e380957e524193dd4d162504f3ab6dc622812f033a05b8e147ab15",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Fennel_seeds_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-fenouil",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "clou-girofle",
@@ -3414,7 +3565,17 @@
       "title": "Clove close up.jpg",
       "description": "Close-up macro image of the spice Clove ( Syzygium aromaticum ).",
       "role": "primary",
-      "depictedForm": "séché"
+      "depictedForm": "séché",
+      "format": "webp",
+      "fileSize": 64210,
+      "sha256": "2246903ef4869c84490efa0ebc98717c8018e17aff6192553e64ca7f9bb7e4c0",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Clove_close_up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-clou-girofle",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "cardamome",
@@ -3435,7 +3596,17 @@
       "title": "Green Cardamom Pods.jpg",
       "description": "Whole, dried green cardamom pods from Tamil Nadu, India in a bowl.",
       "role": "primary",
-      "depictedForm": "séché"
+      "depictedForm": "séché",
+      "format": "webp",
+      "fileSize": 157506,
+      "sha256": "1ef66520ecc3fc0c663450c5c470536e9670de62737b9d0cfc067568fd16832e",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Green_Cardamom_Pods.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-cardamome",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "sesame",
@@ -3456,7 +3627,17 @@
       "title": "Sa white sesame seeds.jpg",
       "description": "Magnified image of white sesame seeds",
       "role": "primary",
-      "depictedForm": "graines"
+      "depictedForm": "graines",
+      "format": "webp",
+      "fileSize": 96794,
+      "sha256": "37f6e9f900e8df8be746ed632a94b8576e9ccecd8c1ce5eca596b10b3c147060",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sa_white_sesame_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-sesame",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "tamarin",
@@ -3477,7 +3658,17 @@
       "title": "Tamarind Pods (5201031112).jpg",
       "description": "Bagged tamarind pods and lemons.",
       "role": "primary",
-      "depictedForm": "gousses"
+      "depictedForm": "gousses",
+      "format": "webp",
+      "fileSize": 67650,
+      "sha256": "dc6107e3c1a3b3bffcb815285d56c16a4173d60d9ace3ac9a1642737a20da2c0",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tamarind_Pods_%285201031112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-tamarin",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "ail",
@@ -3498,7 +3689,17 @@
       "title": "Garlic bulbs and cloves.jpg",
       "description": "Garlic bulbs and cloves",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 60508,
+      "sha256": "10e42fdc4e164b6ba109b8e8539e22bd58a4fb3b5788a67e80293a7d798913a0",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Garlic_bulbs_and_cloves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-ail",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "oignon",
@@ -3519,7 +3720,17 @@
       "title": "Onion on White.JPG",
       "description": "An onion on a white background.",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 105462,
+      "sha256": "18dfdda346067dca58153748abbf2c3792737186f414f9447f72e32263766fb6",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Onion_on_White.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-oignon",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "aubergine",
@@ -3540,7 +3751,17 @@
       "title": "3 x Curved Orient Charm eggplant 2017.jpg",
       "description": "3 x Curved Orient Charm eggplant",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 25452,
+      "sha256": "5ec25064b49b933dbc112488b98008efa79a6ba362dd465d4e7bae97c2743674",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/3_x_Curved_Orient_Charm_eggplant_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-aubergine",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "aubergine-africaine",
@@ -3561,7 +3782,17 @@
       "title": "Solanum aethiopicum at market Arusha.JPG",
       "description": "Solanum aethiopicum at market Arusha. Fruits for human consumption",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 97586,
+      "sha256": "507a0fb3bd28f51601a1c1011438f1cb425440e0bf3bf6e5612495a00930a944",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Solanum_aethiopicum_at_market_Arusha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-aubergine-africaine",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "tomate",
@@ -3582,7 +3813,17 @@
       "title": "Picture of buckets of Fresh tomatoes at fruit garden market port harcourt.jpg",
       "description": "fresh tomatoes for sale at fruit garden market Dline port harcourt",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 134832,
+      "sha256": "2b7ef50dd77946693a7bcf305109cb0adc047fb7ad1bc71bd42388b16d3d65eb",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Picture_of_buckets_of_Fresh_tomatoes_at_fruit_garden_market_port_harcourt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-tomate",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "patate-douce",
@@ -3603,7 +3844,17 @@
       "title": "Pile of Sweet Potatoes at Barkin Dogo Market, Kaduna North 01.jpg",
       "description": "Pile of Sweet Potatoes at Barkin Dogo Market, Kaduna North",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 199244,
+      "sha256": "1d8e22fb8464d5e7022c8b4a6c4175be57709906f5e57618d2a66a4b811576b6",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pile_of_Sweet_Potatoes_at_Barkin_Dogo_Market%2C_Kaduna_North_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-patate-douce",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "taro",
@@ -3624,7 +3875,17 @@
       "title": "Taro corms 2.jpg",
       "description": "",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 93952,
+      "sha256": "f6d780c68a7e6cad715f15bd44575550e8f027923d238dc18184f0e007eff1fe",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Taro_corms_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-taro",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "moringa",
@@ -3645,7 +3906,17 @@
       "title": "Moringa leaves powder.jpg",
       "description": "Immunity booster",
       "role": "primary",
-      "depictedForm": "poudre"
+      "depictedForm": "poudre",
+      "format": "webp",
+      "fileSize": 68732,
+      "sha256": "95a2e13095eb4d812bdf788b10b830da0fbedff8421c2ee7ac943c3f02833278",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Moringa_leaves_powder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-moringa",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "carotte",
@@ -3666,7 +3937,17 @@
       "title": "Carrots roots.jpg",
       "description": "This is an image with the theme \" Farm to Plate \" from:",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 173968,
+      "sha256": "67a9ca8411e3d8bfd4635c0d9d3b565f8acf2d552430666ffda97ae3c280f720",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Carrots_roots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-carotte",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "concombre",
@@ -3687,7 +3968,17 @@
       "title": "Cucumber from Denmark.jpg",
       "description": "Danish cucumber",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 23294,
+      "sha256": "0b931abf3d276925bfdfbc0e46041f5dfcf51425120f50b62f49a5c840e01b5a",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cucumber_from_Denmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-concombre",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "courge-mosquee",
@@ -3708,7 +3999,17 @@
       "title": "Cucurbita moschata Butternut 2012 G1.jpg",
       "description": "Butternut squash, cultivar variety of Cucurbita moschata , ripe fruits. Ukraine.",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 189204,
+      "sha256": "9ddec802aa5c667404c0da0c7144f0b44dd73ac1cbce812caf8e936b70a5fca2",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cucurbita_moschata_Butternut_2012_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-courge-mosquee",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "laitue",
@@ -3729,7 +4030,17 @@
       "title": "Lettuce in a stack.jpg",
       "description": "Lettuce heads in a stack at a grocery store.",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 108420,
+      "sha256": "a340c86a2e485d2272531af50d0fb02d1507bfaf01ec3c68306f112df1fe15f9",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lettuce_in_a_stack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-laitue",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "epinard",
@@ -3773,7 +4084,17 @@
       "title": "Mfumbwa - Gnetum africanum, leaves bundle and chopped.jpg",
       "description": "A bundle of fresh Mfumbwa - leaves of the forest vine Gnetum africanum as sold in central Africa markets. Because the leaves are a bit tough, they are chopped first. The chopping is somewhat unique - very fine and usually done by the vendor at the market for the customer. Traditionally cooked in a peanut butter sauce. Mfumbwa is a Kongo dialect name. The recipe name can vary between local languages in the central Africa Congo region where the vine Gentem africanum can be harvested.",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 87884,
+      "sha256": "77e41411c1b68b21901d5a04c1f6c81aeb11bf5056fdfe78314b8eeff3774dda",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mfumbwa_-_Gnetum_africanum%2C_leaves_bundle_and_chopped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-eru",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "soumbala",
@@ -3794,7 +4115,17 @@
       "title": "Soumbala 2025.jpg",
       "description": "This is an image with the theme \" Farm to Plate \" from:",
       "role": "primary",
-      "depictedForm": "fermenté"
+      "depictedForm": "fermenté",
+      "format": "webp",
+      "fileSize": 105368,
+      "sha256": "fa6c000eb30a07947d8e75b2adbad6c2b9e018d4501f7a7d3ea5f329b8ea7241",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Soumbala_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-soumbala",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "safran",
@@ -3815,7 +4146,17 @@
       "title": "Iran saffron threads.jpg",
       "description": "Iranian saffron threads",
       "role": "primary",
-      "depictedForm": "séché"
+      "depictedForm": "séché",
+      "format": "webp",
+      "fileSize": 107652,
+      "sha256": "30a44ef9cf57d90aa7b347426cd3f410c7159cb3a1adb6fb414aa7d0e39ef26d",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Iran_saffron_threads.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-safran",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "baobab",
@@ -3836,7 +4177,17 @@
       "title": "Cymbium marmoratum shell scoop for lalo - baobab green leaf powder.jpg",
       "description": "Shell of the Cymbium marmoratum, salt-water mollusk, in Senegal called 'yet' in the Wolof language, here being used as a handy kitchen scoop to add green 'lalo'(also seen as laalo) - dry green leaf baobab powder of the Adansonia digitata baobab tree, to a large wooden bowl of hot, steamed thièré - a millet-flour couscous. Note: there are two kinds of baobab 'lalo' powder; one is made from the dried green leaves (green in color) called 'lalo n'akh' (also spelled as 'ngakh') and the other made from the dried sap (pinkish in color), called 'lalo mbep'. (Here provided in Wolof, but names vary between languages) Both are used in thièré couscous, but in slightly different ways; preferences are very much to the household family recipes. It is easy to tell which lalo powder was used in the thièré couscous by whether it has a green shade to it or reddish. The edible flesh of C. marmoratum or 'yet' is removed from the shell, salted and sun-dried, then cut into chunks and sold as a flavoring for many popular Senegalese dishes. The plentiful, large discarded shells are ubiquitous along the sea coast, helpful for all sorts of tasks; scoop, ashtray, scraper, decoration. This millet couscous shown is a specialty of Joal-Fadiouth community in Senegal for its use of salty sea water in the couscous recipe; the ground covered by sea shells is distinctive to Joal-Fadiouth, Senegal.",
       "role": "primary",
-      "depictedForm": "poudre"
+      "depictedForm": "poudre",
+      "format": "webp",
+      "fileSize": 123732,
+      "sha256": "04c626793626bba9a01fb0fcb16c731e73baa4e0c8e2a2d3a5e2571760fb03cf",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Cymbium_marmoratum_shell_scoop_for_lalo_-_baobab_green_leaf_powder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-baobab",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "cumin",
@@ -3857,7 +4208,17 @@
       "title": "Whole Cumin Seeds.jpg",
       "description": "Whole, dried cumin seeds in a bowl.",
       "role": "primary",
-      "depictedForm": "graines"
+      "depictedForm": "graines",
+      "format": "webp",
+      "fileSize": 178062,
+      "sha256": "169971c73cfe819d5f92d4d67cd4430fb12c13b5ede2071ad4a3c638cd66c0e8",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Whole_Cumin_Seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-cumin",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "njansang",
@@ -3878,7 +4239,17 @@
       "title": "Njansang.jpg",
       "description": "Njangsa/Njangsang for sale. Ricinodendron heudelotii",
       "role": "primary",
-      "depictedForm": "graines"
+      "depictedForm": "graines",
+      "format": "webp",
+      "fileSize": 12984,
+      "sha256": "4fcaae3547a66c1f425bb3821dca94efd70170fa8e88dfcc2b2bd23591757ae4",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Njansang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-njansang",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "niebe",
@@ -3899,7 +4270,17 @@
       "title": "Black eyed peas food.jpg",
       "description": "black eyed peas food",
       "role": "primary",
-      "depictedForm": "graines"
+      "depictedForm": "graines",
+      "format": "webp",
+      "fileSize": 75328,
+      "sha256": "4621c0600eb4da8f5cf9f398602603e629ed6ad880ee2f7068a2a1fceb19815b",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Black_eyed_peas_food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-niebe",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "slug": "oseille-guinee",
@@ -3924,7 +4305,14 @@
       "depictedPart": "calices",
       "depictedProductId": "product-oseille-guinee",
       "visuallyCheckedAt": "2026-10-04",
-      "visualCheckResult": "Calices rouges séchés inspectés ; forme conforme, pas des feuilles."
+      "visualCheckResult": "Calices rouges séchés inspectés ; forme conforme, pas des feuilles.",
+      "format": "webp",
+      "fileSize": 125026,
+      "sha256": "fa7359f27de841e1c7f54a698ce6d11bf7a6175b26c4751c23bc14468325bec6",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hibiscus_sabdariffa_dried.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
     },
     {
       "slug": "chou",
@@ -3945,14 +4333,24 @@
       "title": "Fresh Cabbage vegetables.jpg",
       "description": "This is an image with the theme \" Farm to Plate \" from:",
       "role": "primary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "webp",
+      "fileSize": 340200,
+      "sha256": "8159197606d203da00af9c73e79ce3cce4a17efb02fc58bf2a7c66e30bf72d63",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fresh_Cabbage_vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "depictedProductId": "product-chou",
+      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
+      "visuallyCheckedAt": "2026-10-05"
     },
     {
       "id": "photo-gap-waterleaf",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1022555-2",
@@ -3964,7 +4362,12 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-pebe",
@@ -3989,8 +4392,8 @@
       "id": "photo-gap-rondelle",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10270934/",
@@ -4002,14 +4405,19 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "graines"
+      "depictedForm": "graines",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-quatre-cotes",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://docnum.univ-lorraine.fr/public/INPL_2009_ABDOU_BOUBA_A.pdf",
@@ -4021,7 +4429,12 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "séché"
+      "depictedForm": "séché",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-maniguette",
@@ -4084,8 +4497,8 @@
       "id": "photo-gap-managu",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://infonet-biovision.org/indigenous-plants/african-nightshade-revised",
@@ -4097,14 +4510,19 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-amarantes-feuilles",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://infonet-biovision.org/indigenous-plants/amaranth-revised",
@@ -4116,14 +4534,19 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-saga",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://infonet-biovision.org/sites/default/files/pdf/indigenous_veg_production_suba_district_ouma.pdf",
@@ -4135,14 +4558,19 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-niebe-feuilles",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://infonet-biovision.org/indigenous-plants/cowpea-revised",
@@ -4154,14 +4582,19 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-manioc-feuilles",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://infonet-biovision.org/indigenous-plants/cassava-leaves-new",
@@ -4173,14 +4606,19 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-sukuma-feuilles",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://infonet-biovision.org/crops-fruits-vegetables/cabbagekalesother-brassicas-revised",
@@ -4192,7 +4630,12 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "frais"
+      "depictedForm": "frais",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "photo-gap-macabo",
@@ -4274,8 +4717,8 @@
       "id": "photo-gap-folere-boisson",
       "localPath": "/favicon.svg",
       "smallPath": "/favicon.svg",
-      "width": 100,
-      "height": 100,
+      "width": 64,
+      "height": 64,
       "altFr": "Photo fiable de cette forme à venir",
       "creator": "Sans photographie principale",
       "sourcePageUrl": "https://issr-journals.org/links/papers.php?application=pdf&article=IJIAS-14-256-07&journal=ijias",
@@ -4287,7 +4730,12 @@
       "title": "Photographie recherchée",
       "description": "Photo de produit récolté ou vendu recherchée ; aucun substitut générique",
       "role": "complementary",
-      "depictedForm": "boisson"
+      "depictedForm": "boisson",
+      "format": "svg",
+      "fileSize": 277,
+      "sha256": "d44997d805eb4c769193bc61ed288c58eb6b0b2265fab7ff6da886e44538ef5f",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "reviewed-photo-epinard",
@@ -4310,7 +4758,14 @@
       "depictedPart": "feuilles",
       "depictedProductId": "product-epinard",
       "visuallyCheckedAt": "2026-10-04",
-      "visualCheckResult": "Feuilles récoltées ; morphologie compatible et identification de la page source vérifiée. Pas une expertise sur spécimen."
+      "visualCheckResult": "Feuilles récoltées ; morphologie compatible et identification de la page source vérifiée. Pas une expertise sur spécimen.",
+      "format": "webp",
+      "fileSize": 115240,
+      "sha256": "63d77cdca8fec8442f1096767b37198418c53a4ca1cc10d9eed7ba4cedc436c9",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Spinach_leaves.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
     },
     {
       "id": "reviewed-photo-pebe",
@@ -4333,7 +4788,14 @@
       "depictedPart": "graines / amandes",
       "depictedProductId": "product-pebe",
       "visuallyCheckedAt": "2026-10-04",
-      "visualCheckResult": "Graine entière et amande visibles ; identification source Monodora myristica et licence confirmées. Artefacts de détourages présents dans l’original."
+      "visualCheckResult": "Graine entière et amande visibles ; identification source Monodora myristica et licence confirmées. Artefacts de détourages présents dans l’original.",
+      "format": "webp",
+      "fileSize": 118638,
+      "sha256": "aae0ca207af7c939c58766f3d9feb03ece177301a07e31391938082cda22d4aa",
+      "sortOrder": 0,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Monodora_myristica_seeds.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
     },
     {
       "id": "cm-photo-pending-p-monodora",
@@ -4352,7 +4814,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-ricino",
@@ -4371,7 +4838,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-dacryodes",
@@ -4390,7 +4862,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-irvingia",
@@ -4409,7 +4886,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-clarias",
@@ -4428,7 +4910,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-heterobranchus",
@@ -4447,7 +4934,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-carp",
@@ -4466,7 +4958,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-heterotis",
@@ -4485,7 +4982,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-hemichromis",
@@ -4504,7 +5006,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-parachanna",
@@ -4523,7 +5030,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-cod",
@@ -4542,7 +5054,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-mackerel",
@@ -4561,7 +5078,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-croaker",
@@ -4580,7 +5102,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-fish-barbus",
@@ -4599,7 +5126,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-hibiscus",
@@ -4618,7 +5150,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-maize",
@@ -4637,7 +5174,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-yam",
@@ -4656,7 +5198,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-potato",
@@ -4675,7 +5222,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-plantain",
@@ -4694,7 +5246,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-ocimum",
@@ -4713,7 +5270,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-njama-leaves",
@@ -4732,7 +5294,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-kpem",
@@ -4751,7 +5318,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-baobab",
@@ -4770,7 +5342,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-mango",
@@ -4789,7 +5366,12 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     },
     {
       "id": "cm-photo-pending-p-purslane",
@@ -4808,7 +5390,283 @@
       "title": "Photographie à documenter",
       "description": "Aucune image empruntée au corpus ni générée.",
       "role": "complementary",
-      "depictedForm": "non documentée"
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
+    },
+    {
+      "id": "form-photo-muscade",
+      "localPath": "/images/muscade-form-960.webp",
+      "smallPath": "/images/muscade-form-400.webp",
+      "width": 960,
+      "height": 733,
+      "altFr": "Muscadier / noix de muscade — graines, graines",
+      "creator": "David Monniaux",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nutmeg_p1160003.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Nutmeg_p1160003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "David Monniaux · Nutmeg p1160003.jpg · CC BY-SA 3.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Nutmeg p1160003.jpg",
+      "description": "Nutmeg",
+      "role": "primary",
+      "depictedForm": "graines",
+      "depictedPart": "graines",
+      "depictedProductId": "product-muscade",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Graine entière de noix de muscade, photographiée isolément ; ni arbre ni poudre.",
+      "format": "webp",
+      "fileSize": 109396,
+      "sha256": "aba03dc9b1f665b5bc2885977e55d8df1c7064adfa87911d823db856787e62c6",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "form-photo-maniguette",
+      "localPath": "/images/maniguette-form-960.webp",
+      "smallPath": "/images/maniguette-form-400.webp",
+      "width": 960,
+      "height": 701,
+      "altFr": "Maniguette — grains de paradis — graines, graines",
+      "creator": "Lemmikkipuu",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Aframomum_melegueta.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Aframomum_melegueta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Lemmikkipuu · Aframomum melegueta.jpg · CC BY-SA 3.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Aframomum melegueta.jpg",
+      "description": "Aframomum melegueta seeds.",
+      "role": "primary",
+      "depictedForm": "graines",
+      "depictedPart": "graines",
+      "depictedProductId": "product-maniguette",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Graines séparées, identifiées Aframomum melegueta dans la source.",
+      "format": "webp",
+      "fileSize": 42118,
+      "sha256": "d1a95bd30f30c501e3f49d06e18605dabd84ace423857731e6b63b53eeb0c585",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "form-photo-poivre-sauvage",
+      "localPath": "/images/poivre-sauvage-form-960.webp",
+      "smallPath": "/images/poivre-sauvage-form-400.webp",
+      "width": 960,
+      "height": 914,
+      "altFr": "Poivre sauvage — fruits de Piper guineense — fruits, séché",
+      "creator": "User:Fornax",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ashanti_pepper_dried_fruit.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ashanti_pepper_dried_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "User:Fornax · Ashanti pepper dried fruit.jpg · CC BY-SA 3.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Ashanti pepper dried fruit.jpg",
+      "description": "Ashanti pepper (dried fruit)",
+      "role": "primary",
+      "depictedForm": "séché",
+      "depictedPart": "fruits",
+      "depictedProductId": "product-poivre-sauvage",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Fruits séchés de poivre de Guinée selon la page source ; ne représente pas des feuilles.",
+      "format": "webp",
+      "fileSize": 177716,
+      "sha256": "7aa2d0c10c697e7a1ce18b07c0ec516885369ee0cf836526174e614272ac89f4",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "form-photo-poivre-ethiopie",
+      "localPath": "/images/poivre-ethiopie-form-960.webp",
+      "smallPath": "/images/poivre-ethiopie-form-400.webp",
+      "width": 912,
+      "height": 752,
+      "altFr": "Poivre d’Éthiopie — fruits de Xylopia — fruits, séché",
+      "creator": "stephenbuchan",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Xylopiaaethiopica.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Xylopiaaethiopica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "stephenbuchan · Xylopiaaethiopica.jpg · CC BY 2.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Xylopiaaethiopica.jpg",
+      "description": "",
+      "role": "primary",
+      "depictedForm": "séché",
+      "depictedPart": "fruits",
+      "depictedProductId": "product-poivre-ethiopie",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Fruits allongés séchés de Xylopia aethiopica selon la source ; ne représente pas de la poudre. Auteur et permission CC BY 2.0 confirmés dans Summary et Permission to use photo de la page Commons.",
+      "format": "webp",
+      "fileSize": 115948,
+      "sha256": "0dc86f26648b7e0aabf4359514b9188b822f4318218a02601e60bd7638edb6b9",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05",
+      "creatorUrl": "https://www.flickr.com/photos/stephenbuchan/"
+    },
+    {
+      "id": "form-photo-macabo",
+      "localPath": "/images/macabo-form-960.webp",
+      "smallPath": "/images/macabo-form-400.webp",
+      "width": 960,
+      "height": 1280,
+      "altFr": "Macabo — cormes de Xanthosoma — cormes et cormelles, frais",
+      "creator": "Le Zeno",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Macabo.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Macabo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Le Zeno · Macabo.jpg · CC BY-SA 4.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Macabo.jpg",
+      "description": "Macabo encore appelé Xanthosoma sagittifolium",
+      "role": "primary",
+      "depictedForm": "frais",
+      "depictedPart": "cormes et cormelles",
+      "depictedProductId": "product-macabo",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Cormes et cormelles récoltés, identifiés comme macabo par la page source. Identification botanique indépendante non revendiquée.",
+      "format": "webp",
+      "fileSize": 260220,
+      "sha256": "9eec2451a2c88ef0db7225f08a36889532b8c151880a2125a6f646ed9ff0aae6",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "form-photo-mais",
+      "localPath": "/images/mais-form-960.webp",
+      "smallPath": "/images/mais-form-400.webp",
+      "width": 960,
+      "height": 620,
+      "altFr": "Maïs — grains — grains sur épi et grains séparés, graines",
+      "creator": "Roger Culos",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zea_mays_%27Ottofile_giallo_Tortonese%27_MHNT.BOT.2015.34.1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Zea_mays_%27Ottofile_giallo_Tortonese%27_MHNT.BOT.2015.34.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Roger Culos · Zea mays 'Ottofile giallo Tortonese' MHNT.BOT.2015.34.1.jpg · CC BY-SA 3.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Zea mays 'Ottofile giallo Tortonese' MHNT.BOT.2015.34.1.jpg",
+      "description": "Zea mays 'Ottofile giallo Tortonese', , seeds",
+      "role": "primary",
+      "depictedForm": "graines",
+      "depictedPart": "grains sur épi et grains séparés",
+      "depictedProductId": "product-mais",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Photographie documentaire du MHNT : épi et grains du cultivar Ottofile giallo Tortonese. Exemple de grains de maïs, pas illustration de toutes les variétés.",
+      "format": "webp",
+      "fileSize": 37812,
+      "sha256": "01e956aec65cd525c5fff91d83bd697b8bedbeb0dd2178a1f3a22dfe98f3ad2c",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "form-photo-arachide",
+      "localPath": "/images/arachide-form-960.webp",
+      "smallPath": "/images/arachide-form-400.webp",
+      "width": 960,
+      "height": 570,
+      "altFr": "Arachide — graines — graines, graines",
+      "creator": "Le Zeno",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Graines_d%27arachides.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Graines_d%27arachides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Le Zeno · Graines d'arachides.jpg · CC BY-SA 4.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Graines d'arachides.jpg",
+      "description": "images présentant l'exposition vente des graines d'arachides",
+      "role": "primary",
+      "depictedForm": "graines",
+      "depictedPart": "graines",
+      "depictedProductId": "product-arachide",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Graines d’arachide en vente, séparées de leurs coques ; ne représente ni beurre ni farine.",
+      "format": "webp",
+      "fileSize": 128930,
+      "sha256": "5abe2ab46e9e2d037ff3e2f8ea58a06fff33836d2b7724d577250b0b5e64d345",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "form-photo-igname-alata",
+      "localPath": "/images/igname-alata-form-960.webp",
+      "smallPath": "/images/igname-alata-form-400.webp",
+      "width": 960,
+      "height": 626,
+      "altFr": "Igname ailée — tubercule — tubercule, frais",
+      "creator": "Remi Tournebize",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kambar_wh.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Kambar_wh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Remi Tournebize · Kambar wh.jpg · CC BY-SA 3.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Kambar wh.jpg",
+      "description": "Dioscorea alata tuber, Marché du Chaudron, Saint-Denis de La Réunion",
+      "role": "primary",
+      "depictedForm": "frais",
+      "depictedPart": "tubercule",
+      "depictedProductId": "product-igname-alata",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Tubercule partiellement coupé, identifié Dioscorea alata par la source du marché du Chaudron ; ne représente pas toutes les ignames.",
+      "format": "webp",
+      "fileSize": 61014,
+      "sha256": "e4ea11e2fdcec5c79c5a9c15bc4df5d13730cc2d8f4eb9955c0171c02bf789fd",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "form-photo-manioc",
+      "localPath": "/images/manioc-form-960.webp",
+      "smallPath": "/images/manioc-form-400.webp",
+      "width": 960,
+      "height": 720,
+      "altFr": "Manioc — racines tubérisées, frais",
+      "creator": "David Monniaux",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Manihot_esculenta_dsc07325.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Manihot_esculenta_dsc07325.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "licenseId": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "David Monniaux · Manihot esculenta dsc07325.jpg · CC BY-SA 3.0",
+      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
+      "retrievedAt": "2026-10-05",
+      "title": "Manihot esculenta dsc07325.jpg",
+      "description": "La mandioca: uno de los productos principales de San José de los Arroyos",
+      "role": "primary",
+      "depictedForm": "frais",
+      "depictedPart": "racines tubérisées",
+      "depictedProductId": "product-manioc",
+      "visuallyCheckedAt": "2026-10-05",
+      "visualCheckResult": "Racines récoltées de manioc ; la photo n’établit aucune équivalence avec les feuilles, le kpem ou d’autres préparations.",
+      "format": "webp",
+      "fileSize": 207264,
+      "sha256": "49fb36faf4dab3d22b8c9516ea2fd0aa96ad66124b8a02b6f3b13d7daad5a285",
+      "sortOrder": 0,
+      "verificationStatus": "visually_checked",
+      "metadataCheckedAt": "2026-10-05"
     }
   ],
   "names": [

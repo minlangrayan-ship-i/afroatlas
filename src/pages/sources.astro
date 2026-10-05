@@ -125,7 +125,15 @@ import { href } from '../lib/links';
                     ? `Photographie principale — ${image.depictedForm}`
                     : 'Complément documentaire ; pas la forme de boutique'}
                 </p>
-                <p>{image.creator}</p>
+                <p>
+                  {image.creatorUrl ? (
+                    <a href={image.creatorUrl} target="_blank" rel="noopener noreferrer">
+                      {image.creator}
+                    </a>
+                  ) : (
+                    image.creator
+                  )}
+                </p>
                 <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
                   Page source ↗
                 </a>

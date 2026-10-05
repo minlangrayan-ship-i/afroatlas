@@ -54,6 +54,7 @@ test('FR EN AR interface, Arabic names and mixed-direction forms preserve naviga
   await expect(page.locator('html')).toHaveAttribute('lang', 'ar');
   await page.getByLabel('الاسم المحلي', { exact: true }).fill('اسم محلي — Niger');
   await expect(page.getByLabel('الاسم المحلي', { exact: true })).toHaveAttribute('dir', 'auto');
+  await page.locator('.contribution-optional summary').click();
   await expect(page.getByLabel('مصدر الصورة')).toHaveAttribute('dir', 'ltr');
   await page.getByLabel('البلد', { exact: true }).selectOption('NER');
   await expect(page.getByLabel('البلد', { exact: true })).toHaveValue('NER');
@@ -83,7 +84,7 @@ test('photograph matches powder form and missing shop photographs are explicit',
   await page.goto(base + 'produits/curcuma/');
   await expect(page.locator('.photo-open img')).toHaveAttribute('src', /curcuma-shop-960.webp/);
   await expect(page.locator('.shop-guide')).toContainText('poudre');
-  await expect(page.locator('.photo-credit')).toContainText('CC BY-SA');
+  await expect(page.locator('.product-hero .photo-credit')).toContainText('CC BY-SA');
   await page.goto(base + 'produits/menthe/');
   await expect(page.locator('.product-hero .photo-gap')).toContainText('à documenter');
   await expect(page.locator('.product-hero .photo-open img')).toHaveCount(0);

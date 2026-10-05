@@ -1,6 +1,100 @@
 // Hand-written interface translations. Documentary names are never machine translated.
 export type Locale = 'fr' | 'en' | 'ar';
 export const ui: Record<string, [string, string]> = {
+  'Où souhaitez-vous demander ce produit ?': [
+    'Where would you like to ask for this product?',
+    'أين تريد طلب هذا المنتج؟',
+  ],
+  'Choisissez le contexte du vendeur ou de votre interlocuteur.': [
+    'Choose the seller’s or your interlocutor’s context.',
+    'اختر سياق البائع أو الشخص الذي تتحدث معه.',
+  ],
+  'Pays de l’interlocuteur': ['Interlocutor’s country', 'بلد الشخص الذي تتحدث معه'],
+  'Région de l’interlocuteur': ['Interlocutor’s region', 'منطقة الشخص الذي تتحدث معه'],
+  'Langue de l’interlocuteur': ['Interlocutor’s language', 'لغة الشخص الذي تتحدث معه'],
+  'Choisir un pays': ['Choose a country', 'اختر بلدًا'],
+  'Région (facultatif)': ['Region (optional)', 'المنطقة (اختياري)'],
+  'Langue (facultatif)': ['Language (optional)', 'اللغة (اختياري)'],
+  'Région non précisée': ['Region unspecified', 'المنطقة غير محددة'],
+  'Langue non précisée': ['Language unspecified', 'اللغة غير محددة'],
+  'Comment demander ce produit ?': ['How to ask for this product?', 'كيف تطلب هذا المنتج؟'],
+  'Nom recherché': ['Searched name', 'الاسم الذي بحثت عنه'],
+  Destination: ['Destination', 'الوجهة'],
+  'Appellations attestées pour cette destination': [
+    'Names documented for this destination',
+    'أسماء موثقة لهذه الوجهة',
+  ],
+  'Noms courants documentés': ['Documented common names', 'أسماء شائعة موثقة'],
+  'Aucune appellation locale vérifiée pour cette sélection. Les noms courants ci-dessous ne prouvent pas un usage dans cette destination.':
+    [
+      'No verified local name for this selection. The common names below do not establish usage in this destination.',
+      'لا يوجد اسم محلي مُتحقَّق منه لهذا الاختيار. الأسماء الشائعة أدناه لا تثبت استعمالًا في هذه الوجهة.',
+    ],
+  'Aucun nom courant documenté dans les trois langues principales.': [
+    'No common name documented in the three main languages.',
+    'لا يوجد اسم شائع موثق باللغات الرئيسية الثلاث.',
+  ],
+  'Confirmez la partie et la forme recherchées avec le vendeur.': [
+    'Confirm the desired part and form with the seller.',
+    'أكد الجزء والشكل المطلوبين مع البائع.',
+  ],
+  'Montrer au vendeur ↗': ['Show the seller ↗', 'اعرض على البائع ↗'],
+  'Afficher davantage de fiches': ['Show more records', 'اعرض المزيد من المنتجات'],
+  'Présentation vidéo': ['Video presentation', 'عرض بالفيديو'],
+  'DÉCOUVRIR AFROATLAS': ['DISCOVER AFROATLAS', 'اكتشف أفروأطلس'],
+  'Une même envie. Plusieurs façons de la nommer.': [
+    'One ingredient in mind. Several ways to name it.',
+    'مكوّن واحد في ذهنك. تسميات مختلفة.',
+  ],
+  'Une présentation de 1 min 17 s pour comprendre comment retrouver un produit et échanger avec un vendeur malgré les différences d’appellation.':
+    [
+      'A 1 minute 17 second introduction to finding a product and communicating with a seller across naming differences.',
+      'عرض مدته دقيقة و17 ثانية لفهم كيفية العثور على منتج والتواصل مع البائع رغم اختلاف الأسماء.',
+    ],
+  'Voir la présentation ↗': ['Watch the presentation ↗', 'شاهد العرض ↗'],
+  'Les noms changent. Le dialogue commence.': [
+    'Names change. A conversation begins.',
+    'تتغير الأسماء. يبدأ الحوار.',
+  ],
+  'La présentation d’AfroAtlas en 1 min 17 s.': [
+    'AfroAtlas in 1 minute 17 seconds.',
+    'أفروأطلس في دقيقة و17 ثانية.',
+  ],
+  'Retrouver un produit, se comprendre.': [
+    'Find a product, understand each other.',
+    'اعثر على منتج وتفاهم مع الآخرين.',
+  ],
+  'Vidéo de présentation d’AfroAtlas': ['AfroAtlas presentation video', 'فيديو تقديم أفروأطلس'],
+  'Ouvrir la vidéo ↗': ['Open the video ↗', 'افتح الفيديو ↗'],
+  'Vous connaissez un autre nom pour ce produit ? Aidez-nous à enrichir AfroAtlas.': [
+    'Do you know another name for this product? Help us enrich AfroAtlas.',
+    'هل تعرف اسمًا آخر لهذا المنتج؟ ساعدنا في إثراء أفروأطلس.',
+  ],
+  'Ajouter une appellation': ['Add a name', 'أضف تسمية'],
+  'Proposer un produit': ['Suggest a product', 'اقترح منتجًا'],
+  'Information à corriger': ['Information to correct', 'معلومة للتصحيح'],
+  'Information sur un produit': ['Product information', 'معلومات عن منتج'],
+  'Photographie incorrecte': ['Incorrect photograph', 'صورة غير صحيحة'],
+  'Pays ou région à ajouter': ['Country or region to add', 'بلد أو منطقة لإضافتها'],
+  'Nouveau produit': ['New product', 'منتج جديد'],
+  'Produit concerné': ['Related product', 'المنتج المعني'],
+  'Produit identifié': ['Identified product', 'المنتج المحدد'],
+  'Courte précision': ['Brief detail', 'توضيح قصير'],
+  'Ajouter des détails (facultatif)': ['Add details (optional)', 'أضف تفاصيل (اختياري)'],
+  'Prénom ou pseudonyme': ['First name or pseudonym', 'الاسم الأول أو اسم مستعار'],
+  'E-mail pour le suivi (facultatif)': [
+    'Email for follow-up (optional)',
+    'بريد للمتابعة (اختياري)',
+  ],
+  'Cette adresse reste privée et ne sera pas publiée.': [
+    'This address remains private and will not be published.',
+    'يبقى هذا العنوان خاصًا ولن ينشر.',
+  ],
+  'Un lien, une recette ou un contexte local nous aide à vérifier votre proposition.': [
+    'A link, recipe or local context helps us check your suggestion.',
+    'يساعدنا رابط أو وصفة أو سياق محلي في التحقق من اقتراحك.',
+  ],
+  'Autre pays à préciser ci-dessous': ['Another country to describe below', 'بلد آخر تذكره أدناه'],
   'Corpus documentaire du Cameroun': ['Cameroon documentary corpus', 'مجموعة مصادر الكاميرون'],
   'Corpus fourni par le propriétaire ; les droits et limites sont conservés par source. Aucun statut de licence ouverte n’est appliqué à l’ensemble.':
     [
@@ -517,6 +611,19 @@ export const ui: Record<string, [string, string]> = {
   ],
   'CONTRIBUTION ACCEPTÉE': ['APPROVED CONTRIBUTION', 'مساهمة مقبولة'],
   'Chargement…': ['Loading…', 'جارٍ التحميل…'],
+  'Fiche communautaire': ['Community record', 'صفحة مساهمة مجتمعية'],
+  'Nom du pays proposé': ['Name of the proposed country', 'اسم البلد المقترح'],
+  'Trouvé grâce au contexte géographique ou à la langue documentée': [
+    'Matched a documented geographic context or language',
+    'مطابقة لسياق جغرافي أو لغة موثقة',
+  ],
+  'Autoriser des compteurs anonymes d’utilisation, sans enregistrer les mots recherchés ni vos contributions.':
+    [
+      'Allow anonymous usage counts without storing search terms or your contributions.',
+      'السماح بعدادات استخدام مجهولة دون حفظ كلمات البحث أو مساهماتك.',
+    ],
+  'Retirer mon accord': ['Withdraw my consent', 'سحب موافقتي'],
+  'Autoriser les compteurs anonymes': ['Allow anonymous counts', 'السماح بالعدادات المجهولة'],
   'Cette contribution n’est pas publiée ou le service est indisponible.': [
     'This contribution is unpublished or the service is unavailable.',
     'هذه المساهمة غير منشورة أو الخدمة غير متاحة.',

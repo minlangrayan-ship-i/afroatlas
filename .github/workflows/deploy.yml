@@ -28,6 +28,8 @@ jobs:
           ASTRO_TELEMETRY_DISABLED: '1'
           PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
           PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
+          PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ vars.PUBLIC_GOOGLE_SITE_VERIFICATION }}
+          PUBLIC_USAGE_METRICS_ENABLED: ${{ vars.PUBLIC_USAGE_METRICS_ENABLED }}
       - run: npm run check:publication
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'

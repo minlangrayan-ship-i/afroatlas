@@ -1,0 +1,45 @@
+---
+import Layout from '../../components/Layout.astro';
+import ProductCard from '../../components/ProductCard';
+import { categories } from '../../data/countries';
+import { cardProducts } from '../../lib/catalogue';
+import { href } from '../../lib/links';
+export function getStaticPaths() {
+  return categories.map((category) => ({ params: { category: category.id }, props: { category } }));
+}
+const { category } = Astro.props;
+const products = cardProducts.filter((p) => p.categoryId === category.id);
+const description = `Découvrez ${products.length} fiches de la catégorie ${category.label.toLowerCase()} : identité, formes, autres noms et sources documentaires.`;
+---
+
+<Layout
+  title={`${category.label} : produits et autres noms`}
+  description={description}
+  breadcrumbs={[
+    { name: 'Accueil', path: '' },
+    { name: category.label, path: `categories/${category.id}/` },
+  ]}
+>
+  <nav class="container breadcrumbs" aria-label="Fil d’Ariane">
+    <a href={href()}>Accueil</a> / {category.label}
+  </nav>
+  <section class="container page-intro">
+    <p class="eyebrow">COMPRENDRE LES PRODUITS AFRICAINS</p>
+    <h1>{category.label}</h1>
+    <p>{description}</p>
+    <p>
+      Chaque nom reste lié à sa source et à son contexte. Une ressemblance d’appellation ne suffit
+      pas à établir une équivalence.
+    </p>
+  </section>
+  <section class="container page-body">
+    <div class="product-grid">
+      {products.map((product) => (
+        <ProductCard product={product} client:visible />
+      ))}
+    </div>
+    <a class="button secondary" href={href(`catalogue/?category=${category.id}`)}>
+      Rechercher dans cette catégorie ↗
+    </a>
+  </section>
+</Layout>

@@ -1,17 +1,19 @@
 ---
 import Layout from '../components/Layout.astro';
-import Contribution from '../components/CommunityContribution';
+import Contribution from '../components/ContributionForm';
+import { products } from '../lib/catalogue';
 ---
 
 <Layout title="Contribuer à la bibliothèque">
   <div class="container page-intro">
     <p class="eyebrow">LES BONNES SOURCES FONT LA DIFFÉRENCE</p>
     <h1>Contribuer à la bibliothèque</h1>
-    <p>
-      Proposez un nom, précisez son contexte et ajoutez la preuve qui permettrait de le vérifier.
-    </p>
+    <p>Vous connaissez un autre nom pour ce produit ? Aidez-nous à enrichir AfroAtlas.</p>
   </div>
   <section class="container page-body narrow">
-    <Contribution client:load />
+    <Contribution
+      products={products.map((p) => ({ id: p.id, slug: p.slug, labelFr: p.labelFr }))}
+      client:load
+    />
   </section>
 </Layout>

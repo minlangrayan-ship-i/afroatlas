@@ -4,7 +4,13 @@ Le propriétaire a choisi de préparer Supabase, sans projet existant. Le site p
 
 ## 1. Créer le projet et la base
 
-Dans votre compte Supabase, créer un projet et conserver son mot de passe hors du dépôt. Dans **SQL Editor**, exécuter intégralement `supabase/migrations/202610040001_community.sql`, une seule fois sur le projet neuf.
+Dans votre compte Supabase, créer un projet et conserver son mot de passe hors du dépôt. Appliquer dans l’ordre les trois migrations, une seule fois chacune :
+
+1. `supabase/migrations/202610040001_community.sql` : contributions, modération, fichiers et RLS.
+2. `supabase/migrations/202610050002_notifications.sql` : réception atomique, déduplication et notifications privées ; compteurs agrégés facultatifs.
+3. `supabase/migrations/202610050003_catalogue_media.sql` : références des médias contrôlés et limitation du débit des compteurs.
+
+Sur un projet déjà migré, appliquer seulement les migrations manquantes. Avec un projet lié par CLI, `npx supabase db push` utilise l’historique des migrations ; ne pas réexécuter la première migration ni supprimer des tables.
 
 Cette migration crée les propositions privées, les fiches acceptées publiques, l’historique de modération, une limitation de cinq propositions par heure et deux espaces photo : `afroatlas-pending` privé et `afroatlas-approved` public. Les visiteurs ne disposent d’aucun droit d’écriture directe sur les tables ou les fichiers.
 
@@ -28,11 +34,14 @@ npx supabase login
 npx supabase link --project-ref VOTRE_REFERENCE_PROJET
 npx supabase functions deploy submit-contribution --use-api
 npx supabase functions deploy moderate-contribution --use-api
+npx supabase functions deploy retry-notifications --use-api
+npx supabase functions deploy mail-webhook --use-api
+npx supabase functions deploy usage-metrics --use-api
 ```
 
 L’option `--use-api` effectue le bundle côté serveur, sans installation de Docker : [référence CLI officielle](https://supabase.com/docs/reference/cli/supabase-functions-deploy).
 
-Le fichier `supabase/config.toml` désactive la vérification JWT de la passerelle pour ces deux fonctions. C’est intentionnel : l’envoi visiteur est anonyme ; la fonction de modération vérifie elle-même le JWT avec Auth puis l’appartenance à `afroatlas_owners`. Elle ne permet pas une validation anonyme.
+Le fichier `supabase/config.toml` désactive la vérification JWT de la passerelle pour ces fonctions. L’envoi visiteur est anonyme ; la modération vérifie elle-même le JWT et l’appartenance à `afroatlas_owners`. Les relances exigent un secret serveur, les confirmations du fournisseur exigent une signature Svix. Les compteurs restent fermés sauf activation explicite. Aucun visiteur ne peut approuver une contribution.
 
 Dans **Edge Functions → Secrets**, définir :
 
@@ -79,3 +88,74 @@ Renseigner une source HTTPS, sa licence ou ses conditions, le périmètre réell
 Les politiques SQL et la logique de catalogue ont été testées localement. Ce parcours réseau avec un véritable projet Supabase reste à exécuter après sa création ; aucun succès d’envoi réel n’est revendiqué avant cela.
 
 Documentation officielle : [déploiement](https://supabase.com/docs/guides/functions/deploy), [secrets des fonctions](https://supabase.com/docs/guides/functions/secrets), [clés API](https://supabase.com/docs/guides/api/api-keys).
+
+## 7. Configurer les notifications privées
+
+Créer un compte Resend et vérifier un domaine d’expédition que vous contrôlez. Choisir un expéditeur autorisé et l’adresse destinataire souhaitée ; aucune adresse destinataire n’est préremplie dans le code. Le mode de test Resend peut limiter le destinataire au compte propriétaire : vérifier ces restrictions avant de tester.
+
+Définir dans **Edge Functions → Secrets**, à partir de `supabase/functions/.env.example` :
+
+| Variable privée                 | À configurer                                              |
+| ------------------------------- | --------------------------------------------------------- |
+| `RESEND_API_KEY`                | Clé du service email, jamais dans une variable `PUBLIC_…` |
+| `CONTRIBUTIONS_FROM_EMAIL`      | Expéditeur autorisé par Resend                            |
+| `CONTRIBUTIONS_RECIPIENT_EMAIL` | Votre adresse de réception choisie                        |
+| `RESEND_WEBHOOK_SECRET`         | Secret de signature de votre webhook Resend               |
+| `NOTIFICATION_CRON_SECRET`      | Valeur aléatoire privée, distincte de `RATE_LIMIT_SALT`   |
+
+Dans Resend, créer un webhook HTTPS vers `https://VOTRE_REFERENCE_PROJET.supabase.co/functions/v1/mail-webhook`. Sélectionner `email.delivered`, `email.bounced`, `email.failed` et `email.complained`. La signature doit être vérifiée sur le corps brut avant son interprétation. Le champ `provider_id` rattache l’événement à la notification privée.
+
+L’enregistrement de la proposition et de son notification est atomique. Une tentative d’envoi est faite après la réception ; un échec conserve la proposition et reporte la notification. Le même UUID, le même contenu enregistré et la même clé d’idempotence sont réutilisés. `provider_accepted` signifie que Resend a accepté l’email ; seule une confirmation signée `email.delivered` donne l’état `delivered`.
+
+Configurer ensuite une tâche toutes les cinq minutes, par exemple Supabase Cron. Activer `pg_cron` et `pg_net` dans le tableau de bord et enregistrer dans Vault deux secrets : `afroatlas_functions_url` (URL publique du préfixe `/functions/v1`) et `afroatlas_notification_cron_secret` (même valeur que `NOTIFICATION_CRON_SECRET`). Utiliser SQL Editor, sans mettre ces valeurs dans Git :
+
+```sql
+select cron.schedule(
+  'afroatlas-notification-retries',
+  '*/5 * * * *',
+  $$select net.http_post(
+    url := (select decrypted_secret from vault.decrypted_secrets
+            where name = 'afroatlas_functions_url') || '/retry-notifications',
+    headers := jsonb_build_object(
+      'Content-Type', 'application/json',
+      'Authorization', 'Bearer ' ||
+        (select decrypted_secret from vault.decrypted_secrets
+         where name = 'afroatlas_notification_cron_secret')
+    ),
+    body := '{}'::jsonb,
+    timeout_milliseconds := 60000
+  );$$
+);
+```
+
+Les tentatives sont limitées à huit et arrêtées avant 23 heures. La [déduplication Resend expire après 24 heures](https://resend.com/docs/dashboard/emails/idempotency-keys) : un cas `needs_review` demande un examen manuel, sans relance aveugle risquant un double email. Les événements de refus ou de plainte n’entraînent pas de réexpédition automatique. La modération affiche l’état et le nombre de tentatives.
+
+Avant d’ouvrir le formulaire : envoyer une véritable proposition de test, vérifier la persistance après recharge, l’email reçu, l’état signé `delivered`, puis une panne contrôlée et une relance. Vérifier aussi un double clic / une requête répétée : une seule proposition et une notification fournisseur dédupliquée. Les tests livrés utilisent PostgreSQL local et un fournisseur simulé ; aucun email réel n’a été envoyé dans cette session.
+
+## 8. Vérifier les photos et synchroniser les médias
+
+Le serveur limite les fichiers à 5 Mo, contrôle les signatures JPEG/PNG/WebP, refuse les animations et les dimensions excessives (8 000 pixels par côté, 12 millions de pixels), puis réencode en WebP après orientation et suppression des métadonnées. Il n’utilise pas Sharp côté Edge : cette bibliothèque native n’est pas prise en charge ; le traitement utilise [ImageMagick WASM, suivant la documentation Supabase](https://supabase.com/docs/guides/functions/examples/image-manipulation).
+
+Tester ce traitement sur la fonction réellement hébergée avant de connecter le formulaire, y compris un fichier renommé, une image animée et un fichier trop grand. Le décodage WASM et les limites ont été testés localement sous Deno ; la disponibilité de l’asset WASM dans le bundle hébergé doit être confirmée au premier déploiement. Si le bundle requiert des fichiers statiques supplémentaires, utiliser le [déploiement des fichiers WASM avec Docker](https://supabase.com/docs/guides/functions/wasm), qui ne prend pas en charge `--use-api` pour ces fichiers statiques.
+
+Les 42 photos principales existantes sont servies depuis GitHub Pages. Leurs métadonnées peuvent être recopiées, sans doublon d’identifiant, vers `catalogue_media` :
+
+```sh
+node scripts/sync-media.mjs --dry-run
+node scripts/sync-media.mjs
+```
+
+La deuxième commande exige `SUPABASE_URL` et `SUPABASE_SERVICE_ROLE_KEY` dans l’environnement serveur privé. Ne jamais placer la clé privilégiée dans `.env.example`, le chat ou une variable frontend. Les fichiers ne sont pas encodés dans les lignes de base : seules leurs URL, leur provenance et leurs dimensions sont enregistrées. La synchronisation réelle reste à effectuer après création du projet ; le site publié lit encore ses instantanés JSON statiques.
+
+## 9. Activer, si souhaité, les compteurs d’usage
+
+Ils sont distincts de Cloudflare Web Analytics et désactivés par défaut. Définir `USAGE_METRICS_ENABLED=true` côté fonctions et `PUBLIC_USAGE_METRICS_ENABLED=true` dans les variables de build, puis republier. Le pied de page propose un accord facultatif, révocable ; aucun compteur n’est transmis avant cet accord. Seuls cinq noms d’événement sont acceptés. Aucun texte de recherche, pays choisi, identifiant visiteur, email ou contenu de proposition n’est envoyé.
+
+`usage_daily` contient seulement le jour, le type d’événement et son total. Ces nombres ne sont pas des visiteurs uniques. Le limiteur conserve temporairement une empreinte salée de l’adresse réseau ; les logs d’infrastructure du prestataire restent soumis à ses propres réglages. Choisir une durée de conservation des propositions privées et des limites de débit avant ouverture du service. Purger périodiquement les limites expirées, sans effacer des contributions ni leur audit.
+
+Lecture des compteurs depuis votre espace SQL propriétaire :
+
+```sql
+select day, event, count from public.usage_daily
+order by day desc, event;
+```

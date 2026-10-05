@@ -4,3 +4,9 @@ project_id = "afroatlas"
 verify_jwt = false
 [functions.moderate-contribution]
 verify_jwt = false
+[functions.retry-notifications]
+verify_jwt = false
+[functions.usage-metrics]
+verify_jwt = false
+[functions.mail-webhook]
+verify_jwt = false

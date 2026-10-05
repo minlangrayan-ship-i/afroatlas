@@ -7,6 +7,7 @@ const signatures = [
   /\bAKIA[0-9A-Z]{16}\b/,
   /\bsb_secret_[A-Za-z0-9_-]{20,}\b/,
   /\bsk-(?:proj-)?[A-Za-z0-9_-]{30,}\b/,
+  /\bre_[A-Za-z0-9_-]{20,}\b/,
 ];
 function inspect(text, file) {
   if (signatures.some((pattern) => pattern.test(text)))
@@ -53,9 +54,15 @@ async function checkBuild(dir) {
       if (/\/\/[#@]\s*sourceMappingURL\s*=/.test(text))
         throw new Error(`Public source map reference: ${file}`);
       if (
-        text.includes('SUPABASE_SERVICE_ROLE_KEY') ||
-        text.includes('RATE_LIMIT_SALT') ||
-        text.includes('Deno.serve')
+        [
+          'SUPABASE_SERVICE_ROLE_KEY',
+          'RATE_LIMIT_SALT',
+          'RESEND_API_KEY',
+          'RESEND_WEBHOOK_SECRET',
+          'NOTIFICATION_CRON_SECRET',
+          'CONTRIBUTIONS_RECIPIENT_EMAIL',
+          'Deno.serve',
+        ].some((value) => text.includes(value))
       )
         throw new Error(`Server-only implementation in frontend: ${file}`);
     }

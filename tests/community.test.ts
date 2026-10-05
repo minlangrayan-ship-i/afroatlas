@@ -112,6 +112,8 @@ describe('actual PostgreSQL migration and moderation policies', () => {
       `create role anon;create role authenticated;create role service_role bypassrls;create schema auth;create table auth.users(id uuid primary key);create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;grant usage on schema auth to authenticated,anon;grant execute on function auth.uid() to authenticated,anon;create schema storage;create table storage.buckets(id text primary key,name text,public boolean,file_size_limit bigint,allowed_mime_types text[]);create table storage.objects(id uuid,bucket_id text,name text);alter table storage.objects enable row level security;grant usage on schema public,storage to anon,authenticated,service_role;grant select on storage.objects to anon,authenticated;`,
     );
     await db.exec(await readFile('supabase/migrations/202610040001_community.sql', 'utf8'));
+    await db.exec(await readFile('supabase/migrations/202610050002_notifications.sql', 'utf8'));
+    await db.exec(await readFile('supabase/migrations/202610050003_catalogue_media.sql', 'utf8'));
     await db.query('insert into auth.users(id) values($1),($2)', [owner, stranger]);
     await db.query('insert into public.afroatlas_owners values($1)', [owner]);
     await db.query('insert into contributions(id,proposal,photo_path) values($1,$2,$3)', [
@@ -208,5 +210,77 @@ describe('actual PostgreSQL migration and moderation policies', () => {
           ])
         ).rows[0].allowed,
       ).toBe(i <= 5);
+  });
+  it('media upserts preserve stable IDs and visitors read only reviewed metadata', async () => {
+    const values = [
+      'media-tested',
+      'product-gombo',
+      { licenseId: 'CC BY 4.0' },
+      'visually_checked',
+      '2026-10-05',
+    ];
+    for (let i = 0; i < 2; i++)
+      await db.query(
+        'insert into catalogue_media(id,product_id,payload,verification_status,updated_at) values($1,$2,$3,$4,$5) on conflict(id) do update set payload=excluded.payload',
+        values,
+      );
+    await db.query(
+      'insert into catalogue_media(id,product_id,payload,verification_status,updated_at) values($1,$2,$3,$4,$5)',
+      ['media-pending', 'product-gombo', {}, 'pending', '2026-10-05'],
+    );
+    expect(
+      (await db.query('select * from catalogue_media where id=$1', ['media-tested'])).rows,
+    ).toHaveLength(1);
+    await db.exec('set role anon');
+    expect((await db.query('select id from catalogue_media')).rows).toEqual([
+      { id: 'media-tested' },
+    ]);
+    await expect(
+      db.query("update catalogue_media set verification_status='visually_checked'"),
+    ).rejects.toThrow();
+    await expect(db.query('select count_usage($1)', ['product_open'])).rejects.toThrow();
+    await db.exec('reset role');
+  });
+  it('receipt and outbox are atomic, retries deduplicate and visitors cannot read mail', async () => {
+    const id = '00000000-0000-4000-8000-000000000009';
+    for (let i = 0; i < 2; i++)
+      await db.query('select receive_contribution($1,$2,$3,$4)', [id, 'same-hash', proposal, null]);
+    expect((await db.query('select * from contributions where id=$1', [id])).rows).toHaveLength(1);
+    expect(
+      (await db.query('select * from contribution_notifications where contribution_id=$1', [id]))
+        .rows,
+    ).toHaveLength(1);
+    await expect(
+      db.query('select receive_contribution($1,$2,$3,$4)', [id, 'different-hash', proposal, null]),
+    ).rejects.toThrow('Idempotency conflict');
+    expect(
+      (await db.query<{ job: unknown }>('select claim_contribution_notification($1) as job', [id]))
+        .rows[0].job,
+    ).toBeTruthy();
+    expect(
+      (await db.query<{ job: unknown }>('select claim_contribution_notification($1) as job', [id]))
+        .rows[0].job,
+    ).toBeNull();
+    await db.query(
+      "update contribution_notifications set state='sending',locked_at=now()-interval '6 minutes',first_attempt_at=now()-interval '24 hours' where contribution_id=$1",
+      [id],
+    );
+    expect(
+      (await db.query<{ job: unknown }>('select claim_contribution_notification($1) as job', [id]))
+        .rows[0].job,
+    ).toBeNull();
+    expect(
+      (
+        await db.query('select state from contribution_notifications where contribution_id=$1', [
+          id,
+        ])
+      ).rows,
+    ).toEqual([{ state: 'needs_review' }]);
+    await db.exec('set role anon');
+    await expect(db.query('select * from contribution_notifications')).rejects.toThrow();
+    await expect(
+      db.query('select receive_contribution($1,$2,$3,$4)', [id, 'hash', proposal, null]),
+    ).rejects.toThrow();
+    await db.exec('reset role');
   });
 });
