@@ -1,7 +1,14 @@
-import { withLocale } from '../lib/locale-react';
+import { withLocale, useLocale } from '../lib/locale-react';
+import {
+  languageOptions,
+  compatibleLanguage,
+  regionLabel,
+  sortedRegions,
+  sortLabels,
+} from '../lib/presentation';
 import { useClientReady } from '../lib/use-client-ready';
 import { useCommunityGeography } from '../lib/community-catalogue';
-import { countries, europeanContexts, languageNames } from '../data/countries';
+import { countries, europeanContexts } from '../data/countries';
 import regions from '../data/published/regions.json';
 import type { NameAssertion } from '../lib/schema';
 import type { Destination } from '../lib/destination';
@@ -15,16 +22,10 @@ function DestinationPicker({
   names: NameAssertion[];
 }) {
   const ready = useClientReady();
+  const locale = useLocale();
   const geography = useCommunityGeography();
-  const countryOptions = [...countries, ...europeanContexts];
-  const languages = [
-    ...new Set(
-      names
-        .filter((n) => !value.country || n.countryIds.includes(value.country))
-        .map((n) => n.languageCode || n.languageId)
-        .filter(Boolean),
-    ),
-  ];
+  const countryOptions = sortLabels([...countries, ...europeanContexts], (c) => c.nameFr, locale);
+  const languages = languageOptions(names, value.country, value.region, locale);
   return (
     <fieldset className="destination-picker" disabled={!ready} aria-busy={!ready}>
       <legend>Où souhaitez-vous demander ce produit ?</legend>
@@ -60,16 +61,23 @@ function DestinationPicker({
             aria-label="Région de l’interlocuteur"
             disabled={!value.country}
             value={value.region}
-            onChange={(e) => onChange({ ...value, region: e.target.value })}
+            onChange={(e) =>
+              onChange({
+                ...value,
+                region: e.target.value,
+                language: compatibleLanguage(value.language, names, value.country, e.target.value),
+              })
+            }
           >
             <option value="">Région non précisée</option>
-            {regions
-              .filter((r) => r.countryISO3 === value.country)
-              .map((r) => (
-                <option key={r.id} value={r.id}>
-                  {r.name}
-                </option>
-              ))}
+            {sortedRegions(
+              regions.filter((r) => r.countryISO3 === value.country),
+              locale,
+            ).map((r) => (
+              <option key={r.id} value={r.id}>
+                {regionLabel(r)}
+              </option>
+            ))}
             {geography
               .filter(
                 (e) =>
@@ -94,10 +102,8 @@ function DestinationPicker({
           >
             <option value="">Langue non précisée</option>
             {languages.map((l) => (
-              <option key={l} value={l || ''}>
-                {languageNames[l || ''] ||
-                  names.find((n) => n.languageId === l)?.languageLabel ||
-                  l}
+              <option key={l.id} value={l.id}>
+                {l.label}
               </option>
             ))}
           </select>

@@ -21,6 +21,8 @@ npm run check:seo
 
 Le chemin de base est `/afroatlas/`. Pour Playwright : `npx playwright install chromium`, ou définir `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` vers Edge/Chromium. `PLAYWRIGHT_BASE_URL` permet de tester la publication.
 
+Le [bilan du parcours de recherche et de présentation au vendeur](docs/SELLER_JOURNEY_UX.md) décrit les choix de formes, les filtres multilingues, les preuves affichées, les tests et les lacunes documentaires conservées.
+
 ## Données et collecte
 
 93 fiches, 25 pays africains, 1 021 assertions de noms, 46 contextes locaux documentés, 42 photos principales adaptées à la forme du produit. Les 51 lacunes photographiques sont affichées. Niger/Nigeria restent distincts. Le corpus conserve les alias sans preuve de pays sans leur attribuer une géographie.

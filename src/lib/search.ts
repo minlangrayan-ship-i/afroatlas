@@ -2,6 +2,7 @@ import Fuse from 'fuse.js';
 import type { CardProduct } from './catalogue';
 import { countries, europeanContexts, languageNames } from '../data/countries';
 import regions from '../data/published/regions.json';
+import { languageKey, nameLanguage, contextualNames, regionLabel } from './presentation';
 export const normalize = (text: string) =>
   text
     .normalize('NFD')
@@ -31,9 +32,17 @@ export const emptyFilters: Filters = {
 };
 export function readFilters(search: string): Filters {
   const params = new URLSearchParams(search);
-  return Object.fromEntries(
+  const filters = Object.fromEntries(
     Object.keys(emptyFilters).map((key) => [key, params.get(key) || '']),
   ) as Filters;
+  filters.language = languageKey(filters.language);
+  if (
+    filters.region &&
+    filters.country &&
+    !regions.some((r) => r.id === filters.region && r.countryISO3 === filters.country)
+  )
+    filters.region = '';
+  return filters;
 }
 export function searchProducts(
   products: CardProduct[],
@@ -67,7 +76,7 @@ export function searchProducts(
               p.names.some((n) => n.regionIds.includes(r.id)) ||
               p.contexts.some((ctx) => ctx.regionIds.includes(r.id)),
           )
-          .map((r) => r.name),
+          .flatMap((r) => [r.name, regionLabel(r)]),
         ...p.names.flatMap((n) => [
           n.localContext,
           n.languageLabel || '',
@@ -109,7 +118,9 @@ export function searchProducts(
               !['presence', 'cultivation'].includes(c.relationType || ''),
           )) &&
         (!filters.language ||
-          p.names.some((n) => (n.languageCode || n.languageId) === filters.language)) &&
+          contextualNames(p.names, filters.country, filters.region).some(
+            (n) => nameLanguage(n) === languageKey(filters.language),
+          )) &&
         (!filters.form || p.formTypes.includes(filters.form)) &&
         (!filters.commercial || linkedIds.includes(p.id)),
     )

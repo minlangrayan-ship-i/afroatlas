@@ -712,16 +712,153 @@ export const ui: Record<string, [string, string]> = {
     'هذه المساهمة غير منشورة أو الخدمة غير متاحة.',
   ],
 };
+const journeyUi: Record<string, [string, string]> = {
+  'Nom scientifique documenté': ['Documented scientific name', 'اسم علمي موثق'],
+  'Filtres avancés': ['Advanced filters', 'مرشحات متقدمة'],
+  Bassa: ['Bassa', 'باسا'],
+  Douala: ['Duala', 'دوالا'],
+  Ewondo: ['Ewondo', 'إيووندو'],
+  Fang: ['Fang', 'فانغ'],
+  Bulu: ['Bulu', 'بولو'],
+  'Quelle forme cherchez-vous ?': ['Which form are you looking for?', 'أي شكل من المنتج تبحث عنه؟'],
+  'Ces fiches désignent des produits distincts. Choisissez la partie et la forme à demander.': [
+    'These records describe distinct products. Choose the part and form you need.',
+    'هذه الصفحات تصف منتجات مختلفة. اختر الجزء والشكل المطلوبين.',
+  ],
+  'Calices séchés pour infusion': ['Dried calyces for infusion', 'كؤوس زهرية مجففة للنقع'],
+  'Feuilles alimentaires': ['Edible leaves', 'أوراق غذائية'],
+  'Boisson préparée': ['Prepared drink', 'مشروب محضّر'],
+  'Plante entière': ['Whole plant', 'النبات الكامل'],
+  'Gombo frais': ['Fresh okra', 'بامية طازجة'],
+  'Gombo en poudre': ['Okra powder', 'مسحوق البامية'],
+  'Les calices rouges séchés, à acheter pour préparer une infusion.': [
+    'Dried red calyces to buy for making an infusion.',
+    'كؤوس زهرية حمراء مجففة تُشترى لتحضير منقوع.',
+  ],
+  'Les feuilles destinées à la cuisine, distinctes des calices.': [
+    'Leaves for cooking, distinct from the calyces.',
+    'أوراق للطهي تختلف عن الكؤوس الزهرية.',
+  ],
+  'Une boisson d’hibiscus déjà préparée, distincte des ingrédients secs.': [
+    'An already prepared hibiscus drink, distinct from the dried ingredients.',
+    'مشروب كركديه محضّر بالفعل يختلف عن المكونات المجففة.',
+  ],
+  'L’identité botanique de la plante ; aucune partie alimentaire précise.': [
+    'The botanical identity of the plant; no specific edible part.',
+    'الهوية النباتية للنبات دون تحديد جزء غذائي معين.',
+  ],
+  'Les fruits frais entiers pour la cuisine.': [
+    'Whole fresh pods for cooking.',
+    'ثمار كاملة طازجة للطهي.',
+  ],
+  'Des fruits séchés et moulus, distincts du gombo frais.': [
+    'Dried and ground pods, distinct from fresh okra.',
+    'ثمار مجففة ومطحونة تختلف عن البامية الطازجة.',
+  ],
+  'Le nom à demander au vendeur': ['The name to ask the seller for', 'الاسم الذي تسأل عنه البائع'],
+  'Retour aux résultats ↗': ['Back to results ↗', 'العودة إلى النتائج ↗'],
+  'Partie et forme recherchées': ['Part and form you are looking for', 'الجزء والشكل المطلوبان'],
+  'Aucune appellation locale sourcée pour cette sélection. Montrez la photo et précisez la partie et la forme. Les noms courants ne prouvent pas un usage dans cette destination.':
+    [
+      'No sourced local name for this selection. Show the photo and specify the part and form. Common names do not prove usage in this destination.',
+      'لا توجد تسمية محلية موثقة لهذا الاختيار. اعرض الصورة وحدد الجزء والشكل. الأسماء الشائعة لا تثبت استخدامها في هذه الوجهة.',
+    ],
+  'Au Sénégal, « bissap » est documenté ici pour la boisson.': [
+    'In Senegal, “bissap” is documented here for the drink.',
+    'في السنغال، الاسم «bissap» موثق هنا للمشروب.',
+  ],
+  'La source décrit des calices rouges séchés utilisés pour la préparer ; elle n’établit pas leur nom de vente.':
+    [
+      'The source describes dried red calyces used to prepare it; it does not establish their name in shops.',
+      'يصف المصدر كؤوسًا زهرية حمراء مجففة تُستخدم لتحضيره، لكنه لا يثبت اسمها التجاري.',
+    ],
+  'Je cherche ce produit, dans cette forme.': [
+    'I am looking for this product in this form.',
+    'أبحث عن هذا المنتج بهذا الشكل.',
+  ],
+  'Présentation à montrer au vendeur': [
+    'Presentation to show the seller',
+    'عرض لتقديمه إلى البائع',
+  ],
+  'Consulter toutes les appellations détaillées ↓': [
+    'View all detailed names ↓',
+    'عرض جميع الأسماء المفصلة ↓',
+  ],
+  'Appellations détaillées, langues et contextes': [
+    'Detailed names, languages and contexts',
+    'الأسماء المفصلة واللغات والسياقات',
+  ],
+  'Parties, formes et usages documentés': [
+    'Documented parts, forms and uses',
+    'الأجزاء والأشكال والاستخدامات الموثقة',
+  ],
+  'Usages locaux et périmètres des sources': [
+    'Local uses and source scope',
+    'الاستخدامات المحلية ونطاق المصادر',
+  ],
+  'Références commerciales et conditionnement': [
+    'Commercial references and packaging',
+    'المراجع التجارية والتعبئة',
+  ],
+  'Sources, crédits et limites': ['Sources, credits and limitations', 'المصادر والحقوق والحدود'],
+  'Crédit de la photographie': ['Photograph credit', 'حقوق الصورة'],
+  'Alias linguistique — géographie non établie': [
+    'Language alias — geography not established',
+    'اسم لغوي بديل — النطاق الجغرافي غير محدد',
+  ],
+  'Appellation sourcée dans ce contexte': [
+    'Name sourced for this context',
+    'اسم موثق في هذا السياق',
+  ],
+  'Validation éditoriale humaine': ['Human editorial validation', 'تحقق تحريري بشري'],
+  'Attestation historique': ['Historical evidence', 'دليل تاريخي'],
+  Latin: ['Latin', 'اللاتينية'],
+  'Extrême-Nord': ['Far North', 'أقصى الشمال'],
+  Nord: ['North', 'الشمال'],
+  'Nord-Ouest': ['North-West', 'الشمال الغربي'],
+  Est: ['East', 'الشرق'],
+  Sud: ['South', 'الجنوب'],
+  'Sud-Ouest': ['South-West', 'الجنوب الغربي'],
+  Ouest: ['West', 'الغرب'],
+  Centre: ['Centre', 'الوسط'],
+  Littoral: ['Littoral', 'الساحل'],
+  Adamaoua: ['Adamawa', 'أداماوا'],
+  'Groupe alimentaire': ['Food group', 'مجموعة غذائية'],
+  Usages: ['Uses', 'الاستخدامات'],
+  'Alias français dans la source': ['French alias in the source', 'اسم فرنسي بديل في المصدر'],
+  'Alias anglais dans la source': ['English alias in the source', 'اسم إنجليزي بديل في المصدر'],
+  'Alias arabe dans la source': ['Arabic alias in the source', 'اسم عربي بديل في المصدر'],
+  'Nom français dans la source': ['French name in the source', 'الاسم الفرنسي في المصدر'],
+  'Nom anglais dans la source': ['English name in the source', 'الاسم الإنجليزي في المصدر'],
+  'Nom arabe dans la source': ['Arabic name in the source', 'الاسم العربي في المصدر'],
+  'Identité botanique': ['Botanical identity', 'الهوية النباتية'],
+  'Origine et répartition géographique': [
+    'Origin and geographic distribution',
+    'الأصل والتوزيع الجغرافي',
+  ],
+  'Production et commerce international': [
+    'Production and international trade',
+    'الإنتاج والتجارة الدولية',
+  ],
+  'Répartition géographique': ['Geographic distribution', 'التوزيع الجغرافي'],
+  'Champ « Bissap-feuille » dans l’enquête': [
+    '“Bissap-feuille” field in the survey',
+    'حقل «Bissap-feuille» في الاستطلاع',
+  ],
+  'fiche documentée': ['documented record', 'صفحة موثقة'],
+  Publicité: ['Advertisement', 'إعلان'],
+};
 export function translate(text: string, locale: Locale): string {
   if (locale === 'fr') return text;
   const clean = text.replace(/\s+/g, ' ').trim(),
-    entry = ui[clean];
+    entry = journeyUi[clean] || ui[clean];
   if (entry) return entry[locale === 'en' ? 0 : 1];
   const patterns: [RegExp, (m: RegExpMatchArray) => [string, string]][] = [
     [/^(.+)\.$/, (m) => (ui[m[1]] ? [`${ui[m[1]][0]}.`, `${ui[m[1]][1]}.`] : [m[0], m[0]])],
     [/^(\d+) pays à explorer$/, (m) => [`${m[1]} countries to explore`, `${m[1]} بلدًا للاستكشاف`]],
     [/^(\d+) fiches sourcées$/, (m) => [`${m[1]} sourced records`, `${m[1]} صفحة بمصادر`]],
     [/^(\d+) fiches documentées$/, (m) => [`${m[1]} documented records`, `${m[1]} صفحة موثقة`]],
+    [/^(\d+) fiche documentée$/, (m) => [`${m[1]} documented record`, `${m[1]} صفحة موثقة`]],
     [
       /^Explorer les (\d+) fiches ↗$/,
       (m) => [`Explore ${m[1]} records ↗`, `استكشف ${m[1]} صفحة ↗`],

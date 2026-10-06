@@ -4,7 +4,7 @@ const attributeOriginals = new WeakMap<Element, Map<string, string>>();
 let locale: Locale = 'fr',
   scheduled = false;
 const excluded =
-  'script,style,astro-island,[data-no-translate],.scientific,.evidence-locator,.photo-credit,.hero-credit,.source-section,.geo-credit,.card-names';
+  'script,style,astro-island,[data-no-translate],.scientific,.evidence-locator,.photo-credit,.hero-credit,.geo-credit,.card-names';
 function apply() {
   document.documentElement.lang = locale;
   document.documentElement.dir = locale === 'ar' ? 'rtl' : 'ltr';

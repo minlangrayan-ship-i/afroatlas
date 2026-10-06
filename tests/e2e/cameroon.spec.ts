@@ -26,7 +26,8 @@ test('Cameroon corpus exposes regional, historical and ambiguous names on mobile
       page.locator('.product-card').filter({ hasText: 'Silure Heterobranchus' }),
     ).toHaveCount(1);
     await page.goto(base + 'produits/monodora-plante/?lang=fr');
-    await page.getByLabel('Langue', { exact: true }).selectOption('cm-language-ewondo');
+    await page.locator('#appellations > summary').click();
+    await page.getByLabel('Langue', { exact: true }).selectOption('ewo');
     await expect(page.locator('.names-panel tbody')).toContainText('ding');
     await expect(page.locator('.names-panel tbody')).toContainText('Ewondo');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(

@@ -1,4 +1,5 @@
-import { withLocale } from '../lib/locale-react';
+import { withLocale, useLocale } from '../lib/locale-react';
+import { regionLabel, sortedRegions } from '../lib/presentation';
 import { useEffect, useState } from 'react';
 type Region = { id: string; name: string; boundaryYear: string };
 function Regions({
@@ -12,6 +13,7 @@ function Regions({
   entries?: { regionIds: string[]; label: string; url: string; localContext: string }[];
   presenceEntries?: { regionIds: string[]; label: string; url: string; localContext: string }[];
 }) {
+  const locale = useLocale();
   const [ready, setReady] = useState(false),
     [selected, setSelected] = useState('');
   useEffect(() => {
@@ -41,7 +43,7 @@ function Regions({
                 role="button"
                 tabIndex={ready ? 0 : -1}
                 aria-disabled={!ready}
-                aria-label={p.label}
+                aria-label={regionLabel({ id: p.id, name: p.label })}
                 aria-pressed={selected === p.id}
                 onClick={() => select(p.id)}
                 onKeyDown={(e) => {
@@ -51,7 +53,7 @@ function Regions({
                   }
                 }}
               >
-                <title>{p.label}</title>
+                <title>{regionLabel({ id: p.id, name: p.label })}</title>
               </path>
             ))}
           </svg>
@@ -63,7 +65,7 @@ function Regions({
       </div>
       <div>
         <div className="region-list" role="group" aria-label="Liste équivalente des subdivisions">
-          {regions.map((r) => (
+          {sortedRegions(regions, locale).map((r) => (
             <button
               disabled={!ready}
               key={r.id}
@@ -71,13 +73,13 @@ function Regions({
               aria-pressed={r.id === selected}
               onClick={() => select(r.id)}
             >
-              {r.name}
+              {regionLabel(r)}
               <span>↗</span>
             </button>
           ))}
         </div>
         <div className="region-result" aria-live="polite">
-          <h3>{region?.name || 'Sélectionnez une subdivision'}</h3>
+          <h3>{region ? regionLabel(region) : 'Sélectionnez une subdivision'}</h3>
           {entries.some((e) => e.regionIds.includes(selected)) ? (
             <div>
               {entries

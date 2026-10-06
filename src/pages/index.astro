@@ -110,7 +110,10 @@ const exampleNames = namesFor(hero.id)
               <span>{category.symbol}</span>
               <h3>{category.label}</h3>
               <small>
-                {products.filter((p) => p.categoryId === category.id).length} fiches documentées
+                {products.filter((p) => p.categoryId === category.id).length}{' '}
+                {products.filter((p) => p.categoryId === category.id).length === 1
+                  ? 'fiche documentée'
+                  : 'fiches documentées'}
               </small>
               <b>↗</b>
             </div>

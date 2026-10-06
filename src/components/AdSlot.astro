@@ -1,17 +1,20 @@
 ---
-import { site } from '../data/site';
+import { activeAdvertisement } from '../lib/advertising';
 const { location = 'home' } = Astro.props;
-const placement = site.adPlacements.find((item) => item.location === location);
+const placement = activeAdvertisement(location);
 ---
 
-<aside
-  class="ad-slot"
-  aria-label="Emplacement partenaire de démonstration"
-  data-placement={location}
-  data-size={placement?.sizeVariant || 'banner'}
-  data-enabled="false"
->
-  <span>EMPLACEMENT PARTENAIRE</span>
-  <p>Espace publicitaire</p>
-  <small>Démonstration · aucune publicité active</small>
-</aside>
+{placement && (
+  <aside
+    class="ad-slot"
+    aria-label="Publicité"
+    data-placement={location}
+    data-size={placement?.sizeVariant || 'banner'}
+    data-enabled="true"
+  >
+    <span>Publicité</span>
+    <a href={placement.targetUrl!} rel="sponsored noopener noreferrer" target="_blank">
+      {placement.sponsorLabel}
+    </a>
+  </aside>
+)}

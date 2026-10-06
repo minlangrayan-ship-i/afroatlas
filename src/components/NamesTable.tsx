@@ -1,8 +1,19 @@
-import { withLocale } from '../lib/locale-react';
+import { withLocale, useLocale } from '../lib/locale-react';
+import {
+  languageOptions,
+  languageKey,
+  nameLanguage,
+  languageLabel,
+  regionLabel,
+  evidenceLabel,
+  assertionLabel,
+  compatibleLanguage,
+  sortLabels,
+} from '../lib/presentation';
 import { useEffect, useMemo, useState } from 'react';
 import { approvedEntries } from '../lib/community';
 import type { NameAssertion } from '../lib/schema';
-import { languageNames, countries, europeanContexts } from '../data/countries';
+import { countries, europeanContexts } from '../data/countries';
 import { useClientReady } from '../lib/use-client-ready';
 import regions from '../data/published/regions.json';
 type NameRow = NameAssertion & {
@@ -38,6 +49,7 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
     );
   }, [seed]);
   const ready = useClientReady();
+  const locale = useLocale();
   const [language, setLanguage] = useState(''),
     [country, setCountry] = useState(''),
     [all, setAll] = useState(false),
@@ -46,7 +58,7 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
     () =>
       names.filter(
         (n) =>
-          (!language || (n.languageCode || n.languageId) === language) &&
+          (!language || nameLanguage(n) === languageKey(language)) &&
           (!country || n.countryIds.includes(country)),
       ),
     [names, language, country],
@@ -71,15 +83,11 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
             onChange={(e) => setLanguage(e.target.value)}
           >
             <option value="">Toutes</option>
-            {[...new Set(names.map((n) => n.languageCode || n.languageId).filter(Boolean))].map(
-              (lang) => (
-                <option key={lang} value={lang || ''}>
-                  {languageNames[lang || ''] ||
-                    names.find((n) => n.languageId === lang)?.languageLabel ||
-                    lang}
-                </option>
-              ),
-            )}
+            {languageOptions(names, country, '', locale).map((lang) => (
+              <option key={lang.id} value={lang.id}>
+                {lang.label}
+              </option>
+            ))}
           </select>
         </label>
         <label>
@@ -88,10 +96,13 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
             aria-label="Contexte géographique"
             disabled={!ready}
             value={country}
-            onChange={(e) => setCountry(e.target.value)}
+            onChange={(e) => {
+              setCountry(e.target.value);
+              setLanguage(compatibleLanguage(language, names, e.target.value));
+            }}
           >
             <option value="">Tous / non établi</option>
-            {[...countries, ...europeanContexts].map((c) => (
+            {sortLabels([...countries, ...europeanContexts], (c) => c.nameFr, locale).map((c) => (
               <option key={c.ISO3} value={c.ISO3}>
                 {c.nameFr}
               </option>
@@ -135,20 +146,11 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
                   </strong>
                   {n.referent && (
                     <small data-no-translate dir="auto">
-                      {n.referent
-                        .replace(/^organism/, 'Plante ou organisme')
-                        .replace(/^edible_part/, 'Partie alimentaire')
-                        .replace(/^commercial_group/, 'Groupe alimentaire')
-                        .replace(/^preparation/, 'Préparation')}
+                      {evidenceLabel(n.referent)}
                     </small>
                   )}
                 </td>
-                <td>
-                  {n.languageLabel ||
-                    languageNames[n.languageCode || ''] ||
-                    n.languageCode ||
-                    'Non renseignée'}
-                </td>
+                <td>{languageLabel(n.languageCode || n.languageId || '', names)}</td>
                 <td>
                   {n.countryIds.length
                     ? n.countryIds
@@ -163,7 +165,10 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
                   <small>
                     {n.regionIds.length
                       ? n.regionIds
-                          .map((id) => regions.find((r) => r.id === id)?.name || id)
+                          .map((id) => {
+                            const region = regions.find((r) => r.id === id);
+                            return region ? regionLabel(region) : 'Région non précisée';
+                          })
                           .join(', ')
                       : 'Aucune région documentée'}
                   </small>
@@ -175,14 +180,8 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
                   <a href={n.sourceUrl} target="_blank" rel="noopener noreferrer">
                     Source ↗
                   </a>
-                  <small>
-                    {n.nameType === 'input'
-                      ? 'Variante de saisie'
-                      : n.status === 'reviewed'
-                        ? 'Appellation vérifiée'
-                        : 'Appellation documentée'}
-                  </small>
-                  <small className="evidence-locator">{n.locator}</small>
+                  <small>{assertionLabel(n)}</small>
+                  <small className="public-evidence">{evidenceLabel(n.locator)}</small>
                   {n.proofs?.slice(1).map((proof, i) => (
                     <small key={i}>
                       <a href={proof.url} target="_blank" rel="noopener noreferrer">
@@ -190,7 +189,7 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
                       </a>
                       <span data-no-translate dir="auto">
                         {' '}
-                        {proof.locator}
+                        {evidenceLabel(proof.locator)}
                       </span>
                     </small>
                   ))}

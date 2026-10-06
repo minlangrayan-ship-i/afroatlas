@@ -54,6 +54,7 @@ export const languageNames: Record<string, string> = {
   pt: 'Portugais',
   mg: 'Malgache',
   bm: 'Bambara',
+  la: 'Latin',
   'local-und': 'Langue locale non précisée par la source',
 };
 export const categories = [

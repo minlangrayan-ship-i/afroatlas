@@ -1,16 +1,21 @@
 import { Children, cloneElement, isValidElement, useEffect, useState, type ReactNode } from 'react';
 import { translate, type Locale } from './i18n';
 
+export function useLocale() {
+  const [locale, setLocale] = useState<Locale>('fr');
+  useEffect(() => {
+    const update = () => setLocale((document.documentElement.lang as Locale) || 'fr');
+    update();
+    window.addEventListener('afroatlas-locale', update);
+    return () => window.removeEventListener('afroatlas-locale', update);
+  }, []);
+  return locale;
+}
+
 /** Translate React's virtual tree, never its DOM: hydration starts in the same language as SSR. */
 export function withLocale<P>(render: (props: P) => ReactNode) {
   return function Localized(props: P) {
-    const [locale, setLocale] = useState<Locale>('fr');
-    useEffect(() => {
-      const update = () => setLocale((document.documentElement.lang as Locale) || 'fr');
-      update();
-      window.addEventListener('afroatlas-locale', update);
-      return () => window.removeEventListener('afroatlas-locale', update);
-    }, []);
+    const locale = useLocale();
     return localize(render(props), locale);
   };
 }

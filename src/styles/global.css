@@ -2342,6 +2342,182 @@ astro-island:has([data-replaced-photo]) + .photo-credit {
 .seller-card-full > img {
   height: 230px;
 }
+.seller-card.seller-result {
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+.shop-context {
+  padding-block: 24px;
+}
+.shop-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.shop-heading h2 {
+  font-size: clamp(24px, 3vw, 34px);
+}
+.seller-form strong {
+  color: var(--green);
+}
+.form-clarification {
+  border-inline-start: 3px solid var(--terracotta);
+  padding-inline-start: 12px;
+  margin-block: 16px;
+}
+.form-clarification a {
+  text-decoration: underline;
+}
+.seller-request {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  font-size: 17px !important;
+}
+.seller-request strong {
+  display: block;
+  margin-top: 8px;
+}
+.seller-dialog {
+  overflow-y: auto;
+}
+.seller-dialog .seller-card-full {
+  grid-template-columns: 1fr;
+}
+.seller-dialog .seller-card-full > img {
+  height: min(35dvh, 320px);
+  object-fit: contain;
+}
+.documentary-sections {
+  margin-block: 24px;
+}
+.documentary-detail {
+  border-top: 1px solid var(--line);
+  padding-block: 16px;
+}
+.documentary-detail > summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 17px;
+  min-height: 44px;
+  padding-block: 10px;
+}
+.documentary-detail[open] > summary {
+  margin-bottom: 16px;
+}
+.documentary-detail .table-note {
+  margin-block: 16px;
+}
+.photo-attribution {
+  font-size: 11px;
+  margin-top: 8px;
+  color: var(--muted);
+}
+.photo-attribution > summary {
+  min-height: 32px;
+  cursor: pointer;
+}
+.choice-intro {
+  margin-bottom: 20px;
+}
+.choice-intro h2 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+.choice-intro p,
+.choice-description {
+  font-size: 13px;
+  color: var(--muted);
+}
+.choice-title {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.choice-title + h3 {
+  font-size: 14px;
+  color: var(--muted);
+}
+.filters-panel > summary {
+  cursor: pointer;
+  min-height: 36px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.filters-panel[open] > summary {
+  margin-bottom: 16px;
+}
+.filters-content {
+  display: contents;
+}
+.catalog-results:has(.choice-intro) .product-grid {
+  gap: 16px;
+}
+.catalog-results .product-card:has(.choice-title) .card-names,
+.catalog-results .product-card:has(.choice-title) .table-note {
+  display: none;
+}
+.catalog-results .product-card:has(.choice-title) .card-body h3 {
+  font-size: 13px;
+}
+.catalog-results .product-card:has(.choice-title) .choice-title {
+  font-size: 21px;
+  line-height: 1.25;
+}
+@media (max-width: 750px) {
+  .catalog-results:has(.choice-intro) .product-grid {
+    grid-template-columns: 1fr;
+  }
+  .catalog-results .product-card:has(.choice-title) {
+    display: grid;
+    grid-template-columns: minmax(100px, 34%) minmax(0, 1fr);
+  }
+  .catalog-results .product-card:has(.choice-title) .card-photo {
+    height: 100%;
+    min-height: 190px;
+  }
+  .catalog-results .product-card:has(.choice-title) .photo-tag {
+    display: none;
+  }
+  .catalog-results .product-card:has(.choice-title) .photo-context {
+    inset-inline: 4px;
+    font-size: 9px;
+  }
+  .catalog-results .product-card:has(.choice-title) .choice-title {
+    font-size: 19px;
+  }
+  .catalog-results .product-card:has(.choice-title) .card-bottom {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .catalog-results .product-card:has(.choice-title) .card-bottom > a {
+    font-size: 11px;
+  }
+  .destination-picker {
+    margin-block: 16px;
+    padding: 16px;
+  }
+  .destination-picker p {
+    margin-bottom: 8px;
+  }
+  .destination-fields {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .destination-fields label {
+    margin-bottom: 0;
+  }
+  .destination-fields label:first-child {
+    grid-column: 1 / -1;
+  }
+  .destination-fields select {
+    margin-top: 4px;
+  }
+  .filters-panel {
+    padding-block: 10px;
+  }
+}
 .presentation-teaser {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2437,8 +2613,8 @@ astro-island:has([data-replaced-photo]) + .photo-credit {
 }
 @media (max-width: 750px) {
   .destination-fields {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
   .destination-picker {
     padding: 16px;

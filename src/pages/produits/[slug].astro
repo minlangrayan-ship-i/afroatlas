@@ -15,7 +15,8 @@ import {
   cardProducts,
 } from '../../lib/catalogue';
 import { href } from '../../lib/links';
-import { categories } from '../../data/countries';
+import { categories, countries } from '../../data/countries';
+import { evidenceLabel, productChoice } from '../../lib/presentation';
 export function getStaticPaths() {
   return products.map((product) => ({ params: { slug: product.slug }, props: { product } }));
 }
@@ -71,6 +72,9 @@ const structuredData = [
   },
 ];
 const nameProofs = Object.fromEntries(rows.map((n) => [n.id, n.proofs]));
+const contextProofs = Object.fromEntries(
+  contexts.map((c) => [c.id, catalogue.sources.find((s) => s.id === c.sourceId)!.url]),
+);
 ---
 
 <Layout
@@ -89,24 +93,27 @@ const nameProofs = Object.fromEntries(rows.map((n) => [n.id, n.proofs]));
     <div>
       <PhotoZoom image={image} label={product.labelFr} productId={product.id} client:load />
       {(image.role === 'primary' || image.verificationStatus === 'visually_checked') && (
-        <p class="photo-credit">
-          {image.creatorUrl ? (
-            <a href={image.creatorUrl} target="_blank" rel="noopener noreferrer">
-              {image.creator}
+        <details class="photo-attribution">
+          <summary>Crédit de la photographie</summary>
+          <p class="photo-credit">
+            {image.creatorUrl ? (
+              <a href={image.creatorUrl} target="_blank" rel="noopener noreferrer">
+                {image.creator}
+              </a>
+            ) : (
+              image.creator
+            )}{' '}
+            ·{' '}
+            <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
+              Source ↗
+            </a>{' '}
+            ·{' '}
+            <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
+              {image.licenseId}
             </a>
-          ) : (
-            image.creator
-          )}{' '}
-          ·{' '}
-          <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
-            Source ↗
-          </a>{' '}
-          ·{' '}
-          <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
-            {image.licenseId}
-          </a>
-          <small>{image.modifications}</small>
-        </p>
+            <small>{image.modifications}</small>
+          </p>
+        </details>
       )}
     </div>
     <div class="product-summary">
@@ -121,158 +128,144 @@ const nameProofs = Object.fromEntries(rows.map((n) => [n.id, n.proofs]));
         {product.labelFr}
       </h1>
       <p class="scientific">{product.scientificName}</p>
-      {product.scientificNames && (
-        <p class="table-note" data-no-translate dir="auto">
-          {product.scientificNames.join(' · ')}
-        </p>
-      )}
       <p data-no-translate dir="auto">
         {product.description}
       </p>
       <div class="summary-facts">
-        <span>
-          {product.entityType === 'commercial-category'
-            ? 'Plusieurs espèces possibles'
-            : product.entityType === 'prepared-dish'
-              ? 'Préparation distincte'
-              : 'Identité documentée'}
-        </span>
-        <span>Appellations documentées</span>
+        <span>{productChoice(product).title}</span>
+        <span>{product.formTypes.join(', ')}</span>
+        {product.entityType === 'commercial-category' && <span>Plusieurs espèces possibles</span>}
         {product.documentaryScope === 'organism' && <span>Plante ou organisme</span>}
-        {product.documentaryScope === 'edible_part' && <span>Partie alimentaire</span>}
-        <span>{names.length} noms / variantes</span>
       </div>
       <ProductActions id={product.id} share client:load />
-      <p class="table-note">{product.editorialNote}</p>
-      <p class="verification-date">
-        Dernier contrôle d’import : <time datetime={product.verifiedAt}>{product.verifiedAt}</time>.
-        Aucun examen culturel humain enregistré.
-      </p>
     </div>
   </section>
   <ShopCard
     product={cardProducts.find((p) => p.id === product.id)!}
     proofs={nameProofs}
-    client:visible
+    contextProofs={contextProofs}
+    client:load
   />
-  <section class="container section">
-    <div class="section-header">
-      <div>
-        <p class="eyebrow">UN NOM, UNE PREUVE</p>
-        <h2>Les appellations documentées.</h2>
-      </div>
-    </div>
-    <NamesTable names={rows} client:load />
-  </section>
-  <section class="container section detail-columns">
-    <article class="shop-guide">
-      <p class="eyebrow">COMMENT LE DEMANDER EN BOUTIQUE ?</p>
-      <h2>Commencez par un nom documenté.</h2>
-      <dl>
-        <dt>Libellé français de la source</dt>
-        <dd data-no-translate dir="auto">
-          {french?.name || 'Non renseigné'}
-        </dd>
-        <dt>Libellé anglais de la source</dt>
-        <dd data-no-translate dir="auto">
-          {english?.name || 'Non renseigné'}
-        </dd>
-        <dt>Libellé arabe de la source</dt>
-        <dd data-no-translate dir="auto" lang="ar">
-          {arabic?.name || 'Non renseigné'}
-        </dd>
-        <dt>Forme de la fiche</dt>
-        <dd>{product.formTypes.join(', ')}</dd>
-        {product.consumedPart && (
-          <>
-            <dt>
-              {product.documentaryScope === 'organism' ? 'Identité couverte' : 'Partie consommée'}
-            </dt>
+  <section class="container documentary-sections">
+    <details class="documentary-detail" id="appellations">
+      <summary>Appellations détaillées, langues et contextes</summary>
+      <NamesTable names={rows} client:load />
+    </details>
+    <details class="documentary-detail">
+      <summary>Parties, formes et usages documentés</summary>
+      <div class="detail-columns">
+        <article class="shop-guide">
+          <p class="eyebrow">COMMENT LE DEMANDER EN BOUTIQUE ?</p>
+          <h2>Commencez par un nom documenté.</h2>
+          <dl>
+            <dt>Libellé français de la source</dt>
             <dd data-no-translate dir="auto">
-              {product.consumedPart}
+              {french?.name || 'Non renseigné'}
             </dd>
-          </>
-        )}
-      </dl>
-      <p>
-        Montrez la photographie et précisez la forme recherchée. Ces libellés ne prouvent pas le nom
-        utilisé par une boutique.
-      </p>
-    </article>
-    <article class="usage-guide">
-      <p class="eyebrow">USAGES & FORMES</p>
-      <h2>Ce que cette fiche établit.</h2>
-      <p>
-        {product.usage ||
-          'Les usages culinaires régionaux et les formes préparées ne sont pas encore documentés dans cet instantané.'}
-      </p>
-      <ul>
-        {product.sourceIds.map((id) => {
-          const source = catalogue.sources.find((s) => s.id === id)!;
-          return (
-            <li>
+            <dt>Libellé anglais de la source</dt>
+            <dd data-no-translate dir="auto">
+              {english?.name || 'Non renseigné'}
+            </dd>
+            <dt>Libellé arabe de la source</dt>
+            <dd data-no-translate dir="auto" lang="ar">
+              {arabic?.name || 'Non renseigné'}
+            </dd>
+            <dt>Forme de la fiche</dt>
+            <dd>{product.formTypes.join(', ')}</dd>
+            {product.consumedPart && (
+              <>
+                <dt>
+                  {product.documentaryScope === 'organism'
+                    ? 'Identité couverte'
+                    : 'Partie consommée'}
+                </dt>
+                <dd data-no-translate dir="auto">
+                  {evidenceLabel(product.consumedPart)}
+                </dd>
+              </>
+            )}
+          </dl>
+          <p>
+            Montrez la photographie et précisez la forme recherchée. Ces libellés ne prouvent pas le
+            nom utilisé par une boutique.
+          </p>
+        </article>
+        <article class="usage-guide">
+          <p class="eyebrow">USAGES & FORMES</p>
+          <h2>Ce que cette fiche établit.</h2>
+          <p>
+            {product.usage ||
+              'Les usages culinaires régionaux et les formes préparées ne sont pas encore documentés dans cet instantané.'}
+          </p>
+          <ul>
+            {product.sourceIds.map((id) => {
+              const source = catalogue.sources.find((s) => s.id === id)!;
+              return (
+                <li>
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-no-translate
+                    dir="auto"
+                  >
+                    {source.title} ↗
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+          <p>
+            Aucune équivalence entre produit brut, séché, fumé ou moulu n’est présumée. Les mélanges
+            et plats préparés nécessitent une fiche propre.
+          </p>
+          <a class="text-link" href={href(`contribuer/?product=${product.slug}`)}>
+            Compléter avec une source ↗
+          </a>
+        </article>
+      </div>
+    </details>
+    <CommunityUpdates productId={product.id} client:load />
+    <div class="container">
+      <AdSlot location="product-after-main-info" />
+    </div>
+    {contexts.length > 0 && (
+      <details class="documentary-detail">
+        <summary>Usages locaux et périmètres des sources</summary>
+        <div class="source-cards">
+          {contexts.map((context) => (
+            <article class="shop-guide" dir="auto">
+              <h3 data-no-translate>{context.localContext}</h3>
+              <p data-no-translate>{context.description}</p>
+              <p>
+                Forme concernée : {context.form} ·{' '}
+                {countries.find((c) => c.ISO3 === context.countryId)?.nameFr ||
+                  'Contexte non établi'}
+              </p>
               <a
-                href={source.url}
+                href={catalogue.sources.find((s) => s.id === context.sourceId)!.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                data-no-translate
-                dir="auto"
               >
-                {source.title} ↗
+                Source ↗
               </a>
-            </li>
-          );
-        })}
-      </ul>
+              <small>{evidenceLabel(context.locator)}</small>
+            </article>
+          ))}
+        </div>
+      </details>
+    )}
+    <details class="documentary-detail">
+      <summary>Références commerciales et conditionnement</summary>
       <p>
-        Aucune équivalence entre produit brut, séché, fumé ou moulu n’est présumée. Les mélanges et
-        plats préparés nécessitent une fiche propre.
+        {references.length
+          ? `${references.length} référence${references.length > 1 ? 's' : ''} reliée${references.length > 1 ? 's' : ''} par une preuve.`
+          : 'Aucune référence commerciale reliée par une preuve à cette fiche pour le moment.'}
       </p>
-      <a class="text-link" href={href(`contribuer/?product=${product.slug}`)}>
-        Compléter avec une source ↗
+      <a class="text-link" href={href('references/')}>
+        Consulter les références séparément ↗
       </a>
-    </article>
-  </section>
-  <CommunityUpdates productId={product.id} client:load />
-  <div class="container">
-    <AdSlot location="product-after-main-info" />
-  </div>
-  {contexts.length > 0 && (
-    <section class="container section">
-      <p class="eyebrow">CONTEXTES LOCAUX DOCUMENTÉS</p>
-      <h2>Usages et périmètres des sources</h2>
-      <div class="source-cards">
-        {contexts.map((context) => (
-          <article class="shop-guide" data-no-translate dir="auto">
-            <h3>{context.localContext}</h3>
-            <p>{context.description}</p>
-            <p>
-              Forme concernée : {context.form} · {context.countryId}
-            </p>
-            <a
-              href={catalogue.sources.find((s) => s.id === context.sourceId)!.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Source ↗
-            </a>
-            <small>{context.locator}</small>
-          </article>
-        ))}
-      </div>
-    </section>
-  )}
-  <section class="container section">
-    <p class="eyebrow">RÉFÉRENCES COMMERCIALES</p>
-    <h2>Le conditionnement, une autre identité.</h2>
-    <p>
-      {references.length
-        ? `${references.length} références reliées par une preuve.`
-        : 'Aucune référence commerciale reliée par une preuve à cette fiche pour le moment.'}
-    </p>
-    <a class="text-link" href={href('references/')}>
-      Consulter les références séparément ↗
-    </a>
+    </details>
   </section>
   <section class="container section">
     <div class="section-header">
@@ -310,35 +303,43 @@ const nameProofs = Object.fromEntries(rows.map((n) => [n.id, n.proofs]));
       ))}
     </div>
   </section>
-  <section class="container source-section section">
-    <h2>Sources & limites</h2>
-    {catalogue.sources
-      .filter((s) => product.sourceIds.includes(s.id))
-      .map((s) => (
-        <p>
-          <a href={s.url} target="_blank" rel="noopener noreferrer">
-            {s.title} ↗
-          </a>{' '}
-          · {s.licenseId} · révision {s.datasetVersion} · importé le {s.retrievedAt}
-          {s.accessNote && (
-            <small class="table-note" data-no-translate dir="auto">
-              {s.accessNote}
-            </small>
-          )}
-        </p>
-      ))}
-    <p>
-      Les alias linguistiques ne prouvent ni usage géographique, ni usage culinaire, ni présence en
-      boutique. Pour un nom ambigu, consultez toutes les fiches candidates dans la recherche.
-    </p>
-    <p>
-      Explorer les contextes d’appellation :{' '}
-      {[...new Set(names.flatMap((n) => n.countryIds))].map((id) => (
-        <a href={href(`pays/${id.toLowerCase()}/`)}>{id} ↗ </a>
-      ))}
-    </p>
-    <a class="button secondary" href={href(`contribuer/?product=${product.slug}`)}>
-      Contribuer à la bibliothèque
-    </a>
+  <section class="container documentary-sections">
+    <details class="documentary-detail source-section">
+      <summary>Sources, crédits et limites</summary>
+      <p>{product.editorialNote}</p>
+      <p class="verification-date">
+        Dernier contrôle d’import : <time datetime={product.verifiedAt}>{product.verifiedAt}</time>.
+        Aucun examen culturel humain enregistré.
+      </p>
+      {product.scientificNames && <p class="scientific">{product.scientificNames.join(' · ')}</p>}
+      {catalogue.sources
+        .filter((s) => product.sourceIds.includes(s.id))
+        .map((s) => (
+          <p>
+            <a href={s.url} target="_blank" rel="noopener noreferrer">
+              {s.title} ↗
+            </a>{' '}
+            · {s.licenseId} · révision {s.datasetVersion} · importé le {s.retrievedAt}
+            {s.accessNote && (
+              <small class="table-note" data-no-translate dir="auto">
+                {s.accessNote}
+              </small>
+            )}
+          </p>
+        ))}
+      <p>
+        Les alias linguistiques ne prouvent ni usage géographique, ni usage culinaire, ni présence
+        en boutique. Pour un nom ambigu, consultez toutes les fiches candidates dans la recherche.
+      </p>
+      <p>
+        Explorer les contextes d’appellation :{' '}
+        {[...new Set(names.flatMap((n) => n.countryIds))].map((id) => (
+          <a href={href(`pays/${id.toLowerCase()}/`)}>{id} ↗ </a>
+        ))}
+      </p>
+      <a class="button secondary" href={href(`contribuer/?product=${product.slug}`)}>
+        Contribuer à la bibliothèque
+      </a>
+    </details>
   </section>
 </Layout>

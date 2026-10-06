@@ -1,6 +1,12 @@
 import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
 const geo = JSON.parse(await readFile('src/data/published/geography.json', 'utf8'));
 const catalogue = JSON.parse(await readFile('src/data/published/catalogue.json', 'utf8'));
+// Correct only the documented drink; keep taxonomy, edible parts and commercial forms separate.
+const folereDrink = catalogue.products.find((p) => p.slug === 'folere-boisson');
+if (folereDrink && folereDrink.categoryId !== 'preparations') {
+  folereDrink.categoryId = 'preparations';
+  await writeFile('src/data/published/catalogue.json', JSON.stringify(catalogue, null, 2) + '\n');
+}
 const normalize = (value) =>
   value
     .normalize('NFD')

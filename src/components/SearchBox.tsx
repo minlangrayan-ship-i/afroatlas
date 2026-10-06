@@ -9,10 +9,12 @@ function SearchBox({
   products: seed,
   initial = '',
   onSearch,
+  context = '',
 }: {
   products: CardProduct[];
   initial?: string;
   onSearch?: (query: string) => void;
+  context?: string;
 }) {
   const products = useCommunityCatalogue(seed);
   const [value, setValue] = useState(initial),
@@ -25,6 +27,18 @@ function SearchBox({
     return () => clearTimeout(id);
   }, [value]);
   const ready = useClientReady();
+  function linkQuery() {
+    const params = new URLSearchParams(context);
+    if (ready) {
+      const current = new URLSearchParams(location.search);
+      for (const key of ['destination', 'destinationRegion', 'destinationLanguage', 'lang']) {
+        if (!params.has(key) && current.has(key)) params.set(key, current.get(key)!);
+      }
+      params.set('lang', document.documentElement.lang);
+    }
+    params.set('q', value);
+    return params.toString();
+  }
   const suggestions = useMemo(
     () =>
       debounced.trim()
@@ -48,10 +62,7 @@ function SearchBox({
     }
     if (event.key === 'Enter' && open && active >= 0 && suggestions[active]) {
       event.preventDefault();
-      window.location.href = productLink(
-        suggestions[active].product.slug,
-        new URLSearchParams({ q: value }).toString(),
-      );
+      window.location.href = productLink(suggestions[active].product.slug, linkQuery());
     }
   }
   return (
@@ -118,7 +129,7 @@ function SearchBox({
           {suggestions.map(({ product }, i) => (
             <li key={product.id} role="option" id={`${id}-${i}`} aria-selected={active === i}>
               <a
-                href={productLink(product.slug, new URLSearchParams({ q: value }).toString())}
+                href={productLink(product.slug, linkQuery())}
                 className={active === i ? 'selected' : ''}
               >
                 {(product.image.role === 'primary' ||

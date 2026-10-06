@@ -10,7 +10,14 @@ import {
   destinationParams,
   type Destination,
 } from '../lib/destination';
-import { countries, europeanContexts, languageNames } from '../data/countries';
+import {
+  languageLabel,
+  regionLabel,
+  assertionLabel,
+  productChoice,
+  evidenceLabel,
+} from '../lib/presentation';
+import { countries, europeanContexts } from '../data/countries';
 import regions from '../data/published/regions.json';
 import { href } from '../lib/links';
 import DestinationPicker from './DestinationPicker';
@@ -19,9 +26,11 @@ import { useClientReady } from '../lib/use-client-ready';
 function ShopCard({
   product: seed,
   proofs,
+  contextProofs = {},
 }: {
   product: CardProduct;
   proofs: Record<string, { url: string; locator: string }[]>;
+  contextProofs?: Record<string, string>;
 }) {
   const seedProducts = useMemo(() => [seed], [seed]);
   const ready = useClientReady();
@@ -29,11 +38,21 @@ function ShopCard({
   const geography = useCommunityGeography();
   const [destination, setDestination] = useState<Destination>(emptyDestination);
   const [query, setQuery] = useState('');
+  const [back, setBack] = useState(href('catalogue/'));
   const dialog = useRef<HTMLDialogElement>(null);
+  const opener = useRef<HTMLButtonElement>(null);
   useEffect(() => {
-    setDestination(readDestination(location.search));
-    setQuery((new URLSearchParams(location.search).get('q') || '').slice(0, 200));
+    const update = () => {
+      setDestination(readDestination(location.search));
+      const params = new URLSearchParams(location.search);
+      setQuery((params.get('q') || '').slice(0, 200));
+      params.delete('id');
+      setBack(href('catalogue/') + (params.size ? '?' + params : ''));
+    };
+    update();
     recordUsage('product_open');
+    window.addEventListener('popstate', update);
+    return () => window.removeEventListener('popstate', update);
   }, []);
   function change(next: Destination) {
     setDestination(next);
@@ -42,92 +61,160 @@ function ShopCard({
       url.searchParams.delete(key);
     for (const [key, value] of destinationParams(next)) url.searchParams.set(key, value);
     history.replaceState({}, '', url);
+    setBack(href('catalogue/') + url.search);
     recordUsage('destination_use');
   }
   const names = destinationNames(product.names, destination);
   const fallback = commonNames(product.names);
+  const unique = (list: typeof names) =>
+    list.filter(
+      (n, i) =>
+        list.findIndex(
+          (other) =>
+            other.name.toLocaleLowerCase() === n.name.toLocaleLowerCase() &&
+            (other.languageCode || other.languageId) === (n.languageCode || n.languageId),
+        ) === i,
+    );
+  const displayed = unique(names.length ? names : fallback).slice(0, 3);
   const context =
     [...countries, ...europeanContexts].find((c) => c.ISO3 === destination.country)?.nameFr ||
     geography.find((e) => e.kind === 'country' && e.country === destination.country)?.labelFr ||
-    destination.country;
+    '';
+  const region = regions.find((r) => r.id === destination.region);
+  const beverageEvidence =
+    product.slug === 'oseille-guinee' && destination.country === 'SEN'
+      ? product.contexts.find((c) => c.countryId === 'SEN')
+      : undefined;
   const card = (compact = false) => (
-    <div className={`seller-card ${compact ? 'seller-card-full' : ''}`}>
-      {product.image.role === 'primary' ? (
-        <img
-          src={href(product.image.smallPath)}
-          width={product.image.width}
-          height={product.image.height}
-          alt={product.image.altFr}
-          loading="lazy"
-        />
-      ) : (
-        <div className="photo-gap">Photo de la forme recherchée à documenter</div>
-      )}
+    <div className={`seller-card ${compact ? 'seller-card-full' : 'seller-result'}`}>
+      {compact &&
+        (product.image.role === 'primary' ? (
+          <img
+            src={href(product.image.localPath)}
+            width={product.image.width}
+            height={product.image.height}
+            alt={product.image.altFr}
+          />
+        ) : (
+          <div className="photo-gap">Photo de la forme recherchée à documenter</div>
+        ))}
       <div>
-        <h3 data-no-translate dir="auto">
-          {product.labelFr}
-        </h3>
-        <p className="scientific">{product.scientificName}</p>
-        <p>
-          <span>Forme de la fiche</span> :{' '}
-          <bdi data-no-translate>{product.formTypes.join(', ')}</bdi>
-        </p>
+        {compact && (
+          <h3
+            data-product-label
+            data-fr={product.labelFr}
+            data-en={product.labelEn || ''}
+            data-ar={
+              product.labelAr || product.names.find((n) => n.languageCode === 'ar')?.name || ''
+            }
+          >
+            {product.labelFr}
+          </h3>
+        )}
         {query && (
           <p>
             <span>Nom recherché</span> : <bdi data-no-translate>{query}</bdi>
           </p>
         )}
+        <p className="seller-form">
+          <span>Partie et forme recherchées</span> : <strong>{productChoice(product).title}</strong>
+        </p>
+        {![
+          'oseille-guinee',
+          'bissap-feuilles',
+          'folere-boisson',
+          'hibiscus-plante',
+          'gombo',
+          'gombo-poudre',
+        ].includes(product.slug) && (
+          <p>
+            <span>Forme de la fiche</span> : {product.formTypes.join(', ')}
+            {product.consumedPart && (
+              <>
+                {' '}
+                · <span>Partie consommée</span> : <bdi>{evidenceLabel(product.consumedPart)}</bdi>
+              </>
+            )}
+          </p>
+        )}
         {context && (
           <p>
             <span>Destination</span> : {context}
-            {destination.region
-              ? ` · ${regions.find((r) => r.id === destination.region)?.name || destination.region}`
-              : ''}
+            {region && <> · {regionLabel(region)}</>}
           </p>
         )}
         <h4>
-          {destination.country
+          {destination.country && names.length
             ? 'Appellations attestées pour cette destination'
             : 'Noms courants documentés'}
         </h4>
         {destination.country && !names.length && (
           <p className="notice">
-            Aucune appellation locale vérifiée pour cette sélection. Les noms courants ci-dessous ne
-            prouvent pas un usage dans cette destination.
+            Aucune appellation locale sourcée pour cette sélection. Montrez la photo et précisez la
+            partie et la forme. Les noms courants ne prouvent pas un usage dans cette destination.
+          </p>
+        )}
+        {beverageEvidence && (
+          <p className="form-clarification">
+            <strong>Au Sénégal, « bissap » est documenté ici pour la boisson.</strong> La source
+            décrit des calices rouges séchés utilisés pour la préparer ; elle n’établit pas leur nom
+            de vente.
+            {!compact && (
+              <>
+                {' '}
+                <a
+                  href={contextProofs[beverageEvidence.id]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source ↗
+                </a>
+              </>
+            )}
           </p>
         )}
         <ul className="seller-names">
-          {(names.length ? names : fallback).map((n) => (
+          {displayed.map((n) => (
             <li key={n.id}>
               <strong data-no-translate dir="auto" lang={n.languageCode || undefined}>
                 {n.name}
               </strong>
-              <span>
-                {n.languageLabel || languageNames[n.languageCode || ''] || 'Langue non précisée'} ·{' '}
-                {n.regionIds.map((id) => regions.find((r) => r.id === id)?.name || id).join(', ') ||
-                  n.localContext ||
-                  'Contexte non établi'}
-              </span>
+              <span>{languageLabel(n.languageCode || n.languageId || '', product.names)}</span>
               {!compact && (
                 <small>
-                  {n.status === 'reviewed' ? 'Appellation vérifiée' : 'Appellation documentée'} ·{' '}
-                  {(
-                    proofs[n.id] ||
-                    (n.sourceUrl ? [{ url: n.sourceUrl, locator: n.sourceLocator || '' }] : [])
-                  ).map((p, i) => (
-                    <a key={i} href={p.url} target="_blank" rel="noopener noreferrer">
-                      Source ↗ <span className="evidence-locator">{p.locator}</span>
-                    </a>
-                  ))}
+                  {assertionLabel(n)} ·{' '}
+                  {(proofs[n.id] || (n.sourceUrl ? [{ url: n.sourceUrl, locator: '' }] : []))
+                    .slice(0, 1)
+                    .map((p, i) => (
+                      <a key={i} href={p.url} target="_blank" rel="noopener noreferrer">
+                        Source ↗
+                      </a>
+                    ))}
                 </small>
               )}
             </li>
           ))}
         </ul>
-        {!names.length && !fallback.length && (
+        {!displayed.length && (
           <p>Aucun nom courant documenté dans les trois langues principales.</p>
         )}
-        <p className="table-note">Confirmez la partie et la forme recherchées avec le vendeur.</p>
+        {compact && (
+          <p className="seller-request">
+            <span>Je cherche ce produit, dans cette forme.</span>{' '}
+            <strong>{productChoice(product).title}</strong>
+          </p>
+        )}
+        {!compact && unique(names.length ? names : fallback).length > 3 && (
+          <a
+            href="#appellations"
+            onClick={() => {
+              const details = document.querySelector<HTMLDetailsElement>('#appellations');
+              if (details) details.open = true;
+            }}
+          >
+            Consulter toutes les appellations détaillées ↓
+          </a>
+        )}
         {compact && product.image.role === 'primary' && (
           <p className="photo-credit">
             {product.image.creator} · {product.image.licenseId}
@@ -138,11 +225,17 @@ function ShopCard({
   );
   return (
     <section className="container section shop-context" id="demander">
-      <h2>Comment demander ce produit ?</h2>
+      <div className="shop-heading">
+        <h2>Le nom à demander au vendeur</h2>
+        <a className="text-link" href={back}>
+          Retour aux résultats ↗
+        </a>
+      </div>
       <DestinationPicker value={destination} onChange={change} names={product.names} />
       <div aria-live="polite">{card()}</div>
       <button
-        className="button secondary"
+        ref={opener}
+        className="button"
         disabled={!ready}
         onClick={() => dialog.current?.showModal()}
       >
@@ -150,7 +243,9 @@ function ShopCard({
       </button>
       <dialog
         className="seller-dialog"
+        aria-label="Présentation à montrer au vendeur"
         ref={dialog}
+        onClose={() => opener.current?.focus()}
         onClick={(e) => {
           if (e.target === e.currentTarget) dialog.current?.close();
         }}

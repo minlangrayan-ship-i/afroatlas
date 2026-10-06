@@ -41,7 +41,7 @@ test('destination travels from search to seller card, and only the attested regi
   const north = regions.find((r) => r.countryISO3 === 'CMR' && r.name === 'Adamaoua')!;
   await page.getByLabel('Région de l’interlocuteur').selectOption(north.id);
   await expect(page.locator('#demander > [aria-live]')).toContainText(
-    'Aucune appellation locale vérifiée',
+    'Aucune appellation locale sourcée',
   );
   await page.getByLabel('Pays de l’interlocuteur').selectOption('FRA');
   await expect(page.getByLabel('Région de l’interlocuteur')).toHaveValue('');

@@ -1,4 +1,5 @@
 import type { NameAssertion } from './schema';
+import { languageKey, nameLanguage } from './presentation';
 export type Destination = { country: string; region: string; language: string };
 export const emptyDestination: Destination = { country: '', region: '', language: '' };
 export function readDestination(search: string): Destination {
@@ -6,7 +7,7 @@ export function readDestination(search: string): Destination {
   return {
     country: p.get('destination') || '',
     region: p.get('destinationRegion') || '',
-    language: p.get('destinationLanguage') || '',
+    language: languageKey(p.get('destinationLanguage') || ''),
   };
 }
 export function destinationParams(value: Destination) {
@@ -26,7 +27,7 @@ export function destinationNames(names: NameAssertion[], destination: Destinatio
       n.geographicScope !== 'historical_area' &&
       n.countryIds.includes(destination.country) &&
       (!destination.region || n.regionIds.includes(destination.region)) &&
-      (!destination.language || (n.languageCode || n.languageId) === destination.language),
+      (!destination.language || nameLanguage(n) === languageKey(destination.language)),
   );
 }
 export function commonNames(names: NameAssertion[]) {
@@ -35,15 +36,15 @@ export function commonNames(names: NameAssertion[]) {
     .filter(
       (n) =>
         ['fr', 'en', 'ar'].includes(n.languageCode || '') &&
-        n.nameType !== 'input' &&
+        !['input', 'scientific'].includes(n.nameType || '') &&
         n.status !== 'candidate' &&
         n.status !== 'rejected',
     )
     .filter((n) => {
-      const key = `${n.languageCode}:${n.name}`;
+      const key = n.languageCode || '';
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     })
-    .slice(0, 6);
+    .slice(0, 3);
 }

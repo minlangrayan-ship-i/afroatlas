@@ -3,14 +3,17 @@ import type { CardProduct } from '../lib/catalogue';
 import { href, productLink } from '../lib/links';
 import { categories } from '../data/countries';
 import ProductActions from './ProductActions';
+import { evidenceLabel } from '../lib/presentation';
 function ProductCard({
   product,
   match = '',
   query = '',
+  choice,
 }: {
   product: CardProduct;
   match?: string;
   query?: string;
+  choice?: { title: string; description: string };
 }) {
   const productHref = productLink(product.slug, query);
   const previews = product.names
@@ -43,6 +46,7 @@ function ProductCard({
       </a>
       <div className="card-body">
         <a href={productHref}>
+          {choice && <h2 className="choice-title">{choice.title}</h2>}
           <h3
             data-product-label
             data-no-translate
@@ -55,6 +59,7 @@ function ProductCard({
             {product.labelFr}
           </h3>
         </a>
+        {choice && <p className="choice-description">{choice.description}</p>}
         <p className="card-names" data-no-translate dir="auto">
           {previews.map((n) => (
             <bdi key={n.id} lang={n.languageCode || undefined}>
@@ -68,7 +73,7 @@ function ProductCard({
               <span>
                 {product.documentaryScope === 'organism' ? 'Identité couverte' : 'Partie consommée'}
               </span>{' '}
-              : {product.consumedPart} ·{' '}
+              : {evidenceLabel(product.consumedPart)} ·{' '}
             </>
           )}
           Forme photographiée :{' '}

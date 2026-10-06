@@ -1,4 +1,5 @@
 import { withLocale } from '../lib/locale-react';
+import { regionLabel } from '../lib/presentation';
 import { useClientReady } from '../lib/use-client-ready';
 import { useEffect, useRef, useState, type SyntheticEvent } from 'react';
 import { countries, europeanContexts } from '../data/countries';
@@ -212,7 +213,7 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
               {regions
                 .filter((r) => r.countryISO3 === fields.country)
                 .map((r) => (
-                  <option key={r.id} value={r.name} />
+                  <option key={r.id} value={regionLabel(r)} />
                 ))}
             </datalist>
           </label>

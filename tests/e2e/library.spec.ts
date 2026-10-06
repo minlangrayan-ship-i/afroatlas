@@ -132,6 +132,7 @@ test('names can be copied and email contributions validate photographs', async (
 }) => {
   await context.grantPermissions(['clipboard-read', 'clipboard-write']);
   await page.goto(url('produits/gombo/'));
+  await page.locator('#appellations > summary').click();
   await page
     .getByRole('button', { name: /Copier/ })
     .first()

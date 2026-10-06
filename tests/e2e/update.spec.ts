@@ -63,9 +63,11 @@ test('FR EN AR interface, Arabic names and mixed-direction forms preserve naviga
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.goto(base + 'produits/gombo/?lang=ar');
   await expect(page.locator('h1')).toContainText('بامية');
+  await page.locator('#appellations > summary').click();
   await expect(page.locator('.names-panel bdi').first()).toBeVisible();
   await expect(page.locator('.names-panel table')).toBeVisible();
   await page.goto(base + 'catalogue/?lang=ar');
+  await page.locator('.filters-panel > summary').click();
   await page.getByLabel('الشكل', { exact: true }).selectOption('poudre');
   await expect(page).toHaveURL(/form=poudre/);
   await expect(page).toHaveURL(/lang=ar/);
@@ -85,7 +87,7 @@ test('photograph matches powder form and missing shop photographs are explicit',
 }) => {
   await page.goto(base + 'produits/curcuma/');
   await expect(page.locator('.photo-open img')).toHaveAttribute('src', /curcuma-shop-960.webp/);
-  await expect(page.locator('.shop-guide')).toContainText('poudre');
+  await expect(page.locator('.shop-guide').first()).toContainText('poudre');
   await expect(page.locator('.product-hero .photo-credit')).toContainText('CC BY-SA');
   await page.goto(base + 'produits/menthe/');
   await expect(page.locator('.product-hero .photo-open img')).toBeVisible();
