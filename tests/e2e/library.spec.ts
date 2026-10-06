@@ -126,7 +126,7 @@ test('all countries and contexts exist, a region has an honest empty state', asy
   await page.reload();
   await expect(page.locator('.region-list button[aria-pressed=true]')).toHaveCount(1);
 });
-test('names can be copied and contribution service absence is explicit', async ({
+test('names can be copied and email contributions validate photographs', async ({
   page,
   context,
 }) => {
@@ -138,8 +138,10 @@ test('names can be copied and contribution service absence is explicit', async (
     .click();
   await expect(page.getByRole('status').last()).toContainText('copié');
   await page.goto(url('contribuer/'));
-  await expect(page.getByRole('button', { name: 'Envoyer pour validation' })).toBeDisabled();
-  await expect(page.locator('.notice')).toContainText('rien n’est envoyé');
+  await expect(
+    page.getByRole('button', { name: 'Envoyer ma contribution par email' }),
+  ).toBeEnabled();
+  await expect(page.locator('.notice')).toContainText('sans publication automatique');
   await page.getByRole('radio', { name: 'Corriger une information' }).check();
   await page.getByLabel('Information à corriger', { exact: true }).selectOption('photo');
   await page.locator('.contribution-optional summary').click();

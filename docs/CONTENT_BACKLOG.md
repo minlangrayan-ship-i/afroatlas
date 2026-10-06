@@ -11,6 +11,6 @@ Le bilan actualisé et la liste des formes commerciales encore à photographier 
 - Photos : feuilles récoltées, graines, piments et poissons identifiés en boutique. Un poisson d’espèce commerciale indéterminée nécessite sa propre catégorie.
 - FR/EN/AR : noms manquants à documenter, textes documentaires détaillés à traduire humainement ; conserver toutes les appellations locales originales.
 - Références commerciales : contrôler emballages, unités, origine, droits et relations d’ingrédients.
-- Contributions : créer Supabase, appliquer la migration, déclarer le propriétaire, déployer les fonctions, vérifier le véritable parcours réseau. Voir SUPABASE_SETUP.md.
+- Contributions : transmission par email via FormSubmit, avec activation du destinataire et examen dans la boîte du propriétaire ; voir CONTRIBUTIONS_EMAIL.md. Pour le stockage durable dans la base et la modération intégrée, créer Supabase, appliquer la migration, déclarer le propriétaire et déployer les fonctions. Voir SUPABASE_SETUP.md.
 
 Les sources ouvertes initiales restent utilisées. Les rapports supplémentaires ont leurs propres conditions : les faits sont cités, les textes ne sont pas recopiés. Une cible de collecte ne justifie aucune correspondance inventée.

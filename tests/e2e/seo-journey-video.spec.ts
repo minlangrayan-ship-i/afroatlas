@@ -194,7 +194,9 @@ test('mobile contribution keeps details optional, prefills the product and label
     .getByLabel('Photographie facultative')
     .setInputFiles({ name: 'gombo.webp', mimeType: 'image/webp', buffer: bytes });
   await expect(page.locator('.upload-preview img')).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Envoyer pour validation' })).toBeDisabled();
-  await expect(page.locator('.notice')).toContainText('rien n’est envoyé');
+  await expect(
+    page.getByRole('button', { name: 'Envoyer ma contribution par email' }),
+  ).toBeEnabled();
+  await expect(page.locator('.notice')).toContainText('sans publication automatique');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });

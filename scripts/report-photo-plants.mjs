@@ -60,7 +60,7 @@ Commons : licences photo individuelles CC BY, CC BY-SA ou domaine public. Wikida
 
 ## Accès restant à configurer
 
-La réception durable des contributions nécessite encore la configuration Supabase choisie par le propriétaire. Aucun envoi réel n’est revendiqué sans accès. Les protections serveur et le plan de migration de l’hébergement restent décrits dans les documents existants. Cet enrichissement ne modifie ni l’hébergement, ni l’authentification, ni les vidéos FR/EN/AR.
+Le formulaire transmet maintenant les contributions par email via FormSubmit ; voir CONTRIBUTIONS_EMAIL.md. La livraison dans la boîte du propriétaire ne peut pas être déduite d’un simple acquittement du service. La base durable et la modération intégrée nécessitent encore la configuration Supabase choisie par le propriétaire. Les protections serveur et le plan de migration de l’hébergement restent décrits dans les documents existants ; les vidéos FR/EN/AR sont conservées.
 
 Voir [bilan photographique détaillé](PHOTO_PLANT_COUNTRY_REPORT.md), [sources](SOURCES.md), [lacunes](CONTENT_BACKLOG.md), [configuration Supabase](SUPABASE_SETUP.md).
 `,

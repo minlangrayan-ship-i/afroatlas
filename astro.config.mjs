@@ -53,7 +53,7 @@ export default defineConfig({
         "object-src 'none'",
         "base-uri 'self'",
         "form-action 'self'",
-        `connect-src 'self' https://cloudflareinsights.com ${backendOrigin}`.trim(),
+        `connect-src 'self' https://cloudflareinsights.com https://formsubmit.co ${backendOrigin}`.trim(),
         `img-src 'self' blob: ${backendOrigin}`.trim(),
         "media-src 'self'",
         "font-src 'self'",

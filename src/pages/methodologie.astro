@@ -72,11 +72,19 @@ import { products, catalogue } from '../lib/catalogue';
     </p>
     <h2>Contribuer sans publication automatique</h2>
     <p>
-      Lorsqu’un service de stockage sécurisé est connecté, les propositions et les fichiers sont
-      conservés dans une file privée. Le propriétaire examine, modifie, accepte ou refuse chaque
-      proposition. Seules les contributions acceptées deviennent publiques et recherchables. Si le
-      service n’est pas configuré, l’envoi est désactivé et aucun accusé de réception n’est affiché.
-      L’historique de recherche n’est pas enregistré.
+      Le formulaire transmet les propositions et les photos jointes par email au créateur via
+      FormSubmit. Le propriétaire les examine avant toute publication. L’acceptation par le service
+      email ne confirme pas la livraison dans sa boîte et ne publie rien dans le catalogue. L’envoi
+      est soumis à votre consentement ; les champs restent à l’écran si le service ne confirme pas
+      la réception. L’historique de recherche n’est pas enregistré.
+    </p>
+    <p>
+      FormSubmit conserve les propositions textuelles pendant 30 jours ; les pièces jointes ne sont
+      pas conservées dans cette archive. Le stockage durable et la modération Supabase restent à
+      configurer séparément.
+      <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">
+        Confidentialité du service email ↗
+      </a>
     </p>
     <a class="button" href={href('sources/')}>
       Consulter les sources & crédits ↗

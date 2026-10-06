@@ -3,7 +3,9 @@ import { useClientReady } from '../lib/use-client-ready';
 import { useEffect, useRef, useState, type SyntheticEvent } from 'react';
 import { countries, europeanContexts } from '../data/countries';
 import regions from '../data/published/regions.json';
-import { configured, sendContribution, validatePhoto, type Submission } from '../lib/community';
+import { validatePhoto, type Submission } from '../lib/community';
+import { sendContributionEmail } from '../lib/contribution-email';
+import { site } from '../data/site';
 import { recordUsage } from '../lib/usage';
 type ProductOption = { id: string; slug: string; labelFr: string };
 const initial = {
@@ -33,8 +35,10 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
     [photo, setPhoto] = useState<File | null>(null),
     [preview, setPreview] = useState(''),
     [message, setMessage] = useState(''),
+    [receipt, setReceipt] = useState(''),
     [busy, setBusy] = useState(false);
   const requestId = useRef<string | null>(null);
+  const photoInput = useRef<HTMLInputElement>(null);
   useEffect(() => {
     const slug = new URLSearchParams(location.search).get('product'),
       p = products.find((p) => p.slug === slug || p.id === slug);
@@ -58,27 +62,23 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
     e.preventDefault();
     setBusy(true);
     setMessage('');
+    setReceipt('');
     requestId.current ||= crypto.randomUUID();
     try {
-      const result = await sendContribution(fields as Submission, photo, requestId.current);
-      const notice =
-        result.notification === 'delivered'
-          ? 'Notification livrée au propriétaire.'
-          : result.notification === 'provider_accepted'
-            ? 'Notification acceptée par le service e-mail ; livraison non confirmée.'
-            : ['failed', 'needs_review'].includes(result.notification)
-              ? 'Notification non confirmée : examen par le propriétaire nécessaire.'
-              : 'Notification au propriétaire en attente.';
-      const review =
-        result.status === 'pending'
-          ? 'En attente de validation, non publiée.'
-          : result.status === 'accepted'
-            ? 'Cette proposition a déjà été acceptée par le propriétaire.'
-            : 'Cette proposition a déjà été refusée par le propriétaire.';
-      setMessage(`Contribution reçue — référence ${result.id}. ${review} ${notice}`);
+      const result = await sendContributionEmail(
+        fields as Submission,
+        photo,
+        requestId.current,
+        location.origin + location.pathname,
+      );
+      setMessage(
+        'Proposition acceptée par le service email. Livraison dans la boîte mail non confirmée. Aucune publication automatique.',
+      );
+      setReceipt(result.reference);
       recordUsage('contribution_received');
       setFields(initial);
       setPhoto(null);
+      if (photoInput.current) photoInput.current.value = '';
     } catch (e) {
       setMessage(e instanceof Error ? e.message : 'Envoi non confirmé. Réessayez plus tard.');
     } finally {
@@ -93,13 +93,15 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
         : 'correction';
   return (
     <form className="contribution-form" onSubmit={submit}>
-      {!configured && (
-        <p className="notice" role="status">
-          Les contributions en ligne ne sont pas encore ouvertes : le stockage sécurisé doit être
-          connecté par le propriétaire. Vous pouvez préparer les champs et prévisualiser une photo,
-          mais rien n’est envoyé ni enregistré sur le serveur.
+      <div className="notice">
+        <p>
+          Les propositions sont transmises automatiquement par email au créateur pour examen, sans
+          publication automatique.
         </p>
-      )}
+        <a href={`mailto:${site.contactEmail}`} dir="ltr" data-no-translate>
+          {site.contactEmail}
+        </a>
+      </div>
       <fieldset disabled={busy || !ready} className="contribution-fields">
         <legend>Votre contribution</legend>
         <div
@@ -310,6 +312,7 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
             Photographie facultative
             <input
               type="file"
+              ref={photoInput}
               accept="image/jpeg,image/png,image/webp"
               onChange={(e) => {
                 const file = e.target.files?.[0];
@@ -318,7 +321,7 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
                     validatePhoto(file);
                     setPhoto(file);
                     setMessage('');
-                  }
+                  } else setPhoto(null);
                 } catch (err) {
                   setPhoto(null);
                   e.target.value = '';
@@ -327,13 +330,21 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
               }}
             />
             <small>
-              JPEG, PNG ou WebP, 5 Mo maximum. Le fichier reste privé jusqu’à validation.
+              JPEG, PNG ou WebP, 5 Mo maximum. La photographie sera jointe à l’email, sans
+              publication automatique.
             </small>
           </label>
           {preview && (
             <div className="upload-preview">
               <img src={preview} alt="Aperçu de la photographie proposée" />
-              <button className="text-link" type="button" onClick={() => setPhoto(null)}>
+              <button
+                className="text-link"
+                type="button"
+                onClick={() => {
+                  setPhoto(null);
+                  if (photoInput.current) photoInput.current.value = '';
+                }}
+              >
                 Retirer la photographie
               </button>
             </div>
@@ -390,14 +401,30 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
             checked={fields.consent}
             onChange={(e) => update('consent', e.target.checked)}
           />
-          J’accepte que ma proposition soit conservée pour examen et que seules les informations
-          acceptées soient publiées avec leurs sources.
+          J’accepte la transmission de ma proposition et de sa photo éventuelle par FormSubmit au
+          créateur pour examen, et la publication des seules informations acceptées avec leurs
+          sources.
         </label>
-        <button className="button" type="submit" disabled={!configured || busy}>
-          {busy ? 'Envoi en cours…' : 'Envoyer pour validation'}
+        <p className="table-note">
+          <span>
+            FormSubmit traite les champs transmis et conserve les propositions textuelles pendant 30
+            jours. Votre adresse de suivi et votre photo ne sont pas publiées.
+          </span>{' '}
+          <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">
+            Confidentialité du service email ↗
+          </a>
+        </p>
+        <button className="button" type="submit" disabled={busy}>
+          {busy ? 'Envoi en cours…' : 'Envoyer ma contribution par email'}
         </button>
         <p className="action-message" role="status" aria-live="polite">
           {message}
+          {receipt && (
+            <>
+              <br />
+              <span>Référence</span> : <bdi data-no-translate>{receipt}</bdi>
+            </>
+          )}
         </p>
       </fieldset>
     </form>

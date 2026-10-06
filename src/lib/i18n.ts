@@ -1,6 +1,61 @@
 // Hand-written interface translations. Documentary names are never machine translated.
 export type Locale = 'fr' | 'en' | 'ar';
 export const ui: Record<string, [string, string]> = {
+  'Les propositions sont transmises automatiquement par email au créateur pour examen, sans publication automatique.':
+    [
+      'Proposals are automatically emailed to the creator for review, without automatic publication.',
+      'تُرسل الاقتراحات تلقائيًا بالبريد الإلكتروني إلى منشئ الموقع للمراجعة، دون نشر تلقائي.',
+    ],
+  'Envoyer ma contribution par email': [
+    'Send my contribution by email',
+    'أرسل مساهمتي بالبريد الإلكتروني',
+  ],
+  'JPEG, PNG ou WebP, 5 Mo maximum. La photographie sera jointe à l’email, sans publication automatique.':
+    [
+      'JPEG, PNG or WebP, up to 5 MB. The photograph will be attached to the email, without automatic publication.',
+      'JPEG أو PNG أو WebP، بحد أقصى 5 ميغابايت. ستُرفق الصورة بالبريد الإلكتروني دون نشر تلقائي.',
+    ],
+  'J’accepte la transmission de ma proposition et de sa photo éventuelle par FormSubmit au créateur pour examen, et la publication des seules informations acceptées avec leurs sources.':
+    [
+      'I agree to FormSubmit sending my proposal and optional photograph to the creator for review, and to publication only of approved information with its sources.',
+      'أوافق على إرسال اقتراحي وصورته الاختيارية عبر FormSubmit إلى منشئ الموقع للمراجعة، وعلى نشر المعلومات المقبولة فقط مع مصادرها.',
+    ],
+  'FormSubmit traite les champs transmis et conserve les propositions textuelles pendant 30 jours. Votre adresse de suivi et votre photo ne sont pas publiées.':
+    [
+      'FormSubmit processes the submitted fields and retains text submissions for 30 days. Your follow-up email and photograph are not published.',
+      'تعالج FormSubmit الحقول المرسلة وتحتفظ بالاقتراحات النصية لمدة 30 يومًا. لا يُنشر بريد المتابعة ولا صورتك.',
+    ],
+  'Confidentialité du service email ↗': [
+    'Email service privacy ↗',
+    'خصوصية خدمة البريد الإلكتروني ↗',
+  ],
+  'Proposition acceptée par le service email. Livraison dans la boîte mail non confirmée. Aucune publication automatique.':
+    [
+      'Proposal accepted by the email service. Inbox delivery is not confirmed. No automatic publication.',
+      'قبلت خدمة البريد الإلكتروني الاقتراح. وصوله إلى صندوق البريد غير مؤكد. لا يوجد نشر تلقائي.',
+    ],
+  'Envoi en attente : le propriétaire doit activer la réception des contributions par email. Votre formulaire est conservé à l’écran.':
+    [
+      'Submission pending: the owner must activate email reception. Your form is kept on screen.',
+      'الإرسال معلق: يجب على المالك تفعيل استقبال المساهمات بالبريد الإلكتروني. يبقى النموذج على الشاشة.',
+    ],
+  'Envoi par email non confirmé. Vos champs sont conservés ; réessayez plus tard.': [
+    'Email submission is unconfirmed. Your fields are retained; try again later.',
+    'الإرسال بالبريد الإلكتروني غير مؤكد. تبقى حقولك محفوظة؛ حاول لاحقًا.',
+  ],
+  'Le contenu du fichier ne correspond pas à une photographie JPEG, PNG ou WebP.': [
+    'The file content is not a JPEG, PNG or WebP photograph.',
+    'محتوى الملف لا يطابق صورة JPEG أو PNG أو WebP.',
+  ],
+  'La photographie ne peut pas être ouverte. Choisissez un fichier image valide.': [
+    'The photograph cannot be opened. Choose a valid image file.',
+    'تعذر فتح الصورة. اختر ملف صورة صالحًا.',
+  ],
+  'La photographie dépasse 30 millions de pixels. Réduisez ses dimensions.': [
+    'The photograph exceeds 30 million pixels. Reduce its dimensions.',
+    'تتجاوز الصورة 30 مليون بكسل. قلّل أبعادها.',
+  ],
+  Référence: ['Reference', 'المرجع'],
   'Où souhaitez-vous demander ce produit ?': [
     'Where would you like to ask for this product?',
     'أين تريد طلب هذا المنتج؟',

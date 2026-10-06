@@ -42,7 +42,9 @@ L’import initial est taxonomique ; les scripts suivants réappliquent l’enri
 
 ## Contributions
 
-Le propriétaire a choisi de préparer un projet Supabase. Le code inclut réception multipart, stockage durable privé, validation des fichiers/droits, compte propriétaire, édition/refus/acceptation et catalogue public des fiches acceptées. Aucune proposition ne devient publique automatiquement. **L’envoi reste fermé tant que Supabase n’est pas créé et connecté.** Le site n’affiche jamais un brouillon comme reçu.
+Le formulaire public transmet automatiquement les propositions et leurs photos par email à `site.contactEmail` via FormSubmit. L’activation du destinataire est requise ; le propriétaire a confirmé l’avoir effectuée. Voir [docs/CONTRIBUTIONS_EMAIL.md](docs/CONTRIBUTIONS_EMAIL.md). Un acquittement du prestataire ne certifie ni livraison Gmail ni validation du contenu. Aucune proposition ne devient publique automatiquement.
+
+Le projet Supabase reste préparé pour le stockage durable, les permissions du propriétaire et la modération. Ce parcours est distinct de l’email ; sa réception et sa publication doivent encore être connectées et testées. Le site n’affiche jamais un brouillon comme reçu.
 
 Suivre [docs/SUPABASE_SETUP.md](docs/SUPABASE_SETUP.md). Les deux variables publiques sont décrites dans `.env.example` et le workflow GitHub ; les clés secrètes restent uniquement dans Supabase. Les visiteurs n’accèdent ni aux propositions en attente ni aux photos privées. Favoris et comparaison restent locaux, sans historique de recherche enregistré.
 
