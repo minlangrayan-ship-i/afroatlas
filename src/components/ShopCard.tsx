@@ -99,26 +99,33 @@ function ShopCard({
           <div className="photo-gap">Photo de la forme recherchée à documenter</div>
         ))}
       <div>
-        {compact && (
-          <h3
-            data-product-label
-            data-fr={product.labelFr}
-            data-en={product.labelEn || ''}
-            data-ar={
-              product.labelAr || product.names.find((n) => n.languageCode === 'ar')?.name || ''
-            }
-          >
-            {product.labelFr}
-          </h3>
+        {compact && productChoice(product).title !== product.labelFr ? (
+          <h3>{productChoice(product).title}</h3>
+        ) : (
+          compact && (
+            <h3
+              data-product-label
+              data-fr={product.labelFr}
+              data-en={product.labelEn || ''}
+              data-ar={
+                product.labelAr || product.names.find((n) => n.languageCode === 'ar')?.name || ''
+              }
+            >
+              {product.labelFr}
+            </h3>
+          )
         )}
         {query && (
           <p>
             <span>Nom recherché</span> : <bdi data-no-translate>{query}</bdi>
           </p>
         )}
-        <p className="seller-form">
-          <span>Partie et forme recherchées</span> : <strong>{productChoice(product).title}</strong>
-        </p>
+        {!compact && (
+          <p className="seller-form">
+            <span>Partie et forme recherchées</span> :{' '}
+            <strong>{productChoice(product).title}</strong>
+          </p>
+        )}
         {![
           'oseille-guinee',
           'bissap-feuilles',
@@ -143,22 +150,32 @@ function ShopCard({
             {region && <> · {regionLabel(region)}</>}
           </p>
         )}
-        <h4>
-          {destination.country && names.length
-            ? 'Appellations attestées pour cette destination'
-            : 'Noms courants documentés'}
-        </h4>
+        {compact && <p className="seller-request">Je cherche ce produit, dans cette forme.</p>}
+        {(!compact || !destination.country || names.length > 0) && (
+          <h4>
+            {destination.country && names.length
+              ? 'Appellations attestées pour cette destination'
+              : 'Noms courants documentés'}
+          </h4>
+        )}
         {destination.country && !names.length && (
           <p className="notice">
-            Aucune appellation locale sourcée pour cette sélection. Montrez la photo et précisez la
-            partie et la forme. Les noms courants ne prouvent pas un usage dans cette destination.
+            {compact
+              ? 'Nom local non établi pour cette destination.'
+              : 'Aucune appellation locale sourcée pour cette sélection. Montrez la photo et précisez la partie et la forme. Les noms courants ne prouvent pas un usage dans cette destination.'}
           </p>
         )}
         {beverageEvidence && (
           <p className="form-clarification">
-            <strong>Au Sénégal, « bissap » est documenté ici pour la boisson.</strong> La source
-            décrit des calices rouges séchés utilisés pour la préparer ; elle n’établit pas leur nom
-            de vente.
+            {compact ? (
+              '« Bissap » est documenté pour la boisson, pas comme nom de vente des calices.'
+            ) : (
+              <>
+                <strong>Au Sénégal, « bissap » est documenté ici pour la boisson.</strong> La source
+                décrit des calices rouges séchés utilisés pour la préparer ; elle n’établit pas leur
+                nom de vente.
+              </>
+            )}
             {!compact && (
               <>
                 {' '}
@@ -174,7 +191,7 @@ function ShopCard({
           </p>
         )}
         <ul className="seller-names">
-          {displayed.map((n) => (
+          {(compact && destination.country && !names.length ? [] : displayed).map((n) => (
             <li key={n.id}>
               <strong data-no-translate dir="auto" lang={n.languageCode || undefined}>
                 {n.name}
@@ -195,14 +212,8 @@ function ShopCard({
             </li>
           ))}
         </ul>
-        {!displayed.length && (
+        {!compact && !displayed.length && (
           <p>Aucun nom courant documenté dans les trois langues principales.</p>
-        )}
-        {compact && (
-          <p className="seller-request">
-            <span>Je cherche ce produit, dans cette forme.</span>{' '}
-            <strong>{productChoice(product).title}</strong>
-          </p>
         )}
         {!compact && unique(names.length ? names : fallback).length > 3 && (
           <a

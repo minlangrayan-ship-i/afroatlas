@@ -51,6 +51,9 @@ test('mobile foléré to Senegal offers visual forms, keeps context and opens an
   await expect(page.locator('.seller-dialog')).toContainText('Calices séchés pour infusion');
   await expect(page.locator('.seller-dialog bdi').filter({ hasText: 'foléré' })).toBeVisible();
   await expect(page.locator('.seller-dialog table')).toHaveCount(0);
+  await expect(page.locator('.seller-dialog')).toContainText('Nom local non établi');
+  await expect(page.locator('.seller-dialog .seller-names li')).toHaveCount(0);
+  await expect(page.locator('.seller-dialog')).toContainText('Je cherche ce produit');
   await page.keyboard.press('Escape');
   await expect(page.locator('.seller-dialog')).not.toBeVisible();
   await expect(show).toBeFocused();

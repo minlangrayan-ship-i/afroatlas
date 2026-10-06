@@ -713,6 +713,14 @@ export const ui: Record<string, [string, string]> = {
   ],
 };
 const journeyUi: Record<string, [string, string]> = {
+  'Nom local non établi pour cette destination.': [
+    'Local name not established for this destination.',
+    'الاسم المحلي غير محدد لهذه الوجهة.',
+  ],
+  '« Bissap » est documenté pour la boisson, pas comme nom de vente des calices.': [
+    '“Bissap” is documented for the drink, not as a shop name for the calyces.',
+    'الاسم «Bissap» موثق للمشروب وليس كاسم تجاري للكؤوس الزهرية.',
+  ],
   'Nom scientifique documenté': ['Documented scientific name', 'اسم علمي موثق'],
   'Filtres avancés': ['Advanced filters', 'مرشحات متقدمة'],
   Bassa: ['Bassa', 'باسا'],

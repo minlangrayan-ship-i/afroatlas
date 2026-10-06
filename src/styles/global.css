@@ -2379,6 +2379,15 @@ astro-island:has([data-replaced-photo]) + .photo-credit {
   display: block;
   margin-top: 8px;
 }
+.seller-dialog .notice {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.seller-dialog .form-clarification {
+  font-size: 12px;
+}
 .seller-dialog {
   overflow-y: auto;
 }
