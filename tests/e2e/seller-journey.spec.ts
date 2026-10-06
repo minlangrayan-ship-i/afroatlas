@@ -24,13 +24,13 @@ test('mobile foléré to Senegal offers visual forms, keeps context and opens an
   ])
     await expect(page.locator('.choice-title').filter({ hasText: title })).toBeVisible();
   const cards = page.locator('.product-card');
-  for (let i = 0; i < 4; i++)
-    expect(
-      await cards
-        .nth(i)
-        .locator('img')
-        .evaluate((i: HTMLImageElement) => i.complete && i.naturalWidth > 0),
-    ).toBe(true);
+  for (let i = 0; i < 4; i++) {
+    const image = cards.nth(i).locator('img');
+    await image.scrollIntoViewIfNeeded();
+    await expect
+      .poll(() => image.evaluate((i: HTMLImageElement) => i.complete && i.naturalWidth > 0))
+      .toBe(true);
+  }
   await page
     .locator('.product-card')
     .filter({ hasText: 'Calices séchés pour infusion' })

@@ -36,6 +36,8 @@ La reproduction dans Edge à 390 px est conservée localement dans `.runtime/sel
 
 Captures locales FR/EN/AR : `.runtime/seller-preview/search-*.png`, `product-*.png`, `seller-*.png`. Les fichiers `.runtime` ne sont pas publiés dans le dépôt.
 
+Version mise en ligne sur GitHub Pages et contrôlée le 6 octobre 2026 : les trois nouveaux tests de parcours passent aussi sur l’URL publique, avec les photos réellement chargées, la vue vendeur raccourcie, le retour du focus, les paramètres conservés, les filtres, FR/EN/AR, les favoris et la comparaison. Le contrôle des images attend leur chargement après défilement, conformément à leur chargement différé. Neuf captures de la publication sont conservées localement. Les contrôles GitHub du frontend, du backend préparé et du déploiement ont réussi.
+
 ## Limites documentaires
 
 Le corpus reste composé de 95 fiches et 1 035 assertions de noms, toutes au statut documenté. Aucun import n’a été converti en validation humaine. Une preuve supplémentaire, spécifique aux calices et au contexte local sénégalais, est nécessaire pour afficher un nom de vente attesté. Les assertions camerounaises ne permettent pas d’attribuer automatiquement l’ewondo à la région Centre.
