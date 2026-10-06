@@ -66,6 +66,7 @@ export const ui: Record<string, [string, string]> = {
   ],
   'Vidéo de présentation d’AfroAtlas': ['AfroAtlas presentation video', 'فيديو تقديم أفروأطلس'],
   'Ouvrir la vidéo ↗': ['Open the video ↗', 'افتح الفيديو ↗'],
+  'Explorer la bibliothèque ↗': ['Explore the library ↗', 'استكشف المكتبة ↗'],
   'Présentation d’AfroAtlas': ['AfroAtlas presentation', 'عرض أفروأطلس'],
   'Voir la vidéo de présentation d’AfroAtlas': [
     'Watch the AfroAtlas presentation video',
