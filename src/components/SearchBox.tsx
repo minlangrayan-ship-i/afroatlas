@@ -121,8 +121,18 @@ function SearchBox({
                 href={productLink(product.slug, new URLSearchParams({ q: value }).toString())}
                 className={active === i ? 'selected' : ''}
               >
-                {product.image.role === 'primary' && (
-                  <img src={href(product.image.smallPath)} alt="" width="44" height="44" />
+                {(product.image.role === 'primary' ||
+                  product.image.verificationStatus === 'visually_checked') && (
+                  <img
+                    src={href(product.image.smallPath)}
+                    alt={
+                      product.image.role === 'primary'
+                        ? ''
+                        : `Photo complémentaire : ${product.image.depictedPart}`
+                    }
+                    width="44"
+                    height="44"
+                  />
                 )}
                 <span>
                   <span

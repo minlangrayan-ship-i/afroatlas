@@ -88,7 +88,7 @@ const nameProofs = Object.fromEntries(rows.map((n) => [n.id, n.proofs]));
   <section class="container product-hero">
     <div>
       <PhotoZoom image={image} label={product.labelFr} productId={product.id} client:load />
-      {image.role === 'primary' && (
+      {(image.role === 'primary' || image.verificationStatus === 'visually_checked') && (
         <p class="photo-credit">
           {image.creatorUrl ? (
             <a href={image.creatorUrl} target="_blank" rel="noopener noreferrer">
@@ -185,7 +185,9 @@ const nameProofs = Object.fromEntries(rows.map((n) => [n.id, n.proofs]));
         <dd>{product.formTypes.join(', ')}</dd>
         {product.consumedPart && (
           <>
-            <dt>Partie consommée</dt>
+            <dt>
+              {product.documentaryScope === 'organism' ? 'Identité couverte' : 'Partie consommée'}
+            </dt>
             <dd data-no-translate dir="auto">
               {product.consumedPart}
             </dd>

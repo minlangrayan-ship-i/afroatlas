@@ -79,7 +79,12 @@ for (const image of data.images) {
   if (/<[^>]+>/.test(image.creator + image.attribution))
     throw new Error('HTML metadata not cleaned');
 }
-if (countries.length !== 25 || europeanContexts.length !== 5)
+if (
+  countries.length < 27 ||
+  new Set(countries.map((c) => c.ISO3)).size !== countries.length ||
+  !['TCD', 'ZWE', 'MLI', 'NER', 'NGA'].every((iso) => countries.some((c) => c.ISO3 === iso)) ||
+  europeanContexts.length !== 5
+)
   throw new Error('Geographic coverage incorrect');
 console.log(
   `Validated ${data.products.length} products, ${data.names.length} name assertions, ${data.images.filter((i) => i.role === 'primary').length} product-form photographs, ${data.contexts.length} local contexts, ${countries.length} African countries and 5 European contexts.`,

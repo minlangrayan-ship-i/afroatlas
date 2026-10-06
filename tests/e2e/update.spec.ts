@@ -15,6 +15,8 @@ test('Mali, Burkina Faso, Niger and Nigeria are distinct in map, search and form
     ['Burkina Faso', 'bfa'],
     ['Niger', 'ner'],
     ['Nigeria', 'nga'],
+    ['Tchad', 'tcd'],
+    ['Zimbabwe', 'zwe'],
   ]) {
     await page.goto(base + 'explorer/');
     await expect(page.locator(`.africa-map a[href$="/pays/${iso}/"]`)).toHaveCount(1);
@@ -28,7 +30,7 @@ test('Mali, Burkina Faso, Niger and Nigeria are distinct in map, search and form
   );
   await page.goto(base + 'contribuer/');
   const select = page.getByLabel('Pays', { exact: true });
-  for (const iso of ['MLI', 'BFA', 'NER', 'NGA']) {
+  for (const iso of ['MLI', 'BFA', 'NER', 'NGA', 'TCD', 'ZWE']) {
     await select.selectOption(iso);
     await expect(select).toHaveValue(iso);
   }
@@ -86,8 +88,12 @@ test('photograph matches powder form and missing shop photographs are explicit',
   await expect(page.locator('.shop-guide')).toContainText('poudre');
   await expect(page.locator('.product-hero .photo-credit')).toContainText('CC BY-SA');
   await page.goto(base + 'produits/menthe/');
+  await expect(page.locator('.product-hero .photo-open img')).toBeVisible();
+  await expect(page.locator('.product-hero .photo-gap')).toHaveCount(0);
+  await page.goto(base + 'produits/rondelle/');
   await expect(page.locator('.product-hero .photo-gap')).toContainText('à documenter');
-  await expect(page.locator('.product-hero .photo-open img')).toHaveCount(0);
+  await expect(page.locator('.supplementary-photo')).toContainText('Afrostyrax lepidophyllus');
+  await expect(page.locator('.product-hero .photo-open img')).toBeVisible();
   await page.goto(base + 'produits/njansang/');
   await expect(page.locator('.photo-open img')).toHaveAttribute('src', /njansang-shop/);
   await expect(page.locator('.source-cards')).toContainText('Espace Taï');

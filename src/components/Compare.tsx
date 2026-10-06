@@ -62,11 +62,18 @@ function Compare({ products: seed }: { products: CardProduct[] }) {
           <div className="compare-grid">
             {selected.map((p) => (
               <article className="compare-card" key={p.id}>
-                {p.image.role === 'primary' ? (
+                {p.image.role === 'primary' || p.image.verificationStatus === 'visually_checked' ? (
                   <img src={href(p.image.smallPath)} alt={p.image.altFr} width="400" height="300" />
                 ) : (
                   <div className="photo-gap">Photo de la forme recherchée à documenter</div>
                 )}
+                {p.image.role !== 'primary' &&
+                  p.image.verificationStatus === 'visually_checked' && (
+                    <p className="table-note" data-no-translate dir="auto">
+                      Photo complémentaire : {p.image.depictedPart}. La forme vendue reste à
+                      documenter.
+                    </p>
+                  )}
                 <h2
                   data-product-label
                   data-no-translate

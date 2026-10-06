@@ -77,7 +77,7 @@ try {
     'Sitemap matches indexable generated content',
   );
   const report = {
-    checkedAt: '2026-10-05',
+    checkedAt: new Date().toISOString().slice(0, 10),
     htmlPages: results.length,
     indexablePages: indexed.length,
     sitemapUrls: urls.length,

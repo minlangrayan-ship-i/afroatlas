@@ -1,0 +1,534 @@
+[
+  {
+    "slug": "aloe-vera",
+    "title": "Cut Aloe Vera Leaf.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "feuille coupée, gel visible",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuille coupée, gel visible. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "amarante",
+    "title": "Amaranthus cruentus1.jpg",
+    "role": "complementary",
+    "form": "plante en culture",
+    "part": "Amaranthus cruentus, plante et inflorescences",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Amaranthus cruentus, plante et inflorescences. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "amarantes-feuilles",
+    "title": "HK food Amaranthus mangostanus 莧菜 vegetable April 2021 SS2.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "feuilles d’amarante récoltées ; exemple Amaranthus mangostanus, pas toutes les espèces du groupe",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuilles d’amarante récoltées ; exemple Amaranthus mangostanus, pas toutes les espèces du groupe. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "aubergine-gboma",
+    "title": "Solanum macrocarpon 03.JPG",
+    "role": "complementary",
+    "form": "plante en culture",
+    "part": "feuille de Solanum macrocarpon ; ne montre pas un fruit récolté",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuille de Solanum macrocarpon ; ne montre pas un fruit récolté. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "bananes-a-cuire",
+    "title": "Ripe plantains 02.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "plantains mûrs entiers, exemple du groupe des bananes à cuire",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : plantains mûrs entiers, exemple du groupe des bananes à cuire. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "baobab-plante",
+    "title": "Adansonia digitata arbre MHNT.jpg",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Adansonia digitata, arbre entier ; fiche de plante, pas de poudre de feuilles",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Adansonia digitata, arbre entier ; fiche de plante, pas de poudre de feuilles. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "barbus-groupe",
+    "title": "Barbus sp line (7003781859).jpg",
+    "role": "complementary",
+    "form": "photographie d’identification",
+    "part": "Barbus sp. selon la source, espèce non déterminée ; ne permet pas d’identifier tous les poissons désignés par ce groupe",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Barbus sp. selon la source, espèce non déterminée ; ne permet pas d’identifier tous les poissons désignés par ce groupe. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "basilic-tropical",
+    "title": "Manjericao Ocimum gratissimum.JPG",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Ocimum gratissimum, plante identifiée ; pas une botte de feuilles récoltées",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Ocimum gratissimum, plante identifiée ; pas une botte de feuilles récoltées. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "bissap-feuilles",
+    "title": "Roselle (zobo leaves).jpg",
+    "role": "complementary",
+    "form": "plante en culture",
+    "part": "Hibiscus sabdariffa sur pied ; forme récoltée des feuilles encore à documenter",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Hibiscus sabdariffa sur pied ; forme récoltée des feuilles encore à documenter. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "carpe-commune",
+    "title": "Cyprinus carpio.jpeg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Cyprinus carpio, poisson entier capturé",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Cyprinus carpio, poisson entier capturé. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "corchorus",
+    "title": "Ewedu.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "feuilles de corète récoltées en panier, identifiées comme ewedu par la source",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuilles de corète récoltées en panier, identifiées comme ewedu par la source. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "courbines-groupe",
+    "title": "Cassava Croaker imported from iNaturalist photo 54180575 on 20 April 2022.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Pseudotolithus senegalensis (Cassava Croaker), exemple du groupe, pas une identification de toutes les courbines",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Pseudotolithus senegalensis (Cassava Croaker), exemple du groupe, pas une identification de toutes les courbines. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "folere-boisson",
+    "title": "A glass of hibiscus tea 03.jpg",
+    "role": "primary",
+    "form": "boisson",
+    "part": "boisson d’hibiscus dans un verre ; ne représente pas les feuilles ou les calices secs",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : boisson d’hibiscus dans un verre ; ne représente pas les feuilles ou les calices secs. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "gombo-poudre",
+    "title": "Okra powder.jpg",
+    "role": "primary",
+    "form": "poudre",
+    "part": "poudre de gombo dans un bol",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : poudre de gombo dans un bol. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "hibiscus-plante",
+    "title": "Jardin créole, les groseilles pays.jpg",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Hibiscus sabdariffa, plante avec calices ; distinct de la boisson et des feuilles vendues",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Hibiscus sabdariffa, plante avec calices ; distinct de la boisson et des feuilles vendues. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "ignames-groupe",
+    "title": "Yam Tubers stacked on a plastic table 01.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "tubercules d’igname sur une table de vente ; espèce non précisée, exemple du groupe",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : tubercules d’igname sur une table de vente ; espèce non précisée, exemple du groupe. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "irvingia-plante",
+    "title": "Irvingia gabonensis African Bush Mango (21033194961).jpg",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Irvingia gabonensis, feuillage de l’arbre ; distinct des graines pour la sauce",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Irvingia gabonensis, feuillage de l’arbre ; distinct des graines pour la sauce. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "kanga",
+    "title": "Heterotis niloticus 154613099.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Heterotis niloticus, poissons entiers disposés à la vente",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Heterotis niloticus, poissons entiers disposés à la vente. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "kpem",
+    "title": "Casssva leaves 01.png",
+    "role": "complementary",
+    "form": "ingrédient frais",
+    "part": "feuilles de manioc récoltées, ingrédient du kpem ; cette photo ne représente pas le plat préparé",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuilles de manioc récoltées, ingrédient du kpem ; cette photo ne représente pas le plat préparé. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter.",
+    "depictedProductSlug": "manioc-feuilles"
+  },
+  {
+    "slug": "mais-plante",
+    "title": "Corntassel 7095.jpg",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Zea mays, plante en floraison ; pas de farine de maïs",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Zea mays, plante en floraison ; pas de farine de maïs. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "managu",
+    "title": "Solanum nigrum 01.JPG",
+    "role": "complementary",
+    "form": "plante en culture",
+    "part": "Solanum nigrum, exemple botanique de morelle ; ne certifie pas l’espèce de toutes les feuilles vendues comme managu",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Solanum nigrum, exemple botanique de morelle ; ne certifie pas l’espèce de toutes les feuilles vendues comme managu. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "manguier",
+    "title": "Mangifera indica old.JPG",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Mangifera indica, arbre entier ; pas une mangue récoltée",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Mangifera indica, arbre entier ; pas une mangue récoltée. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "manioc-feuilles",
+    "title": "Casssva leaves 01.png",
+    "role": "primary",
+    "form": "frais",
+    "part": "feuilles de manioc fraîches, récoltées et mises en vente au marché",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuilles de manioc fraîches, récoltées et mises en vente au marché. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "maquereau-atlantique",
+    "title": "Fresh line caught mackerel.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Scomber scombrus, poissons entiers fraîchement pêchés",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Scomber scombrus, poissons entiers fraîchement pêchés. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "maquereau-espagnol",
+    "title": "Lanzardo 2.jpg",
+    "role": "complementary",
+    "form": "poisson vivant",
+    "part": "Scomber colias en milieu aquatique ; pas un poisson préparé pour la vente",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Scomber colias en milieu aquatique ; pas un poisson préparé pour la vente. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "maquereaux-groupe",
+    "title": "Fresh line caught mackerel.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Scomber scombrus, exemple du groupe maquereaux ; ne représente pas toutes les espèces",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Scomber scombrus, exemple du groupe maquereaux ; ne représente pas toutes les espèces. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "menthe",
+    "title": "Mentha spicata spicata 395472591.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "feuille détachée de Mentha spicata subsp. spicata",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuille détachée de Mentha spicata subsp. spicata. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "monodora-plante",
+    "title": "Monodora myristica-Jardin des Plantes de Paris (2).jpg",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Monodora myristica, feuillage botanique ; distinct des graines aromatiques",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Monodora myristica, feuillage botanique ; distinct des graines aromatiques. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "morue",
+    "title": "Torsk-Bacalao-Cod-Gjesvær.jpg",
+    "role": "primary",
+    "form": "séché",
+    "part": "morues séchées suspendues à Gjesvær en Norvège ; pas du poisson frais ni une preuve de salage",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : morues séchées suspendues à Gjesvær en Norvège ; pas du poisson frais ni une preuve de salage. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "ndole",
+    "title": "Washing Bitter leaf.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "feuilles amères récoltées, en cours de lavage ; ne représente pas le plat ndolé préparé",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuilles amères récoltées, en cours de lavage ; ne représente pas le plat ndolé préparé. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "niebe-feuilles",
+    "title": "Harvest day 04.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "feuilles de niébé récoltées ; identification corroborée par le champ depicts « growing of cowpeas » de la source",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : feuilles de niébé récoltées ; identification corroborée par le champ depicts « growing of cowpeas » de la source. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "njama-njama",
+    "title": "Solanum scabrum kz04.jpg",
+    "role": "complementary",
+    "form": "plante en culture",
+    "part": "Solanum scabrum, feuilles et baies sur pied ; ne représente pas une botte vendue",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Solanum scabrum, feuilles et baies sur pied ; ne représente pas une botte vendue. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "perche-nil",
+    "title": "Lates niloticus.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Lates niloticus, vue de la tête d’un poisson capturé ; photographie partielle",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Lates niloticus, vue de la tête d’un poisson capturé ; photographie partielle. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "piment-chinense",
+    "title": "Habanero pepers.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "fruits mûrs récoltés de piment habanero, Capsicum chinense",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : fruits mûrs récoltés de piment habanero, Capsicum chinense. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "piment-frutescens",
+    "title": "PmalaguetaDSC3550.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "fruits récoltés, Capsicum frutescens var. malagueta",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : fruits récoltés, Capsicum frutescens var. malagueta. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "poisson-panthere",
+    "title": "Hemichromis fasciatus AUM 59594.jpg",
+    "role": "complementary",
+    "form": "photographie d’identification",
+    "part": "Hemichromis fasciatus selon la source ; pas une forme commerciale documentée",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Hemichromis fasciatus selon la source ; pas une forme commerciale documentée. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "poisson-vipere",
+    "title": "Parachanna obscura - Aqua Porte Dorée 03.JPG",
+    "role": "complementary",
+    "form": "poisson vivant",
+    "part": "Parachanna obscura en aquarium ; ne représente pas une forme destinée à la vente",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Parachanna obscura en aquarium ; ne représente pas une forme destinée à la vente. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "pomme-de-terre",
+    "title": "Patates.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "tubercules récoltés de différentes variétés de pomme de terre, USDA",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : tubercules récoltés de différentes variétés de pomme de terre, USDA. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "pourpier",
+    "title": "Portulaca oleracea.JPG",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Portulaca oleracea, plante botanique ; ne représente pas une botte récoltée",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Portulaca oleracea, plante botanique ; ne représente pas une botte récoltée. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "quatre-cotes",
+    "title": "Tetrapleura tetraptera (Prekese).jpg",
+    "role": "primary",
+    "form": "séché",
+    "part": "fruits de Tetrapleura tetraptera séchés sur un étal ; pas des graines isolées",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : fruits de Tetrapleura tetraptera séchés sur un étal ; pas des graines isolées. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "ricinodendron-plante",
+    "title": "Ricinodendron heudelotii-Jardin des Plantes de Paris.jpg",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Ricinodendron heudelotii, arbre ; distinct des graines de njangsang",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Ricinodendron heudelotii, arbre ; distinct des graines de njangsang. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "rondelle",
+    "title": "Afrostyrax Lepidophyllus leaf.jpg",
+    "role": "complementary",
+    "form": "plante en culture",
+    "part": "Afrostyrax lepidophyllus, feuillage ; les graines aromatiques ne sont pas photographiées",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Afrostyrax lepidophyllus, feuillage ; les graines aromatiques ne sont pas photographiées. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "safoutier",
+    "title": "Safoutier Kinshasa.jpg",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Dacryodes edulis, arbre ; distinct des safous récoltés",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Dacryodes edulis, arbre ; distinct des safous récoltés. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "saga",
+    "title": "Starr 040117-0023 Cleome gynandra.jpg",
+    "role": "complementary",
+    "form": "plante en culture",
+    "part": "Cleome gynandra (Gynandropsis gynandra), plante ; ne représente pas des feuilles récoltées",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Cleome gynandra (Gynandropsis gynandra), plante ; ne représente pas des feuilles récoltées. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "sardinelle-plate",
+    "title": "Sardinella maderensis.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Sardinella maderensis, poisson entier collecté en Sicile, sans provenance africaine revendiquée",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Sardinella maderensis, poisson entier collecté en Sicile, sans provenance africaine revendiquée. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit.",
+    "creatorOverride": "Francesco La Piana (Etrusko25)"
+  },
+  {
+    "slug": "sardinelle-ronde",
+    "title": "Sardinella aurita,, fotograph by Heessen, Henk.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Sardinella aurita, poisson entier photographié avec une échelle, sans provenance nationale revendiquée",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Sardinella aurita, poisson entier photographié avec une échelle, sans provenance nationale revendiquée. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "sene-africain",
+    "title": "Senna italica subsp. arachoides 1DS-II 3-2015.jpg",
+    "role": "primary",
+    "form": "plante / identité botanique",
+    "part": "Senna italica subsp. arachoides, feuilles et fleurs photographiées en Afrique du Sud ; cette photo ne montre pas des folioles séchées vendues au Mali",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Senna italica subsp. arachoides, feuilles et fleurs photographiées en Afrique du Sud ; cette photo ne montre pas des folioles séchées vendues au Mali. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "silure-clarias",
+    "title": "African Cat fish.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "Clarias gariepinus selon la catégorie Commons, poissons capturés proposés à la vente en Inde",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Clarias gariepinus selon la catégorie Commons, poissons capturés proposés à la vente en Inde. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "silure-heterobranchus",
+    "title": "Heterobranchus longifilis 53146551.jpg",
+    "role": "complementary",
+    "form": "spécimen de musée",
+    "part": "Heterobranchus longifilis, spécimen d’exposition ; ne représente pas un poisson frais en boutique",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Heterobranchus longifilis, spécimen d’exposition ; ne représente pas un poisson frais en boutique. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "sukuma-feuilles",
+    "title": "Collard-Greens-Bundle.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "botte de feuilles de chou non pommé (collard greens), exemple de la forme ; aucune provenance kényane revendiquée",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : botte de feuilles de chou non pommé (collard greens), exemple de la forme ; aucune provenance kényane revendiquée. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "tilapia-mozambique",
+    "title": "Oreochromis mossambicus.JPG",
+    "role": "complementary",
+    "form": "poisson vivant",
+    "part": "Oreochromis mossambicus, photographie aquatique ; pas un poisson vendu en boutique",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Oreochromis mossambicus, photographie aquatique ; pas un poisson vendu en boutique. Complément explicitement signalé ; la photo principale de la forme vendue reste à documenter."
+  },
+  {
+    "slug": "tilapia-nil",
+    "title": "Fish food Udonthani WD2.JPG",
+    "role": "primary",
+    "form": "sur glace",
+    "part": "Oreochromis niloticus selon la catégorie Commons, poissons entiers vendus sur glace en Thaïlande ; aucune provenance africaine revendiquée",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : Oreochromis niloticus selon la catégorie Commons, poissons entiers vendus sur glace en Thaïlande ; aucune provenance africaine revendiquée. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  },
+  {
+    "slug": "waterleaf",
+    "title": "Waterleaf.jpg",
+    "role": "primary",
+    "form": "frais",
+    "part": "waterleaf, feuilles fraîches récoltées en tas",
+    "status": "visually_accepted",
+    "reviewedAt": "2026-10-06",
+    "reviewNote": "Contrôle visuel et métadonnées : waterleaf, feuilles fraîches récoltées en tas. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit."
+  }
+]

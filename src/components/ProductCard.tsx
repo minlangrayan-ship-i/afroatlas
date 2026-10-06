@@ -19,7 +19,8 @@ function ProductCard({
   return (
     <article className="product-card">
       <a className="card-photo" href={productHref}>
-        {product.image.role === 'primary' ? (
+        {product.image.role === 'primary' ||
+        product.image.verificationStatus === 'visually_checked' ? (
           <img
             src={href(product.image.smallPath)}
             srcSet={`${href(product.image.smallPath)} 400w, ${href(product.image.localPath)} 960w`}
@@ -35,6 +36,10 @@ function ProductCard({
         <span className="photo-tag">
           {categories.find((c) => c.id === product.categoryId)?.label}
         </span>
+        {product.image.role !== 'primary' &&
+          product.image.verificationStatus === 'visually_checked' && (
+            <span className="photo-context">Photo complémentaire</span>
+          )}
       </a>
       <div className="card-body">
         <a href={productHref}>
@@ -69,6 +74,12 @@ function ProductCard({
           Forme photographiée :{' '}
           {product.image.role === 'primary' ? product.image.depictedForm : 'non documentée'}
         </p>
+        {product.image.role !== 'primary' &&
+          product.image.verificationStatus === 'visually_checked' && (
+            <p className="table-note" data-no-translate dir="auto">
+              {product.image.depictedPart}. Photo de la forme vendue à documenter.
+            </p>
+          )}
         {match && <p className="match-note">{match}</p>}
         <div className="card-bottom">
           <a className="text-link" href={productHref}>

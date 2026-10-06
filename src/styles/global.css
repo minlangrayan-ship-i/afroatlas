@@ -2095,6 +2095,26 @@ dd {
   padding: 25px;
   text-align: center;
 }
+.photo-context {
+  position: absolute;
+  inset-inline-start: 12px;
+  bottom: 12px;
+  max-width: calc(100% - 24px);
+  padding: 5px 9px;
+  border-radius: 5px;
+  background: var(--green);
+  color: var(--cream);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.supplementary-photo {
+  margin-block-end: 1rem;
+}
+.supplementary-photo > .photo-gap {
+  min-height: 0;
+  padding: 1rem;
+  margin-block-end: 0.75rem;
+}
 .category-card > .photo-gap {
   min-height: 0;
   grid-column: 1 / -1;

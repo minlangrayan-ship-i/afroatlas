@@ -5,7 +5,8 @@ const titles = c.images
   .filter((i) => i.role === 'primary')
   .map((i) => decodeURIComponent(i.sourcePageUrl.split('/wiki/')[1] || ''))
   .filter((t) => t.startsWith('File:'));
-const records = [];
+const records = JSON.parse(await readFile('data/research/primary-image-provenance.json', 'utf8'));
+let examined = 0;
 for (let offset = 0; offset < titles.length; offset += 15) {
   const r = await request(
     'https://commons.wikimedia.org/w/api.php?' +
@@ -24,16 +25,22 @@ for (let offset = 0; offset < titles.length; offset += 15) {
       license = plain(m.LicenseShortName?.value);
     if (!/^(CC BY|CC0|Public domain)/i.test(license) || /NC|ND/i.test(license))
       throw new Error('Unacceptable licence ' + p.title);
-    records.push({
+    const record = {
       title: p.title,
       page: info.descriptionurl,
       originalUrl: info.url,
       author: plain(m.Artist?.value),
       license,
       licenseUrl: plain(m.LicenseUrl?.value),
-      checkedAt: '2026-10-05',
-    });
+      checkedAt: '2026-10-06',
+    };
+    const old = records.find((r) => r.page === record.page);
+    if (old) Object.assign(old, record);
+    else records.push(record);
+    examined++;
   }
 }
 await json('data/research/primary-image-provenance.json', records);
-console.log(`Checked ${records.length} primary-photo source pages and explicit reusable licences.`);
+console.log(
+  `Checked ${examined} primary-photo source pages and retained ${records.length} provenance records, including older media.`,
+);

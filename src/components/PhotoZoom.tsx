@@ -43,10 +43,19 @@ function PhotoZoom({
   }, [productId, seed, label]);
   const dialog = useRef<HTMLDialogElement>(null);
   const ready = useClientReady();
-  if (image.role !== 'primary')
+  if (image.role !== 'primary' && image.verificationStatus !== 'visually_checked')
     return <div className="photo-gap">Photo de la forme recherchée à documenter</div>;
   return (
     <>
+      {image.role !== 'primary' && (
+        <div className="supplementary-photo">
+          <p className="photo-gap">Photo de la forme recherchée à documenter</p>
+          <p>Photographie complémentaire d’identification</p>
+          <p className="table-note" data-no-translate dir="auto">
+            {image.depictedPart}. {image.visualCheckResult}
+          </p>
+        </div>
+      )}
       {replaced && (
         <p className="photo-credit" data-replaced-photo data-no-translate>
           {image.creator} · {image.licenseId} · {image.depictedForm} ·{' '}

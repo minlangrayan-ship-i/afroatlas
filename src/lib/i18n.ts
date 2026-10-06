@@ -128,6 +128,11 @@ export const ui: Record<string, [string, string]> = {
   'Plante ou organisme': ['Plant or organism', 'نبات أو كائن حي'],
   'Partie alimentaire': ['Edible part', 'جزء غذائي'],
   'Identité couverte': ['Documented identity scope', 'نطاق الهوية الموثقة'],
+  'Photo complémentaire': ['Supplementary photograph', 'صورة توضيحية إضافية'],
+  'Photographie complémentaire d’identification': [
+    'Supplementary identification photograph',
+    'صورة إضافية للتعريف',
+  ],
   'Présence ou production documentée': ['Documented presence or production', 'وجود أو إنتاج موثق'],
   'Ces sources ne prouvent pas une appellation dans cette région.': [
     'These sources do not establish a name in this region.',
@@ -550,6 +555,8 @@ export const ui: Record<string, [string, string]> = {
     'لغة محلية لم يحددها المصدر',
   ],
   Cameroun: ['Cameroon', 'الكاميرون'],
+  Tchad: ['Chad', 'تشاد'],
+  Zimbabwe: ['Zimbabwe', 'زيمبابوي'],
   Gabon: ['Gabon', 'الغابون'],
   'Produits de base': ['Staple foods', 'الأغذية الأساسية'],
   'Guinée équatoriale': ['Equatorial Guinea', 'غينيا الاستوائية'],

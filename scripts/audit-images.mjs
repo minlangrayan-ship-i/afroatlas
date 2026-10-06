@@ -29,12 +29,13 @@ for (const p of c.products) {
     if (!/^(CC BY|CC0|Public domain)/i.test(image.licenseId) || /NC|ND/i.test(image.licenseId))
       throw new Error('Unacceptable primary licence: ' + p.slug);
     image.verificationStatus = 'visually_checked';
-    image.metadataCheckedAt = '2026-10-05';
+    image.metadataCheckedAt = '2026-10-06';
     image.depictedProductId = p.id;
     image.visualCheckResult ||=
       'Local photograph reviewed: edible product and recorded commercial form; provenance retained.';
     image.visuallyCheckedAt ||= '2026-10-05';
-  } else image.verificationStatus = 'pending';
+  } else if (!image.visuallyCheckedAt || !image.visualCheckResult)
+    image.verificationStatus = 'pending';
   report.push({
     productId: p.id,
     slug: p.slug,
@@ -59,7 +60,7 @@ if (!dryRun) {
     'data/research/image-audit.json',
     JSON.stringify(
       {
-        checkedAt: '2026-10-05',
+        checkedAt: '2026-10-06',
         productsExamined: report.length,
         productsIllustrated: report.filter((r) => r.role === 'primary').length,
         missing: report.filter((r) => r.role !== 'primary').length,

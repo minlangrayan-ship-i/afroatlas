@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-05",
-  "htmlPages": 140,
-  "indexablePages": 116,
-  "sitemapUrls": 116,
+  "checkedAt": "2026-10-06",
+  "htmlPages": 144,
+  "indexablePages": 121,
+  "sitemapUrls": 121,
   "uniqueTitles": true,
   "uniqueDescriptions": true,
   "oneH1AndBeaconPerPage": true,
@@ -81,7 +81,7 @@
       "h1": [
         "Herbes & aromates"
       ],
-      "description": "Découvrez 1 fiches de la catégorie herbes & aromates : identité, formes, autres noms et sources documentaires.",
+      "description": "Découvrez 3 fiches de la catégorie herbes & aromates : identité, formes, autres noms et sources documentaires.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/categories/herbs/",
       "robots": "index,follow,max-image-preview:large",
       "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
@@ -362,7 +362,7 @@
       "h1": [
         "Cameroun."
       ],
-      "description": "Les noms et usages de 46 produits documentés au Cameroun, avec sources et périmètres régionaux explicites.",
+      "description": "Les noms et usages de 47 produits documentés au Cameroun, avec sources et périmètres régionaux explicites.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/pays/cmr/",
       "robots": "index,follow,max-image-preview:large",
       "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
@@ -548,7 +548,7 @@
       "h1": [
         "Mali."
       ],
-      "description": "Les noms et usages de 10 produits documentés au Mali, avec sources et périmètres régionaux explicites.",
+      "description": "Les noms et usages de 11 produits documentés au Mali, avec sources et périmètres régionaux explicites.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/pays/mli/",
       "robots": "index,follow,max-image-preview:large",
       "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
@@ -645,6 +645,23 @@
       "hreflang": 0
     },
     {
+      "file": "dist/pays/tcd/index.html",
+      "title": "Produits et appellations documentés : Tchad — AfroAtlas",
+      "h1": [
+        "Tchad."
+      ],
+      "description": "Les noms et usages de 1 produits documentés au Tchad, avec sources et périmètres régionaux explicites.",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/pays/tcd/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "beacons": 1,
+      "types": [
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hreflang": 0
+    },
+    {
       "file": "dist/pays/tun/index.html",
       "title": "Produits et appellations documentés : Tunisie — AfroAtlas",
       "h1": [
@@ -684,9 +701,9 @@
       "h1": [
         "Ouganda."
       ],
-      "description": "Les noms et usages de 0 produits documentés au Ouganda, avec sources et périmètres régionaux explicites.",
+      "description": "Les noms et usages de 2 produits documentés au Ouganda, avec sources et périmètres régionaux explicites.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/pays/uga/",
-      "robots": "noindex,follow",
+      "robots": "index,follow,max-image-preview:large",
       "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
       "beacons": 1,
       "types": [
@@ -730,6 +747,23 @@
       "hreflang": 0
     },
     {
+      "file": "dist/pays/zwe/index.html",
+      "title": "Produits et appellations documentés : Zimbabwe — AfroAtlas",
+      "h1": [
+        "Zimbabwe."
+      ],
+      "description": "Les noms et usages de 1 produits documentés au Zimbabwe, avec sources et périmètres régionaux explicites.",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/pays/zwe/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "beacons": 1,
+      "types": [
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hreflang": 0
+    },
+    {
       "file": "dist/presentation/index.html",
       "title": "Présentation vidéo : reconnaître un produit dans une afroshop — AfroAtlas",
       "h1": [
@@ -755,6 +789,24 @@
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/ail/",
       "robots": "index,follow,max-image-preview:large",
       "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/ail-shop-960.webp",
+      "beacons": 1,
+      "types": [
+        "WebSite",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "hreflang": 0
+    },
+    {
+      "file": "dist/produits/aloe-vera/index.html",
+      "title": "Aloe vera — feuille : noms, formes et usages documentés — AfroAtlas",
+      "h1": [
+        "Aloe vera — feuille"
+      ],
+      "description": "Aloe vera — feuille : Plante succulente, identifiée comme Aloe vera (L.) Burm.f. La photographie montre une feuille coupée et son gel intérieur, et non un produit cosmétique ou une boisson. ",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/aloe-vera/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/aloe-vera-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -790,7 +842,7 @@
       "description": "Amarantes — feuilles alimentaires : Groupe de légumes-feuilles de plusieurs espèces d’Amaranthus. Terere est documenté en kikuyu ; il ne doit pas être attribué exclusivement à Amaranthus cru",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/amarantes-feuilles/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/amarantes-feuilles-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -880,7 +932,7 @@
       "description": "Bananes plantains et autres bananes à cuire : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale. Retrouvez les a",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/bananes-a-cuire/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/bananes-a-cuire-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -916,7 +968,7 @@
       "description": "Baobab : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer. Retrouvez les appellations attestées, leurs langues, leurs zones d’usage et les sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/baobab-plante/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/baobab-plante-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -952,7 +1004,7 @@
       "description": "Basilic tropical — Ocimum gratissimum : Plante aromatique. La preuve du nom et la preuve culinaire sont séparées; aucun usage médicinal recommandé. Retrouvez les appellations attestées, leur",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/basilic-tropical/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/basilic-tropical-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1024,7 +1076,7 @@
       "description": "Carpe commune : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale. Retrouvez les appellations attestées, leurs l",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/carpe-commune/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/carpe-commune-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1112,7 +1164,7 @@
       "description": "Corète potagère : Fiche d’identification de Corchorus olitorius. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser. Retrou",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/corchorus/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/corchorus-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1148,7 +1200,7 @@
       "description": "Courbines — groupe commercial : Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce. Retrouvez les appellations attestées, leurs l",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/courbines-groupe/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/courbines-groupe-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1292,7 +1344,7 @@
       "description": "Foléré / bissap — boisson d’hibiscus : Boisson issue des calices d’Hibiscus sabdariffa, étudiée à Maroua, Mokolo et Mora. Distincte des feuilles alimentaires et des calices vendus secs. Aucu",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/folere-boisson/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/folere-boisson-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1346,7 +1398,7 @@
       "description": "Gombo — poudre de fruits séchés : Gombo — poudre de fruits séchés. Forme de cette fiche : poudre. Les noms de l’espèce et ceux d’un condiment ou d’un plat sont distingués dans les preuves. R",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/gombo-poudre/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/gombo-poudre-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1364,7 +1416,7 @@
       "description": "Oseille de Guinée — plante : Plante dont les feuilles et les calices sont des parties distinctes; « foléré » peut également désigner une boisson. Retrouvez les appellations attestées, leurs ",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/hibiscus-plante/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/hibiscus-plante-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1400,7 +1452,7 @@
       "description": "Igname : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale. Retrouvez les appellations attestées, leurs langues,",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/ignames-groupe/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/ignames-groupe-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1418,7 +1470,7 @@
       "description": "Irvingia — mangue sauvage : Espèce à fruits et amandes alimentaires. Le commerce peut la confondre avec Irvingia wombulu; conserver les preuves d’identification. Retrouvez les appellations a",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/irvingia-plante/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/irvingia-plante-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1436,7 +1488,7 @@
       "description": "Kanga : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale. Retrouvez les appellations attestées, leurs langues, ",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/kanga/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/kanga-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1526,7 +1578,7 @@
       "description": "Maïs : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale. Retrouvez les appellations attestées, leurs langues, l",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/mais-plante/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/mais-plante-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1562,7 +1614,7 @@
       "description": "Manguier : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer. Retrouvez les appellations attestées, leurs langues, leurs zones d’usage et les sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/manguier/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/manguier-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1616,7 +1668,7 @@
       "description": "Manioc — feuilles alimentaires : Feuilles de manioc utilisées en cuisine après préparation adaptée. Cette fiche est distincte des racines et des produits transformés ; elle ne constitue pas ",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/manioc-feuilles/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/manioc-feuilles-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1634,7 +1686,7 @@
       "description": "Maquereau de l’Atlantique : Fiche d’identification de Scomber scombrus. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/maquereau-atlantique/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/maquereau-atlantique-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1670,7 +1722,7 @@
       "description": "Maquereaux — groupe commercial : Groupe ou identification partielle selon la source de 2008. Ne pas réduire ce nom commercial à une seule espèce. Retrouvez les appellations attestées, leurs ",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/maquereaux-groupe/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/maquereaux-groupe-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1688,7 +1740,7 @@
       "description": "Menthe verte — feuilles : Menthe verte — feuilles. Forme de cette fiche : frais. Les noms de l’espèce et ceux d’un condiment ou d’un plat sont distingués dans les preuves. Retrouvez les appe",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/menthe/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/menthe-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1706,7 +1758,7 @@
       "description": "Monodora — faux muscadier : Plante condimentaire; graines utilisées en cuisine. Les appellations de l’espèce ne sont pas attribuées arbitrairement à une seule forme vendue. Retrouvez les app",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/monodora-plante/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/monodora-plante-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1742,7 +1794,7 @@
       "description": "Morue — makanjou : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale. Retrouvez les appellations attestées, leur",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/morue/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/morue-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1778,7 +1830,7 @@
       "description": "Vernonie — feuilles pour le ndolé : Vernonie — feuilles pour le ndolé. Forme de cette fiche : frais. Les noms de l’espèce et ceux d’un condiment ou d’un plat sont distingués dans les preuves",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/ndole/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/ndole-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1814,7 +1866,7 @@
       "description": "Niébé — feuilles alimentaires : Feuilles consommées comme légume, séparées ici des graines de niébé. Le nom kunde est attesté au Kenya en swahili et dans plusieurs communautés ; la forme doi",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/niebe-feuilles/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/niebe-feuilles-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1940,7 +1992,7 @@
       "description": "Perche du Nil : Fiche d’identification de Lates niloticus. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser. Retrouvez le",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/perche-nil/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/perche-nil-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1958,7 +2010,7 @@
       "description": "Piment (Capsicum chinense) : Fiche d’identification de Capsicum chinense. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à précise",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/piment-chinense/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/piment-chinense-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -1976,7 +2028,7 @@
       "description": "Piment (Capsicum frutescens) : Fiche d’identification de Capsicum frutescens. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à pré",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/piment-frutescens/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/piment-frutescens-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2066,7 +2118,7 @@
       "description": "Pomme de terre : Culture du catalogue CEMAC. Nom français de référence; taxon reproduit selon la source, sans attestation vernaculaire régionale. Retrouvez les appellations attestées, leurs ",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/pomme-de-terre/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/pomme-de-terre-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2084,7 +2136,7 @@
       "description": "Pourpier : Entrée historique de 1954; noms de plante conservés, usage contemporain à confirmer. Retrouvez les appellations attestées, leurs langues, leurs zones d’usage et les sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/pourpier/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/pourpier-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2102,7 +2154,7 @@
       "description": "Quatre côtés — fruit condimentaire : Fruit à quatre ailes employé comme condiment dans l’enquête camerounaise de 2009. La fiche porte sur le fruit, pas sur les graines isolées. Retrouvez les",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/quatre-cotes/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/quatre-cotes-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2120,7 +2172,7 @@
       "description": "Ricinodendron — arbre à njangsang : Espèce dont les graines sont utilisées comme condiment. Les noms de plante et de graines peuvent se recouvrir sans être fusionnés. Retrouvez les appellati",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/ricinodendron-plante/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/ricinodendron-plante-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2156,7 +2208,7 @@
       "description": "Safoutier — prunier d’Afrique : Espèce fruitière. Les noms de l’arbre sont conservés comme tels; pas d’assimilation au prunier européen. Retrouvez les appellations attestées, leurs langues, ",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/safoutier/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/safoutier-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2210,7 +2262,7 @@
       "description": "Sardinelle plate : Fiche d’identification de Sardinella maderensis. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser. Ret",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/sardinelle-plate/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/sardinelle-plate-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2228,7 +2280,25 @@
       "description": "Sardinelle ronde : Fiche d’identification de Sardinella aurita. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser. Retrouv",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/sardinelle-ronde/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/sardinelle-ronde-coverage-960.webp",
+      "beacons": 1,
+      "types": [
+        "WebSite",
+        "BreadcrumbList",
+        "DefinedTerm"
+      ],
+      "hreflang": 0
+    },
+    {
+      "file": "dist/produits/sene-africain/index.html",
+      "title": "Séné africain — Senna italica : noms, formes et usages documentés — AfroAtlas",
+      "h1": [
+        "Séné africain — Senna italica"
+      ],
+      "description": "Séné africain — Senna italica : Espèce de Fabaceae documentée sous les noms bambara M’bali mbali, Balibali et mba bali. La recherche « Mbali » retrouve cette fiche. Les noms locaux sont ratt",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/sene-africain/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/sene-africain-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2264,7 +2334,7 @@
       "description": "Silure Clarias : Poisson identifié dans l’annexe 4 de WorldFish (2008). Préparation non déterminée; l’identité ne signifie pas production locale. Retrouvez les appellations attestées, leurs ",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/silure-clarias/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/silure-clarias-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2318,7 +2388,7 @@
       "description": "Sukuma — feuilles de chou non pommé : Feuilles de chou non pommé présentées au Kenya par Infonet. Sukuma wiki peut aussi désigner le plat préparé : cette fiche concerne les feuilles, pas une",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/sukuma-feuilles/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/sukuma-feuilles-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2390,7 +2460,7 @@
       "description": "Tilapia du Nil : Fiche d’identification de Oreochromis niloticus. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser. Retro",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/tilapia-nil/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/tilapia-nil-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",
@@ -2426,7 +2496,7 @@
       "description": "Waterleaf — feuilles de talinum : Légume-feuille succulent, distinct de l’épinard Spinacia oleracea. Talinum triangulare est traité comme synonyme par Kew. PROTA décrit son association avec ",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/produits/waterleaf/",
       "robots": "index,follow,max-image-preview:large",
-      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/waterleaf-coverage-960.webp",
       "beacons": 1,
       "types": [
         "WebSite",

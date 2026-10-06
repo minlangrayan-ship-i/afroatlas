@@ -1,6 +1,6 @@
 # Lacunes de collecte après enrichissement
 
-Le bilan chiffré et la liste exacte des 18 photos principales manquantes sont dans DATA_QUALITY.md.
+Le bilan actualisé et la liste des formes commerciales encore à photographier sont dans DATA_QUALITY.md et PHOTO_PLANT_COUNTRY_REPORT.md. Toutes les fiches disposent désormais d’une photographie visible, principale ou explicitement complémentaire ; cela ne signifie pas que toutes les formes vendues sont documentées.
 
 - Maroc : enquêtes alimentaires hors Rabat/Taliouine ; confirmation des langues/dialectes des appellations de Rabat ; sources culinaires retenues pour cumin et menthe.
 - Cameroun : variantes linguistiques de njansang/ndolé ; distinction des deux espèces couvertes par « eru » ; autres feuilles et condiments de boutique.

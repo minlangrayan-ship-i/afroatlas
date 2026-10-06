@@ -57,7 +57,7 @@ for (const image of baseline.images) {
 const video = await readFile('public/assets/video/afroatlas-presentation.mp4');
 if (process.argv[2]) assert.equal(hash(video), hash(await readFile(process.argv[2])));
 const report = {
-  checkedAt: '2026-10-05',
+  checkedAt: new Date().toISOString().slice(0, 10),
   dryRunUnchanged: true,
   secondImportByteIdentical: true,
   originalProductIdsAndUrlsPreserved: true,
