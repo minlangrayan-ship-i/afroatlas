@@ -97,6 +97,8 @@ const media = {
   }
   // Choose before playback, including direct ?lang= links and the visitor's saved preference.
   let initial = new URLSearchParams(location.search).get('lang');
+  const built = document.documentElement.dataset.builtLocale;
+  if (!initial && built && built !== 'fr') initial = built;
   if (!initial) {
     try {
       initial = localStorage.getItem('afroatlas:locale');

@@ -6,6 +6,7 @@ import geography from '../../data/published/geography.json';
 import { regionPaths } from '../../lib/maps';
 import { catalogue } from '../../lib/catalogue';
 import { href } from '../../lib/links';
+import { countryMeta } from '../../lib/page-meta';
 export function getStaticPaths() {
   return countries.map((country) => ({
     params: { iso: country.ISO3.toLowerCase() },
@@ -50,6 +51,7 @@ const historicalNames = names.filter((n) => n.geographicScope === 'historical_ar
 <Layout
   title={`Produits et appellations documentés : ${country.nameFr}`}
   description={`Les noms et usages de ${countryProducts.length} produits documentés au ${country.nameFr}, avec sources et périmètres régionaux explicites.`}
+  localized={countryMeta(country.nameFr, countryProducts.length)}
   noindex={!countryProducts.length}
   breadcrumbs={[
     { name: 'Accueil', path: '' },

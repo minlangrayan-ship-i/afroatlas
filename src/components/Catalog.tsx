@@ -154,7 +154,7 @@ function Catalog({
             >
               <option value="">Toutes les catégories</option>
               {sortLabels(categories, (c) => c.label, locale).map((c) => (
-                <option value={c.id} key={c.id}>
+                <option data-sort value={c.id} key={c.id}>
                   {c.label}
                 </option>
               ))}
@@ -171,7 +171,7 @@ function Catalog({
               <option value="">Tous les contextes</option>
               <optgroup label="Pays africains">
                 {sortLabels(countries, (c) => c.nameFr, locale).map((c) => (
-                  <option key={c.ISO3} value={c.ISO3}>
+                  <option data-sort key={c.ISO3} value={c.ISO3}>
                     {c.nameFr}
                   </option>
                 ))}
@@ -185,7 +185,7 @@ function Catalog({
                 ))}
               <optgroup label="Contextes européens">
                 {sortLabels(europeanContexts, (c) => c.nameFr, locale).map((c) => (
-                  <option key={c.ISO3} value={c.ISO3}>
+                  <option data-sort key={c.ISO3} value={c.ISO3}>
                     {c.nameFr}
                   </option>
                 ))}
@@ -205,7 +205,7 @@ function Catalog({
                 regions.filter((r) => !filters.country || r.countryISO3 === filters.country),
                 locale,
               ).map((r) => (
-                <option key={r.id} value={r.id}>
+                <option data-sort key={r.id} value={r.id}>
                   {regionLabel(r)}
                 </option>
               ))}
@@ -230,7 +230,7 @@ function Catalog({
             >
               <option value="">Toutes les langues</option>
               {languages.map((lang) => (
-                <option key={lang.id} value={lang.id}>
+                <option data-sort key={lang.id} value={lang.id}>
                   {lang.label}
                 </option>
               ))}
@@ -250,7 +250,7 @@ function Catalog({
                 (form) => form,
                 locale,
               ).map((form) => (
-                <option key={form} value={form}>
+                <option data-sort key={form} value={form}>
                   {form}
                 </option>
               ))}

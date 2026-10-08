@@ -4,6 +4,7 @@ import ProductCard from '../../components/ProductCard';
 import { categories } from '../../data/countries';
 import { cardProducts } from '../../lib/catalogue';
 import { href } from '../../lib/links';
+import { categoryMeta } from '../../lib/page-meta';
 export function getStaticPaths() {
   return categories.map((category) => ({ params: { category: category.id }, props: { category } }));
 }
@@ -15,6 +16,7 @@ const description = `Découvrez ${products.length} fiches de la catégorie ${cat
 <Layout
   title={`${category.label} : produits et autres noms`}
   description={description}
+  localized={categoryMeta(category.label, products.length)}
   breadcrumbs={[
     { name: 'Accueil', path: '' },
     { name: category.label, path: `categories/${category.id}/` },

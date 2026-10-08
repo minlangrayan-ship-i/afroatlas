@@ -23,6 +23,7 @@ import {
   glanceNames,
   commonName,
 } from '../../lib/presentation';
+import { productMeta } from '../../lib/page-meta';
 export function getStaticPaths() {
   return products.map((product) => ({ params: { slug: product.slug }, props: { product } }));
 }
@@ -46,9 +47,6 @@ const french = commonName(product, names, 'fr'),
   arabic = commonName(product, names, 'ar');
 const glance = glanceNames(product, names);
 const methodNote = isBoilerplate(product.description);
-const lead = methodNote
-  ? `${product.labelFr}${product.formTypes.length ? ` — ${product.formTypes.join(', ')}` : ''}.`
-  : product.description;
 const contexts = catalogue.contexts.filter((c) => c.productId === product.id);
 const related = products.filter((p) =>
   catalogue.relations.some(
@@ -74,6 +72,13 @@ const seoDescription = (
   (glanceText ? ` : ${glanceText}. ` : '. ') +
   'Photo, noms par langue et par pays, sources.'
 ).slice(0, 220);
+const localized = productMeta({
+  labelFr: product.labelFr,
+  scientificName: product.scientificName,
+  english: english?.name,
+  arabic: arabic?.name,
+  glance,
+});
 const breadcrumbs = [
   { name: 'Accueil', path: '' },
   { name: category.label, path: `categories/${category.id}/` },
@@ -99,6 +104,7 @@ const contextProofs = Object.fromEntries(
 <Layout
   title={title}
   description={seoDescription}
+  localized={localized}
   image={image.role === 'primary' ? image.localPath : undefined}
   breadcrumbs={breadcrumbs}
   structuredData={structuredData}
@@ -147,9 +153,11 @@ const contextProofs = Object.fromEntries(
         {product.labelFr}
       </h1>
       <p class="scientific">{product.scientificName}</p>
-      <p class="product-lead" data-no-translate dir="auto">
-        {lead}
-      </p>
+      {!methodNote && (
+        <p class="product-lead" data-no-translate dir="auto">
+          {product.description}
+        </p>
+      )}
       {glance.length > 0 && (
         <div class="names-glance">
           <h2>Aussi appelé</h2>

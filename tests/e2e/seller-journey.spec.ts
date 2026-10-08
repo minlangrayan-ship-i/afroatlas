@@ -157,12 +157,12 @@ test('FR EN AR forms, autocomplete context, empty campaigns, favorites and compa
   await input.press('ArrowDown');
   await input.press('Enter');
   await expect(page).toHaveURL(/destination=SEN/);
-  await expect(page).toHaveURL(/lang=en/);
+  await expect(page).toHaveURL(/\/en\/produits\/gingembre\//);
   await expect(page.locator('link[rel=canonical]')).toHaveAttribute(
     'href',
     base.startsWith('https:')
-      ? base + 'produits/gingembre/'
-      : 'https://minlangrayan-ship-i.github.io/afroatlas/produits/gingembre/',
+      ? base + 'en/produits/gingembre/'
+      : 'https://minlangrayan-ship-i.github.io/afroatlas/en/produits/gingembre/',
   );
   await expect(page.locator('.ad-slot,.inline-ad')).toHaveCount(0);
   expect(errors).toEqual([]);

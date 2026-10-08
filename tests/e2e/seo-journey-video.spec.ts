@@ -126,7 +126,9 @@ test('product content, canonical and factual structured data exist without JavaS
   expect(graph.some((g: { '@type': string }) => g['@type'] === 'DefinedTerm')).toBe(true);
   expect(graph.some((g: { '@type': string }) => g['@type'] === 'BreadcrumbList')).toBe(true);
   expect(JSON.stringify(graph)).not.toContain('AggregateRating');
-  await expect(page.locator('link[hreflang]')).toHaveCount(0);
+  // French, English, Arabic and x-default versions of the same page.
+  await expect(page.locator('link[rel=alternate][hreflang]')).toHaveCount(4);
+  await expect(page.locator('link[hreflang=en]')).toHaveAttribute('href', /\/en\/produits\//);
   await expect(page.locator('script[src*="cloudflareinsights.com/beacon"]')).toHaveCount(1);
   await context.close();
 });

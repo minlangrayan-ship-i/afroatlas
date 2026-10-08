@@ -72,4 +72,19 @@ describe('documented catalogue search', () => {
       }).success,
     ).toBe(false);
   });
+  it('returns nothing rather than unrelated products for unknown words', () => {
+    for (const q of ['café', 'cola', 'fonio', 'fufu', 'pondu', 'poulet', 'riz'])
+      expect(searchProducts(cardProducts, { ...emptyFilters, q })).toEqual([]);
+  });
+  it('tolerates a typo on a whole word and ranks the label match first', () => {
+    expect(searchProducts(cardProducts, { ...emptyFilters, q: 'okro' })[0].product.slug).toBe(
+      'gombo',
+    );
+    expect(searchProducts(cardProducts, { ...emptyFilters, q: 'ndjansang' })[0].product.slug).toBe(
+      'njansang',
+    );
+    expect(searchProducts(cardProducts, { ...emptyFilters, q: 'muscade' })[0].product.slug).toBe(
+      'muscade',
+    );
+  });
 });

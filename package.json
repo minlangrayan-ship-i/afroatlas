@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "npm run prepare-data && npm run validate && astro build",
+    "build": "npm run prepare-data && npm run validate && astro build && tsx scripts/localize-build.ts",
     "build:cloudflare": "node scripts/build-cloudflare.mjs",
     "check:cloudflare": "wrangler pages functions build --outdir .runtime/cloudflare-worker && node scripts/check-cloudflare.mjs",
     "preview": "astro preview --host 127.0.0.1",
@@ -45,6 +45,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "deno": "^2.9.6",
+    "linkedom": "^0.18.12",
     "prettier": "^3.9.9",
     "prettier-plugin-astro": "^1.1.0",
     "sharp": "^0.35.5",

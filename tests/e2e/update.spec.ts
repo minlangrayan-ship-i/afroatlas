@@ -52,7 +52,7 @@ test('FR EN AR interface, Arabic names and mixed-direction forms preserve naviga
   await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
   await expect(page.locator('h1')).toContainText('منتج واحد');
   await page.locator('header nav a[href*="contribuer/"]').click();
-  await expect(page).toHaveURL(/lang=ar/);
+  await expect(page).toHaveURL(/\/ar\/contribuer\//);
   await expect(page.locator('html')).toHaveAttribute('lang', 'ar');
   await page.getByLabel('الاسم المحلي', { exact: true }).fill('اسم محلي — Niger');
   await expect(page.getByLabel('الاسم المحلي', { exact: true })).toHaveAttribute('dir', 'auto');
@@ -70,7 +70,7 @@ test('FR EN AR interface, Arabic names and mixed-direction forms preserve naviga
   await page.locator('.filters-panel > summary').click();
   await page.getByLabel('الشكل', { exact: true }).selectOption('poudre');
   await expect(page).toHaveURL(/form=poudre/);
-  await expect(page).toHaveURL(/lang=ar/);
+  await expect(page).toHaveURL(/\/ar\/catalogue\//);
   await expect(page.locator('.product-card')).not.toHaveCount(0);
   await page.getByRole('button', { name: 'EN', exact: true }).click();
   await expect(page.getByLabel('Form', { exact: true })).toHaveValue('poudre');

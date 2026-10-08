@@ -863,6 +863,104 @@ const journeyUi: Record<string, [string, string]> = {
   '«': ['“', '«'],
   'Proposer ce produit': ['Suggest this product', 'اقترح هذا المنتج'],
   'Aussi appelé': ['Also known as', 'يُعرف أيضًا باسم'],
+  Accueil: ['Home', 'الرئيسية'],
+  'Appellations documentées avec langue, pays, région et source': [
+    'Documented names with language, country, region and source',
+    'تسميات موثقة مع اللغة والبلد والمنطقة والمصدر',
+  ],
+  'Montrez la photographie et précisez la forme recherchée. Ces libellés ne prouvent pas le nom utilisé par une boutique.':
+    [
+      'Show the photograph and specify the form you want. These labels do not prove the name a shop uses.',
+      'اعرض الصورة وحدد الشكل المطلوب. هذه التسميات لا تثبت الاسم الذي يستعمله المتجر.',
+    ],
+  'Aucune équivalence entre produit brut, séché, fumé ou moulu n’est présumée. Les mélanges et plats préparés nécessitent une fiche propre.':
+    [
+      'Raw, dried, smoked and ground products are never assumed to be equivalent. Mixtures and dishes need their own record.',
+      'لا يُفترض أي تكافؤ بين المنتج الخام والمجفف والمدخن والمطحون. تحتاج الخلطات والأطباق إلى صفحة خاصة بها.',
+    ],
+  'Aucune référence commerciale reliée par une preuve à cette fiche pour le moment.': [
+    'No commercial reference is linked to this record by evidence yet.',
+    'لا يوجد بعد مرجع تجاري مرتبط بهذه الصفحة بدليل.',
+  ],
+  'Consulter les références séparément ↗': [
+    'See the references separately ↗',
+    'اطلع على المراجع بشكل منفصل ↗',
+  ],
+  'CATÉGORIE VOISINE, PAS ÉQUIVALENCE': ['RELATED, NOT EQUIVALENT', 'فئة قريبة، لا تكافؤ'],
+  'À distinguer également.': ['Also tell these apart.', 'يجب التمييز بينها أيضًا.'],
+  'Dernier contrôle d’import :': ['Last import check:', 'آخر تحقق من الاستيراد:'],
+  '. Aucun examen culturel humain enregistré.': [
+    '. No human cultural review recorded yet.',
+    '. لم تُسجل بعد مراجعة ثقافية بشرية.',
+  ],
+  'Les alias linguistiques ne prouvent ni usage géographique, ni usage culinaire, ni présence en boutique. Pour un nom ambigu, consultez toutes les fiches candidates dans la recherche.':
+    [
+      'Language aliases prove neither geographic use, culinary use nor presence in shops. For an ambiguous name, check every candidate record in the search.',
+      'الأسماء اللغوية البديلة لا تثبت استعمالًا جغرافيًا ولا طهويًا ولا وجودًا في المتاجر. لاسم ملتبس، راجع كل الصفحات المرشحة في البحث.',
+    ],
+  'Explorer les contextes d’appellation :': ['Explore naming contexts:', 'استكشف سياقات التسمية:'],
+  'Les usages culinaires régionaux et les formes préparées ne sont pas encore documentés dans cet instantané.':
+    [
+      'Regional culinary uses and prepared forms are not documented in this snapshot yet.',
+      'لم توثق بعد الاستخدامات الطهوية الإقليمية والأشكال المحضرة في هذه النسخة.',
+    ],
+  'Complément documentaire ; pas la forme de boutique': [
+    'Documentary complement; not the shop form',
+    'صورة توثيقية مكملة؛ ليست الشكل المعروض في المتجر',
+  ],
+  'Consultez les contextes locaux ci-dessous : chaque usage est relié à sa propre source et à son périmètre.':
+    [
+      'See the local contexts below: each use is linked to its own source and scope.',
+      'راجع السياقات المحلية أدناه: كل استخدام مرتبط بمصدره ونطاقه.',
+    ],
+  'Filtrer ce contexte dans la bibliothèque ↗': [
+    'Filter this context in the library ↗',
+    'صفِّ هذا السياق في المكتبة ↗',
+  ],
+  'Proposer une appellation documentée ↗': ['Suggest a documented name ↗', 'اقترح تسمية موثقة ↗'],
+  'Navigation régionale non importée pour ce pays dans la V1. Vous pouvez proposer une source ouverte.':
+    [
+      'Regional navigation is not imported for this country yet. You can suggest an open source.',
+      'لم تُستورد بعد الملاحة الإقليمية لهذا البلد. يمكنك اقتراح مصدر مفتوح.',
+    ],
+  'Aucune appellation nationale documentée pour le moment. Les noms en français, anglais ou dans une autre langue ne sont pas attribués automatiquement à ce pays.':
+    [
+      'No national name is documented yet. Names in French, English or another language are not automatically attributed to this country.',
+      'لا توجد بعد تسمية وطنية موثقة. لا تُنسب الأسماء بالفرنسية أو الإنجليزية أو بلغة أخرى تلقائيًا إلى هذا البلد.',
+    ],
+  'Alias portugais dans la source': [
+    'Portuguese alias in the source',
+    'اسم برتغالي بديل في المصدر',
+  ],
+  'Nom portugais dans la source': ['Portuguese name in the source', 'الاسم البرتغالي في المصدر'],
+  'COMPRENDRE LES PRODUITS AFRICAINS': ['UNDERSTANDING AFRICAN PRODUCTS', 'فهم المنتجات الأفريقية'],
+  'Chaque nom reste lié à sa source et à son contexte. Une ressemblance d’appellation ne suffit pas à établir une équivalence.':
+    [
+      'Every name stays linked to its source and context. Similar names are not enough to establish an equivalence.',
+      'يبقى كل اسم مرتبطًا بمصدره وسياقه. تشابه التسميات لا يكفي لإثبات التكافؤ.',
+    ],
+  'Rechercher dans cette catégorie ↗': ['Search this category ↗', 'ابحث في هذه الفئة ↗'],
+  'Référence documentée ; disponibilité en boutique non vérifiée': [
+    'Documented reference; shop availability not checked',
+    'مرجع موثق؛ لم يُتحقق من توفره في المتاجر',
+  ],
+  'Quantité déclarée': ['Declared quantity', 'الكمية المعلنة'],
+  'Ingrédients déclarés': ['Declared ingredients', 'المكونات المعلنة'],
+  'Origine déclarée': ['Declared origin', 'المنشأ المعلن'],
+  'Fabrication déclarée': ['Declared manufacturing', 'التصنيع المعلن'],
+  'Pays / marchés de commercialisation déclarés': [
+    'Declared countries / markets of sale',
+    'بلدان / أسواق البيع المعلنة',
+  ],
+  'Non importée dans cet instantané': [
+    'Not imported in this snapshot',
+    'غير مستوردة في هذه النسخة',
+  ],
+  'Lien vérifié avec un ingrédient du catalogue': [
+    'Verified link with a catalogue ingredient',
+    'رابط متحقق منه مع مكوّن في الفهرس',
+  ],
+  'Instantané du': ['Snapshot of', 'نسخة بتاريخ'],
   'Toutes les appellations et leurs sources ↓': [
     'All names and their sources ↓',
     'جميع التسميات ومصادرها ↓',
@@ -876,6 +974,15 @@ const journeyUi: Record<string, [string, string]> = {
 };
 export function translate(text: string, locale: Locale): string {
   if (locale === 'fr') return text;
+  // Keep the spaces around a fragment such as « fiche » in « 2 fiches documentées ».
+  const [, before, core, after] = text.match(/^(\s*)([\s\S]*?)(\s*)$/)!;
+  if (before || after) {
+    const translated = translateCore(core, locale);
+    return translated === core ? text : before + translated + after;
+  }
+  return translateCore(text, locale);
+}
+function translateCore(text: string, locale: Exclude<Locale, 'fr'>): string {
   const clean = text.replace(/\s+/g, ' ').trim(),
     entry = journeyUi[clean] || ui[clean];
   if (entry) return entry[locale === 'en' ? 0 : 1];
