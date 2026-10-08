@@ -1,7 +1,7 @@
 ---
 import Layout from '../components/Layout.astro';
 import Catalog from '../components/Catalog';
-import { cardProducts } from '../lib/catalogue';
+import { searchCards } from '../lib/catalogue';
 ---
 
 <Layout title="Mes favoris">
@@ -14,6 +14,6 @@ import { cardProducts } from '../lib/catalogue';
     </p>
   </div>
   <section class="container page-body">
-    <Catalog products={cardProducts} favorites client:load />
+    <Catalog products={searchCards} favorites client:load />
   </section>
 </Layout>

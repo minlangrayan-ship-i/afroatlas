@@ -1,4 +1,3 @@
-import Fuse from 'fuse.js';
 import type { CardProduct } from './catalogue';
 import { countries, europeanContexts, languageNames } from '../data/countries';
 import regions from '../data/published/regions.json';
@@ -44,6 +43,91 @@ export function readFilters(search: string): Filters {
     filters.region = '';
   return filters;
 }
+// Allowed typos grow with the query; short queries must match literally.
+const allowedEdits = (length: number) => (length < 4 ? 0 : length < 8 ? 1 : 2);
+function editDistance(a: string, b: string, limit: number) {
+  if (Math.abs(a.length - b.length) > limit) return limit + 1;
+  let previous = Array.from({ length: b.length + 1 }, (_, i) => i);
+  let beforePrevious = previous;
+  for (let i = 1; i <= a.length; i++) {
+    const current = [i];
+    let best = i;
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      let value = Math.min(previous[j] + 1, current[j - 1] + 1, previous[j - 1] + cost);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1])
+        value = Math.min(value, beforePrevious[j - 2] + 1);
+      current.push(value);
+      best = Math.min(best, value);
+    }
+    if (best > limit) return limit + 1;
+    beforePrevious = previous;
+    previous = current;
+  }
+  return previous[b.length];
+}
+// Compare the query with whole words or word groups only: a short word hidden inside a
+// long label (« café » in an unrelated list of terms) is not a match.
+function approximateDistance(query: string, terms: string[]) {
+  const limit = allowedEdits(query.length);
+  if (!limit) return null;
+  const size = query.split(' ').length;
+  let best: number | null = null;
+  for (const term of terms) {
+    const words = term.split(' ');
+    for (let i = 0; i + size <= words.length; i++) {
+      const candidate = words.slice(i, i + size).join(' ');
+      const distance = editDistance(query, candidate, limit);
+      if (distance <= limit && (best === null || distance < best)) best = distance;
+    }
+  }
+  return best;
+}
+const startsWord = (term: string, query: string) =>
+  term.startsWith(query) || term.includes(' ' + query) || term.includes("'" + query);
+type IndexedProduct = CardProduct & { searchTerms: string[] };
+const indexes = new WeakMap<CardProduct[], IndexedProduct[]>();
+function indexFor(products: CardProduct[]) {
+  const cached = indexes.get(products);
+  if (cached) return cached;
+  const index = products.map((p) => ({
+    ...p,
+    searchTerms: [
+      // Include new approved names as well as the static catalogue.
+      p.labelFr,
+      p.labelEn || '',
+      p.labelAr || '',
+      p.scientificName || '',
+      ...(p.scientificNames || []),
+      ...p.names.map((n) => n.name),
+      ...[...countries, ...europeanContexts]
+        .filter(
+          (c) =>
+            p.names.some((n) => n.countryIds.includes(c.ISO3)) ||
+            p.contexts.some((ctx) => ctx.countryId === c.ISO3),
+        )
+        .flatMap((c) => [c.nameFr, c.ISO2, c.ISO3]),
+      ...regions
+        .filter(
+          (r) =>
+            p.names.some((n) => n.regionIds.includes(r.id)) ||
+            p.contexts.some((ctx) => ctx.regionIds.includes(r.id)),
+        )
+        .flatMap((r) => [r.name, regionLabel(r)]),
+      ...p.names.flatMap((n) => [
+        n.localContext,
+        n.languageLabel || '',
+        languageNames[n.languageCode || ''] || '',
+        n.languageCode || '',
+      ]),
+      ...p.contexts.map((c) => c.localContext),
+    ]
+      .map(normalize)
+      .filter(Boolean),
+  }));
+  indexes.set(products, index);
+  return index;
+}
 export function searchProducts(
   products: CardProduct[],
   filters: Filters,
@@ -52,58 +136,23 @@ export function searchProducts(
   const query = normalize(filters.q);
   // Oral feedback is not enough to identify a species; do not replace it with a fuzzy guess.
   if (['muse', 'masso'].includes(query)) return [];
-  const index = products.map((p) => ({
-    ...p,
-    searchTerms:
-      // Include new approved names as well as the static catalogue.
-      [
-        p.labelFr,
-        p.labelEn || '',
-        p.labelAr || '',
-        p.scientificName || '',
-        ...(p.scientificNames || []),
-        ...p.names.map((n) => n.name),
-        ...[...countries, ...europeanContexts]
-          .filter(
-            (c) =>
-              p.names.some((n) => n.countryIds.includes(c.ISO3)) ||
-              p.contexts.some((ctx) => ctx.countryId === c.ISO3),
-          )
-          .flatMap((c) => [c.nameFr, c.ISO2, c.ISO3]),
-        ...regions
-          .filter(
-            (r) =>
-              p.names.some((n) => n.regionIds.includes(r.id)) ||
-              p.contexts.some((ctx) => ctx.regionIds.includes(r.id)),
-          )
-          .flatMap((r) => [r.name, regionLabel(r)]),
-        ...p.names.flatMap((n) => [
-          n.localContext,
-          n.languageLabel || '',
-          languageNames[n.languageCode || ''] || '',
-          n.languageCode || '',
-        ]),
-        ...p.contexts.map((c) => c.localContext),
-      ].map(normalize),
-  }));
-  const fuzzy = query
-    ? new Fuse(index, {
-        keys: ['searchTerms'],
-        threshold: 0.32,
-        ignoreLocation: true,
-        includeScore: true,
-        minMatchCharLength: 2,
-      })
-        .search(query)
-        .map((result) => ({ product: result.item, score: result.score || 0 }))
-    : index.map((product) => ({ product, score: 0 }));
-  const hasLiteralMatch =
-    query.length >= 3 &&
-    fuzzy.some(({ product }) => product.searchTerms.some((t) => t.includes(query)));
-  const hasExactMatch = !!query && fuzzy.some(({ product }) => product.searchTerms.includes(query));
+  const index = indexFor(products);
+  const literal = (p: IndexedProduct) =>
+    query.length >= 2 && p.searchTerms.some((t) => startsWord(t, query));
+  const hasExactMatch = !!query && index.some((p) => p.searchTerms.includes(query));
+  const hasLiteralMatch = !hasExactMatch && !!query && index.some(literal);
+  const fuzzy = (
+    query
+      ? index.map((product) => {
+          if (hasExactMatch)
+            return { product, score: product.searchTerms.includes(query) ? 0 : null };
+          if (hasLiteralMatch) return { product, score: literal(product) ? 0 : null };
+          const distance = approximateDistance(query, product.searchTerms);
+          return { product, score: distance === null ? null : distance / query.length };
+        })
+      : index.map((product) => ({ product, score: 0 }))
+  ).filter((r): r is { product: IndexedProduct; score: number } => r.score !== null);
   return fuzzy
-    .filter(({ product }) => !hasExactMatch || product.searchTerms.includes(query))
-    .filter(({ product }) => !hasLiteralMatch || product.searchTerms.some((t) => t.includes(query)))
     .filter(
       ({ product: p }) =>
         (!filters.category || p.categoryId === filters.category) &&
@@ -132,11 +181,20 @@ export function searchProducts(
       const primaryExact = [product.labelFr, product.labelEn || '', product.labelAr || ''].some(
         (t) => normalize(t) === query,
       );
-      const prefix = query && product.searchTerms.some((t) => t.startsWith(query));
+      const prefix = !!query && product.searchTerms.some((t) => startsWord(t, query));
+      const labelWord = !!query && normalize(product.labelFr).split(' ').includes(query);
+      const word =
+        labelWord || (!!query && product.searchTerms.some((t) => t.split(' ').includes(query)));
       return {
         product,
-        score: primaryExact ? -4 : exact ? -3 : prefix ? -2 : score,
-        matchType: primaryExact ? 'exact' : exact ? 'alias' : prefix ? 'prefix' : 'approximate',
+        score: primaryExact ? -6 : exact ? -5 : labelWord ? -4 : word ? -3 : prefix ? -2 : score,
+        matchType: primaryExact
+          ? 'exact'
+          : exact
+            ? 'alias'
+            : word || prefix
+              ? 'prefix'
+              : 'approximate',
         match: query
           ? matched
             ? matched.nameType === 'input'

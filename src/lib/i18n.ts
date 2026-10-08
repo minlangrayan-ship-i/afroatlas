@@ -855,6 +855,24 @@ const journeyUi: Record<string, [string, string]> = {
   ],
   'fiche documentée': ['documented record', 'صفحة موثقة'],
   Publicité: ['Advertisement', 'إعلان'],
+  '» n’est pas encore dans la bibliothèque. Vous le connaissez ? Proposez-le : chaque proposition est examinée avant publication.':
+    [
+      '” is not in the library yet. Do you know it? Suggest it: every proposal is reviewed before publication.',
+      '» غير موجود في المكتبة بعد. هل تعرفه؟ اقترحه: تُراجع كل مساهمة قبل نشرها.',
+    ],
+  '«': ['“', '«'],
+  'Proposer ce produit': ['Suggest this product', 'اقترح هذا المنتج'],
+  'Aussi appelé': ['Also known as', 'يُعرف أيضًا باسم'],
+  'Toutes les appellations et leurs sources ↓': [
+    'All names and their sources ↓',
+    'جميع التسميات ومصادرها ↓',
+  ],
+  'Effacer la recherche et les filtres': ['Clear search and filters', 'امسح البحث والمرشحات'],
+  'Essayez une autre orthographe ou un nom dans une autre langue. Nous n’affichons pas de produit au hasard : un nom proche n’est pas un équivalent.':
+    [
+      'Try another spelling or a name in another language. We never show a random product: a similar name is not an equivalent.',
+      'جرّب تهجئة أخرى أو اسمًا بلغة أخرى. لا نعرض منتجًا عشوائيًا: الاسم المشابه ليس مكافئًا.',
+    ],
 };
 export function translate(text: string, locale: Locale): string {
   if (locale === 'fr') return text;

@@ -999,6 +999,50 @@ textarea::placeholder {
   font-size: 14px;
   color: var(--muted);
 }
+.product-summary > p.product-lead {
+  font-size: 16px;
+  color: var(--ink);
+}
+.names-glance {
+  margin: 22px 0 6px;
+  padding: 16px 18px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.names-glance h2 {
+  font: 700 11px var(--font-sans);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin: 0 0 10px;
+}
+.names-glance ul {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.names-glance li {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: var(--pale);
+}
+.names-glance strong {
+  font: 600 16px var(--font-serif);
+}
+.names-glance small {
+  font-size: 11px;
+  color: var(--muted);
+}
+.empty-missing {
+  font-size: 15px;
+  color: var(--ink);
+}
 .summary-facts {
   display: flex;
   flex-wrap: wrap;

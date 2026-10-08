@@ -44,6 +44,9 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
     const slug = new URLSearchParams(location.search).get('product'),
       p = products.find((p) => p.slug === slug || p.id === slug);
     if (p) setFields((f) => ({ ...f, product: p.labelFr, productId: p.id, productSlug: p.slug }));
+    // A search without result proposes the searched word as a new product.
+    const missing = new URLSearchParams(location.search).get('missing')?.trim().slice(0, 200);
+    if (!p && missing) setFields((f) => ({ ...f, type: 'new-product', product: missing }));
   }, [products]);
   useEffect(() => {
     requestId.current = null;

@@ -1,22 +1,39 @@
 import { withLocale } from '../lib/locale-react';
-import { useEffect, useId, useMemo, useState, type KeyboardEvent } from 'react';
+import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent } from 'react';
 import { searchProducts, emptyFilters } from '../lib/search';
 import type { CardProduct } from '../lib/catalogue';
 import { href, productLink } from '../lib/links';
 import { useClientReady } from '../lib/use-client-ready';
 import { useCommunityCatalogue } from '../lib/community-catalogue';
+const noProducts: CardProduct[] = [];
+let lazyCards: Promise<CardProduct[]> | null = null;
+function loadCards() {
+  lazyCards ||= fetch(href('data/search-cards.json'))
+    .then((response) => (response.ok ? response.json() : []))
+    .catch(() => {
+      lazyCards = null;
+      return [];
+    });
+  return lazyCards;
+}
 function SearchBox({
-  products: seed,
+  products: given,
   initial = '',
   onSearch,
   context = '',
 }: {
-  products: CardProduct[];
+  /** Without products, a compact index is fetched on first interaction (lighter pages). */
+  products?: CardProduct[];
   initial?: string;
   onSearch?: (query: string) => void;
   context?: string;
 }) {
-  const products = useCommunityCatalogue(seed);
+  const [loaded, setLoaded] = useState<CardProduct[]>(noProducts);
+  const products = useCommunityCatalogue(given || loaded);
+  const input = useRef<HTMLInputElement>(null);
+  function warm() {
+    if (!given && loaded === noProducts) loadCards().then(setLoaded);
+  }
   const [value, setValue] = useState(initial),
     [open, setOpen] = useState(false),
     [active, setActive] = useState(-1);
@@ -27,6 +44,16 @@ function SearchBox({
     return () => clearTimeout(id);
   }, [value]);
   const ready = useClientReady();
+  // The field works before hydration: keep what the visitor already typed.
+  useEffect(() => {
+    const typed = input.current?.value || '';
+    if (typed && typed !== value) {
+      setValue(typed);
+      warm();
+      if (document.activeElement === input.current) setOpen(true);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   function linkQuery() {
     const params = new URLSearchParams(context);
     if (ready) {
@@ -94,12 +121,12 @@ function SearchBox({
           ⌕
         </span>
         <input
-          disabled={!ready}
+          ref={input}
           id={id}
           type="search"
           name="q"
           maxLength={200}
-          value={value}
+          defaultValue={initial}
           placeholder="Comment appelez-vous ce produit ?"
           autoComplete="off"
           role="combobox"
@@ -107,15 +134,19 @@ function SearchBox({
           aria-controls={`${id}-suggestions`}
           aria-autocomplete="list"
           aria-activedescendant={open && active >= 0 ? `${id}-${active}` : undefined}
-          onFocus={() => setOpen(true)}
+          onFocus={() => {
+            warm();
+            setOpen(true);
+          }}
           onChange={(event) => {
+            warm();
             setValue(event.target.value);
             setOpen(true);
             setActive(-1);
           }}
           onKeyDown={key}
         />
-        <button type="submit" disabled={!ready}>
+        <button type="submit">
           Rechercher <span aria-hidden="true">↗</span>
         </button>
       </form>
