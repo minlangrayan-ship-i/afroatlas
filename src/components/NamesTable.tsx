@@ -84,7 +84,7 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
           >
             <option value="">Toutes</option>
             {languageOptions(names, country, '', locale).map((lang) => (
-              <option key={lang.id} value={lang.id}>
+              <option data-sort key={lang.id} value={lang.id}>
                 {lang.label}
               </option>
             ))}
@@ -103,7 +103,7 @@ function NamesTable({ names: seed }: { names: NameRow[] }) {
           >
             <option value="">Tous / non établi</option>
             {sortLabels([...countries, ...europeanContexts], (c) => c.nameFr, locale).map((c) => (
-              <option key={c.ISO3} value={c.ISO3}>
+              <option data-sort key={c.ISO3} value={c.ISO3}>
                 {c.nameFr}
               </option>
             ))}

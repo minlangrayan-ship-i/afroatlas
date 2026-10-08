@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { withLocale } from '../lib/locale-react';
+import { withLocale, useLocale } from '../lib/locale-react';
+import { translate } from '../lib/i18n';
+import { drawShareCard, shareImage } from '../lib/share-card';
 import type { CardProduct } from '../lib/catalogue';
 import { useCommunityCatalogue, useCommunityGeography } from '../lib/community-catalogue';
 import {
@@ -39,6 +41,8 @@ function ShopCard({
   const [destination, setDestination] = useState<Destination>(emptyDestination);
   const [query, setQuery] = useState('');
   const [back, setBack] = useState(href('catalogue/'));
+  const [shareMessage, setShareMessage] = useState('');
+  const locale = useLocale();
   const dialog = useRef<HTMLDialogElement>(null);
   const opener = useRef<HTMLButtonElement>(null);
   useEffect(() => {
@@ -65,7 +69,7 @@ function ShopCard({
     recordUsage('destination_use');
   }
   const names = destinationNames(product.names, destination);
-  const fallback = commonNames(product.names);
+  const fallback = commonNames(product.names, product);
   const unique = (list: typeof names) =>
     list.filter(
       (n, i) =>
@@ -234,6 +238,51 @@ function ShopCard({
       </div>
     </div>
   );
+  async function shareCard() {
+    const t = (text: string) => translate(text, locale);
+    const arabicName = product.labelAr || product.names.find((n) => n.languageCode === 'ar')?.name;
+    const title =
+      locale === 'en'
+        ? (product.labelEn !== product.scientificName && product.labelEn) || product.labelFr
+        : locale === 'ar'
+          ? arabicName || product.labelFr
+          : productChoice(product).title;
+    const canonical =
+      document.querySelector<HTMLLinkElement>('link[rel=canonical]')?.href || location.href;
+    setShareMessage('');
+    try {
+      const blob = await drawShareCard({
+        title,
+        request: t('Je cherche ce produit, dans cette forme.'),
+        names: displayed.map((n) => ({
+          name: n.name,
+          language: t(languageLabel(n.languageCode || n.languageId || '', product.names)),
+        })),
+        destination: context
+          ? `${t('Destination')} : ${t(context)}${region ? ` · ${t(regionLabel(region))}` : ''}`
+          : undefined,
+        photo: product.image.role === 'primary' ? href(product.image.localPath) : undefined,
+        credit:
+          product.image.role === 'primary'
+            ? `${product.image.creator} · ${product.image.licenseId}`
+            : undefined,
+        footer: `AfroAtlas · ${t('Un produit, plusieurs noms.')}`,
+        url: canonical.replace(/^https:\/\//, ''),
+      });
+      const result = await shareImage(
+        blob,
+        `afroatlas-${product.slug.replace(/[^a-z0-9-]/gi, '-')}.png`,
+        title,
+        canonical,
+      );
+      setShareMessage(
+        result === 'shared' ? 'Image partagée.' : 'Image enregistrée sur l’appareil.',
+      );
+    } catch (error) {
+      if (error instanceof DOMException && error.name === 'AbortError') return;
+      setShareMessage('Partage de l’image indisponible sur cet appareil.');
+    }
+  }
   return (
     <section className="container section shop-context" id="demander">
       <div className="shop-heading">
@@ -252,6 +301,12 @@ function ShopCard({
       >
         Montrer au vendeur ↗
       </button>
+      <button className="button secondary" disabled={!ready} onClick={shareCard}>
+        Partager la carte en image ↗
+      </button>
+      <p className="action-message" role="status">
+        {shareMessage}
+      </p>
       <dialog
         className="seller-dialog"
         aria-label="Présentation à montrer au vendeur"
@@ -265,6 +320,9 @@ function ShopCard({
           Fermer ×
         </button>
         {card(true)}
+        <button className="button secondary share-card-button" onClick={shareCard}>
+          Partager la carte en image ↗
+        </button>
       </dialog>
     </section>
   );

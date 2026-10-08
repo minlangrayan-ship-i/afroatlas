@@ -63,6 +63,8 @@ Adresse publique centralisée dans `src/data/site.ts` : contact/partenariats uni
 
 Voir [DATA_QUALITY.md](docs/DATA_QUALITY.md), [SOURCES.md](docs/SOURCES.md), [CONTENT_BACKLOG.md](docs/CONTENT_BACKLOG.md) et [VERIFICATION.md](docs/VERIFICATION.md). Tous les rapports consultables n’ont pas une licence ouverte : faits cités et résumés originaux, aucune republication globale de leurs textes. Les collections et photos conservent leurs propres licences.
 
+Pages anglaises et arabes réelles (`/en/`, `/ar/`) générées au build par `scripts/localize-build.ts` à partir du dictionnaire d’interface, avec `hreflang` et sitemap multilingue. Domaine propre et Search Console : [DOMAIN_SEARCH_CONSOLE.md](docs/DOMAIN_SEARCH_CONSOLE.md). Carte partageable, kit épiceries (`/epiceries/`) et vidéos courtes : [PROMOTION.md](docs/PROMOTION.md). Produits de base manquants (riz, mil, fonio, karité, palmier à huile, kola…) : `npm run import:essentials`, qui demande l’accès réseau à Wikidata et Wikimedia Commons.
+
 Le [bilan SEO, UX, sécurité et vidéo du 5 octobre 2026](docs/SEO_UX_VIDEO_REPORT.md) détaille les changements, les mesures de laboratoire et les accès restant à configurer. La [présentation vidéo](https://minlangrayan-ship-i.github.io/afroatlas/presentation/) utilise le fichier fourni, inchangé, et un texte d’accompagnement accessible. La recherche transporte le contexte de l’interlocuteur vers une carte à montrer au vendeur ; elle ne déduit pas la géographie d’une langue.
 
 ## Publication

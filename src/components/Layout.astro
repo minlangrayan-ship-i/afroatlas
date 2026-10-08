@@ -4,6 +4,7 @@ import { site } from '../data/site';
 import { href } from '../lib/links';
 import AdSlot from './AdSlot.astro';
 import UsageConsent from './UsageConsent';
+import { staticMeta, type LocalizedMeta } from '../lib/page-meta';
 const pageDescriptions: Record<string, string> = {
   explorer:
     'Explorez les pays africains et leurs régions pour retrouver les appellations alimentaires documentées, avec leurs sources et leurs limites.',
@@ -16,7 +17,12 @@ const pageDescriptions: Record<string, string> = {
   presentation:
     'Découvrez AfroAtlas en vidéo : reconnaître un ingrédient et se comprendre malgré les différences d’appellation.',
 };
-const routeKey = Astro.url.pathname.split('/').filter(Boolean).at(-1) || '';
+const routeKey =
+  Astro.url.pathname
+    .slice(import.meta.env.BASE_URL.replace(/\/$/, '').length)
+    .split('/')
+    .filter(Boolean)
+    .at(-1) || '';
 const {
   title = site.tagline,
   description = pageDescriptions[routeKey] || site.description,
@@ -24,7 +30,12 @@ const {
   structuredData = [],
   breadcrumbs = [],
   noindex = false,
+  localized,
 } = Astro.props;
+// Read by scripts/localize-build.ts to write the /en/ and /ar/ pages, then removed.
+const translatedMeta: LocalizedMeta | undefined = localized || staticMeta[routeKey];
+// The error page and the private administration page are not duplicated per language.
+const untranslated = /\/(404|moderation)\/?$/.test(Astro.url.pathname);
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const utility =
   /\/(catalogue|favoris|comparer|moderation|contribuer|404|references|produits\/communaute|pays\/communaute)\/?$/;
@@ -62,7 +73,7 @@ const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
 ---
 
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-built-locale="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -80,6 +91,15 @@ const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
       />
     )}
     <link rel="canonical" href={canonical} />
+    {translatedMeta &&
+      (['en', 'ar'] as const).flatMap((locale) => [
+        <meta name={`afroatlas-title-${locale}`} content={translatedMeta[locale].title} />,
+        <meta
+          name={`afroatlas-description-${locale}`}
+          content={translatedMeta[locale].description}
+        />,
+      ])}
+    {untranslated && <meta name="afroatlas-untranslated" content="true" />}
     <meta property="og:title" content={`${title} — ${site.name}`} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -168,6 +188,7 @@ const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
           <a href={href('methodologie/')}>Notre méthodologie</a>
           <a href={href('sources/')}>Sources & crédits</a>
           <a href={href('contribuer/')}>Proposer une correction</a>
+          <a href={href('epiceries/')}>Kit gratuit pour épiceries</a>
           <a href={href('contact/')}>Contact et partenariats publicitaires</a>
         </div>
       </div>

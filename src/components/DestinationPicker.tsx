@@ -40,7 +40,7 @@ function DestinationPicker({
           >
             <option value="">Choisir un pays</option>
             {countryOptions.map((c) => (
-              <option key={c.ISO3} value={c.ISO3}>
+              <option data-sort key={c.ISO3} value={c.ISO3}>
                 {c.nameFr}
               </option>
             ))}
@@ -74,7 +74,7 @@ function DestinationPicker({
               regions.filter((r) => r.countryISO3 === value.country),
               locale,
             ).map((r) => (
-              <option key={r.id} value={r.id}>
+              <option data-sort key={r.id} value={r.id}>
                 {regionLabel(r)}
               </option>
             ))}
@@ -102,7 +102,7 @@ function DestinationPicker({
           >
             <option value="">Langue non précisée</option>
             {languages.map((l) => (
-              <option key={l.id} value={l.id}>
+              <option data-sort key={l.id} value={l.id}>
                 {l.label}
               </option>
             ))}

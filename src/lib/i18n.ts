@@ -855,9 +855,207 @@ const journeyUi: Record<string, [string, string]> = {
   ],
   'fiche documentée': ['documented record', 'صفحة موثقة'],
   Publicité: ['Advertisement', 'إعلان'],
+  '» n’est pas encore dans la bibliothèque. Vous le connaissez ? Proposez-le : chaque proposition est examinée avant publication.':
+    [
+      '” is not in the library yet. Do you know it? Suggest it: every proposal is reviewed before publication.',
+      '» غير موجود في المكتبة بعد. هل تعرفه؟ اقترحه: تُراجع كل مساهمة قبل نشرها.',
+    ],
+  '«': ['“', '«'],
+  'Proposer ce produit': ['Suggest this product', 'اقترح هذا المنتج'],
+  'Aussi appelé': ['Also known as', 'يُعرف أيضًا باسم'],
+  Igbo: ['Igbo', 'الإيغبو'],
+  Peul: ['Fula', 'الفولانية'],
+  Lingala: ['Lingala', 'اللينغالا'],
+  Zoulou: ['Zulu', 'الزولو'],
+  Xhosa: ['Xhosa', 'الخوسا'],
+  Somali: ['Somali', 'الصومالية'],
+  Oromo: ['Oromo', 'الأورومو'],
+  Tigrinya: ['Tigrinya', 'التغرينية'],
+  Kinyarwanda: ['Kinyarwanda', 'الكينيارواندية'],
+  Twi: ['Twi', 'التوي'],
+  Éwé: ['Ewe', 'الإيوي'],
+  Kikongo: ['Kikongo', 'الكيكونغو'],
+  Luganda: ['Luganda', 'اللوغندية'],
+  Shona: ['Shona', 'الشونا'],
+  Chichewa: ['Chichewa', 'التشيتشيوا'],
+  Kabyle: ['Kabyle', 'القبائلية'],
+  'Arabe marocain': ['Moroccan Arabic', 'الدارجة المغربية'],
+  'Kit gratuit pour épiceries': ['Free kit for groceries', 'عدة مجانية للمتاجر'],
+  'ÉPICERIES & AFROSHOPS': ['GROCERIES & AFRO SHOPS', 'المتاجر الأفريقية'],
+  'Vos clients ne connaissent pas tous le même nom. Aidez-les à trouver.': [
+    'Your customers don’t all know the same name. Help them find it.',
+    'زبائنك لا يعرفون جميعًا الاسم نفسه. ساعدهم على إيجاده.',
+  ],
+  'Un client cherche du « ndolé », un autre de la « bitter leaf », un troisième du « njansang » ou de l’« akpi ». Collez ces étiquettes près des produits : en scannant le QR code, chacun voit la photo et les noms du produit dans plusieurs langues, avec leurs sources.':
+    [
+      'One customer asks for “ndolé”, another for “bitter leaf”, a third for “njansang” or “akpi”. Stick these labels next to the products: by scanning the QR code, everyone sees the photo and the product’s names in several languages, with their sources.',
+      'زبون يطلب «ندوليه»، وآخر «bitter leaf»، وثالث «نجانسانغ» أو «أكبي». ألصق هذه البطاقات قرب المنتجات: بمسح رمز QR يرى الجميع صورة المنتج وأسماءه بعدة لغات مع مصادرها.',
+    ],
+  Imprimez: ['Print', 'اطبع'],
+  'cette page sur du papier A4 (l’en-tête du site n’est pas imprimé).': [
+    'this page on A4 paper (the site header is not printed).',
+    'هذه الصفحة على ورق A4 (لا يُطبع رأس الموقع).',
+  ],
+  Découpez: ['Cut out', 'قص'],
+  'les étiquettes en suivant les pointillés.': [
+    'the labels along the dotted lines.',
+    'البطاقات على طول الخطوط المنقطة.',
+  ],
+  Collez: ['Stick', 'ألصق'],
+  'chaque étiquette près du produit et l’affiche à l’entrée ou à la caisse.': [
+    'each label next to its product and the poster at the entrance or the till.',
+    'كل بطاقة قرب منتجها والملصق عند المدخل أو الصندوق.',
+  ],
+  'Imprimer le kit ↗': ['Print the kit ↗', 'اطبع العدة ↗'],
+  'Demander des étiquettes pour mes produits': [
+    'Ask for labels for my products',
+    'اطلب بطاقات لمنتجاتي',
+  ],
+  'Gratuit, sans compte ni publicité. Les QR codes ouvrent les fiches publiques d’AfroAtlas ; aucune donnée du client n’est collectée par l’étiquette.':
+    [
+      'Free, with no account and no advertising. The QR codes open public AfroAtlas records; the label collects no customer data.',
+      'مجاني، دون حساب أو إعلانات. تفتح رموز QR صفحات أفرو أطلس العامة؛ لا تجمع البطاقة أي بيانات عن الزبون.',
+    ],
+  'Vous connaissez ce produit sous un autre nom ?': [
+    'Know this product by another name?',
+    'تعرف هذا المنتج باسم آخر؟',
+  ],
+  'Scannez : photo et noms du produit dans plusieurs langues.': [
+    'Scan: photo and names of the product in several languages.',
+    'امسح: صورة المنتج وأسماؤه بعدة لغات.',
+  ],
+  'AfroAtlas · Un produit, plusieurs noms.': [
+    'AfroAtlas · One product, many names.',
+    'أفرو أطلس · منتج واحد، أسماء كثيرة.',
+  ],
+  'Partager la carte en image ↗': ['Share the card as an image ↗', 'شارك البطاقة كصورة ↗'],
+  'Image partagée.': ['Image shared.', 'تمت مشاركة الصورة.'],
+  'Image enregistrée sur l’appareil.': ['Image saved on this device.', 'حُفظت الصورة على الجهاز.'],
+  'Partage de l’image indisponible sur cet appareil.': [
+    'Image sharing is not available on this device.',
+    'مشاركة الصورة غير متاحة على هذا الجهاز.',
+  ],
+  'Un produit, plusieurs noms.': ['One product, many names.', 'منتج واحد، أسماء كثيرة.'],
+  Accueil: ['Home', 'الرئيسية'],
+  'Appellations documentées avec langue, pays, région et source': [
+    'Documented names with language, country, region and source',
+    'تسميات موثقة مع اللغة والبلد والمنطقة والمصدر',
+  ],
+  'Montrez la photographie et précisez la forme recherchée. Ces libellés ne prouvent pas le nom utilisé par une boutique.':
+    [
+      'Show the photograph and specify the form you want. These labels do not prove the name a shop uses.',
+      'اعرض الصورة وحدد الشكل المطلوب. هذه التسميات لا تثبت الاسم الذي يستعمله المتجر.',
+    ],
+  'Aucune équivalence entre produit brut, séché, fumé ou moulu n’est présumée. Les mélanges et plats préparés nécessitent une fiche propre.':
+    [
+      'Raw, dried, smoked and ground products are never assumed to be equivalent. Mixtures and dishes need their own record.',
+      'لا يُفترض أي تكافؤ بين المنتج الخام والمجفف والمدخن والمطحون. تحتاج الخلطات والأطباق إلى صفحة خاصة بها.',
+    ],
+  'Aucune référence commerciale reliée par une preuve à cette fiche pour le moment.': [
+    'No commercial reference is linked to this record by evidence yet.',
+    'لا يوجد بعد مرجع تجاري مرتبط بهذه الصفحة بدليل.',
+  ],
+  'Consulter les références séparément ↗': [
+    'See the references separately ↗',
+    'اطلع على المراجع بشكل منفصل ↗',
+  ],
+  'CATÉGORIE VOISINE, PAS ÉQUIVALENCE': ['RELATED, NOT EQUIVALENT', 'فئة قريبة، لا تكافؤ'],
+  'À distinguer également.': ['Also tell these apart.', 'يجب التمييز بينها أيضًا.'],
+  'Dernier contrôle d’import :': ['Last import check:', 'آخر تحقق من الاستيراد:'],
+  '. Aucun examen culturel humain enregistré.': [
+    '. No human cultural review recorded yet.',
+    '. لم تُسجل بعد مراجعة ثقافية بشرية.',
+  ],
+  'Les alias linguistiques ne prouvent ni usage géographique, ni usage culinaire, ni présence en boutique. Pour un nom ambigu, consultez toutes les fiches candidates dans la recherche.':
+    [
+      'Language aliases prove neither geographic use, culinary use nor presence in shops. For an ambiguous name, check every candidate record in the search.',
+      'الأسماء اللغوية البديلة لا تثبت استعمالًا جغرافيًا ولا طهويًا ولا وجودًا في المتاجر. لاسم ملتبس، راجع كل الصفحات المرشحة في البحث.',
+    ],
+  'Explorer les contextes d’appellation :': ['Explore naming contexts:', 'استكشف سياقات التسمية:'],
+  'Les usages culinaires régionaux et les formes préparées ne sont pas encore documentés dans cet instantané.':
+    [
+      'Regional culinary uses and prepared forms are not documented in this snapshot yet.',
+      'لم توثق بعد الاستخدامات الطهوية الإقليمية والأشكال المحضرة في هذه النسخة.',
+    ],
+  'Complément documentaire ; pas la forme de boutique': [
+    'Documentary complement; not the shop form',
+    'صورة توثيقية مكملة؛ ليست الشكل المعروض في المتجر',
+  ],
+  'Consultez les contextes locaux ci-dessous : chaque usage est relié à sa propre source et à son périmètre.':
+    [
+      'See the local contexts below: each use is linked to its own source and scope.',
+      'راجع السياقات المحلية أدناه: كل استخدام مرتبط بمصدره ونطاقه.',
+    ],
+  'Filtrer ce contexte dans la bibliothèque ↗': [
+    'Filter this context in the library ↗',
+    'صفِّ هذا السياق في المكتبة ↗',
+  ],
+  'Proposer une appellation documentée ↗': ['Suggest a documented name ↗', 'اقترح تسمية موثقة ↗'],
+  'Navigation régionale non importée pour ce pays dans la V1. Vous pouvez proposer une source ouverte.':
+    [
+      'Regional navigation is not imported for this country yet. You can suggest an open source.',
+      'لم تُستورد بعد الملاحة الإقليمية لهذا البلد. يمكنك اقتراح مصدر مفتوح.',
+    ],
+  'Aucune appellation nationale documentée pour le moment. Les noms en français, anglais ou dans une autre langue ne sont pas attribués automatiquement à ce pays.':
+    [
+      'No national name is documented yet. Names in French, English or another language are not automatically attributed to this country.',
+      'لا توجد بعد تسمية وطنية موثقة. لا تُنسب الأسماء بالفرنسية أو الإنجليزية أو بلغة أخرى تلقائيًا إلى هذا البلد.',
+    ],
+  'Alias portugais dans la source': [
+    'Portuguese alias in the source',
+    'اسم برتغالي بديل في المصدر',
+  ],
+  'Nom portugais dans la source': ['Portuguese name in the source', 'الاسم البرتغالي في المصدر'],
+  'COMPRENDRE LES PRODUITS AFRICAINS': ['UNDERSTANDING AFRICAN PRODUCTS', 'فهم المنتجات الأفريقية'],
+  'Chaque nom reste lié à sa source et à son contexte. Une ressemblance d’appellation ne suffit pas à établir une équivalence.':
+    [
+      'Every name stays linked to its source and context. Similar names are not enough to establish an equivalence.',
+      'يبقى كل اسم مرتبطًا بمصدره وسياقه. تشابه التسميات لا يكفي لإثبات التكافؤ.',
+    ],
+  'Rechercher dans cette catégorie ↗': ['Search this category ↗', 'ابحث في هذه الفئة ↗'],
+  'Référence documentée ; disponibilité en boutique non vérifiée': [
+    'Documented reference; shop availability not checked',
+    'مرجع موثق؛ لم يُتحقق من توفره في المتاجر',
+  ],
+  'Quantité déclarée': ['Declared quantity', 'الكمية المعلنة'],
+  'Ingrédients déclarés': ['Declared ingredients', 'المكونات المعلنة'],
+  'Origine déclarée': ['Declared origin', 'المنشأ المعلن'],
+  'Fabrication déclarée': ['Declared manufacturing', 'التصنيع المعلن'],
+  'Pays / marchés de commercialisation déclarés': [
+    'Declared countries / markets of sale',
+    'بلدان / أسواق البيع المعلنة',
+  ],
+  'Non importée dans cet instantané': [
+    'Not imported in this snapshot',
+    'غير مستوردة في هذه النسخة',
+  ],
+  'Lien vérifié avec un ingrédient du catalogue': [
+    'Verified link with a catalogue ingredient',
+    'رابط متحقق منه مع مكوّن في الفهرس',
+  ],
+  'Instantané du': ['Snapshot of', 'نسخة بتاريخ'],
+  'Toutes les appellations et leurs sources ↓': [
+    'All names and their sources ↓',
+    'جميع التسميات ومصادرها ↓',
+  ],
+  'Effacer la recherche et les filtres': ['Clear search and filters', 'امسح البحث والمرشحات'],
+  'Essayez une autre orthographe ou un nom dans une autre langue. Nous n’affichons pas de produit au hasard : un nom proche n’est pas un équivalent.':
+    [
+      'Try another spelling or a name in another language. We never show a random product: a similar name is not an equivalent.',
+      'جرّب تهجئة أخرى أو اسمًا بلغة أخرى. لا نعرض منتجًا عشوائيًا: الاسم المشابه ليس مكافئًا.',
+    ],
 };
 export function translate(text: string, locale: Locale): string {
   if (locale === 'fr') return text;
+  // Keep the spaces around a fragment such as « fiche » in « 2 fiches documentées ».
+  const [, before, core, after] = text.match(/^(\s*)([\s\S]*?)(\s*)$/)!;
+  if (before || after) {
+    const translated = translateCore(core, locale);
+    return translated === core ? text : before + translated + after;
+  }
+  return translateCore(text, locale);
+}
+function translateCore(text: string, locale: Exclude<Locale, 'fr'>): string {
   const clean = text.replace(/\s+/g, ' ').trim(),
     entry = journeyUi[clean] || ui[clean];
   if (entry) return entry[locale === 'en' ? 0 : 1];

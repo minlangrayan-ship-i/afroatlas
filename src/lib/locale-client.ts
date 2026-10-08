@@ -1,4 +1,5 @@
 import { translate, type Locale } from './i18n';
+import { builtLocale, localizedPath } from './links';
 const originals = new WeakMap<Text, { original: string; last: string }>();
 const attributeOriginals = new WeakMap<Element, Map<string, string>>();
 let locale: Locale = 'fr',
@@ -19,7 +20,7 @@ function apply() {
     const previous = originals.get(text);
     const original = previous && previous.last === text.data ? previous.original : text.data;
     const translated = translate(original, locale);
-    const next = translated === original ? original : original.replace(original.trim(), translated);
+    const next = translated;
     originals.set(text, { original, last: next });
     if (text.data !== next) text.data = next;
   }
@@ -55,8 +56,8 @@ function apply() {
       url.pathname.startsWith(import.meta.env.BASE_URL) &&
       !url.pathname.match(/\.(json|webp|pdf|svg|png|jpg|mp4|vtt)$/)
     ) {
-      if (locale === 'fr') url.searchParams.delete('lang');
-      else url.searchParams.set('lang', locale);
+      url.searchParams.delete('lang');
+      url.pathname = localizedPath(url.pathname, locale);
       if (a.href !== url.href) a.href = url.href;
     }
   }
@@ -78,32 +79,49 @@ function schedule() {
   });
 }
 const observer = new MutationObserver(schedule);
+const built = builtLocale() as Locale;
+// Pages exist in every interface language, except the error page translated in place.
+const translatedRoutes = !document.querySelector('meta[name="afroatlas-untranslated"]');
+function remember(value: Locale) {
+  try {
+    localStorage.setItem('afroatlas:locale', value);
+  } catch {}
+}
+function navigate(value: Locale) {
+  const url = new URL(location.href);
+  url.searchParams.delete('lang');
+  url.pathname = localizedPath(url.pathname, value);
+  if (url.href !== location.href) location.replace(url.href);
+}
 function setLocale(value: string) {
   locale = ['fr', 'en', 'ar'].includes(value) ? (value as Locale) : 'fr';
+  remember(locale);
+  if (translatedRoutes && locale !== built) return navigate(locale);
   document.documentElement.lang = locale;
   document.documentElement.dir = locale === 'ar' ? 'rtl' : 'ltr';
-  try {
-    localStorage.setItem('afroatlas:locale', locale);
-  } catch {}
   const url = new URL(location.href);
-  if (locale === 'fr') url.searchParams.delete('lang');
+  if (locale === built) url.searchParams.delete('lang');
   else url.searchParams.set('lang', locale);
   history.replaceState({}, '', url);
   schedule();
   window.dispatchEvent(new CustomEvent('afroatlas-locale', { detail: locale }));
 }
 function start() {
-  let saved = 'fr';
+  let saved = '';
   try {
-    saved = localStorage.getItem('afroatlas:locale') || 'fr';
+    saved = localStorage.getItem('afroatlas:locale') || '';
   } catch {}
-  setLocale(new URLSearchParams(location.search).get('lang') || saved);
+  // An explicit ?lang= wins; otherwise a page opened from a link keeps its own language,
+  // except a French page for a visitor who chose English or Arabic before.
+  const requested = new URLSearchParams(location.search).get('lang');
+  setLocale(requested || (built === 'fr' && saved ? saved : built));
   document
     .querySelectorAll<HTMLButtonElement>('[data-locale]')
     .forEach((b) => b.addEventListener('click', () => setLocale(b.dataset.locale!)));
   window.addEventListener('popstate', () =>
-    setLocale(new URLSearchParams(location.search).get('lang') || 'fr'),
+    setLocale(new URLSearchParams(location.search).get('lang') || built),
   );
 }
-if (document.readyState === 'complete') start();
-else window.addEventListener('load', start, { once: true });
+locale = built;
+// Module scripts run once the document is parsed: redirect and accept clicks right away.
+start();

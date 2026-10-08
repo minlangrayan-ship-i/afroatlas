@@ -1,5 +1,5 @@
-import type { NameAssertion } from './schema';
-import { languageKey, nameLanguage } from './presentation';
+import type { NameAssertion, Product } from './schema';
+import { languageKey, nameLanguage, commonName } from './presentation';
 export type Destination = { country: string; region: string; language: string };
 export const emptyDestination: Destination = { country: '', region: '', language: '' };
 export function readDestination(search: string): Destination {
@@ -30,7 +30,21 @@ export function destinationNames(names: NameAssertion[], destination: Destinatio
       (!destination.language || nameLanguage(n) === languageKey(destination.language)),
   );
 }
-export function commonNames(names: NameAssertion[]) {
+export function commonNames(
+  names: NameAssertion[],
+  product?: Pick<Product, 'scientificName' | 'labelFr' | 'labelEn'>,
+) {
+  // With the product, prefer real common names (« okra ») to a Latin label filed as English.
+  if (product)
+    return (['fr', 'en', 'ar'] as const)
+      .map((language) =>
+        commonName(
+          product,
+          names.filter((n) => n.status !== 'candidate' && n.status !== 'rejected'),
+          language,
+        ),
+      )
+      .filter((n): n is NameAssertion => !!n);
   const seen = new Set<string>();
   return names
     .filter(

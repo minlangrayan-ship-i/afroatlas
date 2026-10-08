@@ -34,7 +34,8 @@ try {
           'script[src="https://static.cloudflareinsights.com/beacon.min.js"]',
         ).length,
         types: graph.map((g) => g['@type']),
-        hreflang: doc.querySelectorAll('link[hreflang]').length,
+        hreflang: doc.querySelectorAll('link[rel=alternate][hreflang]').length,
+        lang: doc.documentElement.lang,
         csp: doc.querySelector('meta[http-equiv="Content-Security-Policy"]')?.content,
       };
     }, html);
@@ -45,7 +46,8 @@ try {
     assert(!result.canonical.includes('?'));
     assert(result.ogImage?.startsWith(root));
     assert.equal(result.beacons, 1);
-    assert.equal(result.hreflang, 0);
+    // Each indexable page lists fr, en, ar and x-default; utility pages list none.
+    assert.equal(result.hreflang, result.robots.startsWith('noindex') ? 0 : 4, file + ' hreflang');
     assert(result.types.includes('WebSite'));
     assert(result.csp?.includes('object-src'));
     assert(!result.types.includes('Offer'));

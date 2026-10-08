@@ -16,7 +16,14 @@ import {
 } from '../../lib/catalogue';
 import { href } from '../../lib/links';
 import { categories, countries } from '../../data/countries';
-import { evidenceLabel, productChoice } from '../../lib/presentation';
+import {
+  evidenceLabel,
+  productChoice,
+  isBoilerplate,
+  glanceNames,
+  commonName,
+} from '../../lib/presentation';
+import { productMeta } from '../../lib/page-meta';
 export function getStaticPaths() {
   return products.map((product) => ({ params: { slug: product.slug }, props: { product } }));
 }
@@ -35,9 +42,11 @@ const rows = names.map((name) => {
     }),
   };
 });
-const french = names.find((n) => n.languageCode === 'fr'),
-  english = names.find((n) => n.languageCode === 'en'),
-  arabic = names.find((n) => n.languageCode === 'ar');
+const french = commonName(product, names, 'fr'),
+  english = commonName(product, names, 'en'),
+  arabic = commonName(product, names, 'ar');
+const glance = glanceNames(product, names);
+const methodNote = isBoilerplate(product.description);
 const contexts = catalogue.contexts.filter((c) => c.productId === product.id);
 const related = products.filter((p) =>
   catalogue.relations.some(
@@ -49,12 +58,27 @@ const references = commercial.references.filter((r) =>
   r.relations.some((rel) => rel.productId === product.id),
 );
 const category = categories.find((c) => c.id === product.categoryId)!;
-const title = `${product.labelFr} : noms, formes et usages documentés`;
-const seoDescription =
-  `${product.labelFr} : ${product.description} Retrouvez les appellations attestées, leurs langues, leurs zones d’usage et les sources.`.slice(
-    0,
-    190,
-  );
+const alsoKnown =
+  english && !product.labelFr.toLowerCase().includes(english.name.toLowerCase())
+    ? ` (${english.name})`
+    : '';
+const title = `${product.labelFr}${alsoKnown} : ses noms selon les langues et les pays`;
+const glanceText = glance
+  .slice(0, 4)
+  .map((n) => (n.language === 'Nom local' ? n.name : `${n.name} (${n.language.toLowerCase()})`))
+  .join(', ');
+const seoDescription = (
+  `${product.labelFr}${product.scientificName ? ` (${product.scientificName})` : ''}` +
+  (glanceText ? ` : ${glanceText}. ` : '. ') +
+  'Photo, noms par langue et par pays, sources.'
+).slice(0, 220);
+const localized = productMeta({
+  labelFr: product.labelFr,
+  scientificName: product.scientificName,
+  english: english?.name,
+  arabic: arabic?.name,
+  glance,
+});
 const breadcrumbs = [
   { name: 'Accueil', path: '' },
   { name: category.label, path: `categories/${category.id}/` },
@@ -80,6 +104,7 @@ const contextProofs = Object.fromEntries(
 <Layout
   title={title}
   description={seoDescription}
+  localized={localized}
   image={image.role === 'primary' ? image.localPath : undefined}
   breadcrumbs={breadcrumbs}
   structuredData={structuredData}
@@ -122,15 +147,41 @@ const contextProofs = Object.fromEntries(
         data-product-label
         data-no-translate
         data-fr={product.labelFr}
-        data-en={english?.name || ''}
+        data-en={cardProducts.find((p) => p.id === product.id)?.labelEn || english?.name || ''}
         data-ar={arabic?.name || ''}
       >
         {product.labelFr}
       </h1>
       <p class="scientific">{product.scientificName}</p>
-      <p data-no-translate dir="auto">
-        {product.description}
-      </p>
+      {!methodNote && (
+        <p class="product-lead" data-no-translate dir="auto">
+          {product.description}
+        </p>
+      )}
+      {glance.length > 0 && (
+        <div class="names-glance">
+          <h2>Aussi appelé</h2>
+          <ul>
+            {glance.map((n) => (
+              <li>
+                <strong data-no-translate dir="auto" lang={n.languageCode || undefined}>
+                  {n.name}
+                </strong>
+                <small>
+                  {n.language}
+                  {n.countryIds.length > 0 &&
+                    ` · ${n.countryIds
+                      .map((id) => countries.find((c) => c.ISO3 === id)?.nameFr || id)
+                      .join(', ')}`}
+                </small>
+              </li>
+            ))}
+          </ul>
+          <a class="text-link" href="#appellations">
+            Toutes les appellations et leurs sources ↓
+          </a>
+        </div>
+      )}
       <div class="summary-facts">
         <span>{productChoice(product).title}</span>
         <span>{product.formTypes.join(', ')}</span>
@@ -306,6 +357,11 @@ const contextProofs = Object.fromEntries(
   <section class="container documentary-sections">
     <details class="documentary-detail source-section">
       <summary>Sources, crédits et limites</summary>
+      {methodNote && (
+        <p data-no-translate dir="auto">
+          {product.description}
+        </p>
+      )}
       <p>{product.editorialNote}</p>
       <p class="verification-date">
         Dernier contrôle d’import : <time datetime={product.verifiedAt}>{product.verifiedAt}</time>.
@@ -342,4 +398,13 @@ const contextProofs = Object.fromEntries(
       </a>
     </details>
   </section>
+  <script>
+    // Opening a folded section from a link such as « Toutes les appellations ↓ ».
+    const openTarget = () => {
+      const target = location.hash && document.getElementById(location.hash.slice(1));
+      if (target instanceof HTMLDetailsElement) target.open = true;
+    };
+    addEventListener('hashchange', openTarget);
+    openTarget();
+  </script>
 </Layout>

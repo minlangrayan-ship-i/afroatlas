@@ -67,6 +67,7 @@ function Regions({
         <div className="region-list" role="group" aria-label="Liste équivalente des subdivisions">
           {sortedRegions(regions, locale).map((r) => (
             <button
+              data-sort
               disabled={!ready}
               key={r.id}
               className={r.id === selected ? 'selected' : ''}

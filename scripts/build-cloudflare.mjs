@@ -5,6 +5,7 @@ const scripts = [
   'scripts/prepare-data.mjs',
   'scripts/validate.ts',
   'node_modules/astro/bin/astro.mjs',
+  'scripts/localize-build.ts',
   'scripts/prepare-cloudflare.mjs',
 ];
 for (const file of scripts) {

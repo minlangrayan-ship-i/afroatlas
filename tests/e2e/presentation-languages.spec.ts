@@ -15,7 +15,7 @@ for (const locale of ['en', 'ar']) {
       if (new URL(request.url()).pathname.endsWith('.mp4')) requests.push(request.url());
     });
     page.on('pageerror', (error) => errors.push(error.message));
-    await page.goto(base + `presentation/?lang=${locale}`);
+    await page.goto(base + `${locale}/presentation/`);
     const video = page.locator('video');
     await expect(page.locator('html')).toHaveAttribute('lang', locale);
     await expect(page.locator('html')).toHaveAttribute('dir', locale === 'ar' ? 'rtl' : 'ltr');
@@ -62,7 +62,9 @@ for (const locale of ['en', 'ar']) {
 test('changing languages stops the previous video, updates links and restores the French track', async ({
   page,
 }) => {
+  // Former ?lang= links lead to the generated English page.
   await page.goto(base + 'presentation/?lang=en');
+  await expect(page).toHaveURL(/\/en\/presentation\/$/);
   const video = page.locator('video');
   await video.click();
   await video.evaluate(async (element: HTMLVideoElement) => {
@@ -72,6 +74,7 @@ test('changing languages stops the previous video, updates links and restores th
     .poll(() => video.evaluate((element: HTMLVideoElement) => element.currentTime))
     .toBeGreaterThan(0);
   await page.getByRole('button', { name: 'AR', exact: true }).click();
+  await expect(page).toHaveURL(/\/ar\/presentation\/$/);
   await expect(page.locator('video source')).toHaveAttribute('src', /presentation-ar\.mp4$/);
   await expect(video).toHaveAttribute('aria-label', 'فيديو تقديم أفروأطلس');
   await expect.poll(() => video.evaluate((element: HTMLVideoElement) => element.paused)).toBe(true);
@@ -84,6 +87,7 @@ test('changing languages stops the previous video, updates links and restores th
     /presentation-ar\.mp4$/,
   );
   await page.getByRole('button', { name: 'FR', exact: true }).click();
+  await expect(page).toHaveURL(/\/afroatlas\/presentation\/$/);
   await expect(page.locator('video source')).toHaveAttribute('src', /presentation\.mp4$/);
   await expect(page.locator('video track')).toHaveAttribute('srclang', 'fr');
   await expect(video).toHaveAttribute('poster', /presentation-poster\.webp$/);
@@ -100,21 +104,25 @@ test('home preview follows the saved language without downloading videos', async
   });
   await page.goto(base);
   await page.getByRole('button', { name: 'EN', exact: true }).click();
+  await expect(page).toHaveURL(/\/en\/$/);
   await expect(page.locator('.video-preview img')).toHaveAttribute(
     'src',
     /presentation-en-poster\.webp$/,
   );
   await page.getByRole('button', { name: 'AR', exact: true }).click();
+  await expect(page).toHaveURL(/\/ar\/$/);
   await expect(page.locator('.video-preview img')).toHaveAttribute(
     'src',
     /presentation-ar-poster\.webp$/,
   );
+  // The French home page sends a visitor who chose Arabic to the Arabic page.
   await page.goto(base);
+  await expect(page).toHaveURL(/\/ar\/$/);
   await expect(page.locator('.video-preview img')).toHaveAttribute(
     'src',
     /presentation-ar-poster\.webp$/,
   );
-  await expect(page.locator('.video-preview')).toHaveAttribute('href', /presentation\/\?lang=ar$/);
+  await expect(page.locator('.video-preview')).toHaveAttribute('href', /\/ar\/presentation\/$/);
   expect(requests).toEqual([]);
   await page.locator('.video-preview').click();
   await expect(page.locator('video source')).toHaveAttribute('src', /presentation-ar\.mp4$/);

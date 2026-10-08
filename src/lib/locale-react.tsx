@@ -1,8 +1,10 @@
 import { Children, cloneElement, isValidElement, useEffect, useState, type ReactNode } from 'react';
 import { translate, type Locale } from './i18n';
+import { builtLocale, localizedPath } from './links';
 
 export function useLocale() {
-  const [locale, setLocale] = useState<Locale>('fr');
+  // Start in the language of the generated HTML so hydration matches the server markup.
+  const [locale, setLocale] = useState<Locale>(() => builtLocale() as Locale);
   useEffect(() => {
     const update = () => setLocale((document.documentElement.lang as Locale) || 'fr');
     update();
@@ -53,9 +55,8 @@ function localize(node: ReactNode, locale: Locale): ReactNode {
     !/\.(webp|svg|json|pdf|png|jpg|mp4|vtt)(\?|$)/.test(props.href)
   ) {
     const url = new URL(props.href, 'https://afroatlas.invalid');
-    if (locale !== 'fr') url.searchParams.set('lang', locale);
-    else url.searchParams.delete('lang');
-    patch.href = url.pathname + url.search + url.hash;
+    url.searchParams.delete('lang');
+    patch.href = localizedPath(url.pathname, locale) + url.search + url.hash;
   }
   return cloneElement(node, patch);
 }

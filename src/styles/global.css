@@ -999,6 +999,50 @@ textarea::placeholder {
   font-size: 14px;
   color: var(--muted);
 }
+.product-summary > p.product-lead {
+  font-size: 16px;
+  color: var(--ink);
+}
+.names-glance {
+  margin: 22px 0 6px;
+  padding: 16px 18px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.names-glance h2 {
+  font: 700 11px var(--font-sans);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin: 0 0 10px;
+}
+.names-glance ul {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.names-glance li {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: var(--pale);
+}
+.names-glance strong {
+  font: 600 16px var(--font-serif);
+}
+.names-glance small {
+  font-size: 11px;
+  color: var(--muted);
+}
+.empty-missing {
+  font-size: 15px;
+  color: var(--ink);
+}
 .summary-facts {
   display: flex;
   flex-wrap: wrap;
@@ -2664,5 +2708,114 @@ astro-island:has([data-replaced-photo]) + .photo-credit {
   .product-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 22px #193d3010;
+  }
+}
+.grocery-intro {
+  padding-block: 48px 24px;
+  max-width: 860px;
+}
+.grocery-intro h1 {
+  font-size: clamp(32px, 5vw, 48px);
+  margin-bottom: 16px;
+}
+.grocery-steps {
+  margin: 20px 0;
+  padding-inline-start: 22px;
+  display: grid;
+  gap: 6px;
+}
+.grocery-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 12px;
+}
+.grocery-sheet {
+  padding-bottom: 48px;
+}
+.grocery-poster {
+  text-align: center;
+  border: 2px solid var(--green);
+  border-radius: 8px;
+  padding: 28px 20px;
+  margin-bottom: 24px;
+  background: var(--white);
+  break-after: page;
+}
+.grocery-poster h2 {
+  font-size: clamp(26px, 4vw, 40px);
+  margin-bottom: 8px;
+}
+.grocery-poster .grocery-qr {
+  width: 260px;
+  margin: 16px auto;
+}
+.grocery-qr svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.grocery-labels {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0;
+}
+.grocery-label {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  grid-template-areas: 'photo text' 'qr qr' 'brand brand';
+  gap: 8px 12px;
+  padding: 14px;
+  border: 1px dashed var(--muted);
+  background: var(--white);
+  break-inside: avoid;
+}
+.grocery-label img {
+  grid-area: photo;
+  width: 96px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.grocery-label > div:first-of-type {
+  grid-area: text;
+}
+.grocery-label h3 {
+  font-size: 20px;
+  margin: 0 0 4px;
+}
+.grocery-label p {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
+}
+.grocery-label .grocery-qr {
+  grid-area: qr;
+  width: 132px;
+  margin: 0 auto;
+}
+.grocery-label small {
+  grid-area: brand;
+  text-align: center;
+  font-size: 11px;
+  color: var(--muted);
+}
+@media print {
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .no-print,
+  .ad-slot {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+  .grocery-labels {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grocery-label,
+  .grocery-poster {
+    background: #fff;
   }
 }

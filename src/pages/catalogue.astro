@@ -1,7 +1,7 @@
 ---
 import Layout from '../components/Layout.astro';
 import Catalog from '../components/Catalog';
-import { cardProducts, commercial } from '../lib/catalogue';
+import { searchCards, commercial } from '../lib/catalogue';
 const linkedIds = commercial.references.flatMap((r) =>
   r.relations.map((relation) => relation.productId),
 );
@@ -16,6 +16,6 @@ const linkedIds = commercial.references.flatMap((r) =>
     </p>
   </div>
   <section class="container page-body">
-    <Catalog products={cardProducts} linkedIds={linkedIds} client:load />
+    <Catalog products={searchCards} linkedIds={linkedIds} client:load />
   </section>
 </Layout>

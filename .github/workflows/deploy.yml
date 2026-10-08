@@ -26,11 +26,16 @@ jobs:
       - run: npm run build
         env:
           ASTRO_TELEMETRY_DISABLED: '1'
+          # Custom domain, e.g. https://afroatlas.org/ (empty: the github.io project URL).
+          SITE_URL: ${{ vars.SITE_URL }}
           PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
           PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
           PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ vars.PUBLIC_GOOGLE_SITE_VERIFICATION }}
           PUBLIC_USAGE_METRICS_ENABLED: ${{ vars.PUBLIC_USAGE_METRICS_ENABLED }}
       - run: npm run check:publication
+      - run: node scripts/check-output.mjs
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request' && vars.HOSTING_PROVIDER != 'cloudflare'
         with:

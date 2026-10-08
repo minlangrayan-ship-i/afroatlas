@@ -154,7 +154,7 @@ function Catalog({
             >
               <option value="">Toutes les catégories</option>
               {sortLabels(categories, (c) => c.label, locale).map((c) => (
-                <option value={c.id} key={c.id}>
+                <option data-sort value={c.id} key={c.id}>
                   {c.label}
                 </option>
               ))}
@@ -171,7 +171,7 @@ function Catalog({
               <option value="">Tous les contextes</option>
               <optgroup label="Pays africains">
                 {sortLabels(countries, (c) => c.nameFr, locale).map((c) => (
-                  <option key={c.ISO3} value={c.ISO3}>
+                  <option data-sort key={c.ISO3} value={c.ISO3}>
                     {c.nameFr}
                   </option>
                 ))}
@@ -185,7 +185,7 @@ function Catalog({
                 ))}
               <optgroup label="Contextes européens">
                 {sortLabels(europeanContexts, (c) => c.nameFr, locale).map((c) => (
-                  <option key={c.ISO3} value={c.ISO3}>
+                  <option data-sort key={c.ISO3} value={c.ISO3}>
                     {c.nameFr}
                   </option>
                 ))}
@@ -205,7 +205,7 @@ function Catalog({
                 regions.filter((r) => !filters.country || r.countryISO3 === filters.country),
                 locale,
               ).map((r) => (
-                <option key={r.id} value={r.id}>
+                <option data-sort key={r.id} value={r.id}>
                   {regionLabel(r)}
                 </option>
               ))}
@@ -230,7 +230,7 @@ function Catalog({
             >
               <option value="">Toutes les langues</option>
               {languages.map((lang) => (
-                <option key={lang.id} value={lang.id}>
+                <option data-sort key={lang.id} value={lang.id}>
                   {lang.label}
                 </option>
               ))}
@@ -250,7 +250,7 @@ function Catalog({
                 (form) => form,
                 locale,
               ).map((form) => (
-                <option key={form} value={form}>
+                <option data-sort key={form} value={form}>
                   {form}
                 </option>
               ))}
@@ -306,14 +306,34 @@ function Catalog({
                 ? 'Appellation signalée oralement, identification à vérifier. Une recette et la communauté concernée sont nécessaires ; aucune espèce n’est attribuée.'
                 : filters.country || filters.region
                   ? 'Aucune appellation régionale ou nationale documentée pour ce contexte dans cet instantané. Les noms linguistiques ne sont pas attribués automatiquement à un pays.'
-                  : 'Essayez une autre orthographe, un nom scientifique ou retirez un filtre. Un produit proche n’est pas présenté comme équivalent.'}
+                  : 'Essayez une autre orthographe ou un nom dans une autre langue. Nous n’affichons pas de produit au hasard : un nom proche n’est pas un équivalent.'}
             </p>
-            <button className="button" onClick={() => change(emptyFilters)}>
-              Effacer les filtres
+            {!favorites && filters.q.trim() && !filters.country && !filters.region && (
+              <p className="empty-missing">
+                « <bdi data-no-translate>{filters.q.trim()}</bdi> » n’est pas encore dans la
+                bibliothèque. Vous le connaissez ? Proposez-le : chaque proposition est examinée
+                avant publication.
+              </p>
+            )}
+            {!favorites && filters.q.trim() && (
+              <a
+                className="button"
+                href={href(`contribuer/?missing=${encodeURIComponent(filters.q.trim())}`)}
+              >
+                Proposer ce produit
+              </a>
+            )}
+            <button
+              className={!favorites && filters.q.trim() ? 'button secondary' : 'button'}
+              onClick={() => change(emptyFilters)}
+            >
+              Effacer la recherche et les filtres
             </button>
-            <a className="button secondary" href={href(favorites ? 'catalogue/' : 'contribuer/')}>
-              {favorites ? 'Explorer la bibliothèque' : 'Proposer une appellation'}
-            </a>
+            {(favorites || !filters.q.trim()) && (
+              <a className="button secondary" href={href(favorites ? 'catalogue/' : 'contribuer/')}>
+                {favorites ? 'Explorer la bibliothèque' : 'Proposer une appellation'}
+              </a>
+            )}
           </div>
         ) : (
           <div className="product-grid">
