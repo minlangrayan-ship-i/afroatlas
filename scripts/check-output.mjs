@@ -9,14 +9,19 @@ async function allFiles(directory) {
   }
   return output;
 }
+const base = new URL(
+  process.env.SITE_URL || 'https://minlangrayan-ship-i.github.io/afroatlas/',
+).pathname.replace(/\/?$/, '/');
+const escaped = base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const files = await allFiles('dist');
 let count = 0;
 for (const file of files.filter((f) => f.endsWith('.html'))) {
   const content = await readFile(file, 'utf8');
   count++;
-  for (const match of content.matchAll(/(?:href|src)="(\/afroatlas\/[^"#?]*)/g)) {
+  for (const match of content.matchAll(new RegExp(`(?:href|src)="(${escaped}[^"#?]*)`, 'g'))) {
     const url = match[1];
-    const local = path.join('dist', decodeURIComponent(url.slice('/afroatlas/'.length)));
+    if (url.startsWith('//')) continue;
+    const local = path.join('dist', decodeURIComponent(url.slice(base.length)));
     try {
       await access(url.endsWith('/') ? path.join(local, 'index.html') : local);
     } catch {
@@ -25,5 +30,5 @@ for (const file of files.filter((f) => f.endsWith('.html'))) {
   }
 }
 console.log(
-  `Checked local href/src paths in ${count} generated HTML pages, all valid under /afroatlas/.`,
+  `Checked local href/src paths in ${count} generated HTML pages, all valid under ${base}.`,
 );

@@ -220,7 +220,7 @@ const normalizeName = (text: string) =>
     .trim();
 /** A common name in the given language, never the Latin binomial or a former Latin name. */
 export function commonName(
-  product: Pick<Product, 'scientificName'>,
+  product: Pick<Product, 'scientificName'> & { labelFr?: string; labelEn?: string | null },
   names: NameAssertion[],
   language: string,
 ) {
@@ -233,8 +233,12 @@ export function commonName(
       n.name.toLowerCase() !== latin &&
       !latinSynonym(product, n.name),
   );
-  // Prefer the name also used in other languages (« okra ») over a rarer synonym.
+  const label = normalizeName(
+    (language === 'fr' ? product.labelFr : language === 'en' ? product.labelEn : '') || '',
+  );
+  // The record label first, then the name also used in other languages (« okra »).
   const shared = (n: NameAssertion) =>
+    (normalizeName(n.name) === label ? 100 : 0) +
     names.filter((other) => normalizeName(other.name) === normalizeName(n.name)).length;
   return (
     [...candidates]

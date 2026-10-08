@@ -1,8 +1,8 @@
 {
   "checkedAt": "2026-10-08",
-  "htmlPages": 428,
-  "indexablePages": 363,
-  "sitemapUrls": 363,
+  "htmlPages": 431,
+  "indexablePages": 366,
+  "sitemapUrls": 366,
   "uniqueTitles": true,
   "uniqueDescriptions": true,
   "oneH1AndBeaconPerPage": true,
@@ -218,6 +218,23 @@
         "WebSite"
       ],
       "hreflang": 0,
+      "lang": "ar"
+    },
+    {
+      "file": "dist/ar/epiceries/index.html",
+      "title": "عدة للمتاجر الأفريقية — AfroAtlas",
+      "h1": [
+        "زبائنك لا يعرفون جميعًا الاسم نفسه. ساعدهم على إيجاده."
+      ],
+      "description": "رموز QR قابلة للطباعة تساعد الزبائن على إيجاد المنتج بالاسم الذي يعرفونه، مجانًا للمتاجر.",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/ar/epiceries/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "beacons": 1,
+      "types": [
+        "WebSite"
+      ],
+      "hreflang": 4,
       "lang": "ar"
     },
     {
@@ -3053,6 +3070,23 @@
       "lang": "en"
     },
     {
+      "file": "dist/en/epiceries/index.html",
+      "title": "Kit for African groceries — AfroAtlas",
+      "h1": [
+        "Your customers don’t all know the same name. Help them find it."
+      ],
+      "description": "Printable QR codes that help customers find a product by the name they know, free for African groceries.",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/epiceries/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "beacons": 1,
+      "types": [
+        "WebSite"
+      ],
+      "hreflang": 4,
+      "lang": "en"
+    },
+    {
       "file": "dist/en/explorer/index.html",
       "title": "Explore African countries — AfroAtlas",
       "h1": [
@@ -3644,7 +3678,7 @@
       "file": "dist/en/produits/ail/index.html",
       "title": "Hardneck garlic (Ail): names across languages and countries — AfroAtlas",
       "h1": [
-        "hardneck garlic"
+        "Hardneck garlic"
       ],
       "description": "Hardneck garlic (Allium sativum): laac (wolof), Tafarnuwa (hausa), Allium sativun (hausa), Kitunguu saumu (swahili). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/ail/",
@@ -3663,7 +3697,7 @@
       "file": "dist/en/produits/aloe-vera/index.html",
       "title": "Aloe vera — feuille: names across languages and countries — feuille : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Aloe vera"
       ],
       "description": "Aloe vera — feuille (Aloe vera): صبر حقيقي (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/aloe-vera/",
@@ -3682,7 +3716,7 @@
       "file": "dist/en/produits/amarante/index.html",
       "title": "Amaranth (Amarante (Amaranthus cruentus)): names across languages and countries — AfroAtlas",
       "h1": [
-        "amaranth"
+        "Amaranth"
       ],
       "description": "Amaranth (Amaranthus cruentus): قطيفة دموية (arabic), amaranth (english), blood amaranth (english), Amarante Rouge (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/amarante/",
@@ -3701,7 +3735,7 @@
       "file": "dist/en/produits/amarantes-feuilles/index.html",
       "title": "Amarantes — feuilles alimentaires: names across languages and countries — feuilles alimentaires : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Amaranth leaves"
       ],
       "description": "Amarantes — feuilles alimentaires (Amaranthus spp.): Terere (kikuyu), Mchicha (swahili), Folong. Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/amarantes-feuilles/",
@@ -3720,7 +3754,7 @@
       "file": "dist/en/produits/arachide/index.html",
       "title": "Arachide — graines: names across languages and countries — graines : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Groundnut"
       ],
       "description": "Arachide — graines (Arachis hypogaea): Arachide — graines. Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/arachide/",
@@ -3758,7 +3792,7 @@
       "file": "dist/en/produits/aubergine-africaine/index.html",
       "title": "Aubergine africaine: names across languages and countries — AfroAtlas",
       "h1": [
-        "English name not documented"
+        "Solanum aethiopicum"
       ],
       "description": "Aubergine africaine (Solanum aethiopicum): Gauta (hausa), Nyanya chungu (swahili), حدق أثيوبي (arabic), باذنجان قوطه (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/aubergine-africaine/",
@@ -3777,7 +3811,7 @@
       "file": "dist/en/produits/aubergine-gboma/index.html",
       "title": "Aubergine gboma: names across languages and countries — AfroAtlas",
       "h1": [
-        "English name not documented"
+        "Solanum macrocarpon"
       ],
       "description": "Aubergine gboma (Solanum macrocarpon): باذنجان إفريقي (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/aubergine-gboma/",
@@ -3815,7 +3849,7 @@
       "file": "dist/en/produits/baobab/index.html",
       "title": "Common baobab (Baobab — poudre de feuilles): names across languages and countries — poudre de feuilles (common baobab) : ses noms selon les langues et les pays",
       "h1": [
-        "common baobab"
+        "Common baobab"
       ],
       "description": "Common baobab (Adansonia digitata): Nsirasun (bambara), Sìra (bambara), oroupounnà, تبلدي إصبعي (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/baobab/",
@@ -3891,7 +3925,7 @@
       "file": "dist/en/produits/bissap-feuilles/index.html",
       "title": "Roselle (Foléré / oseille de Guinée — feuilles alimentaires): names across languages and countries — feuilles alimentaires (roselle) : ses noms selon les langues et les pays",
       "h1": [
-        "roselle"
+        "Roselle"
       ],
       "description": "Roselle (Hibiscus sabdariffa): Foléré, كركديه (arabic), الكركديه (arabic), roselle (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/bissap-feuilles/",
@@ -3910,7 +3944,7 @@
       "file": "dist/en/produits/cardamome/index.html",
       "title": "Cardamom (Cardamome verte): names across languages and countries — AfroAtlas",
       "h1": [
-        "cardamom"
+        "Cardamom"
       ],
       "description": "Cardamom (Elettaria cardamomum): هال (arabic), الهيل (arabic), cardamom (english), Cardamome aromatique (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/cardamome/",
@@ -3948,7 +3982,7 @@
       "file": "dist/en/produits/carpe-commune/index.html",
       "title": "Common carp (Carpe commune): names across languages and countries — AfroAtlas",
       "h1": [
-        "common carp"
+        "Common carp"
       ],
       "description": "Common carp (Cyprinus carpio): carp, common carp (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/carpe-commune/",
@@ -3986,7 +4020,7 @@
       "file": "dist/en/produits/clou-girofle/index.html",
       "title": "Clove (Giroflier / clou de girofle): names across languages and countries — AfroAtlas",
       "h1": [
-        "clove"
+        "Clove"
       ],
       "description": "Clove (Syzygium aromaticum): Kànnáfùrù (yoruba), Kaninfari (hausa), Mkarafuu (swahili), ቅርንፉድ (amharic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/clou-girofle/",
@@ -4022,7 +4056,7 @@
       "file": "dist/en/produits/concombre/index.html",
       "title": "Cucumber (Concombre): names across languages and countries — AfroAtlas",
       "h1": [
-        "cucumber"
+        "Cucumber"
       ],
       "description": "Cucumber (Cucumis sativus): kokombar (wolof), Mtango (swahili), ኪያር (amharic), kitsaotsao (malagasy). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/concombre/",
@@ -4060,7 +4094,7 @@
       "file": "dist/en/produits/coriandre/index.html",
       "title": "Coriander (Coriandre): names across languages and countries — AfroAtlas",
       "h1": [
-        "coriander"
+        "Coriander"
       ],
       "description": "Coriander (Coriandrum sativum): ድምብላል (amharic), Koriana (malagasy), Kasbour, كزبرة (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/coriandre/",
@@ -4098,7 +4132,7 @@
       "file": "dist/en/produits/courge-mosquee/index.html",
       "title": "Courge musquée: names across languages and countries — AfroAtlas",
       "h1": [
-        "English name not documented"
+        "Cucurbita moschata"
       ],
       "description": "Courge musquée (Cucurbita moschata): قرع مسكي (arabic), Giraumon (french), Sucrine (french), Abóbora-cheirosa (portuguese). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/courge-mosquee/",
@@ -4117,7 +4151,7 @@
       "file": "dist/en/produits/cumin/index.html",
       "title": "Cumin (Cumin — graines): names across languages and countries — graines : ses noms selon les langues et les pays",
       "h1": [
-        "cumin"
+        "Cumin"
       ],
       "description": "Cumin (Cuminum cyminum): كمون (arabic), الكمون (arabic), cumin plant (english), Roman caraway (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/cumin/",
@@ -4155,7 +4189,7 @@
       "file": "dist/en/produits/epinard/index.html",
       "title": "Spinach (Épinard): names across languages and countries — AfroAtlas",
       "h1": [
-        "spinach"
+        "Spinach"
       ],
       "description": "Spinach (Spinacia oleracea): ቆስጣ (amharic), Epinara (malagasy), سبانخ (arabic), السبانخ (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/epinard/",
@@ -4174,7 +4208,7 @@
       "file": "dist/en/produits/eru/index.html",
       "title": "Eru (Eru — feuilles de Gnetum): names across languages and countries — feuilles de Gnetum : ses noms selon les langues et les pays",
       "h1": [
-        "eru"
+        "Eru"
       ],
       "description": "Eru (Gnetum africanum): Okok (fang), Nkumu, eru, جنتوم أفريقي (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/eru/",
@@ -4212,7 +4246,7 @@
       "file": "dist/en/produits/fenugrec/index.html",
       "title": "Fenugreek (Fenugrec): names across languages and countries — AfroAtlas",
       "h1": [
-        "fenugreek"
+        "Fenugreek"
       ],
       "description": "Fenugreek (Trigonella foenum-graecum): Fenugreek (hausa), ኣብሽ (amharic), Helba, حلبة (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/fenugrec/",
@@ -4250,7 +4284,7 @@
       "file": "dist/en/produits/gingembre/index.html",
       "title": "Ginger (Gingembre): names across languages and countries — AfroAtlas",
       "h1": [
-        "ginger"
+        "Ginger"
       ],
       "description": "Ginger (Zingiber officinale): jinjeer (wolof), Ata ilẹ̀ (yoruba), Citta (hausa), Mtangawizi (swahili). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/gingembre/",
@@ -4269,7 +4303,7 @@
       "file": "dist/en/produits/gombo/index.html",
       "title": "Okra (Gombo): names across languages and countries — AfroAtlas",
       "h1": [
-        "okra"
+        "Okra"
       ],
       "description": "Okra (Abelmoschus esculentus): Ila (yoruba), Kuɓewa (hausa), Mbamia (swahili), ባሚያ (amharic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/gombo/",
@@ -4288,7 +4322,7 @@
       "file": "dist/en/produits/gombo-poudre/index.html",
       "title": "Okra (Gombo — poudre de fruits séchés): names across languages and countries — poudre de fruits séchés (okra) : ses noms selon les langues et les pays",
       "h1": [
-        "okra"
+        "Okra"
       ],
       "description": "Okra (Abelmoschus esculentus): gangadjou, بامية (arabic), باميا (arabic), okra plant (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/gombo-poudre/",
@@ -4326,7 +4360,7 @@
       "file": "dist/en/produits/igname-alata/index.html",
       "title": "Igname ailée — tubercule: names across languages and countries — tubercule : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Water yam"
       ],
       "description": "Igname ailée — tubercule (Dioscorea alata): Igname ailée — tubercule. Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/igname-alata/",
@@ -4364,7 +4398,7 @@
       "file": "dist/en/produits/irvingia-plante/index.html",
       "title": "Bush mango (Irvingia — mangue sauvage): names across languages and countries — mangue sauvage (bush mango) : ses noms selon les langues et les pays",
       "h1": [
-        "bush mango"
+        "Bush mango"
       ],
       "description": "Bush mango (Irvingia gabonensis): avia (bakoko), ndoka (bakoko), etou (bakossi), bwiwa (bakwéri). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/irvingia-plante/",
@@ -4421,7 +4455,7 @@
       "file": "dist/en/produits/laitue/index.html",
       "title": "Lettuce (Laitue): names across languages and countries — AfroAtlas",
       "h1": [
-        "lettuce"
+        "Lettuce"
       ],
       "description": "Lettuce (Lactuca sativa): ሰላጣ (amharic), Salady (malagasy), خس (arabic), الخس (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/laitue/",
@@ -4440,7 +4474,7 @@
       "file": "dist/en/produits/macabo/index.html",
       "title": "Macabo — cormes de Xanthosoma: names across languages and countries — cormes de Xanthosoma : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Tannia"
       ],
       "description": "Macabo — cormes de Xanthosoma (Xanthosoma sagittifolium): Macabo (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/macabo/",
@@ -4459,7 +4493,7 @@
       "file": "dist/en/produits/mais/index.html",
       "title": "Maïs — grains: names across languages and countries — grains : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Maize"
       ],
       "description": "Maïs — grains (Zea mays): Muhindi (swahili). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/mais/",
@@ -4497,7 +4531,7 @@
       "file": "dist/en/produits/managu/index.html",
       "title": "Managu — morelles alimentaires: names across languages and countries — morelles alimentaires : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "African nightshade"
       ],
       "description": "Managu — morelles alimentaires (Solanum spp.): Managu (kikuyu), Osuga (luo), Mnavu (swahili). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/managu/",
@@ -4535,7 +4569,7 @@
       "file": "dist/en/produits/maniguette/index.html",
       "title": "Maniguette — grains de paradis: names across languages and countries — grains de paradis : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Melegueta pepper"
       ],
       "description": "Maniguette — grains de paradis (Aframomum melegueta): Maniguette (french), Poivre de Guinée (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/maniguette/",
@@ -4554,7 +4588,7 @@
       "file": "dist/en/produits/manioc/index.html",
       "title": "Cassava (Manioc): names across languages and countries — AfroAtlas",
       "h1": [
-        "cassava"
+        "Cassava"
       ],
       "description": "Cassava (Manihot esculenta): Ñambi (wolof), Ẹ̀gẹ́ (yoruba), Cassava (yoruba), Rogo (hausa). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/manioc/",
@@ -4573,7 +4607,7 @@
       "file": "dist/en/produits/manioc-feuilles/index.html",
       "title": "Manioc — feuilles alimentaires: names across languages and countries — feuilles alimentaires : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Cassava leaves"
       ],
       "description": "Manioc — feuilles alimentaires (Manihot esculenta): Manioc — feuilles alimentaires. Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/manioc-feuilles/",
@@ -4649,7 +4683,7 @@
       "file": "dist/en/produits/menthe/index.html",
       "title": "Spearmint (Menthe verte — feuilles): names across languages and countries — feuilles (spearmint) : ses noms selon les langues et les pays",
       "h1": [
-        "spearmint"
+        "Spearmint"
       ],
       "description": "Spearmint (Mentha spicata): نعناع مدبب (arabic), النعناع السنبلي (arabic), spearmint (english), garden mint (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/menthe/",
@@ -4687,7 +4721,7 @@
       "file": "dist/en/produits/moringa/index.html",
       "title": "Moringa: names across languages and countries — AfroAtlas",
       "h1": [
-        "moringa"
+        "Moringa"
       ],
       "description": "Moringa (Moringa oleifera): Zogale (hausa), Mlonge (swahili), ሽፈራው (amharic), Ananambo (malagasy). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/moringa/",
@@ -4725,7 +4759,7 @@
       "file": "dist/en/produits/muscade/index.html",
       "title": "Fragrant nutmeg (Muscadier / noix de muscade): names across languages and countries — AfroAtlas",
       "h1": [
-        "fragrant nutmeg"
+        "Fragrant nutmeg"
       ],
       "description": "Fragrant nutmeg (Myristica fragrans): جوزة الطيب العطر (arabic), جوز الطيب (arabic), nutmeg tree (english), fragrant nutmeg (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/muscade/",
@@ -4744,7 +4778,7 @@
       "file": "dist/en/produits/ndole/index.html",
       "title": "Vernonie — feuilles pour le ndolé: names across languages and countries — feuilles pour le ndolé : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Vernonia amygdalina"
       ],
       "description": "Vernonie — feuilles pour le ndolé (Vernonia amygdalina): vernonie commune (french), ndole (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/ndole/",
@@ -4763,7 +4797,7 @@
       "file": "dist/en/produits/niebe/index.html",
       "title": "Cowpea (Niébé): names across languages and countries — AfroAtlas",
       "h1": [
-        "cowpea"
+        "Cowpea"
       ],
       "description": "Cowpea (Vigna unguiculata): Kunde (swahili), Mkunde (swahili), Voanemba (malagasy), لوبياء ظفرية (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/niebe/",
@@ -4782,7 +4816,7 @@
       "file": "dist/en/produits/niebe-feuilles/index.html",
       "title": "Niébé — feuilles alimentaires: names across languages and countries — feuilles alimentaires : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Cowpea leaves"
       ],
       "description": "Niébé — feuilles alimentaires (Vigna unguiculata): Kunde (swahili). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/niebe-feuilles/",
@@ -4801,7 +4835,7 @@
       "file": "dist/en/produits/njama-njama/index.html",
       "title": "Huckleberry (Feuilles de Solanum scabrum): names across languages and countries — AfroAtlas",
       "h1": [
-        "huckleberry"
+        "Huckleberry"
       ],
       "description": "Huckleberry (Solanum scabrum): njama njama, huckleberry (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/njama-njama/",
@@ -4820,7 +4854,7 @@
       "file": "dist/en/produits/njansang/index.html",
       "title": "Njansang / akpi — amandes: names across languages and countries — amandes : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Ricinodendron heudelotii"
       ],
       "description": "Njansang / akpi — amandes (Ricinodendron heudelotii): ndjanssang, akpi, djansang (french), njangsa (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/njansang/",
@@ -4839,7 +4873,7 @@
       "file": "dist/en/produits/oignon/index.html",
       "title": "Onion (Oignon): names across languages and countries — AfroAtlas",
       "h1": [
-        "onion"
+        "Onion"
       ],
       "description": "Onion (Allium cepa): soble (wolof), àlùbọ́sà (yoruba), Albasa (hausa), kitunguu (swahili). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/oignon/",
@@ -4858,7 +4892,7 @@
       "file": "dist/en/produits/oseille-guinee/index.html",
       "title": "Roselle (Bissap / foléré — calices d’hibiscus séchés): names across languages and countries — calices d’hibiscus séchés (roselle) : ses noms selon les langues et les pays",
       "h1": [
-        "roselle"
+        "Roselle"
       ],
       "description": "Roselle (Hibiscus sabdariffa): Zobo (hausa), Foléré, كركديه (arabic), الكركديه (arabic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/oseille-guinee/",
@@ -4877,7 +4911,7 @@
       "file": "dist/en/produits/patate-douce/index.html",
       "title": "Sweet potato (Patate douce): names across languages and countries — AfroAtlas",
       "h1": [
-        "sweet potato"
+        "Sweet potato"
       ],
       "description": "Sweet potato (Ipomoea batatas): pataas (wolof), Dankali (hausa), Kiazi kitamu (swahili), ስኳር ድንች (amharic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/patate-douce/",
@@ -4896,7 +4930,7 @@
       "file": "dist/en/produits/pebe/index.html",
       "title": "Pèbè — fausse muscade: names across languages and countries — fausse muscade : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Calabash nutmeg"
       ],
       "description": "Pèbè — fausse muscade (Monodora myristica): Pèbè, Fausse noix muscade (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/pebe/",
@@ -4934,7 +4968,7 @@
       "file": "dist/en/produits/piment-chinense/index.html",
       "title": "Yellow lantern chili (Piment (Capsicum chinense)): names across languages and countries — AfroAtlas",
       "h1": [
-        "yellow lantern chili"
+        "Yellow lantern chili"
       ],
       "description": "Yellow lantern chili (Capsicum chinense): Ata rodo (yoruba), فليفلة صينية (arabic), yellow lantern chili (english), C. chinense (portuguese). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/piment-chinense/",
@@ -4953,7 +4987,7 @@
       "file": "dist/en/produits/piment-frutescens/index.html",
       "title": "Piment (Capsicum frutescens): names across languages and countries — AfroAtlas",
       "h1": [
-        "English name not documented"
+        "Capsicum frutescens"
       ],
       "description": "Piment (Capsicum frutescens) (Capsicum frutescens): فليفلة دغلية (arabic), دار فلفل (arabic), Pimenta Malagueta (portuguese), Malaguetas (portuguese). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/piment-frutescens/",
@@ -4972,7 +5006,7 @@
       "file": "dist/en/produits/poisson-panthere/index.html",
       "title": "Banded jewel fish (Poisson panthère): names across languages and countries — AfroAtlas",
       "h1": [
-        "banded jewel fish"
+        "Banded jewel fish"
       ],
       "description": "Banded jewel fish (Hemichromis fasciatus): panther fish, banded jewel fish (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/poisson-panthere/",
@@ -4991,7 +5025,7 @@
       "file": "dist/en/produits/poisson-vipere/index.html",
       "title": "Snakehead (Poisson vipère): names across languages and countries — AfroAtlas",
       "h1": [
-        "snakehead"
+        "Snakehead"
       ],
       "description": "Snakehead (Parachanna obscura): viper fish, snakehead (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/poisson-vipere/",
@@ -5086,7 +5120,7 @@
       "file": "dist/en/produits/quatre-cotes/index.html",
       "title": "Quatre côtés — fruit condimentaire: names across languages and countries — fruit condimentaire : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Aidan fruit"
       ],
       "description": "Quatre côtés — fruit condimentaire (Tetrapleura tetraptera): Essèssé (duala), Sasâs (bassa), Akwa (ewondo), Aridan (yoruba). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/quatre-cotes/",
@@ -5162,7 +5196,7 @@
       "file": "dist/en/produits/safran/index.html",
       "title": "Saffron crocus (Safran — stigmates séchés): names across languages and countries — stigmates séchés (saffron crocus) : ses noms selon les langues et les pays",
       "h1": [
-        "saffron crocus"
+        "Saffron crocus"
       ],
       "description": "Saffron crocus (Crocus sativus): زعفران مزروع (arabic), كروكو (arabic), saffron crocus (english), autumn crocus (english). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/safran/",
@@ -5181,7 +5215,7 @@
       "file": "dist/en/produits/saga/index.html",
       "title": "Saga — feuilles de gynandropsis: names across languages and countries — feuilles de gynandropsis : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Spider plant"
       ],
       "description": "Saga — feuilles de gynandropsis (Gynandropsis gynandra): Saga (swahili), Chinsaga. Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/saga/",
@@ -5219,7 +5253,7 @@
       "file": "dist/en/produits/sardinelle-ronde/index.html",
       "title": "Sardinelle ronde: names across languages and countries — AfroAtlas",
       "h1": [
-        "English name not documented"
+        "Sardinella aurita"
       ],
       "description": "Sardinelle ronde (Sardinella aurita): سردين مبروم (arabic), Allache (french), Caille (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/sardinelle-ronde/",
@@ -5257,7 +5291,7 @@
       "file": "dist/en/produits/sesame/index.html",
       "title": "Sesame (Sésame): names across languages and countries — AfroAtlas",
       "h1": [
-        "sesame"
+        "Sesame"
       ],
       "description": "Sesame (Sesamum indicum): Riɗi (hausa), Ufuta (swahili), ሰሊጥ (amharic), Sesama (malagasy). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/sesame/",
@@ -5314,7 +5348,7 @@
       "file": "dist/en/produits/soumbala/index.html",
       "title": "Soumbala — condiment fermenté: names across languages and countries — condiment fermenté : ses noms selon les langues et les pays",
       "h1": [
-        "English name not documented"
+        "Parkia biglobosa"
       ],
       "description": "Soumbala — condiment fermenté (Parkia biglobosa): Nɛrɛ (bambara), soumbala, nététou, Caroubier africain (french). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/soumbala/",
@@ -5352,7 +5386,7 @@
       "file": "dist/en/produits/tamarin/index.html",
       "title": "Tamarind (Tamarin): names across languages and countries — AfroAtlas",
       "h1": [
-        "tamarind"
+        "Tamarind"
       ],
       "description": "Tamarind (Tamarindus indica): Daqaar (wolof), Tsamiya (hausa), Mkwaju (swahili), ሮቃ (amharic). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/tamarin/",
@@ -5371,7 +5405,7 @@
       "file": "dist/en/produits/taro/index.html",
       "title": "Taro: names across languages and countries — AfroAtlas",
       "h1": [
-        "taro"
+        "Taro"
       ],
       "description": "Taro (Colocasia esculenta): Gwaza (hausa), Magimbi (swahili), ጎደሬ (amharic), Saonjo (malagasy). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/taro/",
@@ -5428,7 +5462,7 @@
       "file": "dist/en/produits/tomate/index.html",
       "title": "Tomato (Tomate): names across languages and countries — AfroAtlas",
       "h1": [
-        "tomato"
+        "Tomato"
       ],
       "description": "Tomato (Solanum lycopersicum): tamaate (wolof), Tòmátò (yoruba), Tumatir (hausa), Mnyanya (swahili). Photo, names by language and country, how to ask for it in a shop, sources.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/produits/tomate/",
@@ -5495,6 +5529,23 @@
       ],
       "hreflang": 4,
       "lang": "en"
+    },
+    {
+      "file": "dist/epiceries/index.html",
+      "title": "Kit gratuit pour épiceries africaines : QR codes à imprimer — AfroAtlas",
+      "h1": [
+        "Vos clients ne connaissent pas tous le même nom. Aidez-les à trouver."
+      ],
+      "description": "Étiquettes et affiche à imprimer pour les épiceries africaines : un QR code mène à la photo et aux noms du produit dans plusieurs langues. Gratuit, sans compte.",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/epiceries/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "beacons": 1,
+      "types": [
+        "WebSite"
+      ],
+      "hreflang": 4,
+      "lang": "fr"
     },
     {
       "file": "dist/explorer/index.html",

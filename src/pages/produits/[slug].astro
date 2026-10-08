@@ -147,7 +147,7 @@ const contextProofs = Object.fromEntries(
         data-product-label
         data-no-translate
         data-fr={product.labelFr}
-        data-en={english?.name || ''}
+        data-en={cardProducts.find((p) => p.id === product.id)?.labelEn || english?.name || ''}
         data-ar={arabic?.name || ''}
       >
         {product.labelFr}

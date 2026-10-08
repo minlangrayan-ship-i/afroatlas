@@ -863,6 +863,62 @@ const journeyUi: Record<string, [string, string]> = {
   '«': ['“', '«'],
   'Proposer ce produit': ['Suggest this product', 'اقترح هذا المنتج'],
   'Aussi appelé': ['Also known as', 'يُعرف أيضًا باسم'],
+  'Kit gratuit pour épiceries': ['Free kit for groceries', 'عدة مجانية للمتاجر'],
+  'ÉPICERIES & AFROSHOPS': ['GROCERIES & AFRO SHOPS', 'المتاجر الأفريقية'],
+  'Vos clients ne connaissent pas tous le même nom. Aidez-les à trouver.': [
+    'Your customers don’t all know the same name. Help them find it.',
+    'زبائنك لا يعرفون جميعًا الاسم نفسه. ساعدهم على إيجاده.',
+  ],
+  'Un client cherche du « ndolé », un autre de la « bitter leaf », un troisième du « njansang » ou de l’« akpi ». Collez ces étiquettes près des produits : en scannant le QR code, chacun voit la photo et les noms du produit dans plusieurs langues, avec leurs sources.':
+    [
+      'One customer asks for “ndolé”, another for “bitter leaf”, a third for “njansang” or “akpi”. Stick these labels next to the products: by scanning the QR code, everyone sees the photo and the product’s names in several languages, with their sources.',
+      'زبون يطلب «ندوليه»، وآخر «bitter leaf»، وثالث «نجانسانغ» أو «أكبي». ألصق هذه البطاقات قرب المنتجات: بمسح رمز QR يرى الجميع صورة المنتج وأسماءه بعدة لغات مع مصادرها.',
+    ],
+  Imprimez: ['Print', 'اطبع'],
+  'cette page sur du papier A4 (l’en-tête du site n’est pas imprimé).': [
+    'this page on A4 paper (the site header is not printed).',
+    'هذه الصفحة على ورق A4 (لا يُطبع رأس الموقع).',
+  ],
+  Découpez: ['Cut out', 'قص'],
+  'les étiquettes en suivant les pointillés.': [
+    'the labels along the dotted lines.',
+    'البطاقات على طول الخطوط المنقطة.',
+  ],
+  Collez: ['Stick', 'ألصق'],
+  'chaque étiquette près du produit et l’affiche à l’entrée ou à la caisse.': [
+    'each label next to its product and the poster at the entrance or the till.',
+    'كل بطاقة قرب منتجها والملصق عند المدخل أو الصندوق.',
+  ],
+  'Imprimer le kit ↗': ['Print the kit ↗', 'اطبع العدة ↗'],
+  'Demander des étiquettes pour mes produits': [
+    'Ask for labels for my products',
+    'اطلب بطاقات لمنتجاتي',
+  ],
+  'Gratuit, sans compte ni publicité. Les QR codes ouvrent les fiches publiques d’AfroAtlas ; aucune donnée du client n’est collectée par l’étiquette.':
+    [
+      'Free, with no account and no advertising. The QR codes open public AfroAtlas records; the label collects no customer data.',
+      'مجاني، دون حساب أو إعلانات. تفتح رموز QR صفحات أفرو أطلس العامة؛ لا تجمع البطاقة أي بيانات عن الزبون.',
+    ],
+  'Vous connaissez ce produit sous un autre nom ?': [
+    'Know this product by another name?',
+    'تعرف هذا المنتج باسم آخر؟',
+  ],
+  'Scannez : photo et noms du produit dans plusieurs langues.': [
+    'Scan: photo and names of the product in several languages.',
+    'امسح: صورة المنتج وأسماؤه بعدة لغات.',
+  ],
+  'AfroAtlas · Un produit, plusieurs noms.': [
+    'AfroAtlas · One product, many names.',
+    'أفرو أطلس · منتج واحد، أسماء كثيرة.',
+  ],
+  'Partager la carte en image ↗': ['Share the card as an image ↗', 'شارك البطاقة كصورة ↗'],
+  'Image partagée.': ['Image shared.', 'تمت مشاركة الصورة.'],
+  'Image enregistrée sur l’appareil.': ['Image saved on this device.', 'حُفظت الصورة على الجهاز.'],
+  'Partage de l’image indisponible sur cet appareil.': [
+    'Image sharing is not available on this device.',
+    'مشاركة الصورة غير متاحة على هذا الجهاز.',
+  ],
+  'Un produit, plusieurs noms.': ['One product, many names.', 'منتج واحد، أسماء كثيرة.'],
   Accueil: ['Home', 'الرئيسية'],
   'Appellations documentées avec langue, pays, région et source': [
     'Documented names with language, country, region and source',

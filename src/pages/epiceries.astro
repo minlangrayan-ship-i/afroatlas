@@ -1,0 +1,122 @@
+---
+import QRCode from 'qrcode';
+import Layout from '../components/Layout.astro';
+import { cardProducts, namesFor } from '../lib/catalogue';
+import { href } from '../lib/links';
+import { glanceNames } from '../lib/presentation';
+import { site } from '../data/site';
+// Products most often asked for under different names in African groceries.
+const selection = [
+  'gombo',
+  'manioc-feuilles',
+  'ndole',
+  'eru',
+  'njansang',
+  'tilapia-nil',
+  'bananes-a-cuire',
+  'gingembre',
+  'piment-chinense',
+  'arachide',
+  'soumbala',
+  'maniguette',
+  'poivre-sauvage',
+  'macabo',
+  'ignames-groupe',
+  'taro',
+  'baobab',
+  'oseille-guinee',
+];
+const qr = (url: string) =>
+  QRCode.toString(url, { type: 'svg', margin: 1, errorCorrectionLevel: 'M', width: 132 });
+const labels = await Promise.all(
+  selection
+    .map((slug) => cardProducts.find((p) => p.slug === slug))
+    .filter((p) => !!p && p.image.role === 'primary')
+    .map(async (p) => {
+      const url = new URL(href(`produits/${p!.slug}/`), Astro.site).href;
+      return {
+        product: p!,
+        url,
+        names: glanceNames(p!, namesFor(p!.id), 3),
+        svg: await qr(url),
+      };
+    }),
+);
+const libraryUrl = new URL(href('catalogue/'), Astro.site).href;
+const posterSvg = await qr(libraryUrl);
+const mail = `mailto:${site.contactEmail}?subject=${encodeURIComponent('Kit AfroAtlas pour mon épicerie')}`;
+---
+
+<Layout
+  title="Kit gratuit pour épiceries africaines : QR codes à imprimer"
+  description="Étiquettes et affiche à imprimer pour les épiceries africaines : un QR code mène à la photo et aux noms du produit dans plusieurs langues. Gratuit, sans compte."
+>
+  <section class="container grocery-intro no-print">
+    <p class="eyebrow">ÉPICERIES & AFROSHOPS</p>
+    <h1>Vos clients ne connaissent pas tous le même nom. Aidez-les à trouver.</h1>
+    <p>
+      Un client cherche du « ndolé », un autre de la « bitter leaf », un troisième du « njansang »
+      ou de l’« akpi ». Collez ces étiquettes près des produits : en scannant le QR code, chacun
+      voit la photo et les noms du produit dans plusieurs langues, avec leurs sources.
+    </p>
+    <ol class="grocery-steps">
+      <li>
+        <strong>Imprimez</strong> cette page sur du papier A4 (l’en-tête du site n’est pas imprimé).
+      </li>
+      <li>
+        <strong>Découpez</strong> les étiquettes en suivant les pointillés.
+      </li>
+      <li>
+        <strong>Collez</strong> chaque étiquette près du produit et l’affiche à l’entrée ou à la
+        caisse.
+      </li>
+    </ol>
+    <div class="grocery-actions">
+      <button class="button" type="button" data-print>
+        Imprimer le kit ↗
+      </button>
+      <a class="button secondary" href={mail}>
+        Demander des étiquettes pour mes produits
+      </a>
+    </div>
+    <p class="table-note">
+      Gratuit, sans compte ni publicité. Les QR codes ouvrent les fiches publiques d’AfroAtlas ;
+      aucune donnée du client n’est collectée par l’étiquette.
+    </p>
+  </section>
+
+  <section class="container grocery-sheet">
+    <article class="grocery-poster">
+      <p class="eyebrow">AFROATLAS</p>
+      <h2>Vous connaissez ce produit sous un autre nom&nbsp;?</h2>
+      <p lang="en" data-no-translate>
+        Know this product by another name? Scan.
+      </p>
+      <p lang="ar" dir="rtl" data-no-translate>
+        تعرف هذا المنتج باسم آخر؟ امسح الرمز.
+      </p>
+      <div class="grocery-qr" set:html={posterSvg} />
+      <p>Scannez : photo et noms du produit dans plusieurs langues.</p>
+    </article>
+    <div class="grocery-labels">
+      {labels.map(({ product, names, svg }) => (
+        <article class="grocery-label">
+          <img src={href(product.image.smallPath)} alt="" width="96" height="72" loading="lazy" />
+          <div>
+            <h3 data-no-translate>{product.labelFr}</h3>
+            <p data-no-translate dir="auto">
+              {names.map((n) => n.name).join(' · ')}
+            </p>
+          </div>
+          <div class="grocery-qr" set:html={svg} />
+          <small>AfroAtlas · Un produit, plusieurs noms.</small>
+        </article>
+      ))}
+    </div>
+  </section>
+  <script>
+    document
+      .querySelectorAll<HTMLButtonElement>('[data-print]')
+      .forEach((button) => button.addEventListener('click', () => print()));
+  </script>
+</Layout>
