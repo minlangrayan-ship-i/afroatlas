@@ -20,7 +20,8 @@
     "import": "node scripts/import/catalogue.mjs && node scripts/import/geography.mjs",
     "test:e2e": "playwright test",
     "prepare-data": "node scripts/prepare-data.mjs",
-    "check:publication": "node scripts/check-publication.mjs"
+    "check:publication": "node scripts/check-publication.mjs",
+    "import:essentials": "node scripts/import/essentials-2026.mjs && npm run prepare-data && npm run validate"
   },
   "dependencies": {
     "@astrojs/react": "7.0.0",
