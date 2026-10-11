@@ -124,30 +124,89 @@ const carteAfrique = afrique.features.map((f) => ({
 }));
 
 // ---------- Au-delà du Cameroun : noms rattachés à d'autres pays par une source ----------
-const nomsPays = { MLI: 'Mali', SEN: 'Sénégal', CIV: 'Côte d’Ivoire', KEN: 'Kenya', BFA: 'Burkina Faso', NGA: 'Nigeria', MAR: 'Maroc' };
-function exemplePays(iso, nom) {
-  const n = names.find((x) => x.countryIds.includes(iso) && x.name.toLowerCase() === nom.toLowerCase());
+const nomsPays = {
+  CMR: 'Cameroun', CIV: 'Côte d’Ivoire', MLI: 'Mali', BFA: 'Burkina Faso', SEN: 'Sénégal', GAB: 'Gabon',
+  GNQ: 'Guinée équatoriale', KEN: 'Kenya', NGA: 'Nigeria', MAR: 'Maroc', TCD: 'Tchad', UGA: 'Ouganda', ZWE: 'Zimbabwe',
+};
+function exemplePays(iso, nom, slug) {
+  // Le produit est précisé : un même nom peut désigner plusieurs fiches (feuilles, calices…).
+  const fiche = products.find((p) => p.slug === slug);
+  const n = names.find(
+    (x) => x.productId === fiche?.id && x.countryIds.includes(iso) && x.name.toLowerCase() === nom.toLowerCase(),
+  );
   if (!n) throw new Error(`Nom « ${nom} » non rattaché à ${iso} dans les données : exemple refusé.`);
   const produit = products.find((p) => p.id === n.productId);
   return { iso, pays: nomsPays[iso], nom: n.name, produit: produit.labelFr, langue: etiquettes[langueDe(n)] || langueDe(n) };
 }
 const ailleurs = [
-  exemplePays('MLI', 'soumbala'),
-  exemplePays('SEN', 'nététou'),
-  exemplePays('CIV', 'akpi'),
-  exemplePays('KEN', 'managu'),
+  exemplePays('MLI', 'soumbala', 'soumbala'),
+  exemplePays('SEN', 'nététou', 'soumbala'),
+  exemplePays('CMR', 'foléré', 'bissap-feuilles'),
+  exemplePays('SEN', 'bissap-feuille', 'bissap-feuilles'),
 ];
+
+// ---------- Produits de l'histoire « afroshop » : leurs noms classés par pays ----------
+function produitParPays(slug) {
+  const produit = products.find((p) => p.slug === slug);
+  const image = images.find((i) => i.id === produit.imageId);
+  const vus = new Set();
+  const parPays = [];
+  for (const n of names.filter((x) => x.productId === produit.id && x.countryIds.length)) {
+    for (const iso of n.countryIds) {
+      const cle = `${n.name.toLowerCase()}|${iso}`;
+      if (vus.has(cle)) continue;
+      vus.add(cle);
+      const source = sourceDe(n);
+      const preuve = evidence.find((e) => e.id === n.evidenceIds[0]);
+      parPays.push({
+        nom: n.name,
+        iso,
+        pays: nomsPays[iso] || iso,
+        langue: etiquettes[langueDe(n)] || (langueDe(n) === 'local-und' ? '' : langueDe(n)),
+        source: { titre: source?.title || '', editeur: source?.publisher || '', emplacement: preuve?.locator || '' },
+      });
+    }
+  }
+  return {
+    slug,
+    titre: produit.labelFr,
+    scientifique: produit.scientificName,
+    photo: { fichier: image.localPath.split('/').pop(), credit: `${image.creator} · ${image.licenseId}` },
+    parPays,
+  };
+}
+const histoire = { njansang: produitParPays('njansang'), soumbala: produitParPays('soumbala') };
+// Les paires racontées dans la voix off doivent exister dans les données.
+for (const [slug, iso, nom] of [['njansang', 'CMR', 'njangsang'], ['njansang', 'CIV', 'akpi'], ['soumbala', 'MLI', 'soumbala'], ['soumbala', 'SEN', 'nététou']])
+  if (!histoire[slug].parPays.some((n) => n.iso === iso && n.nom.toLowerCase() === nom))
+    throw new Error(`« ${nom} » (${iso}) absent de la fiche ${slug} : script à corriger.`);
+
+// ---------- Carte du trajet Afrique → Europe ----------
+const zone = { type: 'Feature', geometry: { type: 'MultiPoint', coordinates: [[-18, -2], [30, 58]] } };
+const projTrajet = geoMercator().fitSize([1000, 1000], zone);
+const traceTrajet = geoPath(projTrajet);
+const carteTrajet = monde.features
+  .filter((f) => ['Africa', 'Europe'].includes(f.properties.CONTINENT) && f.properties.ADM0_A3 !== 'RUS')
+  .map((f) => ({ iso: f.properties.ADM0_A3, d: traceTrajet(f) }))
+  .filter((f) => f.d);
+const villes = Object.fromEntries(
+  Object.entries({ Douala: [9.7, 4.05], Paris: [2.35, 48.86], Bamako: [-8.0, 12.64], Bruxelles: [4.35, 50.85], Abidjan: [-4.01, 5.36] })
+    .map(([nom, lonlat]) => [nom, projTrajet(lonlat)]),
+);
 
 const sortie = {
   genereLe: new Date().toISOString().slice(0, 10),
   chiffres,
   demo,
   ailleurs,
+  histoire,
   photos,
   cartes: {
     cameroun: carteCameroun,
     camerounCredit: 'Limites : geoBoundaries 2016 · CC BY 3.0',
     afrique: carteAfrique,
+    trajet: carteTrajet,
+    villes,
     afriqueCredit: 'Fond de carte : Natural Earth (domaine public)',
   },
 };

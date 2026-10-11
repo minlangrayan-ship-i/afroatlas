@@ -1,47 +1,47 @@
 1
-00:00:00,000 --> 00:00:07,478
-Njangsang. Essang. Essessang. Isangé... Four names. One single product.
+00:00:00,000 --> 00:00:03,458
+You grew up in Douala. Today, you live in Paris.
 
 2
-00:00:07,804 --> 00:00:14,184
-In Cameroon, the same tree has a different name depending on whether you speak Bassa, Bulu, Ewondo or Bakossi.
+00:00:04,088 --> 00:00:08,288
+One Saturday, you walk into an Afro shop. You're looking for njangsang.
 
 3
-00:00:14,366 --> 00:00:19,447
-The result: at the market, or in a diaspora grocery, people don't understand each other.
+00:00:08,823 --> 00:00:13,340
+The seller has no idea. And yet, the product may be right there, on the shelf.
 
 4
-00:00:19,777 --> 00:00:23,399
-And online, lists of names circulate... without saying where they come from.
+00:00:13,958 --> 00:00:17,146
+He grew up in Abidjan. Back home, it's called akpi.
 
 5
-00:00:23,723 --> 00:00:27,392
-AfroAtlas connects the names of the same product. With sources.
+00:00:17,709 --> 00:00:22,010
+Same product. Two names. And no reliable list to connect them.
 
 6
-00:00:27,697 --> 00:00:36,667
-You type the name you know... and AfroAtlas shows you all the others: in Bassa, Duala, Ewondo, Fang, Bakweri.
+00:00:22,407 --> 00:00:24,474
+That's why AfroAtlas exists.
 
 7
-00:00:36,990 --> 00:00:42,812
-Every name is linked to its source: the book, the page, the language. Nothing is made up.
+00:00:25,061 --> 00:00:31,656
+You type the name from home... and AfroAtlas shows you its other names, country by country, language by language.
 
 8
-00:00:43,130 --> 00:00:47,207
-We start with Cameroon: eight regions out of ten already documented.
+00:00:32,140 --> 00:00:35,271
+Every name is linked to its source. Nothing is made up.
 
 9
-00:00:47,540 --> 00:00:52,980
-Today: ninety-five records, one thousand thirty-five names, one hundred nineteen sources.
+00:00:35,845 --> 00:00:39,976
+Choose the seller's country, and show him the card: the name he knows.
 
 10
-00:00:53,310 --> 00:00:55,673
-And at the market? You show the card to the seller.
+00:00:40,664 --> 00:00:46,887
+Soumbala in Mali, nététou in Senegal. Foléré in Cameroon, bissap-feuille in Senegal.
 
 11
-00:00:55,990 --> 00:01:06,268
-And beyond Cameroon: soumbala in Mali, nététou in Senegal, akpi in Côte d'Ivoire, managu in Kenya. Thirteen countries already. And this is only the beginning.
+00:00:47,362 --> 00:00:53,610
+Today: ninety-five records, one thousand thirty-five names, one hundred nineteen sources, thirteen countries.
 
 12
-00:01:06,588 --> 00:01:09,825
-Find yours on AfroAtlas. Subscribe.
+00:00:54,152 --> 00:00:59,298
+One product, many names. Find yours on AfroAtlas. Subscribe.

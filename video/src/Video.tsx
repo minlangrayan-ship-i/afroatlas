@@ -8,9 +8,10 @@ import { styleDesPolices } from './theme';
 import { piste, repere, repereExact, dureeTotale } from './timing';
 import { SousTitres } from './components/SousTitres';
 import {
-  SceneAfrique, SceneAppel, SceneCarte, SceneChiffres, SceneFiche, SceneLangues, SceneLogo,
-  SceneMarche, SceneRafale, SceneRecherche, SceneSansSource, SceneSource, SceneVendeur, safou,
+  SceneAfrique, SceneAppel, SceneChiffres, SceneFiche, SceneLogo, SceneRecherche, SceneSansSource,
+  SceneSource, SceneVendeur,
 } from './scenes/scenes';
+import { SceneAfroshop, SceneDeuxNoms, SceneTrajet } from './scenes/histoire';
 
 export type VideoProps = {
   format: NomFormat;
@@ -21,11 +22,15 @@ export type VideoProps = {
   compte: string;
 };
 
-const demo = data.demo.njangsang;
-const nomEn = (produit: typeof demo, langue: string) =>
-  produit.noms.find((n) => n.langues.includes(langue))?.nom ?? '';
-const detail = (produit: typeof demo, nom: string) =>
-  produit.noms.find((n) => n.nom === nom)?.langues.join(' · ') ?? '';
+// Produits de l'histoire et leurs noms par pays (données du site, vérifiées à l'extraction).
+const njansang = data.histoire.njansang;
+const soumbala = data.histoire.soumbala;
+const nomPays = (produit: typeof njansang, iso: string, nom: string) => {
+  const n = produit.parPays.find((x) => x.iso === iso && x.nom.toLowerCase() === nom.toLowerCase());
+  if (!n) throw new Error(`${nom} (${iso}) absent des données`);
+  return n;
+};
+const affiche = (produit: typeof njansang) => ({ titre: produit.titre, scientifique: produit.scientifique, photo: produit.photo });
 
 type Plan = { de: number; contenu: (rel: (f: number) => number) => React.ReactNode; son?: 'whoosh' | 'impact' };
 type Effet = { a: number; son: 'tick' | 'whoosh' | 'impact' };
@@ -37,42 +42,52 @@ function montage(f: NomFormat): { plans: Plan[]; effets: Effet[]; masques: [numb
   const M = (mot: string, ligne: number, n = 0) => repereExact(f, mot, ligne, n);
   const effets: Effet[] = [];
   const ticks = (...a: number[]) => a.forEach((x) => effets.push({ a: x, son: 'tick' }));
+  const impacts = (...a: number[]) => a.forEach((x) => effets.push({ a: x, son: 'impact' }));
+  const cm = nomPays(njansang, 'CMR', 'njangsang');
+  const ci = nomPays(njansang, 'CIV', 'akpi');
+  const ml = nomPays(soumbala, 'MLI', 'soumbala');
+  const sn = nomPays(soumbala, 'SEN', 'nététou');
+  const vendeurIvoirien = njansang.parPays.filter((n) => n.iso === 'CIV').map((n) => ({ nom: n.nom, detail: n.pays }));
+  const vendeurSenegalais = soumbala.parPays.filter((n) => n.iso === 'SEN').map((n) => ({ nom: n.nom, detail: n.pays }));
 
   if (f === 'youtube') {
-    const noms = ['njangsang', 'essang', 'essessang', 'isangé'].map((nom, i) => ({ texte: nom, detail: detail(demo, nom), a: L(0, i) }));
-    const langues = ['bassa', 'boulou', 'ewondo', 'bakossi'].map((l) => ({
-      langue: l, nom: nomEn(demo, l[0].toUpperCase() + l.slice(1)), a: M(l, 1),
-    }));
-    const puces = ['bassa', 'douala', 'ewondo', 'fang', 'bakwéri'].map((l) => {
-      const langue = l === 'bakwéri' ? 'Bakwéri' : l[0].toUpperCase() + l.slice(1);
-      return { nom: nomEn(demo, langue), langue, a: M(l, 5) };
-    });
-    const etApres = M('et', 5);
-    ticks(...noms.map((n) => n.a), ...langues.map((l) => l.a), ...puces.map((p) => p.a), ...data.ailleurs.map((e) => M(e.nom, 10)));
-    effets.push({ a: L(0, 4), son: 'impact' }, { a: L(4), son: 'impact' }, { a: L(11), son: 'impact' });
+    const puces = [
+      { ...cm, a: M('autres', 6) },
+      { ...ci, a: M('pays', 6) },
+      { ...nomPays(njansang, 'CIV', 'Kôlou'), a: M('pays', 6, 1) },
+      { ...nomPays(njansang, 'CMR', 'ndjanssang'), a: M('langue', 6) },
+    ];
+    const exemples = data.ailleurs.map((e) => ({ ...e, a: M(e.nom, 9) }));
+    const compteurs = [M('quatre-vingt-quinze', 10), M('mille', 10), M('cent', 10), M('treize', 10)];
+    ticks(M('akpi', 3), ...puces.map((p) => p.a), ...exemples.map((e) => e.a), ...compteurs);
+    impacts(L(4), L(5), L(11));
     return {
-      masques: [[0, L(1) / FPS]],
+      masques: [],
       effets,
       plans: [
-        { de: 0, contenu: (r) => <SceneRafale format={F} noms={noms.map((n) => ({ ...n, a: r(n.a) }))} final={{ texte: 'QUATRE NOMS. UN SEUL PRODUIT.', a: r(L(0, 4)) }} photo={demo.photo} /> },
-        { de: L(1), son: 'whoosh', contenu: (r) => <SceneLangues format={F} titre={{ texte: 'Un seul arbre. Plusieurs noms.', a: 2 }} langues={langues.map((l) => ({ ...l, a: r(l.a) }))} /> },
-        { de: L(2), son: 'whoosh', contenu: (r) => <SceneMarche format={F} chute={r(M('on', 2))} /> },
-        { de: L(3), son: 'whoosh', contenu: (r) => <SceneSansSource format={F} titre={r(M('sans', 3))} /> },
-        { de: L(4), contenu: (r) => <SceneLogo format={F} promesse={8} appui={r(M('sources', 4))} /> },
-        { de: L(5), son: 'whoosh', contenu: () => <SceneRecherche format={F} requete="essang" resultat={demo.titre} scientifique={demo.scientifique} /> },
-        { de: etApres, son: 'whoosh', contenu: (r) => <SceneFiche format={F} produit={demo} noms={puces.map((p) => ({ ...p, a: r(p.a) }))} /> },
-        { de: L(6), son: 'whoosh', contenu: (r) => <SceneSource format={F} produit={demo} slogan={r(M('rien', 6))} /> },
-        { de: L(7), son: 'whoosh', contenu: () => <SceneCarte format={F} /> },
-        { de: L(8), son: 'whoosh', contenu: (r) => <SceneChiffres format={F} reperes={[r(M('quatre-vingt-quinze', 8)), r(M('mille', 8)), r(M('cent', 8))]} /> },
-        { de: L(9), son: 'whoosh', contenu: () => <SceneVendeur format={F} produit={demo} /> },
+        { de: 0, contenu: (r) => <SceneTrajet format={F} depart="Douala" arrivee="Paris" aArrivee={r(M("aujourd'hui", 0))} /> },
+        { de: L(1), son: 'whoosh', contenu: (r) => <SceneAfroshop format={F} photo={njansang.photo} demande={`Je cherche du ${cm.nom}.`} reponse={{ texte: 'Connais pas…', a: r(L(2)) }} etiquette={{ texte: ci.nom, a: r(M('pourtant', 2)) }} /> },
+        { de: L(3), son: 'whoosh', contenu: (r) => <SceneDeuxNoms format={F} photo={njansang.photo} gauche={cm} droite={{ ...ci, a: r(M('akpi', 3)) }} final={{ texte: 'MÊME PRODUIT. DEUX NOMS.', a: r(L(4)) }} /> },
+        { de: M('et', 4), son: 'whoosh', contenu: (r) => <SceneSansSource format={F} titre={r(M('lien', 4))} titreTexte="AUCUNE LISTE FIABLE ?" /> },
+        { de: L(5), contenu: () => <SceneLogo format={F} promesse={8} /> },
+        { de: L(6), son: 'whoosh', contenu: () => <SceneRecherche format={F} requete={cm.nom} resultat={njansang.titre} scientifique={njansang.scientifique ?? ''} /> },
+        { de: M('et', 6), son: 'whoosh', contenu: (r) => <SceneFiche format={F} produit={affiche(njansang)} noms={puces.map((p) => ({ nom: p.nom, langue: p.pays, a: r(p.a) }))} badge={r(M('langue', 6, 1))} /> },
+        { de: L(7), son: 'whoosh', contenu: (r) => <SceneSource format={F} source={ci.source} detail={{ libelle: 'Nom et pays', valeur: `${ci.nom} · ${ci.pays}` }} slogan={r(M('rien', 7))} /> },
+        { de: L(8), son: 'whoosh', contenu: () => <SceneVendeur format={F} produit={affiche(njansang)} destination={ci.pays} noms={vendeurIvoirien} titre="Le nom qu’il connaît." /> },
+        { de: L(9), son: 'whoosh', contenu: (r) => <SceneAfrique format={F} exemples={exemples.map((e) => ({ ...e, a: r(e.a) }))} compteur={100000} /> },
         {
           de: L(10),
           son: 'whoosh',
           contenu: (r) => (
-            <SceneAfrique
+            <SceneChiffres
               format={F}
-              exemples={data.ailleurs.map((e) => ({ ...e, a: r(M(e.nom, 10)) }))}
-              compteur={r(M('treize', 10))}
+              reperes={compteurs.map(r)}
+              valeurs={[
+                { valeur: data.chiffres.fiches, libelle: 'fiches' },
+                { valeur: data.chiffres.appellations, libelle: 'appellations' },
+                { valeur: data.chiffres.sources, libelle: 'sources' },
+                { valeur: data.chiffres.pays, libelle: 'pays' },
+              ]}
             />
           ),
         },
@@ -82,53 +97,37 @@ function montage(f: NomFormat): { plans: Plan[]; effets: Effet[]; masques: [numb
   }
 
   if (f === 'tiktok') {
-    // Hook en moins de 2 s : trois noms en rafale, toutes les 0,6 s.
-    const noms = ['essang', 'njangsang', 'essessang'].map((nom, i) => ({ texte: `${nom} ?`, detail: detail(demo, nom), a: i * 18 }));
-    const puces = ['bassa', 'douala', 'ewondo', 'bakwéri'].map((l) => {
-      const langue = l === 'bakwéri' ? 'Bakwéri' : l[0].toUpperCase() + l.slice(1);
-      return { nom: nomEn(demo, langue), langue, a: M(l, 3) };
-    });
-    ticks(...noms.map((n) => n.a), ...puces.map((p) => p.a));
-    effets.push({ a: L(2), son: 'impact' }, { a: L(7), son: 'impact' });
+    ticks(M('akpi', 2));
+    impacts(L(3), L(4), L(6));
     return {
       masques: [],
       effets,
       plans: [
-        { de: 0, contenu: (r) => <SceneRafale format={F} noms={noms.map((n) => ({ ...n, a: r(n.a) }))} photo={demo.photo} /> },
-        { de: L(1), son: 'whoosh', contenu: () => <SceneLangues format={F} titre={{ texte: 'Même produit. Autre nom.', a: 2 }} langues={[]} /> },
-        { de: M('au', 1), son: 'whoosh', contenu: (r) => <SceneMarche format={F} chute={r(M('personne', 1))} /> },
-        { de: L(2), contenu: () => <SceneLogo format={F} promesse={6} promesseTexte="Un même produit, plusieurs noms." /> },
-        { de: L(3), son: 'whoosh', contenu: () => <SceneRecherche format={F} requete="essang" resultat={demo.titre} scientifique={demo.scientifique} /> },
-        { de: M('tu', 3), son: 'whoosh', contenu: (r) => <SceneFiche format={F} produit={demo} noms={puces.map((p) => ({ ...p, a: r(p.a) }))} /> },
-        { de: L(4), son: 'whoosh', contenu: () => <SceneSource format={F} produit={demo} slogan={100000} /> },
-        { de: L(5), son: 'whoosh', contenu: (r) => <SceneChiffres format={F} reperes={[r(M('mille', 5)), r(M('cent', 5))]} valeurs={[{ valeur: data.chiffres.appellations, libelle: 'noms' }, { valeur: data.chiffres.sources, libelle: 'sources' }]} /> },
-        { de: L(6), son: 'whoosh', contenu: () => <SceneAfrique format={F} /> },
-        { de: L(7), son: 'whoosh', contenu: () => <SceneAfrique format={F} /> },
-      { de: L(8), contenu: () => null },
+        // Hook immédiat : l'afroshop et la demande dès la première image.
+        { de: 0, contenu: (r) => <SceneAfroshop format={F} photo={njansang.photo} demande={`Je cherche du ${cm.nom}.`} reponse={{ texte: 'Connais pas.', a: r(L(1)) }} etiquette={{ texte: ci.nom, a: r(L(2)) }} /> },
+        { de: M('ça', 2), son: 'whoosh', contenu: (r) => <SceneDeuxNoms format={F} photo={njansang.photo} gauche={cm} droite={{ ...ci, a: r(M('akpi', 2)) }} final={{ texte: 'MÊME PRODUIT. AUTRE NOM.', a: r(L(3)) }} /> },
+        { de: L(4), contenu: (r) => <SceneLogo format={F} promesse={6} appui={r(M('sources', 4))} /> },
+        { de: L(5), son: 'whoosh', contenu: () => <SceneVendeur format={F} produit={affiche(njansang)} destination={ci.pays} noms={vendeurIvoirien} /> },
+        { de: L(6), contenu: () => null },
       ],
     };
   }
 
-  // Reels : plus esthétique, construit sur les noms du safou.
-  const noms = ['sao', 'sah', 'assa', 'odou'].map((nom, i) => ({ texte: nom, detail: detail(safou, nom), a: L(0, i) }));
-  const langues = ['douala', 'bassa', 'ewondo', 'fang', 'bamoun'].map((l) => ({
-    langue: l, nom: nomEn(safou, l[0].toUpperCase() + l.slice(1)), a: M(l, 1),
-  }));
-  const debutFiche = L(4);
-  const puces = safou.noms.slice(0, 5).map((n, i) => ({ nom: n.nom, langue: n.langues.join(' · '), a: debutFiche + 6 + i * 7 }));
-  ticks(...noms.map((n) => n.a), ...langues.map((l) => l.a), ...puces.map((p) => p.a));
-  effets.push({ a: L(0, 4), son: 'impact' }, { a: L(3), son: 'impact' }, { a: L(8), son: 'impact' });
+  // Reels : version plus esthétique, construite sur soumbala / nététou.
+  const puces = soumbala.parPays.map((n, i) => ({ nom: n.nom, langue: n.pays, a: M("d'un", 4) + 4 + i * 6 }));
+  ticks(M('nététou', 0), ...puces.map((p) => p.a));
+  impacts(M('un', 0), L(4), L(7));
   return {
-    masques: [[0, L(0, 4) / FPS]],
+    masques: [],
     effets,
     plans: [
-      { de: 0, contenu: (r) => <SceneRafale format={F} noms={noms.map((n) => ({ ...n, a: r(n.a) }))} final={{ texte: 'UN SEUL FRUIT : LE SAFOU.', a: r(L(0, 4)) }} photo={safou.photo} photoToujours /> },
-      { de: L(1), son: 'whoosh', contenu: (r) => <SceneLangues format={F} titre={{ texte: 'Chaque langue a les siens.', a: 2 }} langues={langues.map((l) => ({ ...l, a: r(l.a) }))} photo={safou.photo} /> },
-      { de: L(2), son: 'whoosh', contenu: (r) => <SceneSansSource format={F} titre={r(M('et', 2))} titreTexte="QUI LES A NOTÉS ?" /> },
-      { de: L(3), contenu: (r) => <SceneLogo format={F} promesse={8} appui={r(M('sources', 3))} /> },
-      { de: debutFiche, son: 'whoosh', contenu: (r) => <SceneFiche format={F} produit={safou} noms={puces.map((p) => ({ ...p, a: r(p.a) }))} badge={r(M("l'ouvrage", 4))} /> },
-      { de: L(5), son: 'whoosh', contenu: () => <SceneCarte format={F} /> },
-      { de: L(6), son: 'whoosh', contenu: () => <SceneVendeur format={F} produit={safou} /> },
+      { de: 0, contenu: (r) => <SceneDeuxNoms format={F} photo={soumbala.photo} gauche={ml} droite={{ ...sn, a: r(M('nététou', 0)) }} final={{ texte: 'UN CONDIMENT. DEUX PAYS.', a: r(M('un', 0)) }} /> },
+      { de: L(1), son: 'whoosh', contenu: (r) => <SceneTrajet format={F} depart="Bamako" arrivee="Bruxelles" aArrivee={r(M('tu', 1, 1))} /> },
+      { de: L(2), son: 'whoosh', contenu: (r) => <SceneAfroshop format={F} photo={soumbala.photo} demande={`Je cherche du ${ml.nom}.`} reponse={{ texte: `Du ${sn.nom} ?`, a: r(M('pour', 3)) }} etiquette={{ texte: sn.nom, a: r(M('nététou', 3)) }} /> },
+      { de: L(4), contenu: () => <SceneLogo format={F} promesse={6} /> },
+      { de: M("d'un", 4), son: 'whoosh', contenu: (r) => <SceneFiche format={F} produit={affiche(soumbala)} noms={puces.map((p) => ({ ...p, a: r(p.a) }))} badge={r(M('sources', 4))} /> },
+      { de: L(5), son: 'whoosh', contenu: () => <SceneVendeur format={F} produit={affiche(soumbala)} destination={sn.pays} noms={vendeurSenegalais} /> },
+      { de: L(6), son: 'whoosh', contenu: () => <SceneAfrique format={F} /> },
       { de: L(7), contenu: () => null },
     ],
   };

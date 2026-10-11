@@ -8,6 +8,8 @@ import type { Format } from '../formats';
 import { BadgeSource, Compteur, Credit, Eclair, Fond, Logo, Photo, TitreCinetique, usePunch } from '../components/kit';
 
 type Props = { format: Format };
+/** Produit tel qu'affiché dans les maquettes d'interface. */
+export type ProduitAffiche = { titre: string; scientifique: string | null; photo: { fichier: string; credit: string } };
 const demo = data.demo.njangsang;
 const safou = data.demo.safou;
 
@@ -346,7 +348,7 @@ const Cadre: React.FC<{ format: Format; largeur: number; children: React.ReactNo
 
 // ───────────── DÉMO 2 : la fiche et ses autres noms ─────────────
 export const SceneFiche: React.FC<
-  Props & { produit: typeof demo; noms: { nom: string; langue: string; a: number }[]; badge?: number }
+  Props & { produit: ProduitAffiche; noms: { nom: string; langue: string; a: number }[]; badge?: number }
 > = ({ format, produit, noms, badge }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -389,7 +391,13 @@ export const SceneFiche: React.FC<
 };
 
 // ───────────── PREUVE : la source ─────────────
-export const SceneSource: React.FC<Props & { produit: typeof demo; slogan: number }> = ({ format, produit, slogan }) => {
+export const SceneSource: React.FC<
+  Props & {
+    source: { titre: string; editeur: string; emplacement: string };
+    detail: { libelle: string; valeur: string };
+    slogan: number;
+  }
+> = ({ format, source, detail, slogan }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const v = format.vertical;
@@ -405,10 +413,10 @@ export const SceneSource: React.FC<Props & { produit: typeof demo; slogan: numbe
               <BadgeSource taille={v ? 50 : 56} />
             </div>
             <div style={{ marginTop: v ? 60 : 50, width: v ? 840 : 1500, opacity: panneau, transform: `translateY(${(1 - panneau) * 40}px)`, background: '#16160f', borderLeft: `8px solid ${couleurs.or}`, borderRadius: 14, padding: v ? 36 : 40 }}>
-              <Ligne libelle="Ouvrage" valeur={produit.source.titre} v={v} />
-              <Ligne libelle="Auteurs" valeur={produit.source.editeur} v={v} />
-              <Ligne libelle="Emplacement" valeur={produit.source.emplacement} v={v} />
-              <Ligne libelle="Langues" valeur={produit.noms.slice(0, 5).flatMap((n) => n.langues).filter((l, i, t) => t.indexOf(l) === i).join(' · ')} v={v} />
+              <Ligne libelle="Ouvrage" valeur={source.titre} v={v} />
+              <Ligne libelle="Auteurs" valeur={source.editeur} v={v} />
+              <Ligne libelle="Emplacement" valeur={source.emplacement} v={v} />
+              <Ligne libelle={detail.libelle} valeur={detail.valeur} v={v} />
             </div>
           </>
         ) : (
@@ -487,9 +495,9 @@ export const SceneChiffres: React.FC<Props & { reperes: number[]; valeurs?: { va
   return (
     <AbsoluteFill>
       <Fond teinte={couleurs.or} />
-      <Zone format={format} style={{ flexDirection: v ? 'column' : 'row', gap: v ? 70 : 140 }}>
+      <Zone format={format} style={{ flexDirection: v ? 'column' : 'row', gap: v ? (liste.length > 3 ? 30 : 70) : liste.length > 3 ? 80 : 140 }}>
         {liste.map((x, k) => (
-          <Compteur key={x.libelle} valeur={x.valeur} libelle={x.libelle} a={reperes[k] ?? reperes[reperes.length - 1]} taille={v ? 170 : 190} />
+          <Compteur key={x.libelle} valeur={x.valeur} libelle={x.libelle} a={reperes[k] ?? reperes[reperes.length - 1]} taille={liste.length > 3 ? (v ? 130 : 150) : v ? 170 : 190} />
         ))}
       </Zone>
       {reperes.map((r) => (
@@ -500,7 +508,9 @@ export const SceneChiffres: React.FC<Props & { reperes: number[]; valeurs?: { va
 };
 
 // ───────────── USAGE : montrer la carte au vendeur ─────────────
-export const SceneVendeur: React.FC<Props & { produit: typeof demo }> = ({ format, produit }) => {
+export const SceneVendeur: React.FC<
+  Props & { produit: ProduitAffiche; destination?: string; noms: { nom: string; detail: string }[]; titre?: string }
+> = ({ format, produit, destination, noms, titre = 'Montrez la carte au vendeur.' }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const v = format.vertical;
@@ -514,16 +524,21 @@ export const SceneVendeur: React.FC<Props & { produit: typeof demo }> = ({ forma
           <Img src={staticFile(`images/${produit.photo.fichier}`)} style={{ width: '100%', height: tel.h * 0.36, objectFit: 'cover' }} />
           <div style={{ padding: v ? 34 : 26, color: couleurs.noir }}>
             <div style={{ fontFamily: polices.titre, fontWeight: 900, fontSize: v ? 50 : 30, lineHeight: 1.1 }}>{produit.titre}</div>
-            <div style={{ fontFamily: polices.texte, fontSize: v ? 34 : 21, margin: '12px 0 18px', color: couleurs.vert }}>Je cherche ce produit, dans cette forme.</div>
-            {produit.noms.slice(0, 3).map((n) => (
+            <div style={{ fontFamily: polices.texte, fontSize: v ? 34 : 21, margin: '12px 0 10px', color: couleurs.vert }}>Je cherche ce produit, dans cette forme.</div>
+            {destination && (
+              <div style={{ fontFamily: polices.texte, fontSize: v ? 30 : 19, color: '#667064', marginBottom: 10 }}>
+                Destination : <b style={{ color: couleurs.noir }}>{destination}</b>
+              </div>
+            )}
+            {noms.slice(0, 3).map((n) => (
               <div key={n.nom} style={{ borderTop: '1px solid #00000018', padding: v ? '14px 0' : '10px 0' }}>
                 <div style={{ fontFamily: polices.serif, fontWeight: 700, fontSize: v ? 58 : 34, color: couleurs.ocre }}>{n.nom}</div>
-                <div style={{ fontFamily: polices.texte, fontSize: v ? 30 : 19, color: '#667064' }}>{n.langues.join(' · ')}</div>
+                <div style={{ fontFamily: polices.texte, fontSize: v ? 30 : 19, color: '#667064' }}>{n.detail}</div>
               </div>
             ))}
           </div>
         </div>
-        {!v && <TitreCinetique texte="Montrez la carte au vendeur." a={6} taille={96} accent={['vendeur.']} style={{ maxWidth: 700, textAlign: 'left' }} />}
+        {!v && <TitreCinetique texte={titre} a={6} taille={96} accent={['vendeur.', 'connaît.']} style={{ maxWidth: 700, textAlign: 'left' }} />}
       </Zone>
       <Eclair a={0} duree={4} />
     </AbsoluteFill>

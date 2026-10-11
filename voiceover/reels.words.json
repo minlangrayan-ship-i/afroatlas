@@ -1,461 +1,437 @@
 {
- "duree": 33.019,
+ "duree": 28.918,
  "mots": [
   {
-   "mot": "Sao.",
+   "mot": "Soumbala.",
    "ligne": 0,
    "debut": 0.0,
-   "fin": 0.583
+   "fin": 0.791
   },
   {
-   "mot": "Sah.",
+   "mot": "Nététou.",
    "ligne": 0,
-   "debut": 0.892,
-   "fin": 1.472
+   "debut": 1.189,
+   "fin": 1.9
   },
   {
-   "mot": "Assa.",
+   "mot": "Un",
    "ligne": 0,
-   "debut": 1.793,
-   "fin": 2.36
+   "debut": 2.288,
+   "fin": 2.506
   },
   {
-   "mot": "Odou.",
+   "mot": "même",
    "ligne": 0,
-   "debut": 2.679,
-   "fin": 3.179
+   "debut": 2.506,
+   "fin": 2.723
   },
   {
-   "mot": "Ce",
+   "mot": "condiment,",
    "ligne": 0,
-   "debut": 3.488,
-   "fin": 3.73
+   "debut": 2.723,
+   "fin": 3.376
   },
   {
-   "mot": "sont",
+   "mot": "deux",
    "ligne": 0,
-   "debut": 3.73,
-   "fin": 3.973
+   "debut": 3.604,
+   "fin": 3.964
   },
   {
-   "mot": "tous",
+   "mot": "pays.",
    "ligne": 0,
-   "debut": 3.973,
-   "fin": 4.216
+   "debut": 3.964,
+   "fin": 4.323
   },
   {
-   "mot": "des",
-   "ligne": 0,
-   "debut": 4.216,
-   "fin": 4.459
+   "mot": "Tu",
+   "ligne": 1,
+   "debut": 4.844,
+   "fin": 4.991
   },
   {
-   "mot": "noms",
-   "ligne": 0,
-   "debut": 4.459,
-   "fin": 4.701
+   "mot": "as",
+   "ligne": 1,
+   "debut": 4.991,
+   "fin": 5.138
+  },
+  {
+   "mot": "grandi",
+   "ligne": 1,
+   "debut": 5.138,
+   "fin": 5.432
+  },
+  {
+   "mot": "à",
+   "ligne": 1,
+   "debut": 5.432,
+   "fin": 5.579
+  },
+  {
+   "mot": "Bamako.",
+   "ligne": 1,
+   "debut": 5.579,
+   "fin": 6.02
+  },
+  {
+   "mot": "Tu",
+   "ligne": 1,
+   "debut": 6.335,
+   "fin": 6.497
+  },
+  {
+   "mot": "vis",
+   "ligne": 1,
+   "debut": 6.497,
+   "fin": 6.658
+  },
+  {
+   "mot": "à",
+   "ligne": 1,
+   "debut": 6.658,
+   "fin": 6.82
+  },
+  {
+   "mot": "Bruxelles.",
+   "ligne": 1,
+   "debut": 6.82,
+   "fin": 7.305
+  },
+  {
+   "mot": "Dans",
+   "ligne": 2,
+   "debut": 7.77,
+   "fin": 7.951
+  },
+  {
+   "mot": "l'afroshop",
+   "ligne": 2,
+   "debut": 7.951,
+   "fin": 8.494
   },
   {
    "mot": "du",
-   "ligne": 0,
-   "debut": 4.701,
-   "fin": 4.944
+   "ligne": 2,
+   "debut": 8.494,
+   "fin": 8.675
   },
   {
-   "mot": "safou.",
-   "ligne": 0,
-   "debut": 4.944,
-   "fin": 5.43
+   "mot": "quartier,",
+   "ligne": 2,
+   "debut": 8.675,
+   "fin": 9.037
   },
   {
-   "mot": "Chaque",
-   "ligne": 1,
-   "debut": 5.729,
-   "fin": 6.064
+   "mot": "tu",
+   "ligne": 2,
+   "debut": 9.037,
+   "fin": 9.218
   },
   {
-   "mot": "langue",
-   "ligne": 1,
-   "debut": 6.064,
-   "fin": 6.399
+   "mot": "demandes",
+   "ligne": 2,
+   "debut": 9.218,
+   "fin": 9.58
   },
   {
    "mot": "du",
-   "ligne": 1,
-   "debut": 6.399,
-   "fin": 6.567
-  },
-  {
-   "mot": "Cameroun",
-   "ligne": 1,
-   "debut": 6.567,
-   "fin": 7.069
-  },
-  {
-   "mot": "a",
-   "ligne": 1,
-   "debut": 7.069,
-   "fin": 7.237
-  },
-  {
-   "mot": "les",
-   "ligne": 1,
-   "debut": 7.237,
-   "fin": 7.404
-  },
-  {
-   "mot": "siens.",
-   "ligne": 1,
-   "debut": 7.404,
-   "fin": 7.572
-  },
-  {
-   "mot": "Douala,",
-   "ligne": 1,
-   "debut": 7.882,
-   "fin": 8.517
-  },
-  {
-   "mot": "bassa,",
-   "ligne": 1,
-   "debut": 8.517,
-   "fin": 9.151
-  },
-  {
-   "mot": "ewondo,",
-   "ligne": 1,
-   "debut": 9.151,
-   "fin": 10.103
-  },
-  {
-   "mot": "fang,",
-   "ligne": 1,
-   "debut": 10.344,
-   "fin": 10.936
-  },
-  {
-   "mot": "bamoun...",
-   "ligne": 1,
-   "debut": 11.126,
-   "fin": 11.804
-  },
-  {
-   "mot": "Mais",
    "ligne": 2,
-   "debut": 12.051,
-   "fin": 12.301
+   "debut": 9.58,
+   "fin": 9.761
   },
   {
-   "mot": "qui",
+   "mot": "soumbala...",
    "ligne": 2,
-   "debut": 12.301,
-   "fin": 12.551
+   "debut": 9.761,
+   "fin": 10.304
   },
   {
-   "mot": "les",
-   "ligne": 2,
-   "debut": 12.551,
-   "fin": 12.801
+   "mot": "Le",
+   "ligne": 3,
+   "debut": 11.004,
+   "fin": 11.216
   },
   {
-   "mot": "a",
-   "ligne": 2,
-   "debut": 12.801,
-   "fin": 13.051
+   "mot": "vendeur,",
+   "ligne": 3,
+   "debut": 11.216,
+   "fin": 11.64
   },
   {
-   "mot": "notés,",
-   "ligne": 2,
-   "debut": 13.051,
-   "fin": 13.552
+   "mot": "lui,",
+   "ligne": 3,
+   "debut": 11.64,
+   "fin": 11.852
   },
   {
-   "mot": "et",
-   "ligne": 2,
-   "debut": 13.552,
-   "fin": 13.802
+   "mot": "est",
+   "ligne": 3,
+   "debut": 12.087,
+   "fin": 12.233
   },
   {
-   "mot": "où ?",
-   "ligne": 2,
-   "debut": 13.802,
-   "fin": 14.052
+   "mot": "sénégalais :",
+   "ligne": 3,
+   "debut": 12.233,
+   "fin": 12.815
+  },
+  {
+   "mot": "pour",
+   "ligne": 3,
+   "debut": 13.149,
+   "fin": 13.357
+  },
+  {
+   "mot": "lui,",
+   "ligne": 3,
+   "debut": 13.357,
+   "fin": 13.566
+  },
+  {
+   "mot": "c'est",
+   "ligne": 3,
+   "debut": 13.774,
+   "fin": 13.971
+  },
+  {
+   "mot": "du",
+   "ligne": 3,
+   "debut": 13.971,
+   "fin": 14.168
+  },
+  {
+   "mot": "nététou.",
+   "ligne": 3,
+   "debut": 14.168,
+   "fin": 14.759
   },
   {
    "mot": "AfroAtlas",
-   "ligne": 3,
-   "debut": 14.368,
-   "fin": 15.053
+   "ligne": 4,
+   "debut": 15.451,
+   "fin": 16.043
   },
   {
-   "mot": "réunit",
-   "ligne": 3,
-   "debut": 15.053,
-   "fin": 15.51
+   "mot": "relie",
+   "ligne": 4,
+   "debut": 16.043,
+   "fin": 16.437
   },
   {
    "mot": "ces",
-   "ligne": 3,
-   "debut": 15.51,
-   "fin": 15.738
+   "ligne": 4,
+   "debut": 16.437,
+   "fin": 16.634
   },
   {
-   "mot": "noms,",
-   "ligne": 3,
-   "debut": 15.738,
-   "fin": 15.966
+   "mot": "noms",
+   "ligne": 4,
+   "debut": 16.634,
+   "fin": 16.831
   },
   {
-   "mot": "sources",
-   "ligne": 3,
-   "debut": 15.966,
-   "fin": 16.195
+   "mot": "d'un",
+   "ligne": 4,
+   "debut": 16.831,
+   "fin": 17.028
+  },
+  {
+   "mot": "pays",
+   "ligne": 4,
+   "debut": 17.028,
+   "fin": 17.226
   },
   {
    "mot": "à",
-   "ligne": 3,
-   "debut": 16.195,
-   "fin": 16.423
+   "ligne": 4,
+   "debut": 17.226,
+   "fin": 17.423
+  },
+  {
+   "mot": "l'autre,",
+   "ligne": 4,
+   "debut": 17.423,
+   "fin": 17.817
+  },
+  {
+   "mot": "sources",
+   "ligne": 4,
+   "debut": 18.152,
+   "fin": 18.417
+  },
+  {
+   "mot": "à",
+   "ligne": 4,
+   "debut": 18.417,
+   "fin": 18.681
   },
   {
    "mot": "l'appui.",
-   "ligne": 3,
-   "debut": 16.423,
-   "fin": 16.88
-  },
-  {
-   "mot": "Pour",
    "ligne": 4,
-   "debut": 17.205,
-   "fin": 17.378
+   "debut": 18.681,
+   "fin": 19.211
   },
   {
-   "mot": "chaque",
-   "ligne": 4,
-   "debut": 17.378,
-   "fin": 17.724
-  },
-  {
-   "mot": "produit :",
-   "ligne": 4,
-   "debut": 17.724,
-   "fin": 18.07
-  },
-  {
-   "mot": "ses",
-   "ligne": 4,
-   "debut": 18.337,
-   "fin": 18.63
-  },
-  {
-   "mot": "noms,",
-   "ligne": 4,
-   "debut": 18.63,
-   "fin": 18.923
-  },
-  {
-   "mot": "sa",
-   "ligne": 4,
-   "debut": 19.22,
-   "fin": 19.444
-  },
-  {
-   "mot": "langue,",
-   "ligne": 4,
-   "debut": 19.444,
-   "fin": 19.892
-  },
-  {
-   "mot": "et",
-   "ligne": 4,
-   "debut": 20.217,
-   "fin": 20.396
-  },
-  {
-   "mot": "l'ouvrage",
-   "ligne": 4,
-   "debut": 20.396,
-   "fin": 20.754
-  },
-  {
-   "mot": "qui",
-   "ligne": 4,
-   "debut": 20.754,
-   "fin": 20.933
-  },
-  {
-   "mot": "l'atteste.",
-   "ligne": 4,
-   "debut": 20.933,
-   "fin": 21.47
-  },
-  {
-   "mot": "Huit",
+   "mot": "Choisis",
    "ligne": 5,
-   "debut": 21.779,
-   "fin": 21.99
+   "debut": 19.596,
+   "fin": 20.032
   },
   {
-   "mot": "régions",
+   "mot": "le",
    "ligne": 5,
-   "debut": 21.99,
-   "fin": 22.413
+   "debut": 20.032,
+   "fin": 20.25
+  },
+  {
+   "mot": "pays",
+   "ligne": 5,
+   "debut": 20.25,
+   "fin": 20.467
   },
   {
    "mot": "du",
    "ligne": 5,
-   "debut": 22.413,
-   "fin": 22.624
+   "debut": 20.467,
+   "fin": 20.685
   },
   {
-   "mot": "Cameroun,",
+   "mot": "vendeur,",
    "ligne": 5,
-   "debut": 22.624,
-   "fin": 23.258
-  },
-  {
-   "mot": "déjà",
-   "ligne": 5,
-   "debut": 23.454,
-   "fin": 23.801
-  },
-  {
-   "mot": "documentées.",
-   "ligne": 5,
-   "debut": 23.801,
-   "fin": 24.495
-  },
-  {
-   "mot": "Au",
-   "ligne": 6,
-   "debut": 24.802,
-   "fin": 25.028
-  },
-  {
-   "mot": "marché,",
-   "ligne": 6,
-   "debut": 25.028,
-   "fin": 25.479
-  },
-  {
-   "mot": "montre",
-   "ligne": 6,
-   "debut": 25.479,
-   "fin": 25.704
-  },
-  {
-   "mot": "la",
-   "ligne": 6,
-   "debut": 25.704,
-   "fin": 25.93
-  },
-  {
-   "mot": "carte",
-   "ligne": 6,
-   "debut": 25.93,
-   "fin": 26.156
-  },
-  {
-   "mot": "au",
-   "ligne": 6,
-   "debut": 26.156,
-   "fin": 26.381
-  },
-  {
-   "mot": "vendeur.",
-   "ligne": 6,
-   "debut": 26.381,
-   "fin": 26.832
-  },
-  {
-   "mot": "Et",
-   "ligne": 7,
-   "debut": 27.158,
-   "fin": 27.366
-  },
-  {
-   "mot": "déjà,",
-   "ligne": 7,
-   "debut": 27.366,
-   "fin": 27.781
-  },
-  {
-   "mot": "treize",
-   "ligne": 7,
-   "debut": 27.993,
-   "fin": 28.218
-  },
-  {
-   "mot": "pays",
-   "ligne": 7,
-   "debut": 28.218,
-   "fin": 28.444
-  },
-  {
-   "mot": "d'Afrique.",
-   "ligne": 7,
-   "debut": 28.444,
-   "fin": 29.119
-  },
-  {
-   "mot": "Lien",
-   "ligne": 8,
-   "debut": 29.369,
-   "fin": 29.618
-  },
-  {
-   "mot": "en",
-   "ligne": 8,
-   "debut": 29.618,
-   "fin": 29.867
-  },
-  {
-   "mot": "bio.",
-   "ligne": 8,
-   "debut": 29.867,
-   "fin": 30.115
-  },
-  {
-   "mot": "Enregistre,",
-   "ligne": 8,
-   "debut": 30.412,
-   "fin": 31.073
+   "debut": 20.685,
+   "fin": 21.121
   },
   {
    "mot": "et",
-   "ligne": 8,
-   "debut": 31.308,
-   "fin": 31.463
+   "ligne": 5,
+   "debut": 21.387,
+   "fin": 21.547
+  },
+  {
+   "mot": "montre-lui",
+   "ligne": 5,
+   "debut": 21.547,
+   "fin": 22.027
+  },
+  {
+   "mot": "la",
+   "ligne": 5,
+   "debut": 22.027,
+   "fin": 22.188
+  },
+  {
+   "mot": "carte.",
+   "ligne": 5,
+   "debut": 22.188,
+   "fin": 22.508
+  },
+  {
+   "mot": "Déjà",
+   "ligne": 6,
+   "debut": 22.947,
+   "fin": 23.345
+  },
+  {
+   "mot": "treize",
+   "ligne": 6,
+   "debut": 23.345,
+   "fin": 23.545
+  },
+  {
+   "mot": "pays",
+   "ligne": 6,
+   "debut": 23.545,
+   "fin": 23.744
+  },
+  {
+   "mot": "d'Afrique.",
+   "ligne": 6,
+   "debut": 23.744,
+   "fin": 24.341
+  },
+  {
+   "mot": "Lien",
+   "ligne": 7,
+   "debut": 24.846,
+   "fin": 25.129
+  },
+  {
+   "mot": "en",
+   "ligne": 7,
+   "debut": 25.129,
+   "fin": 25.411
+  },
+  {
+   "mot": "bio.",
+   "ligne": 7,
+   "debut": 25.411,
+   "fin": 25.694
+  },
+  {
+   "mot": "Enregistre,",
+   "ligne": 7,
+   "debut": 26.215,
+   "fin": 26.851
+  },
+  {
+   "mot": "et",
+   "ligne": 7,
+   "debut": 26.851,
+   "fin": 27.01
   },
   {
    "mot": "partage",
-   "ligne": 8,
-   "debut": 31.463,
-   "fin": 31.775
+   "ligne": 7,
+   "debut": 27.01,
+   "fin": 27.328
   },
   {
    "mot": "à",
-   "ligne": 8,
-   "debut": 31.775,
-   "fin": 31.93
+   "ligne": 7,
+   "debut": 27.328,
+   "fin": 27.487
   },
   {
    "mot": "quelqu'un",
-   "ligne": 8,
-   "debut": 31.93,
-   "fin": 32.397
+   "ligne": 7,
+   "debut": 27.487,
+   "fin": 27.964
   },
   {
    "mot": "qui",
-   "ligne": 8,
-   "debut": 32.397,
-   "fin": 32.552
+   "ligne": 7,
+   "debut": 27.964,
+   "fin": 28.123
   },
   {
-   "mot": "cuisine.",
-   "ligne": 8,
-   "debut": 32.552,
-   "fin": 33.019
+   "mot": "vit",
+   "ligne": 7,
+   "debut": 28.123,
+   "fin": 28.282
+  },
+  {
+   "mot": "loin",
+   "ligne": 7,
+   "debut": 28.282,
+   "fin": 28.441
+  },
+  {
+   "mot": "de",
+   "ligne": 7,
+   "debut": 28.441,
+   "fin": 28.6
+  },
+  {
+   "mot": "chez",
+   "ligne": 7,
+   "debut": 28.6,
+   "fin": 28.759
+  },
+  {
+   "mot": "lui.",
+   "ligne": 7,
+   "debut": 28.759,
+   "fin": 28.918
   }
  ]
 }

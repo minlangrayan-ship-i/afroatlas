@@ -59,7 +59,8 @@ const brutVoix = process.argv.includes('--brut');
 for (const f of tous) {
   const monte = path.join(voix, `${f}.monte.mp3`);
   if (brutVoix) await copier(path.join(voix, `${f}.mp3`), monte);
-  else lancer('python3', [path.join(dossier, 'resserrer.py'), path.join(voix, `${f}.mp3`), monte]);
+  // Seules les pauses de plus de 0,7 s sont raccourcies : la voix garde son rythme posé.
+  else lancer('python3', [path.join(dossier, 'resserrer.py'), path.join(voix, `${f}.mp3`), monte, '0.7']);
   lancer('python3', [
     path.join(dossier, 'align.py'),
     monte,

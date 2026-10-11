@@ -1,47 +1,47 @@
 1
-00:00:00,000 --> 00:00:07,478
-Njangsang. Essang. Essessang. Isangé... Quatre noms. Un seul produit.
+00:00:00,000 --> 00:00:03,458
+Vous avez grandi à Douala. Aujourd'hui, vous vivez à Paris.
 
 2
-00:00:07,804 --> 00:00:14,184
-Au Cameroun, le même arbre porte un nom différent selon que l'on parle bassa, boulou, ewondo ou bakossi.
+00:00:04,088 --> 00:00:08,288
+Un samedi, vous entrez dans une afroshop. Vous cherchez du njangsang.
 
 3
-00:00:14,366 --> 00:00:19,447
-Résultat : au marché, ou dans une épicerie de la diaspora, on ne se comprend pas.
+00:00:08,823 --> 00:00:13,340
+Le vendeur ne voit pas. Pourtant, le produit est peut-être juste là, sur l'étagère.
 
 4
-00:00:19,777 --> 00:00:23,399
-Et en ligne, les listes de noms circulent... sans dire d'où elles viennent.
+00:00:13,958 --> 00:00:17,146
+Lui a grandi à Abidjan. Chez lui, ça s'appelle akpi.
 
 5
-00:00:23,723 --> 00:00:27,392
-AfroAtlas relie les noms d'un même produit. Sources à l'appui.
+00:00:17,709 --> 00:00:22,010
+Même produit. Deux noms. Et aucune liste fiable pour faire le lien.
 
 6
-00:00:27,697 --> 00:00:36,667
-Vous tapez le nom que vous connaissez... et AfroAtlas vous montre tous les autres : en bassa, en douala, en ewondo, en fang, en bakwéri.
+00:00:22,407 --> 00:00:24,474
+C'est pour ça qu'existe AfroAtlas.
 
 7
-00:00:36,990 --> 00:00:42,812
-Chaque nom est relié à sa source : l'ouvrage, la page, la langue. Rien n'est inventé.
+00:00:25,061 --> 00:00:31,656
+Vous tapez le nom de chez vous... et AfroAtlas vous montre ses autres noms, pays par pays, langue par langue.
 
 8
-00:00:43,130 --> 00:00:47,207
-On commence par le Cameroun : huit régions sur dix, déjà documentées.
+00:00:32,140 --> 00:00:35,271
+Chaque nom est relié à sa source. Rien n'est inventé.
 
 9
-00:00:47,540 --> 00:00:52,980
-Aujourd'hui : quatre-vingt-quinze fiches, mille trente-cinq appellations, cent dix-neuf sources.
+00:00:35,845 --> 00:00:39,976
+Choisissez le pays du vendeur, et montrez-lui la carte : le nom qu'il connaît.
 
 10
-00:00:53,310 --> 00:00:55,673
-Et au marché ? Vous montrez la carte au vendeur.
+00:00:40,664 --> 00:00:46,887
+Soumbala au Mali, nététou au Sénégal. Foléré au Cameroun, bissap-feuille au Sénégal.
 
 11
-00:00:55,990 --> 00:01:06,268
-Et au-delà du Cameroun : soumbala au Mali, nététou au Sénégal, akpi en Côte d'Ivoire, managu au Kenya. Treize pays déjà. Et ce n'est que le début.
+00:00:47,362 --> 00:00:53,610
+Aujourd'hui : quatre-vingt-quinze fiches, mille trente-cinq appellations, cent dix-neuf sources, treize pays.
 
 12
-00:01:06,588 --> 00:01:09,825
-Retrouvez le vôtre, sur AfroAtlas. Abonnez-vous.
+00:00:54,152 --> 00:00:59,298
+Un produit, plusieurs noms. Retrouvez le vôtre, sur AfroAtlas. Abonnez-vous.

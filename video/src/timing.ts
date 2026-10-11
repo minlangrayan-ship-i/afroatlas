@@ -39,4 +39,4 @@ export function repereExact(format: NomFormat, texte: string, ligne: number, occ
 
 /** Durée totale de la vidéo : voix + une tenue finale pour l'appel à l'action. */
 export const dureeTotale = (format: NomFormat) =>
-  Math.round((pistes[format].duree + (format === 'youtube' ? 2.2 : 1.6)) * FPS);
+  Math.round((pistes[format].duree + (format === 'youtube' ? 2.5 : 1.8)) * FPS);
