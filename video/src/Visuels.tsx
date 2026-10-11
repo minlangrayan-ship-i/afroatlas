@@ -36,7 +36,7 @@ export const Miniature: React.FC = () => (
     <Grain graine={3} opacite={0.07} />
     <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontFamily: polices.titre, fontWeight: 900 }}>
       <div style={{ fontSize: 40, color: couleurs.ocre }}>✳ AfroAtlas.</div>
-      <div style={{ fontSize: 92, color: couleurs.creme, margin: '18px 0 34px', letterSpacing: '-0.02em' }}>MÊME PRODUIT, DEUX NOMS</div>
+      <div style={{ fontSize: 78, color: couleurs.creme, margin: '18px 0 34px', letterSpacing: '-0.02em' }}>MÊME PRODUIT, DEUX NOMS</div>
       <Paire a={trouver(njansang, 'CMR', 'njangsang')} b={trouver(njansang, 'CIV', 'akpi')} taille={96} />
     </div>
     <div style={{ position: 'absolute', right: 16, bottom: 12, fontFamily: polices.texte, fontSize: 14, color: '#ffffffa0' }}>Photo : {njansang.photo.credit}</div>
