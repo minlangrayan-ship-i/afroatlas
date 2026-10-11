@@ -1,0 +1,461 @@
+{
+ "duree": 33.019,
+ "mots": [
+  {
+   "mot": "Sao.",
+   "ligne": 0,
+   "debut": 0.0,
+   "fin": 0.583
+  },
+  {
+   "mot": "Sah.",
+   "ligne": 0,
+   "debut": 0.892,
+   "fin": 1.472
+  },
+  {
+   "mot": "Assa.",
+   "ligne": 0,
+   "debut": 1.793,
+   "fin": 2.36
+  },
+  {
+   "mot": "Odou.",
+   "ligne": 0,
+   "debut": 2.679,
+   "fin": 3.179
+  },
+  {
+   "mot": "Ce",
+   "ligne": 0,
+   "debut": 3.488,
+   "fin": 3.73
+  },
+  {
+   "mot": "sont",
+   "ligne": 0,
+   "debut": 3.73,
+   "fin": 3.973
+  },
+  {
+   "mot": "tous",
+   "ligne": 0,
+   "debut": 3.973,
+   "fin": 4.216
+  },
+  {
+   "mot": "des",
+   "ligne": 0,
+   "debut": 4.216,
+   "fin": 4.459
+  },
+  {
+   "mot": "noms",
+   "ligne": 0,
+   "debut": 4.459,
+   "fin": 4.701
+  },
+  {
+   "mot": "du",
+   "ligne": 0,
+   "debut": 4.701,
+   "fin": 4.944
+  },
+  {
+   "mot": "safou.",
+   "ligne": 0,
+   "debut": 4.944,
+   "fin": 5.43
+  },
+  {
+   "mot": "Chaque",
+   "ligne": 1,
+   "debut": 5.729,
+   "fin": 6.064
+  },
+  {
+   "mot": "langue",
+   "ligne": 1,
+   "debut": 6.064,
+   "fin": 6.399
+  },
+  {
+   "mot": "du",
+   "ligne": 1,
+   "debut": 6.399,
+   "fin": 6.567
+  },
+  {
+   "mot": "Cameroun",
+   "ligne": 1,
+   "debut": 6.567,
+   "fin": 7.069
+  },
+  {
+   "mot": "a",
+   "ligne": 1,
+   "debut": 7.069,
+   "fin": 7.237
+  },
+  {
+   "mot": "les",
+   "ligne": 1,
+   "debut": 7.237,
+   "fin": 7.404
+  },
+  {
+   "mot": "siens.",
+   "ligne": 1,
+   "debut": 7.404,
+   "fin": 7.572
+  },
+  {
+   "mot": "Douala,",
+   "ligne": 1,
+   "debut": 7.882,
+   "fin": 8.517
+  },
+  {
+   "mot": "bassa,",
+   "ligne": 1,
+   "debut": 8.517,
+   "fin": 9.151
+  },
+  {
+   "mot": "ewondo,",
+   "ligne": 1,
+   "debut": 9.151,
+   "fin": 10.103
+  },
+  {
+   "mot": "fang,",
+   "ligne": 1,
+   "debut": 10.344,
+   "fin": 10.936
+  },
+  {
+   "mot": "bamoun...",
+   "ligne": 1,
+   "debut": 11.126,
+   "fin": 11.804
+  },
+  {
+   "mot": "Mais",
+   "ligne": 2,
+   "debut": 12.051,
+   "fin": 12.301
+  },
+  {
+   "mot": "qui",
+   "ligne": 2,
+   "debut": 12.301,
+   "fin": 12.551
+  },
+  {
+   "mot": "les",
+   "ligne": 2,
+   "debut": 12.551,
+   "fin": 12.801
+  },
+  {
+   "mot": "a",
+   "ligne": 2,
+   "debut": 12.801,
+   "fin": 13.051
+  },
+  {
+   "mot": "notés,",
+   "ligne": 2,
+   "debut": 13.051,
+   "fin": 13.552
+  },
+  {
+   "mot": "et",
+   "ligne": 2,
+   "debut": 13.552,
+   "fin": 13.802
+  },
+  {
+   "mot": "où ?",
+   "ligne": 2,
+   "debut": 13.802,
+   "fin": 14.052
+  },
+  {
+   "mot": "AfroAtlas",
+   "ligne": 3,
+   "debut": 14.368,
+   "fin": 15.053
+  },
+  {
+   "mot": "réunit",
+   "ligne": 3,
+   "debut": 15.053,
+   "fin": 15.51
+  },
+  {
+   "mot": "ces",
+   "ligne": 3,
+   "debut": 15.51,
+   "fin": 15.738
+  },
+  {
+   "mot": "noms,",
+   "ligne": 3,
+   "debut": 15.738,
+   "fin": 15.966
+  },
+  {
+   "mot": "sources",
+   "ligne": 3,
+   "debut": 15.966,
+   "fin": 16.195
+  },
+  {
+   "mot": "à",
+   "ligne": 3,
+   "debut": 16.195,
+   "fin": 16.423
+  },
+  {
+   "mot": "l'appui.",
+   "ligne": 3,
+   "debut": 16.423,
+   "fin": 16.88
+  },
+  {
+   "mot": "Pour",
+   "ligne": 4,
+   "debut": 17.205,
+   "fin": 17.378
+  },
+  {
+   "mot": "chaque",
+   "ligne": 4,
+   "debut": 17.378,
+   "fin": 17.724
+  },
+  {
+   "mot": "produit :",
+   "ligne": 4,
+   "debut": 17.724,
+   "fin": 18.07
+  },
+  {
+   "mot": "ses",
+   "ligne": 4,
+   "debut": 18.337,
+   "fin": 18.63
+  },
+  {
+   "mot": "noms,",
+   "ligne": 4,
+   "debut": 18.63,
+   "fin": 18.923
+  },
+  {
+   "mot": "sa",
+   "ligne": 4,
+   "debut": 19.22,
+   "fin": 19.444
+  },
+  {
+   "mot": "langue,",
+   "ligne": 4,
+   "debut": 19.444,
+   "fin": 19.892
+  },
+  {
+   "mot": "et",
+   "ligne": 4,
+   "debut": 20.217,
+   "fin": 20.396
+  },
+  {
+   "mot": "l'ouvrage",
+   "ligne": 4,
+   "debut": 20.396,
+   "fin": 20.754
+  },
+  {
+   "mot": "qui",
+   "ligne": 4,
+   "debut": 20.754,
+   "fin": 20.933
+  },
+  {
+   "mot": "l'atteste.",
+   "ligne": 4,
+   "debut": 20.933,
+   "fin": 21.47
+  },
+  {
+   "mot": "Huit",
+   "ligne": 5,
+   "debut": 21.779,
+   "fin": 21.99
+  },
+  {
+   "mot": "régions",
+   "ligne": 5,
+   "debut": 21.99,
+   "fin": 22.413
+  },
+  {
+   "mot": "du",
+   "ligne": 5,
+   "debut": 22.413,
+   "fin": 22.624
+  },
+  {
+   "mot": "Cameroun,",
+   "ligne": 5,
+   "debut": 22.624,
+   "fin": 23.258
+  },
+  {
+   "mot": "déjà",
+   "ligne": 5,
+   "debut": 23.454,
+   "fin": 23.801
+  },
+  {
+   "mot": "documentées.",
+   "ligne": 5,
+   "debut": 23.801,
+   "fin": 24.495
+  },
+  {
+   "mot": "Au",
+   "ligne": 6,
+   "debut": 24.802,
+   "fin": 25.028
+  },
+  {
+   "mot": "marché,",
+   "ligne": 6,
+   "debut": 25.028,
+   "fin": 25.479
+  },
+  {
+   "mot": "montre",
+   "ligne": 6,
+   "debut": 25.479,
+   "fin": 25.704
+  },
+  {
+   "mot": "la",
+   "ligne": 6,
+   "debut": 25.704,
+   "fin": 25.93
+  },
+  {
+   "mot": "carte",
+   "ligne": 6,
+   "debut": 25.93,
+   "fin": 26.156
+  },
+  {
+   "mot": "au",
+   "ligne": 6,
+   "debut": 26.156,
+   "fin": 26.381
+  },
+  {
+   "mot": "vendeur.",
+   "ligne": 6,
+   "debut": 26.381,
+   "fin": 26.832
+  },
+  {
+   "mot": "Et",
+   "ligne": 7,
+   "debut": 27.158,
+   "fin": 27.366
+  },
+  {
+   "mot": "déjà,",
+   "ligne": 7,
+   "debut": 27.366,
+   "fin": 27.781
+  },
+  {
+   "mot": "treize",
+   "ligne": 7,
+   "debut": 27.993,
+   "fin": 28.218
+  },
+  {
+   "mot": "pays",
+   "ligne": 7,
+   "debut": 28.218,
+   "fin": 28.444
+  },
+  {
+   "mot": "d'Afrique.",
+   "ligne": 7,
+   "debut": 28.444,
+   "fin": 29.119
+  },
+  {
+   "mot": "Lien",
+   "ligne": 8,
+   "debut": 29.369,
+   "fin": 29.618
+  },
+  {
+   "mot": "en",
+   "ligne": 8,
+   "debut": 29.618,
+   "fin": 29.867
+  },
+  {
+   "mot": "bio.",
+   "ligne": 8,
+   "debut": 29.867,
+   "fin": 30.115
+  },
+  {
+   "mot": "Enregistre,",
+   "ligne": 8,
+   "debut": 30.412,
+   "fin": 31.073
+  },
+  {
+   "mot": "et",
+   "ligne": 8,
+   "debut": 31.308,
+   "fin": 31.463
+  },
+  {
+   "mot": "partage",
+   "ligne": 8,
+   "debut": 31.463,
+   "fin": 31.775
+  },
+  {
+   "mot": "à",
+   "ligne": 8,
+   "debut": 31.775,
+   "fin": 31.93
+  },
+  {
+   "mot": "quelqu'un",
+   "ligne": 8,
+   "debut": 31.93,
+   "fin": 32.397
+  },
+  {
+   "mot": "qui",
+   "ligne": 8,
+   "debut": 32.397,
+   "fin": 32.552
+  },
+  {
+   "mot": "cuisine.",
+   "ligne": 8,
+   "debut": 32.552,
+   "fin": 33.019
+  }
+ ]
+}

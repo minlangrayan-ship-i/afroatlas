@@ -12,7 +12,7 @@
 | 1 | **Nom de la marque** | Le site, le code et le logo disent **AfroAtlas**, pas « AfroAthlas ». | Utiliser **AfroAtlas** partout. **[À VÉRIFIER]** si « AfroAthlas » est un changement de nom voulu. |
 | 2 | **Statuts de validation** | Le brief cite `verified / pending_review / disputed / rejected`. Les données utilisent `candidate / documented / reviewed / rejected`, et les **1 035 appellations publiées sont toutes `documented`** (aucune `reviewed`). | Afficher le badge réel **« Documenté · Source ↗ »**. Ne pas montrer de badge « verified » : ce serait faux. |
 | 3 | **Schéma Prisma** | Il n'y en a pas. Le site est en Astro, les données sont des fichiers JSON, et le backend Supabase est préparé. | Aucun impact sur la vidéo. |
-| 4 | **« Lancement : 10 régions du Cameroun »** | Les 10 régions sont bien cartographiées (geoBoundaries 2016, CC BY 3.0). Des noms ou usages rattachés à une région existent pour **9 régions sur 10**. **Adamaoua n'a encore aucune donnée.** | La carte montre les 10 régions et allume les 9 documentées. Adamaoua reste grisée avec « à documenter ». |
+| 4 | **« Lancement : 10 régions du Cameroun »** | Les 10 régions sont bien cartographiées (geoBoundaries 2016, CC BY 3.0). Des noms ou usages rattachés à une région existent pour **8 régions sur 10**. **Adamaoua et Nord n’ont encore aucune donnée.** | La carte montre les 10 régions et allume les 8 documentées. Adamaoua et Nord restent grisées avec « à documenter ». |
 | 5 | **Pays et extension** | 25 pays africains sont navigables. Des noms ou usages sont rattachés à **13 pays**, dont la Côte d'Ivoire, le Sénégal et le Nigeria. **Le Ghana n'en a aucun.** | Dire « déjà 13 pays documentés ». Ne pas annoncer le Ghana comme couvert. |
 | 6 | **Catégories** | Le site en a **7** : légumes et feuilles (36 fiches), épices et condiments (25), poissons (17), produits de base (8), fruits (4), herbes (3), préparations (2). | Montrer les 5 du brief en vedette, sans dire qu'il n'y en a que 5. |
 | 7 | **CTA** | Le texte entre accolades est le titre de la page d'accueil, pas une adresse. L'adresse actuelle est `minlangrayan-ship-i.github.io/afroatlas`. Aucun domaine propre pour l'instant. | Afficher le titre « Un produit, plusieurs noms. Retrouvez le vôtre. » avec l'adresse actuelle. **[À VÉRIFIER]** : domaine définitif, s'il est acheté avant la publication. |
@@ -35,7 +35,7 @@
 | Cameroun : appellations | **131**, sur **45** produits | `countryIds` contient CMR |
 | Cameroun : langues locales nommées | **17** (Baka, Bakoko, Bakossi, Bakundou, Bakwéri, Bamoun, Bangwa, Bassa, Baya, Boulou, Douala, Ejagham, Ewondo, Fang, Fulfuldé, Ngoumba, Vouté), plus le français et l'anglais | `languageLabel` |
 | Cameroun : sources | **26** | preuves des noms CMR |
-| Cameroun : régions avec données | **9 sur 10** (toutes sauf Adamaoua) | `regionIds` des noms et contextes |
+| Cameroun : régions avec données | **8 sur 10** (toutes sauf Adamaoua et Nord) | `regionIds` des noms et contextes |
 
 ### Exemples de démo (noms et langues tels que documentés)
 
@@ -84,7 +84,7 @@ Les trois formats réutilisent les mêmes scènes. Seuls la durée, le cadrage e
 | S5 | **Démo de recherche** | Mockup animé de l'interface réelle : on tape « essang », les suggestions apparaissent, on ouvre la fiche. |
 | S6 | **Démo multi-noms** | Bloc « Aussi appelé » : les noms apparaissent un par un avec leur langue. Zoom sur le badge « Documenté · Source ↗ ». |
 | S7 | **Démo source** | La source s'ouvre : titre de l'ouvrage, éditeurs, page. Mise en avant de « chaque nom a sa source ». |
-| S8 | **Carte du Cameroun** | 10 régions en trait or. 9 s'allument en vert, une à une. Adamaoua reste grisée, avec « à documenter ». |
+| S8 | **Carte du Cameroun** | 10 régions en trait or. 8 s’allument en vert, une à une. Adamaoua et Nord restent grisées, avec « à documenter ». |
 | S9 | **Preuve chiffrée** | Compteurs animés : 95 fiches, 1 035 appellations, 119 sources, 17 langues camerounaises. |
 | S10 | **Montrer au vendeur** | Mockup mobile de la carte vendeur en plein écran : « Je cherche ce produit, dans cette forme. » |
 | S11 | **Extension** | Zoom arrière du Cameroun vers l'Afrique : 13 pays documentés s'allument (dont Côte d'Ivoire, Sénégal, Nigeria). |
@@ -120,7 +120,7 @@ Les trois formats réutilisent les mêmes scènes. Seuls la durée, le cadrage e
 | S5 Recherche | 0:31–0:38 | Mockup desktop : saisie de « essang », suggestions | « Vous tapez le nom que vous connaissez… » | « Tapez votre nom » | frappe clavier |
 | S6 Multi-noms | 0:38–0:47 | Fiche : bloc « Aussi appelé », noms et langues un par un | « … et AfroAtlas vous montre tous les autres : en bassa, en douala, en ewondo, en fang, en bakwéri. » | njangsang · Bassa / essessang · Ewondo / esangasanga · Bakwéri | ticks |
 | S7 Source | 0:47–0:54 | Zoom badge « Documenté · Source ↗ », panneau de la source | « Chaque nom est relié à sa source : l'ouvrage, la page, la langue. Rien n'est inventé. » | « 1 nom = 1 source » | clic |
-| S8 Carte | 0:54–1:01 | Carte du Cameroun, 9 régions allumées, Adamaoua grisée | « On commence par le Cameroun : neuf régions sur dix déjà documentées. » | « 9/10 régions » + « Adamaoua : à documenter » | montée |
+| S8 Carte | 0:54–1:01 | Carte du Cameroun, 8 régions allumées, Adamaoua et Nord grisées | « On commence par le Cameroun : huit régions sur dix déjà documentées. » | « 8/10 régions » + « Adamaoua, Nord : à documenter » | montée |
 | S9 Preuve | 1:01–1:08 | Compteurs | « Aujourd'hui : 95 fiches, 1 035 appellations, 119 sources. » | 95 · 1 035 · 119 | ticks rapides |
 | S10 Vendeur | 1:08–1:12 | Mockup mobile, carte vendeur plein écran | « Et au marché ? Vous montrez la carte au vendeur. » | « Montrer au vendeur » | whoosh |
 | S11 Extension | 1:12–1:15 | Zoom arrière, 13 pays allumés | « Treize pays déjà, et ce n'est que le début. » | « 13 pays » | — |
@@ -135,7 +135,7 @@ Les trois formats réutilisent les mêmes scènes. Seuls la durée, le cadrage e
 > AfroAtlas relie les noms d'un même produit. Sources à l'appui.
 > Vous tapez le nom que vous connaissez… et AfroAtlas vous montre tous les autres : en bassa, en douala, en ewondo, en fang, en bakwéri.
 > Chaque nom est relié à sa source : l'ouvrage, la page, la langue. Rien n'est inventé.
-> On commence par le Cameroun : neuf régions sur dix déjà documentées.
+> On commence par le Cameroun : huit régions sur dix déjà documentées.
 > Aujourd'hui : 95 fiches, 1 035 appellations, 119 sources.
 > Et au marché ? Vous montrez la carte au vendeur.
 > Treize pays déjà, et ce n'est que le début.
@@ -176,13 +176,13 @@ Version plus esthétique : plans un peu plus longs (1,5 à 2 s), photos produits
 | S3 Problème | 0:09–0:13 | Texte seul sur noir | « Mais qui les a notés, et où ? » | « Qui les a notés ? » | — |
 | S4 Logo | 0:13–0:17 | Révélation or | « AfroAtlas réunit ces noms, sources à l'appui. » | « Un même produit, plusieurs noms. » | impact doux |
 | S6+S7 Démo | 0:17–0:25 | Mockup mobile : fiche, « Aussi appelé », badge source | « Pour chaque produit : ses noms, sa langue, et l'ouvrage qui l'atteste. » | « Documenté · Source ↗ » | clic |
-| S8 Carte | 0:25–0:30 | Carte du Cameroun, régions qui s'allument | « Neuf régions du Cameroun déjà documentées. » | « 9/10 régions » | montée |
+| S8 Carte | 0:25–0:30 | Carte du Cameroun, régions qui s'allument | « Huit régions du Cameroun déjà documentées. » | « 8/10 régions » | montée |
 | S10 Vendeur | 0:30–0:34 | Carte vendeur | « Au marché, montre la carte au vendeur. » | « Montrer au vendeur » | whoosh |
 | S12 CTA | 0:34–0:38 | Titre et CTA | « Lien en bio. Enregistre et partage à quelqu'un qui cuisine. » | « LIEN EN BIO » / « Enregistre & partage » + {{HANDLE}} [À VÉRIFIER] | impact |
 
 **Texte de la voix off** (environ 85 mots) :
 
-> Sao. Sah. Assa. Odou. Ce sont tous des noms du safou. Chaque langue du Cameroun a les siens. Douala, bassa, ewondo, fang, bamoun… Mais qui les a notés, et où ? AfroAtlas réunit ces noms, sources à l'appui. Pour chaque produit : ses noms, sa langue, et l'ouvrage qui l'atteste. Neuf régions du Cameroun déjà documentées. Au marché, montre la carte au vendeur. Lien en bio. Enregistre et partage à quelqu'un qui cuisine.
+> Sao. Sah. Assa. Odou. Ce sont tous des noms du safou. Chaque langue du Cameroun a les siens. Douala, bassa, ewondo, fang, bamoun… Mais qui les a notés, et où ? AfroAtlas réunit ces noms, sources à l'appui. Pour chaque produit : ses noms, sa langue, et l'ouvrage qui l'atteste. Huit régions du Cameroun déjà documentées. Au marché, montre la carte au vendeur. Lien en bio. Enregistre et partage à quelqu'un qui cuisine.
 
 (Ces noms du safou sont rattachés à la fiche « Safoutier — prunier d'Afrique », source IPGRI. sao = Douala et Bakwéri, sah = Bassa, assa = Ewondo, odou = Fang, wom = Bamoun.)
 
