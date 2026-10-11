@@ -1,44 +1,64 @@
 # YouTube — `out/afroathlas_youtube_16x9.mp4`
 
-Miniature : `publish/miniature_youtube_1280x720.png`
-Sous-titres : `out/afroathlas_youtube_16x9.fr.srt` (français) et `.en.srt` (anglais), à importer dans YouTube Studio → Sous-titres.
+Miniature : `publish/miniature_youtube_1280x720.png`.
+Sous-titres : importer `afroathlas_youtube_16x9.fr.srt` et `.en.srt` (YouTube Studio → Sous-titres). Les sous-titres sont aussi lus par l'algorithme : ils aident le référencement.
 
-## Titre (choisir un ; tester le second après 7 jours)
+## Titre (moins de 60 caractères ; tester le second après 7 jours)
 
-1. **Même produit, deux noms : pourquoi vous ne le trouvez pas à l'afroshop**
-2. Njangsang ou akpi ? Le problème des noms des produits africains
+1. **Njangsang ou akpi ? Le même produit, deux noms**
+2. Pourquoi vous ne trouvez pas vos produits à l'afroshop
 
-## Description
+## Description (à coller telle quelle)
+
+Les deux premières lignes s'affichent avant « plus » : elles portent l'accroche, les mots-clés et le lien.
 
 ```
-Vous avez grandi à Douala, vous vivez à Paris… et à l'afroshop, personne ne connaît le njangsang. Pourtant, il est peut-être sur l'étagère : en Côte d'Ivoire, on l'appelle akpi.
+Njangsang au Cameroun, akpi en Côte d'Ivoire : c'est le même produit. Voilà pourquoi vous ne le trouvez pas à l'afroshop.
+👉 Retrouvez le nom de votre produit : https://minlangrayan-ship-i.github.io/afroatlas/
 
-AfroAtlas est une bibliothèque gratuite des produits alimentaires africains. Tapez le nom que vous connaissez : AfroAtlas vous montre ses autres noms, pays par pays, langue par langue, avec la source de chaque nom. Choisissez le pays du vendeur et montrez-lui la carte : le nom qu'il connaît.
+Vous avez grandi à Douala, vous vivez à Paris, Bruxelles ou Montréal. Vous entrez dans une épicerie africaine, vous demandez du njangsang… et le vendeur ne voit pas. Pourtant, le produit est peut-être sur l'étagère : lui a grandi à Abidjan, et chez lui, ça s'appelle akpi.
 
-Exemples documentés : njangsang (Cameroun) = akpi (Côte d'Ivoire) · soumbala (Mali) = nététou (Sénégal) · foléré (Cameroun) = bissap-feuille (Sénégal).
+AfroAtlas est une bibliothèque gratuite des produits alimentaires africains. Tapez le nom que vous connaissez : AfroAtlas vous montre ses autres noms, pays par pays et langue par langue, avec la source de chaque nom. Choisissez le pays du vendeur, et montrez-lui la carte avec le nom qu'il connaît.
+
+Exemples documentés :
+• njangsang (Cameroun) = akpi (Côte d'Ivoire)
+• soumbala (Mali, Burkina Faso) = nététou (Sénégal)
+• foléré (Cameroun) = bissap-feuille (Sénégal)
 
 Aujourd'hui : 95 fiches, 1 035 appellations, 119 sources, 13 pays.
 
-👉 Retrouvez le vôtre : https://minlangrayan-ship-i.github.io/afroatlas/
-🛒 Vous tenez une épicerie africaine ? Kit QR gratuit : https://minlangrayan-ship-i.github.io/afroatlas/epiceries/
-✍️ Vous connaissez un autre nom ? Proposez-le avec sa source : https://minlangrayan-ship-i.github.io/afroatlas/contribuer/
+💬 Et vous : quel produit de chez vous ne trouvez-vous jamais sous son nom ? Dites le nom ET votre pays en commentaire, on vérifie la source et on l'ajoute.
+
+🛒 Vous tenez une épicerie africaine ? Kit d'étiquettes QR gratuit : https://minlangrayan-ship-i.github.io/afroatlas/epiceries/
+✍️ Proposer un nom avec sa source : https://minlangrayan-ship-i.github.io/afroatlas/contribuer/
 
 Chapitres
 0:00 Un autre nom à l'afroshop
 0:22 AfroAtlas : retrouver un produit par son nom
 0:40 D'autres pays, et les chiffres
 
-Crédits : photos Wikimedia Commons (auteurs et licences affichés à l'écran) ; fonds de carte Natural Earth (domaine public) ; voix et musique générées (vidIQ).
+Crédits : photos Wikimedia Commons (auteurs et licences à l'écran) ; fonds de carte Natural Earth ; voix et musique générées (vidIQ).
 
-#AfroAtlas #CuisineAfricaine #Diaspora #Afroshop #Cameroun #CôteDIvoire #Sénégal #Mali
+#Afroshop #CuisineAfricaine #DiasporaAfricaine
 ```
 
-## Mots-clés (balises YouTube)
+Les trois hashtags de la fin s'affichent au-dessus du titre : n'en mettez pas plus.
 
-afroatlas, produits africains, noms des produits africains, afroshop, épicerie africaine, diaspora africaine, njangsang, akpi, soumbala, nététou, cuisine camerounaise, cuisine ivoirienne, cuisine sénégalaise
-
-## Commentaire épinglé
+## Balises (YouTube Studio → Plus d'options → Balises)
 
 ```
-Et vous, quel produit de chez vous ne retrouvez-vous jamais sous son nom ? Dites-nous le nom ET le pays en commentaire : on vérifie avec une source et on l'ajoute à AfroAtlas 👇
+afroshop, épicerie africaine, produits africains, noms des produits africains, diaspora africaine, njangsang, akpi, ndjansang, soumbala, nététou, bissap, foléré, cuisine camerounaise, cuisine ivoirienne, cuisine sénégalaise, afroatlas
 ```
+
+## Commentaire épinglé (à publier vous-même juste après la mise en ligne)
+
+```
+Le njangsang, vous l'appelez comment chez vous ? 👇 Donnez le nom + votre pays : on vérifie la source et on l'ajoute à AfroAtlas (lien en description).
+```
+
+## Réglages qui aident la mise en avant
+
+- Fiche d'écran de fin (dernières 5 s) : « S'abonner » et une vidéo ou playlist.
+- Langue de la vidéo : français. Ajouter le titre et la description traduits en anglais (Studio → Langues).
+- Publier entre 18 h et 20 h (heure de Paris) en semaine ou le samedi matin, puis répondre à tous les commentaires de la première heure.
+- Recouper un extrait de 20 à 40 s en YouTube Short, avec un lien vers la vidéo complète.
