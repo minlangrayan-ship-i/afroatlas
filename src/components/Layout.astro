@@ -194,6 +194,7 @@ const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
       </div>
       <div class="container footer-bottom">
         <span>Prototype documentaire public · sans compte · mesure d’audience Cloudflare</span>
+        <a href={href('mentions-legales/')}>Mentions légales et confidentialité</a>
         {import.meta.env.PUBLIC_USAGE_METRICS_ENABLED === 'true' && <UsageConsent client:visible />}
       </div>
     </footer>

@@ -863,6 +863,7 @@ const journeyUi: Record<string, [string, string]> = {
   '«': ['“', '«'],
   'Proposer ce produit': ['Suggest this product', 'اقترح هذا المنتج'],
   'Aussi appelé': ['Also known as', 'يُعرف أيضًا باسم'],
+  'Mentions légales et confidentialité': ['Legal notice and privacy', 'الإشعار القانوني والخصوصية'],
   Igbo: ['Igbo', 'الإيغبو'],
   Peul: ['Fula', 'الفولانية'],
   Lingala: ['Lingala', 'اللينغالا'],

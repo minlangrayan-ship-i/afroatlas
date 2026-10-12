@@ -115,6 +115,18 @@ export const staticMeta: Record<string, LocalizedMeta> = {
     en: { title: 'My favourites', description: 'Your saved AfroAtlas records, on this device.' },
     ar: { title: 'مفضلاتي', description: 'صفحات أفرو أطلس المحفوظة على هذا الجهاز.' },
   },
+  'mentions-legales': {
+    en: {
+      title: 'Legal notice and privacy',
+      description:
+        'Publisher, host, data collected by AfroAtlas (contribution form, cookieless analytics, local storage) and your rights.',
+    },
+    ar: {
+      title: 'الإشعار القانوني والخصوصية',
+      description:
+        'الناشر وجهة الاستضافة والبيانات التي يجمعها أفرو أطلس (نموذج المساهمة، قياس الجمهور دون ملفات تعريف الارتباط، التخزين المحلي) وحقوقك.',
+    },
+  },
   epiceries: {
     en: {
       title: 'Kit for African groceries',
