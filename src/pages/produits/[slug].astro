@@ -22,6 +22,7 @@ import {
   isBoilerplate,
   glanceNames,
   commonName,
+  sourceRights,
 } from '../../lib/presentation';
 import { productMeta } from '../../lib/page-meta';
 export function getStaticPaths() {
@@ -129,8 +130,14 @@ const contextProofs = Object.fromEntries(
               image.creator
             )}{' '}
             ·{' '}
-            <a href={image.sourcePageUrl} target="_blank" rel="noopener noreferrer">
-              Source ↗
+            <a
+              href={image.sourcePageUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-no-translate
+              dir="auto"
+            >
+              {image.title} ↗
             </a>{' '}
             ·{' '}
             <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">
@@ -375,7 +382,22 @@ const contextProofs = Object.fromEntries(
             <a href={s.url} target="_blank" rel="noopener noreferrer">
               {s.title} ↗
             </a>{' '}
-            · {s.licenseId} · révision {s.datasetVersion} · importé le {s.retrievedAt}
+            {sourceRights(s.licenseId).code && (
+              <span data-no-translate> · {sourceRights(s.licenseId).code}</span>
+            )}
+            {sourceRights(s.licenseId).note && (
+              <>
+                {' · '}
+                <span>{sourceRights(s.licenseId).note}</span>
+              </>
+            )}
+            {/^\d+$/.test(s.datasetVersion) && (
+              <span>
+                {' '}
+                · <span>révision</span> <span data-no-translate>{s.datasetVersion}</span>
+              </span>
+            )}{' '}
+            · <span>consulté le</span> <time datetime={s.retrievedAt}>{s.retrievedAt}</time>
             {s.accessNote && (
               <small class="table-note" data-no-translate dir="auto">
                 {s.accessNote}

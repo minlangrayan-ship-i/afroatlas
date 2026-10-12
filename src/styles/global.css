@@ -2763,7 +2763,7 @@ astro-island:has([data-replaced-photo]) + .photo-credit {
 .grocery-label {
   display: grid;
   grid-template-columns: 96px 1fr;
-  grid-template-areas: 'photo text' 'qr qr' 'brand brand';
+  grid-template-areas: 'photo text' 'qr qr' 'brand brand' 'credit credit';
   gap: 8px 12px;
   padding: 14px;
   border: 1px dashed var(--muted);
@@ -2799,6 +2799,25 @@ astro-island:has([data-replaced-photo]) + .photo-credit {
   text-align: center;
   font-size: 11px;
   color: var(--muted);
+}
+.grocery-label .grocery-credit {
+  grid-area: credit;
+  font-size: 9px;
+  overflow-wrap: anywhere;
+}
+.grocery-credits {
+  margin-top: 24px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.grocery-credits h2 {
+  font-size: 15px;
+  margin: 0 0 6px;
+}
+.grocery-credits ul {
+  margin: 0;
+  padding-inline-start: 18px;
+  overflow-wrap: anywhere;
 }
 @media print {
   .site-header,

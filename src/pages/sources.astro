@@ -3,6 +3,7 @@ import Layout from '../components/Layout.astro';
 import { catalogue, commercial } from '../lib/catalogue';
 import geography from '../data/published/geography.json';
 import { href } from '../lib/links';
+import { sourceRights } from '../lib/presentation';
 ---
 
 <Layout title="Sources & crédits">
@@ -68,8 +69,19 @@ import { href } from '../lib/links';
                 {s.title} ↗
               </a>
             </h3>
-            <p data-no-translate dir="auto">
-              {s.publisher} · {s.licenseId}
+            <p>
+              <span data-no-translate dir="auto">
+                {s.publisher}
+              </span>
+              {sourceRights(s.licenseId).code && (
+                <span data-no-translate> · {sourceRights(s.licenseId).code}</span>
+              )}
+              {sourceRights(s.licenseId).note && (
+                <>
+                  {' · '}
+                  <span>{sourceRights(s.licenseId).note}</span>
+                </>
+              )}
             </p>
             <p class="table-note" data-no-translate dir="auto">
               {s.accessNote}
@@ -142,7 +154,7 @@ import { href } from '../lib/links';
                 </a>
                 <small>{image.attribution}</small>
                 <small>
-                  {image.modifications} · import {image.retrievedAt}
+                  <span>{image.modifications}</span> · import {image.retrievedAt}
                 </small>
               </div>
             </article>

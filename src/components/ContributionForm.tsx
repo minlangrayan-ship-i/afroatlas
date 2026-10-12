@@ -7,6 +7,7 @@ import regions from '../data/published/regions.json';
 import { validatePhoto, type Submission } from '../lib/community';
 import { sendContributionEmail } from '../lib/contribution-email';
 import { site } from '../data/site';
+import { href } from '../lib/links';
 import { recordUsage } from '../lib/usage';
 type ProductOption = { id: string; slug: string; labelFr: string };
 const initial = {
@@ -359,8 +360,9 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
               checked={fields.photoRights}
               onChange={(e) => update('photoRights', e.target.checked)}
             />
-            Je suis l’auteur et j’autorise la publication de cette photographie sous CC BY 4.0 avec
-            le crédit indiqué dans la description.
+            Je suis l’auteur de cette photographie, elle ne montre aucune personne reconnaissable
+            sans son accord, et j’autorise sa publication sous CC BY 4.0 avec le crédit indiqué dans
+            la description.
           </label>
           <label>
             Source de la photographie
@@ -412,8 +414,11 @@ function ContributionForm({ products }: { products: ProductOption[] }) {
         <p className="table-note">
           <span>
             FormSubmit traite les champs transmis et conserve les propositions textuelles pendant 30
-            jours. Votre adresse de suivi et votre photo ne sont pas publiées.
+            jours. Votre adresse e-mail n’est jamais publiée ; une photo n’est publiée que si vous
+            l’autorisez, avec le crédit et la licence indiqués.
           </span>{' '}
+          <a href={href('mentions-legales/')}>Mentions légales et confidentialité</a>
+          {' · '}
           <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">
             Confidentialité du service email ↗
           </a>
