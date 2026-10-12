@@ -3,7 +3,6 @@ import PresentationMedia from '../components/PresentationMedia.astro';
 import Layout from '../components/Layout.astro';
 import SearchBox from '../components/SearchBox';
 import ProductCard from '../components/ProductCard';
-import AdSlot from '../components/AdSlot.astro';
 import { cardProducts, products, namesFor } from '../lib/catalogue';
 import { href } from '../lib/links';
 import { countries, categories, languageNames } from '../data/countries';
@@ -143,9 +142,7 @@ const exampleNames = namesFor(hero.id)
       <span aria-hidden="true">▶ · 1:17</span>
     </a>
   </section>
-  <div class="container">
-    <AdSlot location="home-after-categories" />
-  </div>
+  <div class="container"></div>
   <section class="container section">
     <div class="section-header">
       <div>

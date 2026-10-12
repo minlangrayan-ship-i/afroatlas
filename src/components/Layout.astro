@@ -2,7 +2,6 @@
 import '../styles/global.css';
 import { site } from '../data/site';
 import { href } from '../lib/links';
-import AdSlot from './AdSlot.astro';
 import UsageConsent from './UsageConsent';
 import { staticMeta, type LocalizedMeta } from '../lib/page-meta';
 const pageDescriptions: Record<string, string> = {
@@ -12,8 +11,6 @@ const pageDescriptions: Record<string, string> = {
     'Comment AfroAtlas distingue produits, formes et appellations, vérifie les sources et signale les ambiguïtés sans inventer d’équivalences.',
   sources:
     'Crédits, licences et références des photographies et des données documentaires d’AfroAtlas.',
-  contact:
-    'Contactez le créateur d’AfroAtlas par e-mail pour proposer un partenariat ou une publicité soumise à validation.',
   presentation:
     'Découvrez AfroAtlas en vidéo : reconnaître un ingrédient et se comprendre malgré les différences d’appellation.',
 };
@@ -161,9 +158,6 @@ const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
     <main id="main">
       <slot />
     </main>
-    <div class="container">
-      <AdSlot location="footer" />
-    </div>
     <footer class="site-footer">
       <div class="container footer-top">
         <div>
@@ -189,7 +183,7 @@ const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
           <a href={href('sources/')}>Sources & crédits</a>
           <a href={href('contribuer/')}>Proposer une correction</a>
           <a href={href('epiceries/')}>Kit gratuit pour épiceries</a>
-          <a href={href('contact/')}>Contact et partenariats publicitaires</a>
+          <a href={`mailto:${site.contactEmail}`}>Nous écrire</a>
         </div>
       </div>
       <div class="container footer-bottom">

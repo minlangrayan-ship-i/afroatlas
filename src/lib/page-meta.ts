@@ -62,18 +62,7 @@ export const staticMeta: Record<string, LocalizedMeta> = {
       description: 'الاعتمادات والتراخيص والمراجع الخاصة بصور وبيانات أفرو أطلس.',
     },
   },
-  contact: {
-    en: {
-      title: 'Contact and advertising partnerships',
-      description:
-        'Contact the creator of AfroAtlas by email about a partnership, a grocery listing or advertising subject to approval.',
-    },
-    ar: {
-      title: 'التواصل والشراكات الإعلانية',
-      description:
-        'تواصل مع منشئ أفرو أطلس بالبريد الإلكتروني بشأن شراكة أو إدراج متجر أو إعلان خاضع للموافقة.',
-    },
-  },
+
   presentation: {
     en: {
       title: 'Video: recognise a product in an African grocery',

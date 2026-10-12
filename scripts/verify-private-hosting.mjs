@@ -12,7 +12,7 @@ const fetchPage = (path, options = {}) =>
     signal: AbortSignal.timeout(20000),
     ...options,
   });
-for (const path of ['', 'explorer/', 'produits/gombo/', 'presentation/', 'contact/']) {
+for (const path of ['', 'explorer/', 'produits/gombo/', 'presentation/', 'mentions-legales/']) {
   const response = await fetchPage(path);
   assert.equal(response.status, 200, `Public page ${path}`);
   assert(

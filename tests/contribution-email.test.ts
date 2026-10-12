@@ -36,7 +36,9 @@ describe('automatic email contribution transport', () => {
     const uploaded = payload.get('attachment') as File;
     expect(Buffer.from(await uploaded.arrayBuffer())).toEqual(bytes);
     expect(uploaded.name).toBe('photo.webp');
-    expect(contributionEmailEndpoint).toBe('https://formsubmit.co/ajax/minlangrayan%40gmail.com');
+    expect(contributionEmailEndpoint).toBe(
+      'https://formsubmit.co/ajax/contact.alqavya%40gmail.com',
+    );
   });
   it('rejects a disguised image, missing reuse rights and missing consent before contacting the provider', async () => {
     const fetcher = vi.fn();
@@ -75,13 +77,11 @@ describe('automatic email contribution transport', () => {
     expect(fetcher).not.toHaveBeenCalled();
   });
   it('does not convert HTTP 200 with activation pending into a success', async () => {
-    const fetcher = vi
-      .fn()
-      .mockResolvedValue(
-        new Response(JSON.stringify({ success: 'false', message: 'This form needs Activation.' }), {
-          status: 200,
-        }),
-      );
+    const fetcher = vi.fn().mockResolvedValue(
+      new Response(JSON.stringify({ success: 'false', message: 'This form needs Activation.' }), {
+        status: 200,
+      }),
+    );
     await expect(
       sendContributionEmail(fields, null, reference, pageUrl, fetcher),
     ).rejects.toMatchObject({ code: 'activation' });

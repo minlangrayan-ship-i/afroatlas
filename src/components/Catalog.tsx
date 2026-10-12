@@ -8,7 +8,6 @@ import {
   productChoice,
   sortLabels,
 } from '../lib/presentation';
-import { activeAdvertisement } from '../lib/advertising';
 import { useEffect, useMemo, useState } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
 import type { CardProduct } from '../lib/catalogue';
@@ -82,7 +81,6 @@ function Catalog({
   const allNames = products.flatMap((p) => p.names);
   const languages = languageOptions(allNames, filters.country, filters.region, locale);
   const choices = ambiguousChoices(results.map((r) => r.product));
-  const advertisement = activeAdvertisement('catalog-after-six');
   function change(patch: Partial<Filters>) {
     const next = { ...filters, ...patch };
     if ('country' in patch) next.region = '';
@@ -337,7 +335,7 @@ function Catalog({
           </div>
         ) : (
           <div className="product-grid">
-            {results.slice(0, visible).map(({ product, match }, i) => (
+            {results.slice(0, visible).map(({ product, match }) => (
               <motion.div
                 key={product.id}
                 layout={!reduce}
@@ -351,18 +349,6 @@ function Catalog({
                   query={productParams.toString()}
                   choice={choices ? productChoice(product) : undefined}
                 />
-                {i === 5 && advertisement && (
-                  <aside className="inline-ad" aria-label="Emplacement partenaire">
-                    <span>Publicité</span> ·{' '}
-                    <a
-                      href={advertisement.targetUrl!}
-                      rel="sponsored noopener noreferrer"
-                      target="_blank"
-                    >
-                      {advertisement.sponsorLabel}
-                    </a>
-                  </aside>
-                )}
               </motion.div>
             ))}
           </div>

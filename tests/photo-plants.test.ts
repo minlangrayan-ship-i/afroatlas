@@ -5,9 +5,16 @@ import { searchProducts, emptyFilters } from '../src/lib/search';
 import { readFile } from 'node:fs/promises';
 import sharp from 'sharp';
 describe('reviewed photographs and plant enrichment', () => {
-  it('provides a real, attributed, reusable, reviewed photograph for every catalogue card', async () => {
+  const withoutPhoto = ['kanga'];
+  it('provides a real, attributed, reusable, reviewed photograph for every other catalogue card', async () => {
     for (const p of cardProducts) {
       const i = p.image;
+      // The kanga photo showed children at a market stall: removed until a suitable one exists.
+      if (withoutPhoto.includes(p.slug)) {
+        expect(i.verificationStatus, p.slug).toBe('pending');
+        expect(i.localPath, p.slug).toBe('/images/product-form-pending.svg');
+        continue;
+      }
       expect(i.verificationStatus, p.slug).toBe('visually_checked');
       expect(i.localPath, p.slug).toMatch(/\.webp$/);
       expect(i.creator, p.slug).toBeTruthy();

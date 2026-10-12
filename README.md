@@ -59,7 +59,7 @@ Suivre [docs/SUPABASE_SETUP.md](docs/SUPABASE_SETUP.md). Les deux variables publ
 - `supabase/migrations/`, `supabase/functions/` : base, politiques d’accès et traitement serveur.
 - `tests/`, `docs/` : vérifications, sources, couverture, lacunes et configuration.
 
-Adresse publique centralisée dans `src/data/site.ts` : contact/partenariats uniquement par email. Aucun réseau publicitaire, traceur, paiement, tarif ou annonceur fictif. Emplacements conservés et inactifs.
+Adresse de contact publique centralisée dans `src/data/site.ts` (contact.alqavya@gmail.com). Le site ne diffuse aucune publicité : aucun emplacement publicitaire, réseau publicitaire, traceur ni paiement.
 
 Voir [DATA_QUALITY.md](docs/DATA_QUALITY.md), [SOURCES.md](docs/SOURCES.md), [CONTENT_BACKLOG.md](docs/CONTENT_BACKLOG.md) et [VERIFICATION.md](docs/VERIFICATION.md). Tous les rapports consultables n’ont pas une licence ouverte : faits cités et résumés originaux, aucune republication globale de leurs textes. Les collections et photos conservent leurs propres licences.
 

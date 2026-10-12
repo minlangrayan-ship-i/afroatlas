@@ -1,8 +1,11 @@
 # Contributions automatiques par email
 
-Le formulaire public transmet désormais les contributions à **minlangrayan@gmail.com**, adresse centralisée dans `src/data/site.ts`. Le transport est FormSubmit, service externe adapté à GitHub Pages, annoncé gratuit dans sa documentation. Aucun compte payant, clé SMTP ou secret n’est ajouté au frontend.
+Le formulaire public transmet désormais les contributions à **contact.alqavya@gmail.com**, adresse centralisée dans `src/data/site.ts`. Le transport est FormSubmit, service externe adapté à GitHub Pages, annoncé gratuit dans sa documentation. Aucun compte payant, clé SMTP ou secret n’est ajouté au frontend.
 
 ## Activation et vérification
+
+Changement d’adresse du 12 octobre 2026 : FormSubmit traite chaque adresse séparément. La première proposition envoyée vers contact.alqavya@gmail.com déclenche un e-mail **Activate Form** à cette adresse ; il faut cliquer sur ce lien pour que les propositions suivantes arrivent.
+
 
 Le premier essai technique du 6 octobre 2026 a obtenu la réponse « activation nécessaire » ; FormSubmit a envoyé un lien **Activate Form** au propriétaire. Celui-ci doit confirmer ce lien pour autoriser le destinataire. Le propriétaire a confirmé la réception puis l’activation pendant la configuration.
 

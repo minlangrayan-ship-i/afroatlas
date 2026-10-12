@@ -484,39 +484,6 @@ h1 em {
   font-size: 14px;
   font-weight: 400;
 }
-.ad-slot {
-  margin: 22px 0;
-  background: #f1efe6;
-  border: 1px dashed #c8caba;
-  border-radius: 5px;
-  min-height: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  color: #687164;
-  padding: 20px;
-  text-align: center;
-}
-.ad-slot > span {
-  font-size: 8px;
-  letter-spacing: 2px;
-}
-.ad-slot p {
-  margin: 0;
-  font: 19px Georgia;
-}
-.ad-slot small {
-  font-size: 9px;
-}
-.inline-ad {
-  margin-top: 15px;
-  border: 1px dashed var(--line);
-  padding: 15px;
-  font-size: 10px;
-  color: var(--muted);
-}
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1820,10 +1787,6 @@ dd {
   .category-card h3 {
     font-size: 18px;
   }
-  .ad-slot {
-    min-height: 95px;
-    margin: 20px 0;
-  }
   .product-grid,
   .home-products {
     grid-template-columns: 1fr 1fr;
@@ -2823,8 +2786,7 @@ astro-island:has([data-replaced-photo]) + .photo-credit {
   .site-header,
   .site-footer,
   .skip-link,
-  .no-print,
-  .ad-slot {
+  .no-print {
     display: none !important;
   }
   body {
