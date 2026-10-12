@@ -24,3 +24,4 @@ supabase/.branches/
 credentials*.json
 service-account*.json
 *.bundle
+out/

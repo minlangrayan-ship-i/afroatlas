@@ -1,0 +1,833 @@
+{
+ "duree": 59.298,
+ "mots": [
+  {
+   "mot": "Vous",
+   "ligne": 0,
+   "debut": 0.0,
+   "fin": 0.176
+  },
+  {
+   "mot": "avez",
+   "ligne": 0,
+   "debut": 0.176,
+   "fin": 0.529
+  },
+  {
+   "mot": "grandi",
+   "ligne": 0,
+   "debut": 0.529,
+   "fin": 0.882
+  },
+  {
+   "mot": "à",
+   "ligne": 0,
+   "debut": 0.882,
+   "fin": 1.058
+  },
+  {
+   "mot": "Douala.",
+   "ligne": 0,
+   "debut": 1.058,
+   "fin": 1.41
+  },
+  {
+   "mot": "Aujourd'hui,",
+   "ligne": 0,
+   "debut": 1.817,
+   "fin": 2.364
+  },
+  {
+   "mot": "vous",
+   "ligne": 0,
+   "debut": 2.364,
+   "fin": 2.546
+  },
+  {
+   "mot": "vivez",
+   "ligne": 0,
+   "debut": 2.546,
+   "fin": 2.911
+  },
+  {
+   "mot": "à",
+   "ligne": 0,
+   "debut": 2.911,
+   "fin": 3.093
+  },
+  {
+   "mot": "Paris.",
+   "ligne": 0,
+   "debut": 3.093,
+   "fin": 3.458
+  },
+  {
+   "mot": "Un",
+   "ligne": 1,
+   "debut": 4.088,
+   "fin": 4.283
+  },
+  {
+   "mot": "samedi,",
+   "ligne": 1,
+   "debut": 4.283,
+   "fin": 4.87
+  },
+  {
+   "mot": "vous",
+   "ligne": 1,
+   "debut": 4.87,
+   "fin": 5.065
+  },
+  {
+   "mot": "entrez",
+   "ligne": 1,
+   "debut": 5.065,
+   "fin": 5.456
+  },
+  {
+   "mot": "dans",
+   "ligne": 1,
+   "debut": 5.456,
+   "fin": 5.651
+  },
+  {
+   "mot": "une",
+   "ligne": 1,
+   "debut": 5.651,
+   "fin": 5.846
+  },
+  {
+   "mot": "afroshop.",
+   "ligne": 1,
+   "debut": 5.846,
+   "fin": 6.432
+  },
+  {
+   "mot": "Vous",
+   "ligne": 1,
+   "debut": 6.889,
+   "fin": 7.122
+  },
+  {
+   "mot": "cherchez",
+   "ligne": 1,
+   "debut": 7.122,
+   "fin": 7.588
+  },
+  {
+   "mot": "du",
+   "ligne": 1,
+   "debut": 7.588,
+   "fin": 7.821
+  },
+  {
+   "mot": "njangsang.",
+   "ligne": 1,
+   "debut": 7.821,
+   "fin": 8.288
+  },
+  {
+   "mot": "Le",
+   "ligne": 2,
+   "debut": 8.823,
+   "fin": 8.997
+  },
+  {
+   "mot": "vendeur",
+   "ligne": 2,
+   "debut": 8.997,
+   "fin": 9.345
+  },
+  {
+   "mot": "ne",
+   "ligne": 2,
+   "debut": 9.345,
+   "fin": 9.52
+  },
+  {
+   "mot": "voit",
+   "ligne": 2,
+   "debut": 9.52,
+   "fin": 9.694
+  },
+  {
+   "mot": "pas.",
+   "ligne": 2,
+   "debut": 9.694,
+   "fin": 9.868
+  },
+  {
+   "mot": "Pourtant,",
+   "ligne": 2,
+   "debut": 10.46,
+   "fin": 10.844
+  },
+  {
+   "mot": "le",
+   "ligne": 2,
+   "debut": 10.844,
+   "fin": 11.036
+  },
+  {
+   "mot": "produit",
+   "ligne": 2,
+   "debut": 11.036,
+   "fin": 11.42
+  },
+  {
+   "mot": "est",
+   "ligne": 2,
+   "debut": 11.42,
+   "fin": 11.612
+  },
+  {
+   "mot": "peut-être",
+   "ligne": 2,
+   "debut": 11.612,
+   "fin": 11.996
+  },
+  {
+   "mot": "juste",
+   "ligne": 2,
+   "debut": 11.996,
+   "fin": 12.188
+  },
+  {
+   "mot": "là,",
+   "ligne": 2,
+   "debut": 12.188,
+   "fin": 12.38
+  },
+  {
+   "mot": "sur",
+   "ligne": 2,
+   "debut": 12.38,
+   "fin": 12.572
+  },
+  {
+   "mot": "l'étagère.",
+   "ligne": 2,
+   "debut": 12.572,
+   "fin": 13.34
+  },
+  {
+   "mot": "Lui",
+   "ligne": 3,
+   "debut": 13.958,
+   "fin": 14.106
+  },
+  {
+   "mot": "a",
+   "ligne": 3,
+   "debut": 14.106,
+   "fin": 14.255
+  },
+  {
+   "mot": "grandi",
+   "ligne": 3,
+   "debut": 14.255,
+   "fin": 14.552
+  },
+  {
+   "mot": "à",
+   "ligne": 3,
+   "debut": 14.552,
+   "fin": 14.701
+  },
+  {
+   "mot": "Abidjan.",
+   "ligne": 3,
+   "debut": 14.701,
+   "fin": 15.146
+  },
+  {
+   "mot": "Chez",
+   "ligne": 3,
+   "debut": 15.634,
+   "fin": 15.85
+  },
+  {
+   "mot": "lui,",
+   "ligne": 3,
+   "debut": 15.85,
+   "fin": 16.066
+  },
+  {
+   "mot": "ça",
+   "ligne": 3,
+   "debut": 16.066,
+   "fin": 16.282
+  },
+  {
+   "mot": "s'appelle",
+   "ligne": 3,
+   "debut": 16.282,
+   "fin": 16.714
+  },
+  {
+   "mot": "akpi.",
+   "ligne": 3,
+   "debut": 16.714,
+   "fin": 17.146
+  },
+  {
+   "mot": "Même",
+   "ligne": 4,
+   "debut": 17.709,
+   "fin": 17.942
+  },
+  {
+   "mot": "produit.",
+   "ligne": 4,
+   "debut": 17.942,
+   "fin": 18.409
+  },
+  {
+   "mot": "Deux",
+   "ligne": 4,
+   "debut": 18.788,
+   "fin": 19.051
+  },
+  {
+   "mot": "noms.",
+   "ligne": 4,
+   "debut": 19.051,
+   "fin": 19.315
+  },
+  {
+   "mot": "Et",
+   "ligne": 4,
+   "debut": 19.914,
+   "fin": 20.147
+  },
+  {
+   "mot": "aucune",
+   "ligne": 4,
+   "debut": 20.147,
+   "fin": 20.613
+  },
+  {
+   "mot": "liste",
+   "ligne": 4,
+   "debut": 20.613,
+   "fin": 20.846
+  },
+  {
+   "mot": "fiable",
+   "ligne": 4,
+   "debut": 20.846,
+   "fin": 21.078
+  },
+  {
+   "mot": "pour",
+   "ligne": 4,
+   "debut": 21.078,
+   "fin": 21.311
+  },
+  {
+   "mot": "faire",
+   "ligne": 4,
+   "debut": 21.311,
+   "fin": 21.544
+  },
+  {
+   "mot": "le",
+   "ligne": 4,
+   "debut": 21.544,
+   "fin": 21.777
+  },
+  {
+   "mot": "lien.",
+   "ligne": 4,
+   "debut": 21.777,
+   "fin": 22.01
+  },
+  {
+   "mot": "C'est",
+   "ligne": 5,
+   "debut": 22.407,
+   "fin": 22.637
+  },
+  {
+   "mot": "pour",
+   "ligne": 5,
+   "debut": 22.637,
+   "fin": 22.867
+  },
+  {
+   "mot": "ça",
+   "ligne": 5,
+   "debut": 22.867,
+   "fin": 23.096
+  },
+  {
+   "mot": "qu'existe",
+   "ligne": 5,
+   "debut": 23.096,
+   "fin": 23.785
+  },
+  {
+   "mot": "AfroAtlas.",
+   "ligne": 5,
+   "debut": 23.785,
+   "fin": 24.474
+  },
+  {
+   "mot": "Vous",
+   "ligne": 6,
+   "debut": 25.061,
+   "fin": 25.233
+  },
+  {
+   "mot": "tapez",
+   "ligne": 6,
+   "debut": 25.233,
+   "fin": 25.578
+  },
+  {
+   "mot": "le",
+   "ligne": 6,
+   "debut": 25.578,
+   "fin": 25.75
+  },
+  {
+   "mot": "nom",
+   "ligne": 6,
+   "debut": 25.75,
+   "fin": 25.922
+  },
+  {
+   "mot": "de",
+   "ligne": 6,
+   "debut": 25.922,
+   "fin": 26.094
+  },
+  {
+   "mot": "chez",
+   "ligne": 6,
+   "debut": 26.094,
+   "fin": 26.267
+  },
+  {
+   "mot": "vous...",
+   "ligne": 6,
+   "debut": 26.267,
+   "fin": 26.439
+  },
+  {
+   "mot": "et",
+   "ligne": 6,
+   "debut": 27.044,
+   "fin": 27.285
+  },
+  {
+   "mot": "AfroAtlas",
+   "ligne": 6,
+   "debut": 27.285,
+   "fin": 28.007
+  },
+  {
+   "mot": "vous",
+   "ligne": 6,
+   "debut": 28.007,
+   "fin": 28.247
+  },
+  {
+   "mot": "montre",
+   "ligne": 6,
+   "debut": 28.247,
+   "fin": 28.488
+  },
+  {
+   "mot": "ses",
+   "ligne": 6,
+   "debut": 28.488,
+   "fin": 28.728
+  },
+  {
+   "mot": "autres",
+   "ligne": 6,
+   "debut": 28.728,
+   "fin": 28.969
+  },
+  {
+   "mot": "noms,",
+   "ligne": 6,
+   "debut": 28.969,
+   "fin": 29.21
+  },
+  {
+   "mot": "pays",
+   "ligne": 6,
+   "debut": 29.638,
+   "fin": 29.912
+  },
+  {
+   "mot": "par",
+   "ligne": 6,
+   "debut": 29.912,
+   "fin": 30.186
+  },
+  {
+   "mot": "pays,",
+   "ligne": 6,
+   "debut": 30.186,
+   "fin": 30.46
+  },
+  {
+   "mot": "langue",
+   "ligne": 6,
+   "debut": 30.756,
+   "fin": 31.116
+  },
+  {
+   "mot": "par",
+   "ligne": 6,
+   "debut": 31.116,
+   "fin": 31.296
+  },
+  {
+   "mot": "langue.",
+   "ligne": 6,
+   "debut": 31.296,
+   "fin": 31.656
+  },
+  {
+   "mot": "Chaque",
+   "ligne": 7,
+   "debut": 32.14,
+   "fin": 32.481
+  },
+  {
+   "mot": "nom",
+   "ligne": 7,
+   "debut": 32.481,
+   "fin": 32.651
+  },
+  {
+   "mot": "est",
+   "ligne": 7,
+   "debut": 32.651,
+   "fin": 32.822
+  },
+  {
+   "mot": "relié",
+   "ligne": 7,
+   "debut": 32.822,
+   "fin": 33.163
+  },
+  {
+   "mot": "à",
+   "ligne": 7,
+   "debut": 33.163,
+   "fin": 33.334
+  },
+  {
+   "mot": "sa",
+   "ligne": 7,
+   "debut": 33.334,
+   "fin": 33.504
+  },
+  {
+   "mot": "source.",
+   "ligne": 7,
+   "debut": 33.504,
+   "fin": 33.845
+  },
+  {
+   "mot": "Rien",
+   "ligne": 7,
+   "debut": 34.218,
+   "fin": 34.428
+  },
+  {
+   "mot": "n'est",
+   "ligne": 7,
+   "debut": 34.428,
+   "fin": 34.639
+  },
+  {
+   "mot": "inventé.",
+   "ligne": 7,
+   "debut": 34.639,
+   "fin": 35.271
+  },
+  {
+   "mot": "Choisissez",
+   "ligne": 8,
+   "debut": 35.845,
+   "fin": 36.409
+  },
+  {
+   "mot": "le",
+   "ligne": 8,
+   "debut": 36.409,
+   "fin": 36.597
+  },
+  {
+   "mot": "pays",
+   "ligne": 8,
+   "debut": 36.597,
+   "fin": 36.786
+  },
+  {
+   "mot": "du",
+   "ligne": 8,
+   "debut": 36.786,
+   "fin": 36.974
+  },
+  {
+   "mot": "vendeur,",
+   "ligne": 8,
+   "debut": 36.974,
+   "fin": 37.35
+  },
+  {
+   "mot": "et",
+   "ligne": 8,
+   "debut": 37.679,
+   "fin": 37.845
+  },
+  {
+   "mot": "montrez-lui",
+   "ligne": 8,
+   "debut": 37.845,
+   "fin": 38.344
+  },
+  {
+   "mot": "la",
+   "ligne": 8,
+   "debut": 38.344,
+   "fin": 38.511
+  },
+  {
+   "mot": "carte :",
+   "ligne": 8,
+   "debut": 38.511,
+   "fin": 38.844
+  },
+  {
+   "mot": "le",
+   "ligne": 8,
+   "debut": 39.086,
+   "fin": 39.235
+  },
+  {
+   "mot": "nom",
+   "ligne": 8,
+   "debut": 39.235,
+   "fin": 39.383
+  },
+  {
+   "mot": "qu'il",
+   "ligne": 8,
+   "debut": 39.383,
+   "fin": 39.68
+  },
+  {
+   "mot": "connaît.",
+   "ligne": 8,
+   "debut": 39.68,
+   "fin": 39.976
+  },
+  {
+   "mot": "Soumbala",
+   "ligne": 9,
+   "debut": 40.664,
+   "fin": 41.159
+  },
+  {
+   "mot": "au",
+   "ligne": 9,
+   "debut": 41.159,
+   "fin": 41.324
+  },
+  {
+   "mot": "Mali,",
+   "ligne": 9,
+   "debut": 41.324,
+   "fin": 41.654
+  },
+  {
+   "mot": "nététou",
+   "ligne": 9,
+   "debut": 42.025,
+   "fin": 42.559
+  },
+  {
+   "mot": "au",
+   "ligne": 9,
+   "debut": 42.559,
+   "fin": 42.737
+  },
+  {
+   "mot": "Sénégal.",
+   "ligne": 9,
+   "debut": 42.737,
+   "fin": 43.272
+  },
+  {
+   "mot": "Foléré",
+   "ligne": 9,
+   "debut": 43.809,
+   "fin": 44.327
+  },
+  {
+   "mot": "au",
+   "ligne": 9,
+   "debut": 44.327,
+   "fin": 44.5
+  },
+  {
+   "mot": "Cameroun,",
+   "ligne": 9,
+   "debut": 44.5,
+   "fin": 45.018
+  },
+  {
+   "mot": "bissap-feuille",
+   "ligne": 9,
+   "debut": 45.292,
+   "fin": 45.976
+  },
+  {
+   "mot": "au",
+   "ligne": 9,
+   "debut": 45.976,
+   "fin": 46.203
+  },
+  {
+   "mot": "Sénégal.",
+   "ligne": 9,
+   "debut": 46.203,
+   "fin": 46.887
+  },
+  {
+   "mot": "Aujourd'hui :",
+   "ligne": 10,
+   "debut": 47.362,
+   "fin": 47.939
+  },
+  {
+   "mot": "quatre-vingt-quinze",
+   "ligne": 10,
+   "debut": 48.318,
+   "fin": 49.061
+  },
+  {
+   "mot": "fiches,",
+   "ligne": 10,
+   "debut": 49.061,
+   "fin": 49.433
+  },
+  {
+   "mot": "mille",
+   "ligne": 10,
+   "debut": 49.789,
+   "fin": 49.98
+  },
+  {
+   "mot": "trente-cinq",
+   "ligne": 10,
+   "debut": 49.98,
+   "fin": 50.553
+  },
+  {
+   "mot": "appellations,",
+   "ligne": 10,
+   "debut": 50.553,
+   "fin": 51.316
+  },
+  {
+   "mot": "cent",
+   "ligne": 10,
+   "debut": 51.548,
+   "fin": 51.773
+  },
+  {
+   "mot": "dix-neuf",
+   "ligne": 10,
+   "debut": 51.773,
+   "fin": 52.224
+  },
+  {
+   "mot": "sources,",
+   "ligne": 10,
+   "debut": 52.224,
+   "fin": 52.674
+  },
+  {
+   "mot": "treize",
+   "ligne": 10,
+   "debut": 52.964,
+   "fin": 53.287
+  },
+  {
+   "mot": "pays.",
+   "ligne": 10,
+   "debut": 53.287,
+   "fin": 53.61
+  },
+  {
+   "mot": "Un",
+   "ligne": 11,
+   "debut": 54.152,
+   "fin": 54.361
+  },
+  {
+   "mot": "produit,",
+   "ligne": 11,
+   "debut": 54.361,
+   "fin": 54.78
+  },
+  {
+   "mot": "plusieurs",
+   "ligne": 11,
+   "debut": 55.146,
+   "fin": 55.554
+  },
+  {
+   "mot": "noms.",
+   "ligne": 11,
+   "debut": 55.554,
+   "fin": 55.759
+  },
+  {
+   "mot": "Retrouvez",
+   "ligne": 11,
+   "debut": 56.184,
+   "fin": 56.643
+  },
+  {
+   "mot": "le",
+   "ligne": 11,
+   "debut": 56.643,
+   "fin": 56.797
+  },
+  {
+   "mot": "vôtre,",
+   "ligne": 11,
+   "debut": 56.797,
+   "fin": 57.103
+  },
+  {
+   "mot": "sur",
+   "ligne": 11,
+   "debut": 57.348,
+   "fin": 57.606
+  },
+  {
+   "mot": "AfroAtlas.",
+   "ligne": 11,
+   "debut": 57.606,
+   "fin": 58.38
+  },
+  {
+   "mot": "Abonnez-vous.",
+   "ligne": 11,
+   "debut": 58.691,
+   "fin": 59.298
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "afroatlas-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pack vidéo AfroAtlas (YouTube 16:9, TikTok et Reels 9:16), rendu par code avec Remotion.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:all": "node scripts/render-all.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.528",
+    "@remotion/cli": "^4.0.528",
+    "@remotion/media-utils": "^4.0.528",
+    "@remotion/renderer": "^4.0.528",
+    "d3-geo": "^3.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "^4.0.528"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.12",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-08",
-  "htmlPages": 431,
-  "indexablePages": 366,
-  "sitemapUrls": 366,
+  "checkedAt": "2026-10-12",
+  "htmlPages": 434,
+  "indexablePages": 369,
+  "sitemapUrls": 369,
   "uniqueTitles": true,
   "uniqueDescriptions": true,
   "oneH1AndBeaconPerPage": true,
@@ -279,6 +279,23 @@
       ],
       "description": "أفرو أطلس: مكتبة مفتوحة للمنتجات الغذائية الأفريقية. ابحث عن البامية أو أوراق الكسافا أو الكركديه بالاسم الذي تعرفه، مع الصور والأسماء حسب اللغة والبلد والمصادر.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/ar/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "beacons": 1,
+      "types": [
+        "WebSite"
+      ],
+      "hreflang": 4,
+      "lang": "ar"
+    },
+    {
+      "file": "dist/ar/mentions-legales/index.html",
+      "title": "الإشعار القانوني والخصوصية — AfroAtlas",
+      "h1": [
+        "الإشعار القانوني والخصوصية"
+      ],
+      "description": "الناشر وجهة الاستضافة والبيانات التي يجمعها أفرو أطلس (نموذج المساهمة، قياس الجمهور دون ملفات تعريف الارتباط، التخزين المحلي) وحقوقك.",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/ar/mentions-legales/",
       "robots": "index,follow,max-image-preview:large",
       "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
       "beacons": 1,
@@ -3138,6 +3155,23 @@
       "lang": "en"
     },
     {
+      "file": "dist/en/mentions-legales/index.html",
+      "title": "Legal notice and privacy — AfroAtlas",
+      "h1": [
+        "Legal notice and privacy"
+      ],
+      "description": "Publisher, host, data collected by AfroAtlas (contribution form, cookieless analytics, local storage) and your rights.",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/en/mentions-legales/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "beacons": 1,
+      "types": [
+        "WebSite"
+      ],
+      "hreflang": 4,
+      "lang": "en"
+    },
+    {
       "file": "dist/en/methodologie/index.html",
       "title": "Methodology — AfroAtlas",
       "h1": [
@@ -5589,6 +5623,23 @@
       ],
       "description": "Une bibliothèque ouverte pour identifier les produits, explorer leurs appellations et retrouver leurs références.",
       "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/",
+      "robots": "index,follow,max-image-preview:large",
+      "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
+      "beacons": 1,
+      "types": [
+        "WebSite"
+      ],
+      "hreflang": 4,
+      "lang": "fr"
+    },
+    {
+      "file": "dist/mentions-legales/index.html",
+      "title": "Mentions légales et confidentialité — AfroAtlas",
+      "h1": [
+        "Mentions légales et confidentialité"
+      ],
+      "description": "Éditeur, hébergeur, données collectées par AfroAtlas (formulaire de contribution, mesure d'audience sans cookie, stockage local) et vos droits.",
+      "canonical": "https://minlangrayan-ship-i.github.io/afroatlas/mentions-legales/",
       "robots": "index,follow,max-image-preview:large",
       "ogImage": "https://minlangrayan-ship-i.github.io/afroatlas/images/afroatlas-share.png",
       "beacons": 1,

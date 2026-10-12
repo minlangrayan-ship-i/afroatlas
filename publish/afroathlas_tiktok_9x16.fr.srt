@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:02,858
+Tu cherches du njangsang dans une afroshop ?
+
+2
+00:00:03,424 --> 00:00:05,297
+Le vendeur te dit : connais pas.
+
+3
+00:00:05,969 --> 00:00:08,922
+Normal : en Côte d'Ivoire, ça s'appelle akpi.
+
+4
+00:00:09,457 --> 00:00:11,236
+Même produit. Autre nom.
+
+5
+00:00:11,814 --> 00:00:15,470
+AfroAtlas relie les noms d'un pays à l'autre, sources à l'appui.
+
+6
+00:00:15,959 --> 00:00:17,299
+Montre la carte au vendeur.
+
+7
+00:00:17,705 --> 00:00:18,834
+Lien en bio.
