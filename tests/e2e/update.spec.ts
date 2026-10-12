@@ -106,16 +106,12 @@ test('photograph matches powder form and missing shop photographs are explicit',
   await expect(page.locator('.region-list button')).toHaveCount(9);
   await expect(page.locator('.table-note').first()).toContainText('2021');
 });
-test('email partnership contact and private moderation remain honest', async ({ page }) => {
-  await page.goto(base + 'contact/');
-  await expect(page.getByRole('link', { name: 'Contacter le créateur par email' })).toHaveAttribute(
-    'href',
-    /^mailto:minlangrayan@gmail.com\?subject=/,
-  );
-  await expect(page.getByRole('link', { name: 'minlangrayan@gmail.com' })).toHaveAttribute(
-    'href',
-    'mailto:minlangrayan@gmail.com',
-  );
+test('email contact and private moderation remain honest', async ({ page }) => {
+  await page.goto(base + 'mentions-legales/');
+  await expect(
+    page.locator('.site-footer').getByRole('link', { name: 'Nous écrire' }),
+  ).toHaveAttribute('href', 'mailto:contact.alqavya@gmail.com');
+  await expect(page.locator('.ad-slot,.inline-ad')).toHaveCount(0);
   await page.goto(base + 'moderation/');
   await expect(page.getByRole('button', { name: 'Se connecter' })).toHaveCount(0);
   await expect(page.locator('.notice')).toContainText('Administration indisponible');

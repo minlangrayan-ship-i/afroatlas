@@ -1,6 +1,5 @@
 ---
 import Layout from '../../components/Layout.astro';
-import AdSlot from '../../components/AdSlot.astro';
 import ProductActions from '../../components/ProductActions';
 import PhotoZoom from '../../components/PhotoZoom';
 import NamesTable from '../../components/NamesTable';
@@ -284,9 +283,7 @@ const contextProofs = Object.fromEntries(
       </div>
     </details>
     <CommunityUpdates productId={product.id} client:load />
-    <div class="container">
-      <AdSlot location="product-after-main-info" />
-    </div>
+    <div class="container"></div>
     {contexts.length > 0 && (
       <details class="documentary-detail">
         <summary>Usages locaux et périmètres des sources</summary>

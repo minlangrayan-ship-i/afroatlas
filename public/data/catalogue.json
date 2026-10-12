@@ -414,7 +414,7 @@
       "sourceIds": [
         "wikidata-Q23501"
       ],
-      "imageId": "shop-photo-tomate",
+      "imageId": "photo-tomate",
       "formTypes": [
         "frais"
       ],
@@ -1873,7 +1873,7 @@
       "sourceIds": [
         "cm-corpus-src-worldfish"
       ],
-      "imageId": "coverage-photo-kanga",
+      "imageId": "photo-pending-kanga",
       "formTypes": [
         "poisson / groupe commercial",
         "frais"
@@ -2770,7 +2770,7 @@
       "smallPath": "/images/tomate-400.webp",
       "width": 960,
       "height": 720,
-      "altFr": "Photographie de Tomate — vue de l’espèce ou de son produit, voir le crédit",
+      "altFr": "Tomate — fruits mûrs sur la plante",
       "creator": "User:Luigi Chiesa",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pomodorini_sulla_pianta.jpg",
       "licenseId": "CC BY-SA 3.0",
@@ -2779,7 +2779,14 @@
       "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage",
       "retrievedAt": "2026-10-04",
       "title": "Pomodorini sulla pianta.jpg",
-      "description": "Little tomatoes on the bush"
+      "description": "Little tomatoes on the bush",
+      "role": "complementary",
+      "depictedForm": "fruits sur la plante",
+      "depictedPart": "Fruits mûrs de tomate sur la plante",
+      "depictedProductId": "product-tomate",
+      "visuallyCheckedAt": "2026-10-12",
+      "visualCheckResult": "Contrôle visuel : fruits mûrs de tomate sur la plante, sans personne ni affiche. Complément signalé ; la photo de la forme vendue reste à documenter.",
+      "verificationStatus": "visually_checked"
     },
     {
       "id": "photo-amarante",
@@ -3873,37 +3880,6 @@
       "verificationStatus": "visually_checked",
       "metadataCheckedAt": "2026-10-06",
       "depictedProductId": "product-aubergine-africaine",
-      "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
-      "visuallyCheckedAt": "2026-10-05"
-    },
-    {
-      "slug": "tomate",
-      "form": "frais",
-      "id": "shop-photo-tomate",
-      "localPath": "/images/tomate-shop-960.webp",
-      "smallPath": "/images/tomate-shop-400.webp",
-      "width": 960,
-      "height": 720,
-      "altFr": "tomate — forme illustrée : frais",
-      "creator": "Nubelbariloe",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Picture_of_buckets_of_Fresh_tomatoes_at_fruit_garden_market_port_harcourt.jpg",
-      "licenseId": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "attribution": "Nubelbariloe · Picture of buckets of Fresh tomatoes at fruit garden market port harcourt.jpg · CC BY 4.0",
-      "modifications": "Redimensionnement, orientation EXIF et conversion WebP ; aucun recadrage",
-      "retrievedAt": "2026-10-04",
-      "title": "Picture of buckets of Fresh tomatoes at fruit garden market port harcourt.jpg",
-      "description": "fresh tomatoes for sale at fruit garden market Dline port harcourt",
-      "role": "primary",
-      "depictedForm": "frais",
-      "format": "webp",
-      "fileSize": 134832,
-      "sha256": "2b7ef50dd77946693a7bcf305109cb0adc047fb7ad1bc71bd42388b16d3d65eb",
-      "sortOrder": 0,
-      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Picture_of_buckets_of_Fresh_tomatoes_at_fruit_garden_market_port_harcourt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "verificationStatus": "visually_checked",
-      "metadataCheckedAt": "2026-10-06",
-      "depictedProductId": "product-tomate",
       "visualCheckResult": "Local photograph reviewed: edible product and recorded commercial form; provenance retained.",
       "visuallyCheckedAt": "2026-10-05"
     },
@@ -6261,36 +6237,6 @@
       "sortOrder": 0
     },
     {
-      "id": "coverage-photo-kanga",
-      "localPath": "/images/kanga-coverage-960.webp",
-      "smallPath": "/images/kanga-coverage-400.webp",
-      "width": 960,
-      "height": 643,
-      "altFr": "Kanga — Heterotis niloticus, poissons entiers disposés à la vente",
-      "creator": "Lucy Keith-Diagne",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Heterotis_niloticus_154613099.jpg",
-      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Heterotis_niloticus_154613099.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "licenseId": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "attribution": "Lucy Keith-Diagne · Heterotis niloticus 154613099.jpg · CC BY 4.0",
-      "modifications": "Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.",
-      "retrievedAt": "2026-10-06",
-      "title": "Heterotis niloticus 154613099.jpg",
-      "description": "African Arowana ( Heterotis niloticus )",
-      "role": "primary",
-      "depictedForm": "frais",
-      "depictedPart": "Heterotis niloticus, poissons entiers disposés à la vente",
-      "depictedProductId": "product-kanga",
-      "visuallyCheckedAt": "2026-10-06",
-      "visualCheckResult": "Contrôle visuel et métadonnées : Heterotis niloticus, poissons entiers disposés à la vente. La photographie illustre exclusivement la forme indiquée, sans établir un usage local ni l’origine du produit.",
-      "verificationStatus": "visually_checked",
-      "metadataCheckedAt": "2026-10-06",
-      "format": "webp",
-      "fileSize": 152096,
-      "sha256": "d03b15f4de26ba27ad4cf1d03fa9f5e788ce96bfe4cbc08a71a7cb08c18d60bc",
-      "sortOrder": 0
-    },
-    {
       "id": "coverage-photo-kpem",
       "localPath": "/images/kpem-coverage-960.webp",
       "smallPath": "/images/kpem-coverage-400.webp",
@@ -7339,6 +7285,30 @@
       "fileSize": 110014,
       "sha256": "a066e77f71c1bc2b3dcb636d2cba7e7ed4f572ec5dd1a24c3fb04a2d13fdbbc2",
       "sortOrder": 0
+    },
+    {
+      "id": "photo-pending-kanga",
+      "localPath": "/images/product-form-pending.svg",
+      "smallPath": "/images/product-form-pending.svg",
+      "width": 960,
+      "height": 640,
+      "altFr": "Photographie de la forme à documenter",
+      "creator": "AfroAtlas",
+      "sourcePageUrl": "https://minlangrayan-ship-i.github.io/afroatlas/methodologie/",
+      "licenseId": "Non applicable",
+      "licenseUrl": "https://minlangrayan-ship-i.github.io/afroatlas/methodologie/",
+      "attribution": "Emplacement neutre, sans photographie",
+      "modifications": "Sans objet",
+      "retrievedAt": "2026-10-05",
+      "title": "Photographie à documenter",
+      "description": "Aucune image empruntée au corpus ni générée.",
+      "role": "complementary",
+      "depictedForm": "non documentée",
+      "format": "svg",
+      "fileSize": 272,
+      "sha256": "d6b4cc68c0bd707d530dad36c0bcfacc4305da4a795d69588396cb562f5e0c84",
+      "sortOrder": 0,
+      "verificationStatus": "pending"
     }
   ],
   "names": [

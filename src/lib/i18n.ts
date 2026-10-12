@@ -265,11 +265,6 @@ export const ui: Record<string, [string, string]> = {
   ],
   'Un marché n’est pas une origine.': ['A market is not an origin.', 'السوق ليس منشأ المنتج.'],
   'EMPLACEMENT PARTENAIRE': ['PARTNER PLACEMENT', 'مساحة للشركاء'],
-  'Espace publicitaire': ['Advertising space', 'مساحة إعلانية'],
-  'Démonstration · aucune publicité active': [
-    'Placeholder · no active advertising',
-    'مساحة نموذجية · لا توجد إعلانات نشطة',
-  ],
   Favori: ['Favorite', 'المفضلة'],
   'En favori': ['Saved', 'محفوظ'],
   Comparer: ['Compare', 'قارن'],
@@ -353,10 +348,7 @@ export const ui: Record<string, [string, string]> = {
   'Sources & crédits': ['Sources & credits', 'المصادر والحقوق'],
   'Proposer une correction': ['Suggest a correction', 'اقترح تصحيحًا'],
   'Proposer une correction ↗': ['Suggest a correction ↗', 'اقترح تصحيحًا ↗'],
-  'Contact et partenariats publicitaires': [
-    'Contact and advertising partnerships',
-    'التواصل والشراكات الإعلانية',
-  ],
+  'Nous écrire': ['Write to us', 'راسلنا'],
   'Code & données ↗': ['Code & data ↗', 'الشفرة والبيانات ↗'],
   'Prototype documentaire public · sans compte · mesure d’audience Cloudflare': [
     'Public documentary library · no account · Cloudflare audience measurement',
@@ -562,24 +554,6 @@ export const ui: Record<string, [string, string]> = {
     'Suggest a name, describe its context and provide evidence for review.',
     'اقترح اسمًا وحدد سياقه وأضف دليلًا يتيح التحقق منه.',
   ],
-  'CONTACT & PARTENARIATS': ['CONTACT & PARTNERSHIPS', 'التواصل والشراكات'],
-  'Échangeons par email.': ['Let’s talk by email.', 'لنتواصل عبر البريد الإلكتروني.'],
-  'Contacter le créateur par email': ['Email the creator', 'راسل منشئ الموقع'],
-  'Afroshops, marques, entreprises, associations et organisations de tous pays : proposez une publicité ou un partenariat au créateur d’AfroAtlas.':
-    [
-      'Afroshops, brands, businesses, associations and organizations from any country: propose advertising or a partnership to AfroAtlas’s creator.',
-      'متاجر المنتجات الإفريقية والعلامات التجارية والشركات والجمعيات والمؤسسات من جميع البلدان: اقترحوا إعلانًا أو شراكة على منشئ AfroAtlas.',
-    ],
-  'Présentez votre organisation, votre pays, votre proposition et le lien vers votre activité. Le contact se fait uniquement par email.':
-    [
-      'Include your organization, country, proposal and website. Contact is by email only.',
-      'عرّف بمؤسستك وبلدك واقتراحك وأضف رابط نشاطك. التواصل بالبريد الإلكتروني فقط.',
-    ],
-  'Toute annonce nécessite l’approbation du propriétaire et sera clairement signalée comme publicité. Aucun réseau publicitaire automatique, traceur, paiement en ligne ou tarif prédéfini n’est activé.':
-    [
-      'Every advertisement requires owner approval and a clear advertising label. No automatic advertising network, trackers, online payments or preset prices are enabled.',
-      'كل إعلان يحتاج إلى موافقة المالك وسيُشار إليه بوضوح كإعلان. لا توجد شبكات إعلانية آلية أو أدوات تتبع أو دفع إلكتروني أو أسعار محددة.',
-    ],
   Français: ['French', 'الفرنسية'],
   Anglais: ['English', 'الإنجليزية'],
   Arabe: ['Arabic', 'العربية'],
@@ -732,11 +706,6 @@ export const ui: Record<string, [string, string]> = {
     [
       'FormSubmit processes the submitted fields and keeps text submissions for 30 days. Your email address is never published; a photograph is published only if you authorise it, with the stated credit and licence.',
       'تعالج FormSubmit الحقول المرسلة وتحتفظ بالاقتراحات النصية لمدة 30 يومًا. لا يُنشر بريدك الإلكتروني أبدًا؛ ولا تُنشر الصورة إلا إذا سمحت بذلك، مع نسبة الحقوق والترخيص المذكورين.',
-    ],
-  'Avant la publication de toute annonce ou de tout partenariat rémunéré, l’identité complète de l’éditeur sera ajoutée aux mentions légales, comme la loi l’exige.':
-    [
-      'Before any paid advertisement or partnership is published, the publisher’s full identity will be added to the legal notice, as the law requires.',
-      'قبل نشر أي إعلان أو شراكة مدفوعة، ستُضاف الهوية الكاملة للناشر إلى الإشعار القانوني كما يقتضي القانون.',
     ],
   'Ces cinq contextes sont séparés des pays africains de la liste. Aucun usage d’appellation n’y est présumé.':
     [
@@ -1014,7 +983,6 @@ const journeyUi: Record<string, [string, string]> = {
     'حقل «Bissap-feuille» في الاستطلاع',
   ],
   'fiche documentée': ['documented record', 'صفحة موثقة'],
-  Publicité: ['Advertisement', 'إعلان'],
   '» n’est pas encore dans la bibliothèque. Vous le connaissez ? Proposez-le : chaque proposition est examinée avant publication.':
     [
       '” is not in the library yet. Do you know it? Suggest it: every proposal is reviewed before publication.',
