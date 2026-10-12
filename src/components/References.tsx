@@ -20,8 +20,9 @@ function References({ references }: { references: Reference[] }) {
         />
       </label>
       <p role="status">
-        {results.length} référence{results.length > 1 ? 's' : ''} documentée
-        {results.length > 1 ? 's' : ''}
+        {results.length > 1
+          ? `${results.length} références documentées`
+          : `${results.length} référence documentée`}
       </p>
       <div className="reference-grid">
         {results.map((r) => (

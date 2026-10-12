@@ -11,12 +11,17 @@ import { products, catalogue } from '../lib/catalogue';
     <p>Une bibliothèque utile sait aussi expliquer ce qu’elle ne connaît pas encore.</p>
   </div>
   <article class="container page-body prose">
-    <h2>Ce que contient cet instantané</h2>
+    <h2>Ce que contient la bibliothèque</h2>
     <p>
-      {products.length} fiches d’espèces identifiées et {catalogue.names.length} assertions de noms
-      linguistiques, issues de Wikidata. Chaque fiche utilise une photographie associée à son
-      entité, avec crédit et licence individuelle. Ce lot ne prouve pas la consommation,
-      l’appellation locale ou la présence en boutique dans un pays donné.
+      <strong>{products.length}</strong> <span>fiches</span> ·{' '}
+      <strong>{catalogue.names.length}</strong> <span>appellations documentées</span> ·{' '}
+      <strong>{catalogue.sources.length}</strong> <span>sources</span>
+    </p>
+    <p>
+      Chaque appellation est reliée à sa source : Wikidata, publications scientifiques ou rapports
+      d’institutions. Chaque photographie publiée porte son crédit et sa licence ; si aucune photo
+      adaptée n’existe, la fiche l’indique. Ces données ne prouvent pas à elles seules la
+      consommation, l’appellation locale ou la présence en boutique dans un pays donné.
     </p>
     <h2>Quatre statuts distincts</h2>
     <dl>
@@ -26,8 +31,8 @@ import { products, catalogue } from '../lib/catalogue';
       <dd>Source et emplacement de preuve identifiables ; limites affichées.</dd>
       <dt>Appellation vérifiée</dt>
       <dd>
-        Examen éditorial explicite ou personne compétente identifié dans la preuve. Aucun import ne
-        simule cet examen ; aucune appellation de ce lot ne porte ce statut.
+        Examen éditorial explicite ou personne compétente identifiée dans la preuve. Aucun import ne
+        simule cet examen ; aucune appellation publiée ne porte encore ce statut.
       </dd>
       <dt>Rejeté</dt>
       <dd>Correspondance non retenue, conservée hors des résultats.</dd>
@@ -79,9 +84,10 @@ import { products, catalogue } from '../lib/catalogue';
       la réception. L’historique de recherche n’est pas enregistré.
     </p>
     <p>
-      FormSubmit conserve les propositions textuelles pendant 30 jours ; les pièces jointes ne sont
-      pas conservées dans cette archive. Le stockage durable et la modération Supabase restent à
-      configurer séparément.
+      <span>
+        FormSubmit conserve les propositions textuelles pendant 30 jours ; les pièces jointes ne
+        sont pas conservées dans cette archive.
+      </span>{' '}
       <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">
         Confidentialité du service email ↗
       </a>

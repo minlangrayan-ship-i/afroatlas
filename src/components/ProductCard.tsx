@@ -3,7 +3,7 @@ import type { CardProduct } from '../lib/catalogue';
 import { href, productLink } from '../lib/links';
 import { categories } from '../data/countries';
 import ProductActions from './ProductActions';
-import { evidenceLabel } from '../lib/presentation';
+import { evidenceLabel, previewNames } from '../lib/presentation';
 function ProductCard({
   product,
   match = '',
@@ -16,9 +16,7 @@ function ProductCard({
   choice?: { title: string; description: string };
 }) {
   const productHref = productLink(product.slug, query);
-  const previews = product.names
-    .filter((n) => n.nameType !== 'input' && n.nameType !== 'scientific')
-    .slice(0, 3);
+  const previews = previewNames(product, product.names);
   return (
     <article className="product-card">
       <a className="card-photo" href={productHref}>
@@ -31,6 +29,11 @@ function ProductCard({
             width={product.image.width}
             height={product.image.height}
             alt={product.image.altFr}
+            title={
+              product.image.creator
+                ? `Photo : ${product.image.creator} · ${product.image.licenseId}`
+                : undefined
+            }
             loading="lazy"
           />
         ) : (

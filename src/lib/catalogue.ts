@@ -45,6 +45,8 @@ export const searchCards = cardProducts.map((p) => ({
     altFr: p.image.altFr,
     depictedForm: p.image.depictedForm,
     depictedPart: p.image.depictedPart,
+    creator: p.image.creator,
+    licenseId: p.image.licenseId,
   },
   names: p.names.map((n) => ({
     id: n.id,

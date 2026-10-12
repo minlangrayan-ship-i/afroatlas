@@ -94,8 +94,8 @@ export function evidenceLabel(locator: string) {
     )
     .replace(/commercial_group/g, 'Groupe alimentaire')
     .replace(/edible_part/g, 'Partie alimentaire')
-    .replace(/organism/g, 'Plante ou organisme')
-    .replace(/preparation/g, 'Préparation')
+    .replace(/\borganism\b/g, 'Plante ou organisme')
+    .replace(/\bpreparation\b/g, 'Préparation')
     .replace(/Origin and geographic distribution/g, 'Origine et répartition géographique')
     .replace(/Production and international trade/g, 'Production et commerce international')
     .replace(/\bUses\b/g, 'Usages')
@@ -151,7 +151,7 @@ export function ambiguousChoices(products: Product[]) {
 }
 /** Imported template sentences describe the method, not the product: keep them in the sources. */
 export const isBoilerplate = (description = '') =>
-  /^Fiche d’identification de |Les noms de l’espèce et ceux d’un condiment ou d’un plat sont distingués/.test(
+  /^Fiche d’identification (de |d’)|Les noms de l’espèce et ceux d’un condiment ou d’un plat sont distingués/.test(
     description,
   );
 // « Hibiscus esculentus » listed as a French label is a former Latin name, not a common name.
@@ -212,6 +212,37 @@ export function glanceNames(
       countryIds: n.countryIds,
     }));
 }
+/** Up to `limit` names for a card: no repeat of the title, no Latin form, no near-duplicate
+ * spelling (« Cocombre » next to « concombre »). Every name stays in the full table. */
+export function previewNames<T extends Pick<NameAssertion, 'name' | 'nameType'>>(
+  product: Pick<Product, 'labelFr' | 'scientificName'>,
+  names: T[],
+  limit = 3,
+) {
+  const shown = [normalizeName(product.labelFr)];
+  return names
+    .filter((n) => n.nameType !== 'input' && n.nameType !== 'scientific')
+    .filter((n) => !latinSynonym(product, n.name))
+    .filter((n) => {
+      const key = normalizeName(n.name);
+      if (shown.some((other) => other === key || (key.length > 4 && nearlySame(other, key))))
+        return false;
+      shown.push(key);
+      return true;
+    })
+    .slice(0, limit);
+}
+// One letter added, removed or changed: a variant spelling of the same word.
+function nearlySame(a: string, b: string) {
+  if (Math.abs(a.length - b.length) > 1) return false;
+  let i = 0;
+  while (i < a.length && a[i] === b[i]) i++;
+  return (
+    a.slice(i + 1) === b.slice(i + 1) ||
+    a.slice(i + 1) === b.slice(i) ||
+    a.slice(i) === b.slice(i + 1)
+  );
+}
 const normalizeName = (text: string) =>
   text
     .normalize('NFD')
@@ -245,4 +276,21 @@ export function commonName(
       .filter((n) => !plantWords.test(n.name))
       .sort((a, b) => shared(b) - shared(a))[0] || candidates[0]
   );
+}
+/** Public wording for a source's rights: the licence code when there is one, otherwise what
+ * AfroAtlas takes from the source (names and facts, never its text). */
+export function sourceRights(licenseId: string): { code: string; note: string } {
+  if (/^CC0/.test(licenseId)) return { code: 'CC0', note: 'Domaine public' };
+  if (/^Retour utilisateur/.test(licenseId))
+    return {
+      code: '',
+      note: 'Retour d’utilisateur ; ne prouve pas une appellation traditionnelle',
+    };
+  const cc = licenseId.match(/^CC BY(?:-[A-Z]{2})*(?: \d\.\d)?/)?.[0];
+  if (cc)
+    return { code: cc, note: /NC|ND/.test(cc) ? 'noms et faits cités, texte non reproduit' : '' };
+  return {
+    code: '',
+    note: 'Droits réservés par l’éditeur de la source ; noms et faits cités, texte non reproduit',
+  };
 }

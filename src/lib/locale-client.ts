@@ -48,9 +48,11 @@ function apply() {
     }
     attributeOriginals.set(el, map);
   }
-  for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href]')) {
-    if (a.closest('astro-island')) continue;
-    const url = new URL(a.href);
+  // Map links are SVG <a> elements: read and write the attribute, not the HTML-only `href`.
+  for (const a of document.querySelectorAll<Element>('a[href]')) {
+    const target = a.getAttribute('href')!;
+    if (a.closest('astro-island') || target.startsWith('#')) continue;
+    const url = new URL(target, location.href);
     if (
       url.origin === location.origin &&
       url.pathname.startsWith(import.meta.env.BASE_URL) &&
@@ -58,7 +60,8 @@ function apply() {
     ) {
       url.searchParams.delete('lang');
       url.pathname = localizedPath(url.pathname, locale);
-      if (a.href !== url.href) a.href = url.href;
+      const next = url.pathname + url.search + url.hash;
+      if (a.getAttribute('href') !== next) a.setAttribute('href', next);
     }
   }
 }

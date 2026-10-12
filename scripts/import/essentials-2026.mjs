@@ -251,7 +251,7 @@ for (const [slug, labelFr, scientificNames, categoryId, formTypes] of seeds) {
       labelFr,
       labelEn: entity.labels?.en?.value || null,
       labelAr: entity.labels?.ar?.value || null,
-      description: `Fiche d’identification de ${scientific}. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.`,
+      description: `Fiche d’identification ${/^[AEIOUY]/i.test(scientific) ? 'd’' : 'de '}${scientific}. Les appellations ci-dessous sont documentées linguistiquement ; leur usage géographique et culinaire reste à préciser.`,
       categoryId,
       entityType: 'taxon',
       scientificName: scientific,

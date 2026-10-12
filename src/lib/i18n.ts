@@ -20,11 +20,6 @@ export const ui: Record<string, [string, string]> = {
       'I agree to FormSubmit sending my proposal and optional photograph to the creator for review, and to publication only of approved information with its sources.',
       'أوافق على إرسال اقتراحي وصورته الاختيارية عبر FormSubmit إلى منشئ الموقع للمراجعة، وعلى نشر المعلومات المقبولة فقط مع مصادرها.',
     ],
-  'FormSubmit traite les champs transmis et conserve les propositions textuelles pendant 30 jours. Votre adresse de suivi et votre photo ne sont pas publiées.':
-    [
-      'FormSubmit processes the submitted fields and retains text submissions for 30 days. Your follow-up email and photograph are not published.',
-      'تعالج FormSubmit الحقول المرسلة وتحتفظ بالاقتراحات النصية لمدة 30 يومًا. لا يُنشر بريد المتابعة ولا صورتك.',
-    ],
   'Confidentialité du service email ↗': [
     'Email service privacy ↗',
     'خصوصية خدمة البريد الإلكتروني ↗',
@@ -269,11 +264,6 @@ export const ui: Record<string, [string, string]> = {
     'سياقات الأسواق الأوروبية',
   ],
   'Un marché n’est pas une origine.': ['A market is not an origin.', 'السوق ليس منشأ المنتج.'],
-  'Ces cinq contextes sont séparés des 23 pays africains. Aucun usage d’appellation n’y est présumé.':
-    [
-      'These five contexts are separate from the 23 African countries. No name usage is assumed.',
-      'هذه السياقات الخمسة منفصلة عن البلدان الإفريقية الثلاثة والعشرين. لا نفترض استعمال أي تسمية فيها.',
-    ],
   'EMPLACEMENT PARTENAIRE': ['PARTNER PLACEMENT', 'مساحة للشركاء'],
   'Espace publicitaire': ['Advertising space', 'مساحة إعلانية'],
   'Démonstration · aucune publicité active': [
@@ -362,6 +352,7 @@ export const ui: Record<string, [string, string]> = {
   'Notre méthodologie': ['Our methodology', 'منهجيتنا'],
   'Sources & crédits': ['Sources & credits', 'المصادر والحقوق'],
   'Proposer une correction': ['Suggest a correction', 'اقترح تصحيحًا'],
+  'Proposer une correction ↗': ['Suggest a correction ↗', 'اقترح تصحيحًا ↗'],
   'Contact et partenariats publicitaires': [
     'Contact and advertising partnerships',
     'التواصل والشراكات الإعلانية',
@@ -554,11 +545,6 @@ export const ui: Record<string, [string, string]> = {
     'JPEG, PNG or WebP, up to 5 MB. Files stay private until approved.',
     'JPEG أو PNG أو WebP، بحد أقصى 5 ميغابايت. يبقى الملف خاصًا حتى الموافقة.',
   ],
-  'Je suis l’auteur et j’autorise la publication de cette photographie sous CC BY 4.0 avec le crédit indiqué dans la description.':
-    [
-      'I took this photograph and authorize its publication under CC BY 4.0, with the credit stated in the description.',
-      'أنا المصور وأسمح بنشر هذه الصورة تحت ترخيص CC BY 4.0 مع نسبة الحقوق المذكورة في الوصف.',
-    ],
   'J’accepte que ma proposition soit conservée pour examen et que seules les informations acceptées soient publiées avec leurs sources.':
     [
       'I agree to storage of my proposal for review and publication of approved information only, with its sources.',
@@ -710,6 +696,180 @@ export const ui: Record<string, [string, string]> = {
   'Cette contribution n’est pas publiée ou le service est indisponible.': [
     'This contribution is unpublished or the service is unavailable.',
     'هذه المساهمة غير منشورة أو الخدمة غير متاحة.',
+  ],
+  'Photographies : auteurs et licences sur chaque fiche et dans': [
+    'Photographs: authors and licences on each record and in',
+    'الصور: أسماء أصحابها وتراخيصها في كل صفحة وفي',
+  ],
+  Photo: ['Photo', 'صورة'],
+  'Crédits des photographies': ['Photo credits', 'حقوق الصور'],
+  'Photographies de Wikimedia Commons, redimensionnées. Chacune reste sous la licence de son auteur :':
+    [
+      'Photographs from Wikimedia Commons, resized. Each remains under its author’s licence:',
+      'صور من ويكيميديا كومنز، مع تغيير حجمها. تبقى كل صورة خاضعة لترخيص صاحبها:',
+    ],
+  'Domaine public': ['Public domain', 'ملك عام'],
+  'Retour d’utilisateur ; ne prouve pas une appellation traditionnelle': [
+    'User feedback; does not prove a traditional name',
+    'ملاحظة من مستخدم؛ لا تثبت تسمية تقليدية',
+  ],
+  'noms et faits cités, texte non reproduit': [
+    'names and facts cited, text not reproduced',
+    'نذكر الأسماء والوقائع دون نسخ النص',
+  ],
+  'Droits réservés par l’éditeur de la source ; noms et faits cités, texte non reproduit': [
+    'Rights reserved by the source publisher; names and facts cited, text not reproduced',
+    'الحقوق محفوظة لناشر المصدر؛ نذكر الأسماء والوقائع دون نسخ النص',
+  ],
+  révision: ['revision', 'مراجعة'],
+  'consulté le': ['retrieved on', 'تاريخ الاطلاع'],
+  'Je suis l’auteur de cette photographie, elle ne montre aucune personne reconnaissable sans son accord, et j’autorise sa publication sous CC BY 4.0 avec le crédit indiqué dans la description.':
+    [
+      'I took this photograph, it shows no recognisable person without their consent, and I authorise its publication under CC BY 4.0 with the credit stated in the description.',
+      'أنا من التقط هذه الصورة، ولا تُظهر أي شخص يمكن التعرف عليه دون موافقته، وأسمح بنشرها بترخيص CC BY 4.0 مع نسبة الحقوق المذكورة في الوصف.',
+    ],
+  'FormSubmit traite les champs transmis et conserve les propositions textuelles pendant 30 jours. Votre adresse e-mail n’est jamais publiée ; une photo n’est publiée que si vous l’autorisez, avec le crédit et la licence indiqués.':
+    [
+      'FormSubmit processes the submitted fields and keeps text submissions for 30 days. Your email address is never published; a photograph is published only if you authorise it, with the stated credit and licence.',
+      'تعالج FormSubmit الحقول المرسلة وتحتفظ بالاقتراحات النصية لمدة 30 يومًا. لا يُنشر بريدك الإلكتروني أبدًا؛ ولا تُنشر الصورة إلا إذا سمحت بذلك، مع نسبة الحقوق والترخيص المذكورين.',
+    ],
+  'Avant la publication de toute annonce ou de tout partenariat rémunéré, l’identité complète de l’éditeur sera ajoutée aux mentions légales, comme la loi l’exige.':
+    [
+      'Before any paid advertisement or partnership is published, the publisher’s full identity will be added to the legal notice, as the law requires.',
+      'قبل نشر أي إعلان أو شراكة مدفوعة، ستُضاف الهوية الكاملة للناشر إلى الإشعار القانوني كما يقتضي القانون.',
+    ],
+  'Ces cinq contextes sont séparés des pays africains de la liste. Aucun usage d’appellation n’y est présumé.':
+    [
+      'These five contexts are separate from the African countries in the list. No name usage is assumed.',
+      'هذه السياقات الخمسة منفصلة عن البلدان الإفريقية في القائمة. لا نفترض استعمال أي تسمية فيها.',
+    ],
+  'DES CORRESPONDANCES QUI ONT UNE PREUVE': [
+    'MATCHES BACKED BY EVIDENCE',
+    'تطابقات مدعومة بالأدلة',
+  ],
+  'Documenter avant d’affirmer.': ['Document before asserting.', 'نوثّق قبل أن نؤكد.'],
+  'Une bibliothèque utile sait aussi expliquer ce qu’elle ne connaît pas encore.': [
+    'A useful library also explains what it does not know yet.',
+    'المكتبة المفيدة تشرح أيضًا ما لا تعرفه بعد.',
+  ],
+  'Ce que contient la bibliothèque': ['What the library contains', 'ما تحتويه المكتبة'],
+  'appellations documentées': ['documented names', 'تسمية موثقة'],
+  sources: ['sources', 'مصدرًا'],
+  'Chaque appellation est reliée à sa source : Wikidata, publications scientifiques ou rapports d’institutions. Chaque photographie publiée porte son crédit et sa licence ; si aucune photo adaptée n’existe, la fiche l’indique. Ces données ne prouvent pas à elles seules la consommation, l’appellation locale ou la présence en boutique dans un pays donné.':
+    [
+      'Each name is linked to its source: Wikidata, scientific publications or institutional reports. Each published photograph carries its credit and licence; when no suitable photo exists, the record says so. On their own, these data do not prove consumption, local naming or availability in shops in a given country.',
+      'كل تسمية مرتبطة بمصدرها: ويكي بيانات أو منشورات علمية أو تقارير مؤسسات. كل صورة منشورة تحمل اسم صاحبها وترخيصها؛ وإذا لم تتوفر صورة مناسبة تشير الصفحة إلى ذلك. لا تثبت هذه البيانات وحدها الاستهلاك أو التسمية المحلية أو توفر المنتج في المتاجر في بلد معين.',
+    ],
+  'Quatre statuts distincts': ['Four distinct statuses', 'أربع حالات مختلفة'],
+  Candidat: ['Candidate', 'مرشّح'],
+  'Piste de collecte, hors des résultats publics.': [
+    'A lead to collect, kept out of public results.',
+    'أثر قيد الجمع، خارج النتائج العامة.',
+  ],
+  'Source et emplacement de preuve identifiables ; limites affichées.': [
+    'Identifiable source and location of the evidence; limits shown.',
+    'مصدر وموضع دليل يمكن تحديدهما؛ مع عرض الحدود.',
+  ],
+  'Examen éditorial explicite ou personne compétente identifiée dans la preuve. Aucun import ne simule cet examen ; aucune appellation publiée ne porte encore ce statut.':
+    [
+      'Explicit editorial review, or a qualified person identified in the evidence. No import simulates this review; no published name has this status yet.',
+      'مراجعة تحريرية صريحة أو شخص مختص محدد في الدليل. لا يحاكي أي استيراد هذه المراجعة؛ ولا تحمل أي تسمية منشورة هذه الحالة بعد.',
+    ],
+  Rejeté: ['Rejected', 'مرفوض'],
+  'Correspondance non retenue, conservée hors des résultats.': [
+    'Match not retained, kept out of results.',
+    'تطابق غير معتمد، يُحفظ خارج النتائج.',
+  ],
+  'La chaîne de collecte': ['The collection process', 'مسار الجمع'],
+  'Récupérer les données avec source, date et licence.': [
+    'Collect data with source, date and licence.',
+    'جمع البيانات مع المصدر والتاريخ والترخيص.',
+  ],
+  'Conserver le brut, normaliser les noms sans effacer les variantes.': [
+    'Keep the raw data; normalise names without erasing variants.',
+    'الاحتفاظ بالبيانات الخام وتوحيد الأسماء دون حذف المتغيرات.',
+  ],
+  'Rapprocher les candidats : identification scientifique exacte, sans proximité lexicale transformée en certitude.':
+    [
+      'Match candidates by exact scientific identification, never turning a similar-sounding name into a certainty.',
+      'مطابقة المرشحين بالتعريف العلمي الدقيق، دون تحويل تشابه الأسماء إلى يقين.',
+    ],
+  'Exposer seulement les assertions documentées et leurs limites.': [
+    'Publish only documented assertions and their limits.',
+    'نشر التأكيدات الموثقة وحدودها فقط.',
+  ],
+  'Prévoir un examen culturel et éditorial enregistré avant le statut vérifié.': [
+    'Require a recorded cultural and editorial review before the verified status.',
+    'اشتراط مراجعة ثقافية وتحريرية مسجلة قبل حالة «متحقق منها».',
+  ],
+  'Langue, pays et région': ['Language, country and region', 'اللغة والبلد والمنطقة'],
+  'Une appellation française ne prouve pas son usage au Cameroun, au Sénégal ou en France. Une région ADM1 est un objet administratif ; une zone culturelle ou linguistique exige une preuve distincte. Aucun nom du pays n’est distribué automatiquement aux régions.':
+    [
+      'A French name does not prove its use in Cameroon, Senegal or France. An ADM1 region is an administrative unit; a cultural or linguistic area requires separate evidence. No country-level name is automatically assigned to its regions.',
+      'لا تثبت التسمية الفرنسية استعمالها في الكاميرون أو السنغال أو فرنسا. المنطقة من المستوى الإداري الأول وحدة إدارية؛ أما المنطقة الثقافية أو اللغوية فتتطلب دليلًا مستقلًا. لا تُوزَّع أسماء البلد تلقائيًا على مناطقه.',
+    ],
+  'Les ambiguïtés restent visibles': ['Ambiguities stay visible', 'الالتباسات تبقى ظاهرة'],
+  '« Piment » peut correspondre à plusieurs espèces. Les fiches sont séparées et la recherche présente les candidats. Les tilapias et maquereaux ne sont pas assimilés à une espèce unique : ce lot présente des espèces nommées distinctes, et non une identification automatique d’un poisson acheté.':
+    [
+      '“Piment” (chilli) can refer to several species. The records are kept separate and search shows every candidate. Tilapias and mackerels are not merged into a single species: the library presents distinct named species, not an automatic identification of a fish you bought.',
+      'قد تدل كلمة «Piment» (الفلفل الحار) على عدة أنواع. تبقى الصفحات منفصلة ويعرض البحث جميع المرشحين. لا تُدمج أسماك البلطي والماكريل في نوع واحد: تعرض المكتبة أنواعًا مسماة ومتمايزة، لا تعريفًا آليًا لسمكة اشتريتها.',
+    ],
+  'Photos et usages': ['Photos and uses', 'الصور والاستعمالات'],
+  'Une photo principale doit montrer la forme indiquée : frais, séché, graines, poudre ou autre forme précisée. Une vue botanique, un poisson vivant ou un spécimen conservé ne remplace pas cette photo. Si aucune photographie adaptée n’est documentée, la fiche affiche la lacune. Les sources, crédits et licences restent visibles. Une photo ne prouve pas l’origine du produit ni sa présence actuelle en boutique.':
+    [
+      'A main photo must show the stated form: fresh, dried, seeds, powder or another specified form. A botanical view, a living fish or a preserved specimen does not replace that photo. If no suitable photograph is documented, the record shows the gap. Sources, credits and licences stay visible. A photo proves neither the origin of a product nor its current availability in shops.',
+      'يجب أن تُظهر الصورة الرئيسية الشكل المذكور: طازج أو مجفف أو بذور أو مسحوق أو شكل آخر محدد. لا تحل محلها صورة نباتية أو سمكة حية أو عينة محفوظة. إذا لم تتوفر صورة مناسبة موثقة، تُظهر الصفحة هذا النقص. تبقى المصادر والحقوق والتراخيص ظاهرة. لا تثبت الصورة منشأ المنتج ولا توفره الحالي في المتاجر.',
+    ],
+  'Marques et provenance': ['Brands and provenance', 'العلامات التجارية والمصدر'],
+  'Le jeu Open Food Facts est distinct, sous ODbL. Une marque n’est pas une appellation locale. Pays de vente, origine déclarée et fabrication sont des champs différents. Aucun stock, prix ou vendeur n’est déduit des références.':
+    [
+      'The Open Food Facts dataset is separate and licensed under ODbL. A brand is not a local name. Country of sale, declared origin and place of manufacture are different fields. No stock, price or seller is inferred from the references.',
+      'مجموعة بيانات Open Food Facts منفصلة ومرخصة بموجب ODbL. العلامة التجارية ليست تسمية محلية. بلد البيع والمنشأ المعلن ومكان التصنيع حقول مختلفة. لا نستنتج من المراجع أي مخزون أو سعر أو بائع.',
+    ],
+  'Contribuer sans publication automatique': [
+    'Contributing, with no automatic publication',
+    'المساهمة دون نشر تلقائي',
+  ],
+  'Le formulaire transmet les propositions et les photos jointes par email au créateur via FormSubmit. Le propriétaire les examine avant toute publication. L’acceptation par le service email ne confirme pas la livraison dans sa boîte et ne publie rien dans le catalogue. L’envoi est soumis à votre consentement ; les champs restent à l’écran si le service ne confirme pas la réception. L’historique de recherche n’est pas enregistré.':
+    [
+      'The form emails proposals and attached photos to the creator through FormSubmit. The owner reviews them before any publication. Acceptance by the email service does not confirm delivery to the inbox and publishes nothing in the catalogue. Sending requires your consent; the fields stay on screen if the service does not confirm receipt. Search history is not recorded.',
+      'يرسل النموذج الاقتراحات والصور المرفقة بالبريد الإلكتروني إلى المنشئ عبر FormSubmit. يراجعها المالك قبل أي نشر. قبول خدمة البريد للرسالة لا يؤكد وصولها إلى صندوق الوارد ولا ينشر شيئًا في الفهرس. يخضع الإرسال لموافقتك؛ وتبقى الحقول ظاهرة إذا لم تؤكد الخدمة الاستلام. لا يُسجَّل سجل البحث.',
+    ],
+  'FormSubmit conserve les propositions textuelles pendant 30 jours ; les pièces jointes ne sont pas conservées dans cette archive.':
+    [
+      'FormSubmit keeps text submissions for 30 days; attachments are not kept in that archive.',
+      'تحتفظ FormSubmit بالاقتراحات النصية لمدة 30 يومًا؛ ولا تُحفظ المرفقات في هذا الأرشيف.',
+    ],
+  'Consulter les sources & crédits ↗': ['See sources & credits ↗', 'اطلع على المصادر والحقوق ↗'],
+  'Orientation EXIF, redimensionnement et conversion WebP ; métadonnées supprimées, sans recadrage.':
+    [
+      'EXIF orientation, resizing and WebP conversion; metadata removed, no cropping.',
+      'تصحيح اتجاه EXIF وتغيير الحجم والتحويل إلى WebP؛ حُذفت البيانات الوصفية، دون اقتصاص.',
+    ],
+  'Redimensionnement, orientation EXIF et conversion WebP ; pas de recadrage': [
+    'Resizing, EXIF orientation and WebP conversion; no cropping',
+    'تغيير الحجم وتصحيح اتجاه EXIF والتحويل إلى WebP؛ دون اقتصاص',
+  ],
+  'Redimensionnement, orientation EXIF et conversion WebP ; aucun recadrage': [
+    'Resizing, EXIF orientation and WebP conversion; no cropping',
+    'تغيير الحجم وتصحيح اتجاه EXIF والتحويل إلى WebP؛ دون اقتصاص',
+  ],
+  'Redimensionnement et conversion WebP, transparence préservée, aucun recadrage': [
+    'Resizing and WebP conversion, transparency kept, no cropping',
+    'تغيير الحجم والتحويل إلى WebP مع الحفاظ على الشفافية، دون اقتصاص',
+  ],
+  'Redimensionnement et conversion WebP ; aucun recadrage ; transparence originale conservée': [
+    'Resizing and WebP conversion; no cropping; original transparency kept',
+    'تغيير الحجم والتحويل إلى WebP؛ دون اقتصاص؛ مع الحفاظ على الشفافية الأصلية',
+  ],
+  'Carte Natural Earth 5.1.2 · les petites îles peuvent ne pas être représentées à cette échelle.':
+    [
+      'Natural Earth 5.1.2 map · small islands may not be shown at this scale.',
+      'خريطة Natural Earth 5.1.2 · قد لا تظهر الجزر الصغيرة بهذا المقياس.',
+    ],
+  'La liste ci-dessous propose chaque pays, dont le Niger et le Nigeria séparément.': [
+    'The list below includes every country, with Niger and Nigeria listed separately.',
+    'تضم القائمة أدناه كل بلد، مع إدراج النيجر ونيجيريا كلٌّ على حدة.',
   ],
 };
 const journeyUi: Record<string, [string, string]> = {
@@ -1066,6 +1226,10 @@ function translateCore(text: string, locale: Exclude<Locale, 'fr'>): string {
     [/^(\d+) fiches sourcées$/, (m) => [`${m[1]} sourced records`, `${m[1]} صفحة بمصادر`]],
     [/^(\d+) fiches documentées$/, (m) => [`${m[1]} documented records`, `${m[1]} صفحة موثقة`]],
     [/^(\d+) fiche documentée$/, (m) => [`${m[1]} documented record`, `${m[1]} صفحة موثقة`]],
+    [
+      /^(\d+) références? documentées?$/,
+      (m) => [`${m[1]} documented reference${m[1] === '1' ? '' : 's'}`, `${m[1]} مرجعًا موثقًا`],
+    ],
     [
       /^Explorer les (\d+) fiches ↗$/,
       (m) => [`Explore ${m[1]} records ↗`, `استكشف ${m[1]} صفحة ↗`],

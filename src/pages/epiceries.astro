@@ -110,9 +110,30 @@ const mail = `mailto:${site.contactEmail}?subject=${encodeURIComponent('Kit Afro
           </div>
           <div class="grocery-qr" set:html={svg} />
           <small>AfroAtlas · Un produit, plusieurs noms.</small>
+          <small class="grocery-credit">
+            <span>Photo</span> :{' '}
+            <span data-no-translate dir="auto">
+              {product.image.creator} · {product.image.licenseId}
+            </span>
+          </small>
         </article>
       ))}
     </div>
+    <section class="grocery-credits">
+      <h2>Crédits des photographies</h2>
+      <p>
+        Photographies de Wikimedia Commons, redimensionnées. Chacune reste sous la licence de son
+        auteur :
+      </p>
+      <ul>
+        {labels.map(({ product }) => (
+          <li data-no-translate dir="auto">
+            {product.labelFr} — {product.image.creator}, « {product.image.title} »,{' '}
+            {product.image.licenseId} ({product.image.licenseUrl.replace(/^https?:\/\//, '')})
+          </li>
+        ))}
+      </ul>
+    </section>
   </section>
   <script>
     document
