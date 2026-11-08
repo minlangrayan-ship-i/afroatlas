@@ -86,14 +86,7 @@ const seeds = [
     ['fruits', 'fleurs'],
     'MAR TUN',
   ],
-  [
-    'orange',
-    'Orange',
-    ['Citrus ×sinensis', 'Citrus × sinensis', 'Citrus sinensis'],
-    'fruits',
-    ['fruits'],
-    'MAR',
-  ],
+  ['orange', 'Orange', ['Citrus × sinensis', 'Citrus sinensis'], 'fruits', ['fruits'], 'MAR'],
   ['papaye', 'Papaye', ['Carica papaya'], 'fruits', ['fruits'], 'CIV'],
   ['corossol', 'Corossol', ['Annona muricata'], 'fruits', ['fruits'], 'CIV GIN'],
   ['ananas', 'Ananas', ['Ananas comosus'], 'fruits', ['fruits'], 'CIV GIN'],
@@ -432,7 +425,6 @@ async function collect() {
   const entities = new Map();
   for (const row of found) {
     const id = qid(value(row, 'item'));
-    if (!/^Q\d+$/.test(id)) continue;
     const entry = entities.get(id) || { id, scientific: value(row, 'sci') || null, images: [] };
     const img = value(row, 'img');
     if (img && !entry.images.includes(fileName(img))) entry.images.push(fileName(img));
@@ -450,8 +442,11 @@ async function collect() {
       .join(',')})) }
     UNION { ?item schema:description ?desc FILTER(LANG(?desc) = "fr") }
   }`);
+  // Lexeme senses (L…-S…) can carry a P225 value too: only items describe products.
+  for (const id of ids) if (!/^Q\d+$/.test(id)) entities.delete(id);
   for (const row of words) {
     const entry = entities.get(qid(value(row, 'item')));
+    if (!entry) continue;
     entry.revision = value(row, 'rev');
     entry.labels ||= {};
     entry.aliases ||= {};
