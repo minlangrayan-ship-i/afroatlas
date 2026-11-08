@@ -1,0 +1,744 @@
+{
+ "riz": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "grains",
+  "depictedPart": "Grains de riz de plusieurs variétés",
+  "check": "Contrôle visuel : grains de riz de plusieurs variétés. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "riz-africain": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "épillets",
+  "depictedPart": "Épillets (grains vêtus) d’Oryza glaberrima",
+  "check": "Contrôle visuel : épillets (grains vêtus) d’oryza glaberrima. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "mil": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante en culture",
+  "depictedPart": "Épis de mil perlé au champ",
+  "check": "Contrôle visuel : épis de mil perlé au champ. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "sorgho": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante en culture",
+  "depictedPart": "Panicule de sorgho",
+  "check": "Contrôle visuel : panicule de sorgho. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "igname-blanche": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "tubercule",
+  "depictedPart": "Tubercule entier",
+  "check": "Contrôle visuel : tubercule entier. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "ble-dur": {
+  "photo": 2,
+  "role": "complementary",
+  "depictedForm": "semoule",
+  "depictedPart": "Semoule de blé dur",
+  "check": "Contrôle visuel : semoule de blé dur. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "orge": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "grains",
+  "depictedPart": "Grains d’orge",
+  "check": "Contrôle visuel : grains d’orge. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "pois-chiche": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "graines",
+  "depictedPart": "Pois chiches secs, beiges et verts",
+  "check": "Contrôle visuel : pois chiches secs, beiges et verts. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "lentille": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "graines",
+  "depictedPart": "Lentilles de trois couleurs",
+  "check": "Contrôle visuel : lentilles de trois couleurs. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "feve": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "graines",
+  "depictedPart": "Fèves sèches",
+  "check": "Contrôle visuel : fèves sèches. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "souchet": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "tubercules",
+  "depictedPart": "Tubercules de souchet secs",
+  "check": "Contrôle visuel : tubercules de souchet secs. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "haricot": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "graines",
+  "depictedPart": "Haricots secs de plusieurs variétés",
+  "check": "Contrôle visuel : haricots secs de plusieurs variétés. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "banane-dessert": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Banane épluchée",
+  "check": "Contrôle visuel : banane épluchée. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "pasteque": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Pastèque entière et coupée",
+  "check": "Contrôle visuel : pastèque entière et coupée. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "datte": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "régimes sur le palmier",
+  "depictedPart": "Régimes de dattes sur le palmier",
+  "check": "Contrôle visuel : régimes de dattes sur le palmier. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "figue": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Figues fraîches",
+  "check": "Contrôle visuel : figues fraîches. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "figue-barbarie": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Figue de Barbarie entière et coupée",
+  "check": "Contrôle visuel : figue de barbarie entière et coupée. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "grenade": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Grenade entière et ouverte",
+  "check": "Contrôle visuel : grenade entière et ouverte. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "olive": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Olives de table de plusieurs préparations",
+  "check": "Contrôle visuel : olives de table de plusieurs préparations. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "argan": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "arbre",
+  "depictedPart": "Rameau d’arganier avec fruits verts",
+  "check": "Contrôle visuel : rameau d’arganier avec fruits verts. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "amande": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "amandes",
+  "depictedPart": "Amandes en coque et décortiquées",
+  "check": "Contrôle visuel : amandes en coque et décortiquées. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "citron": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "arbre",
+  "depictedPart": "Citronnier portant des fruits",
+  "check": "Contrôle visuel : citronnier portant des fruits. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "bigarade": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "fruits sur l’arbre",
+  "depictedPart": "Bigarades et fleurs sur l’arbre",
+  "check": "Contrôle visuel : bigarades et fleurs sur l’arbre. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "papaye": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Papayes sur l’arbre et coupées",
+  "check": "Contrôle visuel : papayes sur l’arbre et coupées. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "corossol": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Corossol entier et coupé",
+  "check": "Contrôle visuel : corossol entier et coupé. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "ananas": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Ananas entier",
+  "check": "Contrôle visuel : ananas entier. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "noix-coco": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Noix de coco sans bourre",
+  "check": "Contrôle visuel : noix de coco sans bourre. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "kola": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "fruits sur l’arbre",
+  "depictedPart": "Follicule de kola ouvert sur l’arbre",
+  "check": "Contrôle visuel : follicule de kola ouvert sur l’arbre. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "madd": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Fruits de madd",
+  "check": "Contrôle visuel : fruits de madd. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "ditax": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Fruits secs de ditax",
+  "check": "Contrôle visuel : fruits secs de ditax. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "jujube": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "fruits sur l’arbre",
+  "depictedPart": "Jujube sur la branche",
+  "check": "Contrôle visuel : jujube sur la branche. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "anacarde": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "fruits sur l’arbre",
+  "depictedPart": "Pommes cajou et noix sur l’arbre",
+  "check": "Contrôle visuel : pommes cajou et noix sur l’arbre. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "goyave": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "fruits sur l’arbre",
+  "depictedPart": "Goyaves sur l’arbre",
+  "check": "Contrôle visuel : goyaves sur l’arbre. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "caroube": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "gousses",
+  "depictedPart": "Gousses de caroube verte et mûre",
+  "check": "Contrôle visuel : gousses de caroube verte et mûre. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "soump": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "arbre",
+  "depictedPart": "Balanites aegyptiaca en milieu sahélien",
+  "check": "Contrôle visuel : balanites aegyptiaca en milieu sahélien. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "zgougou": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "arbre",
+  "depictedPart": "Pin d’Alep ; les graines ne sont pas visibles",
+  "check": "Contrôle visuel : pin d’alep ; les graines ne sont pas visibles. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "avocat": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Avocat entier et coupé",
+  "check": "Contrôle visuel : avocat entier et coupé. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "coing": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Coings récoltés",
+  "check": "Contrôle visuel : coings récoltés. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "abricot": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "fruits sur l’arbre",
+  "depictedPart": "Abricots sur la branche",
+  "check": "Contrôle visuel : abricots sur la branche. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "cacao": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "cabosse ouverte",
+  "depictedPart": "Cabosse ouverte montrant les fèves",
+  "check": "Contrôle visuel : cabosse ouverte montrant les fèves. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "cafe-robusta": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "fruits sur l’arbre",
+  "depictedPart": "Cerises de café vertes sur la branche",
+  "check": "Contrôle visuel : cerises de café vertes sur la branche. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "poivron": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Piments doux et forts frais",
+  "check": "Contrôle visuel : piments doux et forts frais. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "navet": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Navets",
+  "check": "Contrôle visuel : navets. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "courgette": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Courgettes jaunes",
+  "check": "Contrôle visuel : courgettes jaunes. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "celeri": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Branche de céleri",
+  "check": "Contrôle visuel : branche de céleri. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "artichaut": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "capitule",
+  "depictedPart": "Capitule de cardon sur la plante",
+  "check": "Contrôle visuel : capitule de cardon sur la plante. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "mauve": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "plante en fleur",
+  "depictedPart": "Mauve sylvestre en fleur",
+  "check": "Contrôle visuel : mauve sylvestre en fleur. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "betterave": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Betteraves au marché",
+  "check": "Contrôle visuel : betteraves au marché. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "persil": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Persil plat frais",
+  "check": "Contrôle visuel : persil plat frais. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "verveine": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante",
+  "depictedPart": "Verveine odorante en fleur",
+  "check": "Contrôle visuel : verveine odorante en fleur. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "thym": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "feuilles",
+  "depictedPart": "Bouquet de thym",
+  "check": "Contrôle visuel : bouquet de thym. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "marjolaine": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "plante",
+  "depictedPart": "Marjolaine en culture",
+  "check": "Contrôle visuel : marjolaine en culture. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "sauge": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante",
+  "depictedPart": "Feuilles de sauge sur la plante",
+  "check": "Contrôle visuel : feuilles de sauge sur la plante. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "romarin": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "feuilles",
+  "depictedPart": "Brin de romarin",
+  "check": "Contrôle visuel : brin de romarin. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "laurier": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "feuilles",
+  "depictedPart": "Rameau de feuilles de laurier",
+  "check": "Contrôle visuel : rameau de feuilles de laurier. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "citronnelle": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante",
+  "depictedPart": "Touffe de citronnelle",
+  "check": "Contrôle visuel : touffe de citronnelle. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "kinkeliba": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante",
+  "depictedPart": "Arbuste de kinkéliba",
+  "check": "Contrôle visuel : arbuste de kinkéliba. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "rose-damas": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "fleurs",
+  "depictedPart": "Fleur de rose de Damas",
+  "check": "Contrôle visuel : fleur de rose de damas. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "basilic": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "plante",
+  "depictedPart": "Feuilles de basilic sur la plante",
+  "check": "Contrôle visuel : feuilles de basilic sur la plante. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "cannelle": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "écorce",
+  "depictedPart": "Bâtons et poudre de cannelle",
+  "check": "Contrôle visuel : bâtons et poudre de cannelle. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "poivre-noir": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "grains",
+  "depictedPart": "Grains de poivre noir",
+  "check": "Contrôle visuel : grains de poivre noir. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "anis-vert": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "graines",
+  "depictedPart": "Graines d’anis vert",
+  "check": "Contrôle visuel : graines d’anis vert. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "nigelle": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "graines",
+  "depictedPart": "Graines de nigelle",
+  "check": "Contrôle visuel : graines de nigelle. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "capre": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "boutons floraux",
+  "depictedPart": "Câpres",
+  "check": "Contrôle visuel : câpres. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "ras-el-hanout": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "mélange",
+  "depictedPart": "Ras el hanout en poudre",
+  "check": "Contrôle visuel : ras el hanout en poudre. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue.",
+  "entityType": "mixture"
+ },
+ "attieke": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "semoule de manioc",
+  "depictedPart": "Attiéké en préparation",
+  "check": "Contrôle visuel : attiéké en préparation. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "couscous": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plat préparé",
+  "depictedPart": "Plat de couscous aux légumes",
+  "check": "Contrôle visuel : plat de couscous aux légumes. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "smen": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "beurre servi",
+  "depictedPart": "Smen servi avec des msemmen",
+  "check": "Contrôle visuel : smen servi avec des msemmen. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "bsissa": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "farine",
+  "depictedPart": "Bsissa en poudre",
+  "check": "Contrôle visuel : bsissa en poudre. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue.",
+  "entityType": "mixture"
+ },
+ "citron-confit": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "confit",
+  "depictedPart": "Citrons confits dans leur saumure",
+  "check": "Contrôle visuel : citrons confits dans leur saumure. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "gari": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "préparation",
+  "depictedPart": "Gari préparé (eba) avec une sauce",
+  "check": "Contrôle visuel : gari préparé (eba) avec une sauce. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "huile-palme": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "huile",
+  "depictedPart": "Huile de palme rouge",
+  "check": "Contrôle visuel : huile de palme rouge. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "beurre-karite": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "beurre",
+  "depictedPart": "Beurre de karité",
+  "check": "Contrôle visuel : beurre de karité. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "degue": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "préparation",
+  "depictedPart": "Dégué en sachet",
+  "check": "Contrôle visuel : dégué en sachet. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue.",
+  "entityType": "prepared-dish"
+ },
+ "khlii": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "viande séchée",
+  "depictedPart": "Khlii conservé dans sa graisse",
+  "check": "Contrôle visuel : khlii conservé dans sa graisse. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "the-vert": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "feuilles roulées",
+  "depictedPart": "Thé vert gunpowder",
+  "check": "Contrôle visuel : thé vert gunpowder. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "thiof": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "poisson vivant",
+  "depictedPart": "Mérou blanc dans son milieu",
+  "check": "Contrôle visuel : mérou blanc dans son milieu. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "ethmalose": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "spécimen",
+  "depictedPart": "Ethmalose entière",
+  "check": "Contrôle visuel : ethmalose entière. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "listao": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "spécimen",
+  "depictedPart": "Listao entier",
+  "check": "Contrôle visuel : listao entier. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "albacore": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "poisson vivant",
+  "depictedPart": "Thons albacores en banc",
+  "check": "Contrôle visuel : thons albacores en banc. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "machoiron": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "spécimen",
+  "depictedPart": "Spécimens de Chrysichthys nigrodigitatus",
+  "check": "Contrôle visuel : spécimens de chrysichthys nigrodigitatus. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "anchois": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "poisson entier",
+  "depictedPart": "Anchois entier",
+  "check": "Contrôle visuel : anchois entier. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "sardine": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Sardine fraîche",
+  "check": "Contrôle visuel : sardine fraîche. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "poulpe": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "animal vivant",
+  "depictedPart": "Poulpe dans son milieu",
+  "check": "Contrôle visuel : poulpe dans son milieu. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "mulet": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "poisson vivant",
+  "depictedPart": "Mulet dans son milieu",
+  "check": "Contrôle visuel : mulet dans son milieu. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "gros-capitaine": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Gros capitaine frais sur glace",
+  "check": "Contrôle visuel : gros capitaine frais sur glace. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "dorade": {
+  "photo": 1,
+  "role": "complementary",
+  "depictedForm": "poisson vivant",
+  "depictedPart": "Dorade royale dans son milieu",
+  "check": "Contrôle visuel : dorade royale dans son milieu. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "mandarine": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Mandarines avec feuilles",
+  "check": "Contrôle visuel : mandarines avec feuilles. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "melon": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Melons entiers et en tranches",
+  "check": "Contrôle visuel : melons entiers et en tranches. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "petit-pois": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "graines",
+  "depictedPart": "Petits pois écossés",
+  "check": "Contrôle visuel : petits pois écossés. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "noix": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "fruits sur l’arbre",
+  "depictedPart": "Noix dans son brou sur l’arbre",
+  "check": "Contrôle visuel : noix dans son brou sur l’arbre. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "fruit-passion": {
+  "photo": 2,
+  "role": "primary",
+  "depictedForm": "fruits",
+  "depictedPart": "Fruit de la passion entier et coupé",
+  "check": "Contrôle visuel : fruit de la passion entier et coupé. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "canne-sucre": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante",
+  "depictedPart": "Canne à sucre en fleur",
+  "check": "Contrôle visuel : canne à sucre en fleur. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "pois-angole": {
+  "photo": 1,
+  "role": "primary",
+  "depictedForm": "graines",
+  "depictedPart": "Graines de pois d’Angole",
+  "check": "Contrôle visuel : graines de pois d’angole. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "menthe-pouliot": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante en fleur",
+  "depictedPart": "Menthe pouliot en fleur",
+  "check": "Contrôle visuel : menthe pouliot en fleur. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "armoise-blanche": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "plante",
+  "depictedPart": "Touffe d’armoise blanche",
+  "check": "Contrôle visuel : touffe d’armoise blanche. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "pageot": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Pageot frais",
+  "check": "Contrôle visuel : pageot frais. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "rouget": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "spécimen",
+  "depictedPart": "Rouget de roche entier",
+  "check": "Contrôle visuel : rouget de roche entier. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "seiche": {
+  "photo": 0,
+  "role": "complementary",
+  "depictedForm": "animal vivant",
+  "depictedPart": "Seiche dans son milieu",
+  "check": "Contrôle visuel : seiche dans son milieu. Aucune personne reconnaissable ni marque visible. Complément signalé ; la photo de la forme vendue reste à documenter."
+ },
+ "barracuda": {
+  "photo": 0,
+  "role": "primary",
+  "depictedForm": "frais",
+  "depictedPart": "Barracuda frais à bord",
+  "check": "Contrôle visuel : barracuda frais à bord. Aucune personne reconnaissable ni marque visible. Photo de la forme vendue."
+ },
+ "fonio": {
+  "reject": "Personnes reconnaissables sur la seule photo libre"
+ },
+ "voandzou": {
+  "reject": "Dessin botanique seulement"
+ },
+ "cafe-touba": {
+  "reject": "Personnes reconnaissables"
+ },
+ "eau-fleur-oranger": {
+  "reject": "Marque visible sur la bouteille"
+ },
+ "eau-rose": {
+  "reject": "Étiquette commerciale visible"
+ },
+ "carvi": {
+  "reject": "Dessin botanique seulement"
+ },
+ "raisin": {
+  "reject": "Dessins botaniques seulement"
+ },
+ "citrouille": {
+  "reject": "Gravure ancienne, pas une photographie"
+ },
+ "absinthe": {
+  "reject": "Retiré pour garder 100 fiches"
+ },
+ "calmar": {
+  "reject": "Retiré pour garder 100 fiches"
+ },
+ "merlu": {
+  "reject": "Retiré pour garder 100 fiches"
+ },
+ "espadon": {
+  "reject": "Retiré pour garder 100 fiches"
+ },
+ "arbouse": {
+  "reject": "Retiré pour garder 100 fiches"
+ }
+}

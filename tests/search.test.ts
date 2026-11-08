@@ -73,8 +73,17 @@ describe('documented catalogue search', () => {
     ).toBe(false);
   });
   it('returns nothing rather than unrelated products for unknown words', () => {
-    for (const q of ['café', 'cola', 'fonio', 'fufu', 'pondu', 'poulet', 'riz'])
+    for (const q of ['fonio', 'fufu', 'pondu', 'poulet'])
       expect(searchProducts(cardProducts, { ...emptyFilters, q })).toEqual([]);
+  });
+  it('finds the West and North African records by a documented local name', () => {
+    const first = (q: string) =>
+      searchProducts(cardProducts, { ...emptyFilters, q })[0]?.product.slug;
+    expect(first('riz')).toBe('riz');
+    expect(first('coof')).toBe('thiof');
+    expect(first('goro')).toBe('kola');
+    expect(first('lwiza')).toBe('verveine');
+    expect(first('souna')).toBe('mil');
   });
   it('tolerates a typo on a whole word and ranks the label match first', () => {
     expect(searchProducts(cardProducts, { ...emptyFilters, q: 'okro' })[0].product.slug).toBe(

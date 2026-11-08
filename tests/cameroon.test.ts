@@ -54,7 +54,11 @@ describe('Cameroon corpus integration', () => {
     ]);
   });
   it('uses the exact tilapia name supplied by the corpus and does not invent Gabonese usage', () => {
-    expect(result('tilapia').map((r) => r.product.slug)).toEqual(['tilapia-nil']);
+    // The corpus name comes first; the other tilapia species stays a separate candidate.
+    expect(result('tilapia').map((r) => r.product.slug)).toEqual([
+      'tilapia-nil',
+      'tilapia-mozambique',
+    ]);
     expect(
       searchProducts(cardProducts, { ...emptyFilters, q: 'tilapia', country: 'CMR' }),
     ).toHaveLength(1);

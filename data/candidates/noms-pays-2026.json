@@ -493,62 +493,6 @@
   "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Guro."
  },
  {
-  "slug": "carpe-rouge",
-  "name": "Carpe rouge",
-  "country": "SEN",
-  "languageCode": "fr",
-  "source": {
-   "title": "FishBase — Common Names List : Lutjanus agennes",
-   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
-   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Lutjanus&SpeciesName=agennes",
-   "licenseId": "CC BY-NC 3.0"
-  },
-  "locator": "Tableau des noms communs, ligne « Carpe rouge » (SEN, French) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=140516",
-  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : French."
- },
- {
-  "slug": "carpe-rouge",
-  "name": "Diabar",
-  "country": "SEN",
-  "languageCode": "wo",
-  "source": {
-   "title": "FishBase — Common Names List : Lutjanus agennes",
-   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
-   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Lutjanus&SpeciesName=agennes",
-   "licenseId": "CC BY-NC 3.0"
-  },
-  "locator": "Tableau des noms communs, ligne « Diabar » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=140521",
-  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
- },
- {
-  "slug": "carpe-rouge",
-  "name": "Jaabaar",
-  "country": "SEN",
-  "languageCode": "wo",
-  "source": {
-   "title": "FishBase — Common Names List : Lutjanus agennes",
-   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
-   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Lutjanus&SpeciesName=agennes",
-   "licenseId": "CC BY-NC 3.0"
-  },
-  "locator": "Tableau des noms communs, ligne « Jaabaar » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=98399",
-  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
- },
- {
-  "slug": "carpe-rouge",
-  "name": "Woli",
-  "country": "GIN",
-  "languageCode": "sus",
-  "source": {
-   "title": "FishBase — Common Names List : Lutjanus agennes",
-   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
-   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Lutjanus&SpeciesName=agennes",
-   "licenseId": "CC BY-NC 3.0"
-  },
-  "locator": "Tableau des noms communs, ligne « Woli » (GIN, Susu) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=90788",
-  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Susu."
- },
- {
   "slug": "anchois",
   "name": "Galadakh",
   "country": "SEN",
@@ -617,20 +561,6 @@
   },
   "locator": "Tableau des noms communs, ligne « Sardine » (MAR, French) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=109257",
   "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : French."
- },
- {
-  "slug": "chinchard",
-  "name": "Chourou azraq",
-  "country": "TUN",
-  "languageCode": "ar",
-  "source": {
-   "title": "FishBase — Common Names List : Trachurus trecae",
-   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
-   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Trachurus&SpeciesName=trecae",
-   "licenseId": "CC BY-NC 3.0"
-  },
-  "locator": "Tableau des noms communs, ligne « Chourou azraq » (TUN, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=14975",
-  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
  },
  {
   "slug": "mulet",

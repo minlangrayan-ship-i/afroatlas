@@ -176,6 +176,7 @@ export const ui: Record<string, [string, string]> = {
   Fruits: ['Fruits', 'فواكه'],
   'Préparations & boissons': ['Preparations & drinks', 'أطباق ومشروبات'],
   'Plante ou organisme': ['Plant or organism', 'نبات أو كائن حي'],
+  'Espèce animale': ['Animal species', 'نوع حيواني'],
   'Partie alimentaire': ['Edible part', 'جزء غذائي'],
   'Identité couverte': ['Documented identity scope', 'نطاق الهوية الموثقة'],
   'Photo complémentaire': ['Supplementary photograph', 'صورة توضيحية إضافية'],

@@ -192,7 +192,9 @@ const contextProofs = Object.fromEntries(
         <span>{productChoice(product).title}</span>
         <span>{product.formTypes.join(', ')}</span>
         {product.entityType === 'commercial-category' && <span>Plusieurs espèces possibles</span>}
-        {product.documentaryScope === 'organism' && <span>Plante ou organisme</span>}
+        {product.documentaryScope === 'organism' && (
+          <span>{product.categoryId === 'fish' ? 'Espèce animale' : 'Plante ou organisme'}</span>
+        )}
       </div>
       <ProductActions id={product.id} share client:load />
     </div>

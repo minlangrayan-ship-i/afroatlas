@@ -13,7 +13,10 @@
         "id": "Q161426",
         "scientific": "Oryza sativa",
         "images": [
-          "Reis-Rispe.jpg"
+          "Reis-Rispe.jpg",
+          "White, Brown, Red & Wild rice.jpg",
+          "Rice Bran Oil.jpeg",
+          "Straw of the rice.08Oct9.jpg"
         ],
         "revision": "2556391248",
         "labels": {
@@ -51,6 +54,34 @@
           "width": 384,
           "height": 512,
           "preview": "data/candidates/ouest-nord-2026-previews/riz-0.jpg"
+        },
+        {
+          "title": "White, Brown, Red & Wild rice.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Earth100",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "The four, main, common forms of consumed rice, Brown Rice, Red Rice, Thai White Rice, and Black wild rice.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:White,_Brown,_Red_%26_Wild_rice.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/White%2C_Brown%2C_Red_%26_Wild_rice.jpg/960px-White%2C_Brown%2C_Red_%26_Wild_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2592,
+          "height": 1944,
+          "preview": "data/candidates/ouest-nord-2026-previews/riz-1.jpg"
+        },
+        {
+          "title": "Rice Bran Oil.jpeg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "Dennis Sylvester Hurd",
+          "credit": "2012_04_27",
+          "attributionRequired": "false",
+          "description": "April 27, 2012 (Friday) - I have to admit, I snapped today's picture mostly in order to remember to look up what rice bran oil is. In July of 2005 when I joined Flickr, I expanded my online presence by uploading a DAILY image to this special photo set. Ever since, I've faithfully added one per day. ",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Rice_Bran_Oil.jpeg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Rice_Bran_Oil.jpeg/960px-Rice_Bran_Oil.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1938,
+          "height": 2057,
+          "preview": "data/candidates/ouest-nord-2026-previews/riz-2.jpg"
         }
       ]
     },
@@ -67,7 +98,9 @@
         "scientific": "Oryza glaberrima",
         "images": [
           "Oryza sativa - Köhler–s Medizinal-Pflanzen-232.jpg",
-          "Oryza glaberrima seeds.jpg"
+          "Oryza glaberrima seeds.jpg",
+          "Ofada Rice.jpg",
+          "Ofada Rice and stew on leaf.jpg"
         ],
         "revision": "2537380803",
         "labels": {
@@ -111,6 +144,20 @@
           "width": 900,
           "height": 600,
           "preview": "data/candidates/ouest-nord-2026-previews/riz-africain-1.jpg"
+        },
+        {
+          "title": "Ofada Rice.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Ijeoma",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "This is an image of food from",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ofada_Rice.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ofada_Rice.jpg/960px-Ofada_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1496,
+          "height": 1560,
+          "preview": "data/candidates/ouest-nord-2026-previews/riz-africain-2.jpg"
         }
       ]
     },
@@ -137,10 +184,10 @@
           "wo": "Suuna"
         },
         "aliases": {
-          "wo": [
+          "ha": [
             "Cenchrus americanus"
           ],
-          "ha": [
+          "wo": [
             "Cenchrus americanus"
           ]
         },
@@ -181,11 +228,11 @@
         ],
         "revision": "2561061984",
         "labels": {
-          "kab": "Lbecna",
           "en": "Sorghum bicolor",
           "fr": "sorgho commun",
           "ar": "ذرة بيضاء",
-          "ha": "Dawa"
+          "ha": "Dawa",
+          "kab": "Lbecna"
         },
         "aliases": {
           "en": [
@@ -242,6 +289,20 @@
           "width": 4000,
           "height": 6000,
           "preview": "data/candidates/ouest-nord-2026-previews/sorgho-1.jpg"
+        },
+        {
+          "title": "Sorgo AL Precioso polinizado por Apis Melifera - Sítio Caramonã.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Rodrigo Padula",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Sorgo AL Precioso polinizado por Apis Melifera - Sítio Caramonã em Dores do Turvo - MG",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sorgo_AL_Precioso_polinizado_por_Apis_Melifera_-_S%C3%ADtio_Caramon%C3%A3.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sorgo_AL_Precioso_polinizado_por_Apis_Melifera_-_S%C3%ADtio_Caramon%C3%A3.jpg/960px-Sorgo_AL_Precioso_polinizado_por_Apis_Melifera_-_S%C3%ADtio_Caramon%C3%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4000,
+          "height": 6000,
+          "preview": "data/candidates/ouest-nord-2026-previews/sorgho-2.jpg"
         }
       ]
     },
@@ -402,7 +463,10 @@
         "id": "Q618324",
         "scientific": "Triticum durum",
         "images": [
-          "Triticum-durum-ear.JPG"
+          "Triticum-durum-ear.JPG",
+          "Sa semolina far.jpg",
+          "Durum wheat flour (2).jpg",
+          "Starr-170215-6912-Triticum durum-durum wheat flour-Hawea Pl Olinda-Maui (33380861245).jpg"
         ],
         "revision": "2537345777",
         "labels": {
@@ -438,6 +502,34 @@
           "width": 1168,
           "height": 864,
           "preview": "data/candidates/ouest-nord-2026-previews/ble-dur-0.jpg"
+        },
+        {
+          "title": "Sa semolina far.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "Sanjay ach",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Semolina (Indian name is Rava)",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sa_semolina_far.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Sa_semolina_far.jpg/960px-Sa_semolina_far.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1024,
+          "height": 683,
+          "preview": "data/candidates/ouest-nord-2026-previews/ble-dur-1.jpg"
+        },
+        {
+          "title": "Durum wheat flour (2).jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "artist": "Horcrux",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Semola di grano duro",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Durum_wheat_flour_(2).jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Durum_wheat_flour_%282%29.jpg/960px-Durum_wheat_flour_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4000,
+          "height": 3000,
+          "preview": "data/candidates/ouest-nord-2026-previews/ble-dur-2.jpg"
         }
       ]
     },
@@ -454,7 +546,8 @@
         "scientific": "Hordeum vulgare",
         "images": [
           "Champ d'Orge carrée (Hordeum vulgare).jpg",
-          "Orge carrée (Hordeum vulgare).jpg"
+          "Orge carrée (Hordeum vulgare).jpg",
+          "Wild barley grains.jpg"
         ],
         "revision": "2564924433",
         "labels": {
@@ -514,6 +607,20 @@
           "width": 6000,
           "height": 4000,
           "preview": "data/candidates/ouest-nord-2026-previews/orge-1.jpg"
+        },
+        {
+          "title": "Wild barley grains.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Davidbena",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Hulled barley grains",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wild_barley_grains.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Wild_barley_grains.jpg/960px-Wild_barley_grains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3648,
+          "height": 2048,
+          "preview": "data/candidates/ouest-nord-2026-previews/orge-2.jpg"
         }
       ]
     },
@@ -530,27 +637,28 @@
         "scientific": "Cicer arietinum",
         "images": [
           "Cicer arietinum HabitusFruits BotGardBln0906a.jpg",
-          "Sa-whitegreen-chickpea.jpg"
+          "Sa-whitegreen-chickpea.jpg",
+          "Chickpea.jpg"
         ],
         "revision": "2544371033",
         "labels": {
-          "kab": "Ikiker",
-          "en": "cicer arietinum",
           "ar": "حمص شائع",
-          "fr": "pois chiche"
+          "fr": "pois chiche",
+          "kab": "Ikiker",
+          "en": "cicer arietinum"
         },
         "aliases": {
           "en": [
+            "cece",
+            "ceci",
+            "chana",
+            "chick pea plant",
             "chola",
             "bengal gram",
             "kabuli chana",
             "chickpea",
             "garbanzo",
-            "chickpeas",
-            "cece",
-            "ceci",
-            "chana",
-            "chick pea plant"
+            "chickpeas"
           ],
           "fr": [
             "cicer arietinum",
@@ -593,6 +701,20 @@
           "width": 3504,
           "height": 2336,
           "preview": "data/candidates/ouest-nord-2026-previews/pois-chiche-1.jpg"
+        },
+        {
+          "title": "Chickpea.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "false",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chickpea.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Chickpea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 350,
+          "height": 263,
+          "preview": "data/candidates/ouest-nord-2026-previews/pois-chiche-2.jpg"
         }
       ]
     },
@@ -608,7 +730,8 @@
         "id": "Q131226",
         "scientific": "Lens culinaris",
         "images": [
-          "Lens culinaris Sturm8.jpg"
+          "Lens culinaris Sturm8.jpg",
+          "3 types of lentil.jpg"
         ],
         "revision": "2553321145",
         "labels": {
@@ -618,18 +741,18 @@
           "ha": "Lentil"
         },
         "aliases": {
-          "en": [
-            "lentil plant"
-          ],
-          "fr": [
-            "lentille",
-            "Lens culinaris",
-            "Lentille cultivee",
-            "Lentille cultivée"
-          ],
           "ar": [
             "العدس",
             "نبات العدس"
+          ],
+          "fr": [
+            "Lens culinaris",
+            "Lentille cultivee",
+            "Lentille cultivée",
+            "lentille"
+          ],
+          "en": [
+            "lentil plant"
           ]
         },
         "descriptionFr": "espèce de plantes dicotylédones annuelles"
@@ -648,6 +771,20 @@
           "width": 688,
           "height": 998,
           "preview": "data/candidates/ouest-nord-2026-previews/lentille-0.jpg"
+        },
+        {
+          "title": "3 types of lentil.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "artist": "User:Justinc",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "red, green and puy lentils",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:3_types_of_lentil.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/3_types_of_lentil.jpg/960px-3_types_of_lentil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3840,
+          "height": 2160,
+          "preview": "data/candidates/ouest-nord-2026-previews/lentille-1.jpg"
         }
       ]
     },
@@ -664,7 +801,8 @@
         "scientific": "Vicia faba",
         "images": [
           "Illustration Vicia faba1.jpg",
-          "Vicia faba sl23.jpg"
+          "Vicia faba sl23.jpg",
+          "Broad Beans.JPG"
         ],
         "revision": "2548057533",
         "labels": {
@@ -725,6 +863,20 @@
           "width": 3096,
           "height": 4128,
           "preview": "data/candidates/ouest-nord-2026-previews/feve-1.jpg"
+        },
+        {
+          "title": "Broad Beans.JPG",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "Miansari66",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Broad Beans",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Broad_Beans.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Broad_Beans.JPG/960px-Broad_Beans.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2816,
+          "height": 2112,
+          "preview": "data/candidates/ouest-nord-2026-previews/feve-2.jpg"
         }
       ]
     },
@@ -740,7 +892,9 @@
         "id": "Q1165724",
         "scientific": "Cyperus esculentus",
         "images": [
-          "Cyperus esculentus L. (AM AK301430-1), white background.jpg"
+          "Cyperus esculentus L. (AM AK301430-1), white background.jpg",
+          "Cyperus esculentus 012.jpg",
+          "Dried tiger nut.jpg"
         ],
         "revision": "2564930947",
         "labels": {
@@ -752,6 +906,16 @@
           "wo": "ndir"
         },
         "aliases": {
+          "fr": [
+            "Amande de terre",
+            "Choufa",
+            "Cyperus esculentus",
+            "Noix tigrée",
+            "Souchet Comestible"
+          ],
+          "ha": [
+            "Cyperus esculentus"
+          ],
           "ar": [
             "حب الزلم",
             "حب العزيز"
@@ -767,16 +931,6 @@
             "txufleroide",
             "Watergrass",
             "Yellow nutgrass"
-          ],
-          "fr": [
-            "Amande de terre",
-            "Choufa",
-            "Cyperus esculentus",
-            "Noix tigrée",
-            "Souchet Comestible"
-          ],
-          "ha": [
-            "Cyperus esculentus"
           ]
         },
         "descriptionFr": "espèce de plantes"
@@ -795,6 +949,34 @@
           "width": 1448,
           "height": 2004,
           "preview": "data/candidates/ouest-nord-2026-previews/souchet-0.jpg"
+        },
+        {
+          "title": "Cyperus esculentus 012.jpg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "artist": "Tamorlan",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Tiger Nut",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cyperus_esculentus_012.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cyperus_esculentus_012.jpg/960px-Cyperus_esculentus_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3888,
+          "height": 2592,
+          "preview": "data/candidates/ouest-nord-2026-previews/souchet-1.jpg"
+        },
+        {
+          "title": "Dried tiger nut.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Achiri Bitamsimli",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "The tiger nut is the tuber of the Cyperus esculentus plant, also called the yellow nutsedge",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dried_tiger_nut.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Dried_tiger_nut.jpg/960px-Dried_tiger_nut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3024,
+          "height": 4032,
+          "preview": "data/candidates/ouest-nord-2026-previews/souchet-2.jpg"
         }
       ]
     },
@@ -810,7 +992,9 @@
         "id": "Q42339",
         "scientific": "Phaseolus vulgaris",
         "images": [
-          "Snijboon peulen Phaseolus vulgaris.jpg"
+          "Snijboon peulen Phaseolus vulgaris.jpg",
+          "38 - CIMG1598.JPG",
+          "Phaseolus vulgaris seed.jpg"
         ],
         "revision": "2545340943",
         "labels": {
@@ -820,13 +1004,13 @@
         },
         "aliases": {
           "fr": [
-            "haricot",
             "Fayots",
             "Haricot sec",
             "Haricot vulgaire",
             "haricots",
             "Phaesolus vulgaris",
-            "Phaseolus vulgaris"
+            "Phaseolus vulgaris",
+            "haricot"
           ],
           "ar": [
             "لوبياء",
@@ -858,6 +1042,34 @@
           "width": 1278,
           "height": 1704,
           "preview": "data/candidates/ouest-nord-2026-previews/haricot-0.jpg"
+        },
+        {
+          "title": "38 - CIMG1598.JPG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Susan Slater",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "french beans, green beans, haricot beans, string beans, common bean (Phaseolus vulgaris)",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:38_-_CIMG1598.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/38_-_CIMG1598.JPG/960px-38_-_CIMG1598.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2304,
+          "height": 1728,
+          "preview": "data/candidates/ouest-nord-2026-previews/haricot-1.jpg"
+        },
+        {
+          "title": "Phaseolus vulgaris seed.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "false",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Phaseolus_vulgaris_seed.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Phaseolus_vulgaris_seed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 252,
+          "height": 168,
+          "preview": "data/candidates/ouest-nord-2026-previews/haricot-2.jpg"
         }
       ]
     },
@@ -873,7 +1085,8 @@
         "id": "Q132970",
         "scientific": "Musa acuminata",
         "images": [
-          "Bananapao.JPG"
+          "Bananapao.JPG",
+          "Banana on whitebackground.jpg"
         ],
         "revision": "2561645237",
         "labels": {
@@ -899,6 +1112,20 @@
           "width": 1848,
           "height": 1359,
           "preview": "data/candidates/ouest-nord-2026-previews/banane-dessert-0.jpg"
+        },
+        {
+          "title": "Banana on whitebackground.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Filo gèn'",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Musa acuminata fruit on white background",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Banana_on_whitebackground.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Banana_on_whitebackground.jpg/960px-Banana_on_whitebackground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1519,
+          "height": 1884,
+          "preview": "data/candidates/ouest-nord-2026-previews/banane-dessert-1.jpg"
         }
       ]
     },
@@ -914,7 +1141,10 @@
         "id": "Q17507129",
         "scientific": "Citrullus lanatus",
         "images": [
-          "Watermelon-garden.jpg"
+          "Watermelon-garden.jpg",
+          "Water melon 2015.jpg",
+          "Watermelon001.jpg",
+          "Roasted watermelon seeds 2.jpg"
         ],
         "revision": "2561700098",
         "labels": {
@@ -958,6 +1188,34 @@
           "width": 540,
           "height": 361,
           "preview": "data/candidates/ouest-nord-2026-previews/pasteque-0.jpg"
+        },
+        {
+          "title": "Water melon 2015.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "MBargo",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Vattenmelon",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Water_melon_2015.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Water_melon_2015.jpg/960px-Water_melon_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2640,
+          "height": 1932,
+          "preview": "data/candidates/ouest-nord-2026-previews/pasteque-1.jpg"
+        },
+        {
+          "title": "Watermelon001.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Don miraj",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Half watermelon snapped by myself in offa,Kwara state",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Watermelon001.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Watermelon001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 810,
+          "height": 1080,
+          "preview": "data/candidates/ouest-nord-2026-previews/pasteque-2.jpg"
         }
       ]
     },
@@ -994,17 +1252,21 @@
         "id": "Q25292",
         "scientific": "Phoenix dactylifera",
         "images": [
-          "Phoenix dactylifera - EJ Burns - 606494286.jpeg"
+          "Phoenix dactylifera - EJ Burns - 606494286.jpeg",
+          "Dates on date palm.jpg",
+          "Collecting Date Juice.jpg",
+          "Dates (16946398241).jpg",
+          "Dried dates - 1.jpg"
         ],
         "revision": "2550726672",
         "labels": {
+          "wo": "Tàndarma",
           "en": "date palm",
           "ar": "نخلة التمر",
           "bm": "Ntamaro",
           "ff": "Dibinoohi",
           "fr": "Phoenix dactylifera",
-          "kab": "Tazdayt",
-          "wo": "Tàndarma"
+          "kab": "Tazdayt"
         },
         "aliases": {
           "fr": [
@@ -1049,6 +1311,34 @@
           "width": 1536,
           "height": 2048,
           "preview": "data/candidates/ouest-nord-2026-previews/datte-0.jpg"
+        },
+        {
+          "title": "Dates on date palm.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "false",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dates_on_date_palm.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Dates_on_date_palm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 600,
+          "height": 875,
+          "preview": "data/candidates/ouest-nord-2026-previews/datte-1.jpg"
+        },
+        {
+          "title": "Collecting Date Juice.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Sufe",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Collecting Date Juice, Bangladesh.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Collecting_Date_Juice.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Collecting_Date_Juice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 480,
+          "height": 600,
+          "preview": "data/candidates/ouest-nord-2026-previews/datte-2.jpg"
         }
       ]
     },
@@ -1065,7 +1355,9 @@
         "scientific": "Ficus carica",
         "images": [
           "Illustration Ficus carica0.jpg",
-          "Smokve na grani.jpg"
+          "Smokve na grani.jpg",
+          "Brevas-IMG 2295.JPG",
+          "FicusCarica TransverseSection.jpg"
         ],
         "revision": "2552651763",
         "labels": {
@@ -1126,6 +1418,20 @@
           "width": 5152,
           "height": 3864,
           "preview": "data/candidates/ouest-nord-2026-previews/figue-1.jpg"
+        },
+        {
+          "title": "Brevas-IMG 2295.JPG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "El Pantera",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Brevas, Spanish fuit",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Brevas-IMG_2295.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Brevas-IMG_2295.JPG/960px-Brevas-IMG_2295.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 5184,
+          "height": 3456,
+          "preview": "data/candidates/ouest-nord-2026-previews/figue-2.jpg"
         }
       ]
     },
@@ -1142,7 +1448,8 @@
         "scientific": "Opuntia ficus-indica",
         "images": [
           "Dikenli İncir (Opuntia ficus-indica) Gaziantep Turkey.IMG 1104.jpg",
-          "Opuntia ficus-indica, Springbokvlakte.jpg"
+          "Opuntia ficus-indica, Springbokvlakte.jpg",
+          "Prickly pear CDC.jpg"
         ],
         "revision": "2560237383",
         "labels": {
@@ -1156,7 +1463,13 @@
           "zgh": "ⴰⴽⵏⴰⵔⵉ"
         },
         "aliases": {
+          "en": [
+            "Prickly Pear"
+          ],
           "ar": [
+            "تين شوكي",
+            "أكناري",
+            "البرشومي",
             "التين الشوكي",
             "برشوم",
             "برشومي",
@@ -1165,26 +1478,20 @@
             "صبار",
             "صبارة",
             "صبير",
-            "هندي",
-            "تين شوكي",
-            "أكناري",
-            "البرشومي"
+            "هندي"
+          ],
+          "fr": [
+            "Opuntia ficus-indica",
+            "Figuier de Barbarie"
           ],
           "ary": [
             "الهندية"
-          ],
-          "fr": [
-            "Figuier de Barbarie",
-            "Opuntia ficus-indica"
           ],
           "zgh": [
             "ⴰⴽⵏⴰⵔⴰⵢ",
             "ⴰⴽⵕⵎⵓⵙ",
             "ⵜⴰⴽⵏⴰⵔⴰⵢⵜ",
             "ⵜⴰⴽⵏⴰⵔⵉⵜ"
-          ],
-          "en": [
-            "Prickly Pear"
           ]
         },
         "descriptionFr": "espèce de plantes"
@@ -1217,6 +1524,20 @@
           "width": 3426,
           "height": 2939,
           "preview": "data/candidates/ouest-nord-2026-previews/figue-barbarie-1.jpg"
+        },
+        {
+          "title": "Prickly pear CDC.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "false",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Prickly_pear_CDC.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Prickly_pear_CDC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 192,
+          "height": 224,
+          "preview": "data/candidates/ouest-nord-2026-previews/figue-barbarie-2.jpg"
         }
       ]
     },
@@ -1232,14 +1553,17 @@
         "id": "Q13188",
         "scientific": "Punica granatum",
         "images": [
-          "Punica granatum 004.JPG"
+          "Punica granatum 004.JPG",
+          "Nar suyu.jpg",
+          "Pomegranate fruit - whole and piece with arils.jpg",
+          "Pomegranate Seeds.JPG"
         ],
         "revision": "2565853354",
         "labels": {
-          "fr": "grenadier commun",
-          "kab": "Asfir",
           "en": "pomegranate",
           "ar": "رمان",
+          "fr": "grenadier commun",
+          "kab": "Asfir",
           "shi": "Adɣaɣ",
           "wo": "Garanaat"
         },
@@ -1279,6 +1603,34 @@
           "width": 1722,
           "height": 1292,
           "preview": "data/candidates/ouest-nord-2026-previews/grenade-0.jpg"
+        },
+        {
+          "title": "Nar suyu.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "E4024",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "\"Nar suyu\" (pomegranate juice) : Natural and freshly squeezed. Somewhere in Turkey...",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nar_suyu.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Nar_suyu.jpg/960px-Nar_suyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1920,
+          "height": 2560,
+          "preview": "data/candidates/ouest-nord-2026-previews/grenade-1.jpg"
+        },
+        {
+          "title": "Pomegranate fruit - whole and piece with arils.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Ivar Leidus",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Pomegranate fruit – whole and piece with arils",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pomegranate_fruit_-_whole_and_piece_with_arils.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Pomegranate_fruit_-_whole_and_piece_with_arils.jpg/960px-Pomegranate_fruit_-_whole_and_piece_with_arils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 6000,
+          "height": 4000,
+          "preview": "data/candidates/ouest-nord-2026-previews/grenade-2.jpg"
         }
       ]
     },
@@ -1295,7 +1647,11 @@
         "id": "Q37083",
         "scientific": "Olea europaea",
         "images": [
-          "El Perelló - Old olive tree.jpg"
+          "El Perelló - Old olive tree.jpg",
+          "Olive branch drawing.svg",
+          "Aceitunas coloradas.jpg",
+          "Olives au marche de Toulon p1040238.jpg",
+          "Olive-wood-364426.jpg"
         ],
         "revision": "2560057493",
         "labels": {
@@ -1342,6 +1698,34 @@
           "width": 3457,
           "height": 2592,
           "preview": "data/candidates/ouest-nord-2026-previews/olive-0.jpg"
+        },
+        {
+          "title": "Aceitunas coloradas.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "E4024",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Coloured olives, very fashionable since several years in Turkey, at the historical market of Kadıköy, Istanbul.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aceitunas_coloradas.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Aceitunas_coloradas.jpg/960px-Aceitunas_coloradas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2560,
+          "height": 1920,
+          "preview": "data/candidates/ouest-nord-2026-previews/olive-1.jpg"
+        },
+        {
+          "title": "Olives au marche de Toulon p1040238.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "David Monniaux",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Olives on sale at the farmers' market in Toulon , France",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Olives_au_marche_de_Toulon_p1040238.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Olives_au_marche_de_Toulon_p1040238.jpg/960px-Olives_au_marche_de_Toulon_p1040238.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2560,
+          "height": 1920,
+          "preview": "data/candidates/ouest-nord-2026-previews/olive-2.jpg"
         }
       ]
     },
@@ -1358,7 +1742,8 @@
         "id": "Q379746",
         "scientific": "Argania spinosa",
         "images": [
-          "Argania spinosa.jpg"
+          "Argania spinosa.jpg",
+          "Huile d'argan 010.JPG"
         ],
         "revision": "2536024763",
         "labels": {
@@ -1407,6 +1792,20 @@
           "width": 2848,
           "height": 2136,
           "preview": "data/candidates/ouest-nord-2026-previews/argan-0.jpg"
+        },
+        {
+          "title": "Huile d'argan 010.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Arnaud 25",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Bouteilles d'huile d'argan entre Marrakech et l'Atlas au Maroc",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Huile_d%27argan_010.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Huile_d%27argan_010.JPG/960px-Huile_d%27argan_010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1600,
+          "height": 1200,
+          "preview": "data/candidates/ouest-nord-2026-previews/argan-1.jpg"
         }
       ]
     },
@@ -1423,7 +1822,8 @@
         "scientific": "Prunus dulcis",
         "images": [
           "Almonds - in shell, shell cracked open, shelled, blanched.jpg",
-          "Prunus dulcis - Köhler–s Medizinal-Pflanzen-250.jpg"
+          "Prunus dulcis - Köhler–s Medizinal-Pflanzen-250.jpg",
+          "Prunus dulcis fruit (Ab plant 67).jpg"
         ],
         "revision": "2535534925",
         "labels": {
@@ -1476,6 +1876,20 @@
           "width": 490,
           "height": 590,
           "preview": "data/candidates/ouest-nord-2026-previews/amande-1.jpg"
+        },
+        {
+          "title": "Prunus dulcis fruit (Ab plant 67).jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Andrey Butko",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Prunus dulcis fruit",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Prunus_dulcis_fruit_(Ab_plant_67).jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Prunus_dulcis_fruit_%28Ab_plant_67%29.jpg/960px-Prunus_dulcis_fruit_%28Ab_plant_67%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1536,
+          "height": 2048,
+          "preview": "data/candidates/ouest-nord-2026-previews/amande-2.jpg"
         }
       ]
     },
@@ -1492,17 +1906,23 @@
         "scientific": "Citrus × limon",
         "images": [
           "Citrus x limon - Köhler–s Medizinal-Pflanzen-041.jpg",
-          "Limonero con injerto de naranjo, Sevilla, España, noviembre de 2011.JPG"
+          "Limonero con injerto de naranjo, Sevilla, España, noviembre de 2011.JPG",
+          "Lemon zest.jpg",
+          "LemonEssentialOil.png",
+          "Lemon.jpg",
+          "Lemon juice.jpg",
+          "Zitrone.jpg",
+          "Ice cubes.jpg"
         ],
         "revision": "2563894694",
         "labels": {
           "en": "Citrus × limon",
-          "wo": "limoŋ",
           "ha": "Lemun tsami",
           "fr": "citronnier",
           "ar": "ليمون حامض",
           "ary": "حامض",
-          "bm": "lemuruba"
+          "bm": "lemuruba",
+          "wo": "limoŋ"
         },
         "aliases": {
           "en": [
@@ -1547,6 +1967,20 @@
           "width": 3072,
           "height": 2304,
           "preview": "data/candidates/ouest-nord-2026-previews/citron-1.jpg"
+        },
+        {
+          "title": "Lemon zest.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "artist": "Rebecca Siegel",
+          "credit": "https://www.flickr.com/photos/grongar/6124099398/",
+          "attributionRequired": "true",
+          "description": "Lemon zest",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Lemon_zest.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Lemon_zest.jpg/960px-Lemon_zest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4000,
+          "height": 3000,
+          "preview": "data/candidates/ouest-nord-2026-previews/citron-2.jpg"
         }
       ]
     },
@@ -1568,7 +2002,8 @@
         "id": "Q147096",
         "scientific": "Citrus × aurantium",
         "images": [
-          "Turunç - Citrus aurantium 02.JPG"
+          "Turunç - Citrus aurantium 02.JPG",
+          "Neroli.png"
         ],
         "revision": "2564962922",
         "labels": {
@@ -1578,25 +2013,25 @@
           "fr": "Bigaradier"
         },
         "aliases": {
-          "en": [
-            "Citrus aurantium",
-            "bigarade orange",
-            "bitter orange",
-            "Citrus x aurantium",
-            "marmalade orange",
-            "sour orange",
-            "Seville orange"
-          ],
           "fr": [
-            "Citrus aurantium",
-            "Bigarade",
             "Citrus amara",
             "Citrus aurantium amara",
             "Citrus bigaradia",
             "Orange amer",
             "Orange amère",
             "Orange de Séville",
-            "Oranger amer"
+            "Oranger amer",
+            "Citrus aurantium",
+            "Bigarade"
+          ],
+          "en": [
+            "Seville orange",
+            "Citrus aurantium",
+            "bigarade orange",
+            "bitter orange",
+            "Citrus x aurantium",
+            "marmalade orange",
+            "sour orange"
           ],
           "ar": [
             "ليم",
@@ -1621,6 +2056,20 @@
           "width": 1491,
           "height": 2167,
           "preview": "data/candidates/ouest-nord-2026-previews/bigarade-0.jpg"
+        },
+        {
+          "title": "Neroli.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Itineranttrader",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Glass vial containing Neroli Essential Oil",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Neroli.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Neroli.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 857,
+          "height": 1280,
+          "preview": "data/candidates/ouest-nord-2026-previews/bigarade-1.jpg"
         }
       ]
     },
@@ -1641,7 +2090,10 @@
         "id": "Q34887",
         "scientific": "Carica papaya",
         "images": [
-          "Carica papaya - Köhler–s Medizinal-Pflanzen-029.jpg"
+          "Carica papaya - Köhler–s Medizinal-Pflanzen-029.jpg",
+          "Owoce Papaja.jpg",
+          "Papaya juice.JPG",
+          "Ripe papaya with seeds.jpg"
         ],
         "revision": "2563289602",
         "labels": {
@@ -1687,6 +2139,34 @@
           "width": 2626,
           "height": 3712,
           "preview": "data/candidates/ouest-nord-2026-previews/papaye-0.jpg"
+        },
+        {
+          "title": "Owoce Papaja.jpg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "artist": "Agnieszka Kwiecień, Nova",
+          "credit": "Own work based on: Starr_010404-0611_Carica_papaya.jpg : Forest & Kim Starr Papaya-oliv.jpg : Olegivvit Papaya.jpg : USDA photo by Scott Bauer. Image Number K7932-1.",
+          "attributionRequired": "true",
+          "description": "Grafika podręcznika b:pl:Wikijunior:Owoce . Papaja; drzewo melonowe, melonowiec właściwy ( Carica papaya ).",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Owoce_Papaja.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Owoce_Papaja.jpg/960px-Owoce_Papaja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1024,
+          "height": 1024,
+          "preview": "data/candidates/ouest-nord-2026-previews/papaye-1.jpg"
+        },
+        {
+          "title": "Papaya juice.JPG",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "artist": "Midori",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Papaya Juice",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Papaya_juice.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Papaya_juice.JPG/960px-Papaya_juice.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1944,
+          "height": 2592,
+          "preview": "data/candidates/ouest-nord-2026-previews/papaye-2.jpg"
         }
       ]
     },
@@ -1702,7 +2182,8 @@
         "id": "Q1709343",
         "scientific": "Annona muricata",
         "images": [
-          "Annona muricata 1.jpg"
+          "Annona muricata 1.jpg",
+          "Soursop fruit.jpg"
         ],
         "revision": "2557166875",
         "labels": {
@@ -1738,6 +2219,20 @@
           "width": 960,
           "height": 1280,
           "preview": "data/candidates/ouest-nord-2026-previews/corossol-0.jpg"
+        },
+        {
+          "title": "Soursop fruit.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "USGov",
+          "credit": "http://www.cdfa.ca.gov/phpps/pe/page22.htm",
+          "attributionRequired": "false",
+          "description": "Picture of soursop fruit, Annona muricata",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Soursop_fruit.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Soursop_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 365,
+          "height": 274,
+          "preview": "data/candidates/ouest-nord-2026-previews/corossol-1.jpg"
         }
       ]
     },
@@ -1753,7 +2248,12 @@
         "id": "Q1493",
         "scientific": "Ananas comosus",
         "images": [
-          "Nanas variegata cheche.jpg"
+          "Nanas variegata cheche.jpg",
+          "Batido de piña.jpg",
+          "Kerchief MET 25.132.8.jpg",
+          "Man's shirt from Luzon, pineapple fiber, plain weave, embroidery, Honolulu Museum of Art.JPG",
+          "Piña-Seda- Pineapple and Silk Cloths from the Philippines 7 (cropped).jpg",
+          "Ananas~May 2008-1.jpg"
         ],
         "revision": "2561203822",
         "labels": {
@@ -1765,12 +2265,6 @@
           "yo": "Pineapple"
         },
         "aliases": {
-          "ff": [
-            "Ananas comosus"
-          ],
-          "ha": [
-            "Ananas comosus"
-          ],
           "en": [
             "pineapple",
             "anana",
@@ -1778,6 +2272,12 @@
           ],
           "ar": [
             "لأناناس الوبري"
+          ],
+          "ff": [
+            "Ananas comosus"
+          ],
+          "ha": [
+            "Ananas comosus"
           ]
         },
         "descriptionFr": "espèce de plantes"
@@ -1796,6 +2296,34 @@
           "width": 8000,
           "height": 6000,
           "preview": "data/candidates/ouest-nord-2026-previews/ananas-0.jpg"
+        },
+        {
+          "title": "Batido de piña.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "El Mono Español",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Pineapple smoothie",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Batido_de_pi%C3%B1a.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Batido_de_pi%C3%B1a.jpg/960px-Batido_de_pi%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 5271,
+          "height": 7028,
+          "preview": "data/candidates/ouest-nord-2026-previews/ananas-1.jpg"
+        },
+        {
+          "title": "Kerchief MET 25.132.8.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "",
+          "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+          "attributionRequired": "false",
+          "description": "Philippine; Headcloth (Kerchief);",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kerchief_MET_25.132.8.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Kerchief_MET_25.132.8.jpg/960px-Kerchief_MET_25.132.8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1650,
+          "height": 2060,
+          "preview": "data/candidates/ouest-nord-2026-previews/ananas-2.jpg"
         }
       ]
     },
@@ -1811,24 +2339,36 @@
         "id": "Q13187",
         "scientific": "Cocos nucifera",
         "images": [
-          "1859-Martinique.web.jpg"
+          "1859-Martinique.web.jpg",
+          "Copra.jpg",
+          "Coconut oil 2.jpg",
+          "Coconut Drink, Pangandaran.JPG",
+          "Coconut milk from can01.JPG",
+          "Textielmuseum-cabinet-10.jpg",
+          "Coco ou vanio.jpg",
+          "Revendeuses de Noix de Coco 03.jpg",
+          "Gula kelapa.jpg",
+          "Coconut-butter.JPG",
+          "ഓലപ്പീപ്പീ5.jpg",
+          "Coconut shell on beach, Samoa.JPG",
+          "Coconut trees of Bangladesh 07.jpg"
         ],
         "revision": "2562908292",
         "labels": {
           "wo": "kokko",
           "yo": "agbon",
-          "fr": "cocotier",
-          "ar": "جوز الهند",
           "en": "Cocos nucifera",
-          "ha": "Attagara"
+          "ha": "Attagara",
+          "fr": "cocotier",
+          "ar": "جوز الهند"
         },
         "aliases": {
           "en": [
-            "coconut palm tree",
             "coconut",
             "coconut tree",
             "coconut palm",
-            "cocoanut"
+            "cocoanut",
+            "coconut palm tree"
           ],
           "fr": [
             "Cocotier",
@@ -1847,7 +2387,50 @@
         },
         "descriptionFr": "espèce de palmiers"
       },
-      "photos": []
+      "photos": [
+        {
+          "title": "Copra.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Daiju Azuma",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "コプラ",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Copra.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Copra.jpg/960px-Copra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2731,
+          "height": 2731,
+          "preview": "data/candidates/ouest-nord-2026-previews/noix-coco-0.jpg"
+        },
+        {
+          "title": "Coconut oil 2.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Tiia Monto",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Coconut oil as non-liquid state in room temperature.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Coconut_oil_2.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Coconut_oil_2.jpg/960px-Coconut_oil_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2320,
+          "height": 2480,
+          "preview": "data/candidates/ouest-nord-2026-previews/noix-coco-1.jpg"
+        },
+        {
+          "title": "Coconut Drink, Pangandaran.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Crisco 1492",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "A coconut split open to drink in Pangandaran",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Coconut_Drink,_Pangandaran.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Coconut_Drink%2C_Pangandaran.JPG/960px-Coconut_Drink%2C_Pangandaran.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2000,
+          "height": 1376,
+          "preview": "data/candidates/ouest-nord-2026-previews/noix-coco-2.jpg"
+        }
+      ]
     },
     {
       "slug": "kola",
@@ -2072,14 +2655,17 @@
         "images": [
           "Anacardium occidentale - Köhler–s Medizinal-Pflanzen-010.jpg",
           "Cashew apples.jpg",
-          "Cashew young plant.jpg"
+          "Cashew young plant.jpg",
+          "Cashew oil.jpg",
+          "Cashew nut indust.jpg",
+          "Cajou.jpg"
         ],
         "revision": "2552036134",
         "labels": {
-          "wo": "Darkase",
           "fr": "anacardier",
           "en": "Cashew",
-          "ar": "كاجو"
+          "ar": "كاجو",
+          "wo": "Darkase"
         },
         "aliases": {
           "en": [
@@ -2131,6 +2717,20 @@
           "width": 2534,
           "height": 1982,
           "preview": "data/candidates/ouest-nord-2026-previews/anacarde-1.jpg"
+        },
+        {
+          "title": "Cashew young plant.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Munkaila Sulemana",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "this is a young cashew plant",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cashew_young_plant.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cashew_young_plant.jpg/960px-Cashew_young_plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1920,
+          "height": 2560,
+          "preview": "data/candidates/ouest-nord-2026-previews/anacarde-2.jpg"
         }
       ]
     },
@@ -2150,7 +2750,8 @@
           "Feuilles de goyavier et fruits en formation.jpg",
           "Fleur de goyavier.jpg",
           "Jeune goyave (gavo).jpg",
-          "Psidium guajava fruit.jpg"
+          "Psidium guajava fruit.jpg",
+          "Guava fruit.jpg"
         ],
         "revision": "2550051887",
         "labels": {
@@ -2162,20 +2763,20 @@
           "wo": "Guyaab"
         },
         "aliases": {
+          "en": [
+            "guava",
+            "apple guava",
+            "common guava",
+            "lemon guava",
+            "Psidium guayava",
+            "yellow guava"
+          ],
           "ar": [
             "أمرود",
             "الجوافة",
             "جوافة صفراء",
             "جوافه",
             "غوافة"
-          ],
-          "en": [
-            "apple guava",
-            "common guava",
-            "lemon guava",
-            "Psidium guayava",
-            "yellow guava",
-            "guava"
           ],
           "fr": [
             "Psidium guajava",
@@ -2215,6 +2816,20 @@
           "width": 3840,
           "height": 5120,
           "preview": "data/candidates/ouest-nord-2026-previews/goyave-1.jpg"
+        },
+        {
+          "title": "Fleur de goyavier.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "Chirocca77",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "une plante medicinale",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fleur_de_goyavier.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fleur_de_goyavier.jpg/960px-Fleur_de_goyavier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 5120,
+          "height": 3840,
+          "preview": "data/candidates/ouest-nord-2026-previews/goyave-2.jpg"
         }
       ]
     },
@@ -2231,7 +2846,8 @@
         "scientific": "Ceratonia siliqua",
         "images": [
           "Algarrobo múltiple.jpg",
-          "Arcosu07.jpg"
+          "Arcosu07.jpg",
+          "Carobs.JPG"
         ],
         "revision": "2535239240",
         "labels": {
@@ -2242,6 +2858,15 @@
           "shi": "tikiḍa"
         },
         "aliases": {
+          "kab": [
+            "tasliɣwa"
+          ],
+          "en": [
+            "locust-tree",
+            "St John's-bread",
+            "carob tree",
+            "locust bean"
+          ],
           "fr": [
             "caroubes",
             "caroubiers",
@@ -2249,15 +2874,6 @@
             "carroubier",
             "kharroubier",
             "caroube"
-          ],
-          "kab": [
-            "tasliɣwa"
-          ],
-          "en": [
-            "carob tree",
-            "locust bean",
-            "locust-tree",
-            "St John's-bread"
           ],
           "ar": [
             "الخروب",
@@ -2296,6 +2912,20 @@
           "width": 2608,
           "height": 1952,
           "preview": "data/candidates/ouest-nord-2026-previews/caroube-1.jpg"
+        },
+        {
+          "title": "Carobs.JPG",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "true",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Carobs.JPG",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Carobs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 525,
+          "height": 394,
+          "preview": "data/candidates/ouest-nord-2026-previews/caroube-2.jpg"
         }
       ]
     },
@@ -2429,7 +3059,10 @@
         "id": "Q37153",
         "scientific": "Persea americana",
         "images": [
-          "Persea americana fruit 2.JPG"
+          "Persea americana fruit 2.JPG",
+          "Avocado Hass - single and halved.jpg",
+          "AvocadoOil.png",
+          "Avocado seed, whole.jpg"
         ],
         "revision": "2554941261",
         "labels": {
@@ -2439,14 +3072,11 @@
           "ha": "Avocado"
         },
         "aliases": {
-          "fr": [
-            "Persea americana"
-          ],
           "en": [
-            "avocado pear",
             "avocadoes",
             "avocados",
-            "alligator pear"
+            "alligator pear",
+            "avocado pear"
           ],
           "ar": [
             "أبوكاة",
@@ -2454,6 +3084,9 @@
             "افوكا",
             "افوكادو",
             "الأفوكادو"
+          ],
+          "fr": [
+            "Persea americana"
           ]
         },
         "descriptionFr": "espèce d'arbre"
@@ -2472,6 +3105,34 @@
           "width": 2592,
           "height": 3241,
           "preview": "data/candidates/ouest-nord-2026-previews/avocat-0.jpg"
+        },
+        {
+          "title": "Avocado Hass - single and halved.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Ivar Leidus",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "The Hass avocado – single and halved. Grown in Colombia",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Avocado_Hass_-_single_and_halved.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Avocado_Hass_-_single_and_halved.jpg/960px-Avocado_Hass_-_single_and_halved.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 8256,
+          "height": 5504,
+          "preview": "data/candidates/ouest-nord-2026-previews/avocat-1.jpg"
+        },
+        {
+          "title": "AvocadoOil.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Itineranttrader",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Avocado ( Persea americana ) Oil in clear glass vial",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:AvocadoOil.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/AvocadoOil.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 857,
+          "height": 1280,
+          "preview": "data/candidates/ouest-nord-2026-previews/avocat-2.jpg"
         }
       ]
     },
@@ -2487,7 +3148,8 @@
         "id": "Q43300",
         "scientific": "Cydonia oblonga",
         "images": [
-          "Cydonia.jpg"
+          "Cydonia.jpg",
+          "ARS Quinces.jpg"
         ],
         "revision": "2565116316",
         "labels": {
@@ -2524,6 +3186,20 @@
           "width": 600,
           "height": 450,
           "preview": "data/candidates/ouest-nord-2026-previews/coing-0.jpg"
+        },
+        {
+          "title": "ARS Quinces.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Stephen Ausmus, USDA ARS",
+          "credit": "This image was released by the Agricultural Research Service , the research agency of the United States Department of Agriculture , with the ID D677-1 (next) .",
+          "attributionRequired": "false",
+          "description": "Assorted quince varieties from the germplasm collection at the USDA-ARS National Clonal Germplasm Repository in Corvallis, Oregon. From top down, Van Deman, Cooke’s Jumbo, Ekmek, and Quince A, a rootstock variety used for grafting pears.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:ARS_Quinces.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/ARS_Quinces.jpg/960px-ARS_Quinces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1839,
+          "height": 2700,
+          "preview": "data/candidates/ouest-nord-2026-previews/coing-1.jpg"
         }
       ]
     },
@@ -2539,7 +3215,9 @@
         "id": "Q37453",
         "scientific": "Prunus armeniaca",
         "images": [
-          "Apricots.jpg"
+          "Apricots.jpg",
+          "Apricot kernel centimeter scale.png",
+          "Apricot blossom.jpg"
         ],
         "revision": "2564816098",
         "labels": {
@@ -2548,16 +3226,16 @@
           "en": "Prunus armeniaca"
         },
         "aliases": {
+          "fr": [
+            "Prunus armeniaca"
+          ],
+          "ar": [
+            "المشمش",
+            "البرقوق"
+          ],
           "en": [
             "apricot",
             "apricot tree"
-          ],
-          "ar": [
-            "البرقوق",
-            "المشمش"
-          ],
-          "fr": [
-            "Prunus armeniaca"
           ]
         },
         "descriptionFr": "espèce de plantes"
@@ -2576,6 +3254,34 @@
           "width": 1280,
           "height": 966,
           "preview": "data/candidates/ouest-nord-2026-previews/abricot-0.jpg"
+        },
+        {
+          "title": "Apricot kernel centimeter scale.png",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Iulian.serbanoiu",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Romanian apricot kernel together with seed shell broken in two (centimeter scale). Bought from local market (City of Brașov/Romania)",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apricot_kernel_centimeter_scale.png",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Apricot_kernel_centimeter_scale.png/960px-Apricot_kernel_centimeter_scale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2253,
+          "height": 2001,
+          "preview": "data/candidates/ouest-nord-2026-previews/abricot-1.jpg"
+        },
+        {
+          "title": "Apricot blossom.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "PROPOLI87",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Apricot blossom",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apricot_blossom.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Apricot_blossom.jpg/960px-Apricot_blossom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1956,
+          "height": 1704,
+          "preview": "data/candidates/ouest-nord-2026-previews/abricot-2.jpg"
         }
       ]
     },
@@ -2594,7 +3300,7 @@
           "Arbouse.jpg",
           "Dettaglio - Ericaceae Arbutus unedo Lin. - Erbario Frizzi Perugia n. 3392.jpg"
         ],
-        "revision": "2552193146",
+        "revision": "2566629314",
         "labels": {
           "ar": "قطلب أونيدو",
           "ary": "باخنو",
@@ -2603,15 +3309,9 @@
         },
         "aliases": {
           "en": [
+            "strawberry tree",
             "Irish strawberry tree",
-            "Mamkamla",
-            "strawberry tree"
-          ],
-          "fr": [
-            "Arbouse",
-            "Arbre à fraises",
-            "Arbre aux fraises",
-            "Arbutus unedo"
+            "Mamkamla"
           ],
           "ar": [
             "جني",
@@ -2621,6 +3321,12 @@
             "قاتل أبيه",
             "قطلب",
             "مشمش بري"
+          ],
+          "fr": [
+            "Arbouse",
+            "Arbre à fraises",
+            "Arbre aux fraises",
+            "Arbutus unedo"
           ]
         },
         "descriptionFr": "arbuste du pourtour méditerranéen donnant un fruit rouge comestible"
@@ -2670,7 +3376,12 @@
         "images": [
           "Theobroma cacao - Köhler–s Medizinal-Pflanzen-136.jpg",
           "Digital Inclusion in the Peruvian Amazon - 48138694956.jpg",
-          "Fruitful cocoa tree(cheche).jpg"
+          "Fruitful cocoa tree(cheche).jpg",
+          "Cocoa Powder and Chocolate on Marble Background.jpg",
+          "Three Bars (1).jpg",
+          "Cocoa beans in cocoa pod at El Trapiche, Costa Rica.jpg",
+          "Cocoa powder.jpg",
+          "Cacao fruit in Côte d'Ivoire (11).JPG"
         ],
         "revision": "2555362394",
         "labels": {
@@ -2728,6 +3439,20 @@
           "width": 5616,
           "height": 3744,
           "preview": "data/candidates/ouest-nord-2026-previews/cacao-1.jpg"
+        },
+        {
+          "title": "Fruitful cocoa tree(cheche).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "VpuipV",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Pohon kakao yang berbuah",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fruitful_cocoa_tree(cheche).jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Fruitful_cocoa_tree%28cheche%29.jpg/960px-Fruitful_cocoa_tree%28cheche%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 8000,
+          "height": 6000,
+          "preview": "data/candidates/ouest-nord-2026-previews/cacao-2.jpg"
         }
       ]
     },
@@ -2743,7 +3468,9 @@
         "id": "Q47532",
         "scientific": "Coffea canephora",
         "images": [
-          "Coffea canephora berries.JPG"
+          "Coffea canephora berries.JPG",
+          "Roasted coffee beans.jpg",
+          "FruitColors.jpg"
         ],
         "revision": "2565855319",
         "labels": {
@@ -2779,6 +3506,34 @@
           "width": 3264,
           "height": 2448,
           "preview": "data/candidates/ouest-nord-2026-previews/cafe-robusta-0.jpg"
+        },
+        {
+          "title": "Roasted coffee beans.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "MarkSweep",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Roasted coffee beans",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/960px-Roasted_coffee_beans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1600,
+          "height": 1200,
+          "preview": "data/candidates/ouest-nord-2026-previews/cafe-robusta-1.jpg"
+        },
+        {
+          "title": "FruitColors.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "true",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:FruitColors.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/FruitColors.jpg/960px-FruitColors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2048,
+          "height": 1536,
+          "preview": "data/candidates/ouest-nord-2026-previews/cafe-robusta-2.jpg"
         }
       ]
     },
@@ -2795,15 +3550,18 @@
         "scientific": "Capsicum annuum",
         "images": [
           "Capsicum annuum - Köhler–s Medizinal-Pflanzen-027.jpg",
-          "Red pepper from Ivory Coast 01.jpg"
+          "Red pepper from Ivory Coast 01.jpg",
+          "Madame Jeanette and other chillies.jpg",
+          "Red capsicum and cross section.jpg",
+          "RedBellPepper.jpg"
         ],
         "revision": "2563979626",
         "labels": {
+          "wo": "Kaani",
           "ha": "barkono",
           "ar": "فليفلة حولية",
           "en": "Capsicum annuum",
-          "fr": "Capsicum annuum",
-          "wo": "Kaani"
+          "fr": "Capsicum annuum"
         },
         "aliases": {
           "en": [
@@ -2851,6 +3609,20 @@
           "width": 2944,
           "height": 2944,
           "preview": "data/candidates/ouest-nord-2026-previews/poivron-1.jpg"
+        },
+        {
+          "title": "Madame Jeanette and other chillies.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Takeaway",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Image showing relative sizes of chillies: green bird's eye, yellow Madame Jeanette, red cayenne. All three chillies were bought at a regular supermarket in the Netherlands.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Madame_Jeanette_and_other_chillies.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Madame_Jeanette_and_other_chillies.jpg/960px-Madame_Jeanette_and_other_chillies.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2560,
+          "height": 2048,
+          "preview": "data/candidates/ouest-nord-2026-previews/poivron-2.jpg"
         }
       ]
     },
@@ -2926,6 +3698,20 @@
           "width": 2340,
           "height": 2340,
           "preview": "data/candidates/ouest-nord-2026-previews/navet-1.jpg"
+        },
+        {
+          "title": "Brassica rapa plant.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "TeunSpaans",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "This pic shows a Brassica rapa . Its silhouette is clearly visible against the water, Zuiderpark , the Hague , Netherlands",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Brassica_rapa_plant.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Brassica_rapa_plant.jpg/960px-Brassica_rapa_plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1536,
+          "height": 2048,
+          "preview": "data/candidates/ouest-nord-2026-previews/navet-2.jpg"
         }
       ]
     },
@@ -2941,7 +3727,16 @@
         "id": "Q7229863",
         "scientific": "Cucurbita pepo",
         "images": [
-          "Cucurbita pepo collage 1.png"
+          "Cucurbita pepo collage 1.png",
+          "Courgette Cucurbita pepo 2.jpg",
+          "Cucurbita pepo var cylindrica, Yellow Zucchini Squash (crop).jpg",
+          "Cucurbita pepo zucchine and tondo.jpg",
+          "Cucurbita 2011 G1.jpg",
+          "Pumpkin with stalk.jpg",
+          "PumpkinSeedOil.png",
+          "Courgette plant 'Diamant'.jpg",
+          "Marrows in supermarket.jpg",
+          "Pepita de calabaza.jpg"
         ],
         "revision": "2549297639",
         "labels": {
@@ -2978,6 +3773,34 @@
           "width": 1088,
           "height": 900,
           "preview": "data/candidates/ouest-nord-2026-previews/courgette-0.jpg"
+        },
+        {
+          "title": "Courgette Cucurbita pepo 2.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Meanos",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Maturating courgette/zuchinni.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Courgette_Cucurbita_pepo_2.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Courgette_Cucurbita_pepo_2.jpg/960px-Courgette_Cucurbita_pepo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2000,
+          "height": 3008,
+          "preview": "data/candidates/ouest-nord-2026-previews/courgette-1.jpg"
+        },
+        {
+          "title": "Cucurbita pepo var cylindrica, Yellow Zucchini Squash (crop).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "artist": "Le Grande Farmer's Market",
+          "credit": "Flickr",
+          "attributionRequired": "true",
+          "description": "Basket of Cucurbita pepo var cylindrica , Yellow Zuchinni Squash, at a farmer's market",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cucurbita_pepo_var_cylindrica,_Yellow_Zucchini_Squash_(crop).jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Cucurbita_pepo_var_cylindrica%2C_Yellow_Zucchini_Squash_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 376,
+          "height": 217,
+          "preview": "data/candidates/ouest-nord-2026-previews/courgette-2.jpg"
         }
       ]
     },
@@ -2993,27 +3816,29 @@
         "id": "Q28298",
         "scientific": "Apium graveolens",
         "images": [
-          "2023-06-22 Apium graveolens (Wild Celery), Elswick, Northumberland 4.jpg"
+          "2023-06-22 Apium graveolens (Wild Celery), Elswick, Northumberland 4.jpg",
+          "Céleri.jpg",
+          "Celery seed.jpg"
         ],
         "revision": "2563894531",
         "labels": {
+          "en": "Apium graveolens",
           "fr": "céleri",
-          "ar": "كرفس",
-          "en": "Apium graveolens"
+          "ar": "كرفس"
         },
         "aliases": {
-          "fr": [
-            "Apium graveolens",
-            "Cèleri"
-          ],
           "en": [
             "smallage",
             "wild celery"
           ],
           "ar": [
-            "الكرفس",
             "كرفس (نوع)",
-            "كرفس نبطي"
+            "كرفس نبطي",
+            "الكرفس"
+          ],
+          "fr": [
+            "Apium graveolens",
+            "Cèleri"
           ]
         },
         "descriptionFr": "espèce de plantes"
@@ -3032,6 +3857,34 @@
           "width": 3000,
           "height": 4000,
           "preview": "data/candidates/ouest-nord-2026-previews/celeri-0.jpg"
+        },
+        {
+          "title": "Céleri.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "true",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A9leri.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/C%C3%A9leri.jpg/960px-C%C3%A9leri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2002,
+          "height": 1172,
+          "preview": "data/candidates/ouest-nord-2026-previews/celeri-1.jpg"
+        },
+        {
+          "title": "Celery seed.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "Holly Cheng",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Celery seed",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Celery_seed.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Celery_seed.jpg/960px-Celery_seed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2560,
+          "height": 1920,
+          "preview": "data/candidates/ouest-nord-2026-previews/celeri-2.jpg"
         }
       ]
     },
@@ -3052,10 +3905,10 @@
         ],
         "revision": "2548367590",
         "labels": {
-          "en": "Cynara cardunculus",
-          "fr": "Cynara cardunculus",
           "kab": "Taga",
-          "ar": "حرشف مبذول بري"
+          "ar": "حرشف مبذول بري",
+          "en": "Cynara cardunculus",
+          "fr": "Cynara cardunculus"
         },
         "aliases": {
           "fr": [
@@ -3177,6 +4030,20 @@
           "width": 3004,
           "height": 2254,
           "preview": "data/candidates/ouest-nord-2026-previews/mauve-1.jpg"
+        },
+        {
+          "title": "Malva sylvestris - Common mallow 03.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Zeynel Cebeci",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Flowers of Common Mallow ( Malva sylvestris ).",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Malva_sylvestris_-_Common_mallow_03.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Malva_sylvestris_-_Common_mallow_03.jpg/960px-Malva_sylvestris_-_Common_mallow_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2250,
+          "height": 1743,
+          "preview": "data/candidates/ouest-nord-2026-previews/mauve-2.jpg"
         }
       ]
     },
@@ -3192,7 +4059,9 @@
         "id": "Q165191",
         "scientific": "Beta vulgaris",
         "images": [
-          "Beta vulgaris - Köhler–s Medizinal-Pflanzen-167.jpg"
+          "Beta vulgaris - Köhler–s Medizinal-Pflanzen-167.jpg",
+          "Beta vulgaris.JPG",
+          "Beetroot(1).jpg"
         ],
         "revision": "2547649652",
         "labels": {
@@ -3235,6 +4104,34 @@
           "width": 476,
           "height": 593,
           "preview": "data/candidates/ouest-nord-2026-previews/betterave-0.jpg"
+        },
+        {
+          "title": "Beta vulgaris.JPG",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Medved'",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Свекольные листья",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beta_vulgaris.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Beta_vulgaris.JPG/960px-Beta_vulgaris.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2592,
+          "height": 1944,
+          "preview": "data/candidates/ouest-nord-2026-previews/betterave-1.jpg"
+        },
+        {
+          "title": "Beetroot(1).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Kiwima",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "a variety of beetroots",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beetroot(1).jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Beetroot%281%29.jpg/960px-Beetroot%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2560,
+          "height": 1920,
+          "preview": "data/candidates/ouest-nord-2026-previews/betterave-2.jpg"
         }
       ]
     },
@@ -3251,25 +4148,19 @@
         "scientific": "Petroselinum crispum",
         "images": [
           "Petroselinum crispum - Köhler–s Medizinal-Pflanzen-103.jpg",
-          "Petroselinum crispum 003.JPG"
+          "Petroselinum crispum 003.JPG",
+          "13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-095.jpg",
+          "Petersilienwurzeln Wochenmarkt Karlsruhe 2011.JPG",
+          "Petroselinum crispum Gigante dItalia 2022-08-25 8737.jpg"
         ],
         "revision": "2563894910",
         "labels": {
-          "kab": "Imẓi",
           "fr": "persil",
           "en": "parsley",
-          "ar": "بقدونس"
+          "ar": "بقدونس",
+          "kab": "Imẓi"
         },
         "aliases": {
-          "fr": [
-            "Petroselinum crispum",
-            "Petroselinum sativum",
-            "persil frisé",
-            "persil italien",
-            "persil plat",
-            "grand persil",
-            "persil commun"
-          ],
           "ar": [
             "البقدونس",
             "معد نوس",
@@ -3278,6 +4169,15 @@
           "en": [
             "garden parsley",
             "Petroselinum crispum"
+          ],
+          "fr": [
+            "Petroselinum crispum",
+            "Petroselinum sativum",
+            "persil frisé",
+            "persil italien",
+            "persil plat",
+            "grand persil",
+            "persil commun"
           ]
         },
         "descriptionFr": "espèce de plantes comestibles"
@@ -3310,6 +4210,20 @@
           "width": 1779,
           "height": 1333,
           "preview": "data/candidates/ouest-nord-2026-previews/persil-1.jpg"
+        },
+        {
+          "title": "13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-095.jpg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "artist": "Bi-frie ( talk )",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Treffen der Redaktion Essen und Trinken ion Wien",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-095.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-095.jpg/960px-13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4288,
+          "height": 2848,
+          "preview": "data/candidates/ouest-nord-2026-previews/persil-2.jpg"
         }
       ]
     },
@@ -3404,7 +4318,8 @@
         "scientific": "Thymus vulgaris",
         "images": [
           "Thymian (Thymus vulgaris), Nationalpark Hohe Tauern.jpg",
-          "THYMUS VULGARIS - AGUDA - IB-910 (Timó).JPG"
+          "THYMUS VULGARIS - AGUDA - IB-910 (Timó).JPG",
+          "Thyme-Bundle.jpg"
         ],
         "revision": "2564391185",
         "labels": {
@@ -3456,6 +4371,20 @@
           "width": 2048,
           "height": 1536,
           "preview": "data/candidates/ouest-nord-2026-previews/thym-1.jpg"
+        },
+        {
+          "title": "Thyme-Bundle.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "Evan-Amos",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "A bundle of the herb thyme that came from an organic farm co-op.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Thyme-Bundle.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Thyme-Bundle.jpg/960px-Thyme-Bundle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4160,
+          "height": 2280,
+          "preview": "data/candidates/ouest-nord-2026-previews/thym-2.jpg"
         }
       ]
     },
@@ -3472,7 +4401,8 @@
         "scientific": "Origanum majorana",
         "images": [
           "Origanum majorana.jpg",
-          "Origanum majorana 001.JPG"
+          "Origanum majorana 001.JPG",
+          "MarjoramEssOil.png"
         ],
         "revision": "2563894875",
         "labels": {
@@ -3542,6 +4472,20 @@
           "width": 1726,
           "height": 2302,
           "preview": "data/candidates/ouest-nord-2026-previews/marjolaine-1.jpg"
+        },
+        {
+          "title": "MarjoramEssOil.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Itineranttrader",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Glass vial containing Marjoram Essential Oil",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MarjoramEssOil.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/MarjoramEssOil.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 857,
+          "height": 1280,
+          "preview": "data/candidates/ouest-nord-2026-previews/marjolaine-2.jpg"
         }
       ]
     },
@@ -3558,14 +4502,15 @@
         "scientific": "Salvia officinalis",
         "images": [
           "Salvia officinalis L. 3355742911.jpg",
-          "Salvia officinalis0.jpg"
+          "Salvia officinalis0.jpg",
+          "SageEssentialOil.png"
         ],
-        "revision": "2564918130",
+        "revision": "2566657339",
         "labels": {
-          "kab": "Bu tanzarin",
           "ar": "مريمية",
           "en": "Salvia officinalis",
-          "fr": "sauge officinale"
+          "fr": "sauge officinale",
+          "kab": "Bu tanzarin"
         },
         "aliases": {
           "en": [
@@ -3617,6 +4562,20 @@
           "width": 640,
           "height": 480,
           "preview": "data/candidates/ouest-nord-2026-previews/sauge-1.jpg"
+        },
+        {
+          "title": "SageEssentialOil.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Itineranttrader",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Sage ( Salvia officinalis ) Essential Oil in clear glass vial",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SageEssentialOil.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/SageEssentialOil.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 857,
+          "height": 1280,
+          "preview": "data/candidates/ouest-nord-2026-previews/sauge-2.jpg"
         }
       ]
     },
@@ -3632,7 +4591,10 @@
         "id": "Q102240169",
         "scientific": "Salvia rosmarinus",
         "images": [
-          "P1090247(4x3)-Rosmarinus officinalis (41960388224).jpg"
+          "P1090247(4x3)-Rosmarinus officinalis (41960388224).jpg",
+          "RosemaryEssentialOil.png",
+          "Liat Portal for Foodie Disorder - Rosemary.jpg",
+          "Rosemary flowers2.jpg"
         ],
         "revision": "2564961635",
         "labels": {
@@ -3643,19 +4605,19 @@
           "kab": "Aklil"
         },
         "aliases": {
-          "en": [
-            "rosemary",
-            "Rosemary",
-            "Rosmarinus officinalis"
-          ],
           "ar": [
-            "إكليل",
-            "اكليل الجبل",
             "حصا لبان",
             "حصالبان",
             "حصى البان",
             "روزماري",
-            "كليل"
+            "كليل",
+            "إكليل",
+            "اكليل الجبل"
+          ],
+          "en": [
+            "Rosmarinus officinalis",
+            "rosemary",
+            "Rosemary"
           ],
           "fr": [
             "Rosmarinus officinalis",
@@ -3678,6 +4640,34 @@
           "width": 2400,
           "height": 1800,
           "preview": "data/candidates/ouest-nord-2026-previews/romarin-0.jpg"
+        },
+        {
+          "title": "RosemaryEssentialOil.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Itineranttrader",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Rosemary ( Rosmarinus officinalis ) Essential Oil in clear glass vial",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:RosemaryEssentialOil.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/RosemaryEssentialOil.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 857,
+          "height": 1280,
+          "preview": "data/candidates/ouest-nord-2026-previews/romarin-1.jpg"
+        },
+        {
+          "title": "Liat Portal for Foodie Disorder - Rosemary.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "HaJunkiyada",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "High-quality photograph by Liat Portal showing fresh rosemary sprigs with intact needles and woody stems, photographed raw and unprocessed. This image documents rosemary as part of the Foodie Disorder global food culture archive.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Rosemary.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Liat_Portal_for_Foodie_Disorder_-_Rosemary.jpg/960px-Liat_Portal_for_Foodie_Disorder_-_Rosemary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3024,
+          "height": 4032,
+          "preview": "data/candidates/ouest-nord-2026-previews/romarin-2.jpg"
         }
       ]
     },
@@ -3693,18 +4683,23 @@
         "id": "Q26006",
         "scientific": "Laurus nobilis",
         "images": [
-          "Laurier.jpg"
+          "Laurier.jpg",
+          "Laurus nobilis leaves.png"
         ],
         "revision": "2564961757",
         "labels": {
-          "wo": "Lóriye",
-          "ha": "Laurus nobilis",
           "en": "Laurus nobilis",
           "ar": "غار",
           "fr": "Laurus nobilis",
-          "kab": "Tarselt"
+          "kab": "Tarselt",
+          "wo": "Lóriye",
+          "ha": "Laurus nobilis"
         },
         "aliases": {
+          "en": [
+            "bay laurel",
+            "laurel"
+          ],
           "ar": [
             "الغار",
             "ورق الغار",
@@ -3717,10 +4712,6 @@
             "Laurier noble",
             "Laurier Sauce",
             "Laurier-sauce"
-          ],
-          "en": [
-            "bay laurel",
-            "laurel"
           ]
         },
         "descriptionFr": "espèce de plantes"
@@ -3739,6 +4730,20 @@
           "width": 624,
           "height": 468,
           "preview": "data/candidates/ouest-nord-2026-previews/laurier-0.jpg"
+        },
+        {
+          "title": "Laurus nobilis leaves.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Χρήστης:Andrikkos / The original uploader was Andrikkos at Greek Wikipedia .",
+          "credit": "own work by the original uploader",
+          "attributionRequired": "false",
+          "description": "Laurus nobilis leaves",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Laurus_nobilis_leaves.png",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Laurus_nobilis_leaves.png/960px-Laurus_nobilis_leaves.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4961,
+          "height": 4640,
+          "preview": "data/candidates/ouest-nord-2026-previews/laurier-1.jpg"
         }
       ]
     },
@@ -3853,7 +4858,9 @@
         "id": "Q578904",
         "scientific": "Rosa × damascena",
         "images": [
-          "Rosa damascena5.jpg"
+          "Rosa damascena5.jpg",
+          "Masovo otglejdane na rozi v zlatosel.jpg",
+          "HK TST 朗廷酒店 Langham Hotel ladder roses 02.JPG"
         ],
         "revision": "2562746832",
         "labels": {
@@ -3899,6 +4906,34 @@
           "width": 640,
           "height": 480,
           "preview": "data/candidates/ouest-nord-2026-previews/rose-damas-0.jpg"
+        },
+        {
+          "title": "Masovo otglejdane na rozi v zlatosel.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Springflower7777",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "розови насаждения в с.Златосел",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Masovo_otglejdane_na_rozi_v_zlatosel.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Masovo_otglejdane_na_rozi_v_zlatosel.jpg/960px-Masovo_otglejdane_na_rozi_v_zlatosel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2048,
+          "height": 1536,
+          "preview": "data/candidates/ouest-nord-2026-previews/rose-damas-1.jpg"
+        },
+        {
+          "title": "HK TST 朗廷酒店 Langham Hotel ladder roses 02.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Oxantmato",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "zh:尖沙咀 朗廷酒店",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HK_TST_%E6%9C%97%E5%BB%B7%E9%85%92%E5%BA%97_Langham_Hotel_ladder_roses_02.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/HK_TST_%E6%9C%97%E5%BB%B7%E9%85%92%E5%BA%97_Langham_Hotel_ladder_roses_02.JPG/960px-HK_TST_%E6%9C%97%E5%BB%B7%E9%85%92%E5%BA%97_Langham_Hotel_ladder_roses_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2592,
+          "height": 1944,
+          "preview": "data/candidates/ouest-nord-2026-previews/rose-damas-2.jpg"
         }
       ]
     },
@@ -3914,7 +4949,10 @@
         "id": "Q38859",
         "scientific": "Ocimum basilicum",
         "images": [
-          "Basil-Basilico-Ocimum basilicum-albahaca.jpg"
+          "Basil-Basilico-Ocimum basilicum-albahaca.jpg",
+          "Basilico Genovese di Prà-2.jpg",
+          "Семечко базилика.jpg",
+          "Basil leaves.jpg"
         ],
         "revision": "2564962899",
         "labels": {
@@ -3927,6 +4965,8 @@
         },
         "aliases": {
           "ar": [
+            "فرنجي مسك",
+            "نبتة القديس يوسف",
             "الريحان",
             "ريحان قرنفلي",
             "الحوك",
@@ -3936,20 +4976,18 @@
             "ريحان صعتري",
             "شاهسفرم",
             "صعتر هندي",
-            "صقر هندي",
-            "فرنجي مسك",
-            "نبتة القديس يوسف"
+            "صقر هندي"
+          ],
+          "en": [
+            "Ocimum basilicum"
           ],
           "fr": [
-            "basilic thaï",
             "Ocimum basilicum",
             "basilic grand vert",
             "basilic pourpre",
             "basilic citron",
-            "basilic thai doux"
-          ],
-          "en": [
-            "Ocimum basilicum"
+            "basilic thai doux",
+            "basilic thaï"
           ],
           "ha": [
             "Ocimum basilicum"
@@ -3971,6 +5009,34 @@
           "width": 3488,
           "height": 2616,
           "preview": "data/candidates/ouest-nord-2026-previews/basilic-0.jpg"
+        },
+        {
+          "title": "Basilico Genovese di Prà-2.jpg",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "true",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Basilico_Genovese_di_Pr%C3%A0-2.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Basilico_Genovese_di_Pr%C3%A0-2.jpg/960px-Basilico_Genovese_di_Pr%C3%A0-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1600,
+          "height": 1200,
+          "preview": "data/candidates/ouest-nord-2026-previews/basilic-1.jpg"
+        },
+        {
+          "title": "Семечко базилика.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "artist": "Alexander Klepnev",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Basil seed",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B5%D0%BC%D0%B5%D1%87%D0%BA%D0%BE_%D0%B1%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D0%A1%D0%B5%D0%BC%D0%B5%D1%87%D0%BA%D0%BE_%D0%B1%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0.jpg/960px-%D0%A1%D0%B5%D0%BC%D0%B5%D1%87%D0%BA%D0%BE_%D0%B1%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3868,
+          "height": 3869,
+          "preview": "data/candidates/ouest-nord-2026-previews/basilic-2.jpg"
         }
       ]
     },
@@ -4007,7 +5073,9 @@
         "id": "Q370239",
         "scientific": "Cinnamomum verum",
         "images": [
-          "Cinnamomum verum1.jpg"
+          "Cinnamomum verum1.jpg",
+          "Ground Cinnamon Powder and a Cinnamon Stick.jpg",
+          "CinnamonBarkEssentialOil.png"
         ],
         "revision": "2563894675",
         "labels": {
@@ -4039,6 +5107,34 @@
           "width": 500,
           "height": 323,
           "preview": "data/candidates/ouest-nord-2026-previews/cannelle-0.jpg"
+        },
+        {
+          "title": "Ground Cinnamon Powder and a Cinnamon Stick.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "artist": "formulatehealth",
+          "credit": "https://www.flickr.com/photos/189590028@N07/50381022213/",
+          "attributionRequired": "true",
+          "description": "A close-up photograph of ground cinnamon and cinnamon bark. We created this image when writing about the nutritional health benefits of ground cinnamon and cinnamon bark and the potential uses of each. We've since released this image under Creative Commons Attribution Licensing. You may use this pho",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ground_Cinnamon_Powder_and_a_Cinnamon_Stick.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ground_Cinnamon_Powder_and_a_Cinnamon_Stick.jpg/960px-Ground_Cinnamon_Powder_and_a_Cinnamon_Stick.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4000,
+          "height": 2667,
+          "preview": "data/candidates/ouest-nord-2026-previews/cannelle-1.jpg"
+        },
+        {
+          "title": "CinnamonBarkEssentialOil.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Itineranttrader",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Cinnamon Bark ( Cinnamomum verum ) Essential Oil",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CinnamonBarkEssentialOil.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/CinnamonBarkEssentialOil.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 857,
+          "height": 1280,
+          "preview": "data/candidates/ouest-nord-2026-previews/cannelle-2.jpg"
         }
       ]
     },
@@ -4056,7 +5152,11 @@
         "images": [
           "Piper nigrum - Köhler–s Medizinal-Pflanzen-107.jpg",
           "Piper nigrum dsc00198.jpg",
-          "Black Pepper IMG 4866 - 02.jpg"
+          "Black Pepper IMG 4866 - 02.jpg",
+          "Dried Peppercorns.jpg",
+          "Pfeffer-Gewürz.jpg",
+          "Salière et poivrier.jpg",
+          "990515 (15) - Green Slim Peppers.jpg"
         ],
         "revision": "2563894948",
         "labels": {
@@ -4065,6 +5165,12 @@
           "ar": "فلفل أسود"
         },
         "aliases": {
+          "ary": [
+            "بزار"
+          ],
+          "en": [
+            "peppercorn"
+          ],
           "ar": [
             "الفلفل الأسود",
             "فلفل أكحل",
@@ -4074,12 +5180,6 @@
           ],
           "fr": [
             "piper nigrum"
-          ],
-          "ary": [
-            "بزار"
-          ],
-          "en": [
-            "peppercorn"
           ]
         },
         "descriptionFr": "espèce de plantes"
@@ -4112,6 +5212,20 @@
           "width": 1944,
           "height": 2592,
           "preview": "data/candidates/ouest-nord-2026-previews/poivre-noir-1.jpg"
+        },
+        {
+          "title": "Black Pepper IMG 4866 - 02.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "artist": "Hubertl",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Black Pepper (Piper nigrum)",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Black_Pepper_IMG_4866_-_02.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Black_Pepper_IMG_4866_-_02.jpg/960px-Black_Pepper_IMG_4866_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2930,
+          "height": 2260,
+          "preview": "data/candidates/ouest-nord-2026-previews/poivre-noir-2.jpg"
         }
       ]
     },
@@ -4127,7 +5241,8 @@
         "id": "Q28692",
         "scientific": "Pimpinella anisum",
         "images": [
-          "Koehler1887-PimpinellaAnisum.jpg"
+          "Koehler1887-PimpinellaAnisum.jpg",
+          "Anise Seed.jpg"
         ],
         "revision": "2566529239",
         "labels": {
@@ -4174,6 +5289,20 @@
           "width": 492,
           "height": 559,
           "preview": "data/candidates/ouest-nord-2026-previews/anis-vert-0.jpg"
+        },
+        {
+          "title": "Anise Seed.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "OttawaAC",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Anise seeds",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Anise_Seed.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Anise_Seed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 800,
+          "height": 600,
+          "preview": "data/candidates/ouest-nord-2026-previews/anis-vert-1.jpg"
         }
       ]
     },
@@ -4193,10 +5322,10 @@
         ],
         "revision": "2565055378",
         "labels": {
+          "kab": "Issamen",
           "en": "Carum carvi",
           "fr": "Carvi",
-          "ar": "كروياء",
-          "kab": "Issamen"
+          "ar": "كروياء"
         },
         "aliases": {
           "en": [
@@ -4252,7 +5381,8 @@
         "scientific": "Nigella sativa",
         "images": [
           "Nigella sativa - Köhler–s Medizinal-Pflanzen-227.jpg",
-          "Nsativa001Wien.jpg"
+          "Nsativa001Wien.jpg",
+          "Black cumin seed.png"
         ],
         "revision": "2564964913",
         "labels": {
@@ -4307,6 +5437,20 @@
           "width": 1240,
           "height": 1655,
           "preview": "data/candidates/ouest-nord-2026-previews/nigelle-1.jpg"
+        },
+        {
+          "title": "Black cumin seed.png",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Mountainhills",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "black cumin seed",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Black_cumin_seed.png",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Black_cumin_seed.png/960px-Black_cumin_seed.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1138,
+          "height": 547,
+          "preview": "data/candidates/ouest-nord-2026-previews/nigelle-2.jpg"
         }
       ]
     },
@@ -4343,7 +5487,9 @@
         "id": "Q156251",
         "scientific": "Capparis spinosa",
         "images": [
-          "Capparis zoharyi 4.jpg"
+          "Capparis zoharyi 4.jpg",
+          "Kapern.jpg",
+          "Salted capers.jpg"
         ],
         "revision": "2564962133",
         "labels": {
@@ -4354,12 +5500,6 @@
           "shi": "Taylalut"
         },
         "aliases": {
-          "fr": [
-            "Capparis spinosa",
-            "Caprier",
-            "câprier Commun",
-            "Câprier épineux"
-          ],
           "ar": [
             "كبر",
             "كبار",
@@ -4369,6 +5509,12 @@
           "en": [
             "caper bush",
             "Flinders rose"
+          ],
+          "fr": [
+            "Capparis spinosa",
+            "Caprier",
+            "câprier Commun",
+            "Câprier épineux"
           ]
         },
         "descriptionFr": "espèce de plantes"
@@ -4387,6 +5533,34 @@
           "width": 800,
           "height": 638,
           "preview": "data/candidates/ouest-nord-2026-previews/capre-0.jpg"
+        },
+        {
+          "title": "Kapern.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Rainer Zenz at German Wikipedia",
+          "credit": "Transferred from de.wikipedia to Commons.",
+          "attributionRequired": "false",
+          "description": "Η γνωστή κάππαρη είναι ένας ανθοφόρος οφθαλμός τουρσί Καππάρεως της ακανθώδους (Capparis spinosa).",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kapern.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kapern.jpg/960px-Kapern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1202,
+          "height": 1152,
+          "preview": "data/candidates/ouest-nord-2026-previews/capre-1.jpg"
+        },
+        {
+          "title": "Salted capers.jpg",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+          "artist": "James F. Carter",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Αλατισμένη κάππαρη.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Salted_capers.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Salted_capers.jpg/960px-Salted_capers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1392,
+          "height": 753,
+          "preview": "data/candidates/ouest-nord-2026-previews/capre-2.jpg"
         }
       ]
     },
@@ -4867,6 +6041,20 @@
           "width": 3120,
           "height": 4160,
           "preview": "data/candidates/ouest-nord-2026-previews/huile-palme-1.jpg"
+        },
+        {
+          "title": "Сырое пальмовое масло.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Здоровое питание",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Цвет сырого пальмового масла колеблется от жёлтого до ярко-оранжевого",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%8B%D1%80%D0%BE%D0%B5_%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BC%D0%B0%D1%81%D0%BB%D0%BE.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/%D0%A1%D1%8B%D1%80%D0%BE%D0%B5_%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BC%D0%B0%D1%81%D0%BB%D0%BE.jpg/960px-%D0%A1%D1%8B%D1%80%D0%BE%D0%B5_%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BC%D0%B0%D1%81%D0%BB%D0%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1000,
+          "height": 1499,
+          "preview": "data/candidates/ouest-nord-2026-previews/huile-palme-2.jpg"
         }
       ]
     },
@@ -4938,6 +6126,20 @@
           "width": 1872,
           "height": 4160,
           "preview": "data/candidates/ouest-nord-2026-previews/beurre-karite-1.jpg"
+        },
+        {
+          "title": "Shea butter.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Amuzujoe",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Shea butter cooked and dried for processing.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shea_butter.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Shea_butter.jpg/960px-Shea_butter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 6016,
+          "height": 4016,
+          "preview": "data/candidates/ouest-nord-2026-previews/beurre-karite-2.jpg"
         }
       ]
     },
@@ -5103,12 +6305,12 @@
         ],
         "revision": "2548860855",
         "labels": {
-          "ar": "الخليع",
-          "ary": "خليع (ماكلة)",
           "en": "Khlea",
           "fr": "Khlii",
           "ha": "Khlea",
-          "yo": "Khlea"
+          "yo": "Khlea",
+          "ar": "الخليع",
+          "ary": "خليع (ماكلة)"
         },
         "aliases": {}
       },
@@ -5493,7 +6695,9 @@
         "scientific": "Engraulis encrasicolus",
         "images": [
           "Engraulis encrasicolus Gervais flipped.jpg",
-          "Engraulis encrasicolus Portugal.jpg"
+          "Engraulis encrasicolus Portugal.jpg",
+          "Acciughe sotto sale.arbanella di acciughe mature.jpg",
+          "Lomos de anchoa.jpg"
         ],
         "revision": "2566530384",
         "labels": {
@@ -5502,19 +6706,19 @@
           "fr": "Engraulis encrasicolus"
         },
         "aliases": {
-          "en": [
-            "Engraulis encrasicolus",
-            "Hamsa"
-          ],
           "fr": [
+            "anchois",
             "Amplovo",
             "Anchois commun",
             "Anchois d'Europe",
             "Anchois de L'Afrique Australe",
             "Anchois européen",
             "Anchois Italien",
-            "Carne A Carne",
-            "anchois"
+            "Carne A Carne"
+          ],
+          "en": [
+            "Hamsa",
+            "Engraulis encrasicolus"
           ]
         },
         "descriptionFr": "espèce de poissons"
@@ -5547,6 +6751,20 @@
           "width": 2048,
           "height": 1536,
           "preview": "data/candidates/ouest-nord-2026-previews/anchois-1.jpg"
+        },
+        {
+          "title": "Acciughe sotto sale.arbanella di acciughe mature.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Roger469",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "arbanella di acciughe mature",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Acciughe_sotto_sale.arbanella_di_acciughe_mature.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Acciughe_sotto_sale.arbanella_di_acciughe_mature.jpg/960px-Acciughe_sotto_sale.arbanella_di_acciughe_mature.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1600,
+          "height": 1200,
+          "preview": "data/candidates/ouest-nord-2026-previews/anchois-2.jpg"
         }
       ]
     },
@@ -5710,13 +6928,12 @@
           "fr": "Mugil cephalus"
         },
         "aliases": {
+          "en": [
+            "sea mullet",
+            "flathead grey mullet",
+            "flathead mullet"
+          ],
           "fr": [
-            "Carida",
-            "Mulet",
-            "Cabot",
-            "Testu",
-            "Testard",
-            "Muge",
             "Caridou",
             "Cremole",
             "Meuil",
@@ -5730,17 +6947,18 @@
             "Mulet Jaune",
             "Mulet Jeune",
             "Mulet-cabot",
-            "Poisson Queue Bleue"
+            "Poisson Queue Bleue",
+            "Carida",
+            "Mulet",
+            "Cabot",
+            "Testu",
+            "Testard",
+            "Muge"
           ],
           "ar": [
             "البوري الحر",
             "سمك البوري",
             "سمك بوري"
-          ],
-          "en": [
-            "flathead mullet",
-            "sea mullet",
-            "flathead grey mullet"
           ]
         },
         "descriptionFr": "espèce de poissons"
@@ -5907,6 +7125,1417 @@
         "aliases": {}
       },
       "photos": []
+    },
+    {
+      "slug": "mandarine",
+      "labelFr": "Mandarine",
+      "categoryId": "fruits",
+      "formTypes": [
+        "fruits"
+      ],
+      "countries": "MAR",
+      "entity": {
+        "id": "Q125337",
+        "scientific": "Citrus reticulata",
+        "images": [
+          "Mandarin Oranges (Citrus Reticulata).jpg",
+          "Satsuma mandarin2.jpg",
+          "PRC Xinhui Mandarin orange peels a.jpg",
+          "TangerineEssentialOil.png"
+        ],
+        "revision": "2563894714",
+        "labels": {
+          "ar": "اليوسفي",
+          "en": "Citrus reticulata",
+          "fr": "Citrus reticulata"
+        },
+        "aliases": {
+          "en": [
+            "mandarin orange",
+            "mandarin",
+            "mandarine",
+            "tangerina"
+          ],
+          "ar": [
+            "يوسف أفندي",
+            "المندرين",
+            "ماندرين",
+            "مندرين",
+            "يوسفى",
+            "يوسفي"
+          ],
+          "fr": [
+            "Citrus deliciosa",
+            "mandarinier"
+          ]
+        },
+        "descriptionFr": "arbre produisant des agrumes nommés mandarines"
+      },
+      "photos": [
+        {
+          "title": "Mandarin Oranges (Citrus Reticulata).jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Joe Ravi",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Mandarin oranges (Citrus Reticulata).",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mandarin_Oranges_(Citrus_Reticulata).jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Mandarin_Oranges_%28Citrus_Reticulata%29.jpg/960px-Mandarin_Oranges_%28Citrus_Reticulata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2986,
+          "height": 1991,
+          "preview": "data/candidates/ouest-nord-2026-previews/mandarine-0.jpg"
+        },
+        {
+          "title": "Satsuma mandarin2.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "true",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Satsuma_mandarin2.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Satsuma_mandarin2.jpg/960px-Satsuma_mandarin2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1024,
+          "height": 768,
+          "preview": "data/candidates/ouest-nord-2026-previews/mandarine-1.jpg"
+        },
+        {
+          "title": "PRC Xinhui Mandarin orange peels a.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Dboxes",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Raw materials of Chinese soup - 陳皮/果皮",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:PRC_Xinhui_Mandarin_orange_peels_a.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/PRC_Xinhui_Mandarin_orange_peels_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 869,
+          "height": 741,
+          "preview": "data/candidates/ouest-nord-2026-previews/mandarine-2.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "raisin",
+      "labelFr": "Raisin",
+      "categoryId": "fruits",
+      "formTypes": [
+        "fruits"
+      ],
+      "countries": "MAR TUN",
+      "entity": {
+        "id": "Q30046",
+        "scientific": "Vitis vinifera",
+        "images": [
+          "Vitis vinifera - Köhler–s Medizinal-Pflanzen-145.jpg",
+          "Illustration Vitis vinifera Prof. Dr. Otto Wilhelm Thomé 1885.png",
+          "Wine grapes03.jpg",
+          "GrapeSeedOil.png",
+          "Sarma.jpg",
+          "Pasas.JPG"
+        ],
+        "revision": "2553321094",
+        "labels": {
+          "ar": "كرمة نبيذية",
+          "en": "Vitis vinifera",
+          "fr": "Vitis vinifera"
+        },
+        "aliases": {
+          "en": [
+            "Common Grape Vine",
+            "Grape-vine"
+          ],
+          "fr": [
+            "vigne américaine",
+            "vigne cultivée",
+            "vigne européenne",
+            "Vigne Sauvage",
+            "cépage",
+            "vigne rouge",
+            "Lambrusque"
+          ],
+          "ar": [
+            "عنب",
+            "زبيب",
+            "دالية",
+            "كرم",
+            "دوالي",
+            "أدماع الكرمة",
+            "أنبالس",
+            "حصرم",
+            "دبس عنب",
+            "دموع الدالية",
+            "زيت بذرة العنب",
+            "عصير عنب",
+            "عناقيد حامضة",
+            "عنب أبيض",
+            "عنب عاجي",
+            "عنب مجفف",
+            "ورق الدوالي"
+          ]
+        },
+        "descriptionFr": "espèce de plante à fleurs, vigne communément cultivée pour ses fruits, le raisin"
+      },
+      "photos": [
+        {
+          "title": "Vitis vinifera - Köhler–s Medizinal-Pflanzen-145.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+          "credit": "List of Koehler Images",
+          "attributionRequired": "false",
+          "description": "Weinrebe. A blühender, B fruchtender Zweig in natürl. Grösse; 1 geschlossene und 2 aufgeblühte Blüthe mit abgehobener Krone, vergrössert; 3 Blüthe ohne Krone, desgl.; 4 Staubgefässe, desgl.; 5 Pollen, desgl.; 6 Stempel im Längsschnitt, desgl.; 7 derselbe im Querschnitt; 8 u. 9 Frucht im Längs- und Q",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Vitis_vinifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-145.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Vitis_vinifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-145.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 484,
+          "height": 593,
+          "preview": "data/candidates/ouest-nord-2026-previews/raisin-0.jpg"
+        },
+        {
+          "title": "Illustration Vitis vinifera Prof. Dr. Otto Wilhelm Thomé 1885.png",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "Birkho",
+          "credit": "Prof. Dr. Otto Wilhelm Thomé Flora von Deutschland, Österreich und der Schweiz 1885, Gera, Deutschland",
+          "attributionRequired": "false",
+          "description": "Illustration Vitis vinifera Prof. Dr. Otto Wilhelm Thomé 1885",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Illustration_Vitis_vinifera_Prof._Dr._Otto_Wilhelm_Thom%C3%A9_1885.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Illustration_Vitis_vinifera_Prof._Dr._Otto_Wilhelm_Thom%C3%A9_1885.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 504,
+          "height": 809,
+          "preview": "data/candidates/ouest-nord-2026-previews/raisin-1.jpg"
+        },
+        {
+          "title": "GrapeSeedOil.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Itineranttrader",
+          "credit": "Own work",
+          "attributionRequired": "false",
+          "description": "Grape ( Vitis vinifera ) Seed Oil in clear glass vial",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:GrapeSeedOil.png",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/GrapeSeedOil.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 857,
+          "height": 1280,
+          "preview": "data/candidates/ouest-nord-2026-previews/raisin-2.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "melon",
+      "labelFr": "Melon",
+      "categoryId": "fruits",
+      "formTypes": [
+        "fruits"
+      ],
+      "countries": "MAR SEN",
+      "entity": {
+        "id": "Q81602",
+        "scientific": "Cucumis melo",
+        "images": [
+          "Canteloupe and cross section.jpg",
+          "Starr 080914-9943 Cucumis melo.jpg",
+          "Cucumis melo var. reticulatus (photo by Scott Bauer).jpg",
+          "Whole melon.jpg",
+          "Cantaloupe and canary melon.jpg",
+          "Muskmelon.jpg"
+        ],
+        "revision": "2566598377",
+        "labels": {
+          "wo": "Xaalu tubaab",
+          "yo": "Egunsi",
+          "fr": "melon",
+          "ar": "الشمام",
+          "en": "Cucumis melo"
+        },
+        "aliases": {
+          "ar": [
+            "بطيخ",
+            "عجور",
+            "عبد اللاوي",
+            "قاوون",
+            "شمام"
+          ],
+          "fr": [
+            "melon cantaloup",
+            "Cucumis melo",
+            "Melon miel",
+            "Voatango",
+            "melon charentais",
+            "melon galia",
+            "melon jaune",
+            "melon brodé"
+          ],
+          "en": [
+            "melon plant",
+            "melon",
+            "muskmelon",
+            "true melon",
+            "musk melon"
+          ],
+          "yo": [
+            "Bara"
+          ]
+        },
+        "descriptionFr": "plante cultivée pour ses fruits comestibles"
+      },
+      "photos": [
+        {
+          "title": "Starr 080914-9943 Cucumis melo.jpg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "artist": "Forest & Kim Starr",
+          "credit": "Plants of Hawaii, Image 080914-9943 from http://www.hear.org/starr/plants/images/image/?q=080914-9943",
+          "attributionRequired": "true",
+          "description": "Cucumis melo (cantaloupe flowers). Location: Maui, Makawao",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Starr_080914-9943_Cucumis_melo.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Starr_080914-9943_Cucumis_melo.jpg/960px-Starr_080914-9943_Cucumis_melo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2816,
+          "height": 2112,
+          "preview": "data/candidates/ouest-nord-2026-previews/melon-0.jpg"
+        },
+        {
+          "title": "Cucumis melo var. reticulatus (photo by Scott Bauer).jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "USDA photo by Scott Bauer. Image Number K7355-11.",
+          "credit": "http://www.ars.usda.gov/is/graphics/photos/k7388-11.htm",
+          "attributionRequired": "false",
+          "description": "North American \" cantaloupes \", actually a type of muskmelon.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cucumis_melo_var._reticulatus_(photo_by_Scott_Bauer).jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Cucumis_melo_var._reticulatus_%28photo_by_Scott_Bauer%29.jpg/960px-Cucumis_melo_var._reticulatus_%28photo_by_Scott_Bauer%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2700,
+          "height": 1809,
+          "preview": "data/candidates/ouest-nord-2026-previews/melon-1.jpg"
+        },
+        {
+          "title": "Whole melon.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "en:User:Biggie6579",
+          "credit": "en:Image:Whole melon.jpg",
+          "attributionRequired": "false",
+          "description": "A Hami melon",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Whole_melon.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Whole_melon.jpg/960px-Whole_melon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1200,
+          "height": 900,
+          "preview": "data/candidates/ouest-nord-2026-previews/melon-2.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "petit-pois",
+      "labelFr": "Petit pois",
+      "categoryId": "vegetables",
+      "formTypes": [
+        "graines"
+      ],
+      "countries": "MAR",
+      "entity": {
+        "id": "Q25237",
+        "scientific": "Pisum sativum",
+        "images": [
+          "NCI peas in pod.jpg",
+          "(Pisum sativum), A pea is a most commonly green.JPG"
+        ],
+        "revision": "2561741231",
+        "labels": {
+          "en": "Pisum sativum",
+          "fr": "pois",
+          "ar": "بازلاء",
+          "ary": "جلبانة"
+        },
+        "aliases": {
+          "en": [
+            "pea plant",
+            "peas",
+            "Pea"
+          ],
+          "fr": [
+            "petits pois",
+            "Pois gourmand",
+            "Pois mangetout",
+            "Pisum sativum",
+            "Pois cassé",
+            "Pois cassés",
+            "Pois commun",
+            "Pois fourrager",
+            "Pois sec"
+          ],
+          "ar": [
+            "جلبانة",
+            "بسلة",
+            "قرطمان",
+            "Pea",
+            "Pisum sativum",
+            "البازلاء",
+            "الجلبان",
+            "الجلبانة",
+            "القرطمان",
+            "بازيلاء"
+          ]
+        },
+        "descriptionFr": "espèce de plante annuelle"
+      },
+      "photos": [
+        {
+          "title": "NCI peas in pod.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Renee Comet (photographer) AV Number: AV-9400-4164",
+          "credit": "National Cancer Institute - http://visualsonline.cancer.gov/details.cfm?imageid=2612",
+          "attributionRequired": "false",
+          "description": "Peas in pod",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NCI_peas_in_pod.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/NCI_peas_in_pod.jpg/960px-NCI_peas_in_pod.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1344,
+          "height": 680,
+          "preview": "data/candidates/ouest-nord-2026-previews/petit-pois-0.jpg"
+        },
+        {
+          "title": "(Pisum sativum), A pea is a most commonly green.JPG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "David Adam Kess",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "(Pisum sativum)",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:(Pisum_sativum),_A_pea_is_a_most_commonly_green.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/%28Pisum_sativum%29%2C_A_pea_is_a_most_commonly_green.JPG/960px-%28Pisum_sativum%29%2C_A_pea_is_a_most_commonly_green.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4608,
+          "height": 3456,
+          "preview": "data/candidates/ouest-nord-2026-previews/petit-pois-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "noix",
+      "labelFr": "Noix",
+      "categoryId": "fruits",
+      "formTypes": [
+        "noix"
+      ],
+      "countries": "MAR",
+      "entity": {
+        "id": "Q46871",
+        "scientific": "Juglans regia",
+        "images": [
+          "Juglans regia Echte Walnussfrucht 1.jpg",
+          "Noix en automne - walnuts.JPG",
+          "Walnut forest in Arslanbab.jpg",
+          "درختان کهنسال گردو در روستای جهان عکس از احمد نیک گفتار 1391.jpg",
+          "Juglans regia 011.JPG",
+          "Walnuts - whole and open with halved kernel.jpg",
+          "Walnutoil-cup.jpg",
+          "Juglans regia 2009 G2.jpg"
+        ],
+        "revision": "2565855310",
+        "labels": {
+          "fr": "noyer commun",
+          "en": "Juglans regia",
+          "ar": "جوز شائع"
+        },
+        "aliases": {
+          "fr": [
+            "noyer",
+            "calottier",
+            "écalonnier",
+            "gojeutier",
+            "noyer commun, noyer royal",
+            "noyer royal"
+          ],
+          "en": [
+            "Walnut",
+            "common walnut",
+            "Juglans fallax",
+            "Old World Walnut",
+            "Persian Walnut"
+          ],
+          "ar": [
+            "كوز",
+            "عين الجمل",
+            "الجوز",
+            "اوراق الجوز",
+            "جوز الأكل",
+            "غلاف الجوزة"
+          ]
+        },
+        "descriptionFr": "espèce d'arbres"
+      },
+      "photos": [
+        {
+          "title": "Juglans regia Echte Walnussfrucht 1.jpg",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+          "artist": "Böhringer Friedrich",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Juglans regia (the Common walnut or Persian walnut), is the original walnut tree of the Old World.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Juglans_regia_Echte_Walnussfrucht_1.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Juglans_regia_Echte_Walnussfrucht_1.jpg/960px-Juglans_regia_Echte_Walnussfrucht_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2574,
+          "height": 3432,
+          "preview": "data/candidates/ouest-nord-2026-previews/noix-0.jpg"
+        },
+        {
+          "title": "Noix en automne - walnuts.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Thesupermat",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "noix en automne - walnuts ( Juglans regia )",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Noix_en_automne_-_walnuts.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Noix_en_automne_-_walnuts.JPG/960px-Noix_en_automne_-_walnuts.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2592,
+          "height": 1944,
+          "preview": "data/candidates/ouest-nord-2026-previews/noix-1.jpg"
+        },
+        {
+          "title": "Walnut forest in Arslanbab.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "artist": "surrealpenguin",
+          "credit": "https://www.flickr.com/photos/pbarry/4427088233/in/photostream/",
+          "attributionRequired": "true",
+          "description": "Walnut forest in Arslanbob",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Walnut_forest_in_Arslanbab.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Walnut_forest_in_Arslanbab.jpg/960px-Walnut_forest_in_Arslanbab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2048,
+          "height": 1536,
+          "preview": "data/candidates/ouest-nord-2026-previews/noix-2.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "citrouille",
+      "labelFr": "Citrouille",
+      "categoryId": "vegetables",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "MAR SEN",
+      "entity": {
+        "id": "Q161180",
+        "scientific": "Cucurbita maxima",
+        "images": [
+          "Cucurbita maxima Blanco2.320.png",
+          "Candy Roaster Pumpkin - illustration from 1920 Asheville Seed Co. catalog.jpg"
+        ],
+        "revision": "2564958666",
+        "labels": {
+          "ar": "قرع كبير",
+          "en": "Cucurbita maxima",
+          "fr": "potiron"
+        },
+        "aliases": {
+          "fr": [
+            "Potiron",
+            "Giraumon",
+            "Citrouille du Cap",
+            "Cucurbita maxima",
+            "Potimarron"
+          ],
+          "ar": [
+            "قرع اسلامبولي",
+            "قرع حلو",
+            "قرع عسلي",
+            "قرع ملطي"
+          ]
+        },
+        "descriptionFr": "plante de la famille des Cucurbitacées"
+      },
+      "photos": [
+        {
+          "title": "Cucurbita maxima Blanco2.320.png",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Francisco Manuel Blanco (1778 – 1845) (O.S.A.)",
+          "credit": "Flora de Filipinas [...] Gran edicion [...] [Atlas II]. [1]",
+          "attributionRequired": "false",
+          "description": "Plate from book",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cucurbita_maxima_Blanco2.320.png",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cucurbita_maxima_Blanco2.320.png/960px-Cucurbita_maxima_Blanco2.320.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1416,
+          "height": 2029,
+          "preview": "data/candidates/ouest-nord-2026-previews/citrouille-0.jpg"
+        },
+        {
+          "title": "Candy Roaster Pumpkin - illustration from 1920 Asheville Seed Co. catalog.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Asheville Seed Co.",
+          "credit": "https://archive.org/details/CAT31303289/page/24/",
+          "attributionRequired": "false",
+          "description": "The species of the Candy Roaster squash is Cucurbita maxima",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Candy_Roaster_Pumpkin_-_illustration_from_1920_Asheville_Seed_Co._catalog.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Candy_Roaster_Pumpkin_-_illustration_from_1920_Asheville_Seed_Co._catalog.jpg/960px-Candy_Roaster_Pumpkin_-_illustration_from_1920_Asheville_Seed_Co._catalog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1680,
+          "height": 2480,
+          "preview": "data/candidates/ouest-nord-2026-previews/citrouille-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "fruit-passion",
+      "labelFr": "Fruit de la passion",
+      "categoryId": "fruits",
+      "formTypes": [
+        "fruits"
+      ],
+      "countries": "CIV",
+      "entity": {
+        "id": "Q156790",
+        "scientific": "Passiflora edulis",
+        "images": [
+          "Markisa madu manis seperti kamu.jpg",
+          "Passion fruits.jpg",
+          "Purple passionfruit.jpg",
+          "2020-05-08 21 14 33 A glass of passion juice in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg"
+        ],
+        "revision": "2550377706",
+        "labels": {
+          "ar": "آلامية مأكولة",
+          "en": "Passiflora edulis",
+          "fr": "grenadille"
+        },
+        "aliases": {
+          "en": [
+            "guarani",
+            "passionfruit",
+            "passion fruit"
+          ],
+          "fr": [
+            "Fruit de la passion",
+            "Fruits de la passion",
+            "Pomme-liane",
+            "Maracudja",
+            "Maracuja",
+            "Passiflora edulis"
+          ],
+          "ar": [
+            "ماراغويا"
+          ]
+        },
+        "descriptionFr": "plante grimpante"
+      },
+      "photos": [
+        {
+          "title": "Markisa madu manis seperti kamu.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Rarani",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Sebuah Markisa yang dijuluki markisa madu karena rasanya yang manis tidak asam",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Markisa_madu_manis_seperti_kamu.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Markisa_madu_manis_seperti_kamu.jpg/960px-Markisa_madu_manis_seperti_kamu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 4000,
+          "height": 3000,
+          "preview": "data/candidates/ouest-nord-2026-previews/fruit-passion-0.jpg"
+        },
+        {
+          "title": "Passion fruits.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Ben3john",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Passion fruit",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Passion_fruits.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Passion_fruits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 600,
+          "height": 600,
+          "preview": "data/candidates/ouest-nord-2026-previews/fruit-passion-1.jpg"
+        },
+        {
+          "title": "Purple passionfruit.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "No machine-readable author provided. Fibonacci assumed (based on copyright claims).",
+          "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+          "attributionRequired": "true",
+          "description": "Two ripe purple passion fruits , one of them opened to show the edible seeds.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Purple_passionfruit.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Purple_passionfruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 800,
+          "height": 800,
+          "preview": "data/candidates/ouest-nord-2026-previews/fruit-passion-2.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "canne-sucre",
+      "labelFr": "Canne à sucre",
+      "categoryId": "staples",
+      "formTypes": [
+        "tiges"
+      ],
+      "countries": "CIV",
+      "entity": {
+        "id": "Q3391243",
+        "scientific": "Saccharum officinarum",
+        "images": [
+          "Saccharum officinarum, Mozambique.jpg",
+          "Saccharum officinarum - Köhler–s Medizinal-Pflanzen-125.jpg",
+          "Engenho da Calheta 437.jpg"
+        ],
+        "revision": "2550547898",
+        "labels": {
+          "ar": "قصب السكر المخزني",
+          "en": "Saccharum officinarum",
+          "fr": "Saccharum officinarum",
+          "ha": "rake"
+        },
+        "aliases": {
+          "en": [
+            "sugarcane"
+          ],
+          "ar": [
+            "قصب",
+            "مزهر",
+            "برسوم",
+            "قصب سكر",
+            "قصب مص",
+            "مصان",
+            "مضار"
+          ]
+        },
+        "descriptionFr": "espèce de plantes"
+      },
+      "photos": [
+        {
+          "title": "Saccharum officinarum, Mozambique.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "artist": "Ton Rulkens",
+          "credit": "Flickr : sugar cane",
+          "attributionRequired": "true",
+          "description": "Flowering thick-stemmed sugar cane ( Saccharum officinarum ), Zembe, Manica province, Mozambique.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Saccharum_officinarum,_Mozambique.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Saccharum_officinarum%2C_Mozambique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 625,
+          "height": 800,
+          "preview": "data/candidates/ouest-nord-2026-previews/canne-sucre-0.jpg"
+        },
+        {
+          "title": "Saccharum officinarum - Köhler–s Medizinal-Pflanzen-125.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+          "credit": "List of Koehler Images",
+          "attributionRequired": "false",
+          "description": "Sugar cane. A plant, very reduced; B stem piece with leaf, reduced; C flower wasp, desi. ; 1 part of a panicle strip, enlarged; 2 flowers, the like; 2a flowers without skins, the like. ; 3 deck shells, desgl.; 4 lower cover shells, desgl.; 5 upper cover shells, desgl. ; 6 flower cover, desgl.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Saccharum_officinarum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-125.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Saccharum_officinarum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 437,
+          "height": 595,
+          "preview": "data/candidates/ouest-nord-2026-previews/canne-sucre-1.jpg"
+        },
+        {
+          "title": "Engenho da Calheta 437.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "RHaworth",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Interior of Engenho da Calheta, the sugar cane processing factory in Calheta parish, Madeira . In the upper half of the picture are two mills for crushing the cane. The waste or bagasse falls down a chute and is removed by a conveyor belt below. This page claims that the machinery is 200 years old a",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Engenho_da_Calheta_437.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Engenho_da_Calheta_437.jpg/960px-Engenho_da_Calheta_437.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1536,
+          "height": 2048,
+          "preview": "data/candidates/ouest-nord-2026-previews/canne-sucre-2.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "pois-angole",
+      "labelFr": "Pois d’Angole",
+      "categoryId": "staples",
+      "formTypes": [
+        "graines"
+      ],
+      "countries": "CIV SEN",
+      "entity": {
+        "id": "Q632559",
+        "scientific": "Cajanus cajan",
+        "images": [
+          "Guandu.jpg",
+          "Cajanus cajan Steve Hurst 1.jpg",
+          "Pigeon pea plant.jpg",
+          "Fried Pigeon pea.jpg",
+          "Pigeon pea (Red gram, Thuvarai in Tamil) 02.jpg",
+          "Split pigeon peas.jpg"
+        ],
+        "revision": "2561080114",
+        "labels": {
+          "ar": "البازلاء الهندية (البسلة)",
+          "en": "Cajanus cajan",
+          "ha": "Waaken Santanbul",
+          "fr": "pois d'Angole ( Cajanus cajan)"
+        },
+        "aliases": {
+          "en": [
+            "pigeon pea",
+            "tur",
+            "gungo peas",
+            "pigeonpea",
+            "red gram"
+          ],
+          "fr": [
+            "Ambrevade",
+            "Embrevade",
+            "Pois cajan",
+            "Pois d’Angole",
+            "Pois-congo"
+          ],
+          "ha": [
+            "Cajanus cajan",
+            "Wáákén Sàntànbûl"
+          ]
+        },
+        "descriptionFr": "espèce de plante vivace de la famille des Fabaceae"
+      },
+      "photos": [
+        {
+          "title": "Guandu.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "Lígia Prado",
+          "credit": "my backyard",
+          "attributionRequired": "false",
+          "description": "Cajanus cajan, ramo com botões florais",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Guandu.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Guandu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 237,
+          "height": 438,
+          "preview": "data/candidates/ouest-nord-2026-previews/pois-angole-0.jpg"
+        },
+        {
+          "title": "Cajanus cajan Steve Hurst 1.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "false",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cajanus_cajan_Steve_Hurst_1.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cajanus_cajan_Steve_Hurst_1.jpg/960px-Cajanus_cajan_Steve_Hurst_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3008,
+          "height": 2000,
+          "preview": "data/candidates/ouest-nord-2026-previews/pois-angole-1.jpg"
+        },
+        {
+          "title": "Pigeon pea plant.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Munkaila Sulemana",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "this is a young pigeon pea plant",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pigeon_pea_plant.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Pigeon_pea_plant.jpg/960px-Pigeon_pea_plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1920,
+          "height": 2560,
+          "preview": "data/candidates/ouest-nord-2026-previews/pois-angole-2.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "menthe-pouliot",
+      "labelFr": "Menthe pouliot (fliyou)",
+      "categoryId": "herbs",
+      "formTypes": [
+        "feuilles"
+      ],
+      "countries": "MAR",
+      "entity": {
+        "id": "Q161235",
+        "scientific": "Mentha pulegium",
+        "images": [
+          "Gardenology.org-IMG 2751 rbgs11jan.jpg"
+        ],
+        "revision": "2564962090",
+        "labels": {
+          "ar": "نعناع أوروبي",
+          "en": "Mentha pulegium",
+          "fr": "Menthe pouliot",
+          "kab": "Felgu"
+        },
+        "aliases": {
+          "ar": [
+            "نعناع بري",
+            "فلية",
+            "النعناع البري",
+            "النعناع البرّي",
+            "فليحا",
+            "فليو",
+            "فوذنج",
+            "نعنع الحقل",
+            "نعنع الماء"
+          ],
+          "fr": [
+            "Pennyroyal",
+            "Flio",
+            "Mentha pulegium",
+            "menthe pouliot"
+          ],
+          "en": [
+            "pennyroyal"
+          ]
+        },
+        "descriptionFr": "espèce de plantes"
+      },
+      "photos": [
+        {
+          "title": "Gardenology.org-IMG 2751 rbgs11jan.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Raffi Kojian",
+          "credit": "http://Gardenology.org",
+          "attributionRequired": "true",
+          "description": "This photo is from Gardenology.org and is available under CC-BY-SA 3.0 license. If you use it, please include attribution to Gardenology.org, with a link if the media allows it. If the name is missing, click here .",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_2751_rbgs11jan.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Gardenology.org-IMG_2751_rbgs11jan.jpg/960px-Gardenology.org-IMG_2751_rbgs11jan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1600,
+          "height": 1200,
+          "preview": "data/candidates/ouest-nord-2026-previews/menthe-pouliot-0.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "armoise-blanche",
+      "labelFr": "Armoise blanche (chih)",
+      "categoryId": "herbs",
+      "formTypes": [
+        "feuilles"
+      ],
+      "countries": "MAR TUN",
+      "entity": {
+        "id": "Q135698",
+        "scientific": "Artemisia herba-alba",
+        "images": [
+          "Artemisa herba alba floratrek2013.jpg"
+        ],
+        "revision": "2517820204",
+        "labels": {
+          "ar": "شيح أبيض",
+          "ary": "شيح",
+          "en": "Artemisia herba-alba",
+          "fr": "Armoise herbe blanche",
+          "kab": "Cciḥ"
+        },
+        "aliases": {
+          "ar": [
+            "بعيثران"
+          ],
+          "ary": [
+            "chi7"
+          ],
+          "fr": [
+            "Armoise blanche",
+            "Artemisia herba-alba"
+          ]
+        }
+      },
+      "photos": [
+        {
+          "title": "Artemisa herba alba floratrek2013.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Floratrek",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Present in Spain in the Middle East, North Africa to Egypt, Artemisia white grass is the most common herb in Morocco. As Absinthe (Artemisia absinthium) and Roman wormwood (Artemisia pontica), Artemisia white grass is rich in thujone. Morocco is the only producer of its essential oil, which it expor",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Artemisa_herba_alba_floratrek2013.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Artemisa_herba_alba_floratrek2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 800,
+          "height": 800,
+          "preview": "data/candidates/ouest-nord-2026-previews/armoise-blanche-0.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "absinthe",
+      "labelFr": "Absinthe (chiba)",
+      "categoryId": "herbs",
+      "formTypes": [
+        "feuilles"
+      ],
+      "countries": "MAR",
+      "entity": {
+        "id": "Q25686",
+        "scientific": "Artemisia absinthium",
+        "images": [
+          "Artemisia absinthium P1210748.jpg"
+        ],
+        "revision": "2564874236",
+        "labels": {
+          "en": "Artemisia absinthium",
+          "fr": "Absinthe",
+          "ar": "شيح ابن سينا",
+          "ary": "شيبة"
+        },
+        "aliases": {
+          "en": [
+            "absinthe",
+            "wormwood",
+            "absinthe wormwood",
+            "absinthium",
+            "grand wormwood",
+            "wermout",
+            "wermud",
+            "wormid",
+            "wormit",
+            "wormod"
+          ],
+          "ar": [
+            "كشوث رومي",
+            "افسنتين",
+            "الشويلاء",
+            "دسيسة",
+            "شويلاء",
+            "شيح رومي"
+          ],
+          "fr": [
+            "armoise absinthe",
+            "Artemisia absinthium"
+          ]
+        },
+        "descriptionFr": "espèce de plantes"
+      },
+      "photos": [
+        {
+          "title": "Artemisia absinthium P1210748.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "David Monniaux",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Artemisia absinthium , jardin du musée de l'absinthe, Auvers-sur-Oise , France",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Artemisia_absinthium_P1210748.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Artemisia_absinthium_P1210748.jpg/960px-Artemisia_absinthium_P1210748.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1920,
+          "height": 2560,
+          "preview": "data/candidates/ouest-nord-2026-previews/absinthe-0.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "sole-langue",
+      "labelFr": "Sole langue",
+      "categoryId": "fish",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "SEN GIN",
+      "entity": {
+        "id": "Q2200985",
+        "scientific": "Cynoglossus senegalensis",
+        "images": [],
+        "revision": "2457626042",
+        "labels": {
+          "en": "Cynoglossus senegalensis",
+          "fr": "Cynoglossus senegalensis"
+        },
+        "aliases": {},
+        "descriptionFr": "espèce de poissons"
+      },
+      "photos": []
+    },
+    {
+      "slug": "pageot",
+      "labelFr": "Pageot",
+      "categoryId": "fish",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "SEN",
+      "entity": {
+        "id": "Q2700648",
+        "scientific": "Pagellus bellottii",
+        "images": [
+          "Pagellus bellottii Algerie 1.jpg"
+        ],
+        "revision": "2459143184",
+        "labels": {
+          "ar": "غزيلة حمراء",
+          "en": "Pagellus bellottii",
+          "fr": "Pagellus bellottii"
+        },
+        "aliases": {
+          "fr": [
+            "Pageau",
+            "Pageot",
+            "Fausse Daurade",
+            "Pageot à Tache Rouge"
+          ]
+        },
+        "descriptionFr": "espèce de poissons"
+      },
+      "photos": [
+        {
+          "title": "Pagellus bellottii Algerie 1.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "artist": "karimhaddad",
+          "credit": "https://www.inaturalist.org/observations/156023138",
+          "attributionRequired": "true",
+          "description": "Pagellus bellottii , Port de Skikba, Algerie",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pagellus_bellottii_Algerie_1.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Pagellus_bellottii_Algerie_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 768,
+          "height": 1024,
+          "preview": "data/candidates/ouest-nord-2026-previews/pageot-0.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "espadon",
+      "labelFr": "Espadon",
+      "categoryId": "fish",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "MAR TUN",
+      "entity": {
+        "id": "Q164327",
+        "scientific": "Xiphias gladius",
+        "images": [
+          "Xiphias gladius1.jpg",
+          "Xiphias gladius 23056964.jpg"
+        ],
+        "revision": "2550504517",
+        "labels": {
+          "en": "swordfish",
+          "ar": "أبو سيف",
+          "fr": "espadon"
+        },
+        "aliases": {
+          "fr": [
+            "Tetrapterus imperator",
+            "Xiphias estara",
+            "Xiphias imperator",
+            "Xiphias thermaicus",
+            "Xiphias gladius estara",
+            "Phaethonichthys tuberculatus",
+            "Espadon",
+            "Espadron",
+            "poisson porte-épée",
+            "poisson-épée",
+            "Xiphias gladius",
+            "Xiphias rondeletti",
+            "Xiphiidae"
+          ],
+          "en": [
+            "broadbills",
+            "broadbill",
+            "Xiphias gladius"
+          ],
+          "ar": [
+            "سمك أبو سيف",
+            "سياف البحر"
+          ]
+        },
+        "descriptionFr": "espèce de poissons"
+      },
+      "photos": [
+        {
+          "title": "Xiphias gladius1.jpg",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "artist": "",
+          "credit": "",
+          "attributionRequired": "false",
+          "description": "",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Xiphias_gladius1.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Xiphias_gladius1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 700,
+          "height": 259,
+          "preview": "data/candidates/ouest-nord-2026-previews/espadon-0.jpg"
+        },
+        {
+          "title": "Xiphias gladius 23056964.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "vtzanatos",
+          "credit": "https://www.inaturalist.org/photos/23056964",
+          "attributionRequired": "true",
+          "description": "Swordfish ( Xiphias gladius )",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Xiphias_gladius_23056964.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Xiphias_gladius_23056964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "width": 768,
+          "height": 1024,
+          "preview": "data/candidates/ouest-nord-2026-previews/espadon-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "rouget",
+      "labelFr": "Rouget de roche",
+      "categoryId": "fish",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "MAR TUN",
+      "entity": {
+        "id": "Q7119",
+        "scientific": "Mullus surmuletus",
+        "images": [
+          "Mullus surmuletus.jpg",
+          "Mullus surmuletus, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, FR imported from iNaturalist photo 277193780 (cropped).jpg"
+        ],
+        "revision": "2531932771",
+        "labels": {
+          "ar": "بربوني",
+          "en": "Mullus surmuletus",
+          "fr": "Mullus surmuletus"
+        },
+        "aliases": {
+          "fr": [
+            "Rouget-barbet",
+            "Surmulet",
+            "Rouget Barbet",
+            "rouget de roche",
+            "Rouget-barbet de roche"
+          ]
+        },
+        "descriptionFr": "espèce de poissons"
+      },
+      "photos": [
+        {
+          "title": "Mullus surmuletus.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Hans Hillewaert",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Red mullet from the Southern North Sea. Image taken in the fishlab on board the A962 Belgica.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Mullus_surmuletus.jpg/960px-Mullus_surmuletus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3200,
+          "height": 1800,
+          "preview": "data/candidates/ouest-nord-2026-previews/rouget-0.jpg"
+        },
+        {
+          "title": "Mullus surmuletus, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, FR imported from iNaturalist photo 277193780 (cropped).jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "artist": "(c) Julien Renoult, some rights reserved (CC BY)",
+          "credit": "https://www.inaturalist.org/photos/277193780",
+          "attributionRequired": "true",
+          "description": "Photo of Striped Red Mullet (undefined) uploaded from iNaturalist .",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus,_Bouches-du-Rh%C3%B4ne,_Provence-Alpes-C%C3%B4te_d%27Azur,_FR_imported_from_iNaturalist_photo_277193780_(cropped).jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Mullus_surmuletus%2C_Bouches-du-Rh%C3%B4ne%2C_Provence-Alpes-C%C3%B4te_d%27Azur%2C_FR_imported_from_iNaturalist_photo_277193780_%28cropped%29.jpg/960px-Mullus_surmuletus%2C_Bouches-du-Rh%C3%B4ne%2C_Provence-Alpes-C%C3%B4te_d%27Azur%2C_FR_imported_from_iNaturalist_photo_277193780_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1677,
+          "height": 1135,
+          "preview": "data/candidates/ouest-nord-2026-previews/rouget-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "merlu",
+      "labelFr": "Merlu",
+      "categoryId": "fish",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "MAR",
+      "entity": {
+        "id": "Q726276",
+        "scientific": "Merluccius merluccius",
+        "images": [
+          "Merluccius merluccius.002 - Aquarium Finisterrae.JPG"
+        ],
+        "revision": "2548158632",
+        "labels": {
+          "en": "Merluccius merluccius",
+          "fr": "Merlu commun"
+        },
+        "aliases": {
+          "fr": [
+            "Colinet",
+            "Merluchon",
+            "Ânon",
+            "Nasello",
+            "Abadioa",
+            "Hoglet",
+            "Merlu Blanc",
+            "Merlu Commun",
+            "Merlu européen",
+            "Merluccius merluccius",
+            "Canapé",
+            "merluche",
+            "Colin",
+            "Bardot",
+            "Brochet de Mer"
+          ]
+        },
+        "descriptionFr": "espèce de poissons"
+      },
+      "photos": [
+        {
+          "title": "Merluccius merluccius.002 - Aquarium Finisterrae.JPG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Fernando Losada Rodríguez",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Merluccius merluccius in Sala Maremagnum of Aquarium Finisterrae, in A Coruña, Galicia, Spain.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Merluccius_merluccius.002_-_Aquarium_Finisterrae.JPG",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Merluccius_merluccius.002_-_Aquarium_Finisterrae.JPG/960px-Merluccius_merluccius.002_-_Aquarium_Finisterrae.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3264,
+          "height": 2448,
+          "preview": "data/candidates/ouest-nord-2026-previews/merlu-0.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "seiche",
+      "labelFr": "Seiche",
+      "categoryId": "fish",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "MAR TUN SEN",
+      "entity": {
+        "id": "Q756724",
+        "scientific": "Sepia officinalis",
+        "images": [
+          "Sepia común (Sepia officinalis), Parque natural de la Arrábida, Portugal, 2020-07-21, DD 62.jpg"
+        ],
+        "revision": "2503600588",
+        "labels": {
+          "ar": "خذاق",
+          "en": "common cuttlefish",
+          "fr": "Seiche commune"
+        },
+        "aliases": {
+          "fr": [
+            "Seiche",
+            "Chubei",
+            "Supia",
+            "Casseron",
+            "Chibia",
+            "Chakod",
+            "Margade",
+            "seiche commune",
+            "Sepia officinalis"
+          ],
+          "en": [
+            "Sepia officinalis"
+          ]
+        },
+        "descriptionFr": "espèce de mollusques"
+      },
+      "photos": [
+        {
+          "title": "Sepia común (Sepia officinalis), Parque natural de la Arrábida, Portugal, 2020-07-21, DD 62.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Diego Delso",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Common cuttlefish ( Sepia officinalis ), Arrábida National Park , Portugal. The common cuttlefish is one of the largest and best-known cuttlefish species. They are a migratory species that spend the summer and spring inshore for spawning and then move to depths of 100 to 200m during autumn and winte",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sepia_com%C3%BAn_(Sepia_officinalis),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2020-07-21,_DD_62.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg/960px-Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 3776,
+          "height": 2517,
+          "preview": "data/candidates/ouest-nord-2026-previews/seiche-0.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "calmar",
+      "labelFr": "Calmar",
+      "categoryId": "fish",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "MAR SEN",
+      "entity": {
+        "id": "Q1232698",
+        "scientific": "Loligo vulgaris",
+        "images": [
+          "Loligo vulgaris.jpg"
+        ],
+        "revision": "2561113399",
+        "labels": {
+          "ar": "ذو الأذرع العشر",
+          "en": "European squid",
+          "fr": "Loligo vulgaris",
+          "wo": "Loligo vulgaris"
+        },
+        "aliases": {
+          "fr": [
+            "Calmar commun",
+            "Encornet commun",
+            "encornet grandes oreilles"
+          ]
+        },
+        "descriptionFr": "espèce de mollusques"
+      },
+      "photos": [
+        {
+          "title": "Loligo vulgaris.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Hans Hillewaert",
+          "credit": "Own work",
+          "attributionRequired": "true",
+          "description": "Common squid from the Belgian continental shelf. Picture taken in the lab on board of the RV Belgica , of a live specimen to preserve colour and structure of chromophores. Mantle: length= 138 mm, width= 39 mm.",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Loligo_vulgaris.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Loligo_vulgaris.jpg/960px-Loligo_vulgaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 2400,
+          "height": 1800,
+          "preview": "data/candidates/ouest-nord-2026-previews/calmar-0.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "barracuda",
+      "labelFr": "Barracuda",
+      "categoryId": "fish",
+      "formTypes": [
+        "frais"
+      ],
+      "countries": "SEN CIV",
+      "entity": {
+        "id": "Q2555190",
+        "scientific": "Sphyraena afra",
+        "images": [
+          "Guinean Barracuda imported from iNaturalist photo 153702160 on 1 February 2023.jpg"
+        ],
+        "revision": "2459943213",
+        "labels": {
+          "en": "Sphyraena afra",
+          "fr": "Sphyraena afra"
+        },
+        "aliases": {
+          "en": [
+            "Guinean barracuda"
+          ]
+        },
+        "descriptionFr": "espèce de poissons"
+      },
+      "photos": [
+        {
+          "title": "Guinean Barracuda imported from iNaturalist photo 153702160 on 1 February 2023.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "artist": "(c) Lucy Keith-Diagne, some rights reserved (CC BY)",
+          "credit": "https://www.inaturalist.org/photos/153702160",
+          "attributionRequired": "true",
+          "description": "Photo of Guinean Barracuda (' )uploaded from iNaturalist .",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Guinean_Barracuda_imported_from_iNaturalist_photo_153702160_on_1_February_2023.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Guinean_Barracuda_imported_from_iNaturalist_photo_153702160_on_1_February_2023.jpg/960px-Guinean_Barracuda_imported_from_iNaturalist_photo_153702160_on_1_February_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "width": 1365,
+          "height": 2048,
+          "preview": "data/candidates/ouest-nord-2026-previews/barracuda-0.jpg"
+        }
+      ]
     }
   ]
 }
