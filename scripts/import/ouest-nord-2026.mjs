@@ -410,6 +410,10 @@ function readCommons(data, info) {
     });
   }
 }
+// The thumbnail servers ban shared addresses for long periods; Commons' own thumb.php serves
+// the same standard 960 px rendering of the same file.
+const thumbnail = (title) =>
+  `https://commons.wikimedia.org/w/thumb.php?f=${encodeURIComponent(title.replace(/ /g, '_'))}&w=960`;
 const value = (row, key) => row[key]?.value;
 const qid = (uri) => uri.split('/').pop();
 const fileName = (uri) => decodeURIComponent(uri.split('/').pop()).replace(/_/g, ' ');
@@ -523,12 +527,16 @@ async function collect() {
       let downloaded = false;
       const bytes = await cached(`bin:${meta.thumbUrl}`, async () => {
         downloaded = true;
-        const response = await fetchPolitely(meta.thumbUrl, {}, { attempts: 6, maxWait: 700000 });
+        const response = await fetchPolitely(
+          thumbnail(meta.title),
+          {},
+          { attempts: 6, maxWait: 700000 },
+        );
         return Buffer.from(await response.arrayBuffer());
       });
       await sharp(bytes).rotate().resize({ width: 400 }).jpeg({ quality: 78 }).toFile(preview);
       photos.push({ ...meta, preview });
-      if (downloaded) await pause(8000);
+      if (downloaded) await pause(3000);
     }
     report.push({ slug, labelFr, categoryId, formTypes, countries, entity, photos });
     console.log(
@@ -563,7 +571,7 @@ async function apply() {
       throw new Error(`${entry.slug}: entité déjà décrite (${entity.id})`);
     const photo = entry.photos[decision.photo];
     const bytes = await cached(`bin:${photo.thumbUrl}`, async () =>
-      Buffer.from(await (await fetchPolitely(photo.thumbUrl)).arrayBuffer()),
+      Buffer.from(await (await fetchPolitely(thumbnail(photo.title))).arrayBuffer()),
     );
     const large = `public/images/${entry.slug}-960.webp`;
     const small = `public/images/${entry.slug}-400.webp`;
