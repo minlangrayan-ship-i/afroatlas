@@ -14,6 +14,7 @@ export const countries = [
   ['NG', 'NGA', 'Nigeria', 'Afrique de l’Ouest'],
   ['NE', 'NER', 'Niger', 'Afrique de l’Ouest'],
   ['ML', 'MLI', 'Mali', 'Afrique de l’Ouest'],
+  ['GN', 'GIN', 'Guinée', 'Afrique de l’Ouest'],
   ['BF', 'BFA', 'Burkina Faso', 'Afrique de l’Ouest'],
   ['KE', 'KEN', 'Kenya', 'Afrique de l’Est'],
   ['TZ', 'TZA', 'Tanzanie', 'Afrique de l’Est'],
@@ -72,14 +73,32 @@ export const languageNames: Record<string, string> = {
   ny: 'Chichewa',
   kab: 'Kabyle',
   ary: 'Arabe marocain',
+  aeb: 'Arabe tunisien',
+  dyu: 'Dioula',
+  sus: 'Soussou',
+  mnk: 'Mandinka',
+  snk: 'Soninké',
+  zgh: 'Tamazight standard marocain',
+  shi: 'Tachelhit',
+  tzm: 'Tamazight du Maroc central',
+  rif: 'Rifain',
   'local-und': 'Langue locale non précisée par la source',
 };
 export const categories = [
   { id: 'spices', label: 'Épices & condiments', symbol: '✳' },
   { id: 'vegetables', label: 'Légumes & feuilles', symbol: '❧' },
-  { id: 'fish', label: 'Poissons', symbol: '≈' },
+  { id: 'fish', label: 'Poissons & fruits de mer', symbol: '≈' },
   { id: 'staples', label: 'Produits de base', symbol: '◌' },
   { id: 'herbs', label: 'Herbes & aromates', symbol: '❧' },
   { id: 'fruits', label: 'Fruits', symbol: '◉' },
   { id: 'preparations', label: 'Préparations & boissons', symbol: '◌' },
 ];
+/** « au Mali », « en Guinée », « aux… », « à Maurice » : the preposition a French sentence needs. */
+const feminineOrVowel =
+  /^(Guinée|Côte|République|Algérie|Tunisie|Tanzanie|Ouganda|Éthiopie|Afrique|Angola|Zambie|France|Belgique|Allemagne)/;
+export const inCountry = (nameFr: string) =>
+  /^(Madagascar|Maurice)$/.test(nameFr)
+    ? `à ${nameFr}`
+    : feminineOrVowel.test(nameFr)
+      ? `en ${nameFr}`
+      : `au ${nameFr}`;
