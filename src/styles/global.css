@@ -10,6 +10,8 @@
   --font-serif: Georgia, 'Times New Roman', serif;
 }
 :root {
+  --ui-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ui-serif: ui-serif, 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
   --cream: #faf7ef;
   --green: #193d30;
   --terracotta: #b94c35;
@@ -20,8 +22,10 @@
   --pale: #f0efe3;
   --white: #fffdf7;
   color-scheme: light;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--ui-sans);
   line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   color: var(--ink);
   background: var(--cream);
 }
@@ -119,9 +123,7 @@ svg [tabindex]:focus-visible {
   padding: 9px 15px;
 }
 .eyebrow {
-  font:
-    10px Arial,
-    sans-serif;
+  font: 10px var(--ui-sans);
   letter-spacing: 2px;
   font-weight: 600;
   color: var(--terracotta);
@@ -145,7 +147,8 @@ p {
 }
 h1,
 h2 {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: var(--ui-serif);
+  text-wrap: balance;
   font-weight: 400;
   letter-spacing: -1.5px;
   line-height: 1.14;
@@ -215,7 +218,7 @@ h1 em {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  font: italic 18px Georgia;
+  font: italic 18px var(--ui-serif);
   color: var(--green);
   transform: rotate(12deg);
 }
@@ -234,16 +237,16 @@ h1 em {
   align-items: center;
   color: white;
   font-size: 25px;
-  font-family: Georgia;
+  font-family: var(--ui-serif);
 }
 .hero-photo-label small {
   display: block;
-  font: 9px Arial;
+  font: 9px var(--ui-sans);
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
 .hero-photo-label em {
-  font: italic 13px Georgia;
+  font: italic 13px var(--ui-serif);
   display: block;
   margin-top: 6px;
 }
@@ -254,7 +257,7 @@ h1 em {
   height: 42px;
   text-align: center;
   line-height: 42px;
-  font: 22px/42px Arial;
+  font: 22px/42px var(--ui-sans);
 }
 .hero-credit {
   position: absolute;
@@ -537,7 +540,7 @@ h1 em {
   padding: 20px;
 }
 .card-body h3 {
-  font: 24px/1.18 Georgia;
+  font: 24px/1.18 var(--ui-serif);
   letter-spacing: -0.7px;
   margin-bottom: 10px;
 }
@@ -627,7 +630,7 @@ h1 em {
   color: #becdbb;
 }
 .name-example strong {
-  font: 22px Georgia;
+  font: 22px var(--ui-serif);
   text-align: right;
 }
 .name-example small {
@@ -723,7 +726,7 @@ h1 em {
   gap: 50px;
 }
 .footer-top h2 {
-  font: 11px Arial;
+  font: 11px var(--ui-sans);
   font-weight: 600;
   letter-spacing: 0;
   margin-bottom: 18px;
@@ -789,7 +792,7 @@ h1 em {
   margin-bottom: 20px;
 }
 .filters-heading h2 {
-  font: 15px Arial;
+  font: 15px var(--ui-sans);
   font-weight: 600;
   letter-spacing: 0;
   margin: 0;
@@ -958,7 +961,7 @@ textarea::placeholder {
   margin-bottom: 12px;
 }
 .scientific {
-  font: italic 18px Georgia;
+  font: italic 18px var(--ui-serif);
   color: var(--muted);
   margin-bottom: 22px;
 }
@@ -978,7 +981,7 @@ textarea::placeholder {
   border-radius: 6px;
 }
 .names-glance h2 {
-  font: 700 11px var(--font-sans);
+  font: 700 11px var(--ui-sans);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--terracotta);
@@ -1000,7 +1003,7 @@ textarea::placeholder {
   background: var(--pale);
 }
 .names-glance strong {
-  font: 600 16px var(--font-serif);
+  font: 600 16px var(--ui-serif);
 }
 .names-glance small {
   font-size: 11px;
@@ -1329,7 +1332,7 @@ dd {
   margin-bottom: 26px;
 }
 .country-groups h2 {
-  font: 12px Arial;
+  font: 12px var(--ui-sans);
   font-weight: 600;
   letter-spacing: 0;
   margin: 0 0 12px;
@@ -1371,7 +1374,7 @@ dd {
   max-width: 500px;
 }
 .country-coverage strong {
-  font: 45px Georgia;
+  font: 45px var(--ui-serif);
   color: var(--green);
 }
 .country-coverage span {
@@ -1437,7 +1440,7 @@ dd {
   margin-top: 20px;
 }
 .region-result h3 {
-  font: 23px Georgia;
+  font: 23px var(--ui-serif);
   margin-bottom: 10px;
 }
 .region-result p {
@@ -2281,9 +2284,7 @@ astro-island:has([data-replaced-photo]) + .photo-credit {
   background: var(--pale);
 }
 .seller-card h3 {
-  font:
-    32px Georgia,
-    serif;
+  font: 32px var(--ui-serif);
   margin-bottom: 6px;
 }
 .seller-card h4 {

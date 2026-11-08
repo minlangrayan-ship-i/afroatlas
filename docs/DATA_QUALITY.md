@@ -2,9 +2,9 @@
 
 Instantané du 6 octobre 2026. Compteurs calculés à partir du catalogue publié.
 
-- 95 fiches, 1035 assertions de noms sourcées et 52 contextes. La plante, une partie alimentaire et un plat restent des identités distinctes.
+- 195 fiches (dont 100 ajoutées le 8 novembre 2026 pour la Côte d’Ivoire, le Mali, le Sénégal, la Guinée, le Maroc et la Tunisie), 2 347 assertions de noms sourcées et 59 contextes. La plante, une partie alimentaire et un plat restent des identités distinctes.
 - 27 pays africains, 5 contextes européens, 59 subdivisions documentaires. Tchad et Zimbabwe ajoutés ; Niger et Nigeria restent distincts. Les neuf régions maliennes représentent l’instantané historique de 2021.
-- 95/95 fiches illustrées : 81 photographies principales et 14 compléments explicitement légendés. Une photographie botanique sur une fiche de plante ne représente pas un produit transformé.
+- 194/195 fiches illustrées : 136 photographies principales et 58 compléments explicitement légendés ; la fiche kanga attend une photo convenable. Une photographie botanique sur une fiche de plante ne représente pas un produit transformé.
 - 53 nouvelles associations photo/fiche (51 fichiers Commons distincts). Aucune image générée. WebP 400/960, sans recadrage du fichier conservé, crédits, licences et originaux référencés.
 - 14 formes commerciales restent à photographier : les compléments ne sont pas utilisés comme preuves dans la carte destinée au vendeur ni dans les métadonnées d’image principale pour le référencement.
 - Toutes les anciennes fiches, assertions, relations, sources et photographies sont conservées ; seules les références d’illustration et les notes de contrôle nécessaires sont mises à jour.

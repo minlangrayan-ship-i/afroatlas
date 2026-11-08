@@ -25,7 +25,7 @@ Exemples documentés :
 • soumbala (Mali, Burkina Faso) = nététou (Sénégal)
 • foléré (Cameroun) = bissap-feuille (Sénégal)
 
-Aujourd'hui : 95 fiches, 1 035 appellations, 119 sources, 13 pays.
+Au 8 novembre 2026 : 195 fiches, 2 347 appellations, 239 sources, 16 pays avec un nom ou un usage documenté.
 
 💬 Et vous : quel produit de chez vous ne trouvez-vous jamais sous son nom ? Dites le nom ET votre pays en commentaire, on vérifie la source et on l'ajoute.
 

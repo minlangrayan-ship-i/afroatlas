@@ -25,3 +25,6 @@ credentials*.json
 service-account*.json
 *.bundle
 out/
+
+# Photo previews made for the visual review (not published)
+data/candidates/*-previews/

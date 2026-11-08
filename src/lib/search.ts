@@ -144,8 +144,17 @@ export function searchProducts(
   const fuzzy = (
     query
       ? index.map((product) => {
+          // A record named after the word (« Piment (Capsicum chinense) ») stays listed next
+          // to the record that has it as an exact name.
           if (hasExactMatch)
-            return { product, score: product.searchTerms.includes(query) ? 0 : null };
+            return {
+              product,
+              score:
+                product.searchTerms.includes(query) ||
+                normalize(product.labelFr).split(' ').includes(query)
+                  ? 0
+                  : null,
+            };
           if (hasLiteralMatch) return { product, score: literal(product) ? 0 : null };
           const distance = approximateDistance(query, product.searchTerms);
           return { product, score: distance === null ? null : distance / query.length };

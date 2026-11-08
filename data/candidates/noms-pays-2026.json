@@ -1,0 +1,999 @@
+[
+ {
+  "slug": "thiof",
+  "name": "Choff",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Epinephelus aeneus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Epinephelus&SpeciesName=aeneus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Choff » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352970",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "thiof",
+  "name": "Choffo",
+  "country": "SEN",
+  "languageCode": "mnk",
+  "source": {
+   "title": "FishBase — Common Names List : Epinephelus aeneus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Epinephelus&SpeciesName=aeneus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Choffo » (SEN, Mandinka) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352971",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Mandinka."
+ },
+ {
+  "slug": "thiof",
+  "name": "Coof",
+  "country": "SEN",
+  "languageCode": "wo",
+  "languageLabel": "Wolof (lébou)",
+  "source": {
+   "title": "FishBase — Common Names List : Epinephelus aeneus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Epinephelus&SpeciesName=aeneus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Coof » (SEN, Wolof (Lebou)) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=17128",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof (Lebou)."
+ },
+ {
+  "slug": "thiof",
+  "name": "Dadassou ekoué",
+  "country": "CIV",
+  "languageCode": "local-und",
+  "source": {
+   "title": "FishBase — Common Names List : Epinephelus aeneus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Epinephelus&SpeciesName=aeneus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Dadassou ekoué » (CIV, Not specified) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250570",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Not specified."
+ },
+ {
+  "slug": "thiof",
+  "name": "Mennani abiad",
+  "country": "TUN",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Epinephelus aeneus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Epinephelus&SpeciesName=aeneus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Mennani abiad » (TUN, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=47511",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "thiof",
+  "name": "Nodiof",
+  "country": "SEN",
+  "languageCode": "srr",
+  "source": {
+   "title": "FishBase — Common Names List : Epinephelus aeneus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Epinephelus&SpeciesName=aeneus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Nodiof » (SEN, Serer-Sine) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250568",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Serer-Sine."
+ },
+ {
+  "slug": "thiof",
+  "name": "Rékott",
+  "country": "GIN",
+  "languageCode": "sus",
+  "source": {
+   "title": "FishBase — Common Names List : Epinephelus aeneus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Epinephelus&SpeciesName=aeneus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Rékott » (GIN, Susu) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=66357",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Susu."
+ },
+ {
+  "slug": "thiof",
+  "name": "Thiof",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Epinephelus aeneus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Epinephelus&SpeciesName=aeneus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Thiof » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=302498",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Awatt",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Awatt » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250452",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Bonga",
+  "country": "GIN",
+  "languageCode": "local-und",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Bonga » (GIN, Not specified) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250459",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Not specified."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Bonga",
+  "country": "GIN",
+  "languageCode": "sus",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Bonga » (GIN, Susu) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=10535",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Susu."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Bonga seri",
+  "country": "GIN",
+  "languageCode": "local-und",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Bonga seri » (GIN, Not specified) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250460",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Not specified."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Cobo",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Cobo » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250454",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Diata",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Diata » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250458",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Ehoube",
+  "country": "CIV",
+  "languageCode": "local-und",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Ehoube » (CIV, Not specified) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250462",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Not specified."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Ethmalose",
+  "country": "SEN",
+  "languageCode": "fr",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Ethmalose » (SEN, French) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=22422",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : French."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Kobo",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Kobo » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352993",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "ethmalose",
+  "name": "Kprekpre",
+  "country": "CIV",
+  "languageCode": "adj",
+  "source": {
+   "title": "FishBase — Common Names List : Ethmalosa fimbriata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Ethmalosa&SpeciesName=fimbriata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Kprekpre » (CIV, Adioukrou) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250320",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Adioukrou."
+ },
+ {
+  "slug": "listao",
+  "name": "Bonite",
+  "country": "TUN",
+  "languageCode": "fr",
+  "source": {
+   "title": "FishBase — Common Names List : Katsuwonus pelamis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Katsuwonus&SpeciesName=pelamis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Bonite » (TUN, French) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=10563",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : French."
+ },
+ {
+  "slug": "listao",
+  "name": "Boussenna",
+  "country": "TUN",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Katsuwonus pelamis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Katsuwonus&SpeciesName=pelamis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Boussenna » (TUN, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=70849",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "listao",
+  "name": "Douleu douleu",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Katsuwonus pelamis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Katsuwonus&SpeciesName=pelamis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Douleu douleu » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352935",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "listao",
+  "name": "Kiri kiri",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Katsuwonus pelamis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Katsuwonus&SpeciesName=pelamis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Kiri kiri » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352936",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "listao",
+  "name": "L'bakoura",
+  "country": "MAR",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Katsuwonus pelamis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Katsuwonus&SpeciesName=pelamis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « L'bakoura » (MAR, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=40646",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "listao",
+  "name": "Listaoun",
+  "country": "MAR",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Katsuwonus pelamis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Katsuwonus&SpeciesName=pelamis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Listaoun » (MAR, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=322550",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "listao",
+  "name": "Makréni",
+  "country": "GIN",
+  "languageCode": "sus",
+  "source": {
+   "title": "FishBase — Common Names List : Katsuwonus pelamis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Katsuwonus&SpeciesName=pelamis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Makréni » (GIN, Susu) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=44773",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Susu."
+ },
+ {
+  "slug": "albacore",
+  "name": "Albacore",
+  "country": "SEN",
+  "languageCode": "fr",
+  "source": {
+   "title": "FishBase — Common Names List : Thunnus albacares",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Thunnus&SpeciesName=albacares",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Albacore » (SEN, French) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=762",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : French."
+ },
+ {
+  "slug": "albacore",
+  "name": "Doullou-doullou",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Thunnus albacares",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Thunnus&SpeciesName=albacares",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Doullou-doullou » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=95507",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "albacore",
+  "name": "Wakhandor",
+  "country": "SEN",
+  "languageCode": "wo",
+  "languageLabel": "Wolof (lébou)",
+  "source": {
+   "title": "FishBase — Common Names List : Thunnus albacares",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Thunnus&SpeciesName=albacares",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Wakhandor » (SEN, Wolof (Lebou)) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=89372",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof (Lebou)."
+ },
+ {
+  "slug": "albacore",
+  "name": "Waxandor",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Thunnus albacares",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Thunnus&SpeciesName=albacares",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Waxandor » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=89580",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "machoiron",
+  "name": "Kerlenne",
+  "country": "SEN",
+  "languageCode": "snk",
+  "source": {
+   "title": "FishBase — Common Names List : Chrysichthys nigrodigitatus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Chrysichthys&SpeciesName=nigrodigitatus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Kerlenne » (SEN, Soninké) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=36671",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Soninké."
+ },
+ {
+  "slug": "machoiron",
+  "name": "N'godro",
+  "country": "CIV",
+  "languageCode": "bci",
+  "source": {
+   "title": "FishBase — Common Names List : Chrysichthys nigrodigitatus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Chrysichthys&SpeciesName=nigrodigitatus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « N'godro » (CIV, Baoulé) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352873",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Baoulé."
+ },
+ {
+  "slug": "machoiron",
+  "name": "Pkatra",
+  "country": "CIV",
+  "languageCode": "bci",
+  "source": {
+   "title": "FishBase — Common Names List : Chrysichthys nigrodigitatus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Chrysichthys&SpeciesName=nigrodigitatus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Pkatra » (CIV, Baoulé) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352875",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Baoulé."
+ },
+ {
+  "slug": "machoiron",
+  "name": "Sèce",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Chrysichthys nigrodigitatus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Chrysichthys&SpeciesName=nigrodigitatus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Sèce » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=71982",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "machoiron",
+  "name": "Seese",
+  "country": "SEN",
+  "languageCode": "ff",
+  "languageLabel": "Peul (pulaar)",
+  "source": {
+   "title": "FishBase — Common Names List : Chrysichthys nigrodigitatus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Chrysichthys&SpeciesName=nigrodigitatus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Seese » (SEN, Fulfulde, Pulaar (Pulaar)) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=72054",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Fulfulde, Pulaar (Pulaar)."
+ },
+ {
+  "slug": "machoiron",
+  "name": "Sonfou",
+  "country": "CIV",
+  "languageCode": "goa",
+  "source": {
+   "title": "FishBase — Common Names List : Chrysichthys nigrodigitatus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Chrysichthys&SpeciesName=nigrodigitatus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Sonfou » (CIV, Guro) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352876",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Guro."
+ },
+ {
+  "slug": "anchois",
+  "name": "Galadakh",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Engraulis encrasicolus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Engraulis&SpeciesName=encrasicolus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Galadakh » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250484",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "anchois",
+  "name": "Youssou nokoum",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Engraulis encrasicolus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Engraulis&SpeciesName=encrasicolus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Youssou nokoum » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250485",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "sardine",
+  "name": "Sardina",
+  "country": "MAR",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Sardina pilchardus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Sardina&SpeciesName=pilchardus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Sardina » (MAR, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=109105",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "sardine",
+  "name": "Sardina",
+  "country": "TUN",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Sardina pilchardus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Sardina&SpeciesName=pilchardus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Sardina » (TUN, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=109110",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "sardine",
+  "name": "Sardine",
+  "country": "MAR",
+  "languageCode": "fr",
+  "source": {
+   "title": "FishBase — Common Names List : Sardina pilchardus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Sardina&SpeciesName=pilchardus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Sardine » (MAR, French) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=109257",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : French."
+ },
+ {
+  "slug": "mulet",
+  "name": "Bouchakfa",
+  "country": "MAR",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Mugil cephalus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Mugil&SpeciesName=cephalus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Bouchakfa » (MAR, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=322786",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "mulet",
+  "name": "Bouri",
+  "country": "TUN",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Mugil cephalus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Mugil&SpeciesName=cephalus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Bouri » (TUN, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=10974",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "mulet",
+  "name": "Dème",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Mugil cephalus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Mugil&SpeciesName=cephalus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Dème » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=353097",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "mulet",
+  "name": "Diabaï",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Mugil cephalus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Mugil&SpeciesName=cephalus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Diabaï » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250852",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "mulet",
+  "name": "Guiss",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Mugil cephalus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Mugil&SpeciesName=cephalus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Guiss » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250853",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "mulet",
+  "name": "Mulet",
+  "country": "SEN",
+  "languageCode": "fr",
+  "source": {
+   "title": "FishBase — Common Names List : Mugil cephalus",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Mugil&SpeciesName=cephalus",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Mulet » (SEN, French) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=103122",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : French."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Capitaine",
+  "country": "SEN",
+  "languageCode": "fr",
+  "source": {
+   "title": "FishBase — Common Names List : Polydactylus quadrifilis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Polydactylus&SpeciesName=quadrifilis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Capitaine » (SEN, French) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=13303",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : French."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Ebrokro",
+  "country": "CIV",
+  "languageCode": "local-und",
+  "source": {
+   "title": "FishBase — Common Names List : Polydactylus quadrifilis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Polydactylus&SpeciesName=quadrifilis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Ebrokro » (CIV, Not specified) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250897",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Not specified."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Koujali",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Polydactylus quadrifilis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Polydactylus&SpeciesName=quadrifilis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Koujali » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=353204",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Kudiali",
+  "country": "SEN",
+  "languageCode": "mnk",
+  "source": {
+   "title": "FishBase — Common Names List : Polydactylus quadrifilis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Polydactylus&SpeciesName=quadrifilis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Kudiali » (SEN, Mandinka) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250879",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Mandinka."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Ndiané",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Polydactylus quadrifilis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Polydactylus&SpeciesName=quadrifilis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Ndiané » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250868",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Salébro",
+  "country": "CIV",
+  "languageCode": "local-und",
+  "source": {
+   "title": "FishBase — Common Names List : Polydactylus quadrifilis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Polydactylus&SpeciesName=quadrifilis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Salébro » (CIV, Not specified) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250887",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Not specified."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Sori",
+  "country": "GIN",
+  "languageCode": "local-und",
+  "source": {
+   "title": "FishBase — Common Names List : Polydactylus quadrifilis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Polydactylus&SpeciesName=quadrifilis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Sori » (GIN, Not specified) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=250880",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Not specified."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Sori",
+  "country": "GIN",
+  "languageCode": "sus",
+  "source": {
+   "title": "FishBase — Common Names List : Polydactylus quadrifilis",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Polydactylus&SpeciesName=quadrifilis",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Sori » (GIN, Susu) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=110682",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Susu."
+ },
+ {
+  "slug": "dorade",
+  "name": "Gerraf",
+  "country": "TUN",
+  "languageCode": "ar",
+  "source": {
+   "title": "FishBase — Common Names List : Sparus aurata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Sparus&SpeciesName=aurata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Gerraf » (TUN, Arabic) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=322198",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Arabic."
+ },
+ {
+  "slug": "dorade",
+  "name": "Waragne",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "FishBase — Common Names List : Sparus aurata",
+   "publisher": "FishBase (Froese R. & Pauly D., éd.)",
+   "url": "https://www.fishbase.se/comnames/CommonNamesList.php?GenusName=Sparus&SpeciesName=aurata",
+   "licenseId": "CC BY-NC 3.0"
+  },
+  "locator": "Tableau des noms communs, ligne « Waragne » (SEN, Wolof) ; fiche https://www.fishbase.se/ComNames/CommonNameSummary.php?autoctr=352908",
+  "note": "Nom vernaculaire listé par FishBase pour ce pays, langue indiquée : Wolof."
+ },
+ {
+  "slug": "attieke",
+  "name": "Attiéké",
+  "country": "CIV",
+  "languageCode": "local-und",
+  "source": {
+   "title": "Skills related to Attiéké production in Côte d’Ivoire (19.COM, 2024)",
+   "publisher": "UNESCO — Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/02086",
+   "licenseId": "Consultation et citation ; aucune licence ouverte de redistribution établie"
+  },
+  "locator": "Titre et description de l’élément inscrit en 2024",
+  "note": "Plat de semoule de manioc cuite à la vapeur, produit par les peuples lagunaires de Côte d’Ivoire selon la description de l’UNESCO."
+ },
+ {
+  "slug": "machoiron",
+  "name": "Mâchoiron",
+  "country": "CIV",
+  "languageCode": "fr",
+  "source": {
+   "title": "Cycle sexuel et fécondité du machoiron Chrysichthys nigrodigitatus en Lagune Ebrié, Côte d’Ivoire",
+   "publisher": "FAO AGRIS (notice bibliographique)",
+   "url": "https://agris.fao.org/search/fr/records/647368d208fd68d5460604f5",
+   "licenseId": "Consultation et citation ; aucune licence ouverte de redistribution établie"
+  },
+  "locator": "Titre de la notice",
+  "note": "Nom employé pour Chrysichthys nigrodigitatus dans une étude de la lagune Ebrié."
+ },
+ {
+  "slug": "gros-capitaine",
+  "name": "Gros capitaine",
+  "country": "GIN",
+  "languageCode": "fr",
+  "source": {
+   "title": "Profil de la pêche par pays — Guinée (FI_CP_GN, 2005)",
+   "publisher": "FAO",
+   "url": "https://www.fao.org/fishery/docs/DOCUMENT/fcp/fr/FI_CP_GN.pdf",
+   "licenseId": "Conditions FAO ; faits référencés, texte non reproduit"
+  },
+  "locator": "Tableau des principales espèces pêchées dans les eaux guinéennes (nom scientifique / nom commun)",
+  "note": "Nom commun donné pour Polydactylus quadrifilis (orthographié « Ploydactylus » dans la source)."
+ },
+ {
+  "slug": "ditax",
+  "name": "Ditax",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "Le ditax (Detarium senegalense J. F. Gmel.) : principales caractéristiques et utilisations au Sénégal",
+   "publisher": "Diop N. et al., Fruits 65(5), 2010 (Cirad / EDP Sciences)",
+   "url": "https://revues.cirad.fr/index.php/fruits/article/download/36113/34891/38156",
+   "licenseId": "Consultation et citation ; aucune licence ouverte de redistribution établie"
+  },
+  "locator": "Introduction : « appelé “ditax” ou “ditakh” en Wolof »",
+  "note": "Fruit très consommé au Sénégal selon l’article."
+ },
+ {
+  "slug": "ditax",
+  "name": "Ditakh",
+  "country": "SEN",
+  "languageCode": "wo",
+  "source": {
+   "title": "Le ditax (Detarium senegalense J. F. Gmel.) : principales caractéristiques et utilisations au Sénégal",
+   "publisher": "Diop N. et al., Fruits 65(5), 2010 (Cirad / EDP Sciences)",
+   "url": "https://revues.cirad.fr/index.php/fruits/article/download/36113/34891/38156",
+   "licenseId": "Consultation et citation ; aucune licence ouverte de redistribution établie"
+  },
+  "locator": "Introduction : « appelé “ditax” ou “ditakh” en Wolof »",
+  "note": "Variante orthographique donnée par la même source."
+ },
+ {
+  "slug": "madd",
+  "name": "Madd",
+  "country": null,
+  "languageCode": "wo",
+  "source": {
+   "title": "Agroforestree Database — Saba senegalensis",
+   "publisher": "World Agroforestry (ICRAF)",
+   "url": "https://apps.worldagroforestry.org/treedb2/speciesprofile.php?Spid=17999",
+   "licenseId": "Consultation et citation ; aucune licence ouverte de redistribution établie"
+  },
+  "locator": "Rubrique « Local names » : Wolof (madd)",
+  "note": "Nom wolof ; la source ne précise pas de pays."
+ },
+ {
+  "slug": "madd",
+  "name": "Saba",
+  "country": null,
+  "languageCode": "mnk",
+  "source": {
+   "title": "Agroforestree Database — Saba senegalensis",
+   "publisher": "World Agroforestry (ICRAF)",
+   "url": "https://apps.worldagroforestry.org/treedb2/speciesprofile.php?Spid=17999",
+   "licenseId": "Consultation et citation ; aucune licence ouverte de redistribution établie"
+  },
+  "locator": "Rubrique « Local names » : Mandinka (saba)",
+  "note": "Nom mandinka ; la source ne précise pas de pays."
+ },
+ {
+  "slug": "kola",
+  "name": "Goro",
+  "country": null,
+  "languageCode": "wo",
+  "source": {
+   "title": "Agroforestree Database — Cola nitida (fiche PDF)",
+   "publisher": "World Agroforestry (ICRAF)",
+   "url": "https://apps.worldagroforestry.org/treedb2/AFTPDFS/Cola_nitida.PDF",
+   "licenseId": "Consultation et citation ; aucune licence ouverte de redistribution établie"
+  },
+  "locator": "Rubrique « LOCAL NAMES » : Wolof (goro), Fula (goro), Mandinka (kuruo, goro)",
+  "note": "Nom donné en wolof, peul et mandinka ; la source ne précise pas de pays."
+ },
+ {
+  "slug": "kola",
+  "name": "Kuruo",
+  "country": null,
+  "languageCode": "mnk",
+  "source": {
+   "title": "Agroforestree Database — Cola nitida (fiche PDF)",
+   "publisher": "World Agroforestry (ICRAF)",
+   "url": "https://apps.worldagroforestry.org/treedb2/AFTPDFS/Cola_nitida.PDF",
+   "licenseId": "Consultation et citation ; aucune licence ouverte de redistribution établie"
+  },
+  "locator": "Rubrique « LOCAL NAMES » : Mandinka (kuruo, goro)",
+  "note": "Nom mandinka ; la source ne précise pas de pays."
+ },
+ {
+  "slug": "soump",
+  "name": "Soump",
+  "country": null,
+  "languageCode": "wo",
+  "source": {
+   "title": "Lutte contre l’ensablement — L’exemple de la Mauritanie (Étude FAO : Forêts 158)",
+   "publisher": "FAO, 2010",
+   "url": "https://www.fao.org/4/i1488f/i1488f10.pdf",
+   "licenseId": "Conditions FAO ; faits référencés, texte non reproduit"
+  },
+  "locator": "Fiche Balanites aegyptiaca, « Noms communs » : wolof : soump",
+  "note": "Nom wolof ; la source porte sur la Mauritanie et ne rattache pas ce nom à un autre pays."
+ },
+ {
+  "slug": "soump",
+  "name": "Murtoki",
+  "country": null,
+  "languageCode": "ff",
+  "source": {
+   "title": "Lutte contre l’ensablement — L’exemple de la Mauritanie (Étude FAO : Forêts 158)",
+   "publisher": "FAO, 2010",
+   "url": "https://www.fao.org/4/i1488f/i1488f10.pdf",
+   "licenseId": "Conditions FAO ; faits référencés, texte non reproduit"
+  },
+  "locator": "Fiche Balanites aegyptiaca, « Noms communs » : pulaar : murtoki",
+  "note": "Nom pulaar ; la source porte sur la Mauritanie."
+ },
+ {
+  "slug": "mil",
+  "name": "Souna",
+  "country": "SEN",
+  "languageCode": "local-und",
+  "source": {
+   "title": "GWAS unveils features between early- and late-flowering pearl millets",
+   "publisher": "Diack O. et al., BMC Genomics 21:777, 2020",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7654029/",
+   "licenseId": "CC BY 4.0"
+  },
+  "locator": "Résumé : « Two major morphotypes can be distinguished in Senegal: early-flowering Souna and late-flowering Sanio »",
+  "note": "Nom du type de mil hâtif cultivé au Sénégal."
+ },
+ {
+  "slug": "mil",
+  "name": "Sanio",
+  "country": "SEN",
+  "languageCode": "local-und",
+  "source": {
+   "title": "GWAS unveils features between early- and late-flowering pearl millets",
+   "publisher": "Diack O. et al., BMC Genomics 21:777, 2020",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7654029/",
+   "licenseId": "CC BY 4.0"
+  },
+  "locator": "Résumé : « early-flowering Souna and late-flowering Sanio »",
+  "note": "Nom du type de mil tardif cultivé au Sénégal."
+ },
+ {
+  "slug": "degue",
+  "name": "Thiakry",
+  "country": "SEN",
+  "languageCode": "local-und",
+  "source": {
+   "title": "Naturally Fermented Milk From Northern Senegal: Bacterial Community Composition and Probiotic Enrichment With Lactobacillus rhamnosus",
+   "publisher": "Parker M. et al., Frontiers in Microbiology 9:2218, 2018",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6160551/",
+   "licenseId": "CC BY 4.0"
+  },
+  "locator": "Résumé : « carbohydrate-rich millet granules (thiakry) added prior to fermentation »",
+  "note": "Granulés de mil ajoutés au lait caillé dans le nord du Sénégal."
+ },
+ {
+  "slug": "verveine",
+  "name": "Lwiza",
+  "country": "MAR",
+  "languageCode": "local-und",
+  "source": {
+   "title": "Diversity of Medicinal Plants Used by the Local Communities of the Coastal Plateau of Safi Province (Morocco)",
+   "publisher": "Frontiers in Bioscience-Scholar 15(1):1, 2023 (IMR Press)",
+   "url": "https://www.imrpress.com/journal/FBS/15/1/10.31083/j.fbs1501001/htm",
+   "licenseId": "CC BY 4.0"
+  },
+  "locator": "Tableau 2, famille Verbenaceae : Aloysia citrodora — Lwiza",
+  "note": "Nom local relevé dans la province de Safi ; aucun usage médicinal n’est repris ici."
+ }
+]

@@ -1,0 +1,281 @@
+/* Motion layer: transitions between pages, scroll reveals and micro-interactions.
+ * Every movement is skipped for visitors who ask their system to reduce motion; browsers
+ * without view transitions or scroll-driven animations simply navigate and scroll as before. */
+:root {
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Header: stays at hand, slides away while reading down and comes back on the way up. */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: color-mix(in srgb, var(--cream) 92%, transparent);
+  backdrop-filter: saturate(1.4) blur(10px);
+  view-transition-name: site-header;
+}
+.site-header.is-scrolled {
+  box-shadow: 0 6px 24px #1837270f;
+  border-bottom-color: transparent;
+}
+@media (min-width: 801px) {
+  .site-header.is-scrolled .header-inner {
+    min-height: 68px;
+  }
+  .site-header .logo-symbol {
+    transition: transform 0.6s var(--ease-out);
+  }
+  .site-header.is-scrolled .logo-symbol {
+    transform: rotate(90deg) scale(0.86);
+  }
+}
+
+/* Reading progress, driven by the scroll position itself (no script). */
+.reading-progress {
+  display: none;
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reading-progress {
+      display: block;
+      position: fixed;
+      inset: 0 0 auto;
+      height: 3px;
+      z-index: 60;
+      transform-origin: 0 50%;
+      background: linear-gradient(90deg, var(--terracotta), var(--spice));
+      animation: reading-progress linear both;
+      animation-timeline: scroll(root);
+      pointer-events: none;
+    }
+    [dir='rtl'] .reading-progress {
+      transform-origin: 100% 50%;
+    }
+  }
+}
+@keyframes reading-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* Transitions between pages (Chrome, Edge, Safari 18.2+). */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+  ::view-transition-old(root) {
+    animation: 180ms var(--ease-soft) both page-out;
+  }
+  ::view-transition-new(root) {
+    animation: 320ms var(--ease-out) both page-in;
+  }
+  ::view-transition-group(product-photo) {
+    animation-duration: 420ms;
+    animation-timing-function: var(--ease-out);
+  }
+  /* The photo a visitor clicked grows into the record's main photo. */
+  .product-hero .photo-open img {
+    view-transition-name: product-photo;
+  }
+}
+@keyframes page-out {
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Home: the title, the search and the photo arrive in sequence. */
+  .hero-content > * {
+    animation: rise 0.7s var(--ease-out) both;
+  }
+  .hero-content > :nth-child(2) {
+    animation-delay: 70ms;
+  }
+  .hero-content > :nth-child(3) {
+    animation-delay: 140ms;
+  }
+  .hero-content > :nth-child(4) {
+    animation-delay: 210ms;
+  }
+  .hero-content > :nth-child(n + 5) {
+    animation-delay: 280ms;
+  }
+  .hero-photo {
+    animation: photo-in 0.9s var(--ease-out) 120ms both;
+  }
+  .page-intro > * {
+    animation: rise 0.6s var(--ease-out) both;
+  }
+  .page-intro > :nth-child(2) {
+    animation-delay: 60ms;
+  }
+  .page-intro > :nth-child(n + 3) {
+    animation-delay: 120ms;
+  }
+
+  /* Elements below the fold appear as they scroll in (see motion-client.ts). */
+  html.motion-ready [data-reveal] {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+      opacity 0.7s var(--ease-out) var(--reveal-delay, 0ms),
+      transform 0.7s var(--ease-out) var(--reveal-delay, 0ms);
+  }
+  html.motion-ready [data-reveal].is-revealed {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Cards: arrive one after another, lift, and their photo slowly zooms on hover. */
+  .product-grid > * {
+    animation: card-in 0.55s var(--ease-out) both;
+  }
+  .product-grid > :nth-child(2) {
+    animation-delay: 40ms;
+  }
+  .product-grid > :nth-child(3) {
+    animation-delay: 80ms;
+  }
+  .product-grid > :nth-child(4) {
+    animation-delay: 120ms;
+  }
+  .product-grid > :nth-child(5) {
+    animation-delay: 160ms;
+  }
+  .product-grid > :nth-child(n + 6) {
+    animation-delay: 200ms;
+  }
+  .product-card,
+  .category-card,
+  .seller-card {
+    transition:
+      transform 0.45s var(--ease-out),
+      box-shadow 0.45s var(--ease-out),
+      border-color 0.45s var(--ease-out);
+  }
+  .product-card:hover,
+  .product-card:focus-within,
+  .category-card:hover,
+  .category-card:focus-visible {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 40px #1837271a;
+    border-color: #cfd1c1;
+  }
+  .card-photo img,
+  .category-card img {
+    transition:
+      transform 0.9s var(--ease-out),
+      opacity 0.5s var(--ease-soft);
+  }
+  .card-photo:hover img,
+  .product-card:focus-within .card-photo img,
+  .category-card:hover img {
+    transform: scale(1.06);
+  }
+  .category-card b,
+  .text-link {
+    transition:
+      transform 0.35s var(--ease-out),
+      color 0.2s;
+  }
+  .category-card:hover b {
+    transform: translate(3px, -3px);
+    color: var(--terracotta);
+  }
+  .text-link:hover {
+    transform: translateX(3px);
+  }
+  [dir='rtl'] .text-link:hover {
+    transform: translateX(-3px);
+  }
+
+  /* Buttons: a short lift, and a press that answers the click. */
+  .button {
+    transition:
+      transform 0.25s var(--ease-out),
+      background 0.25s,
+      box-shadow 0.25s;
+  }
+  .button:hover {
+    box-shadow: 0 8px 20px #1837271f;
+  }
+  .button:active {
+    transform: translateY(0) scale(0.98);
+    box-shadow: none;
+  }
+
+  /* Links in long texts: the underline draws itself. */
+  .prose a:not(.button) {
+    background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
+    transition: background-size 0.35s var(--ease-out);
+  }
+  .prose a:not(.button):hover {
+    background-size: 100% 1px;
+  }
+
+  /* Photographs fade in once loaded instead of popping. */
+  img.is-loading {
+    opacity: 0;
+  }
+  img.is-loaded {
+    transition: opacity 0.5s var(--ease-soft);
+  }
+
+  /* Header hides while reading down (motion-client.ts toggles the class). */
+  .site-header {
+    transition:
+      transform 0.35s var(--ease-out),
+      box-shadow 0.35s;
+  }
+  .site-header.is-hidden {
+    transform: translateY(-100%);
+  }
+  .header-inner {
+    transition: min-height 0.35s var(--ease-out);
+  }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.985);
+  }
+}
+@keyframes photo-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+@media print {
+  .site-header {
+    position: static;
+  }
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

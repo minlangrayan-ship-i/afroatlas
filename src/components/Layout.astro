@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/motion.css';
 import { site } from '../data/site';
 import { href } from '../lib/links';
 import UsageConsent from './UsageConsent';
@@ -155,6 +156,7 @@ const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
         </div>
       </div>
     </header>
+    <div class="reading-progress" aria-hidden="true"></div>
     <main id="main">
       <slot />
     </main>
@@ -198,6 +200,7 @@ const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
     </footer>
     <script>
       import '../lib/locale-client';
+      import '../lib/motion-client';
     </script>
     <!-- Cloudflare Web Analytics -->
     <script
