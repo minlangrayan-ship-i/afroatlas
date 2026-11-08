@@ -36,7 +36,8 @@ let added = 0;
 for (const row of rows) {
   const product = catalogue.products.find((p) => p.slug === row.slug);
   if (!product) throw new Error(`Fiche inconnue : ${row.slug}`);
-  if (!countryNames[row.country]) throw new Error(`Pays non prévu : ${row.country}`);
+  // A source may give a language without a country: the name then stays tied to the language.
+  if (row.country && !countryNames[row.country]) throw new Error(`Pays non prévu : ${row.country}`);
   const sourceId = `source-pays-${short(row.source.url)}`;
   upsert('sources', {
     id: sourceId,
@@ -68,14 +69,16 @@ for (const row of rows) {
     normalizedName: normalize(row.name),
     languageCode: row.languageCode || 'local-und',
     ...(row.languageLabel ? { languageLabel: row.languageLabel } : {}),
-    countryIds: [row.country],
+    countryIds: row.country ? [row.country] : [],
     regionIds: [],
     culturalAreaIds: [],
     status: 'documented',
     evidenceIds: [evidenceId],
-    localContext: `Nom cité pour ${countryNames[row.country]} par la source.`,
+    localContext: row.country
+      ? `Nom cité pour ${countryNames[row.country]} par la source.`
+      : 'Nom cité avec sa langue ; la source ne le rattache à aucun pays.',
     nameType: 'local',
-    geographicScope: 'country',
+    geographicScope: row.country ? 'country' : 'language_community',
   });
   if (!product.sourceIds.includes(sourceId)) product.sourceIds.push(sourceId);
   added++;

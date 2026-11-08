@@ -82,6 +82,11 @@ export const languageNames: Record<string, string> = {
   shi: 'Tachelhit',
   tzm: 'Tamazight du Maroc central',
   rif: 'Rifain',
+  srr: 'Sérère',
+  dyo: 'Diola',
+  bci: 'Baoulé',
+  goa: 'Gouro',
+  adj: 'Adioukrou',
   'local-und': 'Langue locale non précisée par la source',
 };
 export const categories = [
