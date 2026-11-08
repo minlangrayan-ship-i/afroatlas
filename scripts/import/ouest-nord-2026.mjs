@@ -218,6 +218,34 @@ const seeds = [
   ['gros-capitaine', 'Gros capitaine', ['Polydactylus quadrifilis'], 'fish', ['frais'], 'CIV GIN'],
   ['dorade', 'Dorade royale', ['Sparus aurata'], 'fish', ['frais'], 'TUN MAR'],
   ['crevette', 'Crevette rose du large', ['Penaeus notialis'], 'fish', ['frais'], 'SEN'],
+  // Reserve products, used when a product above has no suitable photograph.
+  ['mandarine', 'Mandarine', ['Citrus reticulata'], 'fruits', ['fruits'], 'MAR'],
+  ['raisin', 'Raisin', ['Vitis vinifera'], 'fruits', ['fruits'], 'MAR TUN'],
+  ['melon', 'Melon', ['Cucumis melo'], 'fruits', ['fruits'], 'MAR SEN'],
+  ['petit-pois', 'Petit pois', ['Pisum sativum'], 'vegetables', ['graines'], 'MAR'],
+  ['noix', 'Noix', ['Juglans regia'], 'fruits', ['noix'], 'MAR'],
+  ['citrouille', 'Citrouille', ['Cucurbita maxima'], 'vegetables', ['frais'], 'MAR SEN'],
+  ['fruit-passion', 'Fruit de la passion', ['Passiflora edulis'], 'fruits', ['fruits'], 'CIV'],
+  ['canne-sucre', 'Canne à sucre', ['Saccharum officinarum'], 'staples', ['tiges'], 'CIV'],
+  ['pois-angole', 'Pois d’Angole', ['Cajanus cajan'], 'staples', ['graines'], 'CIV SEN'],
+  ['menthe-pouliot', 'Menthe pouliot (fliyou)', ['Mentha pulegium'], 'herbs', ['feuilles'], 'MAR'],
+  [
+    'armoise-blanche',
+    'Armoise blanche (chih)',
+    ['Artemisia herba-alba'],
+    'herbs',
+    ['feuilles'],
+    'MAR TUN',
+  ],
+  ['absinthe', 'Absinthe (chiba)', ['Artemisia absinthium'], 'herbs', ['feuilles'], 'MAR'],
+  ['sole-langue', 'Sole langue', ['Cynoglossus senegalensis'], 'fish', ['frais'], 'SEN GIN'],
+  ['pageot', 'Pageot', ['Pagellus bellottii'], 'fish', ['frais'], 'SEN'],
+  ['espadon', 'Espadon', ['Xiphias gladius'], 'fish', ['frais'], 'MAR TUN'],
+  ['rouget', 'Rouget de roche', ['Mullus surmuletus'], 'fish', ['frais'], 'MAR TUN'],
+  ['merlu', 'Merlu', ['Merluccius merluccius'], 'fish', ['frais'], 'MAR'],
+  ['seiche', 'Seiche', ['Sepia officinalis'], 'fish', ['frais'], 'MAR TUN SEN'],
+  ['calmar', 'Calmar', ['Loligo vulgaris'], 'fish', ['frais'], 'MAR SEN'],
+  ['barracuda', 'Barracuda', ['Sphyraena afra'], 'fish', ['frais'], 'SEN CIV'],
 ];
 // Wikidata languages useful for these six countries; the language never establishes a country.
 const languages = {
@@ -446,6 +474,20 @@ async function collect() {
       .join(',')})) }
     UNION { ?item schema:description ?desc FILTER(LANG(?desc) = "fr") }
   }`);
+  // Food items made from a species (P1582, « natural product of taxon ») often show the
+  // product itself — seeds, fruit, leaves — where the species photo shows the plant.
+  const products = await sparql(`SELECT ?taxon ?img WHERE {
+    VALUES ?taxon { ${[...entities.keys()]
+      .filter((q) => /^Q\d+$/.test(q))
+      .map((q) => `wd:${q}`)
+      .join(' ')} }
+    ?food wdt:P1582 ?taxon ; wdt:P18 ?img .
+  }`);
+  for (const row of products) {
+    const entry = entities.get(qid(value(row, 'taxon')));
+    const img = fileName(value(row, 'img'));
+    if (entry && !entry.images.includes(img)) entry.images.push(img);
+  }
   // Lexeme senses (L…-S…) can carry a P225 value too: only items describe products.
   for (const id of ids) if (!/^Q\d+$/.test(id)) entities.delete(id);
   for (const row of words) {
@@ -519,7 +561,7 @@ async function collect() {
     // Two candidates per product at most, one download every 8 s: the thumbnail server
     // bans faster clients for ten minutes.
     for (const title of entity.images) {
-      if (photos.length >= 2) break;
+      if (photos.length >= 3) break;
       const meta = info.get(title);
       if (!meta || !accepted(meta.license) || /\.(svg|pdf|tiff?|gif|webm|ogv)$/i.test(title))
         continue;
