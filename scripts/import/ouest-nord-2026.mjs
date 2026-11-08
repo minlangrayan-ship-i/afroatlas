@@ -512,21 +512,23 @@ async function collect() {
       continue;
     }
     const photos = [];
+    // Two candidates per product at most, one download every 8 s: the thumbnail server
+    // bans faster clients for ten minutes.
     for (const title of entity.images) {
+      if (photos.length >= 2) break;
       const meta = info.get(title);
       if (!meta || !accepted(meta.license) || /\.(svg|pdf|tiff?|gif|webm|ogv)$/i.test(title))
         continue;
       const preview = `${previewDir}/${slug}-${photos.length}.jpg`;
-      const bytes = await cached(`bin:${meta.thumbUrl}`, async () =>
-        Buffer.from(
-          await (
-            await fetchPolitely(meta.thumbUrl, {}, { attempts: 6, maxWait: 700000 })
-          ).arrayBuffer(),
-        ),
-      );
+      let downloaded = false;
+      const bytes = await cached(`bin:${meta.thumbUrl}`, async () => {
+        downloaded = true;
+        const response = await fetchPolitely(meta.thumbUrl, {}, { attempts: 6, maxWait: 700000 });
+        return Buffer.from(await response.arrayBuffer());
+      });
       await sharp(bytes).rotate().resize({ width: 400 }).jpeg({ quality: 78 }).toFile(preview);
       photos.push({ ...meta, preview });
-      await pause(3000);
+      if (downloaded) await pause(8000);
     }
     report.push({ slug, labelFr, categoryId, formTypes, countries, entity, photos });
     console.log(
